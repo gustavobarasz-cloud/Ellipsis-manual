@@ -9,6 +9,7 @@ import { ENTITY_STYLES, VERDICT_STYLES } from "../data/entityStyles";
 import { ModuleSimulator } from "./simulators/SimulatorRegistry";
 import PitModuleAddendum from "./pit/PitModuleAddendum";
 import { PitCodexView, PitPostMortemView } from "./pit/PitOpsViews";
+import DojoHubView from "./dojo/DojoHubView";
 
 // ============================================================================
 // INLINE MARKDOWN + [L2-HOOK] CALIBRATION LAB RENDERER
@@ -408,6 +409,7 @@ export default function UnifiedCurriculumApp() {
             ["dag", "12-Module DAG"],
             ["pit-codex", "Pit Codex"],
             ["pit-log", "Post-Mortems"],
+            ["dojo", "Dojo (4 Belts)"],
           ].map(([v, label]) => (
             <button
               key={v}
@@ -643,6 +645,16 @@ export default function UnifiedCurriculumApp() {
 
           {activeView === "pit-log" && (
             <PitPostMortemView prefillModuleId={pmModulePrefill} />
+          )}
+
+          {activeView === "dojo" && (
+            <DojoHubView
+              onSelectModule={(mId) => selectModule(mId)}
+              onOpenPitCodex={(stageOrId) => {
+                setCodexSearchPrefill(stageOrId || "");
+                setActiveView("pit-codex");
+              }}
+            />
           )}
 
           {activeView === "module" && activeModule && (
