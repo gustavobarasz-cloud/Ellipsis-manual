@@ -1,0 +1,2065 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Unified Behavioral Intelligence Curriculum (6MX + Ellipsis Manual) — Tier 5 Bundle",
+  "entityTypeRegistry": {
+    "Signal/Indicator": {
+      "type": "Signal/Indicator",
+      "systemLayer": "Sensor",
+      "definition": "Externally observable, timestamped behavioral data (somatic cue, vocal shift, linguistic marker, facial movement). Must be visible or audible on camera.",
+      "pipelineRole": "Raw telemetry input",
+      "uiAccentToken": "cyan"
+    },
+    "Internal State/Driver": {
+      "type": "Internal State/Driver",
+      "systemLayer": "Interpreter",
+      "definition": "Unobservable psychological motive, fear, autonomic arousal state, or identity construct inferred from signals. Never treated as direct fact without confirmation.",
+      "pipelineRole": "Hidden variable hypothesis",
+      "uiAccentToken": "amber"
+    },
+    "Cognitive Mechanism": {
+      "type": "Cognitive Mechanism",
+      "systemLayer": "Bridge",
+      "definition": "Underlying information-processing rule, attentional filter, or decision architecture that converts inputs into internal shifts or behavior.",
+      "pipelineRole": "Causal engine",
+      "uiAccentToken": "violet"
+    },
+    "Tactical Lever": {
+      "type": "Tactical Lever",
+      "systemLayer": "Actuator",
+      "definition": "Deliberate operator adjustment—postural, framing, questioning, or structural—deployed to gather information, stabilize rapport, or shift compliance.",
+      "pipelineRole": "Controlled intervention",
+      "uiAccentToken": "emerald"
+    },
+    "Failure Mode": {
+      "type": "Failure Mode",
+      "systemLayer": "Audit",
+      "definition": "Diagnostic error, false positive, operator bias, or second-order relational blowback that corrupts accuracy or breaks trust.",
+      "pipelineRole": "Error boundary",
+      "uiAccentToken": "rose"
+    }
+  },
+  "masterGlossary": {
+    "autonomic-decay-lag": {
+      "id": "autonomic-decay-lag",
+      "canonicalTerm": "Autonomic Decay Lag",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "The physiological braking time (typically 45-90 seconds) required for sympathetic constriction to subside after a stressor or Observer Distortion is removed.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "observer-distortion"
+      ]
+    },
+    "exogenous-noise": {
+      "id": "exogenous-noise",
+      "canonicalTerm": "Exogenous Noise",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "Behavioral constriction or distraction caused by factors outside the interaction (illness, temperature, prior events) that mimics stimulus-linked stress.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "observer-distortion",
+        "hypothesis-plurality"
+      ]
+    },
+    "hypothesis-plurality": {
+      "id": "hypothesis-plurality",
+      "canonicalTerm": "Hypothesis Plurality",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "Holding two or more competing Lens 4 causal explanations in suspension until an active probe yields disconfirming or confirming data.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "the-four-lenses",
+        "exogenous-noise"
+      ]
+    },
+    "observer-distortion": {
+      "id": "observer-distortion",
+      "canonicalTerm": "Observer Distortion",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "Contamination of a subject's natural output caused by the operator's own anxiety, ego-reactivity, dominance overplay, or visible scrutiny.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "operator-baseline",
+        "autonomic-decay-lag",
+        "dominance-overplay"
+      ]
+    },
+    "operator-baseline": {
+      "id": "operator-baseline",
+      "canonicalTerm": "Operator Baseline",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "The practitioner's calibrated emotional, postural, and attentional neutrality prior to contact; prevents operator noise from distorting subject telemetry.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "judgment-free lens",
+          "source": "6MX"
+        },
+        {
+          "term": "operator neutrality / zero-ego baseline",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "observer-distortion",
+        "the-four-lenses",
+        "authority-architecture"
+      ]
+    },
+    "the-four-laws-of-human-behavior": {
+      "id": "the-four-laws-of-human-behavior",
+      "canonicalTerm": "The Four Laws of Human Behavior",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M01",
+      "definition": "Foundational heuristic framing human behavior around universal insecurity, protective masks, early conditioning, and need-driven action.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ],
+      "relatedTerms": [
+        "protective-mask",
+        "primary-social-need",
+        "hidden-fear-map"
+      ]
+    },
+    "the-four-lenses": {
+      "id": "the-four-lenses",
+      "canonicalTerm": "The Four Lenses",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M01",
+      "definition": "Sequential perceptual filter (Broken -> Different -> Facts -> Reasons) used to strip moral judgment and isolate causal behavior.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "operator-baseline",
+        "hypothesis-plurality"
+      ]
+    },
+    "authority-architecture": {
+      "id": "authority-architecture",
+      "canonicalTerm": "Authority Architecture",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M02",
+      "definition": "Deliberate calibration of physical presence, vocal cadence, non-reactivity, and spatial command that lowers a subject's resistance threshold and stabilizes compliance before a substantive request is made.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "high-status anchor",
+          "source": "6MX"
+        },
+        {
+          "term": "command presence / authority triad",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "first-contact-frame",
+        "status-tension-leak",
+        "dominance-overplay"
+      ]
+    },
+    "autonomy-margin": {
+      "id": "autonomy-margin",
+      "canonicalTerm": "Autonomy Margin",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "The variable threshold of directive pressure a specific subject can absorb before perceiving territorial encroachment and triggering Dominance Overplay.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "dominance-overplay",
+        "psychological-reactance"
+      ]
+    },
+    "dominance-overplay": {
+      "id": "dominance-overplay",
+      "canonicalTerm": "Dominance Overplay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "Confusing loud aggression, rigid posturing, or territorial hostility with authority; triggers immediate Observer Distortion and defensive armor rather than voluntary compliance.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "authority-architecture",
+        "autonomy-margin",
+        "observer-distortion"
+      ]
+    },
+    "first-contact-frame": {
+      "id": "first-contact-frame",
+      "canonicalTerm": "First-Contact Frame",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M02",
+      "definition": "The implicit social hierarchy and relational expectations established in the opening 30-90 seconds of an interaction, which governs how all subsequent questions and directives are interpreted.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "authority-architecture",
+        "frame-maintenance-decay"
+      ]
+    },
+    "frame-maintenance-decay": {
+      "id": "frame-maintenance-decay",
+      "canonicalTerm": "Frame-Maintenance Decay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "The collapse of an initially strong First-Contact Frame caused by mid-interaction Status-Tension Leaks or lack of directional utility.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "first-contact-frame",
+        "status-tension-leak"
+      ]
+    },
+    "status-tension-leak": {
+      "id": "status-tension-leak",
+      "canonicalTerm": "Status-Tension Leak",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "Micro-behaviors betraying an operator's need for approval or fear of pushback (upward vocal inflection, rushed speech, fidgeting, excessive nodding, or over-explaining) that instantly collapse perceived authority.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "authority-architecture",
+        "frame-maintenance-decay"
+      ]
+    },
+    "autonomic-pacifier": {
+      "id": "autonomic-pacifier",
+      "canonicalTerm": "Autonomic Pacifier",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Self-soothing tactile behavior (neck touch, leg rubbing, arm wrap, lip compression, ventilated collar tug) triggered by sympathetic nervous system arousal to bleed off internal pressure.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "self-comforting / pacifying behaviors",
+          "source": "6MX"
+        },
+        {
+          "term": "limbic soothing tells",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "btoe-stress-cluster"
+      ]
+    },
+    "btoe-stress-cluster": {
+      "id": "btoe-stress-cluster",
+      "canonicalTerm": "BToE Stress Cluster",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Three or more kinematically independent somatic indicators from the Behavioral Table of Elements (weighted on the 1.0-4.0 severity scale) firing within a 3-5 second window immediately following a specific conversational stimulus.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "subject-baseline",
+        "autonomic-pacifier",
+        "kinematic-independence",
+        "single-cue-fallacy"
+      ]
+    },
+    "cognitive-baseline": {
+      "id": "cognitive-baseline",
+      "canonicalTerm": "Cognitive Baseline",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "A subject's normal somatic and ocular shift under neutral, effortful thinking—logged separately from their casual rapport baseline to prevent mental-effort false positives.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "subject-baseline"
+      ]
+    },
+    "kinematic-independence": {
+      "id": "kinematic-independence",
+      "canonicalTerm": "Kinematic Independence",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Validation rule requiring cues inside a BToE Stress Cluster to be physiologically distinct autonomic vents rather than sub-parts of one mechanical posture adjustment.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "btoe-stress-cluster"
+      ]
+    },
+    "othello-error": {
+      "id": "othello-error",
+      "canonicalTerm": "Othello Error",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Misinterpreting a truth-teller's autonomic stress (caused by fear of disbelief or blame) as proof of deception.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "btoe-stress-cluster",
+        "fabrication-marker"
+      ]
+    },
+    "single-cue-fallacy": {
+      "id": "single-cue-fallacy",
+      "canonicalTerm": "Single-Cue Fallacy",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Treating one isolated gesture (e.g., crossed arms, nose touch, or gaze shift) as proof of stress, resistance, or deception without baseline comparison or multi-channel clustering.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "btoe-stress-cluster",
+        "exogenous-noise"
+      ]
+    },
+    "subject-baseline": {
+      "id": "subject-baseline",
+      "canonicalTerm": "Subject Baseline",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "A subject's normal, low-stress spectrum of posture, blink rate, vocal pitch, and gesture cadence established in neutral conversation before any high-stakes stimulus is introduced.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "cognitive-baseline",
+        "btoe-stress-cluster",
+        "observer-distortion"
+      ]
+    },
+    "artificial-smile": {
+      "id": "artificial-smile",
+      "canonicalTerm": "Artificial Smile",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "A manually recruited lower-face smile (zygomaticus pull) lacking involuntary upper-face engagement around the eyes (orbicularis oculi), often paired with asymmetric timing or an abrupt stop.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "fake/social smile",
+          "source": "6MX"
+        },
+        {
+          "term": "mask smile",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "expression-stop-vs-fade"
+      ]
+    },
+    "expression-stop-vs-fade": {
+      "id": "expression-stop-vs-fade",
+      "canonicalTerm": "Expression Stop vs. Fade",
+      "entityType": "Signal/Indicator",
+      "source": "6MX",
+      "introducedInModule": "M04",
+      "definition": "Temporal decay signature of a facial display: authentic emotions dissipate organically as autonomic arousal subsides (fade), whereas consciously performed expressions terminate abruptly once their social purpose is served (stop).",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "artificial-smile",
+        "social-transition-cutoff"
+      ]
+    },
+    "fabrication-marker": {
+      "id": "fabrication-marker",
+      "canonicalTerm": "Fabrication Marker",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Convergent facial, ocular, and narrative-delivery shifts (rehearsed cadence, sensory-detail drop, incongruent emotional timing, or asymmetric display) hypothesized to distinguish constructed accounts from recalled memory.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ],
+      "relatedTerms": [
+        "rehearsed-truth-artifact",
+        "othello-error"
+      ]
+    },
+    "landing-window-attention": {
+      "id": "landing-window-attention",
+      "canonicalTerm": "Landing-Window Attention",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Placing a high-salience phrase at the end of a short prompt and going completely silent so operator visual bandwidth is free to observe the immediate 1-second autonomic response.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "microexpression-leakage"
+      ]
+    },
+    "microexpression-leakage": {
+      "id": "microexpression-leakage",
+      "canonicalTerm": "Microexpression Leakage",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Brief, involuntary facial muscle contraction (typically lasting a fraction of a second) that flashes across the face before conscious executive control clamps the social mask back into place.",
+      "epistemicTiers": [
+        "T3"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "emotional bleed-through",
+          "source": "6MX"
+        },
+        {
+          "term": "micro-flash",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "landing-window-attention",
+        "artificial-smile"
+      ]
+    },
+    "rehearsed-truth-artifact": {
+      "id": "rehearsed-truth-artifact",
+      "canonicalTerm": "Rehearsed Truth Artifact",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Misclassifying a genuine, truthful account that has been polished through repeated retelling as a constructed Fabrication Marker.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "fabrication-marker",
+        "othello-error"
+      ]
+    },
+    "social-transition-cutoff": {
+      "id": "social-transition-cutoff",
+      "canonicalTerm": "Social-Transition Cutoff",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Misreading an abrupt drop in facial expression caused by normal cognitive task-switching (e.g., looking at a screen or notes) as a performed Expression Stop.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "expression-stop-vs-fade"
+      ]
+    },
+    "dual-need-collision": {
+      "id": "dual-need-collision",
+      "canonicalTerm": "Dual-Need Collision",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Internal friction occurring when two top-of-stack Primary Social Needs pull in opposing directions (e.g., Significance vs. Acceptance), producing behavioral oscillation rather than deceit.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "hidden-fear-map"
+      ]
+    },
+    "heat-to-stakes-disproportion": {
+      "id": "heat-to-stakes-disproportion",
+      "canonicalTerm": "Heat-to-Stakes Disproportion",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Emotional intensity or resentment that significantly exceeds the practical operational stakes—the primary diagnostic separator between a bumped Hidden Fear Map and proportional professional frustration.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "hidden-fear-map"
+      ]
+    },
+    "hidden-fear-map": {
+      "id": "hidden-fear-map",
+      "canonicalTerm": "Hidden Fear Map",
+      "entityType": "Internal State/Driver",
+      "source": "6MX",
+      "introducedInModule": "M05",
+      "definition": "The exact inverse shadow of a Primary Social Need—the specific vulnerability, status loss, or identity threat the subject actively defends against.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "heat-to-stakes-disproportion"
+      ]
+    },
+    "impact-validation": {
+      "id": "impact-validation",
+      "canonicalTerm": "Impact Validation",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Status-safe form of Social-Currency Calibration that highlights how a subject's action clarified or improved an outcome rather than evaluating them from above.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "social-currency-calibration",
+        "authority-architecture"
+      ]
+    },
+    "neuropeptide-reductionism": {
+      "id": "neuropeptide-reductionism",
+      "canonicalTerm": "Neuropeptide Reductionism",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Over-attributing complex social motives to single-molecule pop-neurology labels (e.g., treating dopamine or oxytocin as vending-machine buttons) rather than functional behavioral reinforcement.",
+      "epistemicTiers": [
+        "T3"
+      ]
+    },
+    "primary-social-need": {
+      "id": "primary-social-need",
+      "canonicalTerm": "Primary Social Need",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "The dominant social currency a subject prioritizes in a given arena (Significance, Approval, Acceptance, Intelligence, Pity, or Strength/Power) to stabilize self-worth and social standing.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "core social need / validation drive",
+          "source": "6MX"
+        },
+        {
+          "term": "ego hook / primary need driver",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "hidden-fear-map",
+        "social-currency-calibration",
+        "dual-need-collision"
+      ]
+    },
+    "social-currency-calibration": {
+      "id": "social-currency-calibration",
+      "canonicalTerm": "Social-Currency Calibration",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M05",
+      "definition": "Deliberate, proportionate, reality-grounded delivery of the specific validation a subject values—without triggering sycophancy—to lower defensive walls and build high-trust rapport.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "impact-validation",
+        "authority-architecture"
+      ]
+    },
+    "central-route-scrutiny": {
+      "id": "central-route-scrutiny",
+      "canonicalTerm": "Central-Route Scrutiny",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "High-stakes, high-expertise analytical evaluation mode (from ELM) where hard data and logical coherence outweigh peripheral emotional or authority heuristics.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "fate-engine"
+      ]
+    },
+    "counterfeit-tribalism": {
+      "id": "counterfeit-tribalism",
+      "canonicalTerm": "Counterfeit Tribalism",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Transparent mimicry of an in-group's slang, posture, or grievances by an obvious outsider, triggering instant cynicism and permanent Tribe switch closure.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "tribal-emotion-frame"
+      ]
+    },
+    "fate-engine": {
+      "id": "fate-engine",
+      "canonicalTerm": "FATE Engine",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Four-variable prioritization architecture (Focus, Authority, Tribe, Emotion) governing how the human nervous system filters incoming information and locks in rapid decisions before conscious rationalization catches up.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "FATE survival filters",
+          "source": "6MX"
+        },
+        {
+          "term": "four decision levers",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet",
+        "tribal-emotion-frame",
+        "wait-till-the-end-fallacy"
+      ]
+    },
+    "micro-decision-ratchet": {
+      "id": "micro-decision-ratchet",
+      "canonicalTerm": "Micro-Decision Ratchet",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M06",
+      "definition": "The compounding sequence of sub-second appraisals that routes a subject toward 'yes' or 'no' early in an interaction, turning subsequent conscious logic into a post-hoc justification tool.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "relatedTerms": [
+        "fate-engine",
+        "reset-valve"
+      ]
+    },
+    "reset-valve": {
+      "id": "reset-valve",
+      "canonicalTerm": "Reset Valve",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Deliberately halting forward persuasion, naming early friction neutrally, and returning control of the agenda to release a locked 'Avoid' Micro-Decision Ratchet.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet"
+      ]
+    },
+    "tribal-emotion-frame": {
+      "id": "tribal-emotion-frame",
+      "canonicalTerm": "Tribal-Emotion Frame",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M06",
+      "definition": "Deliberate sequencing that aligns Authority Architecture, shared in-group identity (Tribe), and concrete affective stakes (Emotion) before delivering analytical data.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "fate-engine",
+        "counterfeit-tribalism"
+      ]
+    },
+    "wait-till-the-end-fallacy": {
+      "id": "wait-till-the-end-fallacy",
+      "canonicalTerm": "Wait-Till-the-End Fallacy",
+      "entityType": "Failure Mode",
+      "source": "6MX",
+      "introducedInModule": "M06",
+      "definition": "The mistaken assumption that listeners suspend judgment until an argument or presentation concludes, causing operators to save their strongest framing for last after the decision has already locked.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet"
+      ]
+    },
+    "six-minute-loop": {
+      "id": "six-minute-loop",
+      "canonicalTerm": "Six-Minute Loop",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M07",
+      "definition": "Iterative real-time diagnostic cycle moving from passive sensory intake (Visual Phase) to targeted conversational testing (Verbal Phase) and continuous hypothesis updating under time pressure.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "rapid visual/verbal profiling sequence",
+          "source": "6MX"
+        },
+        {
+          "term": "live operational profiling cycle",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "visual-phase",
+        "verbal-phase",
+        "confirmation-lock"
+      ]
+    },
+    "elicitation-probe": {
+      "id": "elicitation-probe",
+      "canonicalTerm": "Elicitation Probe",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Low-friction conversational prompt (deliberate understatement, third-person framing, or curiosity anchored in Social-Currency Calibration) designed to draw out unguarded information without triggering interrogation alarms.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "covert elicitation statements",
+          "source": "EM"
+        },
+        {
+          "term": "low-threat truth probes",
+          "source": "6MX"
+        }
+      ],
+      "relatedTerms": [
+        "protective-mask",
+        "credibility-floor",
+        "interrogation-reflex"
+      ]
+    },
+    "protective-mask": {
+      "id": "protective-mask",
+      "canonicalTerm": "Protective Mask",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Habitual social persona projected to secure a Primary Social Need (M05) while concealing the underlying Hidden Fear Map (M05) from scrutiny.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "social persona / defensive facade",
+          "source": "6MX"
+        },
+        {
+          "term": "ego mask",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "elicitation-probe",
+        "interrogation-reflex",
+        "compliance-register-shift"
+      ]
+    },
+    "attentional-gate-ras-framing": {
+      "id": "attentional-gate-ras-framing",
+      "canonicalTerm": "Attentional Gate (RAS Framing)",
+      "entityType": "Cognitive Mechanism",
+      "source": "EM",
+      "introducedInModule": "M09",
+      "definition": "Selective filtering of incoming stimuli based on novelty, threat, personal relevance, or primed salience—framed operationally in EM via the Reticular Activating System (RAS) as the doorway into conscious processing.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "RAS programming / attention hijacking",
+          "source": "EM"
+        },
+        {
+          "term": "Focus gate capture",
+          "source": "6MX"
+        }
+      ],
+      "relatedTerms": [
+        "pattern-interrupt",
+        "relevance-bridge",
+        "fate-engine"
+      ]
+    },
+    "linguistic-priming-and-presupposition": {
+      "id": "linguistic-priming-and-presupposition",
+      "canonicalTerm": "Linguistic Priming & Presupposition",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M09",
+      "definition": "Structuring syntax and vocabulary so a target premise is embedded as assumed background fact rather than presented as an open claim up for debate.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "assumed-truth syntax / covert presupposition",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "presupposition-elasticity-limit",
+        "persuasion-radar-trip"
+      ]
+    },
+    "behavioral-double-bind": {
+      "id": "behavioral-double-bind",
+      "canonicalTerm": "Behavioral Double-Bind",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M10",
+      "definition": "Bounded choice architecture presenting two or more concrete options where either selection advances the operator's intended operational frame while preserving the subject's sense of agency.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "illusion of choice / bounded bind",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "option-set-parity",
+        "compliance-ladder",
+        "psychological-reactance"
+      ]
+    },
+    "compliance-ladder": {
+      "id": "compliance-ladder",
+      "canonicalTerm": "Compliance Ladder",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M10",
+      "definition": "Sequenced escalation of low-friction micro-agreements (physical, verbal, or procedural) that builds behavioral momentum and lowers the perceived cost of a higher-stakes commitment.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "compliance momentum / incremental yes-chain",
+          "source": "EM"
+        },
+        {
+          "term": "micro-agreement sequence",
+          "source": "6MX"
+        }
+      ],
+      "relatedTerms": [
+        "activation-threshold",
+        "momentum-decay",
+        "behavioral-double-bind"
+      ]
+    },
+    "psychological-reactance": {
+      "id": "psychological-reactance",
+      "canonicalTerm": "Psychological Reactance",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M10",
+      "definition": "Acute defensive pushback triggered when a subject perceives their freedom of choice is being cornered or eliminated—causing them to reject even an objectively beneficial option simply to reclaim autonomy.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "silent-non-compliance",
+        "autonomy-margin",
+        "reset-valve"
+      ]
+    },
+    "reputational-and-trust-decay": {
+      "id": "reputational-and-trust-decay",
+      "canonicalTerm": "Reputational & Trust Decay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M12",
+      "definition": "Second- and third-order blowback where short-term compliance gained through covert leverage destroys long-term credibility once detected.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "visual-phase": {
+      "id": "visual-phase",
+      "canonicalTerm": "Visual Phase",
+      "entityType": "Tactical Lever",
+      "source": "6MX",
+      "introducedInModule": "M07",
+      "definition": "The opening 0-2 minute passive intake window where the operator logs environmental cues, baseline posture, grooming/status signals, and initial somatic telemetry before actively probing.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "six-minute-loop",
+        "role-script-artifact",
+        "subject-baseline"
+      ]
+    },
+    "verbal-phase": {
+      "id": "verbal-phase",
+      "canonicalTerm": "Verbal Phase",
+      "entityType": "Tactical Lever",
+      "source": "6MX",
+      "introducedInModule": "M07",
+      "definition": "The active 2-6 minute diagnostic window where the operator deploys low-friction conversational pings to test Primary Social Need (M05), FATE Engine (M06), and stress coordinates against live feedback.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "six-minute-loop",
+        "ping-stacking-contamination",
+        "indeterminate-hold"
+      ]
+    },
+    "confirmation-lock": {
+      "id": "confirmation-lock",
+      "canonicalTerm": "Confirmation Lock",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M07",
+      "definition": "Prematurely finalizing a subject profile during the Visual Phase and cherry-picking subsequent signals to validate the initial guess while ignoring disconfirming telemetry.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "six-minute-loop",
+        "hypothesis-plurality",
+        "indeterminate-hold"
+      ]
+    },
+    "role-script-artifact": {
+      "id": "role-script-artifact",
+      "canonicalTerm": "Role-Script Artifact",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M07",
+      "definition": "Misattributing attire, seating, formality, or briskness dictated by a subject's institutional role or industry norm to personal Primary Social Need drivers during the Visual Phase.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "visual-phase",
+        "exogenous-noise"
+      ]
+    },
+    "ping-stacking-contamination": {
+      "id": "ping-stacking-contamination",
+      "canonicalTerm": "Ping-Stacking Contamination",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M07",
+      "definition": "Firing consecutive Verbal Phase diagnostic prompts too rapidly without clearing Autonomic Decay Lag, causing the echo of one probe to corrupt the telemetry of the next.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "verbal-phase",
+        "autonomic-decay-lag"
+      ]
+    },
+    "indeterminate-hold": {
+      "id": "indeterminate-hold",
+      "canonicalTerm": "Indeterminate Hold",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M07",
+      "definition": "Deliberately keeping a subject's profile unlocked past the six-minute mark when Verbal Phase pings return low-amplitude or socially polished echoes, rather than forcing a premature guess.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "confirmation-lock",
+        "hypothesis-plurality"
+      ]
+    },
+    "controlled-regression": {
+      "id": "controlled-regression",
+      "canonicalTerm": "Controlled Regression",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M08",
+      "definition": "Deliberate lowering of a subject's rigid adult social guard by shifting the interaction into a low-threat, emotionally candid, or informal human register where rehearsed corporate/social scripts loosen.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ],
+      "relatedTerms": [
+        "protective-mask",
+        "asymmetric-disclosure-trap"
+      ]
+    },
+    "interrogation-reflex": {
+      "id": "interrogation-reflex",
+      "canonicalTerm": "Interrogation Reflex",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Defensive cognitive and somatic lockdown triggered when a subject perceives they are being directly cross-examined, cornered, or audited—causing answers to shrink and the Protective Mask to thicken.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "protective-mask",
+        "elicitation-probe",
+        "psychological-reactance"
+      ]
+    },
+    "compliance-register-shift": {
+      "id": "compliance-register-shift",
+      "canonicalTerm": "Compliance-Register Shift",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Misreading a professional's normal switch into precise legal, technical, or regulatory phrasing on auditable topics as a defensive Protective Mask formality spike.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "protective-mask",
+        "cognitive-baseline"
+      ]
+    },
+    "credibility-floor": {
+      "id": "credibility-floor",
+      "canonicalTerm": "Credibility Floor",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "The minimum level of plausible insider accuracy required for a deliberate understatement Elicitation Probe to trigger correction rather than collapsing Authority Architecture.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "elicitation-probe",
+        "authority-architecture"
+      ]
+    },
+    "asymmetric-disclosure-trap": {
+      "id": "asymmetric-disclosure-trap",
+      "canonicalTerm": "Asymmetric Disclosure Trap",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Failure mode where a higher-power operator invites a lower-power counterpart to drop formality ('off the record') without offering reciprocal vulnerability first, intensifying the Protective Mask.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "controlled-regression",
+        "protective-mask"
+      ]
+    },
+    "pattern-interrupt": {
+      "id": "pattern-interrupt",
+      "canonicalTerm": "Pattern Interrupt",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M09",
+      "definition": "A brief, calibrated break in expected conversational rhythm, phrasing, or physical cadence that disrupts a subject's autopilot script and creates a momentary 1-to-3-second window of heightened attentional openness.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "attentional-gate-ras-framing",
+        "relevance-bridge"
+      ]
+    },
+    "persuasion-radar-trip": {
+      "id": "persuasion-radar-trip",
+      "canonicalTerm": "Persuasion-Radar Trip",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M09",
+      "definition": "Triggering a subject's conscious suspicion that they are being 'handled' through clunky NLP phrasing, forced embedded commands, or unnatural cadence—instantly snapping them into defensive scrutiny and Psychological Reactance (M10).",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "pre-primed-cynicism",
+        "presupposition-elasticity-limit",
+        "psychological-reactance"
+      ]
+    },
+    "relevance-bridge": {
+      "id": "relevance-bridge",
+      "canonicalTerm": "Relevance Bridge",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M09",
+      "definition": "Immediate operational link required within 1-3 seconds of a Pattern Interrupt to convert transient orienting attention into substantive engagement rather than gimmick fatigue.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "pattern-interrupt",
+        "attentional-gate-ras-framing"
+      ]
+    },
+    "presupposition-elasticity-limit": {
+      "id": "presupposition-elasticity-limit",
+      "canonicalTerm": "Presupposition Elasticity Limit",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M09",
+      "definition": "Maximum gap between a subject's current buy-in and an embedded background premise before semantic alarms reject the presupposition and fire a Persuasion-Radar Trip.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "linguistic-priming-and-presupposition",
+        "persuasion-radar-trip"
+      ]
+    },
+    "pre-primed-cynicism": {
+      "id": "pre-primed-cynicism",
+      "canonicalTerm": "Pre-Primed Cynicism",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M09",
+      "definition": "Elevated baseline persuasion-knowledge vigilance driven by prior manipulation, adversarial role norms, or vendor fatigue that lowers the threshold for a Persuasion-Radar Trip.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "persuasion-radar-trip",
+        "central-route-scrutiny"
+      ]
+    },
+    "activation-threshold": {
+      "id": "activation-threshold",
+      "canonicalTerm": "Activation Threshold",
+      "entityType": "Cognitive Mechanism",
+      "source": "EM",
+      "introducedInModule": "M10",
+      "definition": "The inflection point where accumulated micro-agreements, aligned FATE Engine (M06) switches, and reduced decision friction make executing a target action feel easier than reversing prior consistency.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ],
+      "relatedTerms": [
+        "compliance-ladder",
+        "momentum-decay"
+      ]
+    },
+    "momentum-decay": {
+      "id": "momentum-decay",
+      "canonicalTerm": "Momentum Decay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M10",
+      "definition": "Erosion of prior Compliance Ladder commitment across multi-day time gaps or competing priorities, requiring brief re-anchoring before stepping up to the next rung.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "compliance-ladder",
+        "activation-threshold"
+      ]
+    },
+    "option-set-parity": {
+      "id": "option-set-parity",
+      "canonicalTerm": "Option-Set Parity",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M10",
+      "definition": "Requirement that both choices inside a Behavioral Double-Bind carry realistic, balanced trade-offs rather than pairing a bloated strawman decoy against the operator's real ask.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "behavioral-double-bind",
+        "persuasion-radar-trip"
+      ]
+    },
+    "silent-non-compliance": {
+      "id": "silent-non-compliance",
+      "canonicalTerm": "Silent Non-Compliance",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M10",
+      "definition": "Covert form of Psychological Reactance in polite or hierarchical settings where a subject agrees quickly in the room to escape pressure, then stalls or ghosts afterward.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "psychological-reactance",
+        "artificial-smile"
+      ]
+    },
+    "attentional-narrowing": {
+      "id": "attentional-narrowing",
+      "canonicalTerm": "Attentional Narrowing",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M11",
+      "definition": "Progressive contraction of a subject's perceptual bandwidth onto a single focal anchor, temporarily muting peripheral distractions.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "evergreen-safeguard": {
+      "id": "evergreen-safeguard",
+      "canonicalTerm": "Evergreen Safeguard",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M12",
+      "definition": "Non-negotiable operational rule requiring every influence, elicitation, or framing move to preserve counterpart dignity, clear agency, and long-term mutual viability.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    }
+  },
+  "tiers": [
+    {
+      "id": "T5",
+      "order": 5,
+      "title": "The Actuator Layer (Covert Influence & Compliance Engineering)",
+      "subtitle": "Transitioning from understanding the system to steering attention, framing reality, and escalating agreement.",
+      "moduleIds": [
+        "M09",
+        "M10"
+      ]
+    }
+  ],
+  "modules": {
+    "M09": {
+      "id": "M09",
+      "tierId": "T5",
+      "order": 9,
+      "title": "Attention Hijacking, RAS & Linguistic Priming",
+      "canonicalFocus": "Directing what the subject's nervous system filters in or out through framing, presuppositions, and subtle language cues.",
+      "buildStage": "pass2_deepened",
+      "pass1": {
+        "canonicalTermIds": [
+          "attentional-gate-ras-framing",
+          "pattern-interrupt",
+          "linguistic-priming-and-presupposition",
+          "persuasion-radar-trip",
+          "relevance-bridge",
+          "presupposition-elasticity-limit",
+          "pre-primed-cynicism"
+        ],
+        "crossTextReconciliation": {
+          "sixMinuteXRayChapters": [
+            "Ch. 6-7: Focus as the First FATE Gate & Salience Prioritization"
+          ],
+          "ellipsisManualChapters": [
+            "Ch. 4: Covert Influence, RAS Filtering, Linguistic Priming, Presuppositions, Embedded Commands, & Pattern Interrupts"
+          ],
+          "convergences": [
+            "Both texts treat human attention as a scarce, heavily guarded resource—before a subject can be influenced or profiled, the operator must clear the Focus gate of the FATE Engine (M06)."
+          ],
+          "extensions": [
+            "6MX identifies Focus as the opening switch of the decision cascade; EM crosses into the Actuator Layer, engineering Pattern Interrupts and Linguistic Priming & Presupposition to steer foreground vs. background assumptions."
+          ],
+          "tensionsOrContradictions": [
+            "EM draws on NLP-style mechanics (embedded commands, RAS programming) implying subconscious bypass, whereas 6MX and Central-Route Scrutiny (M06) warn high-stakes listeners actively audit manipulative phrasing. Reconciled by stripping subconscious mind-hack claims and locking M09 as salience management and pragmatic framing."
+          ],
+          "synonymResolutions": [
+            {
+              "sixMXLabel": "Focus gate capture",
+              "ellipsisLabel": "RAS programming / attention hijacking",
+              "canonicalTermId": "attentional-gate-ras-framing"
+            },
+            {
+              "sixMXLabel": "implicit framing premise",
+              "ellipsisLabel": "assumed-truth syntax / covert presupposition",
+              "canonicalTermId": "linguistic-priming-and-presupposition"
+            }
+          ]
+        },
+        "dependencies": {
+          "prerequisites": [
+            "M01",
+            "M02",
+            "M04",
+            "M05",
+            "M06",
+            "M07",
+            "M08"
+          ],
+          "unlocks": [
+            "M10",
+            "M11"
+          ],
+          "forwardLinks": [
+            {
+              "termId": "compliance-ladder",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "behavioral-double-bind",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "psychological-reactance",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "attentional-narrowing",
+              "targetModule": "M11"
+            },
+            {
+              "termId": "reputational-and-trust-decay",
+              "targetModule": "M12"
+            }
+          ]
+        },
+        "mentalModel": {
+          "structuralMetaphorName": "The Air Traffic Control Radar Scope",
+          "proseMarkdown": "An air traffic controller never climbs into the cockpit and grabs the pilot's yoke. Trying to wrestle the controls away triggers an immediate fight. Instead, the controller governs **what appears on the radar scope and which runway lights turn on**. Every second, thousands of sensory signals flood the human nervous system; to avoid drowning, the brain runs an aggressive **salience filter**—muting predictable background noise while letting novelty, personal stakes, and unfinished patterns flash bright green on the glass.\n\nCrossing into **Tier 5 (The Actuator Layer)** means shifting from *reading* that radar scope (Tiers 1-4) to deliberately **lighting up the coordinates you want the subject to process**. That filter is the **Attentional Gate (RAS Framing)**. When a counterpart is running on corporate autopilot—mentally rehearsing their standard objection while you speak—their radar scope is dimmed.\n\nFirst, you deploy a calibrated **Pattern Interrupt**—a brief, unexpected break in rhythm, specificity, or perspective that pings the orienting reflex and snaps the pilot off autopilot for two clean seconds. Next, before the autopilot script re-engages, you introduce **Linguistic Priming & Presupposition**: framing your sentence so the core premise sits quietly in the *background* as an already-lit runway, while the subject's conscious attention focuses on a smaller foreground decision. Overplayed with theatrical pauses or gimmicky phrasing, you trigger a **Persuasion-Radar Trip**—and the pilot shuts off the radio entirely."
+        },
+        "granularMechanics": {
+          "causalChainsMarkdown": "### Mechanism A: Breaking Autopilot (Attentional Gate & Pattern Interrupt)\n`Subject running autopilot script` -> `Operator introduces brief, low-threat novelty (Pattern Interrupt)` -> `Predictive coding fails; orienting response fires` -> `Attentional Gate opens for 1-3 seconds` -> `Operator drops high-relevance framing anchor while conscious filter is wide open`.\n\nThe orienting window closes as fast as it opens. A **Pattern Interrupt** only converts autopilot into engagement when it is fused to an immediate **Relevance Bridge**—within two to three seconds, the unexpected statement must connect directly to a real cost, risk, or bottleneck on the subject's desk. Novelty that leads back into a generic pitch does not hold attention; it triggers immediate gimmick fatigue and hardens the autopilot wall.\n\n*Micro-Scenario:* Opening a renewal call by immediately flagging two unused modules to cut from the client's quote snaps the procurement lead off autopilot (**Pattern Interrupt** + **Relevance Bridge**). [L2-HOOK:L2-M09-ras-salience-interrupt]\n\n### Mechanism B: Backgrounding the Premise (Linguistic Priming & Presupposition)\n1. **Temporal & Sequential Presuppositions (*'Before / Once / When'*):** *'Before we finalize the Q3 rollout, which regional lead needs early access to the sandbox?'*\n2. **Awareness & Discovery Verbs (*'Notice / Realize / See'*):** *'Once your floor managers see how the 90-second log cuts Friday overtime, where do you expect the fastest pushback?'*\n3. **Lexical Priming:** Anchoring neutral, collaborative terms (*'co-design,' 'safeguard'*) rather than adversarial terms (*'pitch,' 'objection'*).\n\nPresupposition is a friction reducer, not a teleportation device. Every listener operates inside a **Presupposition Elasticity Limit**—the maximum distance an embedded premise can sit ahead of their current buy-in before semantic alarms fire. Embedding a micro-step they already lean toward glides cleanly; embedding an unearned leap stretches the syntax past its elastic limit and provokes immediate pushback. [L2-HOOK:L2-M09-presupposition-framing]\n\n### Mechanism C: The Covertness Cliff (Persuasion-Radar Trip)\nDetectability is not solely a function of how smooth your phrasing sounds; it is governed by the room's ambient vigilance. Counterparts in vendor-saturated or adversarial roles frequently arrive with **Pre-Primed Cynicism**—their persuasion radar already turned up to maximum gain from prior pitches. In a pre-primed room, even subtle presuppositions can trigger a **Persuasion-Radar Trip**, requiring you to strip away framing altogether and default to plain, direct **Central-Route Scrutiny** (M06) transparency.\n\n`Over-engineered linguistic gimmick lands` -> `Persuasion Knowledge radar flags manipulation` -> `Central-Route Scrutiny (M06) + Psychological Reactance (M10) spike` -> `Subject rejects both frame and legitimate substance`. [L2-HOOK:L2-M09-persuasion-radar-trip]",
+          "sensorToActuatorLoops": [
+            {
+              "id": "loop-m09-01",
+              "title": "Autopilot Break",
+              "sensorInput": "Subject gives glazed eye contact, rhythmic polite nodding, or rehearsed boilerplate ('Send me a deck') within the first 60 seconds.",
+              "interpreterHypothesis": "Attentional Gate is closed; subject is running a low-effort dismissal script.",
+              "actuatorCalibration": "Deploy a concise, reality-grounded Pattern Interrupt fused immediately to a Relevance Bridge, followed by Landing-Window Attention (M04).",
+              "feedbackSignal": "Blink rate shifts, posture leans forward, and subject asks an unscripted clarifying question.",
+              "linkedL2HookId": "L2-M09-ras-salience-interrupt"
+            },
+            {
+              "id": "loop-m09-02",
+              "title": "Presupposition Audit & Pullback",
+              "sensorInput": "After a presuppositional question, subject pauses, narrows eyes, flashes an Artificial Smile (M04), or pushes back ('Hold on, we haven't agreed to Q3 yet').",
+              "interpreterHypothesis": "Persuasion-Radar Trip—embedded premise crossed the Presupposition Elasticity Limit or hit Pre-Primed Cynicism.",
+              "actuatorCalibration": "Never double down. Execute a clean Reset Valve (M06): 'Fair catch—I'm getting ahead of myself. Let's step back: does Q3 even make sense on your side?'",
+              "feedbackSignal": "Tension drops across Autonomic Decay Lag (45-90s) and Authority Architecture stays intact.",
+              "linkedL2HookId": "L2-M09-persuasion-radar-trip"
+            }
+          ]
+        },
+        "epistemicAudit": {
+          "gradedClaims": [
+            {
+              "id": "claim-m09-01",
+              "claimSummary": "Linguistic presupposition and lexical framing reliably steer how listeners encode information and evaluate options within their Presupposition Elasticity Limit.",
+              "tier": "T1",
+              "rationale": "Strongly replicated across pragmatics, cognitive linguistics, and Loftus / Tversky & Kahneman framing studies.",
+              "linkedL3HookId": "L3-M09-presupposition-pragmatics"
+            },
+            {
+              "id": "claim-m09-02",
+              "claimSummary": "Detecting overt persuasive tactics triggers Persuasion-Radar Trip, raising scrutiny and lowering compliance.",
+              "tier": "T1",
+              "rationale": "Core finding of the Persuasion Knowledge Model (Friestad & Wright)."
+            },
+            {
+              "id": "claim-m09-03",
+              "claimSummary": "Pattern Interrupts disrupt automated refusal scripts via brief orienting attention (Pique Technique).",
+              "tier": "T2",
+              "rationale": "Valid transient attention opener on low-stakes scripts; requires an immediate Relevance Bridge for high-stakes rooms.",
+              "linkedL3HookId": "L3-M09-pattern-interrupt-attention"
+            },
+            {
+              "id": "claim-m09-04",
+              "claimSummary": "The brainstem Reticular Activating System (RAS) acts as a programmable subconscious semantic/persuasion filter.",
+              "tier": "T3",
+              "rationale": "Pop-neuroscience oversimplification; semantic salience is governed by distributed cortical attention networks.",
+              "linkedL3HookId": "L3-M09-ras-neuroscience-myth"
+            },
+            {
+              "id": "claim-m09-05",
+              "claimSummary": "Subtle unconscious behavioral priming and NLP 'embedded commands' bypass conscious awareness to trigger involuntary action.",
+              "tier": "T3",
+              "rationale": "Failed empirical replication during the Replication Crisis and controlled NLP reviews.",
+              "linkedL3HookId": "L3-M09-social-priming-replication"
+            }
+          ],
+          "commonMisconceptions": [
+            "The 'Jedi Mind Trick' Misconception: believing clever presuppositions force a skeptical executive to forget they haven't agreed yet.",
+            "Novelty-for-Novelty's-Sake Trap: using bizarre or quirky Pattern Interrupts without an immediate Relevance Bridge."
+          ],
+          "highProbabilityFalsePositives": [
+            "Mistaking calm Central-Route Scrutiny (e.g., legal counsel pausing to verify a dollar cap) for a Persuasion-Radar Trip.",
+            "Assuming a polite nod after an over-extended presupposition means agreement rather than Pre-Primed Cynicism."
+          ],
+          "disconfirmingEvidenceRules": [
+            "If your Pattern Interrupt or presuppositional frame causes the subject to challenge the hidden premise or visibly cool down, your assumption that they were ready for that step is falsified—step back to Elicitation Probe (M08) and FATE alignment (M06)."
+          ],
+          "downstreamEffects": {
+            "secondOrder": [
+              "Clean salience framing and incremental presuppositions set the exact runway for Compliance Ladder and Behavioral Double-Bind architecture in M10."
+            ],
+            "thirdOrder": [
+              "Overusing presuppositional phrasing with sharp colleagues trains them to red-pen every sentence, accelerating Reputational & Trust Decay (M12)."
+            ]
+          }
+        },
+        "appSeed": {
+          "visualDiagram": {
+            "type": "causal_flow",
+            "title": "The Attentional Gate & Presupposition Filter",
+            "description": "Interactive sentence-builder and radar-scope visualizer comparing Direct Assertion, Calibrated Presupposition, and Over-Engineered NLP Gimmick paired with a Pattern Interrupt + Relevance Bridge toggle and live Persuasion-Radar Trip warning meter.",
+            "interactiveVariables": [
+              "Subject Current Buy-In (0-100%)",
+              "Pattern Interrupt Relevance",
+              "Syntax Mode (Direct / Presupposition / Gimmick)",
+              "Persuasion-Radar Trip Risk %"
+            ]
+          },
+          "fieldCalibrationDrill": {
+            "scenarioPrompt": "Pitching a pilot to a busy VP of Operations after three prior vendor calls, she glances at her watch and says on autopilot: 'I've got ten minutes—just walk me through your pricing tiers so I can compare you to the other two.'",
+            "deceptiveRedHerring": "Pushing an assumptive close ('When we onboard you Monday, Enterprise or Pro?') OR meekly reading a generic pricing table.",
+            "targetSkillTermIds": [
+              "attentional-gate-ras-framing",
+              "pattern-interrupt",
+              "relevance-bridge",
+              "linguistic-priming-and-presupposition",
+              "presupposition-elasticity-limit"
+            ],
+            "idealOperatorResponse": "Deploy a candid Pattern Interrupt fused to a Relevance Bridge: 'I'll give you exact pricing in ninety seconds—actually, if you only need regional routing, our top tier is overkill and you shouldn't pay for it. Before I pull up the right column, are you trying to fix dispatch latency or driver overtime first?'"
+          }
+        }
+      },
+      "pass2": {
+        "completedAt": "2026-11-25",
+        "externalLensUsed": [
+          "Common Ground Theory & Pragmatic Accommodation (Stalnaker, Levinson, Loftus)",
+          "Pique Technique & Mindlessness Research (Santos et al., Langer)",
+          "Attention Network Theory & Cortical Salience Networks (Corbetta & Shulman, Petersen & Posner)",
+          "Social Priming Replication Crisis & NLP Reviews (Doyen et al., Witkowski)"
+        ],
+        "layer1Audit": {
+          "causalGapPatches": [
+            {
+              "id": "patch-m09-01",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Subject running autopilot script -> Operator introduces brief, low-threat novelty (Pattern Interrupt) -> Attentional Gate opens for 1-3 seconds...",
+              "diagnosis": "Treats the orienting response as forgiving without specifying that novelty must fuse immediately to a Relevance Bridge to prevent gimmick fatigue.",
+              "surgicalRepairMarkdown": "The orienting window closes as fast as it opens. A **Pattern Interrupt** only converts autopilot into engagement when it is fused to an immediate **Relevance Bridge**—within two to three seconds, the unexpected statement must connect directly to a real cost, risk, or bottleneck on the subject's desk. Novelty that leads back into a generic pitch does not hold attention; it triggers immediate gimmick fatigue and hardens the autopilot wall.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m09-02",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Target premise embedded in subordinate clause -> Background premise passes with lower scrutiny friction...",
+              "diagnosis": "Implies grammatical subordination automatically lowers scrutiny without bounding it to the Presupposition Elasticity Limit.",
+              "surgicalRepairMarkdown": "Presupposition is a friction reducer, not a teleportation device. Every listener operates inside a **Presupposition Elasticity Limit**—the maximum distance an embedded premise can sit ahead of their current buy-in before semantic alarms fire. Embedding a micro-step they already lean toward glides cleanly; embedding an unearned leap stretches the syntax past its elastic limit and provokes immediate pushback.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m09-03",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Over-engineered linguistic gimmick lands -> Subject's Persuasion Knowledge radar flags manipulation...",
+              "diagnosis": "Frames Persuasion-Radar Trip solely as operator clumsiness, omitting Pre-Primed Cynicism in vendor-saturated or adversarial rooms.",
+              "surgicalRepairMarkdown": "Detectability is not solely a function of how smooth your phrasing sounds; it is governed by the room's ambient vigilance. Counterparts in vendor-saturated or adversarial roles frequently arrive with **Pre-Primed Cynicism**—their persuasion radar already turned up to maximum gain from prior pitches. In a pre-primed room, even subtle presuppositions can trigger a **Persuasion-Radar Trip**, requiring you to strip away framing altogether and default to plain, direct **Central-Route Scrutiny** (M06) transparency.",
+              "status": "merged"
+            }
+          ],
+          "ontologyDriftFlags": [
+            "Keep 'orienting reflex' / 'orienting response' strictly descriptive beneath Attentional Gate (RAS Framing) and Pattern Interrupt.",
+            "Frame 'assumptive close' explicitly as an over-extended Linguistic Priming & Presupposition violating the Presupposition Elasticity Limit."
+          ]
+        },
+        "calibrationLabs": {
+          "L2-M09-ras-salience-interrupt": {
+            "hookId": "L2-M09-ras-salience-interrupt",
+            "operationalFocus": "Pairing a low-threat Pattern Interrupt with an immediate Relevance Bridge to break corporate autopilot without looking erratic.",
+            "workedExample": {
+              "setting": "Annual SaaS renewal call with a fatigued procurement director after four morning vendor calls.",
+              "sceneMarkdown": "On autopilot, he glances at a second monitor: 'Send over the standard 5% uplift deck—we'll review next month.' You drop a counter-intuitive concession fused to a Relevance Bridge: 'Actually, don't wait—your telemetry shows zero logins on two analytics modules last quarter. Before we talk renewal, I want to strip those off your bill.'",
+              "ctaLoop": {
+                "baseline": "Glazed gaze toward side monitor, brisk dismissive cadence.",
+                "deviationOrCluster": "Eyes snap back to camera, brow lifts, posture leans forward 3 inches.",
+                "internalDriverHypothesis": "Unexpected financial candor broke his 'every vendor upsells' script while the immediate $18K cost-cut anchored the Relevance Bridge.",
+                "tacticalProbeOrActuator": "Pause one beat (Landing-Window Attention), then pivot smoothly to verifying those two modules with his ops lead.",
+                "observableFeedbackAndNextMove": "Closes side tab, opens contract spreadsheet, and shifts into active collaboration."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical SaaS renewal call.",
+              "mirrorSceneMarkdown": "Rep opens with a quirky, off-topic icebreaker: 'Quick question before software—if your procurement team were a 90s rock band, which one would it be?'",
+              "benignRootCause": "Operator error: missing Relevance Bridge—novelty disconnected from operational stakes.",
+              "disconfirmingCue": "Stiff Artificial Smile, glance at clock, colder autopilot wall ('Stick to the pricing sheet—hard stop in eight minutes').",
+              "falsePositiveCost": "Random quirkiness collapses Authority Architecture and signals wasted time."
+            }
+          },
+          "L2-M09-presupposition-framing": {
+            "hookId": "L2-M09-presupposition-framing",
+            "operationalFocus": "Staying strictly inside the Presupposition Elasticity Limit so backgrounded syntax reduces friction rather than triggering pushback.",
+            "workedExample": {
+              "setting": "Cross-functional alignment where an operations lead already agreed Friday reporting is broken and wants a pilot option.",
+              "sceneMarkdown": "Staying one incremental step ahead of earned buy-in: 'Before we run a two-week test on the Friday log, which shift supervisor is the toughest critic we should put on the beta so we catch every flaw early?'",
+              "ctaLoop": {
+                "baseline": "Open posture, engaged eye contact, already aligned on problem statement.",
+                "deviationOrCluster": "Zero BToE Stress Cluster; leans in immediately and names his toughest night-shift lead ('Marcus').",
+                "internalDriverHypothesis": "Temporal presupposition sat comfortably inside Presupposition Elasticity Limit while honoring his Strength/Power need.",
+                "tacticalProbeOrActuator": "Lock in a 10-minute sandbox walkthrough with Marcus on Thursday without over-selling.",
+                "observableFeedbackAndNextMove": "Pilot advances with zero turf friction and built-in floor credibility."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "First introductory call with a skeptical operations lead who has not agreed there is a problem.",
+              "mirrorSceneMarkdown": "Dropping the exact same sentence: 'Before we run a two-week test on the Friday log, which shift supervisor should we put on the beta?'",
+              "benignRootCause": "Operator error: violated Presupposition Elasticity Limit by embedding a pilot commitment before problem buy-in existed.",
+              "disconfirmingCue": "Brow furrow, backward lean, sharp pushback ('Hold on—who said we're running a test?').",
+              "falsePositiveCost": "Premature presupposition turns neutral discovery into adversarial Psychological Reactance."
+            }
+          },
+          "L2-M09-persuasion-radar-trip": {
+            "hookId": "L2-M09-persuasion-radar-trip",
+            "operationalFocus": "Detecting Pre-Primed Cynicism early and executing an immediate Reset Valve pullback when a Persuasion-Radar Trip fires.",
+            "workedExample": {
+              "setting": "Contract negotiation with a senior legal/procurement negotiator known for tearing apart slick pitches.",
+              "sceneMarkdown": "After using a polished discovery-verb presupposition ('Once you see how cleanly our indemnity clause protects your board, you'll realize why enterprise is the natural fit'), her eyes narrow, an abrupt Artificial Smile stops, and her shoulders square up.",
+              "ctaLoop": {
+                "baseline": "Crisp, analytical, neutral Central-Route Scrutiny (M06).",
+                "deviationOrCluster": "Narrowed gaze + abrupt Artificial Smile + squared shoulders immediately after 'Once you see... you'll realize'—Persuasion-Radar Trip amplified by Pre-Primed Cynicism.",
+                "internalDriverHypothesis": "Tagged phrasing as rehearsed sales framing; about to scrutinize adversarially.",
+                "tacticalProbeOrActuator": "Deploy Reset Valve: 'Forget the pitch phrasing—let me put Section 8.2 on screen so you can redline the liability cap directly.'",
+                "observableFeedbackAndNextMove": "Shoulders soften across Autonomic Decay Lag; negotiation returns to clean substance."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical terms review with a different corporate counsel.",
+              "mirrorSceneMarkdown": "After you speak, counsel pauses four seconds, narrows her eyes slightly, and says flatly: 'Wait—read that indemnity cap language back to me.'",
+              "benignRootCause": "Pure Central-Route Scrutiny—cross-checking your verbal summary against statutory insurance limits.",
+              "disconfirmingCue": "No Artificial Smile or sarcasm, pen checking compliance rubric; nods calmly once cap is read ('That clears our threshold—next clause').",
+              "falsePositiveCost": "Over-apologizing (Status-Tension Leak) makes you look uncertain about your own terms."
+            }
+          }
+        },
+        "epistemicDrawers": {
+          "L3-M09-presupposition-pragmatics": {
+            "hookId": "L3-M09-presupposition-pragmatics",
+            "topicTitle": "Pragmatic Accommodation, Presupposition & Framing Effects",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "Stalnaker's **Common Ground Theory** and pragmatic **accommodation** (Levinson, 1983) show listeners routinely accept backgrounded propositions unless they clash sharply with held beliefs. Loftus's leading-question studies and Tversky & Kahneman's **Framing Effects** confirm lexical and syntactic framing reliably steers encoding and choice.",
+            "operationalTranslation": "Use as-is within the Presupposition Elasticity Limit; never expect grammar to override strong disagreement.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Levinson (1983) Pragmatics",
+              "Loftus & Palmer (1974)",
+              "Tversky & Kahneman (1981)"
+            ]
+          },
+          "L3-M09-pattern-interrupt-attention": {
+            "hookId": "L3-M09-pattern-interrupt-attention",
+            "topicTitle": "Pique Technique, Mindlessness & Transient Orienting",
+            "verdict": "REFINES_MECHANISM_DIFFERS",
+            "externalScienceMarkdown": "Santos, Leve, & Pratkanis's (1994) **Pique Technique** and Ellen Langer's **Mindlessness Research** confirm that brief, specific novelty disrupts automated refusal scripts via predictive-coding orienting responses—buying 1-3 seconds of fresh conscious attention, not hypnotic trance.",
+            "operationalTranslation": "Use strictly as an attention opener paired with an immediate Relevance Bridge.",
+            "recommendedAction": "MODIFY_MECHANISM",
+            "keyReferences": [
+              "Santos, Leve, & Pratkanis (1994) Pique Technique",
+              "Langer (1978)"
+            ]
+          },
+          "L3-M09-ras-neuroscience-myth": {
+            "hookId": "L3-M09-ras-neuroscience-myth",
+            "topicTitle": "Brainstem RAS vs. Distributed Cortical Attention Networks",
+            "verdict": "REFUTES_SPECULATIVE",
+            "externalScienceMarkdown": "Systems neuroscience (Corbetta & Shulman, 2002; Petersen & Posner) refutes casting the brainstem **Reticular Activating System (RAS)** as a subconscious semantic/persuasion programmer. The RAS regulates general wakefulness and arousal; semantic salience is governed by the cortical **Salience**, **Dorsal Attention**, and **Ventral Attention** networks.",
+            "operationalTranslation": "Discard RAS pop-neurology; treat 'RAS framing' strictly as shorthand for cortical salience capture.",
+            "recommendedAction": "DISCARD_OR_TREAT_AS_METAPHOR",
+            "keyReferences": [
+              "Corbetta & Shulman (2002) Nature Reviews Neuroscience",
+              "Petersen & Posner (2012)"
+            ]
+          },
+          "L3-M09-social-priming-replication": {
+            "hookId": "L3-M09-social-priming-replication",
+            "topicTitle": "Social Priming Replication Crisis & NLP Embedded Command Reviews",
+            "verdict": "REFUTES_SPECULATIVE",
+            "externalScienceMarkdown": "The **Replication Crisis** (Doyen et al., 2012; Open Science Collaboration, 2015) failed to replicate unconscious behavioral-priming claims, and controlled reviews of **NLP** (Witkowski, 2010; Sturt et al., 2012) found zero reliable evidence that tonal marking or embedded commands produce covert compliance. Clear, context-relevant lexical framing is what actually works.",
+            "operationalTranslation": "Discard NLP embedded commands and covert tonal tricks; use clean lexical framing that holds up on a written transcript.",
+            "recommendedAction": "DISCARD_OR_TREAT_AS_METAPHOR",
+            "keyReferences": [
+              "Doyen et al. (2012) PLoS ONE",
+              "Witkowski (2010) Polish Psychological Bulletin"
+            ]
+          }
+        },
+        "mergeManifest": {
+          "allHooksResolved": true,
+          "unresolvedHookIds": [],
+          "proposedGlossaryAdditions": [
+            {
+              "id": "relevance-bridge",
+              "canonicalTerm": "Relevance Bridge",
+              "entityType": "Tactical Lever",
+              "source": "SYN",
+              "introducedInModule": "M09",
+              "definition": "Immediate operational link required within 1-3 seconds of a Pattern Interrupt to convert transient orienting attention into substantive engagement rather than gimmick fatigue.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "pattern-interrupt",
+                "attentional-gate-ras-framing"
+              ]
+            },
+            {
+              "id": "presupposition-elasticity-limit",
+              "canonicalTerm": "Presupposition Elasticity Limit",
+              "entityType": "Cognitive Mechanism",
+              "source": "SYN",
+              "introducedInModule": "M09",
+              "definition": "Maximum gap between a subject's current buy-in and an embedded background premise before semantic alarms reject the presupposition and fire a Persuasion-Radar Trip.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "linguistic-priming-and-presupposition",
+                "persuasion-radar-trip"
+              ]
+            },
+            {
+              "id": "pre-primed-cynicism",
+              "canonicalTerm": "Pre-Primed Cynicism",
+              "entityType": "Internal State/Driver",
+              "source": "SYN",
+              "introducedInModule": "M09",
+              "definition": "Elevated baseline persuasion-knowledge vigilance driven by prior manipulation, adversarial role norms, or vendor fatigue that lowers the threshold for a Persuasion-Radar Trip.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "persuasion-radar-trip",
+                "central-route-scrutiny"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "M10": {
+      "id": "M10",
+      "tierId": "T5",
+      "order": 10,
+      "title": "Double-Binds, Activation & Compliance Escalation",
+      "canonicalFocus": "Structuring choices and behavioral momentum so agreement becomes the path of least psychological resistance.",
+      "buildStage": "pass2_deepened",
+      "pass1": {
+        "canonicalTermIds": [
+          "compliance-ladder",
+          "behavioral-double-bind",
+          "activation-threshold",
+          "psychological-reactance",
+          "momentum-decay",
+          "option-set-parity",
+          "silent-non-compliance"
+        ],
+        "crossTextReconciliation": {
+          "sixMinuteXRayChapters": [
+            "Ch. 6-7: Decision Momentum, Autonomy Preservation, & Resistance Triggers"
+          ],
+          "ellipsisManualChapters": [
+            "Ch. 6: Activation, Behavioral Double-Binds, The Compliance Ladder, & Escalating Agreement"
+          ],
+          "convergences": [
+            "Both texts agree abrupt cold high-stakes asks fail against loss aversion and status defense; agreement is engineered through progressive friction reduction."
+          ],
+          "extensions": [
+            "6MX explains why subjects resist large leaps (FATE switches and Hidden Fear Map) and how preserving autonomy keeps the Micro-Decision Ratchet open; EM builds the structured Compliance Ladder and Behavioral Double-Bind escalation engine."
+          ],
+          "tensionsOrContradictions": [
+            "EM occasionally portrays compliance ladders and double-binds as near-mechanical traps, whereas 6MX and Autonomy Margin (M02) show that perceived cornering detonates resistance. Reconciled by defining escalation strictly as autonomy-preserving momentum."
+          ],
+          "synonymResolutions": [
+            {
+              "sixMXLabel": "micro-agreement sequence",
+              "ellipsisLabel": "compliance momentum / incremental yes-chain",
+              "canonicalTermId": "compliance-ladder"
+            },
+            {
+              "sixMXLabel": "bounded two-option frame",
+              "ellipsisLabel": "illusion of choice / bounded bind",
+              "canonicalTermId": "behavioral-double-bind"
+            }
+          ]
+        },
+        "dependencies": {
+          "prerequisites": [
+            "M02",
+            "M05",
+            "M06",
+            "M09"
+          ],
+          "unlocks": [
+            "M11",
+            "M12"
+          ],
+          "forwardLinks": [
+            {
+              "termId": "attentional-narrowing",
+              "targetModule": "M11"
+            },
+            {
+              "termId": "evergreen-safeguard",
+              "targetModule": "M12"
+            },
+            {
+              "termId": "reputational-and-trust-decay",
+              "targetModule": "M12"
+            }
+          ]
+        },
+        "mentalModel": {
+          "structuralMetaphorName": "The Canal Lock System",
+          "proseMarkdown": "You do not lift a ten-thousand-ton cargo barge over a sixty-foot dam wall with a crane. Try to hoist the entire hull in one vertical pull and the cables snap. Instead, civil engineers use a **canal lock system**: the barge glides into a chamber at water level, the gate closes behind it, water rises five feet, the next gate opens, and the vessel moves forward effortlessly—repeating small, painless increments until it clears the summit without ever feeling lifted.\n\nHigh-stakes compliance runs on that exact hydraulic geometry. Asking cold for a major budget approval or policy reversal before momentum exists crosses the subject's **Autonomy Margin** (M02) and detonates **Psychological Reactance**.\n\nThe **Compliance Ladder** is the canal lock—moving the counterpart through tiny, substantively linked agreements until the hull reaches the **Activation Threshold**, where saying 'yes' to the final step simply continues motion already underway. At each gate, a clean **Behavioral Double-Bind** replaces open-ended inertia with two concrete, bounded paths forward. Push water levels too fast or weld the gates shut so the pilot feels trapped, and **Psychological Reactance** blows the doors off the hinges."
+        },
+        "granularMechanics": {
+          "causalChainsMarkdown": "### Mechanism A: Hydraulic Momentum (Compliance Ladder & Activation Threshold)\nA functional **Compliance Ladder** escalates across four substantively linked rungs:\n1. **Rung 1 — Micro-Attentional Compliance:** Near-zero-cost structural alignment.\n2. **Rung 2 — Diagnostic Agreement:** Confirming a concrete operational fact or pain point in the subject's own words.\n3. **Rung 3 — Co-Design Investment:** Inviting the subject to modify one small parameter—shifting them from critic to co-author.\n4. **Rung 4 — Target Activation (Activation Threshold):** Presenting the primary commitment as the direct continuation of Rungs 1-3.\n\nMomentum has a half-life. Across multi-day or multi-week cycles, competing priorities and normal memory fade create **Momentum Decay**—weakening the consistency pull of earlier rungs. Whenever a gap separates two rungs, spend thirty seconds re-anchoring the previous agreement in the subject's own words before stepping up to the next lock gate.\n\n*Micro-Scenario:* Stepping a skeptical director through error verification (Rung 1), lost-hours confirmation (Rung 2), form co-design (Rung 3), and a 30-day pilot (Rung 4) over two weeks while re-anchoring between sessions. [L2-HOOK:L2-M10-compliance-ladder-pacing]\n\n### Mechanism B: Bounded Choice Architecture (Behavioral Double-Bind)\nA **Behavioral Double-Bind** converts an open-ended 'yes/no' cliff into a bounded 'Option A vs. Option B' selection across logistics, scope, or resources—staying strictly inside the **Presupposition Elasticity Limit** (M09).\n\nEnforce **Option-Set Parity** across every **Behavioral Double-Bind**. If Option A is an absurdly heavy strawman designed only to make Option B look painless, sharp counterparts spot the decoy instantly and trip a **Persuasion-Radar Trip** (M09). Both options must be genuinely balanced, defensible trade-offs—giving the subject real strategic agency over *how* the work happens. [L2-HOOK:L2-M10-double-bind-architecture]\n\n### Mechanism C: The Autonomy Snap-Back (Psychological Reactance & Silent Non-Compliance)\n`Subject perceives choice narrowing / covert cornering` -> `Autonomic threat + Persuasion-Radar Trip (M09) fire` -> `Motivation flips from evaluating utility to restoring lost freedom` -> `Subject rejects even beneficial options to reclaim agency`.\n\nDo not scan only for loud pushback. In polite or hierarchical rooms, **Psychological Reactance** frequently masks itself as **Silent Non-Compliance**: a stiff **Artificial Smile** (M04) and a quick *'Sure, send it over'* to escape the room, followed by weeks of quiet stalling. Whenever a high-stakes 'yes' arrives *too* fast—paired with flat affect, zero clarifying questions, and a **BToE Stress Cluster** (M03)—treat it as covert reactance and deploy an autonomy-restoring **Reset Valve** (M06) before leaving the table. [L2-HOOK:L2-M10-reactance-rollback]",
+          "sensorToActuatorLoops": [
+            {
+              "id": "loop-m10-01",
+              "title": "Rung-Skip Detection",
+              "sensorInput": "After proposing Rung 3 or a Behavioral Double-Bind, subject stalls, flashes an Artificial Smile (M04), or emits a BToE Stress Cluster (M03).",
+              "interpreterHypothesis": "Skipped a rung on the Compliance Ladder, hit Momentum Decay, or stretched past the Presupposition Elasticity Limit (M09).",
+              "actuatorCalibration": "Drop down one full rung immediately—never push harder on the current rung. Re-anchor at Rung 2 ('Sounds like we haven't nailed down whether this bottleneck is worth solving this quarter—what's still unresolved?').",
+              "feedbackSignal": "Defensive tension eases across Autonomic Decay Lag (45-90s) and subject names the missing prerequisite.",
+              "linkedL2HookId": "L2-M10-compliance-ladder-pacing"
+            },
+            {
+              "id": "loop-m10-02",
+              "title": "Reactance Release",
+              "sensorInput": "Subject snaps back defensively ('Neither works—I'm not committing') OR gives a suspiciously fast flat 'yes' with zero clarifying questions (Silent Non-Compliance).",
+              "interpreterHypothesis": "Active Psychological Reactance (overt or covert) triggered by perceived cornering.",
+              "actuatorCalibration": "Deploy an autonomy-restoring Reset Valve (M06): 'Leaving things exactly as they are is completely on the table, and it's your call—I'm not trying to box you in.' Go silent (Landing-Window Attention).",
+              "feedbackSignal": "Restoring the explicit right to refuse collapses reactance; subject re-engages Option A, B, or a cleaner third path on their own terms.",
+              "linkedL2HookId": "L2-M10-reactance-rollback"
+            }
+          ]
+        },
+        "epistemicAudit": {
+          "gradedClaims": [
+            {
+              "id": "claim-m10-01",
+              "claimSummary": "Voluntary, effortful, substantively linked micro-commitments (Compliance Ladder / Foot-in-the-Door) measurably increase subsequent aligned compliance.",
+              "tier": "T1",
+              "rationale": "Strongly validated by Foot-in-the-Door meta-analyses (Burger, 1999) and Self-Perception Theory.",
+              "linkedL3HookId": "L3-M10-foot-in-the-door-consistency"
+            },
+            {
+              "id": "claim-m10-02",
+              "claimSummary": "Perceived threats to freedom trigger Psychological Reactance, while explicitly affirming freedom ('But You Are Free') roughly doubles voluntary compliance.",
+              "tier": "T1",
+              "rationale": "Confirmed by Brehm's Reactance Theory, Rains (2013), and Carpenter's (2013) BYAF meta-analysis.",
+              "linkedL3HookId": "L3-M10-reactance-theory-autonomy"
+            },
+            {
+              "id": "claim-m10-03",
+              "claimSummary": "Bounded two-option choice architecture (Behavioral Double-Bind) reduces decision paralysis when Option-Set Parity holds.",
+              "tier": "T2",
+              "rationale": "Operates via Choice Architecture and Choice Overload reduction, not Bateson's pathological double-bind trap.",
+              "linkedL3HookId": "L3-M10-double-bind-choice-architecture"
+            },
+            {
+              "id": "claim-m10-04",
+              "claimSummary": "Chaining micro-compliances and double-binds triggers an inescapable 'activation' state overriding rational self-interest.",
+              "tier": "T3",
+              "rationale": "Fails under high stakes, external accountability, and Central-Route Scrutiny (M06).",
+              "linkedL3HookId": "L3-M10-forced-compliance-activation-myth"
+            }
+          ],
+          "commonMisconceptions": [
+            "Trivial Yes-Set Misconception: thinking unrelated trivial nods ('Nice weather, right?') build real Compliance Ladder momentum.",
+            "No-Exit Bind Trap: offering two obviously bad options, which instantly trips Persuasion-Radar Trip (M09) and Psychological Reactance."
+          ],
+          "highProbabilityFalsePositives": [
+            "Mistaking a hard external financial freeze (Central-Route Scrutiny) for Psychological Reactance.",
+            "Mistaking a fast, flat 'Sure, send it over' (Silent Non-Compliance) for genuine buy-in."
+          ],
+          "disconfirmingEvidenceRules": [
+            "If dropping down one rung and explicitly affirming the subject's right to refuse still yields a calm, reasoned refusal backed by concrete constraints, your reactance hypothesis is falsified—the proposal does not clear their rational threshold."
+          ],
+          "downstreamEffects": {
+            "secondOrder": [
+              "Autonomy-preserving Compliance Ladders align seamlessly with Tier 6 Evergreen Safeguard ethics (M12)."
+            ],
+            "thirdOrder": [
+              "Extracting reluctant room-level 'yeses' via pressure binds produces Silent Non-Compliance and severe Reputational & Trust Decay (M12)."
+            ]
+          }
+        },
+        "appSeed": {
+          "visualDiagram": {
+            "type": "threshold_slider",
+            "title": "The Canal Lock & Reactance Gauge",
+            "description": "Interactive 4-chamber canal lock (Rung 1 Attention -> Rung 2 Shared Premise -> Rung 3 Co-Design -> Rung 4 Activation Threshold) paired with a live Autonomy Margin / Reactance Meter and 'Restore Freedom (BYAF)' recovery valve.",
+            "interactiveVariables": [
+              "Active Ladder Rung (1-4)",
+              "Double-Bind Viability (Option-Set Parity vs. Decoy)",
+              "Subject Autonomy Margin",
+              "Reactance Risk %"
+            ]
+          },
+          "fieldCalibrationDrill": {
+            "scenarioPrompt": "After earning Rung 1 (error report) and Rung 2 (forecast miss agreement) with a skeptical Head of Sales, a teammate jumps straight to a rigid double-bind: 'Should we mandate the 12-field CRM checklist Monday or roll it out Wednesday?' Her jaw tightens and she snaps: 'Neither—my reps are closing end-of-month deals.'",
+            "deceptiveRedHerring": "Arguing back with logic ('You just agreed bad data ruined Q2!') or tightening the bind ('Friday instead of Wednesday?').",
+            "targetSkillTermIds": [
+              "compliance-ladder",
+              "behavioral-double-bind",
+              "psychological-reactance",
+              "reset-valve",
+              "option-set-parity"
+            ],
+            "idealOperatorResponse": "Diagnose Psychological Reactance from skipping Rung 3 (Co-Design). Deploy an autonomy-restoring Reset Valve immediately: 'Fair call—we jumped way ahead. Keeping the current workflow through end-of-month is completely on the table, and it's your call. Before we talk dates, if you could slash that checklist from 12 fields down to the only 3 your reps actually care about, which 3 survive?'"
+          }
+        }
+      },
+      "pass2": {
+        "completedAt": "2026-11-25",
+        "externalLensUsed": [
+          "Foot-in-the-Door Meta-Analysis & Self-Perception Theory (Freedman & Fraser, Burger, Bem)",
+          "Psychological Reactance & BYAF Meta-Analysis (Brehm, Rains, Carpenter)",
+          "Choice Architecture & Choice Overload (Thaler & Sunstein, Iyengar & Lepper)",
+          "Negotiation & Central-Route Scrutiny Limits (Petty & Cacioppo)"
+        ],
+        "layer1Audit": {
+          "causalGapPatches": [
+            {
+              "id": "patch-m10-01",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Rather than pitching a full departmental workflow overhaul in one meeting, an operations lead moves through four rungs over two weeks...",
+              "diagnosis": "Assumes micro-agreements earned on Day 1 remain at full charge on Day 14 without accounting for Momentum Decay.",
+              "surgicalRepairMarkdown": "Momentum has a half-life. Across multi-day or multi-week cycles, competing priorities and normal memory fade create **Momentum Decay**—weakening the consistency pull of earlier rungs. Whenever a gap separates two rungs, spend thirty seconds re-anchoring the previous agreement in the subject's own words before stepping up to the next lock gate.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m10-02",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Crucially, a clean double-bind must stay inside the Presupposition Elasticity Limit (M09): both options must be genuinely viable...",
+              "diagnosis": "Leaves room for manipulative lopsided decoys; requires explicit Option-Set Parity to prevent Persuasion-Radar Trip.",
+              "surgicalRepairMarkdown": "Enforce **Option-Set Parity** across every **Behavioral Double-Bind**. If Option A is an absurdly heavy strawman designed only to make Option B look painless, sharp counterparts spot the decoy instantly and trip a **Persuasion-Radar Trip** (M09). Both options must be genuinely balanced, defensible trade-offs—giving the subject real strategic agency over *how* the work happens.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m10-03",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "The defining signature of Psychological Reactance is irrational counter-push...",
+              "diagnosis": "Focuses only on loud vocal pushback, missing covert Silent Non-Compliance in polite or hierarchical rooms.",
+              "surgicalRepairMarkdown": "Do not scan only for loud pushback. In polite or hierarchical rooms, **Psychological Reactance** frequently masks itself as **Silent Non-Compliance**: a stiff **Artificial Smile** (M04) and a quick *'Sure, send it over'* to escape the room, followed by weeks of quiet stalling. Whenever a high-stakes 'yes' arrives *too* fast—paired with flat affect, zero clarifying questions, and a **BToE Stress Cluster** (M03)—treat it as covert reactance and deploy an autonomy-restoring **Reset Valve** (M06) before leaving the table.",
+              "status": "merged"
+            }
+          ],
+          "ontologyDriftFlags": [
+            "Keep 'canal lock' and 'barge' strictly metaphorical beneath Compliance Ladder and Activation Threshold.",
+            "Anchor 'But You Are Free (BYAF)' as the empirical mechanism behind Reset Valve (M06) rather than creating a duplicate tactical lever."
+          ]
+        },
+        "calibrationLabs": {
+          "L2-M10-compliance-ladder-pacing": {
+            "hookId": "L2-M10-compliance-ladder-pacing",
+            "operationalFocus": "Pacing Rungs 1-4 cleanly (and re-anchoring against Momentum Decay) while avoiding over-engineering when a subject is already past Activation Threshold.",
+            "workedExample": {
+              "setting": "Two-week rollout of a new QA sign-off workflow with a skeptical engineering director.",
+              "sceneMarkdown": "After earning Rung 1 and Rung 2 in Week 1, you return in Week 2 after a busy sprint (Momentum Decay risk). You re-anchor Rung 2 in twenty seconds and step to Rung 3 (Co-Design): 'Last week you noted config rollbacks ate most on-call hours. Looking at these four pre-deploy checks, which two are worth keeping and which two are bloat?'",
+              "ctaLoop": {
+                "baseline": "Slightly distracted entering Week 2's call.",
+                "deviationOrCluster": "Leans forward immediately, crosses out two checks, and edits a third—shifting from skeptic to co-author.",
+                "internalDriverHypothesis": "Re-anchoring cleared Momentum Decay; Rung 3 honored her Autonomy Margin and Intelligence need.",
+                "tacticalProbeOrActuator": "Step cleanly to Rung 4: 'With your two streamlined checks in place, want to test this on Friday's staging push?'",
+                "observableFeedbackAndNextMove": "Genuine agreement paired with concrete execution questions—zero reactance."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Renewal call with a VP who already has budget approved and wants to sign today.",
+              "mirrorSceneMarkdown": "Two minutes in, VP says briskly: 'We already ran the numbers internally and want the 50-seat package—can you send the DocuSign this afternoon?'",
+              "benignRootCause": "Subject is already past the Activation Threshold before the call began.",
+              "disconfirmingCue": "Warm, decisive cadence, zero BToE Stress Cluster, concrete logistical ask.",
+              "falsePositiveCost": "Mechanically walking an already-sold executive back through Rungs 1-3 creates artificial friction and risks talking yourself out of a closed deal."
+            }
+          },
+          "L2-M10-double-bind-architecture": {
+            "hookId": "L2-M10-double-bind-architecture",
+            "operationalFocus": "Constructing a balanced Behavioral Double-Bind with Option-Set Parity vs. triggering a Persuasion-Radar Trip with a lopsided decoy.",
+            "workedExample": {
+              "setting": "Scoping an analytics pilot after the operations lead co-designed the dashboard fields (Rung 3 complete).",
+              "sceneMarkdown": "Offering two genuinely balanced paths (Option-Set Parity): 'To keep floor disruption near zero, we can either run a two-week shadow test in Region 2 where only shift leads see the dashboard, or launch live in Region 1 where your team already asked for automated logs. Which trade-off fits Q3 bandwidth better?'",
+              "ctaLoop": {
+                "baseline": "Engaged, collaborative posture; high trust from Rungs 1-3.",
+                "deviationOrCluster": "Brief thoughtful pause (Cognitive Baseline) with zero constriction, followed by analytical selection ('Region 2 shadow test').",
+                "internalDriverHypothesis": "Both options carried real merit inside the Presupposition Elasticity Limit, eliminating inertia without threatening autonomy.",
+                "tacticalProbeOrActuator": "Confirm selection immediately and assign the single next milestone.",
+                "observableFeedbackAndNextMove": "Pilot locks in with full leadership backing."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical scoping call.",
+              "mirrorSceneMarkdown": "Offering a lopsided decoy bind: 'We can either shut down all four regions for a full-day manual retraining Monday, or just sign off on our Region 2 automated pilot today.'",
+              "benignRootCause": "Operator error: violated Option-Set Parity with a transparent strawman.",
+              "disconfirmingCue": "Abrupt Artificial Smile, narrowed gaze, cool pushback ('Neither—send me the spec and I'll review next week').",
+              "falsePositiveCost": "Rigged binds trigger Persuasion-Radar Trip and Psychological Reactance, stalling an almost-closed pilot."
+            }
+          },
+          "L2-M10-reactance-rollback": {
+            "hookId": "L2-M10-reactance-rollback",
+            "operationalFocus": "Detecting covert Silent Non-Compliance and distinguishing reactance from a rational hard-constraint refusal.",
+            "workedExample": {
+              "setting": "Quarterly alignment where you pushed a recurring meeting cadence slightly too fast with a polite senior peer.",
+              "sceneMarkdown": "After a logistics double-bind ('Mondays or Wednesdays?'), she flashes a quick lower-face Artificial Smile, touches her necklace (Autonomic Pacifier), and says flatly without asking a single question: 'Sure, Monday is fine, just throw it on my calendar.'",
+              "ctaLoop": {
+                "baseline": "Normally asks sharp detail questions before committing to recurring syncs.",
+                "deviationOrCluster": "Suspiciously fast 'yes' + Artificial Smile + Autonomic Pacifier + zero clarifying questions—Silent Non-Compliance.",
+                "internalDriverHypothesis": "Feels cornered into another status meeting and plans to decline or delegate once the call ends.",
+                "tacticalProbeOrActuator": "Deploy an autonomy-restoring Reset Valve before leaving: 'Wait—skipping a live meeting and doing a two-line Friday Slack update is completely on the table. Which wastes less of your week?'",
+                "observableFeedbackAndNextMove": "Visible exhale, genuine smile, and candid relief ('Friday Slack update saves me an hour—let's do that')."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Budget approval meeting with a Division CFO.",
+              "mirrorSceneMarkdown": "You propose a clean $25K pilot; CFO leans back calmly: 'I like the pilot design, and we're not approving any new software spend until Q1.'",
+              "benignRootCause": "Hard external capital freeze (Central-Route Scrutiny)—zero Psychological Reactance.",
+              "disconfirmingCue": "Calm Subject Baseline, zero Heat-to-Stakes Disproportion, and he adds: 'Put this exact $25K line item into the Q1 packet by Nov 15 and I'll champion it.'",
+              "falsePositiveCost": "Treating a hard budget freeze as reactance wastes credibility when the real move is locking in the Nov 15 deadline."
+            }
+          }
+        },
+        "epistemicDrawers": {
+          "L3-M10-foot-in-the-door-consistency": {
+            "hookId": "L3-M10-foot-in-the-door-consistency",
+            "topicTitle": "Foot-in-the-Door Meta-Analysis & Self-Perception Theory",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "Freedman & Fraser (1966), Burger's (1999) meta-analysis, and **Self-Perception Theory** (Bem, 1972) confirm voluntary, uncoerced, substantively linked micro-commitments shift self-concept and raise aligned follow-up compliance—whereas unrelated trivial yes-sets fail.",
+            "operationalTranslation": "Use as-is. Anchor every rung in voluntary, substantive co-design and skip trivial yes-sets.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Burger (1999) Personality and Social Psychology Review",
+              "Bem (1972) Self-Perception Theory"
+            ]
+          },
+          "L3-M10-reactance-theory-autonomy": {
+            "hookId": "L3-M10-reactance-theory-autonomy",
+            "topicTitle": "Psychological Reactance & 'But You Are Free' (BYAF) Meta-Analysis",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "Brehm's **Psychological Reactance Theory** (1966) and Rains (2013) confirm freedom threats drive anger and boomerang rejection. Conversely, Carpenter's (2013) meta-analysis of 42 studies (~22,000 participants) showed explicitly affirming the right to refuse (**BYAF**) roughly doubles voluntary compliance.",
+            "operationalTranslation": "Use as-is. Build a genuine exit ramp into every high-stakes ask and Reset Valve rollback.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Brehm (1966)",
+              "Rains (2013)",
+              "Carpenter (2013) Communication Studies"
+            ]
+          },
+          "L3-M10-double-bind-choice-architecture": {
+            "hookId": "L3-M10-double-bind-choice-architecture",
+            "topicTitle": "Choice Architecture & Choice Overload vs. Bateson's Double-Bind",
+            "verdict": "REFINES_MECHANISM_DIFFERS",
+            "externalScienceMarkdown": "Gregory Bateson (1956) originally defined 'double-bind' as a pathological no-win trap. Effective bounded choices operate via behavioral economics **Choice Architecture** (Thaler & Sunstein, 2008) and **Choice Overload** reduction (Iyengar & Lepper, 2000)—narrowing paralysis to two balanced options, not hypnotically trapping the listener.",
+            "operationalTranslation": "Treat Behavioral Double-Bind strictly as friction-reducing choice architecture with genuine Option-Set Parity.",
+            "recommendedAction": "MODIFY_MECHANISM",
+            "keyReferences": [
+              "Thaler & Sunstein (2008) Nudge",
+              "Iyengar & Lepper (2000) JPSP"
+            ]
+          },
+          "L3-M10-forced-compliance-activation-myth": {
+            "hookId": "L3-M10-forced-compliance-activation-myth",
+            "topicTitle": "Limits of Incremental Momentum Under High Stakes",
+            "verdict": "REFUTES_SPECULATIVE",
+            "externalScienceMarkdown": "Claims that chaining micro-compliances triggers an automatic, inescapable 'activation' override fail empirical testing. High personal stakes, external accountability, and Central-Route Scrutiny consistently override incremental momentum whenever a final ask violates core interests.",
+            "operationalTranslation": "Discard 'inescapable trap' rhetoric; use Compliance Ladders to remove unnecessary friction around mutually viable outcomes.",
+            "recommendedAction": "DISCARD_OR_TREAT_AS_METAPHOR",
+            "keyReferences": [
+              "Petty & Cacioppo (1986)"
+            ]
+          }
+        },
+        "mergeManifest": {
+          "allHooksResolved": true,
+          "unresolvedHookIds": [],
+          "proposedGlossaryAdditions": [
+            {
+              "id": "momentum-decay",
+              "canonicalTerm": "Momentum Decay",
+              "entityType": "Failure Mode",
+              "source": "SYN",
+              "introducedInModule": "M10",
+              "definition": "Erosion of prior Compliance Ladder commitment across multi-day time gaps or competing priorities, requiring brief re-anchoring before stepping up to the next rung.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "compliance-ladder",
+                "activation-threshold"
+              ]
+            },
+            {
+              "id": "option-set-parity",
+              "canonicalTerm": "Option-Set Parity",
+              "entityType": "Tactical Lever",
+              "source": "SYN",
+              "introducedInModule": "M10",
+              "definition": "Requirement that both choices inside a Behavioral Double-Bind carry realistic, balanced trade-offs rather than pairing a bloated strawman decoy against the operator's real ask.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "behavioral-double-bind",
+                "persuasion-radar-trip"
+              ]
+            },
+            {
+              "id": "silent-non-compliance",
+              "canonicalTerm": "Silent Non-Compliance",
+              "entityType": "Failure Mode",
+              "source": "SYN",
+              "introducedInModule": "M10",
+              "definition": "Covert form of Psychological Reactance in polite or hierarchical settings where a subject agrees quickly in the room to escape pressure, then stalls or ghosts afterward.",
+              "epistemicTiers": [
+                "T1"
+              ],
+              "relatedTerms": [
+                "psychological-reactance",
+                "artificial-smile"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

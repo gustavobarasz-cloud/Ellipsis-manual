@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Unified Behavioral Intelligence Curriculum (6MX + Ellipsis Manual) — Tier 3 Bundle",
+  "entityTypeRegistry": {
+    "Signal/Indicator": {
+      "type": "Signal/Indicator",
+      "systemLayer": "Sensor",
+      "definition": "Externally observable, timestamped behavioral data (somatic cue, vocal shift, linguistic marker, facial movement). Must be visible or audible on camera.",
+      "pipelineRole": "Raw telemetry input",
+      "uiAccentToken": "cyan"
+    },
+    "Internal State/Driver": {
+      "type": "Internal State/Driver",
+      "systemLayer": "Interpreter",
+      "definition": "Unobservable psychological motive, fear, autonomic arousal state, or identity construct inferred from signals. Never treated as direct fact without confirmation.",
+      "pipelineRole": "Hidden variable hypothesis",
+      "uiAccentToken": "amber"
+    },
+    "Cognitive Mechanism": {
+      "type": "Cognitive Mechanism",
+      "systemLayer": "Bridge",
+      "definition": "Underlying information-processing rule, attentional filter, or decision architecture that converts inputs into internal shifts or behavior.",
+      "pipelineRole": "Causal engine",
+      "uiAccentToken": "violet"
+    },
+    "Tactical Lever": {
+      "type": "Tactical Lever",
+      "systemLayer": "Actuator",
+      "definition": "Deliberate operator adjustment—postural, framing, questioning, or structural—deployed to gather information, stabilize rapport, or shift compliance.",
+      "pipelineRole": "Controlled intervention",
+      "uiAccentToken": "emerald"
+    },
+    "Failure Mode": {
+      "type": "Failure Mode",
+      "systemLayer": "Audit",
+      "definition": "Diagnostic error, false positive, operator bias, or second-order relational blowback that corrupts accuracy or breaks trust.",
+      "pipelineRole": "Error boundary",
+      "uiAccentToken": "rose"
+    }
+  },
+  "masterGlossary": {
+    "operator-baseline": {
+      "id": "operator-baseline",
+      "canonicalTerm": "Operator Baseline",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "The practitioner's calibrated emotional, postural, and attentional neutrality prior to contact; prevents operator noise from distorting subject telemetry.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "the-four-lenses": {
+      "id": "the-four-lenses",
+      "canonicalTerm": "The Four Lenses",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M01",
+      "definition": "Sequential perceptual filter (Broken -> Different -> Facts -> Reasons) used to strip moral judgment and isolate causal behavior.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "the-four-laws-of-human-behavior": {
+      "id": "the-four-laws-of-human-behavior",
+      "canonicalTerm": "The Four Laws of Human Behavior",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M01",
+      "definition": "Foundational heuristic framing human behavior around universal insecurity, protective masks, early conditioning, and social-need pursuit.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ]
+    },
+    "hypothesis-plurality": {
+      "id": "hypothesis-plurality",
+      "canonicalTerm": "Hypothesis Plurality",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "Holding two or more competing Lens 4 causal explanations in suspension until an active probe yields disconfirming or confirming data.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "autonomic-decay-lag": {
+      "id": "autonomic-decay-lag",
+      "canonicalTerm": "Autonomic Decay Lag",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "The physiological braking time (typically 45-90 seconds) required for sympathetic constriction to subside after a stressor or Observer Distortion is removed.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "exogenous-noise": {
+      "id": "exogenous-noise",
+      "canonicalTerm": "Exogenous Noise",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M01",
+      "definition": "Behavioral constriction or distraction caused by factors outside the interaction (illness, temperature, prior events) that mimics stimulus-linked stress.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "authority-architecture": {
+      "id": "authority-architecture",
+      "canonicalTerm": "Authority Architecture",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M02",
+      "definition": "Deliberate calibration of physical presence, vocal cadence, non-reactivity, and spatial command that lowers a subject's resistance threshold and stabilizes compliance.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ]
+    },
+    "first-contact-frame": {
+      "id": "first-contact-frame",
+      "canonicalTerm": "First-Contact Frame",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M02",
+      "definition": "The implicit social hierarchy and relational expectations established in the opening 30-90 seconds of an interaction.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "status-tension-leak": {
+      "id": "status-tension-leak",
+      "canonicalTerm": "Status-Tension Leak",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "Micro-behaviors betraying an operator's need for approval or fear of pushback that instantly collapse perceived authority.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "dominance-overplay": {
+      "id": "dominance-overplay",
+      "canonicalTerm": "Dominance Overplay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "Confusing loud aggression, rigid posturing, or territorial hostility with authority; triggers immediate Observer Distortion and defensive armor.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "autonomy-margin": {
+      "id": "autonomy-margin",
+      "canonicalTerm": "Autonomy Margin",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M02",
+      "definition": "The variable threshold of directive pressure a specific subject can absorb before perceiving territorial encroachment and triggering Dominance Overplay.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "subject-baseline": {
+      "id": "subject-baseline",
+      "canonicalTerm": "Subject Baseline",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "A subject's normal, low-stress spectrum of posture, blink rate, vocal pitch, and gesture cadence established in neutral conversation.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "cognitive-baseline": {
+      "id": "cognitive-baseline",
+      "canonicalTerm": "Cognitive Baseline",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "A subject's normal somatic and ocular shift under neutral, effortful thinking—logged separately from casual rapport baseline.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "btoe-stress-cluster": {
+      "id": "btoe-stress-cluster",
+      "canonicalTerm": "BToE Stress Cluster",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Three or more kinematically independent somatic indicators from the Behavioral Table of Elements (1.0-4.0) firing within 3-5 seconds of a stimulus.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "autonomic-pacifier": {
+      "id": "autonomic-pacifier",
+      "canonicalTerm": "Autonomic Pacifier",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M03",
+      "definition": "Self-soothing tactile behavior (neck touch, leg rubbing, arm wrap, lip compression) triggered by sympathetic nervous system arousal.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "artificial-smile": {
+      "id": "artificial-smile",
+      "canonicalTerm": "Artificial Smile",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "A manually recruited lower-face smile lacking involuntary upper-face engagement around the eyes, often paired with asymmetric timing or an abrupt stop.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "landing-window-attention": {
+      "id": "landing-window-attention",
+      "canonicalTerm": "Landing-Window Attention",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M04",
+      "definition": "Placing a high-salience phrase at the end of a short prompt and going completely silent so operator visual bandwidth is free to observe the immediate 1-second response.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "primary-social-need": {
+      "id": "primary-social-need",
+      "canonicalTerm": "Primary Social Need",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "The dominant social currency a subject prioritizes in a given arena (Significance, Approval, Acceptance, Intelligence, Pity, or Strength/Power) to stabilize self-worth and social standing.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "core social need / validation drive",
+          "source": "6MX"
+        },
+        {
+          "term": "ego hook / primary need driver",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "hidden-fear-map",
+        "social-currency-calibration",
+        "dual-need-collision"
+      ]
+    },
+    "hidden-fear-map": {
+      "id": "hidden-fear-map",
+      "canonicalTerm": "Hidden Fear Map",
+      "entityType": "Internal State/Driver",
+      "source": "6MX",
+      "introducedInModule": "M05",
+      "definition": "The exact inverse shadow of a Primary Social Need—the specific vulnerability, status loss, or identity threat the subject actively defends against.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "heat-to-stakes-disproportion"
+      ]
+    },
+    "social-currency-calibration": {
+      "id": "social-currency-calibration",
+      "canonicalTerm": "Social-Currency Calibration",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M05",
+      "definition": "Deliberate, proportionate, reality-grounded delivery of the specific validation a subject values—without triggering sycophancy—to lower defensive walls and build high-trust rapport.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "impact-validation",
+        "authority-architecture"
+      ]
+    },
+    "neuropeptide-reductionism": {
+      "id": "neuropeptide-reductionism",
+      "canonicalTerm": "Neuropeptide Reductionism",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Over-attributing complex social motives to single-molecule pop-neurology labels (e.g., treating dopamine or oxytocin as vending-machine buttons) rather than functional behavioral reinforcement.",
+      "epistemicTiers": [
+        "T3"
+      ]
+    },
+    "dual-need-collision": {
+      "id": "dual-need-collision",
+      "canonicalTerm": "Dual-Need Collision",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Internal friction occurring when two top-of-stack Primary Social Needs pull in opposing directions (e.g., Significance vs. Acceptance), producing behavioral oscillation rather than deceit.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "primary-social-need",
+        "hidden-fear-map"
+      ]
+    },
+    "heat-to-stakes-disproportion": {
+      "id": "heat-to-stakes-disproportion",
+      "canonicalTerm": "Heat-to-Stakes Disproportion",
+      "entityType": "Signal/Indicator",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Emotional intensity or resentment that significantly exceeds the practical operational stakes—the primary diagnostic separator between a bumped Hidden Fear Map and proportional professional frustration.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "hidden-fear-map"
+      ]
+    },
+    "impact-validation": {
+      "id": "impact-validation",
+      "canonicalTerm": "Impact Validation",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M05",
+      "definition": "Status-safe form of Social-Currency Calibration that highlights how a subject's action clarified or improved an outcome rather than evaluating them from above.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "social-currency-calibration",
+        "authority-architecture"
+      ]
+    },
+    "fate-engine": {
+      "id": "fate-engine",
+      "canonicalTerm": "FATE Engine",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Four-variable prioritization architecture (Focus, Authority, Tribe, Emotion) governing how the human nervous system filters incoming information and locks in rapid decisions before conscious rationalization catches up.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "absorbedSynonyms": [
+        {
+          "term": "FATE survival filters",
+          "source": "6MX"
+        },
+        {
+          "term": "four decision levers",
+          "source": "EM"
+        }
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet",
+        "tribal-emotion-frame",
+        "wait-till-the-end-fallacy"
+      ]
+    },
+    "micro-decision-ratchet": {
+      "id": "micro-decision-ratchet",
+      "canonicalTerm": "Micro-Decision Ratchet",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M06",
+      "definition": "The compounding sequence of sub-second appraisals that routes a subject toward 'yes' or 'no' early in an interaction, turning subsequent conscious logic into a post-hoc justification tool.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ],
+      "relatedTerms": [
+        "fate-engine",
+        "reset-valve"
+      ]
+    },
+    "tribal-emotion-frame": {
+      "id": "tribal-emotion-frame",
+      "canonicalTerm": "Tribal-Emotion Frame",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M06",
+      "definition": "Deliberate sequencing that aligns Authority Architecture, shared in-group identity (Tribe), and concrete affective stakes (Emotion) before delivering analytical data.",
+      "epistemicTiers": [
+        "T2"
+      ],
+      "relatedTerms": [
+        "fate-engine",
+        "counterfeit-tribalism"
+      ]
+    },
+    "wait-till-the-end-fallacy": {
+      "id": "wait-till-the-end-fallacy",
+      "canonicalTerm": "Wait-Till-the-End Fallacy",
+      "entityType": "Failure Mode",
+      "source": "6MX",
+      "introducedInModule": "M06",
+      "definition": "The mistaken assumption that listeners suspend judgment until an argument or presentation concludes, causing operators to save their strongest framing for last after the decision has already locked.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet"
+      ]
+    },
+    "reset-valve": {
+      "id": "reset-valve",
+      "canonicalTerm": "Reset Valve",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Deliberately halting forward persuasion, naming early friction neutrally, and returning control of the agenda to release a locked 'Avoid' Micro-Decision Ratchet.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "micro-decision-ratchet"
+      ]
+    },
+    "counterfeit-tribalism": {
+      "id": "counterfeit-tribalism",
+      "canonicalTerm": "Counterfeit Tribalism",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "Transparent mimicry of an in-group's slang, posture, or grievances by an obvious outsider, triggering instant cynicism and permanent Tribe switch closure.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "tribal-emotion-frame"
+      ]
+    },
+    "central-route-scrutiny": {
+      "id": "central-route-scrutiny",
+      "canonicalTerm": "Central-Route Scrutiny",
+      "entityType": "Cognitive Mechanism",
+      "source": "SYN",
+      "introducedInModule": "M06",
+      "definition": "High-stakes, high-expertise analytical evaluation mode (from ELM) where hard data and logical coherence outweigh peripheral emotional or authority heuristics.",
+      "epistemicTiers": [
+        "T1"
+      ],
+      "relatedTerms": [
+        "fate-engine"
+      ]
+    },
+    "six-minute-loop": {
+      "id": "six-minute-loop",
+      "canonicalTerm": "Six-Minute Loop",
+      "entityType": "Cognitive Mechanism",
+      "source": "6MX",
+      "introducedInModule": "M07",
+      "definition": "Iterative diagnostic cycle moving from Visual Phase (passive intake) to Verbal Phase (targeted probing) to live hypothesis updating.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "protective-mask": {
+      "id": "protective-mask",
+      "canonicalTerm": "Protective Mask",
+      "entityType": "Internal State/Driver",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Habitual social persona projected to secure a Primary Social Need while concealing the underlying Hidden Fear Map.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "elicitation-probe": {
+      "id": "elicitation-probe",
+      "canonicalTerm": "Elicitation Probe",
+      "entityType": "Tactical Lever",
+      "source": "SYN",
+      "introducedInModule": "M08",
+      "definition": "Low-friction conversational prompt designed to draw out unguarded data without triggering interrogation alarms.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "attentional-gate-ras-framing": {
+      "id": "attentional-gate-ras-framing",
+      "canonicalTerm": "Attentional Gate (RAS Framing)",
+      "entityType": "Cognitive Mechanism",
+      "source": "EM",
+      "introducedInModule": "M09",
+      "definition": "Selective filtering of incoming stimuli based on salience, threat, or primed relevance—framed in EM via the Reticular Activating System.",
+      "epistemicTiers": [
+        "T2",
+        "T3"
+      ]
+    },
+    "linguistic-priming-and-presupposition": {
+      "id": "linguistic-priming-and-presupposition",
+      "canonicalTerm": "Linguistic Priming & Presupposition",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M09",
+      "definition": "Structuring syntax so a target premise is embedded as background fact rather than an open claim up for debate.",
+      "epistemicTiers": [
+        "T1",
+        "T2"
+      ]
+    },
+    "compliance-ladder": {
+      "id": "compliance-ladder",
+      "canonicalTerm": "Compliance Ladder",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M10",
+      "definition": "Sequenced escalation of low-friction micro-agreements that builds behavioral momentum before a higher-stakes request.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "behavioral-double-bind": {
+      "id": "behavioral-double-bind",
+      "canonicalTerm": "Behavioral Double-Bind",
+      "entityType": "Tactical Lever",
+      "source": "EM",
+      "introducedInModule": "M10",
+      "definition": "Choice architecture presenting two bounded options where either selection advances the operator's intended frame.",
+      "epistemicTiers": [
+        "T2"
+      ]
+    },
+    "psychological-reactance": {
+      "id": "psychological-reactance",
+      "canonicalTerm": "Psychological Reactance",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M10",
+      "definition": "Defensive pushback triggered when a subject perceives their autonomy is being cornered, instantly collapsing rapport and compliance.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    },
+    "reputational-and-trust-decay": {
+      "id": "reputational-and-trust-decay",
+      "canonicalTerm": "Reputational & Trust Decay",
+      "entityType": "Failure Mode",
+      "source": "SYN",
+      "introducedInModule": "M12",
+      "definition": "Second- and third-order blowback where short-term compliance gained through covert leverage destroys long-term credibility once detected.",
+      "epistemicTiers": [
+        "T1"
+      ]
+    }
+  },
+  "tiers": [
+    {
+      "id": "T3",
+      "order": 3,
+      "title": "The Engine Room (Needs, Fears & Decision Architecture)",
+      "subtitle": "Moving beneath observable behavior to map the internal motivational hardware driving every choice.",
+      "moduleIds": [
+        "M05",
+        "M06"
+      ]
+    }
+  ],
+  "modules": {
+    "M05": {
+      "id": "M05",
+      "tierId": "T3",
+      "order": 5,
+      "title": "The Six Social Needs & Hidden Fear Maps",
+      "canonicalFocus": "Identifying the primary social currency a person is starving for—and the specific fear that governs their mask.",
+      "buildStage": "pass2_deepened",
+      "pass1": {
+        "canonicalTermIds": [
+          "primary-social-need",
+          "hidden-fear-map",
+          "social-currency-calibration",
+          "neuropeptide-reductionism",
+          "dual-need-collision",
+          "heat-to-stakes-disproportion",
+          "impact-validation"
+        ],
+        "crossTextReconciliation": {
+          "sixMinuteXRayChapters": [
+            "Ch. 5-6: The Six Social Needs, Revealing Hidden Fears, & Neuropeptide Framing"
+          ],
+          "ellipsisManualChapters": [
+            "Ch. 3: Human Needs Profiling & Converting Insecurities into Social Leverage and Rapport Hooks"
+          ],
+          "convergences": [
+            "Both texts treat observable behavior as the downstream exhaust of an invisible motivational engine; mapping the Primary Social Need and Hidden Fear Map explains why Tier 2 stress spikes occur and what currency stabilizes them."
+          ],
+          "extensions": [
+            "6MX builds the diagnostic six-part taxonomy and fear-inversion logic; EM wires that profile into Social-Currency Calibration to lower resistance prior to negotiation or elicitation."
+          ],
+          "tensionsOrContradictions": [
+            "6MX occasionally frames a Primary Social Need as a near-permanent character type wired in childhood, whereas EM deploys need-profiling dynamically to shift moment-to-moment compliance. Reconciled by treating the Six Needs as a ranked priority stack shifting by room stakes."
+          ],
+          "synonymResolutions": [
+            {
+              "sixMXLabel": "core social need / validation drive",
+              "ellipsisLabel": "ego hook / primary need driver",
+              "canonicalTermId": "primary-social-need"
+            }
+          ]
+        },
+        "dependencies": {
+          "prerequisites": [
+            "M01",
+            "M02",
+            "M03",
+            "M04"
+          ],
+          "unlocks": [
+            "M06",
+            "M07",
+            "M08",
+            "M10"
+          ],
+          "forwardLinks": [
+            {
+              "termId": "fate-engine",
+              "targetModule": "M06"
+            },
+            {
+              "termId": "six-minute-loop",
+              "targetModule": "M07"
+            },
+            {
+              "termId": "protective-mask",
+              "targetModule": "M08"
+            },
+            {
+              "termId": "elicitation-probe",
+              "targetModule": "M08"
+            },
+            {
+              "termId": "compliance-ladder",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "psychological-reactance",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "reputational-and-trust-decay",
+              "targetModule": "M12"
+            }
+          ]
+        },
+        "mentalModel": {
+          "structuralMetaphorName": "The Need-Fear Cantilever Crane",
+          "proseMarkdown": "Picture a tower crane suspended over an open drop. Out in front, the long steel jib reaches across the skyline—visible, active, constantly swinging toward whatever load it needs to lift. Behind the mast, bolted to the exact same horizontal beam, hangs a slab of heavy cast iron. You rarely notice the counterweight unless you look behind the tower, yet its mass dictates every inch the front arm can reach.\n\nHuman social motivation runs on that exact cantilever geometry. What you see swinging out into the conversation is the subject's **Primary Social Need**—the outward reach for respect, belonging, admiration, sympathy, or control. Bolted directly to the opposite end of that steel beam sits the **Hidden Fear Map**—the dense, unstated catastrophe the subject cannot afford to experience. The two are not separate traits; they are opposite ends of a single load-bearing lever.\n\nRarely, however, does only one crane operate on the skyline. In high-stakes rooms, two beams often overlap—a subject may reach outward for *Significance* while simultaneously bracing against the counterweight of *Acceptance* (fearing that standing out will isolate them from the tribe). When a person oscillates between bold claims and sudden self-deprecation, you are not watching random inconsistency; you are watching a **Dual-Need Collision**—two counterweights fighting over the same center of gravity.\n\nOnce you see the beam as one rigid unit, Tier 2's telemetry (M03-M04) snaps into three dimensions. A sudden **BToE Stress Cluster** or **Artificial Smile** is no longer a mysterious twitch; it is the steel shuddering because a casual remark just bumped the hidden counterweight. And in EM's actuator layer, you stop pushing randomly against the front arm and start managing the load cleanly—stabilizing the counterweight so the entire crane settles into calm alignment."
+        },
+        "granularMechanics": {
+          "causalChainsMarkdown": "### Mechanism A: The Six-Currency Inversion Matrix\nEvery **Primary Social Need** maps to a distinct outward bid and a precise inverse **Hidden Fear Map**:\n- **Significance** (status, spotlight, credit) <-> Fear of being ordinary, invisible, or replaceable.\n- **Approval** (explicit praise, reassurance) <-> Fear of criticism, disappointment, or falling out of favor.\n- **Acceptance** (tribal warmth, inclusion) <-> Fear of exile, awkwardness, or outsider status.\n- **Intelligence** (insight, precision, analytical mastery) <-> Fear of appearing ignorant, naive, or outmatched.\n- **Pity** (rescue, lowered expectations, hardship validation) <-> Fear of full accountability or abandonment.\n- **Strength / Power** (autonomy, frame control, toughness) <-> Fear of helplessness, vulnerability, or being dictated to.\n\n*Micro-Scenario:* During a cross-functional kickoff, a senior architect interrupts twice to explain basic database concepts and bristles visibly when a junior engineer simplifies his diagram. Applying Lens 4 and the Inversion Matrix reveals the beam: outward bid = **Intelligence**, bumped counterweight = fear of appearing redundant or outmatched. [L2-HOOK:L2-M05-need-fear-inversion]\n\n### Mechanism B: Triangulating the Stack Through Conversational Gravity\nSubjects rarely announce their Primary Social Need directly. You triangulate the active need across three converging vectors:\n1. **Conversational Gravity:** Where the subject steers unscripted talk given two minutes of open air.\n2. **Resentment Polarity (Heat-to-Stakes Disproportion):** Criticism alone is not a diagnostic tell—competent people get frustrated by genuine incompetence. What exposes the seam of a **Hidden Fear Map** is *surplus emotional heat* (**Heat-to-Stakes Disproportion**): bitterness that far outstrips the practical damage, or recurring contempt aimed at people who hold no real leverage over the subject's outcomes.\n3. **Disproportionate Stress Spikes:** When a neutral comment triggers a **BToE Stress Cluster** (M03) far heavier than the literal stakes warrant, trace which counterweight it grazed.\n\n*Micro-Scenario:* A regional sales lead spends four minutes praising how tight-knit his old team was, asks twice about team camaraderie, and shows lip compression + neck touch when told the role works mostly solo. Gravity and stress spike converge cleanly on **Acceptance**. [L2-HOOK:L2-M05-conversational-gravity-read]\n\n### Mechanism C: Actuator Deployment — Social-Currency Calibration\n`Identify probable Primary Social Need` -> `Deliver a concise, specific, reality-grounded micro-dose of that currency` -> `Subject's Hidden Fear Map relaxes (threat pressure drops)` -> `Protective Mask loosens and speech volume/candor expands` -> `Hypothesis confirmed; higher-bandwidth dialogue unlocked`.\n\nCurrency only clears when the mint is trusted. A micro-dose of *Intelligence* or *Significance* requires matching **Authority Architecture** (M02)—if you lack standing to evaluate a subject's technical mastery, praising it from above sounds condescending. When you are lower-status or outside their domain, shift from *evaluative validation* ('That was brilliant') to **Impact Validation** ('Seeing how you framed that bottleneck clarified the entire timeline for me').\n\nDosage and specificity are critical: vague flattery collapses authority, while stepping on the inverse **Hidden Fear Map** triggers immediate **Psychological Reactance** (M10). [L2-HOOK:L2-M05-currency-calibration-overfeed]",
+          "sensorToActuatorLoops": [
+            {
+              "id": "loop-m05-01",
+              "title": "Need-Vector Triangulation",
+              "sensorInput": "Subject steers neutral talk toward personal impact and shows Heat-to-Stakes Disproportion toward 'uncredited work.'",
+              "interpreterHypothesis": "Top-of-stack Primary Social Need is Significance (hold Hypothesis Plurality against Approval).",
+              "actuatorCalibration": "Deliver one concise, fact-anchored credit statement via Impact Validation while holding calm Authority Architecture, then pause (Landing-Window Attention, M04).",
+              "feedbackSignal": "Genuine postural opening, sustained eye warmth, and unprompted strategic disclosure confirm the vector.",
+              "linkedL2HookId": "L2-M05-currency-calibration-overfeed"
+            },
+            {
+              "id": "loop-m05-02",
+              "title": "Fear-Seam Recovery",
+              "sensorInput": "Unintended comment (e.g., simplifying someone's model) triggers a sudden BToE Stress Cluster (M03) or abrupt Artificial Smile (M04).",
+              "interpreterHypothesis": "You just bumped their Hidden Fear Map (e.g., Intelligence or Strength/Power threat).",
+              "actuatorCalibration": "Do not double down or over-apologize (Status-Tension Leak). Restore the threatened currency in one clean sentence anchoring their core role.",
+              "feedbackSignal": "Accounting for Autonomic Decay Lag (45-90s), facial tension softens and collaborative engagement returns.",
+              "linkedL2HookId": "L2-M05-need-fear-inversion"
+            }
+          ]
+        },
+        "epistemicAudit": {
+          "gradedClaims": [
+            {
+              "id": "claim-m05-01",
+              "claimSummary": "Threatening a person's core self-concept (competence, autonomy, or belonging) spikes defensive resistance and blocks information processing.",
+              "tier": "T1",
+              "rationale": "Extensively replicated in social psychology and self-affirmation research."
+            },
+            {
+              "id": "claim-m05-02",
+              "claimSummary": "Specific, reality-anchored validation builds trust and lowers defensiveness more effectively than generic praise.",
+              "tier": "T1",
+              "rationale": "Supported by feedback, persuasion-knowledge, and interpersonal trust literature."
+            },
+            {
+              "id": "claim-m05-03",
+              "claimSummary": "The Six Social Needs taxonomy (Significance, Approval, Acceptance, Intelligence, Pity, Strength/Power) structures primary human social drives.",
+              "tier": "T2",
+              "rationale": "High-utility field clustering of social currencies; academic psychology uses Self-Determination Theory's three basic needs.",
+              "linkedL3HookId": "L3-M05-six-needs-vs-sdt"
+            },
+            {
+              "id": "claim-m05-04",
+              "claimSummary": "Need-to-Fear inverse mapping decodes defensive overreactions across shifting room contexts.",
+              "tier": "T2",
+              "rationale": "Operationally sharp heuristic when applied as a dynamic priority stack rather than static character typing.",
+              "linkedL3HookId": "L3-M05-trait-vs-state-needs"
+            },
+            {
+              "id": "claim-m05-05",
+              "claimSummary": "Each social need corresponds to a neat, isolated neurochemical/neuropeptide trigger (Neuropeptide Reductionism).",
+              "tier": "T3",
+              "rationale": "Pop-neurology oversimplification contradicting distributed affective neuroscience.",
+              "linkedL3HookId": "L3-M05-neuropeptide-reductionism"
+            },
+            {
+              "id": "claim-m05-06",
+              "claimSummary": "Identifying and feeding a subject's Primary Social Need guarantees predictable compliance.",
+              "tier": "T3",
+              "rationale": "Ignores persuasion-knowledge radar, rational self-interest, and reactance when flattery appears instrumental.",
+              "linkedL3HookId": "L3-M05-need-exploitation-reactance"
+            }
+          ],
+          "commonMisconceptions": [
+            "Single-Box Personality Misconception: labeling someone permanently as 'a Pity person' or 'an Intelligence person' instead of profiling the active need in this specific room.",
+            "Sycophant Overfeed Trap: flooding a subject with heavy generic praise, which collapses Authority Architecture (M02)."
+          ],
+          "highProbabilityFalsePositives": [
+            "Misreading proportional operational frustration or legitimate risk warnings as a bumped Hidden Fear Map.",
+            "Confusing practical workflow support needs with an emotional Acceptance need."
+          ],
+          "disconfirmingEvidenceRules": [
+            "If you deliver a clean, reality-anchored micro-dose of your hypothesized social currency and the subject responds with flat indifference, polite deflection (Artificial Smile), or mild annoyance, your top-of-stack hypothesis is falsified."
+          ],
+          "downstreamEffects": {
+            "secondOrder": [
+              "Accurate need-mapping directly supercharges Tier 4 Elicitation Probe design (M08) and Tier 3 FATE Engine framing (M06)."
+            ],
+            "thirdOrder": [
+              "Repeatedly feeding Pity reinforces learned helplessness; weaponizing a Hidden Fear Map for short-term squeeze guarantees Reputational & Trust Decay (M12)."
+            ]
+          }
+        },
+        "appSeed": {
+          "visualDiagram": {
+            "type": "threshold_slider",
+            "title": "The Need-Fear Cantilever Beam",
+            "description": "Interactive balance beam pairing any of the 6 Primary Social Needs with its inverse Hidden Fear Map and a live Calibration Dosage slider (Threaten -> Neutral -> Surgical -> Sycophantic Overfeed).",
+            "interactiveVariables": [
+              "Active Social Need (1-6)",
+              "Calibration Dosage",
+              "Specificity (Generic vs. Fact-Anchored)",
+              "Subject Candor %"
+            ]
+          },
+          "fieldCalibrationDrill": {
+            "scenarioPrompt": "You are onboarding a newly promoted VP who inherited a struggling division. She repeatedly emphasizes turning around two broken regions before anyone else saw the pattern, corrects your margin formula, and tenses visibly when you suggest an external consultant to co-design her Q2 plan.",
+            "deceptiveRedHerring": "Assuming her primary driver is Approval (warmly reassuring her everyone likes her) OR flooding her with generic flattery.",
+            "targetSkillTermIds": [
+              "primary-social-need",
+              "hidden-fear-map",
+              "social-currency-calibration",
+              "impact-validation",
+              "authority-architecture"
+            ],
+            "idealOperatorResponse": "Hold Hypothesis Plurality across Intelligence and Strength/Power. Drop the consultant immediately and deploy surgical Impact Validation: 'Given how fast you spotted the structural leak in your last two regions, an outside advisor would just slow your diagnosis down. You own the Q2 architecture—tell me where you want internal data support so we stay out of your way.'"
+          }
+        }
+      },
+      "pass2": {
+        "completedAt": "2026-11-25",
+        "externalLensUsed": [
+          "Self-Determination Theory (Deci & Ryan)",
+          "CAPS / Whole Trait Theory (Mischel, Fleeson)",
+          "Affective Neuroscience (Feldman Barrett, De Dreu)",
+          "Persuasion Knowledge Model & Reactance Theory"
+        ],
+        "layer1Audit": {
+          "causalGapPatches": [
+            {
+              "id": "patch-m05-01",
+              "targetSection": "mentalModel",
+              "quotedWeakJoint": "What you see swinging out into the conversation is the subject's Primary Social Need... Bolted directly to the opposite end of that steel beam sits the Hidden Fear Map...",
+              "diagnosis": "Depicts a single isolated beam, missing Dual-Need Collisions where two top-of-stack currencies pull against each other.",
+              "surgicalRepairMarkdown": "Rarely, however, does only one crane operate on the skyline. In high-stakes rooms, two beams often overlap—a subject may reach outward for *Significance* while simultaneously bracing against the counterweight of *Acceptance* (fearing that standing out will isolate them from the tribe). When a person oscillates between bold claims and sudden self-deprecation, you are not watching random inconsistency; you are watching a **Dual-Need Collision**—two counterweights fighting over the same center of gravity.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m05-02",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "What a person bitterly criticizes in others almost always exposes the seam of their own Hidden Fear Map...",
+              "diagnosis": "Jumps from strong criticism to hidden insecurity without separating Heat-to-Stakes Disproportion from proportional operational frustration.",
+              "surgicalRepairMarkdown": "2. **Resentment Polarity (Heat-to-Stakes Disproportion):** Criticism alone is not a diagnostic tell—competent people get frustrated by genuine incompetence. What exposes the seam of a **Hidden Fear Map** is *surplus emotional heat* (**Heat-to-Stakes Disproportion**): bitterness that far outstrips the practical damage, or recurring contempt aimed at people who hold no real leverage over the subject's outcomes.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m05-03",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Identify probable Primary Social Need -> Deliver a concise, specific, reality-grounded micro-dose of that currency -> Subject's Hidden Fear Map relaxes...",
+              "diagnosis": "Assumes any operator can deliver evaluative praise regardless of status asymmetry; lower-status praise from above sounds patronizing without Impact Validation.",
+              "surgicalRepairMarkdown": "Currency only clears when the mint is trusted. A micro-dose of *Intelligence* or *Significance* requires matching **Authority Architecture** (M02)—if you lack standing to evaluate a subject's technical mastery, praising it from above sounds condescending. When you are lower-status or outside their domain, shift from *evaluative validation* ('That was brilliant') to **Impact Validation** ('Seeing how you framed that bottleneck clarified the entire timeline for me').",
+              "status": "merged"
+            }
+          ],
+          "ontologyDriftFlags": [
+            "Keep 'ego currencies' strictly descriptive so Primary Social Need remains the sole canonical label.",
+            "Tie informal mentions of 'high-trust rapport' back to Social-Currency Calibration and Reputational & Trust Decay (M12)."
+          ]
+        },
+        "calibrationLabs": {
+          "L2-M05-need-fear-inversion": {
+            "hookId": "L2-M05-need-fear-inversion",
+            "operationalFocus": "Mapping an outward bid to its inverse Hidden Fear Map without misreading legitimate professional rigor as insecurity.",
+            "workedExample": {
+              "setting": "Cross-functional product architecture kickoff with a senior systems architect and two junior engineers.",
+              "sceneMarkdown": "Twice in fifteen minutes, the architect interrupts to deliver unprompted mini-lectures on basic caching theory. When a junior engineer draws a clean three-box simplification on the whiteboard, the architect's jaw tightens, his shoulders shift back (BToE Stress Cluster), and he says coolly, 'That's cute for a slide deck, but it ignores how real distributed systems behave.'",
+              "ctaLoop": {
+                "baseline": "Relaxed and expansive whenever he is at the whiteboard explaining complex schematics.",
+                "deviationOrCluster": "Unprompted didactic lectures + sudden jaw tension and dismissive sarcasm triggered specifically when a junior simplified his model—clear Heat-to-Stakes Disproportion.",
+                "internalDriverHypothesis": "Top-of-stack Intelligence beam colliding with Hidden Fear Map (appearing redundant/outmatched), with secondary Strength/Power ownership threat.",
+                "tacticalProbeOrActuator": "Hold calm Authority Architecture and deploy Impact Validation: 'The three-box view is just for non-technical execs. On the actual build, we need your distributed-systems edge cases locked in so we don't hit a wall in Q3—which two failure modes on your diagram are non-negotiable?'",
+                "observableFeedbackAndNextMove": "Posture softens immediately; he stops dismissing the junior engineer and collaboratively annotates the simplified diagram."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical architecture kickoff.",
+              "mirrorSceneMarkdown": "The senior architect interrupts the junior engineer's three-box diagram briskly: 'Hold on—if we merge the auth queue and the billing queue like that, we violate PCI isolation and fail next month's audit.'",
+              "benignRootCause": "Proportional operational risk management—zero surplus emotional heat, concrete statutory consequence.",
+              "disconfirmingCue": "Matter-of-fact tone with no personal digs; when the junior draws a fourth box to fix isolation, the architect nods warmly ('Perfect, that solves it').",
+              "falsePositiveCost": "Treating a genuine risk catch as an Intelligence insecurity flare leads you to soothe his ego with unnecessary flattery while glossing over a real compliance hazard."
+            }
+          },
+          "L2-M05-conversational-gravity-read": {
+            "hookId": "L2-M05-conversational-gravity-read",
+            "operationalFocus": "Triangulating the active Primary Social Need via conversational gravity, resentment polarity, and stress spikes—while avoiding static personality-box errors.",
+            "workedExample": {
+              "setting": "Onboarding interview with a newly transferred regional sales lead joining a remote, autonomous enterprise team.",
+              "sceneMarkdown": "Given three minutes of open air, he talks entirely about how his old team ate lunch together daily and had each other's backs. He asks twice about offsites. When told enterprise reps work largely solo, he compresses his lips, touches the side of his neck (Autonomic Pacifier), and flashes an Artificial Smile.",
+              "ctaLoop": {
+                "baseline": "Warm, animated, open posture while talking about team camaraderie.",
+                "deviationOrCluster": "Conversational gravity orbiting group warmth + repeated inclusion probes + BToE Stress Cluster pinned directly to 'work largely solo.'",
+                "internalDriverHypothesis": "Active top-of-stack Primary Social Need is Acceptance (inverse Hidden Fear Map: isolation / being an outsider).",
+                "tacticalProbeOrActuator": "Deliver surgical Social-Currency Calibration anchored to real workflow: 'Territories are independent so you won't be micromanaged—but the core pod runs a tight Friday war-room where everyone swaps live deal tactics. I'll loop you in on Day 1.'",
+                "observableFeedbackAndNextMove": "Immediate postural relaxation, genuine eye-engaging smile, and energetic questions about pod members."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical onboarding interview.",
+              "mirrorSceneMarkdown": "The sales lead asks twice how closely the team collaborates and compresses his lips when told reps work solo.",
+              "benignRootCause": "Purely operational concern about deal-desk support—his last solo territory failed because engineering took three weeks to answer scoping questions.",
+              "disconfirmingCue": "Mild indifference to social offsites; posture only opens when you explain the dedicated Slack escalation channel and 24-hour Solutions Engineer SLA.",
+              "falsePositiveCost": "Pitching team happy hours instead of solving his real support bottleneck makes you look disconnected from how he actually closes deals."
+            }
+          },
+          "L2-M05-currency-calibration-overfeed": {
+            "hookId": "L2-M05-currency-calibration-overfeed",
+            "operationalFocus": "Calibrating dosage and specificity in Social-Currency Calibration to avoid sycophantic overfeed or patronage reactance.",
+            "workedExample": {
+              "setting": "High-stakes budget negotiation with a VP of Finance whose top-of-stack need is Significance paired with Intelligence.",
+              "sceneMarkdown": "Instead of broad praise, you hold calm Operator Baseline and anchor one brief, verifiable fact: 'Your cash-conversion framework from Q1 is the reason our unit economics survived the vendor hike—we built this Q3 proposal directly inside those exact guardrails.' Then you pause (Landing-Window Attention) and slide the one-page summary forward.",
+              "ctaLoop": {
+                "baseline": "Skeptical, guarded posture; pen poised to redline the proposal.",
+                "deviationOrCluster": "Shoulders drop slightly, pen rests flat on the table, and he leans in to read the guardrails section first.",
+                "internalDriverHypothesis": "Reality-anchored Impact Validation fed Significance and Intelligence without triggering sycophancy alarms.",
+                "tacticalProbeOrActuator": "Maintain flat, peer-level vocal cadence walking through the numbers—never repeat the compliment or hover for approval (Status-Tension Leak).",
+                "observableFeedbackAndNextMove": "He treats the proposal as an extension of his own framework and actively helps refine the ROI line."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical budget negotiation with the same VP of Finance.",
+              "mirrorSceneMarkdown": "Hoping to hook Significance fast, you open with heavy, unanchored praise: 'Everyone talks about how visionary your finance strategy is—honestly, it's intimidating presenting numbers to someone at your level.'",
+              "benignRootCause": "Operator error: sycophantic overfeed + status-asymmetry blunder.",
+              "disconfirmingCue": "Abrupt Artificial Smile, three-inch backward lean, and cool cutoff: 'Appreciate it—let's skip to line four on the cost breakdown.'",
+              "falsePositiveCost": "Overfeeding collapsed Authority Architecture, signaled weak numbers hidden behind flattery, and triggered heightened line-item scrutiny."
+            }
+          }
+        },
+        "epistemicDrawers": {
+          "L3-M05-six-needs-vs-sdt": {
+            "hookId": "L3-M05-six-needs-vs-sdt",
+            "topicTitle": "The Six Social Needs vs. Self-Determination Theory (SDT)",
+            "verdict": "REFINES_MECHANISM_DIFFERS",
+            "externalScienceMarkdown": "Chase Hughes's Six Social Needs is a pragmatic practitioner taxonomy, not an empirically derived psychometric model. Academic psychology's gold-standard validated framework is **Self-Determination Theory (SDT)** (Deci & Ryan, 2000), identifying three universal basic psychological needs: **Autonomy** (Strength/Power), **Competence** (Intelligence/Significance), and **Relatedness** (Acceptance/Approval). *Pity* is not a basic need in SDT, but a maladaptive secondary coping/social-control strategy used to extract care or avoid accountability when core needs feel blocked.",
+            "operationalTranslation": "Use the six labels as a fast conversational field-spotting checklist, while recognizing five are surface dialects of SDT's Autonomy, Competence, and Relatedness—and Pity is a defensive strategy, not a healthy need to feed long-term.",
+            "recommendedAction": "MODIFY_MECHANISM",
+            "keyReferences": [
+              "Deci & Ryan (2000) The 'What' and 'Why' of Goal Pursuits"
+            ]
+          },
+          "L3-M05-trait-vs-state-needs": {
+            "hookId": "L3-M05-trait-vs-state-needs",
+            "topicTitle": "Dynamic Priority Stacks vs. Static Trait Boxes (CAPS & Whole Trait Theory)",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "Walter Mischel's **Cognitive-Affective Personality System (CAPS)** ('if-then' behavioral signatures) and Fleeson's **Whole Trait Theory** strongly support shifting from fixed personality boxes to a context-dependent priority stack. People exhibit predictable within-person variation depending on situational cues, power dynamics, and active role demands.",
+            "operationalTranslation": "Never lock a permanent need label onto a human being; re-verify the active top-of-stack currency whenever the room, audience, or stakes change.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Mischel & Shoda (1995) CAPS Model",
+              "Fleeson (2001) Whole Trait Theory"
+            ]
+          },
+          "L3-M05-neuropeptide-reductionism": {
+            "hookId": "L3-M05-neuropeptide-reductionism",
+            "topicTitle": "Neuropeptide Reductionism vs. Modern Affective Neuroscience",
+            "verdict": "REFUTES_SPECULATIVE",
+            "externalScienceMarkdown": "Modern affective neuroscience (Feldman Barrett; Sapolsky; oxytocin meta-analyses) refutes one-to-one molecule-to-motive mapping. Oxytocin amplifies *social salience*—increasing in-group warmth while simultaneously sharpening out-group suspicion and envy (De Dreu et al., 2011). Dopamine tracks prediction error and motivational salience, not simple pleasure or validation.",
+            "operationalTranslation": "Discard the pop-neurochemistry completely. Keep the behavioral reinforcement logic and drop all claims about pushing chemical buttons in the brain.",
+            "recommendedAction": "DISCARD_OR_TREAT_AS_METAPHOR",
+            "keyReferences": [
+              "De Dreu et al. (2011) Oxytocin promotes human ethnocentrism",
+              "Feldman Barrett (2017) How Emotions Are Made"
+            ]
+          },
+          "L3-M05-need-exploitation-reactance": {
+            "hookId": "L3-M05-need-exploitation-reactance",
+            "topicTitle": "Persuasion Knowledge, Sinister Attribution & Reactance",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "The **Persuasion Knowledge Model** (Friestad & Wright, 1994) and **Psychological Reactance Theory** (Brehm, 1966) confirm that adults possess sharp radar for instrumental flattery. Once validation is perceived as covert leverage, sinister attribution drops trust below baseline and triggers severe second-order reputational decay.",
+            "operationalTranslation": "Deliver Social-Currency Calibration strictly when factually true and mutually constructive—never as hollow bait to squeeze a concession.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Friestad & Wright (1994) Persuasion Knowledge Model",
+              "Brehm (1966) Psychological Reactance"
+            ]
+          }
+        },
+        "mergeManifest": {
+          "allHooksResolved": true,
+          "unresolvedHookIds": [],
+          "proposedGlossaryAdditions": [
+            {
+              "id": "dual-need-collision",
+              "canonicalTerm": "Dual-Need Collision",
+              "entityType": "Internal State/Driver",
+              "source": "SYN",
+              "introducedInModule": "M05",
+              "definition": "Internal friction occurring when two top-of-stack Primary Social Needs pull in opposing directions (e.g., Significance vs. Acceptance), producing behavioral oscillation rather than deceit.",
+              "epistemicTiers": [
+                "T2"
+              ]
+            },
+            {
+              "id": "heat-to-stakes-disproportion",
+              "canonicalTerm": "Heat-to-Stakes Disproportion",
+              "entityType": "Signal/Indicator",
+              "source": "SYN",
+              "introducedInModule": "M05",
+              "definition": "Emotional intensity or resentment that significantly exceeds the practical operational stakes—the primary diagnostic separator between a bumped Hidden Fear Map and proportional professional frustration.",
+              "epistemicTiers": [
+                "T1"
+              ]
+            },
+            {
+              "id": "impact-validation",
+              "canonicalTerm": "Impact Validation",
+              "entityType": "Tactical Lever",
+              "source": "SYN",
+              "introducedInModule": "M05",
+              "definition": "Status-safe form of Social-Currency Calibration that highlights how a subject's action clarified or improved an outcome rather than evaluating them from above.",
+              "epistemicTiers": [
+                "T1"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "M06": {
+      "id": "M06",
+      "tierId": "T3",
+      "order": 6,
+      "title": "The FATE Model & Decision Mechanics",
+      "canonicalFocus": "Mapping how the brain prioritizes attention and locks in decisions before conscious rationalization catches up.",
+      "buildStage": "pass2_deepened",
+      "pass1": {
+        "canonicalTermIds": [
+          "fate-engine",
+          "micro-decision-ratchet",
+          "tribal-emotion-frame",
+          "wait-till-the-end-fallacy",
+          "reset-valve",
+          "counterfeit-tribalism",
+          "central-route-scrutiny"
+        ],
+        "crossTextReconciliation": {
+          "sixMinuteXRayChapters": [
+            "Ch. 6-7: The FATE Model (Focus, Authority, Tribe, Emotion), Wait-Till-the-End Fallacy, & Micro-Decision Mechanics"
+          ],
+          "ellipsisManualChapters": [
+            "Ch. 3-4: Exploiting FATE Levers, Tribal Framing, & Emotional Steering in Group and Dyadic Dynamics"
+          ],
+          "convergences": [
+            "Both texts dismantle the myth of the purely rational calculator: decisions are pre-sorted in real time by four high-priority filters (Focus, Authority, Tribe, Emotion)."
+          ],
+          "extensions": [
+            "6MX builds the diagnostic blueprint of the FATE Engine; EM wires it into the Tribal-Emotion Frame actuator so internal switches align before a request lands."
+          ],
+          "tensionsOrContradictions": [
+            "6MX frames FATE primarily as an ancient automatic filter to be diagnosed, whereas EM treats it as a programmable steering console. Reconciled as a pre-conscious routing layer that directs whether rational evaluation works for or against your proposal."
+          ],
+          "synonymResolutions": [
+            {
+              "sixMXLabel": "FATE survival filters",
+              "ellipsisLabel": "four decision levers",
+              "canonicalTermId": "fate-engine"
+            }
+          ]
+        },
+        "dependencies": {
+          "prerequisites": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ],
+          "unlocks": [
+            "M07",
+            "M09",
+            "M10"
+          ],
+          "forwardLinks": [
+            {
+              "termId": "six-minute-loop",
+              "targetModule": "M07"
+            },
+            {
+              "termId": "attentional-gate-ras-framing",
+              "targetModule": "M09"
+            },
+            {
+              "termId": "linguistic-priming-and-presupposition",
+              "targetModule": "M09"
+            },
+            {
+              "termId": "compliance-ladder",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "behavioral-double-bind",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "psychological-reactance",
+              "targetModule": "M10"
+            },
+            {
+              "termId": "reputational-and-trust-decay",
+              "targetModule": "M12"
+            }
+          ]
+        },
+        "mentalModel": {
+          "structuralMetaphorName": "The High-Speed Railway Switchyard",
+          "proseMarkdown": "Most people treat the human mind like a courtroom—assuming a listener sits patiently in the jury box, weighs every spreadsheet and logical premise in order, and waits for closing arguments before dropping the gavel. That assumption is the **Wait-Till-the-End Fallacy**, and it is why technically airtight proposals die in silent rooms.\n\nIn reality, human decision-making operates less like a courtroom and more like a **high-speed railway switchyard**. Long before the train of your logical argument reaches the terminal station, four automated track switches—**Focus, Authority, Tribe, and Emotion** (the **FATE Engine**)—have already thrown the rails.\n\n- **Focus** decides whether the train is even allowed onto the main line.\n- **Authority** checks whether the engineer holding the throttle carries real mass (**Authority Architecture**, M02).\n- **Tribe** scans the livery on the engine to see if it belongs to *our* company or a rival yard.\n- **Emotion** locks the heavy iron lever into place, committing the wheels to either the 'Accept' siding or the 'Reject' siding.\n\nOnce the wheels cross those four early switches, the **Micro-Decision Ratchet** clicks shut. Conscious logic does not disappear—it simply changes jobs. Instead of acting as an impartial judge, the prefrontal cortex becomes a press secretary, furiously generating rational reasons to defend the track the wheels are already riding."
+        },
+        "granularMechanics": {
+          "causalChainsMarkdown": "### Mechanism A: The Four Track Switches (FATE Engine)\nWhile these four switches operate as a gatekeeping cascade during live speech, they do not start at neutral zero. Before you open your mouth, context—your title, who invited you, and the room's history—has already pre-loaded **Authority** and **Tribe**. An operator who walks in pre-tagged as an outsider cannot rely on a clever **Focus** hook alone; they must neutralize the pre-loaded *Tribe* friction immediately or the switchyard stays locked.\n\n1. **Focus (Salience Gate):** Captures scarce metabolic attention via novelty, relevance, or immediate stakes (M09).\n2. **Authority (Credibility Gate):** Audits somatic and contextual mass (**Authority Architecture**, M02).\n3. **Tribe (In-Group Safety Gate):** Filters ideas through affiliation before accuracy.\n4. **Emotion (The Lock):** Affective charge commits the track; data informs, emotion commits.\n\n*Micro-Scenario:* A data scientist opens with twelve minutes of methodology slides before revealing a $400K cost-saving opportunity. By minute three, executives lose Focus, tag her as an out-group academic (Tribe), and lock into boredom (Emotion). [L2-HOOK:L2-M06-fate-switch-sequence]\n\n### Mechanism B: Early Lock-In (Micro-Decision Ratchet vs. Wait-Till-the-End Fallacy)\n`Opening 30-60 seconds land` -> `FATE switches evaluate Focus, Authority, Tribe, and Emotion` -> `Micro-Decision Ratchet clicks toward 'Approach' or 'Avoid'` -> `Confirmation filter activates` -> `Remaining facts are selectively weighed to justify the early verdict`.\n\nOnce the **Micro-Decision Ratchet** clicks to 'Avoid,' adding more logical proof only wedges the pawl tighter. To unlock a tripped track, you must deploy a **Reset Valve**: stop advancing your agenda entirely, name the mismatch plainly without defensiveness, and return control of the room's direction to the subject ('I'm pitching features you don't need—let's pause. What's the actual constraint on your side?'). Cutting forward pressure drops threat arousal and releases the ratchet so the switches can be re-thrown. [L2-HOOK:L2-M06-wait-till-end-trap]\n\n### Mechanism C: Actuator Deployment — The Tribal-Emotion Frame\n1. **Capture Focus** with a sharp, concrete tension relevant to the subject's world.\n2. **Anchor Authority** through calm **Operator Baseline** (M01) and unhurried tempo.\n3. **Establish Shared Tribe** by naming exact insider constraints and trade-offs (paired with **Social-Currency Calibration**, M05).\n4. **Set the Emotional Stake** *before* unrolling the logical proof.\n\nPrecision beats volume on the *Emotion* switch. High-pressure urgency or exaggerated fear-of-loss framing trips threat alarms and slams the subject into defensive skepticism. Effective emotional framing is **low-heat and concrete**—naming a specific daily friction they already feel so the nervous system registers *relief* and *recognition* rather than manipulation.\n\n*Micro-Scenario:* Opening a product pitch by naming the exact compliance-click pain floor managers hate and showing how one screen gives forty minutes back a day before showing a single chart. [L2-HOOK:L2-M06-tribal-emotion-framing]",
+          "sensorToActuatorLoops": [
+            {
+              "id": "loop-m06-01",
+              "title": "Early Switch Detection & Reset Valve",
+              "sensorInput": "Subject shows flat gaze, watch-checking, Artificial Smile (M04), or rapid-fire nitpicking early in a pitch.",
+              "interpreterHypothesis": "Micro-Decision Ratchet has already clicked to 'Avoid' due to a tripped Focus, Tribe, or Emotion switch.",
+              "actuatorCalibration": "Deploy the Reset Valve: stop feeding data immediately, pause (Landing-Window Attention, M04), name the friction calmly, and return agenda control.",
+              "feedbackSignal": "Subject leans in and voices the real tribal or emotional objection, unlocking the track for re-routing.",
+              "linkedL2HookId": "L2-M06-fate-switch-sequence"
+            },
+            {
+              "id": "loop-m06-02",
+              "title": "Tribe-First Re-Routing",
+              "sensorInput": "Subject rejects a sound proposal with 'That won't work in our environment' paired with a BToE Stress Cluster (M03).",
+              "interpreterHypothesis": "Tribe switch tripped—being processed as an outsider imposing an alien solution across their Autonomy Margin (M02).",
+              "actuatorCalibration": "Validate insider reality using Impact Validation (M05) and co-opt their exact operational constraints to co-design the adaptation.",
+              "feedbackSignal": "Defensive posture softens; subject begins modifying the proposal as theirs rather than rejecting it as yours.",
+              "linkedL2HookId": "L2-M06-tribal-emotion-framing"
+            }
+          ]
+        },
+        "epistemicAudit": {
+          "gradedClaims": [
+            {
+              "id": "claim-m06-01",
+              "claimSummary": "Rapid intuitive/emotional appraisals routinely precede conscious deliberation and bias how subsequent evidence is weighed.",
+              "tier": "T1",
+              "rationale": "Core finding of dual-process theory and motivated reasoning literature."
+            },
+            {
+              "id": "claim-m06-02",
+              "claimSummary": "In-group vs. out-group source identity heavily moderates whether identical arguments are accepted or scrutinized defensively.",
+              "tier": "T1",
+              "rationale": "Strongly replicated across social identity and persuasion research."
+            },
+            {
+              "id": "claim-m06-03",
+              "claimSummary": "The FATE Engine (Focus, Authority, Tribe, Emotion) structures early decision routing.",
+              "tier": "T2",
+              "rationale": "High-utility field synthesis of broader dual-process and social-influence principles.",
+              "linkedL3HookId": "L3-M06-fate-vs-dual-process"
+            },
+            {
+              "id": "claim-m06-04",
+              "claimSummary": "Tribal-Emotion Frame sequencing lowers friction before logical proof lands.",
+              "tier": "T2",
+              "rationale": "Operationally effective when calibrated to listener elaboration level.",
+              "linkedL3HookId": "L3-M06-motivated-reasoning-framing"
+            },
+            {
+              "id": "claim-m06-05",
+              "claimSummary": "FATE levers act as an ancient evolutionary override that hijacks or disables rational agency.",
+              "tier": "T3",
+              "rationale": "Overstates automaticity and ignores prefrontal executive control and persuasion-knowledge defenses.",
+              "linkedL3HookId": "L3-M06-evolutionary-hijack-overclaim"
+            },
+            {
+              "id": "claim-m06-06",
+              "claimSummary": "Analytical logic never matters once Emotion and Tribe are engaged.",
+              "tier": "T3",
+              "rationale": "Fails under Central-Route Scrutiny (ELM) in high-stakes technical, financial, and institutional environments.",
+              "linkedL3HookId": "L3-M06-elaboration-likelihood-limits"
+            }
+          ],
+          "commonMisconceptions": [
+            "Emotion Replaces Logic Misconception: emotion opens the track, but airtight logic keeps the train on the rails under peer or board scrutiny.",
+            "Counterfeit Tribalism Backfire: clumsily mimicking an in-group's slang or grievances as an obvious outsider permanently shuts the Tribe switch."
+          ],
+          "highProbabilityFalsePositives": [
+            "Mistaking rigorous Central-Route Scrutiny (e.g., a CFO interrogating unit economics) for an emotional 'Avoid' ratchet.",
+            "Misreading a time-constrained executive asking for the final ask as a tripped Focus switch."
+          ],
+          "disconfirmingEvidenceRules": [
+            "If a subject remains skeptical after aligning Focus, Authority, Tribe, and Emotion, and immediately leans in the moment you open the raw financial model or technical proof, your emotional-block hypothesis is falsified—Central-Route Scrutiny is active."
+          ],
+          "downstreamEffects": {
+            "secondOrder": [
+              "Clean early FATE alignment drastically reduces friction for Tier 5 Compliance Ladder (M10) and Attentional Gate / RAS Framing (M09)."
+            ],
+            "thirdOrder": [
+              "Using high-heat Emotion/Tribe framing to push a decision that fails logical scrutiny the next morning triggers buyer's remorse and permanent Reputational & Trust Decay (M12)."
+            ]
+          }
+        },
+        "appSeed": {
+          "visualDiagram": {
+            "type": "causal_flow",
+            "title": "The FATE Switchyard Simulator",
+            "description": "Top-down railway switchyard with four sequential switches (Focus, Authority, Tribe, Emotion) routing a Proposal Train onto either the Approach or Avoid siding before reaching the Logical Data station.",
+            "interactiveVariables": [
+              "Focus Salience",
+              "Authority Mass",
+              "Tribe Alignment",
+              "Emotional Stake",
+              "Data Quality (1-100)"
+            ]
+          },
+          "fieldCalibrationDrill": {
+            "scenarioPrompt": "Pitching an analytics workflow to five veteran plant managers, you spend ten minutes on IT cloud architecture, saving labor savings for Slide 12. By Slide 4, two are on their phones and one interrupts: 'Sounds great for headquarters, but we're already short-staffed on the floor.'",
+            "deceptiveRedHerring": "Responding defensively: 'If you just wait until Slide 12, you'll see the ROI numbers that prove this saves you time.'",
+            "targetSkillTermIds": [
+              "fate-engine",
+              "wait-till-the-end-fallacy",
+              "reset-valve",
+              "tribal-emotion-frame"
+            ],
+            "idealOperatorResponse": "Deploy the Reset Valve immediately—close the architecture slides, validate their insider constraint, and pivot to a concrete Tribal-Emotion Frame: 'Fair call—I buried the lead in IT jargon. Forget the cloud diagram: this kills the two-hour Friday manual log your shift leads hate. Want to see that one screen, or scrap the rest of the deck?'"
+          }
+        }
+      },
+      "pass2": {
+        "completedAt": "2026-11-25",
+        "externalLensUsed": [
+          "Dual-Process Theory (Kahneman) & Social Intuitionism (Haidt)",
+          "Motivated Reasoning (Kunda) & Argumentative Theory of Reason (Mercier & Sperber)",
+          "Elaboration Likelihood Model (Petty & Cacioppo)",
+          "Persuasion Knowledge Model (Friestad & Wright)"
+        ],
+        "layer1Audit": {
+          "causalGapPatches": [
+            {
+              "id": "patch-m06-01",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "The four variables of the FATE Engine do not carry equal weight at every moment; they fire as a sequential gatekeeping cascade...",
+              "diagnosis": "Treats FATE as starting at neutral zero, missing pre-loaded Authority and Tribe context that can lock the yard before speech begins.",
+              "surgicalRepairMarkdown": "While these four switches operate as a gatekeeping cascade during live speech, they do not start at neutral zero. Before you open your mouth, context—your title, who invited you, and the room's history—has already pre-loaded **Authority** and **Tribe**. An operator who walks in pre-tagged as an outsider cannot rely on a clever **Focus** hook alone; they must neutralize the pre-loaded *Tribe* friction immediately or the switchyard stays locked.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m06-02",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "Subject leans in and voices the real tribal or emotional objection, unlocking the track for re-routing.",
+              "diagnosis": "Jumps to unlocking a locked Micro-Decision Ratchet without explaining the Reset Valve mechanism (cutting forward thrust + returning agenda control).",
+              "surgicalRepairMarkdown": "Once the **Micro-Decision Ratchet** clicks to 'Avoid,' adding more logical proof only wedges the pawl tighter. To unlock a tripped track, you must deploy a **Reset Valve**: stop advancing your agenda entirely, name the mismatch plainly without defensiveness, and return control of the room's direction to the subject ('I'm pitching features you don't need—let's pause. What's the actual constraint on your side?'). Cutting forward pressure drops threat arousal and releases the ratchet so the switches can be re-thrown.",
+              "status": "merged"
+            },
+            {
+              "id": "patch-m06-03",
+              "targetSection": "granularMechanics",
+              "quotedWeakJoint": "4. Set the Emotional Stake (what pain disappears or what win locks in) before unrolling the logical proof.",
+              "diagnosis": "Treats Emotion as a volume knob without distinguishing low-heat recognition from threat-spike overheat.",
+              "surgicalRepairMarkdown": "Precision beats volume on the *Emotion* switch. High-pressure urgency or exaggerated fear-of-loss framing trips threat alarms and slams the subject into defensive skepticism. Effective emotional framing is **low-heat and concrete**—naming a specific daily friction they already feel so the nervous system registers *relief* and *recognition* rather than manipulation.",
+              "status": "merged"
+            }
+          ],
+          "ontologyDriftFlags": [
+            "Keep 'affective charge' strictly descriptive so FATE Engine remains the sole canonical label.",
+            "Formalized 'high-scrutiny analytical mode' into canonical glossary term Central-Route Scrutiny."
+          ]
+        },
+        "calibrationLabs": {
+          "L2-M06-fate-switch-sequence": {
+            "hookId": "L2-M06-fate-switch-sequence",
+            "operationalFocus": "Diagnosing which specific FATE switch tripped early in a presentation and distinguishing it from unrelated Exogenous Noise.",
+            "workedExample": {
+              "setting": "Quarterly strategy review pitching onboarding automation to three regional operations directors.",
+              "sceneMarkdown": "You open with six minutes of API latency metrics. By minute three, two directors stop taking notes, lean back, exchange a glance, and one checks his watch asking coolly, 'How long is this deck?'",
+              "ctaLoop": {
+                "baseline": "Engaged, leaning forward, asking brisk questions during the prior staffing item.",
+                "deviationOrCluster": "Postural withdrawal + note-taking halt + watch-check + impatient time-check within 3 minutes (Focus and Tribe switch failure).",
+                "internalDriverHypothesis": "Micro-Decision Ratchet clicked to 'Avoid' because opening ignored their immediate operational stakes.",
+                "tacticalProbeOrActuator": "Deploy Reset Valve: skip the next eight slides and re-anchor Tribe + Emotion around branch leads losing six hours a week re-keying duplicate intake forms.",
+                "observableFeedbackAndNextMove": "Watch-checking stops, both directors lean back in, and one replies, 'Show me the intake fix.'"
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical quarterly strategy review.",
+              "mirrorSceneMarkdown": "Three minutes in, the senior director leans back, checks his phone twice, and asks briskly, 'Can we jump to the final ask?'",
+              "benignRootCause": "Pre-existing buy-in combined with Exogenous Noise—he read the pre-read memo last night, agrees, and has an urgent client escalation.",
+              "disconfirmingCue": "Zero sarcastic edge or BToE Stress Cluster; upon hearing the ask, he immediately says, 'Approved—send me the sign-off link before 2 PM.'",
+              "falsePositiveCost": "Launching an unnecessary emotional re-pitch wastes his time and makes you look unprepared."
+            }
+          },
+          "L2-M06-wait-till-end-trap": {
+            "hookId": "L2-M06-wait-till-end-trap",
+            "operationalFocus": "Recognizing when the Micro-Decision Ratchet has locked early versus when a subject is running Central-Route Scrutiny.",
+            "workedExample": {
+              "setting": "Vendor pitch to a hospital compliance committee.",
+              "sceneMarkdown": "Saving your HIPAA-audit guarantee for Slide 11, you spend ten minutes on company history. On Slide 3, the chair interrupts with tight jaw and Artificial Smile: 'Everything you're showing looks like a generic SaaS rollout.'",
+              "ctaLoop": {
+                "baseline": "Neutral, attentive posture when the meeting opened.",
+                "deviationOrCluster": "Abrupt interruption + jaw tension + dismissive categorization—Wait-Till-the-End Fallacy triggered early 'Avoid' ratchet.",
+                "internalDriverHypothesis": "Burying the compliance guarantee tripped Tribe and Emotion switches toward 'risky outsider.'",
+                "tacticalProbeOrActuator": "Abandon linear deck immediately; pull Slide 11 forward: 'Fair hit—I buried the only slide that matters. We carry a written HIPAA audit indemnity clause. Tear that apart first; if it doesn't hold up, we end early.'",
+                "observableFeedbackAndNextMove": "Returning control releases the ratchet; jaw softens and she flips straight to Slide 11 to evaluate seriously."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Budget approval review with a veteran CFO.",
+              "mirrorSceneMarkdown": "On Slide 2, the CFO stays stone-faced, arms folded, firing three sharp skeptical questions about customer-acquisition assumptions.",
+              "benignRootCause": "Central-Route Scrutiny—rigorous interrogation of unit economics is his normal Cognitive Baseline for capital approval.",
+              "disconfirmingCue": "Questions are hyper-specific to the math, he writes down exact answers, and moves smoothly to assumption #3 once #2 is substantiated.",
+              "falsePositiveCost": "Abandoning the numbers for emotional storytelling destroys Authority Architecture in a finance room."
+            }
+          },
+          "L2-M06-tribal-emotion-framing": {
+            "hookId": "L2-M06-tribal-emotion-framing",
+            "operationalFocus": "Deploying an authentic Tribal-Emotion Frame anchored in real operational constraints while avoiding Counterfeit Tribalism.",
+            "workedExample": {
+              "setting": "Introducing a safety-reporting app to veteran warehouse shift supervisors who distrust corporate rollouts.",
+              "sceneMarkdown": "Instead of pretending to be a warehouse vet, you own your role cleanly while naming their exact 6 AM broken-forms pain and offering a 90-second phone fix they can try to break on the spot.",
+              "ctaLoop": {
+                "baseline": "Arms folded, skeptical stares, low participation on arrival (pre-loaded out-group Tribe friction).",
+                "deviationOrCluster": "Two supervisors uncross arms, one chuckles knowingly at the '6 AM broken forms' line, and eye contact warms.",
+                "internalDriverHypothesis": "Owning outsider status honestly while naming a concrete insider pain disarmed the Tribe switch without faking membership.",
+                "tacticalProbeOrActuator": "Hand a live test device to the most vocal supervisor first (Strength/Power + Impact Validation) and invite him to break the 90-second timer.",
+                "observableFeedbackAndNextMove": "Supervisors lean in around the device and offer practical adoption tweaks."
+              }
+            },
+            "deceptiveNonExample": {
+              "setting": "Identical warehouse supervisor rollout.",
+              "mirrorSceneMarkdown": "A corporate consultant rolls up dress sleeves, drops forced floor slang, and opens with: 'Hey guys, I'm just a blue-collar problem-solver like you—let's stick it to the suits upstairs!'",
+              "benignRootCause": "Operator error: Counterfeit Tribalism—transparent mimicry by an obvious outsider.",
+              "disconfirmingCue": "Cold silence, sideways glances among supervisors, and immediate Artificial Smile compliance with zero real engagement.",
+              "falsePositiveCost": "Faking in-group identity trips the Tribe switch harder than being an honest outsider, locking permanent skepticism."
+            }
+          }
+        },
+        "epistemicDrawers": {
+          "L3-M06-fate-vs-dual-process": {
+            "hookId": "L3-M06-fate-vs-dual-process",
+            "topicTitle": "FATE Engine vs. Dual-Process Theory & Social Influence",
+            "verdict": "REFINES_MECHANISM_DIFFERS",
+            "externalScienceMarkdown": "The FATE Engine is a practitioner synthesis mapping onto established science: Focus (selective attention), Authority & Tribe (Cialdini's Authority and Unity/Social Proof), and Emotion (Kahneman's Dual-Process Theory and Haidt's Social Intuitionist Model). Unlike a rigid linear switchboard, intuitive appraisals and analytical checks interact continuously in parallel.",
+            "operationalTranslation": "Use FATE as a fast pre-flight framing checklist while recognizing it summarizes broader parallel dual-process and social-influence mechanics.",
+            "recommendedAction": "MODIFY_MECHANISM",
+            "keyReferences": [
+              "Kahneman (2011) Thinking, Fast and Slow",
+              "Haidt (2001) The Emotional Dog and Its Rational Tail",
+              "Cialdini (2016) Pre-Suasion"
+            ]
+          },
+          "L3-M06-motivated-reasoning-framing": {
+            "hookId": "L3-M06-motivated-reasoning-framing",
+            "topicTitle": "Motivated Reasoning & Framing Effects",
+            "verdict": "REINFORCES",
+            "externalScienceMarkdown": "The Micro-Decision Ratchet and Wait-Till-the-End Fallacy are heavily backed by **Motivated Reasoning** (Kunda, 1990), **Framing Effects** (Tversky & Kahneman, 1981), and the **Argumentative Theory of Reason** (Mercier & Sperber, 2011): once an early intuitive verdict forms, reasoning shifts from accuracy-seeking to directional defense.",
+            "operationalTranslation": "Front-load core framing, shared stakes, and credibility in the opening 60 seconds; never save your primary anchor for the end.",
+            "recommendedAction": "USE_AS_IS",
+            "keyReferences": [
+              "Kunda (1990) The Case for Motivated Reasoning",
+              "Mercier & Sperber (2011) Why do humans reason?"
+            ]
+          },
+          "L3-M06-evolutionary-hijack-overclaim": {
+            "hookId": "L3-M06-evolutionary-hijack-overclaim",
+            "topicTitle": "Evolutionary 'Hijack' Overclaims vs. Executive Control",
+            "verdict": "REFUTES_SPECULATIVE",
+            "externalScienceMarkdown": "Claims that FATE levers act as an ancient survival hijack disabling rational agency misrepresent cognitive neuroscience. Humans maintain robust prefrontal executive control and metacognitive monitoring—especially under high stakes, peer accountability, or active Persuasion Knowledge alerts.",
+            "operationalTranslation": "Discard hijack rhetoric; treat FATE alignment as reducing friction so a sound proposal gets a fair hearing.",
+            "recommendedAction": "DISCARD_OR_TREAT_AS_METAPHOR",
+            "keyReferences": [
+              "Friestad & Wright (1994) Persuasion Knowledge Model"
+            ]
+          },
+          "L3-M06-elaboration-likelihood-limits": {
+            "hookId": "L3-M06-elaboration-likelihood-limits",
+            "topicTitle": "Elaboration Likelihood Model (Peripheral vs. Central Route)",
+            "verdict": "REFINES_MECHANISM_DIFFERS",
+            "externalScienceMarkdown": "Petty & Cacioppo's **Elaboration Likelihood Model (ELM)** (1986) shows persuasion travels via the **Peripheral Route** (heuristics like Authority, Tribe, Emotion dominate under low investment/time) or the **Central Route** (hard data and argument quality dominate under high stakes and domain expertise). Emotional framing without airtight logic backfires in Central-Route rooms.",
+            "operationalTranslation": "Use Tribal-Emotion Frame to open the door, then immediately supply rigorous, audit-ready logic whenever Central-Route Scrutiny is active.",
+            "recommendedAction": "MODIFY_MECHANISM",
+            "keyReferences": [
+              "Petty & Cacioppo (1986) Communication and Persuasion: Central and Peripheral Routes"
+            ]
+          }
+        },
+        "mergeManifest": {
+          "allHooksResolved": true,
+          "unresolvedHookIds": [],
+          "proposedGlossaryAdditions": [
+            {
+              "id": "reset-valve",
+              "canonicalTerm": "Reset Valve",
+              "entityType": "Tactical Lever",
+              "source": "SYN",
+              "introducedInModule": "M06",
+              "definition": "Deliberately halting forward persuasion, naming early friction neutrally, and returning control of the agenda to release a locked 'Avoid' Micro-Decision Ratchet.",
+              "epistemicTiers": [
+                "T1"
+              ]
+            },
+            {
+              "id": "counterfeit-tribalism",
+              "canonicalTerm": "Counterfeit Tribalism",
+              "entityType": "Failure Mode",
+              "source": "SYN",
+              "introducedInModule": "M06",
+              "definition": "Transparent mimicry of an in-group's slang, posture, or grievances by an obvious outsider, triggering instant cynicism and permanent Tribe switch closure.",
+              "epistemicTiers": [
+                "T1"
+              ]
+            },
+            {
+              "id": "central-route-scrutiny",
+              "canonicalTerm": "Central-Route Scrutiny",
+              "entityType": "Cognitive Mechanism",
+              "source": "SYN",
+              "introducedInModule": "M06",
+              "definition": "High-stakes, high-expertise analytical evaluation mode (from ELM) where hard data and logical coherence outweigh peripheral emotional or authority heuristics.",
+              "epistemicTiers": [
+                "T1"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
