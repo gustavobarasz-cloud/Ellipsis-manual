@@ -7,6 +7,8 @@ import {
 } from "../data/loadCurriculum";
 import { ENTITY_STYLES, VERDICT_STYLES } from "../data/entityStyles";
 import { ModuleSimulator } from "./simulators/SimulatorRegistry";
+import PitModuleAddendum from "./pit/PitModuleAddendum";
+import { PitCodexView, PitPostMortemView } from "./pit/PitOpsViews";
 
 // ============================================================================
 // INLINE MARKDOWN + [L2-HOOK] CALIBRATION LAB RENDERER
@@ -297,7 +299,9 @@ function EpistemicClaimRow({ claim, drawer }) {
 // ============================================================================
 export default function UnifiedCurriculumApp() {
   const [db, setDb] = useState(() => loadDefaultCurriculum());
-  const [activeView, setActiveView] = useState("module"); // module | dashboard | dag
+  const [activeView, setActiveView] = useState("module"); // module | dashboard | dag | pit-codex | pit-log
+  const [codexSearchPrefill, setCodexSearchPrefill] = useState("");
+  const [pmModulePrefill, setPmModulePrefill] = useState("M01");
   const [activeModuleId, setActiveModuleId] = useState("M01");
   const [glossaryOpen, setGlossaryOpen] = useState(false);
   const [glossaryQuery, setGlossaryQuery] = useState("");
@@ -402,6 +406,8 @@ export default function UnifiedCurriculumApp() {
             ["module", "Reader"],
             ["dashboard", `Audit & Mastery (${stats.drillsDone}/${stats.moduleCount})`],
             ["dag", "12-Module DAG"],
+            ["pit-codex", "Pit Codex"],
+            ["pit-log", "Post-Mortems"],
           ].map(([v, label]) => (
             <button
               key={v}
@@ -631,6 +637,14 @@ export default function UnifiedCurriculumApp() {
             </div>
           )}
 
+          {activeView === "pit-codex" && (
+            <PitCodexView initialSearch={codexSearchPrefill} />
+          )}
+
+          {activeView === "pit-log" && (
+            <PitPostMortemView prefillModuleId={pmModulePrefill} />
+          )}
+
           {activeView === "module" && activeModule && (
             <article className="max-w-4xl mx-auto space-y-8 pb-16">
               {/* MODULE HEADER */}
@@ -791,6 +805,19 @@ export default function UnifiedCurriculumApp() {
                   </div>
                 )}
               </section>
+
+              {/* THE PIT OPERATIONAL ADDENDUM */}
+              <PitModuleAddendum
+                moduleId={activeModule.id}
+                onOpenCodex={(codexId) => {
+                  setCodexSearchPrefill(codexId || "");
+                  setActiveView("pit-codex");
+                }}
+                onQuickLogPostMortem={(mId) => {
+                  setPmModulePrefill(mId);
+                  setActiveView("pit-log");
+                }}
+              />
             </article>
           )}
         </main>
