@@ -1,17 +1,34 @@
-# Behavioral Intelligence Workstation (6MX + Ellipsis Manual)
+# Behavioral Intelligence & Influence Curriculum (6-Tier Monograph)
 
-A 6-Tier, 12-Module interactive Next.js curriculum synthesizing *Six-Minute X-Ray* and *The Ellipsis Manual* with:
-- **81 Canonical Glossary Terms** across 5 entity primitives (`Signal/Indicator`, `Internal State/Driver`, `Cognitive Mechanism`, `Tactical Lever`, `Failure Mode`)
-- **12 Bespoke Interactive Simulators (`M01`–`M12`)**
-- **36 Inline Layer 2 Calibration Labs** (Worked Examples + Deceptive Non-Examples)
-- **48 Collapsible Layer 3 Epistemic Science Drawers** (`T1` / `T2` / `T3` evidence grading)
-- **Client-Side JSON Bundle Importer & 4-Invariant Validator**
+A 12-module, 6-tier graduate-seminar curriculum synthesizing *Six-Minute X-Ray* (diagnostic sensor layer) and *The Ellipsis Manual* (intervention actuator layer) with explicit epistemic boundaries, causal mechanics, and 36 `[L2-HOOK]` integration anchors.
 
-## Quick Start
+## Architecture
+
+- **Tier 1 (`tier1.json`)**: Perceptual Calibration & Authority Architecture (`M01`–`M02`)
+- **Tier 2 (`tier2.json`)**: Behavioral Table of Elements & Facial Mechanics (`M03`–`M04`)
+- **Tier 3 (`tier3.json`)**: Social Needs & Decision Mechanics (`M05`–`M06`)
+- **Tier 4 (`tier4.json`)**: Profiling Loop & Elicitation (`M07`–`M08`)
+- **Tier 5 (`tier5.json`)**: Salience, Framing & Compliance Mechanics (`M09`–`M10`)
+- **Tier 6 (`tier6.json`)**: Anchoring, Counter-Persuasion & Ethical Integration (`M11`–`M12`)
+
+## Quick Start (Local)
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
+
+## Push to GitHub & Deploy to Vercel
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: 12-module behavioral intelligence curriculum"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+git push -u origin main
+```
+
+Then import the repository in **Vercel**—Next.js App Router is detected automatically with zero extra configuration.

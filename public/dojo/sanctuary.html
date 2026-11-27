@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>The Communication Dojo — The Sanctuary (Parallel I-Thou Track · S1–S4 · v4.4)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bevan&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --paper:#F6F3EE; --card:#FCFBF8; --card2:#EFEAE4;
+  --ink:#1F1B24; --muted:#686070; --line:#DDD5E2; --line2:#C7BCD0;
+  --sanc:#4A3B5C; --sanc-soft:#EFEAF6; --sanc-deep:#2E233B;
+  --warm:#9B4D32; --warm-soft:#F7E7E0;
+  --ok:#2E6A44; --ok-soft:#D9ECDF;
+  --shadow:0 2px 8px rgba(35,24,48,.08), 0 10px 28px rgba(35,24,48,.06);
+  --r-1:6px; --r-2:11px;
+  --display:'Bevan', Georgia, serif;
+  --sans:'Archivo', 'Helvetica Neue', system-ui, sans-serif;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --paper:#15131A; --card:#1D1A24; --card2:#262230;
+  --ink:#EEE8F5; --muted:#A39AB0; --line:#352F42; --line2:#484059;
+  --sanc:#B09AD0; --sanc-soft:#2B2338; --sanc-deep:#120E18;
+  --warm:#E2815D; --warm-soft:#3B241C;
+  --ok:#72C992; --ok-soft:#1D3827;
+  --shadow:0 2px 8px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.3);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15.5px/1.66 var(--sans)}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.2;margin:0}
+h1{font-size:clamp(22px,4.5vw,31px)} h2{font-size:clamp(18px,3.8vw,23px)} h3{font-size:17px}
+p{margin:0 0 11px}
+button{font:inherit;color:inherit;cursor:pointer}
+textarea,input[type="text"],select{font:14.5px/1.5 var(--sans);color:var(--ink);background:var(--paper);border:1.5px solid var(--line2);border-radius:var(--r-1);padding:9px 11px;width:100%}
+textarea:focus,input:focus,select:focus{outline:none;border-color:var(--sanc)}
+textarea{resize:vertical;min-height:74px}
+[hidden]{display:none!important}
+.eyebrow{font:700 11px/1.3 var(--sans);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.small{font-size:13.5px} .xs{font-size:12px} .muted{color:var(--muted)}
+
+/* Banner */
+.banner{background:var(--sanc-deep);color:#F6F3EE;border-bottom:3px solid var(--sanc);padding:16px 14px}
+.banner-inner{max-width:980px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+.banner-title{font-family:var(--display);font-size:clamp(20px,4.2vw,27px);letter-spacing:.02em}
+.banner-quote{font:italic 600 13.5px/1.4 var(--sans);background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.22);border-radius:var(--r-1);padding:7px 12px;max-width:390px}
+
+/* Topbar */
+.topbar{position:sticky;top:0;z-index:40;background:var(--card);border-bottom:2px solid var(--ink);box-shadow:var(--shadow)}
+.topbar-inner{max-width:980px;margin:0 auto;padding:8px 14px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.btn-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.c-btn{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:5px 11px;background:var(--card);border:1.5px solid var(--ink);border-radius:var(--r-1);font:600 12.5px var(--sans);box-shadow:2px 2px 0 var(--ink)}
+.c-btn:active{transform:translate(1px,1px);box-shadow:.5px .5px 0 var(--ink)}
+.c-btn.sanc{background:var(--sanc);color:#fff;border-color:var(--sanc-deep)}
+.c-btn.quiet{border-color:var(--line2);box-shadow:none;font-weight:500}
+
+/* Shell & Nav */
+.shell{max-width:980px;margin:0 auto;padding:18px 14px 80px}
+.layer-nav{display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin-bottom:18px}
+@media (max-width:780px){.layer-nav{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:460px){.layer-nav{grid-template-columns:repeat(2,1fr)}}
+.ltab{text-align:left;padding:9px 10px;background:var(--card);border:1.5px solid var(--line2);border-radius:var(--r-1);display:flex;flex-direction:column;gap:2px}
+.ltab[aria-selected="true"]{background:var(--sanc);color:#fff;border-color:var(--sanc-deep);box-shadow:2px 2px 0 var(--ink)}
+.ltab .lc{font-family:var(--display);font-size:13.5px}
+.ltab .ln{font-size:11.5px;opacity:.88}
+
+/* Cards */
+.card{background:var(--card);border:1.5px solid var(--line);border-radius:var(--r-2);box-shadow:var(--shadow);padding:20px 18px;margin-bottom:16px}
+.card.sanc-border{border:2px solid var(--sanc)}
+.callout{border-left:3.5px solid var(--sanc);background:var(--sanc-soft);border-radius:0 var(--r-1) var(--r-1) 0;padding:11px 14px;margin:11px 0;font-size:14px}
+.callout.ok{border-left-color:var(--ok);background:var(--ok-soft)}
+.callout.warm{border-left-color:var(--warm);background:var(--warm-soft)}
+.clbl{display:block;font:700 10.5px var(--sans);letter-spacing:.11em;text-transform:uppercase;color:var(--sanc);margin-bottom:3px}
+.callout.ok .clbl{color:var(--ok)} .callout.warm .clbl{color:var(--warm)}
+
+.ex-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:12px 0}
+.ex-box{background:var(--paper);border:1.5px solid var(--line2);border-radius:var(--r-1);padding:11px 13px;font-size:13.8px}
+.ex-box.non{border-style:dashed;border-color:var(--warm)}
+.ex-tag{display:inline-block;font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:2px 6px;border-radius:3px;margin-bottom:5px;background:var(--sanc-soft);color:var(--sanc)}
+.ex-box.non .ex-tag{background:var(--warm-soft);color:var(--warm)}
+
+details.l3{border:1.5px dashed var(--sanc);border-radius:var(--r-1);background:var(--sanc-soft);margin-top:12px}
+details.l3 summary{padding:10px 13px;font:700 13px var(--sans);cursor:pointer;list-style:none;color:var(--sanc)}
+details.l3 summary::before{content:"▸ "} details.l3[open] summary::before{content:"▾ "}
+details.l3 .l3-body{padding:0 13px 12px;font-size:13.8px}
+
+.t-wrap{overflow-x:auto;border:1.5px solid var(--ink);border-radius:var(--r-1);background:var(--card);margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:13.2px;min-width:540px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--card2);font:700 10.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1.5px solid var(--ink)}
+
+.marker-check{display:flex;align-items:flex-start;gap:9px;cursor:pointer;font-weight:600;font-size:13.8px}
+.marker-check input{width:18px;height:18px;margin-top:2px;accent-color:var(--ok)}
+
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:680px){.grid-2{grid-template-columns:1fr}}
+.entry-item{background:var(--paper);border:1.5px solid var(--line2);border-left:4px solid var(--sanc);border-radius:var(--r-1);padding:11px 13px;margin-bottom:10px;font-size:13.8px}
+
+/* Pocket Card Modal */
+.modal-bg{position:fixed;inset:0;background:rgba(16,12,24,.72);display:grid;place-items:center;z-index:80;padding:16px}
+.modal-box{background:var(--card);border:2px solid var(--ink);border-radius:var(--r-2);width:min(440px,100%);padding:20px}
+.flip-wrap{perspective:900px;cursor:pointer;margin:14px 0}
+.flip-inner{position:relative;width:100%;min-height:190px;transition:transform 450ms;transform-style:preserve-3d}
+.flip-wrap.flipped .flip-inner{transform:rotateY(180deg)}
+.flip-face{position:absolute;inset:0;backface-visibility:hidden;border:2px solid var(--sanc);border-radius:var(--r-2);background:var(--sanc-deep);color:#F6F3EE;padding:22px;display:flex;flex-direction:column;justify-content:center;gap:8px;text-align:center}
+.flip-face.back{transform:rotateY(180deg)}
+#toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(14px);background:var(--sanc-deep);color:#fff;padding:9px 16px;border-radius:8px;font:600 13px var(--sans);opacity:0;pointer-events:none;transition:opacity 180ms,transform 180ms;z-index:95}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media print{
+  @page{size:letter;margin:0.45in}
+  .banner,.topbar,.layer-nav,.no-print,button{display:none!important}
+  body{background:#fff!important;color:#000!important;font-size:10.5px}
+  .shell{max-width:100%;padding:0}
+  .card{box-shadow:none;border:1px solid #444;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<div class="banner no-print">
+  <div class="banner-inner">
+    <div>
+      <div class="eyebrow" style="color:#CFC2E2;margin-bottom:2px">The Communication Dojo · Parallel I-Thou Track · v4.4</div>
+      <div class="banner-title">THE SANCTUARY (S1–S4)</div>
+      <div class="small" style="color:#DFD7EB">Knowing how to use the tactical tools, and choosing to put them down.</div>
+    </div>
+    <div class="banner-quote">“In an I-Thou relation you meet them as a whole person, without an agenda — not even a good one.”</div>
+  </div>
+</div>
+
+<header class="topbar no-print">
+  <div class="topbar-inner">
+    <div class="btn-row">
+      <span class="small muted" id="marker-count">0 / 13 Markers Noticed</span>
+      <span class="xs" style="color:var(--ok);font-weight:700" id="save-pill">Saved</span>
+    </div>
+    <div class="btn-row">
+      <button type="button" class="c-btn sanc" id="btn-pocket">Sanctuary Card</button>
+      <button type="button" class="c-btn" id="btn-export-md">Export .md</button>
+      <button type="button" class="c-btn quiet" id="btn-export-json">Backup JSON</button>
+      <label class="c-btn quiet" style="cursor:pointer">Import JSON<input type="file" id="import-json" accept=".json" style="display:none"></label>
+      <button type="button" class="c-btn quiet" onclick="window.print()">Print</button>
+      <button type="button" class="c-btn quiet" id="btn-theme">Dark</button>
+    </div>
+  </div>
+</header>
+
+<main class="shell">
+  <nav class="layer-nav no-print" id="layer-nav" role="tablist"></nav>
+  <section id="view-root"></section>
+</main>
+
+<!-- Pocket Card Modal -->
+<div class="modal-bg no-print" id="pocket-modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h3>Sanctuary Pocket Card</h3>
+      <button type="button" class="c-btn quiet" id="close-pocket">Close</button>
+    </div>
+    <div class="flip-wrap" id="pocket-flip" role="button" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-face front">
+          <div class="eyebrow" style="color:#CFC2E2">THE SANCTUARY · PUT THE TOOLS DOWN</div>
+          <div style="font-family:var(--display);font-size:22px">“Am I here, and are they?”</div>
+          <div class="small" style="color:#DFD7EB">Yield, don't brace · Recognize, don't profile · Reveal as a gift · Co-author &amp; accept.</div>
+        </div>
+        <div class="flip-face back">
+          <div class="eyebrow" style="color:#CFC2E2">THE SWITCH, FELT</div>
+          <div class="small" style="color:#F6F3EE">If you notice you are running a sequence on someone you love (label, pause, callback), you are in the Dojo. Put the sequence down and simply be present.</div>
+          <div class="xs" style="color:#CFC2E2;margin-top:6px">Acceptance never means tolerating harm — White Belt's limits stay in force.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="sanctuary-data">{"layers": [{"id": "L1", "short": "L1 · Inner", "belt": "Paired with White Belt (W1–W6)", "name": "Layer 1 · The Inner Sanctuary", "shift": "From self-regulation to self-surrender", "intro": "In the dojo you regulate to keep executive function online. Here you regulate to put down the need for control, so another person can put down theirs.", "modules": [{"id": "S1.1", "title": "Yielding, Not Bracing", "authors": "Thich Nhat Hanh · José Silva · Stephen Porges · Resmaa Menakem", "mechanism": "**Un-Armoring to Receive:** In W1, you exhaled to keep your executive function online so you would not snap, fawn, or over-explain. In S1.1, you use the exact same physiological doorway for the opposite purpose: **self-surrender rather than self-defense**. When someone you love is in pain, angry, or messy, the body reflexively braces—clamping the jaw, tightening the chest, and firing up the analytical solver. Yielding means dropping the shoulder armor, softening the eyes and throat, and letting your nervous system signal safety so the other person can put down *their* guard too.\n\n**The Deep-Listening Countdown & Polyvagal Calibration:** Sanctuary rebuilds the Silva 3-2-1 a second time—shifting it from tactical regulation to presence: **Three** (physical surrender: open the posture and drop the defenses), **Two** (silence the fixer: notice the itch to solve, advise, or reframe their pain, and set it down), **One** (witnessing: stop rehearsing a reply and simply be with them). This aligns directly with Thich Nhat Hanh's **deep listening**—listening with one purpose, so the other person suffers less, never to steer the conversation. Hold Stephen Porges's **Polyvagal Theory** with clean epistemic discipline here: long exhales, soft eyes, and warm vocal tone engage the myelinated ventral vagal social-engagement circuit, changing both what your body broadcasts and what you can actually hear in another person's voice.\n\n**Clean Pain vs. Analytical Retreat:** Resmaa Menakem's distinction from W1 deepens here. Sitting with a loved one's unfixable grief or disappointment hurts—that is **clean pain**, the honest discomfort of staying open and metabolizing reality without armoring up. Retreating into cool analysis, problem-solving, or premature reassurance is **dirty pain**: a polite escape that spares *your* discomfort while leaving them alone in theirs.", "stanceRule": "Before a close conversation, run the Deep-Listening 3-2-1. Whenever the urge to fix, optimize, or explain flashes inside the talk, take one quiet exhale and stay—without offering a solution unless they explicitly ask.", "worked": "A close friend unloads about a stalled career decision or raw heartbreak. Instead of mapping out three next steps or reframing the silver lining, you soften your posture, hold warm eye contact, and say simply: \"That sounds exhausting. I'm right here with you.\"", "nonEx": "Running a crisp tactical sequence on a grieving friend—mirroring their last three words and deploying a textbook label to \"draw out the black swan.\" Polished technique, yet still managing an I-It exchange.", "marker": "A friend says something like \"thank you for just listening,\" or you realize afterward that you did not offer a single solution—and the room got warmer, not heavier.", "deepTitle": "Layer 3 Deepening · Martin Buber (I and Thou)", "deepBody": "Buber captures why analytical listening quietly breaks intimacy: *\"Just as the melody is not made up of notes nor the verse of words… so with the man to whom I say Thou. I can take out from him the color of his hair, or of his speech, or of his goodness. I must continually do this. But each time he ceases to be Thou.\"* The instant you slice a loved one's pain into solvable parts, you have stepped back into I-It. Yielding lets the whole melody remain intact."}, {"id": "S1.2", "title": "The Architecture of the Armor", "authors": "William Torbert · Richard Schwartz · Gabor Maté · Brené Brown (flagged: not in notebook)", "mechanism": "**From Tactical Fallback to Relational Armor:** S1.1 asked you to put down your tools; S1.2 explains why your hands refuse to open. In W2, William Torbert's fallbacks showed how you lose tactical footing under workplace stress. Inside intimacy, those exact same action-logics—the **Expert** (intellectualizing a partner's hurt), the **Achiever** (project-managing a friend's grief), the **Diplomat** (fawning and erasing your own needs), or your **Observer** (going quiet and dissecting the room from ten feet away)—operate as **relational armor**, protecting you from the raw exposure of actually being known (your curriculum's reading of Brené Brown, flagged as not in the notebook).\n\n**Attachment vs. Authenticity:** Gabor Maté (*The Myth of Normal*) names the fault line running underneath every piece of that armor: the collision between **Attachment** (being loved and kept close) and **Authenticity** (being real and honoring what you actually feel). Mapped onto your fallbacks, the trade-off splits cleanly down the middle: **Diplomat armor** sacrifices *authenticity* to protect attachment, while **Expert** and **Opportunist armor** sacrifice *attachment* to protect a rigid, controlled version of authenticity.\n\n**Befriending the Protector — Why Shame Locks the Metal:** Judging your Achiever or Observer fallback as a \"developmental regression\" triggers instant shame—and shame bolts the armor tighter. In Internal Family Systems (*No Bad Parts*), the part that rushes in to project-manage a loved one's sorrow is a **Manager Protector** working preemptively to prevent chaos—just as a sudden emotional shutdown mid-hurt acts as a **Firefighter** trying to douse the sting. Turn inward, thank it for trying to keep you safe, and gently ask it to step aside for one minute so your adult Self can stay present.", "stanceRule": "The second you catch your armor clanking shut in a close conversation (fixing, lecturing, fawning, or retreating into Observer silence), silently name which side of Maté's line you are abandoning, thank the protector for trying to help, and ask it for sixty seconds of unarmored presence.", "worked": "Your partner or close friend shares something messy and unresolved. Your Achiever manager surges up with a recovery plan. Silently: \"Thanks for trying to keep this from spiraling—give me one minute to just sit here.\" Stay without fixing.", "nonEx": "Catching your Expert tone and immediately berating yourself (\"I'm regressing again—why can't I just stay Strategist?\"). That turns inner awareness into a harsh new Manager, pulling you even further out of the room.", "marker": "You notice your armor arrive mid-conversation with someone who matters, thank it without fighting it, and stay present anyway—at least once.", "deepTitle": "Layer 3 Deepening · Richard C. Schwartz (No Bad Parts)", "deepBody": "Schwartz emphasizes that *exiles, managers,* and *firefighters* are not the essence of who you are—they are simply roles young parts were forced into by what happened to you. Crucially, **we never force our way past protectors**; fighting a Manager only triggers a reinforcing loop that makes the armor (or an impulsive Firefighter shutdown) push back harder. Appreciation is not softness—it is the exact key that unlocks the gate."}, {"id": "S1.3", "title": "The Fear of Intimacy", "authors": "Erich Fromm · Robert Kegan & Lisa Lahey · A. H. Almaas · Susanne Cook-Greuter", "mechanism": "**Love as Active Craft, Not Passive Luck:** S1.1 softened the body and S1.2 thanked the armor; S1.3 walks straight into the room the armor was built to guard—the fear of being seen when you are *not* composed, competent, or useful. In *The Art of Loving*, Erich Fromm strips romance of passivity: mature love is an **active power** practiced daily through four interlocking disciplines—**care, responsibility, respect, and knowledge**—creating \"union under the condition of preserving one's integrity, one's individuality.\" Unlike symbiotic fusion, two beings become one and yet remain two.\n\n**The Relational Immunity Map & Safe-to-Fail Visibility:** Why do capable, self-aware adults still hide their rough edges from the people they love most? Robert Kegan and Lisa Laskow Lahey's **Immunity Map** turns inward on intimacy itself: **Goal** (\"I want to let a close friend see me when I'm struggling\"), **Instead** (\"I isolate, give short competent answers, refuse help\"), **Hidden Commitment** (\"Never to be a burden, never to be seen as broken\"), **Big Assumption** (\"If I show my mess, they'll lose respect, find me exhausting, and leave\"). Insight alone never dissolves the assumption—only small, **safe-to-fail tests** that leave the rough edges in.\n\n**Not Plugging the Hole & The Construct-Aware Surrender:** First, **A. H. Almaas** describes inner \"holes\"—places where parts of our essential nature were cut off, which we instinctively try to plug using another person's validation. When insecurity rises with someone you love, sit with the raw space yourself rather than demanding they fill it. Second, **Susanne Cook-Greuter's Construct-Aware surrender** delivers the Sanctuary's deepest paradox: *every model in this entire curriculum—every belt, stage, need, and map—is only a map.* At its root, the Sanctuary asks you to lay even your sharpest frameworks down and meet another human being you do not fully know, because they are still becoming.", "stanceRule": "Rewrite the Relational Immunity Map in your own words (in the Journal tab), then run one Safe-to-Fail Intimacy Test: the next time a close friend asks how your week is going, leave one genuine rough edge unpolished instead of handing back a tidy competence report.", "worked": "A trusted friend asks, \"How are you holding up?\" Instead of \"Busy, all good—just powering through,\" you answer honestly: \"Honestly, I've been feeling pretty stretched and a little stuck this week. Could we just hang out without me having to be 'on'?\"", "nonEx": "Dumping raw distress onto a friend specifically to force them to reassure you that you are smart, worthy, or safe—turning vulnerability into a covert demand for external validation.", "marker": "You let someone help you with something real, and the relationship grew closer—not weaker.", "deepTitle": "Layer 3 Deepening · The Sanctuary Pocket Question", "deepBody": "Carry one quiet question whenever you step out of the dojo and into the Sanctuary: **\"Am I here, and are they?\"**"}]}, {"id": "L2", "short": "L2 · Encounter", "belt": "Paired with Blue Belt (B1–B6)", "name": "Layer 2 · The I-Thou Encounter", "shift": "From profiling to recognizing", "intro": "Blue Belt reads. The Sanctuary recognizes—putting the clipboard down so two separate minds can meet as equals.", "modules": [{"id": "S2.1", "title": "The un-sweep and mutual recognition", "authors": "Buber, Benjamin, Winnicott", "mechanism": "Blue Belt trained you to sweep a room like a careful analyst; the Sanctuary teaches you when to put the clipboard down. Martin Buber warns that pulling a living melody apart into discrete notes destroys the melody—just as cataloging a loved one's currency or defense turns *Thou* back into *It*. D. W. Winnicott draws the exact developmental line between **Object Relating** (loving a compliant fantasy inside your own head while hiding your anger and needs) and **Object Usage** (meeting a real, external person outside your control), which only becomes possible through **Surviving Destruction**: colliding honestly with real difference without retaliating or vanishing.\n\nUnder stress, Jessica Benjamin shows how mutual equality collapses into complementary binaries—*doer and done-to, fixer and broken, pursuer and distancer*. Restoring mutual recognition means stepping off the seesaw, softening your gaze into the **un-sweep** (\"I am here, and you are here\"), and letting two separate minds meet as equals.", "stanceRule": "Practice the un-sweep and mutual recognition with people capable of basic good faith and mutuality. Re-engage White Belt's Guard immediately if someone uses your vulnerability to punish, dominate, or repeatedly violate your dignity—surviving destruction means surviving honest difference, never enduring abuse.", "worked": "Friend (in Expert armor): 'Moving to Madrid without a 5-year financial model seems reckless.' -> Sanctuary Move (Un-Sweep + Mutual Recognition): 'Ouch — hearing reckless stings a little, because I've thought a lot about this. And I know you're saying it because you genuinely care about me landing on my feet. I'm still going to make the leap my way, and I'd love to hear what part actually worries you.'", "nonEx": "Calling it 'surviving destruction' when you silently absorb a friend's repeated verbal jabs with a zen smile while secretly detaching (W2 Observer). Winnicott's survival requires staying alive, real, and non-retaliatory — never numb or self-erasing.", "marker": "A disagreement with someone close ends with both of you feeling more known, not less.", "tableTitle": "From Profiling & Binaries to Mutual Recognition", "tableHead": ["Relational Posture", "What Is Happening Underneath", "Author Mechanism", "What It Sounds / Looks Like", "What It Produces"], "tableRows": [["1. I-It Profiling", "Scanning a loved one's currency, tells, or armor like a puzzle.", "Buber: pulling the melody into notes; Thou becomes It.", "'They're in Expert mode; I'll use a precision question to steer them.'", "Subtle distance; other feels managed, not met."], ["2. Object Relating (Idealization)", "Loving your mental picture of them; hiding anger/needs.", "Winnicott: person stays a projection inside your mind.", "Swallowing hurt, fast agreement, shock when they differ.", "Fragile harmony; resentment builds underground."], ["3. Complementary Binary", "Stress collapses equality into fixer/broken or controller/compliant.", "Benjamin: refusal of the paradox of recognition + independence.", "'I'll just fix it for you' (doer) or 'Whatever you want' (done-to).", "Shackle instead of bond; one shrinks, one over-functions."], ["4. Mutual Recognition (I-Thou)", "Two separate minds collide honestly and stay present.", "Buber + Winnicott + Benjamin: Un-sweep + surviving real difference.", "'That stung, AND I'm not going anywhere — I want to hear your side.'", "Marker: both feel more known and real after friction."]], "deepTitle": "Optional Deepening · David Bohm (On Dialogue)", "deepBody": "Bohm quotes Buber's melody passage to show that analytical thought naturally fragments wholes into parts to gain control. In dialogue, you don't destroy your Blue Belt analytical skill — you suspend it in awareness so you can perceive the living person before your categories decide who they are."}, {"id": "S2.2", "title": "Listening beneath suffering", "authors": "Fisher and Shapiro, Hughes, Thich Nhat Hanh", "mechanism": "Thich Nhat Hanh strips deep listening down to one radical, single intention: *\"I am listening to this person with only one purpose: to give this person a chance to suffer less.\"* When someone you love is in pain, their speech is routinely distorted by exaggerations and wrong perceptions. The Sanctuary rule is simple and counterintuitive: **now is the time to listen only**—defer fact-checking to a calmer hour tomorrow.\n\nRecognizing the trampled Fisher & Shapiro core concern or Hughes fear beneath their sharpness protects you from taking the blame personally and becoming the *\"second victim\"* of their suffering, letting you answer the hidden ache directly with loving speech and Thich Nhat Hanh's humble check: *\"Do you think I understand you enough?\"*", "stanceRule": "Offer single-intention deep listening when you have steadied your own body first and have the battery to stay grounded. If you feel yourself slipping into the second victim—or if speech turns abusive—call a warm timeout (\"I want to hear you well, and I'm too activated right now—can we talk in twenty minutes?\").", "worked": "Loved one (sharply): 'You didn't even ask how my mom's appointment went — you only care about your own projects.' -> Old reflex (2nd victim): 'That's unfair, I asked Tuesday!' -> Sanctuary Move: [Exhale; set single intention; defer Tuesday fact-check.] 'I hear how alone you've felt carrying the worry about your mom this week, and I'm really sorry I missed checking in today. I care deeply about you and her — how did the appointment actually go?'", "nonEx": "Saying 'I can tell your Affiliation concern is trampled right now and you're reacting from abandonment fear' — analyzing someone's suffering aloud turns Sanctuary compassion back into cold clinical profiling.", "marker": "You answered the concern instead of the complaint, and the argument stopped being an argument.", "tableTitle": "Answering the Concern — Office Tactic (B3) vs. Sanctuary Recognition (S2.2)", "tableHead": ["Surface Complaint", "Hidden Suffering (Concern / Fear)", "Office Tactical Move (B3)", "Sanctuary Move (S2.2 · Deep Listening + Direct Love)"], "tableRows": [["'You never make time for me anymore.'", "Affiliation & Appreciation (fear of not mattering).", "Negotiate a recurring calendar slot so stakeholder feels included.", "Defer calendar defense; speak directly: 'I've been terrible at reaching out, and I hate that it made you feel like you aren't a priority. You are.'"], ["'You always decide everything without asking!'", "Autonomy (fear of being steamrolled).", "Offer two bounded options to restore agency.", "Defer fact-checking: 'I see how frustrating it felt to be left out — I want us deciding together, not me running ahead.'"], ["'You think you're always right!'", "Particular Status / Intelligence (fear of dismissal).", "Acknowledge domain expertise before counter-proposal.", "Drop Expert rebuttal; ask Thich Nhat Hanh's check: 'I don't think I've understood your side well enough yet. Help me see what I'm missing.'"], ["Bitterness or exaggeration after a brutal week.", "Pity / Acknowledgment (overwhelmed).", "Validate briefly + pause before next steps.", "Single-intention listening: hold 5–10 mins with zero correction so they can unload the suffering; clarify facts tomorrow."]], "deepTitle": "Optional Deepening · Gabor Maté (The Myth of Normal)", "deepBody": "What if you feel zero warm emotions toward someone blaming you? Maté clarifies that compassion is an attitude, not a feeling — you don't have to force warmth on command. And he draws the line between acceptance (being present with reality) and tolerating the intolerable (putting up with ongoing mistreatment or self-abandonment)."}, {"id": "S2.3", "title": "Holding environment and resonance", "authors": "Winnicott, Kegan, Siegel, Johnson", "mechanism": "Intimacy does not require Achiever perfectionism; Winnicott's **good-enough holding** builds resilience through ordinary misattunements followed by honest repair. When a close friend asks for honest perspective at a growing edge, Kegan's evolutionary bridge balances support and challenge in strict order: **Confirm** who they are now, **Contradict** gently at the edge, and **Continue** staying present while they cross.\n\nDaniel Siegel grounds *\"feeling felt\"* in resonance circuitry—staying clearly differentiated while linked—and Sue Johnson maps what happens when attachment **raw spots** (feeling *Deprived* or *Deserted*, her *\"2 Ds\"*) fire under threat: close bonds fall into three **Demon Dialogues**—*Find the Bad Guy* (attack–attack), *Protest Polka* (pursue–withdraw), and *Freeze and Flee* (withdraw–withdraw). The exit is never winning the surface argument; it is recognizing the music, owning your half of the dance first, and naming the loop as *\"we.\"*", "stanceRule": "Name a loop aloud *only* when you own your own step first—never diagnose your partner (\"You're doing the Protest Polka\"). Keep White Belt's boundary intact: softening the empathy boundary in a rare loving moment applies strictly to isolated human moments, never to recurring harmful patterns.", "worked": "Partner/Friend (Pursuing): 'You've been on your phone all evening — I guess I'm boring to talk to.' -> You (catching the Protest Polka & W2 Observer urge): [Exhale, phone face-down, stay differentiated.] 'Hey, wait a second. I feel myself wanting to shut down, and I see you're feeling brushed off. We're doing that loop where I zone out and you feel invisible, and then we fight. I'm sorry — I was drained, not bored with you. Phone's away, I'm right here.'", "nonEx": "Skipping Kegan's Confirm step and jumping into sharp Contradiction ('You're obviously stuck in a Protest Polka because of your childhood raw spot') — weaponizing psychology, triggering shame, and locking them into armor.", "marker": "You named a loop instead of fighting inside it, and both of you laughed or softened.", "tableTitle": "Sue Johnson's 3 Demon Dialogues & Kegan / Siegel Repair Moves", "tableHead": ["Pattern / Loop", "Surface Appearance", "Raw Spot Underneath ('2 Ds')", "Move to Step Out of the Loop (Name the Music)"], "tableRows": [["1. Find the Bad Guy (Attack–Attack)", "Mutual blame, scorekeeping, preemptive strikes.", "'I'm about to be judged, blamed, or unsafe.'", "'Wait — we're both trying to prove who's at fault and getting hurt. Can we pause blame and look at what we're each scared of?'"], ["2. Protest Polka (Pursue–Withdraw)", "One pushes/criticizes harder; other defends or pulls away.", "Pursuer: 'Do I matter?' (Deserted). Withdrawer: 'I'm failing you' (Deprived of safety).", "'Hold on — I hear the music starting. I'm feeling panicky and pushing, and you're pulling back to protect yourself. I just want to feel close.'"], ["3. Freeze and Flee (Withdraw–Withdraw)", "Polite, icy silence; both acting as if nothing matters (W2 Observer).", "Helplessness and grief after repeated failed bids.", "'I notice we've both gone quiet and polite since Tuesday. I'm acting like it doesn't matter, and it does — I miss being on the same team.'"], ["4. Kegan's Bridge (Growth Feedback)", "Offering honest challenge to someone close who asked.", "Fear of losing face or rejection without confirmation.", "Confirm ('What you've built is real') -> Contradict ('I wonder what happens if...') -> Continue ('I'm in your corner either way')."]], "deepTitle": "Optional Deepening · Stephen Porges (via Daniel Siegel, Mindsight)", "deepBody": "Why does naming a loop gently make both people suddenly soften or laugh? Siegel links resonance circuitry to Porges's neuroception: fighting inside the loop keeps defensive fight/flight/freeze circuits locked on. The instant one person stays regulated, steps beside the other, and names the loop as the shared problem, neuroception registers safety — turning the Social Engagement System ('love without fear') back on for both."}]}, {"id": "L3", "short": "L3 · Poetics", "belt": "Paired with Brown Belt (Br1–Br6)", "name": "Layer 3 · The Poetics of Connection", "shift": "From strategic reveal to wholehearted disclosure", "intro": "Brown Belt chooses words for clarity and effect. The Sanctuary uses words—and shared silence—to build a shared world.", "modules": [{"id": "S3.1", "title": "Honoring Instead of Face-Saving", "authors": "Erving Goffman · Erich Fromm", "mechanism": "In Brown Belt Br1, you learned to wrap requests in Brown & Levinson politeness so a face-threatening act lands without friction. In the Sanctuary, **you abandon the premise that asking a loved one is an imposition**. Merging Goffman with Erich Fromm's *The Art of Loving*, a direct ask becomes a bid for connection rather than a debt: corporate buffering ('I know you're so busy, sorry to bother you, totally fine if not…') actually creates distance in close friendship. Meanwhile, the **positive-politeness ecosystem**—inside jokes, shared shorthand, affectionate nicknames—shifts from Diplomat syntax into Fromm's daily practice of *care*, quiet signals that you belong to each other. Even boundaries drop their tactical wrapping into the **naked boundary**: stated plainly and warmly, proving that love and the need for space can coexist.", "worked": "Direct bid to a close friend: 'Hey, I've had a rough week and could really use an hour together tonight—are you free for dinner?' Naked boundary: 'I love spending time with you, and I'm tapped out tonight—I need a quiet evening alone. Let's catch up Sunday.'", "nonEx": "Wrapping an ordinary ask to your best friend in three layers of corporate negative politeness ('I completely understand if your bandwidth is maxed out, no pressure at all, just wanted to float the possibility…')—turning closeness into an office memo.", "marker": "You asked a close friend for something you needed without a single buffer, and it was fine.", "deepTitle": "Layer 3 Deepening · Erich Fromm (The Art of Loving)", "deepBody": "Fromm defines mature love as union under the condition of preserving one's integrity and individuality—practiced daily through care, responsibility, respect, and knowledge. Dropping unnecessary buffers honors both your own real need and your friend's freedom to say yes or no cleanly."}, {"id": "S3.2", "title": "The Metamessage of Closeness and Space", "authors": "Deborah Tannen · Esther Perel (flagged: not in notebook)", "mechanism": "Brown Belt Br2 trained you to audit message versus metamessage so you wouldn't get hooked by power frames or Achiever's Spin. In Sanctuary S3.2, you listen to the exact same metamessage track for **which relational need is starving**: **security (closeness)** or **autonomy (space)**. Every close bond breathes between those two poles. A sharp exchange about texting back slowly is rarely about phone etiquette—it is often a disguised bid for security. Sudden irritation over how the kitchen is organized or how weekends are scheduled is often a disguised bid for breathing room. Alongside reading the bid, Tannen's conversational rhythm becomes **pacing as compassion**: when a close friend is grieving or processing slowly, you stretch your own tolerance for silence instead of rushing to fill the void.", "worked": "Friend snaps: 'You never even text back until the next day anymore.' Answer the bid, not the logistics: 'Hey—it sounds like you've been feeling a bit disconnected from me lately. I miss you too; I've been underwater with work, not pulling away.'", "nonEx": "Answering a closeness bid with timestamped proof ('Actually I texted you Tuesday at 4:12 PM and Thursday morning')—winning the message while starving the metamessage.", "marker": "You answered a bid for closeness or space, rather than its content.", "deepTitle": "Layer 3 Deepening · Deborah Tannen (That's Not What I Meant!)", "deepBody": "Tannen's double bind of involvement and independence lives inside every close bond. Because we can rarely see both sides of the paradox at once, hearing which pole is currently underfed lets you respond with warmth instead of escalating a reversed-electric-blanket spiral."}, {"id": "S3.3", "title": "The Weight of the Word", "authors": "Aneta Pavlenko · David Whyte · Ludwig Wittgenstein · Mikhail Bakhtin", "mechanism": "Brown Belt Br3 tracked bilingual weight and the translation tax; Sanctuary S3.3 listens to how language carries a person's whole lived body. Deep friendships grow their own **native tongue** (David Whyte, *Consolations*)—learning what loaded words like *loyalty*, *betrayal*, or *forgiveness* actually mean inside *this* friend's body. When someone you love is flooded, remember **the dysregulated word**: panicked syntax is spoken in a 'second language' of fear—don't hold every jagged phrase against them. Ludwig Wittgenstein's **language games** remind you that two people can share identical vocabulary while playing incompatible games ('venting' vs. 'problem-solving'). Practice **un-naming** (trading clinical labels like 'you're being avoidant' for plain description of what you feel now), listen gently for **borrowed voices** (Mikhail Bakhtin—old parents, bosses, or cultural scripts speaking harshly through a friend's mouth: *'Whose voice is that? It doesn't sound like yours'*), and honor **shared silence** when words would cheapen the moment.", "worked": "A close friend beats themselves up over a career pivot ('I'm just flaky and behind everyone else'). Instead of arguing their résumé, you ask gently: 'Hey—whose voice is that? Because it doesn't sound like yours.'", "nonEx": "Deploying pop-psychology verdicts in intimacy ('You're projecting an anxious-avoidant attachment pattern right now')—boxing a living person inside a label instead of staying open.", "marker": "You and a friend found a word that now means something only the two of you understand.", "deepTitle": "Layer 3 Deepening · Aneta Pavlenko & David Whyte", "deepBody": "Pavlenko shows that words are embodied differently across languages and life histories; Whyte adds that naming a difficult threshold honestly—without rushing to sanitize it—gives a friend's experience room to breathe."}, {"id": "S3.4", "title": "Wholehearted Disclosure & Generative Dialogue", "authors": "William Torbert · David Bohm · John O'Donohue · Brené Brown (flagged: not in notebook)", "mechanism": "Brown Belt Br4 taught strategic, calibrated disclosure using Torbert's four parts of speech. Sanctuary S3.4 marks **the end of the strategic reveal**: a disclosure designed to engineer a reciprocal confession is still management. Here you reveal simply because hiding starves the bond, speaking **the four parts unarmored** (*Frame:* 'I need to share something, and I don't need you to fix it' · *Advocate:* 'I've been feeling unsure where I stand with you' · *Illustrate:* 'When plans shifted last weekend, I told myself I'd become a burden' · *Inquire:* 'Can you help me understand where we are?'). Offer it as an **asymmetric gift**—at peace with whatever comes back, even if they cannot match your depth today. In **generative dialogue** (David Bohm, *On Dialogue*), you suspend your own view in front of you rather than defending it so shared meaning can emerge ('I'm noticing…', 'I wonder if…'). And when someone crosses a threshold—grief, a move, a new chapter—John O'Donohue's **threshold language** (*Anam Cara*) trades logistics for witness and blessing, speaking to who they are at their best when they have forgotten it.", "worked": "A friend is moving countries and overwhelmed by logistics. Instead of offering a packing checklist, you offer threshold witness: 'This is a huge crossing, and I know it feels dizzying right now. I've watched you build a life from scratch before—you carry more steadiness than you realize.'", "nonEx": "Sharing a polished vulnerability specifically so your friend will feel obligated to confess something equal in return—sliding back into the Opportunist's Reveal shadow.", "marker": "You told someone a real truth with no aim beyond being known, and felt at peace with whatever came back.", "deepTitle": "Layer 3 Deepening · David Bohm (On Dialogue)", "deepBody": "Bohm describes suspension as holding an assumption up in front of yourself so both people can look *at* it together rather than defending *from* it. When neither person is trying to steer the outcome, words stop acting as levers and start building a shared world."}]}, {"id": "L4", "short": "L4 · Ecosystem", "belt": "Paired with Black Belt (Bk1–Bk6)", "name": "Layer 4 · The Relational Ecosystem", "shift": "From steering to co-authoring and acceptance", "intro": "Black Belt reads and moves rooms. The Sanctuary sees a person's whole life and loves the whole of it, without needing it to change on your timeline.", "modules": [{"id": "S4.1", "title": "The Intercultural Sanctuary & Differentiation", "authors": "Milton Bennett · Murray Bowen (via Gilbert & Family Therapy in Clinical Practice)", "mechanism": "Black Belt Bk1–Bk3 taught you to read rooms, broker proposals, and stand on the margins without disappearing. In Sanctuary S4.1, you meet a loved one's entire family or cultural ecosystem **without trying to broker or fix it**. When a friend comes from a culture or family that taught them the world is unsafe, **honoring the ecosystem** means translating your care into a form they can actually take in—being a safe harbor without demanding they change on your timeline. **Constructive marginality in friendship** holds a friend's conflicting values as true for them while keeping your own compass intact. Underneath both sits **Murray Bowen's Differentiation of Self**: staying emotionally connected to an anxious system (a panicked family, a dysregulated friend group) without catching its anxiety or cutting it off—offering a calm, non-anxious presence and practicing **de-triangulation** by bringing energy back to the two people actually involved.", "worked": "During a heated family holiday storm where relatives try to pull you into complaining about a cousin, you stay warm and connected without taking sides or leaving: 'I hear how stressed you are about how dinner went—I love you both, and I'm not the right person to carry this between you. Want to take a quick walk with me to catch a breath?'", "nonEx": "Lecturing a friend from a tight-knit, high-anxiety family about how 'enmeshed and triangulated' their relatives are—turning Bowen into a clinical weapon instead of non-anxious presence.", "marker": "You stayed warm and steady inside a family or group storm without taking sides or leaving.", "deepTitle": "Layer 3 Deepening · Murray Bowen (Family Therapy in Clinical Practice)", "deepBody": "Bowen explicitly separates differentiation from power: power is about exerting control over others, whereas differentiation is strictly about working on self—controlling your own reactivity, becoming more responsible, and permitting others to be themselves while staying in loving contact."}, {"id": "S4.2", "title": "Co-Authoring the Dynamic", "authors": "William Torbert · Gregory Bateson · Nora Bateson (flagged: not in notebook)", "mechanism": "Black Belt Bk4 taught you to name patterns in meetings and shift the frame. In Sanctuary S4.2, you bring that exact systemic eye into love as **co-authoring**: **reading the dance** between you and a friend (pursuer and distancer, fixer and overwhelmed) rather than hunting for someone to blame. **Naming as love** sounds completely different from corporate reframing: *'I notice that every time we plan a trip we both get tense and end up feeling unappreciated. Does that feel accurate?'*—saying plainly, *it is us versus this pattern*, and sitting down to treat it as a **shared design problem**. Gregory Bateson's **schismogenesis** (*Steps to an Ecology of Mind*) names the runaway loops—symmetrical (both escalating the same move) or complementary (one dominating, one shrinking)—where stopping *your* side of the loop breaks the spiral. And **warm data** (Nora Bateson, flagged as not in the notebook) reminds you to see the whole living context of a friend's behavior—sleep, work, grief, season of life—and respond to the whole rather than the isolated moment.", "worked": "With a close friend after repeated planning friction: 'I notice we've fallen into a dance where I over-plan to feel secure and you pull back because it feels cramped, and then we both feel off. How do we want to redesign how we plan trips so it feels good for both of us?'", "nonEx": "Using systemic language to win a personal argument ('You're creating complementary schismogenesis by withdrawing')—which turns co-authoring back into one-upmanship.", "marker": "A recurring friction with someone close was redesigned together, and it stopped recurring.", "deepTitle": "Layer 3 Deepening · Gregory Bateson (Steps to an Ecology of Mind)", "deepBody": "Bateson's dual-control electric blanket metaphor shows why trying harder inside a miswired loop only worsens the error. When one person steps off their half of the spiral with warmth and curiosity, the entire relational circuit has room to reorganize."}, {"id": "S4.3", "title": "Radical Acceptance & The Complex Domain", "authors": "Dave Snowden's Cynefin (via Brougham) · Susanne Cook-Greuter · Zen", "mechanism": "Black Belt Bk5–Bk6 balanced walk-away guardrails with accepting fixed limits. Sanctuary S4.3 opens into **radical acceptance**—grounded by two sharp guardrails. First, **compassionate detachment**: when someone you love acts out of old pain (a guilt trip, a sudden withdrawal), seeing it as a construct of their suffering rather than a verdict on you keeps you rooted in love instead of anger—paired with **the naked boundary again**, because acceptance never means absorbing harm (*'I love you, and every time we talk about my career it gets minimized. I can't talk about it with you right now'*). Second, Dave Snowden's **Cynefin framework** (via Brougham) places close relationships in the **complex domain**, not the complicated one: cause and effect show only in hindsight, so no perfect script can engineer love; you **probe, sense, and respond** with small, safe-to-fail experiments in closeness. **Letting go of your agenda for them** means stopping all covert coaching toward a higher stage and deciding they are worthy of your love today. Finally, hold Cook-Greuter's **Unitive stance** (*there is no outside system to guard against*) strictly as a contemplative practice (in sitting or quiet reflection), never as a rule that overrides real-world boundaries.", "worked": "A parent or longtime friend cannot meet you at deep emotional processing. You release the secret project of trying to upgrade them, hold your own boundary warmly where needed, and enjoy the real warmth they *can* offer today.", "nonEx": "Using 'radical acceptance' or 'Unitive non-duality' to rationalize staying silent inside a chronically demeaning or abusive pattern—violating Standing Rule #9 and White Belt's floor.", "marker": "You stopped trying to change something about someone you love, and the relationship relaxed.", "deepTitle": "Layer 3 Deepening · Sanctuary Pocket Question & After Black Belt", "deepBody": "Every belt has a pocket question; the Sanctuary holds one quiet question across all four layers: **'Am I here, and are they?'** When you put down every map, model, and tactic and meet a human being who is still becoming, the Dojo and the Sanctuary finally meet."}]}], "cautions": [{"name": "The playbook trap.", "md": "A connection sequence used on someone becomes social engineering. People sense it and rightly withdraw."}, {"name": "Consent to depth.", "md": "Not everyone wants depth with you, and not always. A shallow friendship is a valid friendship."}, {"name": "The linear ladder myth.", "md": "Closeness moves up and down with life seasons. A friend withdrawing for a while is a season, not a rupture."}, {"name": "Cultural and neurodivergent blind spots.", "md": "Eye contact, matched cadence and verbal processing of feeling are not universal. Let people be close in their own way."}, {"name": "Acceptance is not tolerating harm.", "md": "Layer 4's radical acceptance applies to a friend's limits and slow growth, never to abuse or a pattern that damages you. White Belt's limits stay in force."}, {"name": "Contemplative claims are stances.", "md": "Lines like \"there is no outside\" (Unitive) describe a way of seeing, not a technique or a fact about relationships. Hold them as practice, not as instruction."}, {"name": "Two authors are not in your notebook.", "md": "Brené Brown and Esther Perel shape several modules in the outline. Their ideas are kept and flagged; consider adding their books if you want the track's sources to be as checkable as the belts'."}]}</script>
+<script>
+(function(){
+"use strict";
+const DATA = JSON.parse(document.getElementById("sanctuary-data").textContent);
+const STORAGE_KEY = "dojo_sanctuary_v4";
+
+const defaultState = () => ({
+  tab: "OV",
+  theme: "light",
+  markers: {},
+  journal: [],
+  rim: { goal:"", instead:"", hidden:"", bigAssumption:"", test:"" }
+});
+
+let state = defaultState();
+try {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (raw) {
+    const p = JSON.parse(raw);
+    state = { ...defaultState(), ...p, rim: { ...defaultState().rim, ...(p.rim||{}) }, markers: { ...(p.markers||{}) }, journal: Array.isArray(p.journal) ? p.journal : [] };
+  }
+} catch(e){}
+
+function save(){
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e){}
+  const sp = document.getElementById("save-pill");
+  if (sp) { sp.textContent = "Saved"; }
+}
+function esc(s){ return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+function md(s){ return esc(s).replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\*([^*\n]+)\*/g,"<em>$1</em>").replace(/\n\n/g,"<br><br>").replace(/\n/g,"<br>"); }
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),2200); }
+
+function updateMarkerCount(){
+  const total = DATA.layers.reduce((a,l)=>a+l.modules.length, 0);
+  const done = Object.values(state.markers).filter(Boolean).length;
+  document.getElementById("marker-count").textContent = `${done} / ${total} Markers Noticed`;
+}
+
+function renderNav(){
+  const nav = document.getElementById("layer-nav");
+  const tabs = [
+    { id:"OV", code:"Overview", name:"I-Thou & Cautions" },
+    ...DATA.layers.map(l => ({ id:l.id, code:l.short, name:l.name.split("·")[1].trim() })),
+    { id:"JRN", code:"Journal", name:"3-Line Log & RIM" }
+  ];
+  nav.innerHTML = tabs.map(t =>
+    `<button type="button" class="ltab" role="tab" aria-selected="${state.tab===t.id}" data-tab="${t.id}"><span class="lc">${esc(t.code)}</span><span class="ln">${esc(t.name)}</span></button>`
+  ).join("");
+  nav.querySelectorAll("[data-tab]").forEach(b => {
+    b.onclick = () => { state.tab = b.dataset.tab; save(); renderAll(); window.scrollTo({top:0,behavior:"smooth"}); };
+  });
+}
+
+function renderOverview(){
+  return `
+    <div class="card sanc-border">
+      <div class="eyebrow">Martin Buber · I-It vs. I-Thou</div>
+      <h1>Why the Sanctuary Lives Apart From the Dojo</h1>
+      <p style="margin-top:8px">The four belts are the <strong>Dojo</strong>: they train technique for conversations with pressure, power, or stakes—in both Office and Personal intentions. The <strong>Sanctuary</strong> is for the moments when the aim is the <em>person</em>, not any outcome—not even a good outcome. There are no belt tests here (you do not grade love); each module closes with a <strong>Marker</strong> noticed afterward.</p>
+      <div class="callout warm"><span class="clbl">Single Entry Gate</span>Complete <strong>White Belt W1 (The Body Under Fire)</strong> first. The Sanctuary's opening move—yielding instead of bracing—requires a body that knows how to return to center. After W1, walk any Sanctuary layer once its paired belt has begun.</div>
+      <div class="t-wrap">
+        <table>
+          <thead><tr><th>Belt (Dojo)</th><th>Paired Sanctuary Layer</th><th>The Shift</th></tr></thead>
+          <tbody>
+            <tr><td><strong>White</strong> · Guard &amp; Regulate</td><td><strong>Layer 1 (S1.1–S1.3)</strong> · The Inner Sanctuary</td><td>From self-regulation to self-surrender</td></tr>
+            <tr><td><strong>Blue</strong> · Read &amp; Bond</td><td><strong>Layer 2 (S2.1–S2.3)</strong> · The I-Thou Encounter</td><td>From profiling to recognizing</td></tr>
+            <tr><td><strong>Brown</strong> · Word, Reveal &amp; Steer</td><td><strong>Layer 3 (S3.1–S3.4)</strong> · The Poetics of Connection</td><td>From strategic reveal to wholehearted disclosure</td></tr>
+            <tr><td><strong>Black</strong> · Systems &amp; Bridges</td><td><strong>Layer 4 (S4.1–S4.3)</strong> · The Relational Ecosystem</td><td>From steering to co-authoring and acceptance</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">Standing Guardrails</div>
+      <h2>The Seven Sanctuary Cautions</h2>
+      <ul style="padding-left:18px;margin:10px 0 0">
+        ${DATA.cautions.map(c => `<li style="margin-bottom:8px"><strong>${esc(c.name)}</strong> ${md(c.md)}</li>`).join("")}
+      </ul>
+    </div>
+  `;
+}
+
+function renderLayer(layerId){
+  const L = DATA.layers.find(x => x.id === layerId);
+  if (!L) return "";
+  return `
+    <div class="card sanc-border">
+      <div class="eyebrow">${esc(L.belt)} · ${esc(L.shift)}</div>
+      <h1>${esc(L.name)}</h1>
+      <p style="margin-top:6px">${md(L.intro)}</p>
+    </div>
+    ${L.modules.map(m => {
+      const tableHtml = m.tableHead ? `
+        <h4 style="margin-top:12px">${esc(m.tableTitle||"")}</h4>
+        <div class="t-wrap"><table>
+          <thead><tr>${m.tableHead.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead>
+          <tbody>${m.tableRows.map(r=>`<tr>${r.map((c,i)=>i===0?`<td><strong>${esc(c)}</strong></td>`:`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
+        </table></div>` : "";
+      const stanceHtml = m.stanceRule ? `<div class="callout"><span class="clbl">Stance Rule &amp; Guardrail</span>${md(m.stanceRule)}</div>` : "";
+      return `
+      <div class="card">
+        <div class="eyebrow">${esc(m.id)} · ${esc(m.authors)}</div>
+        <h2>${esc(m.id)} — ${esc(m.title)}</h2>
+        <p style="margin-top:10px">${md(m.mechanism)}</p>
+        ${tableHtml}
+        <div class="ex-grid">
+          <div class="ex-box"><span class="ex-tag">Sanctuary Worked Example</span><div>${md(m.worked)}</div></div>
+          <div class="ex-box non"><span class="ex-tag">Non-Example (Dojo Disguised as Sanctuary)</span><div>${md(m.nonEx)}</div></div>
+        </div>
+        ${stanceHtml}
+        <div class="callout ok">
+          <span class="clbl">Sanctuary Marker (Noticed Afterward — Not Graded)</span>
+          <label class="marker-check">
+            <input type="checkbox" data-marker="${esc(m.id)}" ${state.markers[m.id]?"checked":""}>
+            <span>${md(m.marker)}</span>
+          </label>
+        </div>
+        <details class="l3">
+          <summary>${esc(m.deepTitle)}</summary>
+          <div class="l3-body">${md(m.deepBody)}</div>
+        </details>
+      </div>`;
+    }).join("")}
+  `;
+}
+
+function renderJournal(){
+  const entries = state.journal.map((j,i) => `
+    <div class="entry-item">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <span class="xs muted"><strong>${esc(j.layer)}</strong> · ${esc(j.date)}</span>
+        <button type="button" class="c-btn quiet" style="min-height:24px;padding:1px 8px;font-size:11px" data-del-j="${i}">Delete</button>
+      </div>
+      <div><b>1. What happened:</b> ${esc(j.happened)}<br><b>2. Armor that showed up:</b> ${esc(j.armor||"—")}<br><b>3. Marker:</b> ${esc(j.marker||"—")}</div>
+    </div>
+  `).join("") || `<p class="small muted">No Sanctuary journal entries yet. Log only when something real shifts.</p>`;
+
+  const allModOpts = DATA.layers.flatMap(l => l.modules.map(m => `<option value="${m.id} · ${esc(m.title)}">${m.id} · ${esc(m.title)}</option>`)).join("");
+
+  return `
+    <div class="card sanc-border">
+      <div class="eyebrow">Unified 3-Line Sanctuary Journal (S1–S4)</div>
+      <h2>Log an I-Thou Encounter</h2>
+      <p class="small muted">One entry when something real shifts—three plain lines, never a scoreboard.</p>
+      ${entries}
+      <div class="grid-2" style="margin-top:12px">
+        <div>
+          <label class="eyebrow" style="display:block">Layer / Module Touched</label>
+          <select id="j-layer">${allModOpts}</select>
+          <label class="eyebrow" style="display:block;margin-top:8px">2. Which Armor Showed Up (Expert / Achiever / Diplomat / Observer)</label>
+          <input type="text" id="j-armor" placeholder="e.g., Achiever fixer arrived; thanked it and stayed">
+          <label class="eyebrow" style="display:block;margin-top:8px">3. The Marker (if there was one)</label>
+          <input type="text" id="j-marker" placeholder="e.g., Offered zero solutions; friend felt deeply met">
+        </div>
+        <div>
+          <label class="eyebrow" style="display:block">1. What Happened Between Us</label>
+          <textarea id="j-what" style="min-height:155px" placeholder="Plain description of the encounter..."></textarea>
+        </div>
+      </div>
+      <button type="button" class="c-btn sanc" id="btn-add-j" style="margin-top:10px">Save Sanctuary Entry</button>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">S1.3 Practice · Kegan &amp; Lahey</div>
+      <h2>My Relational Immunity Map</h2>
+      <p class="small muted">Rewrite in your own words (auto-saved locally).</p>
+      <div class="grid-2">
+        <div>
+          <label class="eyebrow" style="display:block">Col 1 · Intimacy Goal</label>
+          <textarea data-rim="goal" placeholder="e.g., Let a close friend see me when I'm struggling">${esc(state.rim.goal)}</textarea>
+          <label class="eyebrow" style="display:block;margin-top:8px">Col 2 · What I Do Instead</label>
+          <textarea data-rim="instead" placeholder="e.g., Isolate, give short competent answers, refuse help">${esc(state.rim.instead)}</textarea>
+        </div>
+        <div>
+          <label class="eyebrow" style="display:block">Col 3 · Hidden Competing Commitment</label>
+          <textarea data-rim="hidden" placeholder="e.g., Committed to never being a burden or seen as broken">${esc(state.rim.hidden)}</textarea>
+          <label class="eyebrow" style="display:block;margin-top:8px">Col 4 · Big Assumption &amp; Safe-to-Fail Test</label>
+          <textarea data-rim="bigAssumption" placeholder="e.g., If I show my mess they'll leave. Test: leave rough edges in when asked about my week.">${esc(state.rim.bigAssumption)}</textarea>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function wire(){
+  document.querySelectorAll("[data-marker]").forEach(cb => {
+    cb.onchange = () => { state.markers[cb.dataset.marker] = cb.checked; save(); updateMarkerCount(); };
+  });
+  const addJ = document.getElementById("btn-add-j");
+  if (addJ) addJ.onclick = () => {
+    const h = document.getElementById("j-what").value.trim();
+    const a = document.getElementById("j-armor").value.trim();
+    const m = document.getElementById("j-marker").value.trim();
+    const l = document.getElementById("j-layer").value;
+    if (!h && !a) return;
+    state.journal.unshift({ date: new Date().toISOString().slice(0,10), layer: l, happened: h, armor: a, marker: m });
+    save(); renderAll(); toast("Sanctuary entry saved.");
+  };
+  document.querySelectorAll("[data-del-j]").forEach(b => {
+    b.onclick = () => { state.journal.splice(Number(b.dataset.delJ), 1); save(); renderAll(); };
+  });
+  document.querySelectorAll("[data-rim]").forEach(ta => {
+    ta.oninput = () => { state.rim[ta.dataset.rim] = ta.value; save(); };
+  });
+}
+
+function applyTheme(){
+  document.documentElement.dataset.theme = state.theme === "dark" ? "dark" : "light";
+  document.getElementById("btn-theme").textContent = state.theme === "dark" ? "Light" : "Dark";
+}
+
+function renderAll(){
+  applyTheme(); updateMarkerCount(); renderNav();
+  const root = document.getElementById("view-root");
+  if (state.tab === "OV") root.innerHTML = renderOverview();
+  else if (state.tab === "JRN") root.innerHTML = renderJournal();
+  else root.innerHTML = renderLayer(state.tab);
+  wire();
+}
+
+function download(name, txt, mime){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([txt], {type:mime}));
+  a.download = name; a.click();
+}
+document.getElementById("btn-export-md").onclick = () => {
+  const lines = [
+    "# The Communication Dojo — Sanctuary Journal & Markers (v4.4)",
+    "Exported: " + new Date().toISOString().slice(0,10),
+    "\n## Markers Noticed",
+    ...DATA.layers.flatMap(l => l.modules.map(m => `- [${state.markers[m.id]?"x":" "}] **${m.id} (${m.title}):** ${m.marker}`)),
+    "\n## Relational Immunity Map (S1.3)",
+    `- Goal: ${state.rim.goal||"—"}`,
+    `- Instead: ${state.rim.instead||"—"}`,
+    `- Hidden Commitment: ${state.rim.hidden||"—"}`,
+    `- Big Assumption / Test: ${state.rim.bigAssumption||"—"}`,
+    "\n## 3-Line Sanctuary Journal",
+    ...(state.journal.length ? state.journal.map(j => `- **${j.date} · ${j.layer}** | Happened: ${j.happened} | Armor: ${j.armor||"—"} | Marker: ${j.marker||"—"}`) : ["- *(No entries yet)*"])
+  ];
+  download("sanctuary_journal_v4_4.md", lines.join("\n"), "text/markdown");
+};
+document.getElementById("btn-export-json").onclick = () => download("sanctuary_backup_v4_4.json", JSON.stringify(state, null, 2), "application/json");
+document.getElementById("import-json").onchange = e => {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => { try { state = { ...defaultState(), ...JSON.parse(r.result) }; save(); renderAll(); toast("Backup restored."); } catch { alert("Invalid JSON."); } };
+  r.readAsText(f);
+};
+document.getElementById("btn-theme").onclick = () => { state.theme = state.theme === "dark" ? "light" : "dark"; save(); applyTheme(); };
+
+const pm = document.getElementById("pocket-modal"), pf = document.getElementById("pocket-flip");
+document.getElementById("btn-pocket").onclick = () => { pf.classList.remove("flipped"); pm.hidden = false; };
+document.getElementById("close-pocket").onclick = () => { pm.hidden = true; };
+pm.onclick = e => { if (e.target === pm) pm.hidden = true; };
+pf.onclick = () => pf.classList.toggle("flipped");
+document.addEventListener("keydown", e => { if (e.key === "Escape") pm.hidden = true; });
+
+renderAll();
+})();
+</script>
+</body>
+</html>
