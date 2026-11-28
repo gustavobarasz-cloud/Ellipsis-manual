@@ -1333,23 +1333,6 @@
     ]
    },
    {
-    "id": "brown-capstone",
-    "belt": "brown",
-    "kind": "capstone",
-    "title": "Brown Belt · Capstone",
-    "subtitle": "",
-    "handoffTo": "black",
-    "days": [
-     {
-      "id": "test",
-      "label": "Belt Test",
-      "title": "Brown Belt · Capstone",
-      "lab": false,
-      "cards": 4
-     }
-    ]
-   },
-   {
     "id": "br1",
     "belt": "brown",
     "kind": "week",
@@ -1717,6 +1700,23 @@
     ]
    },
    {
+    "id": "brown-capstone",
+    "belt": "brown",
+    "kind": "capstone",
+    "title": "Brown Belt · Capstone",
+    "subtitle": "",
+    "handoffTo": "black",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Brown Belt · Capstone",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
     "id": "black-overview",
     "belt": "black",
     "kind": "overview",
@@ -1729,23 +1729,6 @@
       "title": "Black Belt · Overview",
       "lab": false,
       "cards": 15
-     }
-    ]
-   },
-   {
-    "id": "black-capstone",
-    "belt": "black",
-    "kind": "capstone",
-    "title": "Black Belt · Capstone",
-    "subtitle": "",
-    "handoffTo": "loop",
-    "days": [
-     {
-      "id": "test",
-      "label": "Belt Test",
-      "title": "Black Belt · Capstone",
-      "lab": false,
-      "cards": 3
      }
     ]
    },
@@ -2064,6 +2047,23 @@
       "title": "Radical Acceptance & The Complex Domain",
       "lab": false,
       "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "black-capstone",
+    "belt": "black",
+    "kind": "capstone",
+    "title": "Black Belt · Capstone",
+    "subtitle": "",
+    "handoffTo": "loop",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Black Belt · Capstone",
+      "lab": false,
+      "cards": 3
      }
     ]
    }

@@ -1009,6 +1009,9 @@ def main():
             pk["cues"] = [{"cue": c, "sub": subs[i] if i < len(subs) and len(subs) == len(parts) else ""} for i, c in enumerate(parts)]
             if subs and len(subs) != len(parts):
                 pk["cues"].append({"cue": "", "sub": pk.get("frontSub", "")})
+    order = {"overview": 0, "week": 1, "sanctuary": 2, "capstone": 3}
+    brown.sort(key=lambda m: order.get(m["kind"], 1))
+    black.sort(key=lambda m: order.get(m["kind"], 1))
     # Belt handoff cards: the manuals' own closing/handoff text, last card of each capstone
     handoffs = {"white": "blue", "blue": "brown", "brown": "black", "black": "loop"}
     belts = {"white": white, "blue": blue, "brown": brown, "black": black}
