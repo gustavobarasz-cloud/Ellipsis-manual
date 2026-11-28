@@ -5,35 +5,98 @@
    "front": "Breathe out. Triage. One reason.",
    "frontSub": "Jaw loose, feet down, name the feeling · Style, blind spot, or tactic? · Proposal, then stop.",
    "back": "Would I accept their no?",
-   "backSub": "If the honest answer is no, you are not asking—you are pressuring. (Sanctuary check: \"Am I here, and are they?\")"
+   "backSub": "If the honest answer is no, you are not asking—you are pressuring. (Sanctuary check: \"Am I here, and are they?\")",
+   "cues": [
+    {
+     "cue": "Breathe out.",
+     "sub": "Jaw loose, feet down, name the feeling"
+    },
+    {
+     "cue": "Triage.",
+     "sub": "Style, blind spot, or tactic?"
+    },
+    {
+     "cue": "One reason.",
+     "sub": "Proposal, then stop."
+    }
+   ]
   },
   "blue": {
    "belt": "blue",
    "front": "Baseline first. Name the need, not the position. Label, then pause.",
    "frontSub": "60s sweep + camera test; check your own tells first · Honor the concern or fear at zero cost; hold your boundary · Drop 'I', name it lightly, hold 3 seconds of silence",
    "back": "Which conversation are they in?",
-   "backSub": ""
+   "backSub": "",
+   "cues": [
+    {
+     "cue": "Baseline first.",
+     "sub": "60s sweep + camera test; check your own tells first"
+    },
+    {
+     "cue": "Name the need, not the position.",
+     "sub": "Honor the concern or fear at zero cost; hold your boundary"
+    },
+    {
+     "cue": "Label, then pause.",
+     "sub": "Drop 'I', name it lightly, hold 3 seconds of silence"
+    }
+   ]
   },
   "brown": {
    "belt": "brown",
-   "front": "",
-   "frontSub": "Brown Belt Pocket Card Close Tap the card to turn it over. Three cues for visibility, syntax, and transparent steering. 1. Frame before you ask. Name the purpose first; wrap the face-threat without swallowing the ask. 2. Say what you want, once. Advocate before you inquire; strip powerless hedges. 3. Steer out loud. Name the decision type (inform, consult, negotiate) and invite choice. Brown Belt Core Question “What reality are my words building?” Every turn carries a message and a metamessage. Choose both on purpose.",
-   "back": "What reality are my words building?",
-   "backSub": ""
+   "front": "1. Frame before you ask. 2. Say what you want, once. 3. Steer out loud.",
+   "frontSub": "",
+   "back": "“What reality are my words building?”",
+   "backSub": "Every turn carries a message and a metamessage. Choose both on purpose.",
+   "cues": [
+    {
+     "cue": "1. Frame before you ask.",
+     "sub": "Name the purpose first; wrap the face-threat without swallowing the ask."
+    },
+    {
+     "cue": "2. Say what you want, once.",
+     "sub": "Advocate before you inquire; strip powerless hedges."
+    },
+    {
+     "cue": "3. Steer out loud.",
+     "sub": "Name the decision type (inform, consult, negotiate) and invite choice."
+    }
+   ],
+   "intro": "Tap the card to turn it over. Three cues for visibility, syntax, and transparent steering."
   },
   "black": {
    "belt": "black",
    "front": "1. Read the room before the person. · 2. Name the pattern, not the person. · 3. Offer a better game.",
    "frontSub": "",
    "back": "Am I a bridge here, or a code-switcher?",
-   "backSub": ""
+   "backSub": "",
+   "cues": [
+    {
+     "cue": "1. Read the room before the person.",
+     "sub": ""
+    },
+    {
+     "cue": "2. Name the pattern, not the person.",
+     "sub": ""
+    },
+    {
+     "cue": "3. Offer a better game.",
+     "sub": ""
+    }
+   ]
   },
   "sanctuary": {
    "belt": "sanctuary",
    "front": "Am I here, and are they?",
    "frontSub": "",
    "back": "Am I here, and are they?",
-   "backSub": ""
+   "backSub": "",
+   "cues": [
+    {
+     "cue": "Am I here, and are they?",
+     "sub": ""
+    }
+   ]
   }
  },
  "grids": {

@@ -992,7 +992,23 @@ def main():
     bs = soup(os.path.join(DOJO, "brown-belt.html"))
     pm = bs.select_one("#pocket-modal")
     if pm:
-        pockets["brown"]["frontSub"] = re.sub(r"\s+", " ", pm.get_text(" ", strip=True))
+        cues = [x.get_text(" ", strip=True) for x in pm.select(".flip-cue")]
+        subs = [x.get_text(" ", strip=True) for x in pm.select(".flip-sub")]
+        pockets["brown"]["cues"] = [{"cue": c, "sub": subs[i] if i < len(subs) else ""} for i, c in enumerate(cues)]
+        pockets["brown"]["front"] = " ".join(cues)
+        bq = pm.select_one(".flip-q")
+        pockets["brown"]["back"] = bq.get_text(" ", strip=True) if bq else pockets["brown"]["back"]
+        bs_ = pm.select_one(".flip-face.back p")
+        pockets["brown"]["backSub"] = bs_.get_text(" ", strip=True) if bs_ else ""
+        pockets["brown"]["intro"] = pm.select_one("p").get_text(" ", strip=True) if pm.select_one("p") else ""
+    for k, pk in pockets.items():
+        if "cues" not in pk:
+            fr = pk.get("front", "")
+            parts = [x.strip() for x in re.split(r"\s*·\s*", fr) if x.strip()] if "·" in fr else [x.strip() for x in re.split(r"(?<=[.?!])\s+", fr) if x.strip()]
+            subs = [x.strip() for x in re.split(r"\s*·\s*", pk.get("frontSub", "")) if x.strip()]
+            pk["cues"] = [{"cue": c, "sub": subs[i] if i < len(subs) and len(subs) == len(parts) else ""} for i, c in enumerate(parts)]
+            if subs and len(subs) != len(parts):
+                pk["cues"].append({"cue": "", "sub": pk.get("frontSub", "")})
     # Belt handoff cards: the manuals' own closing/handoff text, last card of each capstone
     handoffs = {"white": "blue", "blue": "brown", "brown": "black", "black": "loop"}
     belts = {"white": white, "blue": blue, "brown": brown, "black": black}
