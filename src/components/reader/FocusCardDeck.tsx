@@ -10,6 +10,10 @@ import { setAppKey, useMaster, useReady } from "@/lib/store";
 import EditableCardBody from "./EditableCardBody";
 import ToolView from "@/components/tools/ToolView";
 import type { GridMap } from "@/components/tools/types";
+import CardFooter, { type DayThread, type PillGroup } from "@/components/p2/CardFooter";
+import LensFlipper, { type LensView } from "@/components/p2/LensFlipper";
+import PinShare from "@/components/p2/PinShare";
+import Companion from "@/components/p2/Companion";
 
 export interface Handoff { title: string; body: string; href: string; cta: string }
 
@@ -26,11 +30,16 @@ interface Props {
   handoff?: Handoff;
   quiet?: boolean; // Intimacy & Presence: no progress or badges
   outline?: { href: string; label: string; title: string; current: boolean }[];
+  pills?: PillGroup[];
+  threads?: DayThread[];
+  lenses?: Record<string, LensView[]>;
+  drill?: string;
+  where?: string;
 }
 
 const EDGE = 28;
 
-export default function FocusCardDeck({ trackId, moduleId, moduleTitle, day, tools, journal, grids, prev, next, handoff, quiet, outline }: Props) {
+export default function FocusCardDeck({ trackId, moduleId, moduleTitle, day, tools, journal, grids, prev, next, handoff, quiet, outline, pills = [], threads = [], lenses = {}, drill, where = "" }: Props) {
   const router = useRouter();
   const ready = useReady();
   const master = useMaster();
@@ -128,9 +137,13 @@ export default function FocusCardDeck({ trackId, moduleId, moduleTitle, day, too
             </article>
           ) : (
             <article key={card.id} className={`fcard ${dir < 0 ? "from-left" : ""}`} aria-roledescription="card">
-              <p className="label">{(card as Card).label}</p>
+              <div className="card-head">
+                <p className="label">{(card as Card).label}</p>
+                <PinShare cardId={card.id} title={(card as Card).title} where={where} href={`/${trackId}/${moduleId}/${day.id}${i > 0 ? `#${i + 1}` : ""}`} />
+              </div>
               <h1>{(card as Card).title}</h1>
               <EditableCardBody cardId={card.id} title={(card as Card).title} md={(card as Card).md} />
+              {lenses[card.id]?.length ? <LensFlipper key={card.id} lenses={lenses[card.id]} cardId={card.id} door={trackId as "profiling" | "communication" | "presence"} /> : null}
               {(card as Card).tools?.length ? (
                 <div className="tool-stack" data-noswipe>
                   {(card as Card).tools!.map((tid) =>
@@ -150,6 +163,7 @@ export default function FocusCardDeck({ trackId, moduleId, moduleTitle, day, too
                   </button>
                 </div>
               )}
+              <CardFooter groups={pills} threads={threads} quiet={quiet} />
             </article>
           )}
         </div>
@@ -165,33 +179,20 @@ export default function FocusCardDeck({ trackId, moduleId, moduleTitle, day, too
         </div>
       </div>
 
-      {outline && (
-        <aside aria-label="In this module">
-          <div className="surface p-3">
-            <p className="kicker mb-2">In this module</p>
-            <div className="grid gap-1">
-              {outline.map((o) => (
-                <Link key={o.href} href={o.href} className="row-link" style={o.current ? { borderColor: "var(--track-accent)" } : undefined} aria-current={o.current ? "page" : undefined}>
-                  <span className="min-w-0">
-                    <span className="block text-xs font-bold muted">{o.label}</span>
-                    <span className="block text-sm leading-snug">{o.title}</span>
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div className="surface p-3 mt-3">
-            <p className="kicker mb-2">Cards</p>
-            <div className="grid gap-1">
-              {cards.map((c, n) => (
-                <button key={c.id} type="button" className="row-link text-left" style={n === i ? { borderColor: "var(--track-accent)" } : undefined} onClick={() => go(n)}>
-                  <span className="text-sm">{c.kind === "handoff" ? "Belt handoff" : `${(c as Card).label}`}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        </aside>
-      )}
+      <Companion
+        md={card.kind === "handoff" ? "" : (card as Card).md}
+        groups={pills}
+        threads={threads}
+        drill={drill}
+        tools={tools}
+        journal={journal}
+        grids={grids}
+        quiet={quiet}
+        outline={outline}
+        cards={cards.map((c) => ({ id: c.id, label: c.kind === "handoff" ? "Belt handoff" : (c as Card).label }))}
+        current={i}
+        onCard={go}
+      />
     </div>
   );
 }

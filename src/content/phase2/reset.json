@@ -1,0 +1,30 @@
+{
+ "card": "black-capstone.main-1",
+ "title": "Under Acute Heat — Drop Down a Belt",
+ "line": "**Under Acute Heat — Drop Down a Belt:** regulate body (**White**) → read & bond (**Blue**) → state cleanly in 4 parts (**Brown**) → only then reframe the room (**Black**).",
+ "steps": [
+  {
+   "belt": "white",
+   "text": "regulate body (**White**)"
+  },
+  {
+   "belt": "blue",
+   "text": "read & bond (**Blue**)"
+  },
+  {
+   "belt": "brown",
+   "text": "state cleanly in 4 parts (**Brown**)"
+  },
+  {
+   "belt": "black",
+   "text": "only then reframe the room (**Black**)"
+  }
+ ],
+ "pacer": {
+  "label": "W1 2-beat exhale",
+  "source": "White Belt Master Grid · Opportunist · Move",
+  "sourceText": "Run W1 2-beat exhale and W4 triage before reacting.",
+  "tool": "timer.white.beat",
+  "seconds": 2
+ }
+}

@@ -5,7 +5,8 @@ import { DIALECTS } from "@/lib/types";
 import { setDemo, setSettings, useOverrides, useSettings, type Theme } from "@/lib/store";
 import { exportMaster, importBackupText } from "@/lib/backup";
 import { exportEditsJson, exportEditsMarkdown } from "@/lib/editsExport";
-import { IconClose } from "./icons";
+import { IconClose, IconSearch } from "./icons";
+import AdminSignIn from "@/components/p2/AdminSignIn";
 
 function Switch({ on, onChange, label, hint }: { on: boolean; onChange: (v: boolean) => void; label: string; hint?: string }) {
   return (
@@ -19,7 +20,7 @@ function Switch({ on, onChange, label, hint }: { on: boolean; onChange: (v: bool
   );
 }
 
-export default function Drawer({ onClose }: { onClose: () => void }) {
+export default function Drawer({ onClose, onSearch, onWelcome }: { onClose: () => void; onSearch: () => void; onWelcome: () => void }) {
   const s = useSettings();
   const overrides = useOverrides();
   const file = useRef<HTMLInputElement>(null);
@@ -50,6 +51,16 @@ export default function Drawer({ onClose }: { onClose: () => void }) {
             <IconClose />
           </button>
         </div>
+
+        <section>
+          <button type="button" className="row-link w-full text-left" onClick={onSearch}>
+            <IconSearch />
+            <span className="flex-1">
+              <span className="block font-semibold">Search all three doors</span>
+              <span className="block text-xs muted">Cards, authors, tactics and Theme Threads · press / on a keyboard</span>
+            </span>
+          </button>
+        </section>
 
         <section>
           <p className="k">Dialect for scripts</p>
@@ -101,7 +112,10 @@ export default function Drawer({ onClose }: { onClose: () => void }) {
           <p className="k">More</p>
           <Link href="/field-card/white" className="row-link">Printable belt field cards</Link>
           <Link href="/classic" className="row-link">Classic v2 view</Link>
+          <button type="button" className="row-link w-full text-left" onClick={onWelcome}>Replay Welcome Guide</button>
         </section>
+
+        <AdminSignIn />
       </aside>
     </>
   );

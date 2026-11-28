@@ -1,0 +1,110 @@
+[
+ {
+  "id": "needs",
+  "label": "Needs",
+  "stances": {
+   "profiling": {
+    "card": "m05.model.core-1",
+    "quote": "What you see swinging out into the room is the counterpart's **Primary Social Need**—the outward reach for recognition, belonging, intellectual authority, sympathy, or visible strength."
+   },
+   "communication": {
+    "card": "b3.wed.core",
+    "quote": "You never **exploit** a need (such as flattery before a bad ask—W4 *Seduction*), and you never **announce** it as an accusation (\"You just need to feel important\")."
+   },
+   "presence": {
+    "card": "s2.s2-2.core",
+    "quote": "Recognizing the trampled Fisher & Shapiro core concern or Hughes fear beneath their sharpness protects you from taking the blame personally and becoming the *\"second victim\"* of their suffering, letting you answer the hidden ache directly with loving speech and Thich Nhat Hanh's humble check: *\"Do you think I understand you enough?\"*"
+   }
+  }
+ },
+ {
+  "id": "listening",
+  "label": "Listening",
+  "stances": {
+   "profiling": {
+    "card": "m07.field.check",
+    "quote": "**Calibration:** One probe, followed by genuine listening and a brief summary—never rapid-fire questioning."
+   },
+   "communication": {
+    "card": "b4.wed.core",
+    "quote": "Rogers insisted that reflective listening collapses into hollow parroting unless it rests on three attitudes: **Congruence** (genuineness), **Acceptance**, and **Empathic Understanding**—entering their world *\"as if\"* it were yours without losing the *\"as if.\"*"
+   },
+   "presence": {
+    "card": "s2.s2-2.core",
+    "quote": "The Sanctuary rule is simple and counterintuitive: **now is the time to listen only**—defer fact-checking to a calmer hour tomorrow."
+   }
+  }
+ },
+ {
+  "id": "power",
+  "label": "Power / Autonomy",
+  "stances": {
+   "profiling": {
+    "card": "m02.chain3.core-2",
+    "quote": "Every counterpart carries a distinct **Autonomy Margin**: the amount of directive pressure they can absorb before their nervous system flags it as encroachment."
+   },
+   "communication": {
+    "card": "b3.mon.core",
+    "quote": "**Autonomy** stays intact through one simple habit: *always consult before deciding*."
+   },
+   "presence": {
+    "card": "s4.s4-1.deeper",
+    "quote": "Bowen explicitly separates differentiation from power: power is about exerting control over others, whereas differentiation is strictly about working on self—controlling your own reactivity, becoming more responsible, and permitting others to be themselves while staying in loving contact."
+   }
+  }
+ },
+ {
+  "id": "silence",
+  "label": "Silence / Pauses",
+  "stances": {
+   "profiling": {
+    "card": "m02.field.action",
+    "quote": "Absorb 2–3 full seconds of silence without nodding, shifting weight, or adding a second justification."
+   },
+   "communication": {
+    "card": "b5.mon.core",
+    "quote": "The engine that makes a label work is **Dynamic Silence**—stopping dead for three full seconds (three to four seconds in live talks) with no question mark and no \"but.\""
+   },
+   "presence": {
+    "card": "s3.s3-2.core",
+    "quote": "Tannen's conversational rhythm becomes **pacing as compassion**: when a close friend is grieving or processing slowly, you stretch your own tolerance for silence instead of rushing to fill the void."
+   }
+  }
+ },
+ {
+  "id": "disclosure",
+  "label": "Disclosure",
+  "stances": {
+   "profiling": {
+    "card": "m08.chain2.core-2",
+    "quote": "**Informational Altruism (Reciprocal Disclosure):** Offering a calibrated, slightly candid vulnerability of your own—such as admitting a minor workflow headache on your team—creates subtle social permission and reciprocity pressure for the counterpart to match your candor with an equivalent reality on their side."
+   },
+   "communication": {
+    "card": "br4.canon.core",
+    "quote": "**Calibrated vulnerability (Curriculum, Layer 3 Module 4).** A disclosure that is real, sized to the relationship, and processed enough not to hand the other person a crisis."
+   },
+   "presence": {
+    "card": "s3.s3-4.core",
+    "quote": "Sanctuary S3.4 marks **the end of the strategic reveal**: a disclosure designed to engineer a reciprocal confession is still management."
+   }
+  }
+ },
+ {
+  "id": "boundaries",
+  "label": "Boundaries",
+  "stances": {
+   "profiling": {
+    "card": "m02.field.check",
+    "quote": "**Calibration:** Cap boundary rationales at one clean sentence—or zero under pressure."
+   },
+   "communication": {
+    "card": "b5.wed.core",
+    "quote": "That physiological steadiness is what makes the **Empathy Boundary** possible—the hardest line in Blue Belt: **understanding is not agreement.**"
+   },
+   "presence": {
+    "card": "s3.s3-1.core",
+    "quote": "Even boundaries drop their tactical wrapping into the **naked boundary**: stated plainly and warmly, proving that love and the need for space can coexist."
+   }
+  }
+ }
+]

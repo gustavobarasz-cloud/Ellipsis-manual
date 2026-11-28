@@ -1,0 +1,422 @@
+[
+ {
+  "id": "needs",
+  "label": "Needs & fears",
+  "by": "Gus",
+  "members": [
+   {
+    "track": "communication",
+    "module": "w3",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "communication",
+    "module": "b3",
+    "day": "wed",
+    "scope": "module"
+   },
+   {
+    "track": "profiling",
+    "module": "m05",
+    "day": "model",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s2",
+    "day": "s2-2",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "b3.wed.deeper",
+    "quote": "Hughes maps six social needs—three Primary (*Significance, Approval, Acceptance*) and three Secondary (*Intelligence, Pity, Strength/Power*)—treating each not as a polite preference, but as a fear-driven craving leaking through everyday syntax."
+   },
+   {
+    "card": "s2.s2-2.deeper",
+    "quote": "Answering the Concern — Office Tactic (B3) vs. Sanctuary Recognition (S2.2)"
+   }
+  ]
+ },
+ {
+  "id": "body",
+  "label": "Body under fire",
+  "by": "Gus",
+  "members": [
+   {
+    "track": "communication",
+    "module": "w1",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s1",
+    "day": "s1-1",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s1.s1-1.core",
+    "quote": "In W1, you exhaled to keep your executive function online so you would not snap, fawn, or over-"
+   }
+  ]
+ },
+ {
+  "id": "fallbacks",
+  "label": "Fallbacks",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "w2",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s1",
+    "day": "s1-2",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s1.s1-2.core",
+    "quote": "In W2, William Torbert's fallbacks showed how you lose tactical footing under workplace stress."
+   }
+  ]
+ },
+ {
+  "id": "sweep",
+  "label": "The sweep",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "b1",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "communication",
+    "module": "b2",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s2",
+    "day": "s2-1",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s2.s2-1.core",
+    "quote": "Blue Belt trained you to sweep a room like a careful analyst"
+   }
+  ]
+ },
+ {
+  "id": "baseline",
+  "label": "Baseline",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "b1",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "profiling",
+    "module": "m03",
+    "day": "chain1",
+    "scope": "module"
+   }
+  ],
+  "basis": [
+   {
+    "card": "b1.mon.deeper",
+    "quote": "Hughes built his Behavioral Table of Elements to give observers a shared vocabulary for human movement—anchoring everything on one governing premise: **the unit of reading is never a static gesture, but a multi-channel departure from a person's own neutral baseline, tied to a specific moment.**"
+   }
+  ]
+ },
+ {
+  "id": "face",
+  "label": "Face",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "br1",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s3",
+    "day": "s3-1",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s3.s3-1.core",
+    "quote": "In Brown Belt Br1, you learned to wrap requests in Brown & Levinson politeness"
+   }
+  ]
+ },
+ {
+  "id": "metamessage",
+  "label": "Metamessage",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "br2",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s3",
+    "day": "s3-2",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s3.s3-2.core",
+    "quote": "Brown Belt Br2 trained you to audit message versus metamessage so you wouldn't get hooked by power frame"
+   }
+  ]
+ },
+ {
+  "id": "word",
+  "label": "Weight of the word",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "br3",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s3",
+    "day": "s3-3",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s3.s3-3.core",
+    "quote": "Brown Belt Br3 tracked bilingual weight and the translation tax"
+   }
+  ]
+ },
+ {
+  "id": "disclosure",
+  "label": "Disclosure",
+  "by": "Gus",
+  "members": [
+   {
+    "track": "communication",
+    "module": "br4",
+    "day": "canon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s3",
+    "day": "s3-4",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s3.s3-4.core",
+    "quote": "Brown Belt Br4 taught strategic, calibrated disclosure using Torbert's four parts of speech."
+   }
+  ]
+ },
+ {
+  "id": "rooms",
+  "label": "Rooms & margins",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "bk1",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "communication",
+    "module": "bk2",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "communication",
+    "module": "bk3",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s4",
+    "day": "s4-1",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s4.s4-1.core",
+    "quote": "Black Belt Bk1–Bk3 taught you to read rooms, broker proposals, and stand on the margins without disappearing"
+   }
+  ]
+ },
+ {
+  "id": "pattern",
+  "label": "Name the pattern",
+  "by": "Gus",
+  "members": [
+   {
+    "track": "communication",
+    "module": "bk4",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s4",
+    "day": "s4-2",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s4.s4-2.core",
+    "quote": "Black Belt Bk4 taught you to name patterns in meetings and shift the frame."
+   }
+  ]
+ },
+ {
+  "id": "acceptance",
+  "label": "Limits & acceptance",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "bk5",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "communication",
+    "module": "bk6",
+    "day": "mon",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s4",
+    "day": "s4-3",
+    "scope": "day"
+   }
+  ],
+  "basis": [
+   {
+    "card": "s4.s4-3.core",
+    "quote": "Black Belt Bk5–Bk6 balanced walk-away guardrails with accepting fixed limits."
+   }
+  ]
+ },
+ {
+  "id": "layer1",
+  "label": "Sanctuary Layer 1",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "white-s1",
+    "day": "s1-1",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s1",
+    "day": "s1-1",
+    "scope": "module"
+   }
+  ],
+  "basis": []
+ },
+ {
+  "id": "layer2",
+  "label": "Sanctuary Layer 2",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "blue-s2",
+    "day": "s2-1",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s2",
+    "day": "s2-1",
+    "scope": "module"
+   }
+  ],
+  "basis": []
+ },
+ {
+  "id": "layer3",
+  "label": "Sanctuary Layer 3",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "brown-s3",
+    "day": "s3-1",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s3",
+    "day": "s3-1",
+    "scope": "module"
+   }
+  ],
+  "basis": []
+ },
+ {
+  "id": "layer4",
+  "label": "Sanctuary Layer 4",
+  "by": "text",
+  "members": [
+   {
+    "track": "communication",
+    "module": "black-s4",
+    "day": "s4-1",
+    "scope": "module"
+   },
+   {
+    "track": "presence",
+    "module": "s4",
+    "day": "s4-1",
+    "scope": "module"
+   }
+  ],
+  "basis": []
+ }
+]

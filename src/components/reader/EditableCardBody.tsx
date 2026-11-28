@@ -6,7 +6,7 @@ import { setSettings, useContentCard, useSettings } from "@/lib/store";
 import Md from "./Md";
 
 export default function EditableCardBody({ cardId, title, md }: { cardId: string; title: string; md: string }) {
-  const { content, edited, editedAt, save, reset } = useContentCard(cardId, md);
+  const { content, edited, published, publishing, editedAt, save, reset } = useContentCard(cardId, md);
   const { editMode, demo } = useSettings();
   const [local, setLocal] = useState(false);
   const editing = !demo && (local || editMode);
@@ -35,7 +35,7 @@ export default function EditableCardBody({ cardId, title, md }: { cardId: string
           />
         </label>
         <p className="text-sm muted mt-2">
-          Markdown: **bold**, *italic*, &quot;- &quot; lists, ## headings. Keep the :::dialect and :::field lines as they are.
+          {publishing ? "Save publishes this card live for everyone. " : ""}Markdown: **bold**, *italic*, &quot;- &quot; lists, ## headings. Keep the :::dialect and :::field lines as they are.
         </p>
         <div className="btn-row mt-3">
           <button type="button" className="btn primary" onClick={() => { save(draft, title); setEditing(false); }}>Save</button>
@@ -50,8 +50,9 @@ export default function EditableCardBody({ cardId, title, md }: { cardId: string
         {edited && (
           <span className="badge edited-badge" title={editedAt ? `Edited ${new Date(editedAt).toLocaleString()}` : undefined}>Edited</span>
         )}
+        {published && !edited && <span className="badge edited-badge">Published edit</span>}
         <span className="flex-1" />
-        {!demo && edited && <button type="button" className="btn sm danger" onClick={reset}>Reset</button>}
+        {!demo && (edited || (publishing && published)) && <button type="button" className="btn sm danger" onClick={reset}>Reset</button>}
         {!demo && <button type="button" className="btn sm" onClick={() => setEditing(true)} aria-label={`Edit card: ${title}`}>Edit</button>}
       </div>
       <Md md={withoutRepeatedTitle(content, title)} cardId={cardId} />

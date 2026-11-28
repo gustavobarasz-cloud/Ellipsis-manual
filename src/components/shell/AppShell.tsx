@@ -9,6 +9,10 @@ import { routeInfo } from "./route";
 import { IconBack, IconCard, IconJournal, IconLearn, IconMore, IconPractice } from "./icons";
 import Drawer from "./Drawer";
 import PocketModal from "./PocketModal";
+import SearchModal from "@/components/p2/SearchModal";
+import Welcome, { seenWelcome } from "@/components/p2/Welcome";
+import { backTarget, popJump } from "@/lib/jump";
+import { bootRemote } from "@/lib/remote";
 
 export default function AppShell({ nav, pockets, children }: { nav: NavTrack[]; pockets: Record<string, PocketCard>; children: React.ReactNode }) {
   const pathname = usePathname() || "/";
@@ -17,9 +21,41 @@ export default function AppShell({ nav, pockets, children }: { nav: NavTrack[]; 
   const info = useMemo(() => routeInfo(pathname, nav), [pathname, nav]);
   const [drawer, setDrawer] = useState(false);
   const [pocket, setPocket] = useState(false);
+  const [search, setSearch] = useState(false);
+  const [welcome, setWelcome] = useState(false);
 
   useEffect(() => {
     boot();
+    bootRemote();
+    if (!seenWelcome()) setWelcome(true);
+  }, []);
+
+  // Share Card links: /?card=<cardId> opens straight to that card.
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get("card");
+    if (!id) return;
+    fetch("/card-map.json")
+      .then((r) => r.json())
+      .then((map: Record<string, [string, string, string]>) => {
+        const hit = map[id];
+        if (hit) router.replace(hit[0]);
+      })
+      .catch(() => undefined);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // "/" opens search on a keyboard (not while typing)
+  useEffect(() => {
+    const k = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (t && t.closest("input, textarea, select, [contenteditable]")) return;
+      e.preventDefault();
+      setDrawer(false);
+      setSearch(true);
+    };
+    window.addEventListener("keydown", k);
+    return () => window.removeEventListener("keydown", k);
   }, []);
 
   // theme
@@ -50,9 +86,19 @@ export default function AppShell({ nav, pockets, children }: { nav: NavTrack[]; 
   useEffect(() => {
     setDrawer(false);
     setPocket(false);
+    setSearch(false);
   }, [pathname]);
 
-  const back = () => router.push(info.parent || "/");
+  const back = () => {
+    const j = backTarget(pathname);
+    if (j) {
+      popJump();
+      if (j.useHistory) router.back();
+      else router.push(j.from);
+      return;
+    }
+    router.push(info.parent || "/");
+  };
   const tabs = info.track
     ? [
         { id: "learn", label: "Learn", href: `/${info.track.id}`, Icon: IconLearn },
@@ -123,8 +169,16 @@ export default function AppShell({ nav, pockets, children }: { nav: NavTrack[]; 
         </nav>
       )}
 
-      {drawer && <Drawer onClose={() => setDrawer(false)} />}
-      {pocket && card && <PocketModal card={card} belt={info.pocket} onClose={() => setPocket(false)} />}
+      {drawer && (
+        <Drawer
+          onClose={() => setDrawer(false)}
+          onSearch={() => { setDrawer(false); setSearch(true); }}
+          onWelcome={() => { setDrawer(false); setWelcome(true); }}
+        />
+      )}
+      {pocket && card && <PocketModal card={card} belt={info.pocket} pockets={pockets} onClose={() => setPocket(false)} />}
+      {search && <SearchModal quiet={info.track?.id === "presence"} onClose={() => setSearch(false)} />}
+      {welcome && <Welcome onClose={() => setWelcome(false)} />}
     </div>
   );
 }

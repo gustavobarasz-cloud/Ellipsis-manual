@@ -1,0 +1,188 @@
+{
+ "triage": {
+  "id": "triage-tree",
+  "title": "White Triage Tree",
+  "source": "W4 · W6",
+  "start": "t0",
+  "nodes": {
+   "t0": {
+    "card": "w4.mon.core",
+    "text": "*diagnose what just landed on you before you reach for a tool*, because using tactic defenses on a style clash turns you into the aggressor.",
+    "options": [
+     {
+      "label": "Run the triage",
+      "to": "t1"
+     }
+    ]
+   },
+   "t1": {
+    "card": "w4.mon.action",
+    "title": "Topic-Survival + Light-Shift Test",
+    "text": "Run the **Topic-Survival + Light-Shift Test**: after an overlap, check *whose topic survived*.",
+    "options": [
+     {
+      "label": "Cooperative overlap keeps your thread alive",
+      "to": "style"
+     },
+     {
+      "label": "hostile interruption hijacks the floor to pivot elsewhere",
+      "to": "t2"
+     }
+    ]
+   },
+   "style": {
+    "card": "w4.mon.action",
+    "title": "Style",
+    "outcome": true,
+    "text": "Adjust your pace or tone by one notch before lecturing anyone on style."
+   },
+   "t2": {
+    "card": "w4.wed.action",
+    "title": "Incident #1 Light Test",
+    "text": "Run the **Incident #1 Light Test**: deliver one neutral, fact-anchored check (\"I want to make sure we're still on for Friday\").",
+    "options": [
+     {
+      "label": "ownership and adjustment clear it",
+      "to": "blind"
+     },
+     {
+      "label": "deflection, amnesia, or counter-blame confirm a tactic",
+      "to": "t3"
+     }
+    ]
+   },
+   "blind": {
+    "card": "w4.tue.action",
+    "title": "Style or Blind Spot",
+    "outcome": true,
+    "lead": {
+     "card": "w4.wed.core",
+     "text": "Surprise followed by adaptation clears the room as Style or Blind Spot"
+    },
+    "text": "Use **Power-Calibrated Naming**: laterally with peers or friends, keep it plain (\"I notice X, and I wonder how we want to decide this\"). Upward across a hierarchy, anchor in a shared goal plus an objective fact plus genuine openness (\"I want to support your goal on X; I noticed we finalized Y—am I missing a constraint?\")."
+   },
+   "t3": {
+    "card": "w6.mon.core",
+    "title": "Tactic",
+    "lead": {
+     "card": "w4.wed.core",
+     "text": "denial, evasion, or turning your check into an indictment of your tone confirms a Tactic."
+    },
+    "text": "three **always-on guardrails** running underneath every sentence—**Actions over intentions** (Move 1), **Stay in the here and now** (Move 5), and **Keep responsibility where it belongs** (Move 6)—and **three response moves matched to the type of push**.",
+    "options": [
+     {
+      "label": "someone dodges your *ask or proposal* with a vague \"maybe,\"",
+      "to": "m2"
+     },
+     {
+      "label": "someone pushes back on your *clean no* with excuses, flattery, or guilt",
+      "to": "m3"
+     },
+     {
+      "label": "they keep crossing after three calm repeats—or repeat a clear violation",
+      "to": "m4"
+     },
+     {
+      "label": "harassment, discrimination, threats, or abuse",
+      "to": "r9"
+     }
+    ]
+   },
+   "m2": {
+    "card": "w6.mon.core",
+    "title": "Move 2",
+    "outcome": true,
+    "text": "When someone dodges your *ask or proposal* with a vague \"maybe,\" deploy **Move 2 (Direct yes/no request)**."
+   },
+   "m3": {
+    "card": "w6.mon.core",
+    "title": "Move 3",
+    "outcome": true,
+    "text": "When someone pushes back on your *clean no* with excuses, flattery, or guilt, deploy **Move 3 (Fogging + Broken record, up to three times)**."
+   },
+   "m4": {
+    "card": "w6.mon.core",
+    "title": "Move 4",
+    "outcome": true,
+    "text": "When they keep crossing after three calm repeats—or repeat a clear violation—deploy **Move 4 (Boundary with consequence)**, which must pass three structural tests: (a) 100% unilaterally executable by you, (b) protective rather than retaliatory, and (c) something you are genuinely ready to execute today."
+   },
+   "r9": {
+    "card": "w6.mon.core",
+    "title": "Safety Rule #9",
+    "outcome": true,
+    "warn": true,
+    "text": "And remember Safety Rule #9: harassment, discrimination, threats, or abuse belong with HR, legal, or outside support with a written record, never inside everyday dojo scripts."
+   }
+  }
+ },
+ "ask": {
+  "id": "ask-tree",
+  "title": "Brown Ask Tree",
+  "source": "Br1",
+  "card": "br1.tue.deeper",
+  "intro": "By weighing Distance (**D**), Power (**P**), and Imposition (**R**), you stop wrapping asks by anxious reflex and start choosing the exact shock absorber the room requires.",
+  "factors": [
+   {
+    "k": "D",
+    "label": "Distance"
+   },
+   {
+    "k": "P",
+    "label": "Power"
+   },
+   {
+    "k": "R",
+    "label": "Imposition"
+   }
+  ],
+  "faces": {
+   "card": "br1.tue.core",
+   "text": "**Positive Face** (the want that your goals and traits be seen as desirable, ratified, and included by others) and **Negative Face** (the want of every competent adult that their actions remain unimpeded)"
+  },
+  "bands": [
+   {
+    "strategy": "Bald On-Record",
+    "weight": "Low (3–5)",
+    "min": 3,
+    "max": 5,
+    "best": "Emergencies, tiny asks, agreed efficiency.",
+    "risk": "Reads as dominance if P or R is high."
+   },
+   {
+    "strategy": "Positive Politeness (Solidarity Wrap)",
+    "weight": "Med (6–9)",
+    "min": 6,
+    "max": 9,
+    "best": "Critique or no to someone who values belonging.",
+    "risk": "Overused = flattering or weak."
+   },
+   {
+    "strategy": "Negative Politeness (Autonomy Wrap)",
+    "weight": "High (10–12)",
+    "min": 10,
+    "max": 12,
+    "best": "Asking someone senior/proud; high P or R.",
+    "risk": "Overused = asking from below."
+   },
+   {
+    "strategy": "Off-Record",
+    "weight": "Very High (13–15)",
+    "min": 13,
+    "max": 15,
+    "best": "Plausible deniability protects both sides.",
+    "risk": "Slides into passive aggression."
+   }
+  ],
+  "heads": {
+   "weight": "Weight (W)",
+   "best": "Best Used When",
+   "risk": "Backfire Risk"
+  },
+  "surviving": {
+   "card": "br1.wed.action",
+   "title": "The 3-Second Surviving-Ask Test",
+   "text": "Read your drafted ask and delete the wrap mentally. Is there a single, unambiguous proposal left standing (*what you want + by when*)? If not, the wrap swallowed the ask."
+  },
+  "linter": "linter.brown.ask"
+ }
+}

@@ -14,6 +14,7 @@ import Evidence from "./Evidence";
 import FaceWeight from "./FaceWeight";
 import Radar from "./Radar";
 import Legacy from "./Legacy";
+import PitchCheck from "./PitchCheck";
 
 export default function ToolView({ id, spec, journal, grids, quiet }: { id: string; spec: ToolSpec; journal: JournalMap; grids: GridMap; quiet?: boolean }) {
   switch (spec.type) {
@@ -30,6 +31,7 @@ export default function ToolView({ id, spec, journal, grids, quiet }: { id: stri
     case "faceweight": return <FaceWeight />;
     case "radar": return <Radar />;
     case "legacy": return <Legacy spec={spec} />;
+    case "pitch": return <PitchCheck spec={spec} />;
     default: return null;
   }
 }

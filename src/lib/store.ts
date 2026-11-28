@@ -4,6 +4,7 @@
 import { useSyncExternalStore } from "react";
 import type { Dialect } from "./types";
 import { getPath, setPath } from "./paths";
+import { isAdminNow, publish, remoteEnabled, unpublish, useAdmin, usePublished } from "./remote";
 
 export const SETTINGS_KEY = "dojo_settings_v1";
 export const MASTER_KEY = "dojo_master_state_v1";
@@ -42,10 +43,34 @@ export interface MasterState {
     tests: Record<string, boolean>;      // capstone tests passed (belts without their own key)
     timers: Record<string, string>;
   };
+  p2: Phase2State;                       // Phase 2: pins, Quick Debriefs, dismissed nudges
   v2: Record<string, string>;            // the v2 site's own saves (Loop, Kit, completed modules), kept as their raw JSON text
   pit: Record<string, string>;
   imported: Record<string, string>;      // source -> ISO time of import
 }
+
+export interface PinRef { id: string; href: string; title: string; where: string }
+export type DebriefCtx = "office" | "personal" | "presence";
+export interface Debrief {
+  id: string;
+  at: string;             // ISO time
+  ctx: DebriefCtx;
+  person?: string;
+  tells: string[];
+  stage?: string;         // Master Grid stage (Office / Personal)
+  armor?: string;         // Sanctuary: which armor showed up
+  crossed?: boolean;      // Sanctuary: a boundary was crossed
+  triage?: string;        // Style | Blind Spot | Tactic | Core Concern | Need
+  detail?: string;        // tactic family, core concern or need
+  layer?: string;         // Sanctuary layer
+  marker?: string;        // Sanctuary marker
+  belt?: string;          // which belt's Evidence bar and Master Grid it counts toward
+  evidence?: string[];    // Evidence columns it counted toward
+  takeaway: string;
+  promoted?: string;      // "codex" | "sanctuary"
+}
+export interface Phase2State { pins: PinRef[]; debriefs: Debrief[]; nudgeOff: Record<string, boolean> }
+export const emptyP2 = (): Phase2State => ({ pins: [], debriefs: [], nudgeOff: {} });
 
 export function emptyMaster(): MasterState {
   return {
@@ -53,6 +78,7 @@ export function emptyMaster(): MasterState {
     belts: { white: {}, blue: {}, brown: {}, black: {}, sanctuary: {} },
     brownRungs: {},
     app: { fields: {}, done: {}, markers: {}, grid: {}, evidence: {}, tests: {}, timers: {} },
+    p2: emptyP2(),
     v2: {},
     pit: {},
     imported: {},
@@ -121,9 +147,10 @@ export function boot() {
   readyStore.set(true);
 }
 
-function normalize(s: MasterState): MasterState {
+export function normalize(s: MasterState): MasterState {
   const e = emptyMaster();
-  return { ...e, ...s, belts: { ...e.belts, ...s.belts }, app: { ...e.app, ...s.app }, v2: { ...s.v2 }, pit: { ...s.pit }, imported: { ...s.imported } };
+  const p2 = s.p2 && typeof s.p2 === "object" ? s.p2 : e.p2;
+  return { ...e, ...s, belts: { ...e.belts, ...s.belts }, app: { ...e.app, ...s.app }, p2: { pins: Array.isArray(p2.pins) ? p2.pins : [], debriefs: Array.isArray(p2.debriefs) ? p2.debriefs : [], nudgeOff: p2.nudgeOff && typeof p2.nudgeOff === "object" ? p2.nudgeOff : {} }, v2: { ...s.v2 }, pit: { ...s.pit }, imported: { ...s.imported } };
 }
 
 /** Same-origin saves from the original manuals and the v2 site. */
@@ -250,19 +277,39 @@ export function replaceOverrides(next: Overrides) {
   write(OVERRIDES_KEY, next);
 }
 
-/** The text a card shows: the user's saved edit if there is one, otherwise the migrated text. */
+/** The text a card shows: the user's saved edit if there is one, then a published edit (Supabase, when set up),
+ *  otherwise the migrated text. A signed-in admin's Save publishes live instead of saving in this browser. */
 export function useContentCard(cardId: string, defaultContent: string) {
   const demo = useSettings().demo;
   // Demo Mode shows the original text, so personal rewrites stay hidden too.
   const all = useOverrides();
+  const pub = usePublished()[cardId];
+  const adminState = useAdmin();
   const ov = demo ? undefined : all[cardId];
+  const live = remoteEnabled && adminState.admin;
   return {
-    content: ov ? ov.md : defaultContent,
+    content: ov ? ov.md : pub ? pub.body : defaultContent,
     edited: !!ov,
-    editedAt: ov?.at,
-    save: (md: string, title?: string) => (md === defaultContent ? resetOverride(cardId) : saveOverride(cardId, md, title)),
-    reset: () => resetOverride(cardId),
+    published: !!pub,
+    editedAt: ov?.at || pub?.at,
+    publishing: live,
+    save: (md: string, title?: string) => {
+      if (live && isAdminNow()) {
+        resetOverride(cardId);
+        return (md === defaultContent ? unpublish(cardId) : publish(cardId, md)).catch(() => saveOverride(cardId, md, title));
+      }
+      return md === (pub ? pub.body : defaultContent) ? resetOverride(cardId) : saveOverride(cardId, md, title);
+    },
+    reset: () => {
+      if (live && isAdminNow() && pub && !ov) return unpublish(cardId).catch(() => undefined);
+      return resetOverride(cardId);
+    },
   };
+}
+
+/** Phase 2 saved state (pins, debriefs, nudges). In Demo Mode this is the blank demo state. */
+export function updateP2(fn: (p: Phase2State) => Phase2State) {
+  updateMaster((s) => ({ ...s, p2: fn(s.p2 || emptyP2()) }));
 }
 
 /** Sets one entry of an app-level map (keys may contain dots, so no dotted path). */

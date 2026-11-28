@@ -40,7 +40,7 @@ export function handoffFor(trackId: string, mod: Module, dayId: string) {
 
 export interface PracticeItem { id: string; type: string; title: string; where: string; href: string; belt: string }
 
-const PRACTICE_TYPES = new Set(["deck", "drill", "timer", "linter", "faceweight", "radar", "bodymap"]);
+export const PRACTICE_TYPES = new Set(["deck", "drill", "timer", "linter", "faceweight", "radar", "bodymap"]);
 const DRILL_TITLE: Record<string, string> = {
   B1_clusters: "Baseline or cluster?",
   B2_drills: "Read the currency",
