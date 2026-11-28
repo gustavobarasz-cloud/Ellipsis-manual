@@ -81,25 +81,42 @@
   "store": "white",
   "fields": [
    {
-    "k": "w3_col1",
+    "k": "w3_primary",
     "label": "Top Primary Need (Hughes)",
-    "placeholder": "e.g., Hold a fair boundary with one reason and no apology.",
+    "placeholder": "Select Primary Need...",
     "multi": false,
-    "readonly": false
+    "readonly": false,
+    "options": [
+     "Significance",
+     "Approval",
+     "Acceptance"
+    ]
    },
    {
-    "k": "w3_col1",
+    "k": "w3_secondary",
     "label": "Top Secondary Need (Hughes)",
-    "placeholder": "e.g., Hold a fair boundary with one reason and no apology.",
+    "placeholder": "Select Secondary Need...",
     "multi": false,
-    "readonly": false
+    "readonly": false,
+    "options": [
+     "Intelligence",
+     "Pity",
+     "Strength / Power"
+    ]
    },
    {
-    "k": "w3_col1",
+    "k": "w3_handle",
     "label": "Highest Simon Handle (1–5 Rated)",
-    "placeholder": "e.g., Hold a fair boundary with one reason and no apology.",
+    "placeholder": "Select Highest Handle...",
     "multi": false,
-    "readonly": false
+    "readonly": false,
+    "options": [
+     "Naivety",
+     "Over-conscientiousness",
+     "Low self-confidence",
+     "Over-intellectualization",
+     "Emotional dependency"
+    ]
    },
    {
     "k": "w3_col1",
@@ -176,11 +193,18 @@
   "store": "white",
   "fields": [
    {
-    "k": "w5_script",
+    "k": "w5_form",
     "label": "Target Rung & Grammar Form",
-    "placeholder": "Write your exact EN / ES line...",
-    "multi": true,
-    "readonly": false
+    "placeholder": "Choose Grammar...",
+    "multi": false,
+    "readonly": false,
+    "options": [
+     "Constraint (\"I can't...\")",
+     "Principle (\"I don't...\")",
+     "Preference (\"I'd rather...\")",
+     "Proposal (\"I'd like to...\")",
+     "Reverse Rung (Accepting Their No)"
+    ]
    },
    {
     "k": "w5_script",
@@ -253,25 +277,29 @@
     "k": "s1_what",
     "label": "1. What happened between us",
     "placeholder": "Plain description of the encounter...",
-    "multi": true
+    "multi": true,
+    "readonly": false
    },
    {
     "k": "s1_armor",
     "label": "2. Which layer it touched & which armor showed up",
     "placeholder": "e.g., S1.2 — Achiever fixer arrived; thanked it and stayed",
-    "multi": false
+    "multi": false,
+    "readonly": false
    },
    {
     "k": "s1_marker",
     "label": "3. The marker (if there was one)",
     "placeholder": "e.g., Offered zero solutions; friend said thank you for listening",
-    "multi": false
+    "multi": false,
+    "readonly": false
    },
    {
     "k": "s1_rim",
     "label": "My Relational Immunity Map (S1.3)",
     "placeholder": "Goal: ...\nInstead: ...\nHidden Commitment: ...\nBig Assumption: ...\nSafe-to-Fail Intimacy Test: ...",
-    "multi": true
+    "multi": true,
+    "readonly": false
    }
   ],
   "sanctuary": true
@@ -633,15 +661,15 @@
   "module": "B5",
   "title": "Accusation Audits & Boundary Sentences",
   "store": "blue",
-  "list": "b5Audits",
+  "path": "b5Audits",
   "fields": [
    {
-    "k": "off",
+    "k": "office",
     "label": "Office Accusation Audit",
     "multi": false
    },
    {
-    "k": "per",
+    "k": "personal",
     "label": "Personal Accusation Audit",
     "multi": false
    },
@@ -718,93 +746,60 @@
   "module": "Br1",
   "title": "Before-and-After Ask File",
   "store": "brown",
-  "path": "br1",
-  "shape": {
-   "calcD": 3,
-   "calcP": 4,
-   "calcR": 4,
-   "calcFace": "autonomy",
-   "linterText": "Sorry to bother you, I just wanted to check if maybe it would possibly be okay if we looked at my title this cycle, if it's not too much trouble?",
-   "asks": [
-    {
-     "promo": true,
-     "lang": "EN",
-     "orig": "",
-     "threat": "Autonomy (Negative Face)",
-     "strat": "Negative Politeness (Autonomy Wrap)",
-     "rewrite": "",
-     "outcome": ""
-    },
-    {
-     "promo": false,
-     "lang": "EN",
-     "orig": "",
-     "threat": "Belonging (Positive Face)",
-     "strat": "Positive Politeness (Solidarity Wrap)",
-     "rewrite": "",
-     "outcome": ""
-    },
-    {
-     "promo": false,
-     "lang": "EN",
-     "orig": "",
-     "threat": "Autonomy (Negative Face)",
-     "strat": "Bald On-Record",
-     "rewrite": "",
-     "outcome": ""
-    },
-    {
-     "promo": false,
-     "lang": "ES",
-     "orig": "",
-     "threat": "Autonomy (Negative Face)",
-     "strat": "Negative Politeness (Autonomy Wrap)",
-     "rewrite": "",
-     "outcome": ""
-    },
-    {
-     "promo": false,
-     "lang": "ES",
-     "orig": "",
-     "threat": "Belonging (Positive Face)",
-     "strat": "Positive Politeness (Solidarity Wrap)",
-     "rewrite": "",
-     "outcome": ""
-    }
-   ]
-  },
-  "labels": [
-   "Original Hedged / Raw Ask",
-   "Face-Threat Named",
-   "Politeness Strategy Chosen",
-   "What Happened",
-   "Rewritten Intact Ask (Survives Wrap)"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "Original Hedged / Raw Ask",
-    "multi": true
-   },
-   {
-    "k": "f1",
-    "label": "Face-Threat Named",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "Politeness Strategy Chosen",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "What Happened",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "Rewritten Intact Ask (Survives Wrap)",
-    "multi": true
+    "repeat": "br1.asks",
+    "count": 5,
+    "itemTitles": [
+     "Ask #1",
+     "Ask #2",
+     "Ask #3",
+     "Ask #4 (Spanish target)",
+     "Ask #5 (Spanish target)"
+    ],
+    "fields": [
+     {
+      "k": "orig",
+      "label": "Original Hedged / Raw Ask",
+      "placeholder": "What you wrote or usually say",
+      "multi": false
+     },
+     {
+      "k": "threat",
+      "label": "Face-Threat Named",
+      "placeholder": "e.g., High P + R, Negative Face (Autonomy)",
+      "multi": false
+     },
+     {
+      "k": "strat",
+      "label": "Politeness Strategy Chosen",
+      "placeholder": "Autonomy Wrap / Solidarity Wrap / Bald",
+      "multi": false
+     },
+     {
+      "k": "outcome",
+      "label": "What Happened",
+      "placeholder": "Their actual reply",
+      "multi": false
+     },
+     {
+      "k": "rewrite",
+      "label": "Rewritten Intact Ask (Survives Wrap)",
+      "placeholder": "Clean proposal in EN",
+      "multi": false
+     }
+    ],
+    "itemPlaceholders": [
+     {},
+     {},
+     {},
+     {
+      "rewrite": "Clean proposal in ES"
+     },
+     {
+      "rewrite": "Clean proposal in ES"
+     }
+    ]
    }
   ]
  },
@@ -814,72 +809,52 @@
   "module": "Br2",
   "title": "The Transcript Audit",
   "store": "brown",
-  "path": "br2",
-  "shape": {
-   "turns": [
-    {
-     "spk": "Counterpart",
-     "words": "",
-     "msg": "",
-     "meta": "",
-     "sig": ""
-    },
-    {
-     "spk": "Me",
-     "words": "",
-     "msg": "",
-     "meta": "",
-     "sig": ""
-    },
-    {
-     "spk": "Counterpart",
-     "words": "",
-     "msg": "",
-     "meta": "",
-     "sig": ""
-    },
-    {
-     "spk": "Me",
-     "words": "",
-     "msg": "",
-     "meta": "",
-     "sig": ""
-    }
-   ],
-   "frameBreaker": ""
-  },
-  "labels": [
-   "Exact Words Said",
-   "Style / Accommodation Signal",
-   "Message (Content Track)",
-   "Metamessage (Relationship Track)",
-   "The One Sentence That Would Have Broken the Frame"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "Exact Words Said",
-    "multi": true
+    "repeat": "br2.turns",
+    "count": 4,
+    "itemTitles": [
+     "Turn 1 (Counterpart)",
+     "Turn 2 (Me)",
+     "Turn 3 (Counterpart)",
+     "Turn 4 (Me)"
+    ],
+    "fields": [
+     {
+      "k": "words",
+      "label": "Exact Words Said",
+      "placeholder": "What was literally spoken",
+      "multi": false
+     },
+     {
+      "k": "sig",
+      "label": "Style / Accommodation Signal",
+      "placeholder": "Overlap, pause, convergence, spin",
+      "multi": false
+     },
+     {
+      "k": "msg",
+      "label": "Message (Content Track)",
+      "placeholder": "Literal information",
+      "multi": false
+     },
+     {
+      "k": "meta",
+      "label": "Metamessage (Relationship Track)",
+      "placeholder": "Claim about power or closeness",
+      "multi": false
+     }
+    ]
    },
    {
-    "k": "f1",
-    "label": "Style / Accommodation Signal",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "Message (Content Track)",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "Metamessage (Relationship Track)",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "The One Sentence That Would Have Broken the Frame",
-    "multi": true
+    "fields": [
+     {
+      "k": "br2.frameBreaker",
+      "label": "The One Sentence That Would Have Broken the Frame",
+      "placeholder": "Write the exact single sentence that would have broken the battle frame…",
+      "multi": true
+     }
+    ]
    }
   ]
  },
@@ -889,96 +864,67 @@
   "module": "Br3",
   "title": "Bilingual Lexicon + Self Note",
   "store": "brown",
-  "path": "br3",
-  "shape": {
-   "stripWord": "fair",
-   "stripCustom": "",
-   "stripUS": "",
-   "stripRio": "",
-   "stripES": "",
-   "wUS": 5,
-   "wRio": 7,
-   "wES": 6,
-   "taxType": "Reflexive",
-   "pronoun": "vos (AR peer)",
-   "nsmUnpack": "",
-   "lexicon": [
-    {
-     "word": "fair",
-     "en": "Procedural & equal rules; strong moral weight",
-     "rio": "'Justo' — moral/relational balance",
-     "es": "'Justo / razonable' — common sense",
-     "weight": "High in US work; softer in ES"
-    },
-    {
-     "word": "confianza",
-     "en": "'Trust' (narrower: reliability)",
-     "rio": "Warmth, intimacy, dropping the mask",
-     "es": "Closeness & ease ('en confianza')",
-     "weight": "Deep emotional warmth in ES"
-    },
-    {
-     "word": "compromise / compromiso",
-     "en": "Positive mutual give-and-take",
-     "rio": "Obligation or awkward commitment",
-     "es": "Firm pledge; mutual deal = 'acuerdo'",
-     "weight": "Easy cross-language misfire"
-    }
-   ],
-   "selfConflict": "",
-   "selfAsking": "",
-   "selfAffection": ""
-  },
-  "labels": [
-   "Word / Concept",
-   "Emotional Weight For Me",
-   "US English",
-   "Rioplatense",
-   "España",
-   "In Conflict",
-   "In Asking",
-   "In Affection"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "Word / Concept",
-    "multi": true
+    "repeat": "br3.lexicon",
+    "count": 12,
+    "itemTitle": "Word",
+    "growable": true,
+    "fields": [
+     {
+      "k": "word",
+      "label": "Word / Concept",
+      "placeholder": "e.g., leverage, loyalty, orgullo",
+      "multi": false
+     },
+     {
+      "k": "weight",
+      "label": "Emotional Weight For Me",
+      "placeholder": "Which language hits harder?",
+      "multi": false
+     },
+     {
+      "k": "en",
+      "label": "US English",
+      "placeholder": "Connotation",
+      "multi": false
+     },
+     {
+      "k": "rio",
+      "label": "Rioplatense",
+      "placeholder": "Connotation",
+      "multi": false
+     },
+     {
+      "k": "es",
+      "label": "España",
+      "placeholder": "Connotation",
+      "multi": false
+     }
+    ]
    },
    {
-    "k": "f1",
-    "label": "Emotional Weight For Me",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "US English",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "Rioplatense",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "España",
-    "multi": true
-   },
-   {
-    "k": "f5",
-    "label": "In Conflict",
-    "multi": true
-   },
-   {
-    "k": "f6",
-    "label": "In Asking",
-    "multi": true
-   },
-   {
-    "k": "f7",
-    "label": "In Affection",
-    "multi": true
+    "title": "1-Page Language-Self Note (English Me vs. Spanish Me)",
+    "fields": [
+     {
+      "k": "br3.selfConflict",
+      "label": "In Conflict",
+      "placeholder": "How do my English self and Spanish self handle friction differently?",
+      "multi": true
+     },
+     {
+      "k": "br3.selfAsking",
+      "label": "In Asking",
+      "placeholder": "Which language hedges more, and which states proposals cleaner?",
+      "multi": true
+     },
+     {
+      "k": "br3.selfAffection",
+      "label": "In Affection",
+      "placeholder": "Where does warmth feel truer, and when do I use L2 as armor?",
+      "multi": true
+     }
+    ]
    }
   ]
  },
@@ -988,64 +934,35 @@
   "module": "Br4",
   "title": "Your 5-Rung Reveal Ladder",
   "store": "brown",
-  "path": "br4",
-  "shape": {
-   "frame": "I'd like to talk about my role and scope for the upcoming cycle.",
-   "advocate": "I'm asking to be promoted to Senior Analyst this review.",
-   "illustrate": "This year I led the Q2 and Q3 closes with zero audit adjustments and trained two new hires.",
-   "inquire": "What would you need to see from me over the next 60 days to support that?",
-   "ladder": [
-    {
-     "rung": 1,
-     "target": "",
-     "draft": "",
-     "processed": true,
-     "executed": false
-    },
-    {
-     "rung": 2,
-     "target": "",
-     "draft": "",
-     "processed": true,
-     "executed": false
-    },
-    {
-     "rung": 3,
-     "target": "",
-     "draft": "",
-     "processed": false,
-     "executed": false
-    },
-    {
-     "rung": 4,
-     "target": "",
-     "draft": "",
-     "processed": false,
-     "executed": false
-    },
-    {
-     "rung": 5,
-     "target": "",
-     "draft": "",
-     "processed": false,
-     "executed": false
-    }
-   ]
-  },
-  "labels": [
-   "Processed ✓",
-   "Executed"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "Processed ✓",
-    "multi": true
-   },
-   {
-    "k": "f1",
-    "label": "Executed",
-    "multi": true
+    "repeat": "br4.ladder",
+    "count": 5,
+    "itemTitle": "Rung",
+    "fields": [
+     {
+      "k": "target",
+      "label": "Target person",
+      "placeholder": "Target person (office or personal)",
+      "multi": false
+     },
+     {
+      "k": "draft",
+      "label": "4-Part Draft",
+      "placeholder": "4-Part Draft: Frame → Advocate → Illustrate → Inquire",
+      "multi": true
+     },
+     {
+      "k": "processed",
+      "label": "Processed ✓",
+      "check": true
+     },
+     {
+      "k": "executed",
+      "label": "Executed",
+      "check": true
+     }
+    ]
    }
   ]
  },
@@ -1055,66 +972,52 @@
   "module": "Br5",
   "title": "7-Block Negotiation Steering Map",
   "store": "brown",
-  "path": "br5",
-  "shape": {
-   "advRange": "yes",
-   "advPower": "high",
-   "advUrgency": "artificial",
-   "targetNum": 115000,
-   "map": {
-    "purpose": "",
-    "fourPart": "",
-    "concerns": "",
-    "questions": "",
-    "decisionType": "Consult (Gather input, then decide) / Negotiate",
-    "batna": "",
-    "email": "Hi [Name], thanks for our conversation today. To confirm what we agreed: [Decision/Next Step] by [Date]. Please let me know by tomorrow noon if I missed anything. Appreciate the clarity—talk soon."
-   }
-  },
-  "labels": [
-   "1. Purpose Sentence (Frame upfront)",
-   "2. Four-Part Ask (Frame + Advocate + Illustrate + Inquire)",
-   "3. Counterpart's Likely Positions & Core Concerns",
-   "4. Calibrated Questions (Warm-Curious How/What)",
-   "5. Proposed Decision Type (Inform / Consult / Negotiate)",
-   "6. Real Walk-Away Line (BATNA)",
-   "7. 3-Line Confirming Email"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "1. Purpose Sentence (Frame upfront)",
-    "multi": true
-   },
-   {
-    "k": "f1",
-    "label": "2. Four-Part Ask (Frame + Advocate + Illustrate + Inquire)",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "3. Counterpart's Likely Positions & Core Concerns",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "4. Calibrated Questions (Warm-Curious How/What)",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "5. Proposed Decision Type (Inform / Consult / Negotiate)",
-    "multi": true
-   },
-   {
-    "k": "f5",
-    "label": "6. Real Walk-Away Line (BATNA)",
-    "multi": true
-   },
-   {
-    "k": "f6",
-    "label": "7. 3-Line Confirming Email",
-    "multi": true
+    "fields": [
+     {
+      "k": "br5.map.purpose",
+      "label": "1. Purpose Sentence (Frame upfront)",
+      "placeholder": "One crisp sentence stating why we are meeting",
+      "multi": true
+     },
+     {
+      "k": "br5.map.fourPart",
+      "label": "2. Four-Part Ask (Frame + Advocate + Illustrate + Inquire)",
+      "placeholder": "Your ≤45-second pitch",
+      "multi": true
+     },
+     {
+      "k": "br5.map.concerns",
+      "label": "3. Counterpart's Likely Positions & Core Concerns",
+      "placeholder": "What budget/status/autonomy concerns might they hold?",
+      "multi": true
+     },
+     {
+      "k": "br5.map.questions",
+      "label": "4. Calibrated Questions (Warm-Curious How/What)",
+      "placeholder": "2–3 questions to draw out constraints cleanly",
+      "multi": true
+     },
+     {
+      "k": "br5.map.decisionType",
+      "label": "5. Proposed Decision Type (Inform / Consult / Negotiate)",
+      "placeholder": "How you'll clarify who decides",
+      "multi": true
+     },
+     {
+      "k": "br5.map.batna",
+      "label": "6. Real Walk-Away Line (BATNA)",
+      "placeholder": "Your concrete, non-bluffing alternative if the answer is no",
+      "multi": true
+     },
+     {
+      "k": "br5.map.email",
+      "label": "7. 3-Line Confirming Email",
+      "placeholder": "Agreement + Owner/Date + Warm Close",
+      "multi": true
+     }
+    ]
    }
   ]
  },
@@ -1124,86 +1027,85 @@
   "module": "Br6",
   "title": "One Repair & One Renovation",
   "store": "brown",
-  "path": "br6",
-  "shape": {
-   "linterText": "I'm sorry you felt upset in the meeting, but I was only trying to keep us on schedule and you also interrupted me twice.",
-   "repair": {
-    "context": "Office",
-    "what": "",
-    "said": "",
-    "received": ""
-   },
-   "reno": {
-    "friend": "",
-    "p1": "",
-    "p2": "",
-    "p3": "",
-    "p4": "",
-    "consent": "Green — welcomed depth"
-   }
-  },
-  "labels": [
-   "Dojo",
-   "What Happened",
-   "What You Said (Zero 'but', Accountable Mechanism + Repair)",
-   "How It Was Received",
-   "Friend Chosen",
-   "Consent Check",
-   "Phase 1 · Self-Audit",
-   "Phase 2 · Micro-Friction",
-   "Phase 3 · Emotional Pivot",
-   "Phase 4 · Meta-Conversation"
-  ],
-  "fields": [
+  "sections": [
    {
-    "k": "f0",
-    "label": "Dojo",
-    "multi": true
+    "title": "Part 1 · One Real Repair (Office or Personal)",
+    "fields": [
+     {
+      "k": "br6.repair.context",
+      "label": "Dojo",
+      "placeholder": "",
+      "multi": false,
+      "options": [
+       "Office",
+       "Personal"
+      ]
+     },
+     {
+      "k": "br6.repair.what",
+      "label": "What Happened",
+      "placeholder": "Specific action and impact",
+      "multi": true
+     },
+     {
+      "k": "br6.repair.said",
+      "label": "What You Said (Zero 'but', Accountable Mechanism + Repair)",
+      "placeholder": "Your exact repair words",
+      "multi": true
+     },
+     {
+      "k": "br6.repair.received",
+      "label": "How It Was Received",
+      "placeholder": "Their response and whether face was restored",
+      "multi": true
+     }
+    ]
    },
    {
-    "k": "f1",
-    "label": "What Happened",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "What You Said (Zero 'but', Accountable Mechanism + Repair)",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "How It Was Received",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "Friend Chosen",
-    "multi": true
-   },
-   {
-    "k": "f5",
-    "label": "Consent Check",
-    "multi": true
-   },
-   {
-    "k": "f6",
-    "label": "Phase 1 · Self-Audit",
-    "multi": true
-   },
-   {
-    "k": "f7",
-    "label": "Phase 2 · Micro-Friction",
-    "multi": true
-   },
-   {
-    "k": "f8",
-    "label": "Phase 3 · Emotional Pivot",
-    "multi": true
-   },
-   {
-    "k": "f9",
-    "label": "Phase 4 · Meta-Conversation",
-    "multi": true
+    "title": "Part 2 · One Renovation Tracker (Phases 1–4 + Consent)",
+    "fields": [
+     {
+      "k": "br6.reno.friend",
+      "label": "Friend Chosen",
+      "placeholder": "Who you'd like to deepen with",
+      "multi": false
+     },
+     {
+      "k": "br6.reno.consent",
+      "label": "Consent Check",
+      "placeholder": "",
+      "multi": false,
+      "options": [
+       "Green — welcomed depth",
+       "Yellow — stay steady",
+       "Red — prefers shallows (honored gracefully)"
+      ]
+     },
+     {
+      "k": "br6.reno.p1",
+      "label": "Phase 1 · Self-Audit",
+      "placeholder": "How you kept it shallow",
+      "multi": false
+     },
+     {
+      "k": "br6.reno.p2",
+      "label": "Phase 2 · Micro-Friction",
+      "placeholder": "Preference stated without apology",
+      "multi": false
+     },
+     {
+      "k": "br6.reno.p3",
+      "label": "Phase 3 · Emotional Pivot",
+      "placeholder": "Processed true thing offered",
+      "multi": false
+     },
+     {
+      "k": "br6.reno.p4",
+      "label": "Phase 4 · Meta-Conversation",
+      "placeholder": "New contract (only if 2–3 landed)",
+      "multi": false
+     }
+    ]
    }
   ]
  },
@@ -1213,57 +1115,76 @@
   "module": "Bk1",
   "title": "Two Room Maps",
   "store": "black",
-  "path": "bk1",
-  "fields": [
+  "sections": [
    {
-    "k": "office.pos",
-    "label": "Office · 1. Room Construal (Bennett Atmosphere)",
-    "multi": false
+    "title": "Room A · Office Room Map",
+    "fields": [
+     {
+      "k": "bk1.office.pos",
+      "label": "1. Room Construal (Bennett Atmosphere)",
+      "placeholder": "e.g., Minimization / Defense (room, not people)",
+      "multi": false
+     },
+     {
+      "k": "bk1.office.rules",
+      "label": "2. Invisible Rules (Schein Contradiction Hunt)",
+      "placeholder": "Espoused value vs. actual reaction when norm is tested",
+      "multi": true
+     },
+     {
+      "k": "bk1.office.rewarded",
+      "label": "3. Rewarded Behaviors",
+      "placeholder": "What earns airtime or approval",
+      "multi": false
+     },
+     {
+      "k": "bk1.office.forbidden",
+      "label": "4. Forbidden Truths",
+      "placeholder": "What triggers silence or hallway-only talk",
+      "multi": false
+     },
+     {
+      "k": "bk1.office.safety",
+      "label": "5. Safety Climate & Possible Moves (Edmondson)",
+      "placeholder": "Calibrated low-risk move vs. written trail",
+      "multi": false
+     }
+    ]
    },
    {
-    "k": "office.rules",
-    "label": "Office · 2. Invisible Rules (Schein Contradiction Hunt)",
-    "multi": false
-   },
-   {
-    "k": "office.rewarded",
-    "label": "Office · 3. Rewarded Behaviors",
-    "multi": false
-   },
-   {
-    "k": "office.forbidden",
-    "label": "Office · 4. Forbidden Truths",
-    "multi": false
-   },
-   {
-    "k": "office.safety",
-    "label": "Office · 5. Safety Climate & Possible Moves (Edmondson)",
-    "multi": false
-   },
-   {
-    "k": "personal.pos",
-    "label": "Personal · 1. Room Construal (Bennett Atmosphere)",
-    "multi": false
-   },
-   {
-    "k": "personal.rules",
-    "label": "Personal · 2. Invisible Rules (Schein Contradiction Hunt)",
-    "multi": false
-   },
-   {
-    "k": "personal.rewarded",
-    "label": "Personal · 3. Rewarded Behaviors",
-    "multi": false
-   },
-   {
-    "k": "personal.forbidden",
-    "label": "Personal · 4. Forbidden Truths",
-    "multi": false
-   },
-   {
-    "k": "personal.safety",
-    "label": "Personal · 5. Safety Climate & Possible Moves (Edmondson)",
-    "multi": false
+    "title": "Room B · Personal Room Map",
+    "fields": [
+     {
+      "k": "bk1.personal.pos",
+      "label": "1. Room Construal (Bennett Atmosphere)",
+      "placeholder": "e.g., Minimization / Defense (room, not people)",
+      "multi": false
+     },
+     {
+      "k": "bk1.personal.rules",
+      "label": "2. Invisible Rules (Schein Contradiction Hunt)",
+      "placeholder": "Espoused value vs. actual reaction when norm is tested",
+      "multi": true
+     },
+     {
+      "k": "bk1.personal.rewarded",
+      "label": "3. Rewarded Behaviors",
+      "placeholder": "What earns airtime or approval",
+      "multi": false
+     },
+     {
+      "k": "bk1.personal.forbidden",
+      "label": "4. Forbidden Truths",
+      "placeholder": "What triggers silence or hallway-only talk",
+      "multi": false
+     },
+     {
+      "k": "bk1.personal.safety",
+      "label": "5. Safety Climate & Possible Moves (Edmondson)",
+      "placeholder": "Calibrated low-risk move vs. written trail",
+      "multi": false
+     }
+    ]
    }
   ]
  },
@@ -1273,37 +1194,46 @@
   "module": "Bk2",
   "title": "One Brokered Proposal",
   "store": "black",
-  "path": "bk2",
-  "fields": [
+  "sections": [
    {
-    "k": "room",
-    "label": "Target Room (from Bk1 Map)",
-    "multi": true
-   },
-   {
-    "k": "orig",
-    "label": "Original Proposal",
-    "multi": true
-   },
-   {
-    "k": "downshifted",
-    "label": "Downshifted Proposal",
-    "multi": true
-   },
-   {
-    "k": "seq",
-    "label": "Sequence Adjustment",
-    "multi": true
-   },
-   {
-    "k": "survived",
-    "label": "Integrity Audit · Core Stake Survived",
-    "multi": true
-   },
-   {
-    "k": "lost",
-    "label": "What Changed / Was Lost",
-    "multi": true
+    "fields": [
+     {
+      "k": "bk2.room",
+      "label": "Target Room (from Bk1 Map)",
+      "placeholder": "Room name + construal + entry currency",
+      "multi": false
+     },
+     {
+      "k": "bk2.orig",
+      "label": "Original Proposal",
+      "placeholder": "How you originally framed it",
+      "multi": true
+     },
+     {
+      "k": "bk2.downshifted",
+      "label": "Downshifted Proposal",
+      "placeholder": "Translated into room's entry currency",
+      "multi": true
+     },
+     {
+      "k": "bk2.seq",
+      "label": "Sequence Adjustment",
+      "placeholder": "Relationship-first vs. Task-first / Tribe mandates validated",
+      "multi": false
+     },
+     {
+      "k": "bk2.survived",
+      "label": "Integrity Audit · Core Stake Survived",
+      "placeholder": "What load-bearing requirement stayed 100% intact",
+      "multi": false
+     },
+     {
+      "k": "bk2.lost",
+      "label": "What Changed / Was Lost",
+      "placeholder": "Wrapper adjustments vs. any unintended loss",
+      "multi": false
+     }
+    ]
    }
   ]
  },
@@ -1313,27 +1243,28 @@
   "module": "Bk3",
   "title": "Bridge-Self Audit & Tax Log",
   "store": "black",
-  "path": "bk3",
-  "fields": [
+  "sections": [
    {
-    "k": "dropped",
-    "label": "1. One Reflexive Translation Tax Dropped",
-    "multi": true
-   },
-   {
-    "k": "commitment",
-    "label": "2. One Anchored Commitment",
-    "multi": true
-   },
-   {
-    "k": "reversal",
-    "label": "3. Reversal Check",
-    "multi": true
-   },
-   {
-    "k": "taxType",
-    "label": "taxType",
-    "multi": true
+    "fields": [
+     {
+      "k": "bk3.dropped",
+      "label": "1. One Reflexive Translation Tax Dropped",
+      "placeholder": "Situation + what happened when others carried their 50%",
+      "multi": true
+     },
+     {
+      "k": "bk3.commitment",
+      "label": "2. One Anchored Commitment",
+      "placeholder": "Nuanced multi-perspectival topic + concrete stance taken",
+      "multi": true
+     },
+     {
+      "k": "bk3.reversal",
+      "label": "3. Reversal Check",
+      "placeholder": "One strength & one real limit held for both US and ES/Rioplatense settings",
+      "multi": true
+     }
+    ]
    }
   ]
  },
@@ -1343,27 +1274,34 @@
   "module": "Bk4",
   "title": "Systemic Steering Map",
   "store": "black",
-  "path": "bk4",
-  "fields": [
+  "sections": [
    {
-    "k": "circuit",
-    "label": "1. Bowen Circuit Identified",
-    "multi": true
-   },
-   {
-    "k": "selfMod",
-    "label": "2. Self-Modification First",
-    "multi": true
-   },
-   {
-    "k": "reframe",
-    "label": "3. Tentative Double-Loop Reframe (Torbert)",
-    "multi": true
-   },
-   {
-    "k": "readiness",
-    "label": "4. Room Readiness Outcome",
-    "multi": true
+    "fields": [
+     {
+      "k": "bk4.circuit",
+      "label": "1. Bowen Circuit Identified",
+      "placeholder": "Triangle / Overfunctioning / Distance + your own node",
+      "multi": true
+     },
+     {
+      "k": "bk4.selfMod",
+      "label": "2. Self-Modification First",
+      "placeholder": "Exact habitual move you stopped making before speaking",
+      "multi": true
+     },
+     {
+      "k": "bk4.reframe",
+      "label": "3. Tentative Double-Loop Reframe (Torbert)",
+      "placeholder": "Exact soft-clay wording + concrete 5-minute next step",
+      "multi": true
+     },
+     {
+      "k": "bk4.readiness",
+      "label": "4. Room Readiness Outcome",
+      "placeholder": "How the room landed + calibration for next time",
+      "multi": false
+     }
+    ]
    }
   ]
  },
@@ -1373,62 +1311,76 @@
   "module": "Bk5",
   "title": "Complete 6-Field Dark-Side Codex & BATNA",
   "store": "black",
-  "path": "bk5",
-  "fields": [
+  "sections": [
    {
-    "k": "walkOffice",
-    "label": "Tactic Name",
-    "multi": true
+    "title": "6-Field Dark-Side Literacy Codex (Expanding W4 → Full 20-Entry Target)",
+    "repeat": "bk5.codex",
+    "count": 3,
+    "growable": true,
+    "max": 20,
+    "itemTitle": "Codex",
+    "fields": [
+     {
+      "k": "tactic",
+      "label": "Tactic Name",
+      "placeholder": "e.g., Diversion, Covert Intimidation",
+      "multi": false
+     },
+     {
+      "k": "context",
+      "label": "1. Context",
+      "placeholder": "Where it typically appears",
+      "multi": false
+     },
+     {
+      "k": "range",
+      "label": "2. Range",
+      "placeholder": "Who uses it (not just 'types')",
+      "multi": false
+     },
+     {
+      "k": "harm",
+      "label": "3. Harm",
+      "placeholder": "What it costs when unaddressed",
+      "multi": false
+     },
+     {
+      "k": "remedy",
+      "label": "4. Remedy / Exit Script",
+      "placeholder": "Calm, factual drop-the-rope response",
+      "multi": false
+     },
+     {
+      "k": "ethical",
+      "label": "5. Ethical Counterpart",
+      "placeholder": "Legitimate non-manipulative version",
+      "multi": false
+     },
+     {
+      "k": "temptation",
+      "label": "6. Your Own Temptation (Dark-Side Literacy)",
+      "placeholder": "When am I tempted to pull this exact move?",
+      "multi": false
+     }
+    ]
    },
    {
-    "k": "walkPersonal",
-    "label": "1. Context",
-    "multi": true
-   },
-   {
-    "k": "f2",
-    "label": "2. Range",
-    "multi": true
-   },
-   {
-    "k": "f3",
-    "label": "3. Harm",
-    "multi": true
-   },
-   {
-    "k": "f4",
-    "label": "4. Remedy / Exit Script",
-    "multi": true
-   },
-   {
-    "k": "f5",
-    "label": "5. Ethical Counterpart",
-    "multi": true
-   },
-   {
-    "k": "f6",
-    "label": "6. Your Own Temptation (Dark-Side Literacy)",
-    "multi": true
-   },
-   {
-    "k": "f7",
-    "label": "Office Walk-Away Line",
-    "multi": true
-   },
-   {
-    "k": "f8",
-    "label": "Personal Separation Line",
-    "multi": true
+    "title": "Pre-Committed Walk-Away Thresholds (BATNA & Rule #9)",
+    "fields": [
+     {
+      "k": "bk5.walkOffice",
+      "label": "Office Walk-Away Line",
+      "placeholder": "Exact condition where I stop negotiating, document, or escalate",
+      "multi": true
+     },
+     {
+      "k": "bk5.walkPersonal",
+      "label": "Personal Separation Line",
+      "placeholder": "Exact pattern where I step back to protect dignity/safety",
+      "multi": true
+     }
+    ]
    }
-  ],
-  "codex": true,
-  "codexFields": [
-   "tactic",
-   "context",
-   "range",
-   "harm",
-   "remedy",
-   "shadow"
   ],
   "starterCodex": [
    {
@@ -1466,32 +1418,46 @@
   "module": "Bk6",
   "title": "Deadlock, Double-Loop & Systemic Toolkit",
   "store": "black",
-  "path": "bk6",
-  "fields": [
+  "sections": [
    {
-    "k": "deadlock",
-    "label": "One Dissolved Deadlock",
-    "multi": true
+    "title": "Part 1 · Dissolved Deadlock & Double-Loop Log",
+    "fields": [
+     {
+      "k": "bk6.deadlock",
+      "label": "One Dissolved Deadlock",
+      "placeholder": "Binary stalemate → Premise questioned → Concrete next step landed",
+      "multi": true
+     },
+     {
+      "k": "bk6.doubleLoop",
+      "label": "One Double-Loop / Confidant Conversation",
+      "placeholder": "Fixed constraint accepted vs. modifiable assumption examined (or Confirm → Challenge → Stay)",
+      "multi": true
+     }
+    ]
    },
    {
-    "k": "doubleLoop",
-    "label": "One Double-Loop / Confidant Conversation",
-    "multi": true
-   },
-   {
-    "k": "toolkitAudit",
-    "label": "1. The Frame Audit (Pre-Meeting Checklist)",
-    "multi": true
-   },
-   {
-    "k": "toolkitScripts",
-    "label": "2. 'Name the Game' Scripts",
-    "multi": true
-   },
-   {
-    "k": "toolkitPostMortem",
-    "label": "3. Post-Mortem Systems Map",
-    "multi": true
+    "title": "Part 2 · The Systemic Architecture Toolkit",
+    "fields": [
+     {
+      "k": "bk6.toolkitAudit",
+      "label": "1. The Frame Audit (Pre-Meeting Checklist)",
+      "placeholder": "Bennett room position · Schein invisible rules · Real meeting beneath agenda · Likely game",
+      "multi": true
+     },
+     {
+      "k": "bk6.toolkitScripts",
+      "label": "2. 'Name the Game' Scripts",
+      "placeholder": "Your calm, neutral sentences for making covert dynamics explicit without accusation",
+      "multi": true
+     },
+     {
+      "k": "bk6.toolkitPostMortem",
+      "label": "3. Post-Mortem Systems Map",
+      "placeholder": "Debrief template: how room rules shifted, where frame was lost/won, where the bridge held",
+      "multi": true
+     }
+    ]
    }
   ]
  }

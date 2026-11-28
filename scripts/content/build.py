@@ -233,6 +233,27 @@ def plain_keep(md):
     return md.strip()
 
 
+def white_fields(node):
+    """Form fields bound to White Belt's data-store keys, with the manual's own labels, placeholders and select options."""
+    fields = []
+    for el in node.select("[data-store]"):
+        lab = el.find_parent("label") or el.find_previous("label")
+        lab_txt = ""
+        if lab is not None:
+            lab_c = BeautifulSoup(str(lab), "lxml")
+            for x in lab_c.find_all(["select", "option", "input", "textarea"]):
+                x.decompose()
+            lab_txt = lab_c.get_text(" ", strip=True)
+        f = {"k": el["data-store"], "label": lab_txt, "placeholder": el.get("placeholder", ""), "multi": el.name == "textarea",
+             "readonly": el.has_attr("readonly")}
+        if el.name == "select":
+            opts = [o.get_text(strip=True) for o in el.find_all("option")]
+            f["placeholder"] = opts[0] if opts and (not el.find("option").get("value")) else ""
+            f["options"] = [o.get_text(strip=True) for o in el.find_all("option") if o.get("value", o.get_text(strip=True))]
+        fields.append(f)
+    return fields
+
+
 # ---------------------------------------------------------------- WHITE
 def build_white():
     path = os.path.join(DOJO, "white-belt.html")
@@ -312,15 +333,12 @@ def build_white():
         for ci, c in enumerate(lab.find_all("div", class_="card", recursive=False)):
             h = c.find("h3")
             ttl = h.get_text(" ", strip=True) if h else "Lab"
-            fields = []
-            for lab_el in c.find_all("label", class_="field"):
-                inp = lab_el.find_next(["input", "textarea"])
-                if inp is not None and inp.get("data-store"):
-                    fields.append({"k": inp["data-store"], "label": lab_el.get_text(" ", strip=True), "placeholder": inp.get("placeholder", ""),
-                                   "multi": inp.name == "textarea", "readonly": inp.has_attr("readonly")})
-            jid = f"white.{wk}"
-            JOURNAL[jid] = {"id": jid, "belt": "white", "module": wk.upper(), "title": ttl, "store": "white", "fields": fields}
-            tl = list(lab_tools.get(wk, [])) + [tool(f"form.{jid}", {"type": "form", "journal": jid})]
+            fields = white_fields(c)
+            jid = f"white.{wk}" if ci == 0 or f"white.{wk}" not in JOURNAL else f"white.{wk}.{ci+1}"
+            tl = list(lab_tools.get(wk, [])) if ci == 0 else []
+            if fields:
+                JOURNAL[jid] = {"id": jid, "belt": "white", "module": wk.upper(), "title": ttl, "store": "white", "fields": fields}
+                tl.append(tool(f"form.{jid}", {"type": "form", "journal": jid}))
             cmd = html_to_md(c)
             lab_cards.append(card(f"{wk}.lab.tool{ci+1}", "action", ttl, cmd, tools=tl, label="Lab"))
         days.append(day("lab", "Thu/Fri", tabs[3].split("·", 1)[1].strip() if len(tabs) > 3 else "Lab", lab_cards, lab=True))
@@ -351,11 +369,7 @@ def build_white():
             card(f"white-s1.{pid}.check", "check", ttl, ("- " + marker) if marker else "", tools=[tool(f"marker.white-s1.{pid}", {"type": "marker", "id": f"white-s1.{pid}", "text": marker or ""})]),
         ]))
     jp = sv.select_one("#s1-journal")
-    jfields = []
-    for lab_el in jp.find_all("label", class_="field"):
-        inp = lab_el.find_next(["input", "textarea"])
-        if inp is not None and inp.get("data-store"):
-            jfields.append({"k": inp["data-store"], "label": lab_el.get_text(" ", strip=True), "placeholder": inp.get("placeholder", ""), "multi": inp.name == "textarea"})
+    jfields = white_fields(jp)
     JOURNAL["white.s1"] = {"id": "white.s1", "belt": "white", "module": "S1", "title": jp.find("h3").get_text(" ", strip=True) if jp.find("h3") else "Sanctuary Journal", "store": "white", "fields": jfields, "sanctuary": True}
     sdays.append(day("journal", "Journal", tabs[3] if len(tabs) > 3 else "Sanctuary Journal", [
         card("white-s1.journal.1", "check", "Sanctuary Journal", html_to_md(jp), tools=[tool("form.white.s1", {"type": "form", "journal": "white.s1"})], label="Journal")], lab=True))
@@ -838,61 +852,101 @@ def journal_specs(blue_D, brown_G):
         "B3": ("b3Matrix", "Position-vs-Need Matrix", [("context", "Conversation (Office / Personal)"), ("concern", "Underlying Core Concern / Need"), ("pos", "Stated Position"),
                                                        ("interest", "Real Interest / Non-Accusatory Question"), ("answer", "Honor + Hold Answer")]),
         "B4": ("b4Loops", "Conversation-Type Loops", [("who", "Who / Setting"), ("type", "Conversation Type"), ("res", "Outcome"), ("loop", "What I Distilled Back"), ("rep", "Their Exact Reply & Shift")]),
-        "B5": ("b5Audits", "Accusation Audits & Boundary Sentences", [("off", "Office Accusation Audit"), ("per", "Personal Accusation Audit"), ("b1", "Boundary Sentence #1"),
+        "B5": ("b5Audits", "Accusation Audits & Boundary Sentences", [("office", "Office Accusation Audit"), ("personal", "Personal Accusation Audit"), ("b1", "Boundary Sentence #1"),
                                                                       ("b2", "Boundary Sentence #2"), ("b3", "Boundary Sentence #3")]),
         "B6": ("b6Log", "Contact Log", [("who", "Who / Setting"), ("opener", "Opener Tag"), ("light", "Return Light"), ("forecast", "Forecast (0–10)"), ("actual", "Actual (0–10)"),
                                         ("ping", "Initiation or Processed Ping"), ("back", "Their Exact Words Back"), ("next", "Next Move (Specific 2nd Invite if Green)")]),
     }
     for wid, (lst, ttl, fs) in blue_fields.items():
-        JOURNAL[f"blue.{wid}"] = {"id": f"blue.{wid}", "belt": "blue", "module": wid, "title": ttl, "store": "blue", "list": lst,
+        JOURNAL[f"blue.{wid}"] = {"id": f"blue.{wid}", "belt": "blue", "module": wid, "title": ttl, "store": "blue",
+                                  **({"path": lst} if wid == "B5" else {"list": lst}),
                                   "fields": [{"k": k, "label": l, "multi": len(l) > 26} for k, l in fs]}
-    # Brown: Friday deliverables (labels read from the rendered Friday views)
-    bdir = os.path.join(CACHE, "brown")
-    ds = brown_G["defaultState"]
+    # Brown and Black: Friday deliverables written into the manuals' own saved-state shape (so old saves import as-is).
+    # Labels and placeholders are the manuals' own, read from the rendered Friday views.
+    def F(k, label, ph="", multi=False, options=None):
+        f = {"k": k, "label": label, "placeholder": ph, "multi": multi}
+        if options:
+            f["options"] = options
+        return f
+    ask = [F("orig", "Original Hedged / Raw Ask", "What you wrote or usually say"), F("threat", "Face-Threat Named", "e.g., High P + R, Negative Face (Autonomy)"),
+           F("strat", "Politeness Strategy Chosen", "Autonomy Wrap / Solidarity Wrap / Bald"), F("outcome", "What Happened", "Their actual reply"),
+           F("rewrite", "Rewritten Intact Ask (Survives Wrap)", "Clean proposal in EN")]
+    turn = [F("words", "Exact Words Said", "What was literally spoken"), F("sig", "Style / Accommodation Signal", "Overlap, pause, convergence, spin"),
+            F("msg", "Message (Content Track)", "Literal information"), F("meta", "Metamessage (Relationship Track)", "Claim about power or closeness")]
+    brown = {
+        "Br1": [{"repeat": "br1.asks", "count": 5, "itemTitles": ["Ask #1", "Ask #2", "Ask #3", "Ask #4 (Spanish target)", "Ask #5 (Spanish target)"], "fields": ask,
+                 "itemPlaceholders": [{}, {}, {}, {"rewrite": "Clean proposal in ES"}, {"rewrite": "Clean proposal in ES"}]}],
+        "Br2": [{"repeat": "br2.turns", "count": 4, "itemTitles": ["Turn 1 (Counterpart)", "Turn 2 (Me)", "Turn 3 (Counterpart)", "Turn 4 (Me)"], "fields": turn},
+                {"fields": [F("br2.frameBreaker", "The One Sentence That Would Have Broken the Frame", "Write the exact single sentence that would have broken the battle frame…", True)]}],
+        "Br3": [{"repeat": "br3.lexicon", "count": 12, "itemTitle": "Word", "growable": True,
+                 "fields": [F("word", "Word / Concept", "e.g., leverage, loyalty, orgullo"), F("weight", "Emotional Weight For Me", "Which language hits harder?"),
+                            F("en", "US English", "Connotation"), F("rio", "Rioplatense", "Connotation"), F("es", "España", "Connotation")]},
+                {"title": "1-Page Language-Self Note (English Me vs. Spanish Me)",
+                 "fields": [F("br3.selfConflict", "In Conflict", "How do my English self and Spanish self handle friction differently?", True),
+                            F("br3.selfAsking", "In Asking", "Which language hedges more, and which states proposals cleaner?", True),
+                            F("br3.selfAffection", "In Affection", "Where does warmth feel truer, and when do I use L2 as armor?", True)]}],
+        "Br4": [{"repeat": "br4.ladder", "count": 5, "itemTitle": "Rung", "fields": [F("target", "Target person", "Target person (office or personal)"),
+                                                                                       F("draft", "4-Part Draft", "4-Part Draft: Frame → Advocate → Illustrate → Inquire", True),
+                                                                                       {"k": "processed", "label": "Processed ✓", "check": True}, {"k": "executed", "label": "Executed", "check": True}]}],
+        "Br5": [{"fields": [F("br5.map.purpose", "1. Purpose Sentence (Frame upfront)", "One crisp sentence stating why we are meeting", True),
+                            F("br5.map.fourPart", "2. Four-Part Ask (Frame + Advocate + Illustrate + Inquire)", "Your ≤45-second pitch", True),
+                            F("br5.map.concerns", "3. Counterpart's Likely Positions & Core Concerns", "What budget/status/autonomy concerns might they hold?", True),
+                            F("br5.map.questions", "4. Calibrated Questions (Warm-Curious How/What)", "2–3 questions to draw out constraints cleanly", True),
+                            F("br5.map.decisionType", "5. Proposed Decision Type (Inform / Consult / Negotiate)", "How you'll clarify who decides", True),
+                            F("br5.map.batna", "6. Real Walk-Away Line (BATNA)", "Your concrete, non-bluffing alternative if the answer is no", True),
+                            F("br5.map.email", "7. 3-Line Confirming Email", "Agreement + Owner/Date + Warm Close", True)]}],
+        "Br6": [{"title": "Part 1 · One Real Repair (Office or Personal)",
+                 "fields": [F("br6.repair.context", "Dojo", "", False, ["Office", "Personal"]), F("br6.repair.what", "What Happened", "Specific action and impact", True),
+                            F("br6.repair.said", "What You Said (Zero 'but', Accountable Mechanism + Repair)", "Your exact repair words", True),
+                            F("br6.repair.received", "How It Was Received", "Their response and whether face was restored", True)]},
+                {"title": "Part 2 · One Renovation Tracker (Phases 1–4 + Consent)",
+                 "fields": [F("br6.reno.friend", "Friend Chosen", "Who you'd like to deepen with"),
+                            F("br6.reno.consent", "Consent Check", "", False, ["Green — welcomed depth", "Yellow — stay steady", "Red — prefers shallows (honored gracefully)"]),
+                            F("br6.reno.p1", "Phase 1 · Self-Audit", "How you kept it shallow"), F("br6.reno.p2", "Phase 2 · Micro-Friction", "Preference stated without apology"),
+                            F("br6.reno.p3", "Phase 3 · Emotional Pivot", "Processed true thing offered"), F("br6.reno.p4", "Phase 4 · Meta-Conversation", "New contract (only if 2–3 landed)")]}],
+    }
     for w in brown_G["WEEKS"]:
         wid = w["id"]
-        s = view_md(os.path.join(bdir, f"{wid}_fri_us_office.html"))
-        labels = []
-        for lab in s.find_all("label"):
-            t = lab.get_text(" ", strip=True)
-            if t and "Complete" not in t and "Stamp" not in t and t not in labels:
-                labels.append(t)
-        JOURNAL[f"brown.{wid}"] = {"id": f"brown.{wid}", "belt": "brown", "module": wid, "title": w["deliv"], "store": "brown", "path": wid.lower(),
-                                   "shape": ds.get(wid.lower()), "labels": labels,
-                                   "fields": [{"k": f"f{i}", "label": l, "multi": True} for i, l in enumerate(labels)]}
-    # Black: Friday deliverables mapped onto the manual's own state keys
+        JOURNAL[f"brown.{wid}"] = {"id": f"brown.{wid}", "belt": "brown", "module": wid, "title": w["deliv"], "store": "brown", "sections": brown[wid]}
+    room = lambda r: [F(f"bk1.{r}.pos", "1. Room Construal (Bennett Atmosphere)", "e.g., Minimization / Defense (room, not people)"),
+                      F(f"bk1.{r}.rules", "2. Invisible Rules (Schein Contradiction Hunt)", "Espoused value vs. actual reaction when norm is tested", True),
+                      F(f"bk1.{r}.rewarded", "3. Rewarded Behaviors", "What earns airtime or approval"),
+                      F(f"bk1.{r}.forbidden", "4. Forbidden Truths", "What triggers silence or hallway-only talk"),
+                      F(f"bk1.{r}.safety", "5. Safety Climate & Possible Moves (Edmondson)", "Calibrated low-risk move vs. written trail")]
     black = {
-        "Bk1": ("Two Room Maps", "bk1", [("office.pos", "Office · 1. Room Construal (Bennett Atmosphere)"), ("office.rules", "Office · 2. Invisible Rules (Schein Contradiction Hunt)"),
-                                         ("office.rewarded", "Office · 3. Rewarded Behaviors"), ("office.forbidden", "Office · 4. Forbidden Truths"), ("office.safety", "Office · 5. Safety Climate & Possible Moves (Edmondson)"),
-                                         ("personal.pos", "Personal · 1. Room Construal (Bennett Atmosphere)"), ("personal.rules", "Personal · 2. Invisible Rules (Schein Contradiction Hunt)"),
-                                         ("personal.rewarded", "Personal · 3. Rewarded Behaviors"), ("personal.forbidden", "Personal · 4. Forbidden Truths"), ("personal.safety", "Personal · 5. Safety Climate & Possible Moves (Edmondson)")]),
+        "Bk1": [{"title": "Room A · Office Room Map", "fields": room("office")}, {"title": "Room B · Personal Room Map", "fields": room("personal")}],
+        "Bk2": [{"fields": [F("bk2.room", "Target Room (from Bk1 Map)", "Room name + construal + entry currency"), F("bk2.orig", "Original Proposal", "How you originally framed it", True),
+                            F("bk2.downshifted", "Downshifted Proposal", "Translated into room's entry currency", True),
+                            F("bk2.seq", "Sequence Adjustment", "Relationship-first vs. Task-first / Tribe mandates validated"),
+                            F("bk2.survived", "Integrity Audit · Core Stake Survived", "What load-bearing requirement stayed 100% intact"),
+                            F("bk2.lost", "What Changed / Was Lost", "Wrapper adjustments vs. any unintended loss")]}],
+        "Bk3": [{"fields": [F("bk3.dropped", "1. One Reflexive Translation Tax Dropped", "Situation + what happened when others carried their 50%", True),
+                            F("bk3.commitment", "2. One Anchored Commitment", "Nuanced multi-perspectival topic + concrete stance taken", True),
+                            F("bk3.reversal", "3. Reversal Check", "One strength & one real limit held for both US and ES/Rioplatense settings", True)]}],
+        "Bk4": [{"fields": [F("bk4.circuit", "1. Bowen Circuit Identified", "Triangle / Overfunctioning / Distance + your own node", True),
+                            F("bk4.selfMod", "2. Self-Modification First", "Exact habitual move you stopped making before speaking", True),
+                            F("bk4.reframe", "3. Tentative Double-Loop Reframe (Torbert)", "Exact soft-clay wording + concrete 5-minute next step", True),
+                            F("bk4.readiness", "4. Room Readiness Outcome", "How the room landed + calibration for next time")]}],
+        "Bk5": [{"title": "6-Field Dark-Side Literacy Codex (Expanding W4 → Full 20-Entry Target)", "repeat": "bk5.codex", "count": 3, "growable": True, "max": 20, "itemTitle": "Codex",
+                 "fields": [F("tactic", "Tactic Name", "e.g., Diversion, Covert Intimidation"), F("context", "1. Context", "Where it typically appears"),
+                            F("range", "2. Range", "Who uses it (not just 'types')"), F("harm", "3. Harm", "What it costs when unaddressed"),
+                            F("remedy", "4. Remedy / Exit Script", "Calm, factual drop-the-rope response"), F("ethical", "5. Ethical Counterpart", "Legitimate non-manipulative version"),
+                            F("temptation", "6. Your Own Temptation (Dark-Side Literacy)", "When am I tempted to pull this exact move?")]},
+                {"title": "Pre-Committed Walk-Away Thresholds (BATNA & Rule #9)",
+                 "fields": [F("bk5.walkOffice", "Office Walk-Away Line", "Exact condition where I stop negotiating, document, or escalate", True),
+                            F("bk5.walkPersonal", "Personal Separation Line", "Exact pattern where I step back to protect dignity/safety", True)]}],
+        "Bk6": [{"title": "Part 1 · Dissolved Deadlock & Double-Loop Log",
+                 "fields": [F("bk6.deadlock", "One Dissolved Deadlock", "Binary stalemate → Premise questioned → Concrete next step landed", True),
+                            F("bk6.doubleLoop", "One Double-Loop / Confidant Conversation", "Fixed constraint accepted vs. modifiable assumption examined (or Confirm → Challenge → Stay)", True)]},
+                {"title": "Part 2 · The Systemic Architecture Toolkit",
+                 "fields": [F("bk6.toolkitAudit", "1. The Frame Audit (Pre-Meeting Checklist)", "Bennett room position · Schein invisible rules · Real meeting beneath agenda · Likely game", True),
+                            F("bk6.toolkitScripts", "2. 'Name the Game' Scripts", "Your calm, neutral sentences for making covert dynamics explicit without accusation", True),
+                            F("bk6.toolkitPostMortem", "3. Post-Mortem Systems Map", "Debrief template: how room rules shifted, where frame was lost/won, where the bridge held", True)]}],
     }
-    bdir = os.path.join(CACHE, "black")
     KD = jtag(os.path.join(DOJO, "black-belt.html"), "black-data")
-    keys = {"Bk2": ["room", "orig", "downshifted", "seq", "survived", "lost"], "Bk3": ["dropped", "commitment", "reversal", "taxType"],
-            "Bk4": ["circuit", "selfMod", "reframe", "readiness"], "Bk5": ["walkOffice", "walkPersonal"], "Bk6": ["deadlock", "doubleLoop", "toolkitAudit", "toolkitScripts", "toolkitPostMortem"]}
     for mid_, m in KD["modules"].items():
-        if mid_ == "Bk1":
-            ttl, path, fs = black["Bk1"]
-            JOURNAL["black.Bk1"] = {"id": "black.Bk1", "belt": "black", "module": "Bk1", "title": ttl, "store": "black", "path": path,
-                                    "fields": [{"k": k, "label": l, "multi": False} for k, l in fs]}
-            continue
-        s = view_md(os.path.join(bdir, f"{mid_}_fri_us_office.html"))
-        labels = []
-        for lab in s.find_all("label"):
-            t = lab.get_text(" ", strip=True)
-            if t and "Complete" not in t and "Stamp" not in t and t not in labels:
-                labels.append(t)
-        ks = keys[mid_]
-        fields = [{"k": ks[i] if i < len(ks) else f"f{i}", "label": l, "multi": True} for i, l in enumerate(labels)]
-        if len(labels) < len(ks):
-            fields += [{"k": k, "label": k, "multi": True} for k in ks[len(labels):]]
-        spec = {"id": f"black.{mid_}", "belt": "black", "module": mid_, "title": m["deliv"], "store": "black", "path": mid_.lower(), "fields": fields}
-        if mid_ == "Bk5":
-            spec["codex"] = True
-            spec["codexFields"] = ["tactic", "context", "range", "harm", "remedy", "shadow"]
-            spec["starterCodex"] = KD["starterCodex"]
-        JOURNAL[f"black.{mid_}"] = spec
+        JOURNAL[f"black.{mid_}"] = {"id": f"black.{mid_}", "belt": "black", "module": mid_, "title": m["deliv"], "store": "black", "sections": black[mid_]}
+    JOURNAL["black.Bk5"]["starterCodex"] = KD["starterCodex"]
 
 
 # ---------------------------------------------------------------- main
