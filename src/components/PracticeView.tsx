@@ -1,7 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { DOJO_MANUALS, type ManualId } from "@/data/dojo";
+import LoopView from "@/components/LoopView";
+import KitView from "@/components/KitView";
+import PracticeBackup from "@/components/PracticeBackup";
+import { useStored } from "@/lib/practiceStore";
+import { HeroBanner, LayerStrip, ModuleStrip, PocketCard, artSrc } from "@/components/DojoArt";
+
+type PracticeTab = "manuals" | "loop" | "kit";
+
+const PRACTICE_TABS: Array<{ id: PracticeTab; label: string; hint: string }> = [
+  { id: "manuals", label: "Belt manuals", hint: "Study each belt and the Sanctuary" },
+  { id: "loop", label: "The Loop", hint: "Before and after a hard conversation" },
+  { id: "kit", label: "The Kit", hint: "All your tools in one place" },
+];
 
 interface PracticeViewProps {
   activeManualId: ManualId;
@@ -9,7 +22,50 @@ interface PracticeViewProps {
   onOpenModule: (moduleId: string) => void;
 }
 
-export default function PracticeView({
+export default function PracticeView(props: PracticeViewProps) {
+  const [tab, setTab] = useStored<PracticeTab>("ellipsis-v2-practice-tab", "manuals");
+  const [restoreKey, setRestoreKey] = useState(0);
+
+  return (
+    <div className="dojo-paper min-h-[calc(100vh-61px)]">
+      <div className="border-b border-stone-200 bg-white/80 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-4 py-2.5 sm:px-6">
+          <div role="tablist" aria-label="Practice" className="flex flex-wrap gap-1.5">
+            {PRACTICE_TABS.map((t) => {
+              const on = tab === t.id;
+              return (
+                <button
+                  key={t.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={on}
+                  title={t.hint}
+                  onClick={() => setTab(t.id)}
+                  className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+                    on ? "bg-stone-900 text-stone-50" : "text-stone-600 hover:bg-stone-100"
+                  }`}
+                >
+                  {t.label}
+                </button>
+              );
+            })}
+          </div>
+          {tab !== "manuals" && (
+            <div className="ml-auto">
+              <PracticeBackup onRestored={() => setRestoreKey((n) => n + 1)} />
+            </div>
+          )}
+        </div>
+      </div>
+
+      {tab === "manuals" && <ManualsPanel {...props} />}
+      {tab === "loop" && <LoopView key={`loop-${restoreKey}`} />}
+      {tab === "kit" && <KitView key={`kit-${restoreKey}`} />}
+    </div>
+  );
+}
+
+function ManualsPanel({
   activeManualId,
   onSelectManual,
   onOpenModule,
@@ -20,7 +76,7 @@ export default function PracticeView({
   return (
     <div className="mx-auto flex max-w-7xl flex-col lg:flex-row">
       {/* Manual list */}
-      <aside className="w-full shrink-0 border-b border-stone-200 bg-[#F5F2EC] p-4 lg:sticky lg:top-[61px] lg:h-[calc(100vh-61px)] lg:w-80 lg:overflow-y-auto lg:border-b-0 lg:border-r">
+      <aside className="w-full shrink-0 border-b border-stone-200 bg-[#EFE5D0]/70 p-4 lg:sticky lg:top-[61px] lg:h-[calc(100vh-61px)] lg:w-80 lg:overflow-y-auto lg:border-b-0 lg:border-r">
         <p className="mb-1 px-1 font-mono text-[10px] font-semibold uppercase tracking-widest text-amber-900">
           The Communication Dojo
         </p>
@@ -50,10 +106,15 @@ export default function PracticeView({
                       : "text-stone-700 hover:bg-stone-200/70"
                   }`}
                 >
-                  <span
-                    className={`mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full ${m.dot} ${
-                      isActive ? "ring-2 ring-stone-50/70" : ""
-                    }`}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={artSrc(m.id === "sanctuary" ? "pc-sanctuary" : `cap-${m.id}`)}
+                    alt=""
+                    width={40}
+                    height={40}
+                    loading="lazy"
+                    decoding="async"
+                    className={`dojo-thumb h-10 w-10 shrink-0 ${isActive ? "border-stone-50" : ""}`}
                   />
                   <span className="min-w-0 flex-1">
                     <span className="block font-medium leading-snug">
@@ -90,7 +151,7 @@ export default function PracticeView({
       <main className="min-w-0 flex-1 px-4 py-6 sm:px-6 lg:px-8">
         <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
           <div className="min-w-0">
-            <h2 className="font-serif text-2xl font-semibold tracking-tight text-stone-900">
+            <h2 className="font-display text-2xl tracking-wide text-stone-900">
               {active.name}{" "}
               <span className="font-mono text-sm font-normal text-stone-400">
                 {active.version}
@@ -139,12 +200,24 @@ export default function PracticeView({
           </div>
         )}
 
-        <div className="overflow-hidden rounded-xl border border-stone-200 bg-white shadow-sm">
+        <div className="mb-5 grid items-start gap-4 md:grid-cols-[1fr_minmax(200px,260px)]">
+          <HeroBanner belt={active.id} />
+          <div className="flex flex-col items-center gap-1">
+            <PocketCard belt={active.id} />
+            <span className="text-[11px] text-stone-500">Pocket card · tap to flip</span>
+          </div>
+        </div>
+
+        <div className="mb-5">
+          {active.id === "sanctuary" ? <LayerStrip /> : <ModuleStrip belt={active.id} />}
+        </div>
+
+        <div className="dojo-frame">
           <iframe
             key={active.id}
             src={active.href}
             title={`${active.name} manual`}
-            className="block h-[calc(100vh-220px)] min-h-[560px] w-full"
+            className="block h-[calc(100vh-270px)] min-h-[560px] w-full"
           />
         </div>
       </main>

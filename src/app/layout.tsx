@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora, JetBrains_Mono } from "next/font/google";
+import { Inter, Lora, JetBrains_Mono, Bevan } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -20,6 +20,14 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+/* The Communication Dojo's woodcut display face, self-hosted by next/font at build time. */
+const bevan = Bevan({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-display",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "The Ellipsis Manual v2 — Behavioral Intelligence & Influence",
   description:
@@ -34,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${lora.variable} ${jetbrainsMono.variable}`}
+      className={`${inter.variable} ${lora.variable} ${jetbrainsMono.variable} ${bevan.variable}`}
     >
       <body className="font-sans antialiased selection:bg-amber-200/60 selection:text-stone-900">
         {children}
