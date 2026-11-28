@@ -1,0 +1,151 @@
+{
+ "id": "m01",
+ "kind": "module",
+ "tier": 1,
+ "tierTitle": "Perceptual Calibration & Authority Architecture",
+ "tierSubtitle": "Zeroing the observer instrument and establishing non-reactive social gravity.",
+ "title": "Perceptual Calibration & The Four Laws",
+ "number": 1,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-02"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Zeroed Seismograph",
+   "cards": [
+    {
+     "id": "m01.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "The Zeroed Seismograph",
+     "md": "A seismograph does not measure earthquakes by being sensitive; it measures them by being still. Bolt the housing to solid bedrock with the needle resting at absolute zero, and even a distant tremor registers as clean geometry. Set that same instrument on a rattling wooden table, and the needle scribbles violently—not because the earth moved, but because the casing itself is shaking. Every reading collapses into an unwitting portrait of the machine's own vibration.\n\nBehavioral intelligence breaks at this exact joint. Most people walk into a room assuming their eyes and ears are panes of clear glass, passively recording who the other person \"really is.\" In practice, an uncalibrated observer is a seismograph on a shaking table. Two internal forces rattle the casing before a single reliable signal can be logged: **moralistic distortion**—the reflex to classify behavior as arrogant, shady, or incompetent—and **somatic leakage**, the unconscious broadcast of your own tension, skepticism, or hunger for control. As *The Ellipsis Manual* warns, when you are nervous or insecure, your internal \"chords\" vibrate at the exact frequencies that activate defensive tension in the person across from you."
+    },
+    {
+     "id": "m01.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "The Zeroed Seismograph",
+     "md": "**Operator Baseline** is the discipline of bolting the instrument to bedrock. It strips away ego-reactivity and muscular hurry so your presence exerts minimal involuntary pressure on the room. Once the casing is still, **The Four Lenses** serve as the optical prism, grinding down moral verdicts until only raw movement and causal mechanics remain. Beneath both sits the geological map of **The Four Laws of Human Behavior**: the operational premise that human conduct is rarely random malice or pure calculation, but a load-bearing system of defenses built around vulnerability, social survival, and early conditioning. Mastery here is never the accumulation of body-language trivia. Knowledge sits in the cortex like an unread manual; skill is a zeroed instrument that reads pressure changes without flinching."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "The Optical Prism: Stepping Up Through The Four Lenses",
+   "cards": [
+    {
+     "id": "m01.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/3",
+     "title": "The Optical Prism: Stepping Up Through The Four Lenses",
+     "md": "Raw sensory data almost never reaches conscious awareness untouched. Left on autopilot, the mind compresses an ambiguous human movement into a moral verdict in milliseconds—and the moment a verdict hardens, curiosity dies. *Six-Minute X-Ray* maps this progression across four distinct altitudes, illustrated by a single everyday shock: a driver in a massive pickup truck jerks across your lane on the highway and flips you off.\n\nAt **Lens 1 (People Are Broken)**, you experience the cut-off as a personal defect in the other driver—stupid, hostile, broken—and feel an immediate gravitational pull to correct him, speed up, or reclaim the upper hand. At **Lens 2 (People Are Different)**, you step back from outright hostility (*\"he handles traffic differently than I do\"*), which lowers the emotional temperature while still quietly keeping your own temperament as the measuring stick."
+    },
+    {
+     "id": "m01.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/3",
+     "title": "The Optical Prism: Stepping Up Through The Four Lenses",
+     "md": "The real structural shift happens at **Lens 3 (People Are Facts)**. Humans do not scream at a hurricane or try to argue a flood into behaving better; we may resent the damage, but we do not rage at the storm itself because anger is almost always a covert demand that reality be different than it is. Viewing behavior as a fact—stripping the room down to what a camera and microphone could verify—amputates moral heat. In a conference room, Lens 3 replaces *\"he is defensive and hiding something\"* with *\"interrupted twice during the margin-loss slides, pushed his chair back four inches, and stared at a locked phone screen for five seconds.\"*"
+    },
+    {
+     "id": "m01.chain1.core-3",
+     "kind": "core",
+     "label": "Causal Chain 1 · 3/3",
+     "title": "The Optical Prism: Stepping Up Through The Four Lenses",
+     "md": "From that clean factual floor, you climb to **Lens 4 (People Are Reasons)**: asking what internal pressure, history, or incentive makes that exact movement the most logical protective maneuver available to them right now. On the highway, you ease off the gas and give the truck space, recognizing behavior as the downstream output of pain, reward, and learned defense. Yet Lens 4 carries its own subtle trap—trading moral mind-reading for clinical mind-reading. A disciplined shift from *Facts* to *Reasons* never lands on a single tidy diagnosis. Instead, it deploys **Hypothesis Plurality**: holding two or three competing explanations in suspension like counterweights on a scale—perhaps the executive feels exposed on margin accountability, or perhaps he already briefed the CFO yesterday and views the slide as wasted airtime—refusing to let the needle settle until a low-threat probe tips the balance.",
+     "hook": "L2-M01-four-lens-shift"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "The Fault Lines Beneath the Crust: The Four Laws of Human Behavior",
+   "cards": [
+    {
+     "id": "m01.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/3",
+     "title": "The Fault Lines Beneath the Crust: The Four Laws of Human Behavior",
+     "md": "Once **The Four Lenses** clear the fog of personal offense, you still need a map of the forces moving beneath the surface. In *Six-Minute X-Ray*, Chase Hughes recalls sitting with his mentor at Sam Snead's Tavern in Hawaii, convinced he was misreading people because everyone suddenly looked sadder and more frightened than they appeared on the surface. His mentor pointed to a foundational truth: suffering and insecurity are not anomalies; they are the universal baseline condition (**Law 1: Everyone is suffering and insecure**). For most of human history, survival depended on acceptance inside small tribes of roughly 70 to 150 people, where appearing weak, unstable, or antisocial risked expulsion."
+    },
+    {
+     "id": "m01.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/3",
+     "title": "The Fault Lines Beneath the Crust: The Four Laws of Human Behavior",
+     "md": "To survive that social exposure, every adult constructs a persona—a default operating system running continuously in the background (**Law 2: Everyone is wearing a mask**). Ironically, the people most insistent that they \"never wear a mask\" usually carry the heaviest one of all. Because acknowledging the mask triggers an immediate cascade from shame to anger, social life runs on an unspoken pact of mutual denial (**Law 3: Everyone pretends not to wear a mask**). Finally, those protective scripts are rarely invented from scratch in adulthood; they are carved along deep grooves of early suffering and reward (**Law 4: Everyone is a product of childhood suffering and reward**)—the child who felt powerless vowing that if people fear him they can never hurt him again, or the student humiliated in front of a classroom growing into the colleague who reflexively opens every reply with *\"Actually…\"* to prove her competence before anyone can question it. (While *Six-Minute X-Ray* uses the rhetorical shorthand that 90% of interpersonal habits lock by age twelve, we treat early conditioning as default gravitational grooves rather than permanent concrete—strongest when stress narrows adult bandwidth.)"
+    },
+    {
+     "id": "m01.chain2.core-3",
+     "kind": "core",
+     "label": "Causal Chain 2 · 3/3",
+     "title": "The Fault Lines Beneath the Crust: The Four Laws of Human Behavior",
+     "md": "Crucially, a **Protective Mask** (M08) does not run at full voltage in an empty room. It idles quietly until a live social stimulus presses directly against the seam of the underlying vulnerability. What looks from the outside like sudden \"personality,\" pedantry, or irrational overreaction is simply the friction spike generated at that point of contact: the sharper and heavier the behavioral flare, the closer the stimulus landed to the unguarded fault line underneath.",
+     "hook": "L2-M01-mask-vs-fact"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "The Contagion Loop: Operator Baseline vs. Observer Distortion",
+   "cards": [
+    {
+     "id": "m01.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "The Contagion Loop: Operator Baseline vs. Observer Distortion",
+     "md": "Knowing the four laws and four lenses still fails if your own body shakes the table. *The Ellipsis Manual* emphasizes that even private doubts and unspoken judgments leak through your unconscious communication—and novice operators routinely ruin an interaction by staring conspicuously at a subject's hands or posture, instantly tripping the subject's conscious defense systems.\n\nThe causal chain is unforgiving. Internal judgment or hurry leaks out as a stiff jaw, locked gaze, or clipped vocal cadence. The counterpart's threat-detection circuitry picks up the tremor within seconds, pulling them out of their natural **Subject Baseline** (M03) and into defensive constriction—crossed arms, shorter answers, backward lean. An uncalibrated observer then logs that constriction as proof of guilt, evasion, or resistance. That closed loop is **Observer Distortion**: you did not uncover a hidden tremor in the subject; you bumped the housing and measured your own impact."
+    },
+    {
+     "id": "m01.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "The Contagion Loop: Operator Baseline vs. Observer Distortion",
+     "md": "Isolating real telemetry from self-inflicted distortion requires watching the *trajectory* rather than a frozen snapshot. Nervous systems do not stop on a dime; they carry a physiological braking distance—**Autonomic Decay Lag**—typically 45 to 90 seconds after you soften your posture, drop your tempo, and remove the pressure. If the subject's constriction bleeds off across that recovery window, you were measuring yourself. And if their tightness was already present before your first sentence and stays completely flat across safe small talk, you are looking at **Exogenous Noise** (a migraine, a cold room, an unrelated crisis) rather than stimulus-linked stress. The third-order cost of ignoring this is steep: a counterpart who feels silently scrutinized under Lens 1 tags you as an interrogator, keeping their **Protective Mask** (M08) bolted shut across every future room you share.",
+     "hook": "L2-M01-observer-distortion"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 1 · Telemetry & Authority",
+   "cards": [
+    {
+     "id": "m01.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Perceptual calibration is not passive observation; it is the baseline defense against confirmation bias and temporal hijacking in negotiations, interviews, and bureaucratic rooms."
+    },
+    {
+     "id": "m01.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Neutralizing Institutional Numbness vs. True Friction\n**Setting:** Administrative windows, HR screenings, procurement calls\n\n**Signal:** Flat affect, minimal eye contact, clipped cadence from the first sentence.\n\n**Counter-move:** Log the entire flat posture as their zero-point (score: 0). Never treat baseline institutional fatigue as hostility or deception. Only track a delta—a sudden shift in blink rate, hand motion, or pitch tied directly to a specific document, number, or question you introduce.\n\n**Break line:** Hold 1 full breath before responding to clipped tone; match clarity, not speed.\n:::\n\n:::note Hunting Friction Points Instead of Liars\n**Setting:** Negotiation & interview discovery\n\n**Signal:** Sudden cluster shift (illustrator freeze + posture pivot + vocal pitch lift) right after a routine question.\n\n**Counter-move:** Do not accuse or confront. Treat the spike as a targeting reticle showing where risk, hidden vetoes, or unspoken constraints live. Drop into stillness, pause two seconds, and ask one narrow process question.\n\n**Break line:** \"Walk me through the exact steps between your desk and final sign-off.\"\n:::"
+    },
+    {
+     "id": "m01.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Robert Cialdini (Pre-Suasion)\n\"What is focal is causal.\" If you enter a room hunting for deception, your attention makes normal fidgeting focal and fabricates intent. Anchoring strictly to baseline deltas prevents self-induced paranoia.\n:::\n\n:::note Robert Greene (The Laws of Human Nature)\nThe Law of Role-Playing confirms Hughes's sharpest telemetry rule: skilled operators can fake any single channel (warm words, open smile). Almost no one sustains multi-channel synchrony under load. The true read is always the fracture between channels.\n:::"
+    },
+    {
+     "id": "m01.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Diagnostic Tunnel Vision\n**Mechanism:** Spotting a clean behavioral cluster triggers an ego rush (\"I caught them\"). Locking onto your read too early closes your ears to new, disconfirming data.\n\n**Calibration:** Every telemetry spike buys you one sharper question—never a courtroom verdict.\n:::\n\n:::warn Cognitive Load Misattribution\n**Mechanism:** Complex math, careful phrasing, or working in a second language produces the exact same illustrator freeze and blink suppression as fabrication.\n\n**Calibration:** Rule out working-memory load before escalating your read.\n:::"
+    }
+   ]
+  }
+ ]
+}

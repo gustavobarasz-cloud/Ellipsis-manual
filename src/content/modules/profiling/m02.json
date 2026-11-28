@@ -1,0 +1,130 @@
+{
+ "id": "m02",
+ "kind": "module",
+ "tier": 1,
+ "tierTitle": "Perceptual Calibration & Authority Architecture",
+ "tierSubtitle": "Zeroing the observer instrument and establishing non-reactive social gravity.",
+ "title": "Authority Architecture & First-Contact Framing",
+ "number": 2,
+ "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+ "codexIds": [
+  "PIT-01"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "Gravitational Mass vs. Rocket Thrust",
+   "cards": [
+    {
+     "id": "m02.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "Gravitational Mass vs. Rocket Thrust",
+     "md": "A body with real gravitational mass never chases satellites, never shouts to hold their attention, and never flinches when debris drifts past. It simply occupies space with dense, unhurried stillness—curving the geometry of the room until lighter, more anxious energies settle into orbit around it.\n\nMost people mistake authority for *thrust*—volume, speed, sharp gestures, or aggressive eye contact. Thrust burns fuel, throws off heat, and provokes an equal and opposite pushback. True **Authority Architecture** is *mass*. Built directly on top of **Operator Baseline** (M01), it is the visible absence of hurry, approval-seeking, or threat reactivity. When an operator enters a room with relaxed, straight posture, slower movements, and declarative downward inflection, the subject's nervous system performs a rapid pre-conscious appraisal: *This person is not competing for status, not asking for permission, and not rattled by uncertainty.*"
+    },
+    {
+     "id": "m02.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "Gravitational Mass vs. Rocket Thrust",
+     "md": "Stillness alone, however, is not gravity—it is merely dead weight. Somatic mass only bends a room when it is coupled with unmistakable directional intent. The moment your pause ends, the sentence that follows must cut cleanly to structure, clarity, or a concrete next step; otherwise, the room reclassifies your unhurried silence as hesitation rather than command. When mass and direction align, the **First-Contact Frame** locks into place within the opening minute. Encountering a calm, high-certainty anchor lowers the counterpart's cognitive load—serving both halves of this curriculum at once. For the *sensor* (*Six-Minute X-Ray*), calm authority lets the subject relax into a readable **Subject Baseline** (M03); for the *actuator* (*The Ellipsis Manual*), it lowers the friction threshold for every question, reframe, and directive that follows."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "The Somatic Broadcast: Authority Architecture vs. Status-Tension Leaks",
+   "cards": [
+    {
+     "id": "m02.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "The Somatic Broadcast: Authority Architecture vs. Status-Tension Leaks",
+     "md": "Long before a persuasive argument is evaluated on its merits, authority is broadcast—or bled away—through three synchronized physical channels mapped in *The Ellipsis Manual*'s contrast between high-authority presence and the Chart of Social Weaknesses.\n\nThe first channel is **tempo and vocal gravity**. In almost every language, rising terminal inflection signals a question—a subtle bid for permission or confirmation—whereas a calm downward inflection marks a statement as declarative and final. Paired with slower movements, comfortable pausing, and even a slower, calmer *blink speed* (not merely blink rate), unhurried tempo signals personal comfort with silence and control over your own time. The opposite cluster—filler words, rapid speech, interrogative tone, confirmation-seeking language, fidgeting, frequent facial touching, or shifting weight and touching your chest the instant you begin to speak—constitutes a **Status-Tension Leak**. Each leak tells the room you are anxious about pushback, quietly eroding perceived mass before your logic even lands."
+    },
+    {
+     "id": "m02.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "The Somatic Broadcast: Authority Architecture vs. Status-Tension Leaks",
+     "md": "The second channel is **unapologetic geometry**: relaxed, straight posture, open hands, and comfortable eye contact that claim your perimeter without invading theirs. The third—and most decisive—channel is **non-reactivity**, the shock absorber that proves your mass is structural rather than theatrical. Early in high-stakes rooms, skeptical counterparts routinely test the frame by interrupting, dismissing your category, or dropping an abrupt silence. Absorbing that hit with a calm two-second pause, zero nervous smiling, and a grounded redirect (*\"Fair—most decks ignore floor reality. Tell me what the last three missed\"*) keeps the room orbiting your center of gravity.",
+     "hook": "L2-M02-non-reactivity-frame-hold"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "The Compliance-Friction Curve: Setting and Holding the First-Contact Frame",
+   "cards": [
+    {
+     "id": "m02.chain2.core",
+     "kind": "core",
+     "label": "Causal Chain 2",
+     "title": "The Compliance-Friction Curve: Setting and Holding the First-Contact Frame",
+     "md": "When calm somatic mass meets clear agenda-setting in the opening 30 to 90 seconds, the **First-Contact Frame** establishes an implicit social geometry: high certainty paired with low threat. Because the counterpart no longer has to spend metabolic energy wondering whether you are competent or adversarial, their vigilance drops. *The Ellipsis Manual* notes that once authentic authority is present, small physical and structural leads—pointing to a figure, pacing and slowing conversational rhythm, guiding the sequence of topics—produce natural followership that the counterpart experiences as their own collaborative choice rather than external coercion.\n\nThe common misconception is treating that opening minute like a permanent weld. In reality, the **First-Contact Frame** behaves like a live mechanical ratchet under constant tension. A strong opening earns you low-friction runway, yet a single mid-interaction **Status-Tension Leak**—over-explaining a reasonable boundary, rushing to fill a ten-second silence, or matching a counterpart's nervous stutters—triggers **Frame-Maintenance Decay**. The pawl slips, the room reverts to skeptical scrutiny, and you are forced to rebuild credibility uphill against heavier resistance.",
+     "hook": "L2-M02-first-contact-ratchet"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "The Authority-Threat Cliff: Dominance Overplay and Autonomy Margin",
+   "cards": [
+    {
+     "id": "m02.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "The Authority-Threat Cliff: Dominance Overplay and Autonomy Margin",
+     "md": "If **Status-Tension Leaks** drop you off the bottom of the authority curve, pushing presence too hard sends you over the top edge into **Dominance Overplay**. *The Ellipsis Manual*'s own weak-versus-rigid contrast draws this line sharply: glaring or staring, a tense jaw, chin thrusting, exaggerated rigid posture, and personal-space invasion do not register as prestige or leadership—they register as territorial threat."
+    },
+    {
+     "id": "m02.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "The Authority-Threat Cliff: Dominance Overplay and Autonomy Margin",
+     "md": "Crucially, the cliff edge does not sit at the same distance for every person in the room. Every counterpart carries a distinct **Autonomy Margin**: the amount of directive pressure they can absorb before their nervous system flags it as encroachment. A crisp command tone that reassures a stressed subordinate can cross the **Autonomy Margin** of a veteran principal engineer or senior peer within ten seconds. Once that line is breached, the counterpart's autonomic threat circuitry fires, **Observer Distortion** (M01) floods the room, their **Protective Mask** (M08) slams shut, and **Psychological Reactance** (M10) locks up compliance. Even *The Ellipsis Manual* notes that with confrontational or status-insecure subjects, deliberately dialing down rigid dominance—angling your posture slightly, softening facial tension, and restoring explicit choice—prevents a turf war that blinds your sensors and trains counterparts to withhold bad news over the long haul.",
+     "hook": "L2-M02-dominance-overplay-cliff"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 1 · Telemetry & Authority",
+   "cards": [
+    {
+     "id": "m02.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Persuasion is what you have to use when you lack authority. In live rooms, status is rarely contested by shouting—it is won or lost over temporal dominance, terminal vocal pitch, and stillness."
+    },
+    {
+     "id": "m02.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Winning the Silence Vacuum\n**Setting:** Panel interviews, fee pushback, bureaucratic denials\n\n**Signal:** Counterpart delivers a flat rejection or low anchor and stares silently.\n\n**Counter-move:** Absorb 2–3 full seconds of silence without nodding, shifting weight, or adding a second justification. Rushing to fill silence accepts the burden of proof and signals that their approval is scarcer than your time.\n\n**Break line:** Deliver your position on a downward vocal inflection, then stop talking.\n:::\n\n:::note Countering Deliberate Tempo-Stripping\n**Setting:** High-pressure vendor calls & impatient executives\n\n**Signal:** Counterpart interrupts, glances at the clock, or speaks at double speed to rush concessions.\n\n**Counter-move:** Refuse to match their frantic cadence. Pause one full beat after they finish, lower your volume slightly (forcing them to allocate attention inward), and state your single point at your own unhurried pace.\n\n**Break line:** \"Let's pause on the timeline—before we move fast, we need the scope terms in writing.\"\n:::"
+    },
+    {
+     "id": "m02.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Erving Goffman (Interaction Ritual)\nStatus splits into demeanor (how you carry yourself) and deference (the respect others extend). Deference is elicited by intact demeanor; rapid nodding, uptalk, and over-explaining crack your demeanor and automatically downgrade the deference you receive.\n:::\n\n:::note Deborah Gruenfeld (Acting with Power)\nDistinguishes brittle power-over (rigid, cold, defensive) from playing high (expansive, grounded, unhurried). This explains why Hughes pairs Discipline with Enjoyment: relaxed ease under fire is the ultimate tell of someone with options.\n:::\n\n:::note Jeffrey Pfeffer (Power)\nPerceived power precedes actual leverage. Operators who project calm economy of words routinely receive administrative flexibility and concessions that equally qualified, deferential peers never get.\n:::"
+    },
+    {
+     "id": "m02.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn The Precision Leak (Over-Explaining)\n**Mechanism:** High-competence specialists and interpreters reflexively eliminate ambiguity by adding extra reasons. Under Pit physics, unsolicited justification looks identical to low-status pleading and hands the other side more surface area to attack.\n\n**Calibration:** Cap boundary rationales at one clean sentence—or zero under pressure.\n:::\n\n:::warn Brittle Stillness\n**Mechanism:** Over-correcting Authority Killers by turning into a cold statue triggers threat defenses in collaborative or bureaucratic rooms.\n\n**Calibration:** Pair physical stillness with loose shoulders and unhurried warmth (Hughes's Enjoyment pillar).\n:::"
+    }
+   ]
+  }
+ ]
+}

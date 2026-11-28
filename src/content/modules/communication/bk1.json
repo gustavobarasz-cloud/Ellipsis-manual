@@ -1,0 +1,155 @@
+{
+ "id": "bk1",
+ "belt": "black",
+ "kind": "week",
+ "kicker": "Black Belt · Module Bk1",
+ "title": "Reading the Room's Culture",
+ "subtitle": "What construal of difference, invisible assumptions, and safety climate are actually running this room?",
+ "golden": "Your **Two Room Maps** (Office + Personal) become the diagnostic baseline for `Bk2` brokerage, `Bk4` readiness calibration, and `Bk5` safety gating.",
+ "goldenLabel": "Golden Thread",
+ "assembly": "| Day |\n|---|\n| Mon: Bennett DMIS Construals |\n| Tue: Schein 3 Strata & Contradiction Hunt |\n| Wed: Edmondson Psychological Safety |\n| Thu: Room Culture & Safety Radar Lab |\n| Fri: Two Room Maps`. |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+   "cards": [
+    {
+     "id": "bk1.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 1 — Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+     "md": "**Thesis Opener:** Brown Belt taught you to engineer your own words, reveals, and steering moves; Black Belt zooms out to the **room** itself. Before you choose a frame or make a move, **Milton Bennett** maps how a group's shared perception of difference bends every sentence that enters it.\n\nPicture a room not as a neutral box where two people exchange words, but as a pressurized atmosphere whose refractive index bends every sentence that enters it. **Milton Bennett's** *Developmental Model of Intercultural Sensitivity* (DMIS) maps how shared perceptions organize cultural and stylistic difference along a continuum from **ethnocentric** construals—where one's own cultural worldview is experienced as the unquestioned center of reality (**Denial, Defense, Reversal, Minimization**)—toward **ethnorelative** construals, where one's own culture is experienced as one relative context among many (**Acceptance, Adaptation, Integration**).\nHere is the critical guardrail that keeps this model intellectually honest: Bennett treats these positions as **perceptual construals of difference, not fixed personality types or ego-development stages**, warning that calling a person or team *\"in Defense\"* commits a category error. In a **Denial** room, difference is simply invisible (*“we're all just here to get the work done”*), so nuance bounces off. In a **Defense** room, difference triggers an *“us vs. them”* threat reflex—hoarding information, punishing vulnerability, and hearing direct stereotype correction as a personal attack. **Reversal** flips the polarity (*“how they do it elsewhere is superior; our way is broken”*), which feels progressive yet leaves the exact same binary trap intact. In a **Minimization** room, surface similarity (*“we all just want a win-win”*) flattens deeper differences so friction gets treated as disloyalty—until the room reaches **Acceptance** (curiosity about frames, at the risk of value paralysis) or **Adaptation** (shifting frames intentionally across tribes). Notice the second-order trap for a bilingual or third-culture observer: because a transnational communicator holds overlapping frames simultaneously, the moment you use Bennett's map to feel superior to a Minimization or Defense room, you have quietly slid into Defense yourself.\n*Bridge to Tuesday:* Bennett maps *how a room construes difference*; tomorrow, **Edgar Schein** drills beneath the room's surface talk to expose the invisible rules and basic assumptions that govern what happens when someone actually breaks the norm."
+    },
+    {
+     "id": "bk1.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 1 — Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+     "md": "- **Operational Bridge:** Diagnose the room's shared construal of difference in the first few minutes so you calibrate your entry frame—without ranking anyone's maturity or lecturing the room on its own blind spots.\n- **Office Worked Example:** In a cross-functional planning call where teammates dismiss a relationship-first workflow as *“slow”* or *“unnecessary”* (Minimization/Defense), anchor the shared delivery goal first before introducing a neutral framing question—without telling them their worldview is ethnocentric.\n- **Personal Worked Example:** In a friend group where fast, overlapping banter is the default and a quieter person's longer pause gets read as aloofness or disinterest, treat it as a style-difference assumption in the room rather than diagnosing their personality.\n- **Non-Example:** Sitting silently in a meeting thinking *“Everyone here is stuck in Minimization while I operate from Adaptation”*—which reproduces *“us vs. them”* polarity under theoretical vocabulary.\n- **Decision Rule & Handoff:** Use Bennett's room lens in the opening minutes of a group encounter to choose your framing; stop using it the instant you feel superior to the room. Feeds **Room Map Field 1 (Position)** and **Field 5 (What Is Possible Here)**."
+    },
+    {
+     "id": "bk1.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 1 — Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+     "md": "### Layer 3 · Optional Deepening (Robert Kegan & TCK Archive)\n\nIn a **Minimization** room (*“we're all the same here”*), a bilingual or third-culture person often experiences the *“hidden immigrant”* bind—sounding fluent on the surface while carrying a completely different internal map of politeness, time, and belonging. Naming that quietly keeps you from mistaking cultural flattening for genuine alignment."
+    },
+    {
+     "id": "bk1.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 1 — Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+     "md": "**Module question.** What construal of difference, invisible assumptions, and safety climate are actually running this room?\n\n**Golden thread.** Your **Two Room Maps** (Office + Personal) become the diagnostic baseline for `Bk2` brokerage, `Bk4` readiness calibration, and `Bk5` safety gating.\n\n:::note Resolved seam · Diagnosing the Room vs. Feeling Superior to the Room (`Bk1 Mon` vs. `Bk3 Mon` / `Bk4 Wed`)\n**Tension.** `Bk1` asks you to read a room's construal of difference (Bennett's Denial/Defense/Minimization) and hidden assumptions (Schein), yet diagnosing a room from above reproduces Defense polarity and triggers Torbert's Strategist blind spot (`Bk4 Wed`).\n\n**Resolution.** **Diagnose the atmosphere to calibrate your entry, never to rank the people.** Treat Bennett's positions as temporary properties of a *room*, not fixed traits of *individuals*. Stop diagnosing the instant you feel superior, and run the Beginner's Mind check (*“What is this like for them? What am I missing?”*).\n:::"
+    }
+   ]
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+   "cards": [
+    {
+     "id": "bk1.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 2 — Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+     "md": "**Thesis Opener:** Monday mapped how a room views difference; **Edgar Schein** cuts vertically through the room like a geologist, showing why what a team *says* it values rarely matches what happens the second someone tests an unspoken rule.\n\nThink of an organizational or family culture as three geological strata stacked one beneath the other. **Edgar Schein** (*Organizational Culture and Leadership*) separates **(1) Artifacts**—the visible, audible surface structures of the room (who sits where, who speaks first, who interrupts, whether senior people stop taking notes when junior members talk)—from **(2) Espoused Values**, the official slogans, charters, and ideals people claim to live by (*“we value candid pushback”*), and **(3) Basic Underlying Assumptions**, the unconscious, taken-for-granted premises about hierarchy, risk, time, and belonging that formed through repeated past problem-solving and now run the room automatically.\nHere is the mistake that trips up literal-minded readers: trusting the middle stratum—taking espoused values at face value or trying to decode isolated artifacts in a vacuum. Schein's operational diagnostic is **The Contradiction Hunt**: wherever a visible artifact systematically contradicts an espoused value, an invisible basic assumption is holding the equilibrium in place—and you verify it by watching the room's immediate reaction the moment someone violates the unspoken norm. The second-order consequence of missing that bottom layer is walking straight into an invisible tripwire (raising an unvetted risk in public because the charter said *“speak up”*); the third-order payoff of mapping it cleanly is knowing which truths can be tested in the open and which require pre-alignment.\n*Bridge to Wednesday:* Schein reveals the unspoken rules enforced beneath a room's slogans; tomorrow, **Amy Edmondson** measures the exact climate those assumptions create—whether the room is actually safe for interpersonal risk-taking."
+    },
+    {
+     "id": "bk1.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 2 — Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+     "md": "- **Operational Bridge:** Compare what a room says it values against what actually happens the moment someone breaks an unspoken norm—that reaction exposes the real operating rule.\n- **Office Worked Example:** Espoused value: *“Raise risks early.”* Artifact: everyone reports *“on track”* in standup. Rule-break test: when someone flags a timeline risk in the group meeting, a senior member asks why it wasn't settled privately—exposing the lived assumption (*“don't surface unvetted risks in front of leadership”*).\n- **Personal Worked Example:** Espoused value in a friend group: *“We can be honest about anything.”* Rule-break test: when someone admits feeling overwhelmed or hurt, the group immediately jokes it off or changes the subject—revealing the unspoken rule (*“keep things upbeat and friction-free”*).\n- **Non-Example:** Treating one stressed person's abrupt interruption on a hectic day as proof of a permanent *“basic underlying assumption”* of the entire group.\n- **Decision Rule & Handoff:** Run the Contradiction Hunt across at least two group sessions before recording an invisible rule; never infer deep assumptions from a single isolated incident. Feeds **Room Map Fields 2–4 (Invisible Rules, Rewarded Behaviors, Forbidden Truths)**."
+    },
+    {
+     "id": "bk1.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 2 — Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+     "md": "### Layer 3 · Optional Deepening (Kegan & Lahey — *How the Way We Talk Can Change the Way We Work*)\n\nKegan & Lahey show how a team's *“no big deal”* posture toward conflict often means *“it's such a big deal that we don't dare touch it.”* A persistent gap between espoused values and lived artifacts usually marks a collective immunity—an unspoken protective commitment (*“never risk public embarrassment or fracture”*) that keeps the old equilibrium locked in place."
+    },
+    {
+     "id": "bk1.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 2 — Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+     "md": "**Module question.** What construal of difference, invisible assumptions, and safety climate are actually running this room?\n\n**Golden thread.** Your **Two Room Maps** (Office + Personal) become the diagnostic baseline for `Bk2` brokerage, `Bk4` readiness calibration, and `Bk5` safety gating."
+    }
+   ]
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+   "cards": [
+    {
+     "id": "bk1.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 3 — Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+     "md": "**Thesis Opener:** Monday mapped how the room sees difference and Tuesday uncovered its unspoken rules; **Amy Edmondson** closes `Bk1` by measuring the atmospheric pressure those rules produce—whether people can safely admit a mistake, ask a clarifying question, or voice dissent without social penalty.\n\nPicture a room's climate along two separate axes rather than one: **interpersonal safety** and **performance standards**. **Amy Edmondson** defines **team psychological safety** as a shared belief that the room is safe for **interpersonal risk-taking**—admitting errors, asking basic clarifying questions, requesting help, and voicing dissent without fear of humiliation, retaliation, or exclusion. Causally, psychological safety lowers the self-protective brake of impression management, unlocking **team learning behaviors** (seeking feedback, sharing raw data, testing assumptions) that catch failures before they compound.\nHere is the misconception that blurs both office and personal rooms: equating psychological safety with *niceness, comfort, or low standards*. A polite, conflict-avoidant Minimization room feels comfortable on the surface yet has low psychological safety because real mistakes stay hidden and dissent happens only in hallway whispers afterward; conversely, a high-safety room can be intensely demanding on the work precisely because people trust they won't be attacked for candor. The counterintuitive trade-off from where you sit without formal authority is calibrating your risk-taking to the room's actual climate: in a low-safety room, dramatic public confrontation backfires, whereas narrow, low-threat clarifying questions test the water safely while written records protect your footing. Second-order effects show up in whether early warnings surface in time; third-order effects determine whether you default into Observer silence or stay an active participant.\n*Bridge to Thursday & Friday:* You now hold all three `Bk1` lenses—Bennett's room construals, Schein's three cultural strata, and Edmondson's safety climate. Calibrate them in Thursday's **Room Culture & Safety Radar Lab** to build Friday's **Two Room Maps**."
+    },
+    {
+     "id": "bk1.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 3 — Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+     "md": "- **Operational Bridge:** Check whether a room actually makes interpersonal risk-taking safe before exposing uncertainty or dissent—and if safety is low, use small, low-risk moves rather than dramatic confrontation.\n- **Office Worked Example:** In a cautious review where nobody names a bottleneck, ask one low-threat clarifying question early (*“If this dependency slips by two days, what is the first downstream item we need to adjust?”*) rather than forcing a high-stakes showdown.\n- **Personal Worked Example:** In a friend group where admitting stress feels rare, share one small, grounded limit (*“I'm low on energy this week, so I'm keeping evenings quiet”*) and observe whether the group holds it naturally.\n- **Non-Example:** Assuming a quiet, polite room has high psychological safety when people are actually staying silent to avoid punishment or judgment.\n- **Decision Rule & Handoff:** Match candor to actual room safety; if safety is low and stakes are high, document agreements in writing and use formal channels. Feeds **Room Map Field 5 (What Is Possible Here)**."
+    },
+    {
+     "id": "bk1.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 3 — Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+     "md": "### Layer 3 · Optional Deepening (Charles Duhigg — *Supercommunicators*)\n\nWhen a *“practical”* meeting goes strangely quiet, it has usually slipped into an unspoken *“social”* conversation about status and belonging—and research on the *mere listening effect* confirms that people open up about real uncertainties only once they believe their perspective will be heard and weighed fairly."
+    },
+    {
+     "id": "bk1.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 3 — Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+     "md": "**Module question.** What construal of difference, invisible assumptions, and safety climate are actually running this room?\n\n**Golden thread.** Your **Two Room Maps** (Office + Personal) become the diagnostic baseline for `Bk2` brokerage, `Bk4` readiness calibration, and `Bk5` safety gating."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Room Culture & Safety Radar",
+   "cards": [
+    {
+     "id": "bk1.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Deliberate Practice Lab — Room Culture & Safety Radar",
+     "md": "## Deliberate Practice Lab — Room Culture & Safety Radar\n\n:::note\n1. **3-Minute Silent Audit:** Pick one recurring work meeting and one personal group. Log 3 visible **Artifacts**, 2 **Espoused Values**, and 1 **Contradiction** where behavior diverged from the slogan.\n2. **Safety vs. Comfort Plot:** Score each room `1–5` on **Interpersonal Safety** (admitting error/dissent without penalty) and `1–5` on **Performance / Candor Standards**. Notice whether a polite room scored low on safety.\n3. **Superiority Check:** Re-read your notes. Delete any word that labels a person rather than a room pattern.\n:::\n\n:::note Edmondson Climate Read\n### Safety vs. Candor Radar\n\n:::note\nApathy / Polite Avoidance (Low Safety + Low Candor)\n:::\n:::",
+     "tools": [
+      "radar.black",
+      "legacy.black.Bk1"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Two Room Maps (Office + Personal)",
+   "cards": [
+    {
+     "id": "bk1.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Deliverable — Two Room Maps (Office + Personal)",
+     "md": "## Deliverable — Two Room Maps (Office + Personal)\n\nComplete for **Room A (Office)** and **Room B (Personal)**:\n1. **Room Construal (Bennett):** *(Denial / Defense / Reversal / Minimization / Acceptance / Adaptation — strictly as room atmosphere)*\n2. **Invisible Rules (Schein Contradiction Hunt):** *(Espoused Value vs. Lived Reaction when norm is tested)*\n3. **Rewarded Behaviors:** *(What consistently earns approval, airtime, or status here)*\n4. **Forbidden Truths:** *(What topics trigger jokes, silence, or hallway-only talk)*\n5. **Safety Climate & What Is Possible Here (Edmondson):** *(Calibrated low-risk move vs. boundary/documentation needed)*\n\n---\n\n:::note\n### Room A · Office Room Map\n\n:::\n\n:::note\n### Room B · Personal Room Map\n\n:::",
+     "tools": [
+      "form.black.Bk1"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

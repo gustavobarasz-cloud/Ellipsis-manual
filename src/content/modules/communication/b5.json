@@ -1,0 +1,201 @@
+{
+ "id": "b5",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B5",
+ "title": "Bonding, Labels and the Empathy Boundary",
+ "subtitle": "Name what is under the surface, cross difference without losing yourself, and hold compassion with a boundary.",
+ "guardrail": "Surveillance vs. Care: Understanding is NOT agreement. In the office dojo, labels disarm tension; in the personal dojo, labels are witnessing, not technique. Never use bespoke bonding to flatter someone you care nothing for.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Chris Voss | No-'I' Labels, Dynamic Silence & Fearless Accusation Audits |\n| Tue | Part 2 · Milton Bennett | Platinum Rule & 6-Step Empathy (Step 6: Re-Establish Self) |\n| Wed | Part 3 · Singer & Klimecki | Empathic Distress vs. Compassion & Period-Not-'But' Formula |\n| Thu | Deliberate Practice Lab | 60s Label Minute Trainer + Period-vs-'But' Linter |\n| Fri | Deliverable Workshop | Two Accusation Audits + Three Boundary Sentences |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Labels and the Accusation Audit",
+   "cards": [
+    {
+     "id": "b5.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Labels and the Accusation Audit",
+     "md": "To meet someone standing on the opposite rim of a disagreement, you cannot shout logic across the canyon—you throw a lightweight, low-threat line across the gap first. Most people reach for \"I understand how you feel,\" which almost always triggers a silent \"No, you don't\" because the pronoun \"I\" centers the speaker. Voss's **Label** tightens B4's 3-Beat Loop by dropping both \"I\" and the question mark: *\"It seems like…\"*, *\"It sounds like…\"*, or *\"It looks like…\"* followed by a tentative name for the emotion or concern underneath their words. Even if your label is slightly off (**Mislabeling**), people carry an automatic urge to set the record straight—handing you the real bottleneck you could never have pried out with direct interrogation.\n\nThe engine that makes a label work is **Dynamic Silence**—stopping dead for three full seconds (three to four seconds in live talks) with no question mark and no \"but.\" Adding a counter-argument one beat after a label collapses the suspension bridge before they can step onto it. When you must deliver bad news or a high-friction ask, run the **Accusation Audit** first: compile the five sharpest, fairest criticisms they could possibly think about you, select the top two or three, and name them boldly up front before pausing. Speaking the unspoken dread out loud drains its sting before defensiveness hardens."
+    },
+    {
+     "id": "b5.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Labels and the Accusation Audit",
+     "md": ":::note Decision Rule\nDeploy labels plus Dynamic Silence whenever emotional heat climbs, and lead with an Accusation Audit before hard news or a major ask; in the personal dojo, **stop the second you feel yourself 'running a play'** and return to genuine witnessing. Throwing a line across the canyon works only if you understand the terrain on the other side—which brings us to Tuesday's peril: *crossing into someone else's map without forgetting to walk back to your own anchor tower.*\n:::\n\n:::note Office Dojo\nOpening your promotion conversation with an Accusation Audit: \"Before we dive in, it might seem like I'm bringing this up at a tough moment with Q4 freezes, or that I'm only focused on a title rather than team bandwidth.\" [Hold 3 seconds of Dynamic Silence.] Your manager exhales: \"No, I know you've been carrying Senior scope—budget is just messy right now.\"\n:::\n\n:::note Personal Dojo\nDeclining a close friend's weekend trip without groveling or over-explaining: \"I'm worried it's going to feel like I'm bailing on you again, or that your trip isn't a priority for me.\" [Hold a warm pause.] Once the unspoken fear is out in the air, affirm the friendship directly and give your clean no.\n:::\n\n:::warn Non-Example\nDelivering an Accusation Audit soaked in self-pity (\"I know I'm the worst friend ever, you must hate me\"—forcing them to comfort you), OR firing labels with a cold, tactical smirk in a personal argument just to extract a concession.\n:::\n\n:::dialect Translation strip · audit\n@office_us \"Before we dive in, it might seem like I'm raising scope at a tough Q4 moment or ignoring how stretched your team is.\"\n@personal_us \"I'm worried it's going to feel like I'm bailing on you again, or that your weekend isn't a priority for me.\"\n@rioplatense \"Capaz sentís que te estoy fallando otra vez o que no le doy bola a tus planes.\"\n@espana \"Puede parecer que te saco esto en el peor momento del trimestre o que no tengo en cuenta la carga que lleváis.\"\n:::"
+    },
+    {
+     "id": "b5.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Labels and the Accusation Audit",
+     "md": "**Lens.** *Never Split the Difference* (2016) and *Chris Voss Teaches the Art of Negotiation* (practitioner tactical empathy forged in crisis and business negotiation). Note the epistemic boundary built into this curriculum: affect-labeling research (W1 Part 2) supports the calming effect of naming one's *own* feelings, whereas having someone *else* name your feeling is a strong practitioner extension—and we strip out unsupported pop-neurology claims about 'bypassing the analytical brain' or 'releasing oxytocin.'\n\n### Voss's Tactical Empathy Toolkit — Syntax, Mechanism & Failure Modes\n\n| Move | Exact Syntax | Why It Works | Office Example | Personal Example | Failure Mode |\n|---|---|---|---|---|---|\n| Clean Label + Dynamic Silence | 'It seems / sounds / looks like [feeling/concern].' + [3s silence] | Drops 'I' (lowers guard); invites elaboration or revealing correction. | 'It sounds like Q4 bandwidth is the biggest risk here.' [silence] | 'It sounds like you've been carrying this alone all week.' [warm silence] | 'It sounds like you're stressed, BUT we need this Friday.' |\n| Claim ('I understand') | 'I understand how you feel.' | Triggers 'No, you don't' and shifts focus to your claim. | Avoid. Name what makes sense instead. | Avoid. Witness their specific weight instead. | 'I totally understand, my week was awful too.' |\n| Accusation Audit | 'You're probably going to think [worst fair accusation 1 & 2].' + [silence] | Drains sting before defensiveness hardens; invites 'You're being too hard on yourself.' | 'You're probably thinking I'm pushing for a title bump during Q4 freezes and ignoring bandwidth.' | 'You might feel like I've been flaking and only reaching out when convenient.' | 'I'm sorry I'm such a terrible friend, you must hate me.' (Groveling) |\n\n### Optional Deepening · I-Thou Relations Communication Outline\n\nIn the office dojo, tactical empathy deliberately influences a counterpart's emotions to build trust-based leverage. In the personal dojo, keep the linguistic humility of a tentative label (\"It sounds like…\") while stripping out the agenda. Run one silent litmus test during the pause: *Am I waiting for them to give me a concession, or am I simply sitting with them in what they carry?*\n\n:::note Voss's Three Voices (Delivery Mechanics)\nWords cannot carry a label if your vocal tone contradicts them. Voss maps three distinct vocal registers: the **Positive/Playful Voice** (your light, relaxed, encouraging default), the **Late-Night FM DJ Voice** (slow, calm, and downward-inflecting at the end of a sentence—used selectively for labels, boundaries, and de-escalation to project steady trustworthiness without triggering defensiveness), and the **Direct/Assertive Voice** (which signals dominance and reliably triggers pushback).\n:::\n\n:::details Canon notes · Part 1 · Voss: labels and the accusation audit\n*3*\n\n:::note Lens card\nChris Voss, a former FBI lead international kidnapping negotiator, wrote *Never Split the Difference* (2016) with Tahl Raz. He teaches tactical empathy: labels (\"It seems like…\", \"It sounds like…\") that name the emotion under what someone said, followed by silence, and the accusation audit, naming the worst things the other side may think before they say them. What is distinctive is that empathy is used as a deliberate move in a negotiation, not as agreement.\n:::\n\n:::note Why Voss here\nLabels and the accusation audit are this module's main tools.\n:::\n\n:::note Native use\nCrisis and hostage negotiation, then business negotiation.\n:::\n\n:::note Limit\nPractitioner theory (label: practitioner theory). The claim that labels lower intensity has support from the affect-labeling research in W1 Part 2, but that research is about labeling one's own feelings in a lab, not having them named by another person. The original curriculum's oxytocin and amygdala claims were already removed.\n:::\n\n### Label, question, or claim\n\n| Form | Example | Effect it aims for |\n|---|---|---|\n| Label | \"It sounds like this timeline worries you.\" | Names it tentatively; invites correction |\n| Claim | \"I understand.\" | Often invites \"No, you don't.\" |\n| Question | \"Are you worried about the timeline?\" | Can feel like an interview |\n| Accusation audit | \"You're going to think we're ignoring your timeline.\" | Takes the sting out first |\n:::"
+    },
+    {
+     "id": "b5.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Labels and the Accusation Audit",
+     "md": ":::note Handoff\nBuild your **Office and Personal Accusation Audits** on Friday using the 5-item brainstorm -> top 2–3 filter (you can pull stalled positions directly from your B3 Matrix via the Golden Thread pills).\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your labels, your audits or your ratings.",
+     "tools": [
+      "rungs.blue.B5.p1"
+     ]
+    }
+   ],
+   "author": "Chris Voss"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Empathy Across Difference",
+   "cards": [
+    {
+     "id": "b5.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Empathy Across Difference",
+     "md": "The Golden Rule (\"treat others as you would like to be treated\") sounds generous, yet structurally it is an act of projection: it assumes the person across the canyon lives on identical soil. Bennett calls that **Sympathy**—imagining how *you* would feel in their situation and handing them what *you* would want. When their culture, history, or nervous system runs on different norms, sympathy misses cleanly and often insults.\n\nBennett's **Platinum Rule** (*treat others as they would like to be treated*) replaces projection with a disciplined six-step crossing: **(1) Assume Difference** (treat their world as an unknown map) -> **(2) Know Yourself** (anchor your own stance and W1 tells) -> **(3) Suspend Yourself** (pause judgment) -> **(4) Imaginative Leap** (picture their constraints and history) -> **(5) Empathic Experience** (grasp why their reaction makes sense inside their frame) -> **(6) Re-Establish Yourself** (deliberately walk back across the bridge to your own anchor tower). Step 6 is the load-bearing beam most thoughtful listeners skip—causing empathy to turn into **over-understanding and self-erasure**. Lock Step 6 in with a two-part **Re-Establishment Anchor**: *Somatic Return* (feet flat on the floor, one quiet exhale) + *Mental Separation* (\"That is their map. Here is mine.\")."
+    },
+    {
+     "id": "b5.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Empathy Across Difference",
+     "md": ":::note Decision Rule\nRun Steps 1–5 whenever someone's reaction baffles you across difference, and **never skip Step 6**—especially when your W3 *Over-Intellectualization* handle is active. Even when you walk back to your own rim, one biological leak can still pull you under: *what happens when you absorb someone's pain directly, and how do you hold warmth and a hard limit in the same breath?* Wednesday closes that circuit.\n:::\n\n:::note Office Dojo\nA colleague from a high-hierarchy background stays silent during a director-led review, then emails detailed objections afterward. Running Steps 1–5, you recognize that contradicting a peer publicly in front of senior leadership violates her norm. Running Step 6, you return to your own coordinates: you thank her warmly for the thorough notes AND hold your scope cleanly—\"Let's integrate points 1 and 2; point 3 pushes us past Q3, so we'll hold the line there.\"\n:::\n\n:::note Personal Dojo\nA friend from a spontaneous drop-in family culture feels brushed off when you ask for a heads-up before visits. Steps 1–5 reveal that unannounced visits mean warmth and belonging to them. Step 6 re-establishes your own reality without apology: \"I get that dropping by feels like family to you. For me, I recharge alone and need a heads-up so I can actually be present when you're here.\"\n:::\n\n:::warn Non-Example\nUnderstanding so vividly why a stressed friend lashed out (Steps 1–5) that you skip Step 6 entirely, swallow your anger, and say, \"It's totally fine, I know you're going through a lot\"—erasing your own dignity in the name of empathy.\n:::"
+    },
+    {
+     "id": "b5.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Empathy Across Difference",
+     "md": "**Lens.** *\"Overcoming the Golden Rule: Sympathy and Empathy\"* (1979) and *Basic Concepts of Intercultural Communication* (intercultural theory with case and training evidence). Bennett exposes why the Golden Rule breaks down the moment two people do not share the same cultural, relational, or developmental map.\n\n### Bennett's 6-Step Empathy Cycle — Execution & Failure Modes\n\n| Step | What You Actually Do | Failure Mode If Skipped | Quick Internal Cue |\n|---|---|---|---|\n| 1. Assume Difference | Treat their perspective as an unknown map, not a mirror of yours. | Sympathy / Projection ('If I were them, I'd want directness'). | 'They may not experience this the way I do.' |\n| 2. Know Yourself | Name your own stance, values, and W1/W3 tells first. | Unconscious bias or flooding mid-conversation. | 'Here is where I stand and what matters to me.' |\n| 3. Suspend Yourself | Hold your judgment/rebuttal in pause mode temporarily. | Arguing internally while they talk; interrupting. | 'Pause my rebuttal; just map their world.' |\n| 4. Imaginative Leap | Imagine how this looks from their history, culture, and constraints. | Guessing from stereotypes instead of their words. | 'Given their constraints, how does this look?' |\n| 5. Empathic Experience | Grasp the internal coherence of their feeling. | Cold intellectualizing that never feels human. | 'Inside their frame, this makes sense.' |\n| 6. Re-Establish Yourself | Physically and verbally return to your own frame & boundary. | Over-Understanding / Self-Erasure: excusing harm or dropping your ask. | 'That is their map. Here is mine.' |\n\n### Optional Deepening · Deborah Tannen (That's Not What I Meant!)\n\nDeborah Tannen (*That's Not What I Meant!*) illustrates Step 1 (*Assume Difference*) through Thomas Kochman's account of an office worker wearing a bandaged arm who felt coldly rejected when a colleague never asked what happened—because her cultural norm read *asking* as basic care, while her colleague's norm read *not intruding* as basic respect. Assuming difference turns an apparent insult back into a norm mismatch before resentment hardens.\n\n:::note The Asymmetric Empathy Trap Across Power Gaps (Rung 6)\nIn unequal rooms (employee to executive, minority speaker to a dominant-culture room), the person with less positional power is routinely expected to run Bennett's Steps 1–5 upward without receiving empathy in return. That creates the **Asymmetric Empathy Trap**: silently internalizing a higher-power person's unfair frame as objective truth. Across power gaps, Step 6 (*Re-Establish Yourself*) is mandatory internally—keep your own reality intact even when you choose tact outwardly.\n:::\n\n:::details Canon notes · Part 2 · Bennett: empathy across difference\n*3*\n\n:::note Lens card\nMilton J. Bennett, an intercultural communication scholar, contrasted sympathy and empathy in \"Overcoming the Golden Rule\" (1979): the Golden Rule, treat others as you would like to be treated, assumes everyone is like you; empathy imagines the other's experience from their frame, which he summarized as a Platinum Rule. He also gives steps for empathy, ending with re-establishing yourself. Bennett later built the Developmental Model of Intercultural Sensitivity, taken up in Black Belt. What is distinctive here is that empathy starts by assuming difference, not sameness.\n:::\n\n:::note Why Bennett here\nThe module's empathy steps come from him, and the last one, re-establishing yourself, is the step that keeps empathy from becoming losing yourself.\n:::\n\n:::note Native use\nIntercultural training and education.\n:::\n\n:::note Limit\nTheory from intercultural communication practice (label: theory with case evidence). The steps are a teaching model, not a tested procedure.\n:::\n\n### Sympathy and empathy\n\n|  | Sympathy (Golden Rule) | Empathy (Platinum Rule) |\n|---|---|---|\n| Assumes | They are like me | They may differ from me |\n| Asks | How would I feel? | How do they experience this? |\n| Risk | Projection | Losing yourself, unless you re-establish yourself |\n:::"
+    },
+    {
+     "id": "b5.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Empathy Across Difference",
+     "md": ":::note Handoff\nUse **Step 5** to write the first sentence (validation) and **Step 6** to write the second sentence (your re-established boundary) of your three Friday boundary sentences.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your views or your ratings.",
+     "tools": [
+      "rungs.blue.B5.p2"
+     ]
+    }
+   ],
+   "author": "Milton J. Bennett"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Empathy, Compassion and the Boundary",
+   "cards": [
+    {
+     "id": "b5.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Empathy, Compassion and the Boundary",
+     "md": "Most people treat empathy as an unalloyed virtue and assume that if a friend or colleague is hurting, the loving move is to feel their pain right beside them. Singer and Klimecki's neural data reveal the counterintuitive trade-off: **Empathy** (*feeling with* another person) activates the brain's pain and threat circuitry (anterior insula and amygdala). When self–other distinction collapses, empathy tips rapidly into **Empathic Distress**—their emergency feels like *your* emergency, driving burnout, cold withdrawal, or desperate appeasement just to stop the discomfort inside your own chest.\n\n**Compassion** (*feeling for* another person) runs on completely different hardware: it activates care, warmth, and reward networks while keeping self–other distinction intact (\"You are hurting, and I am steady enough to care\"). That physiological steadiness is what makes the **Empathy Boundary** possible—the hardest line in Blue Belt: **understanding is not agreement.** Anchor that dual stance in syntax using the **Period-Not-'But' Formula**: `[Validate the emotion with a Voss label]. [Hard Period + 1-second pause.] [Clean White Belt boundary].` Never bridge the two sentences with \"but\" (or \"pero\")—the word \"but\" retroactively cancels the validation and turns empathy into throat-clearing before a counter-attack."
+    },
+    {
+     "id": "b5.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Empathy, Compassion and the Boundary",
+     "md": ":::note Decision Rule\nCheck your body first: if your stomach drops or you feel an urgent itch to rescue someone just to quiet your own discomfort, you have fallen into Empathic Distress—exhale back into Compassion, keep your feet grounded, and stop after one clean validation sentence. With your empathy boundary bolted in place, **B6** turns to the final Blue Belt edge: *ending the wait to be approached and initiating real connection.*\n:::\n\n:::note Office Dojo\nA panicked client fires an ultimatum (\"Cut 15% today or we walk\"). Rather than absorbing their panic (Empathic Distress) or snapping back, you hold Compassion + Guard with a hard period: \"It sounds like leadership is putting real pressure on you to bring back a lower number by Friday. [Full Period.] An ultimatum on the rate still won't get us there—here are two scope options that fit your budget.\"\n:::\n\n:::note Personal Dojo\nA friend going through a breakup snaps sarcastically at you for the third time in one evening: \"It sounds like you're still carrying a ton of hurt from the breakup, and I care about you. [Full Period.] I'm not okay with being snapped at when we hang out—if that happens again tonight, I'll head home and we can talk tomorrow.\"\n:::\n\n:::warn Non-Example\n\"It sounds like you're really stressed, so I totally understand why you yelled—just maybe try not to next time if you can?\" Validation swallowed the boundary and slid straight back into a W2 Diplomat plea.\n:::\n\n:::dialect Translation strip · boundary\n@office_us \"It sounds like Q4 bandwidth is tight. I'm still not able to move the Friday review.\"\n@personal_us \"It sounds like you're carrying a ton right now, and I care about you. I'm not okay with being snapped at—if it gets sharp again, I'll head home and we can talk tomorrow.\"\n@rioplatense \"Entiendo que estás a mil y te quiero un montón. Igual, si se pone áspero así prefiero frenar y seguirlo mañana tranqui.\"\n@espana \"Entiendo perfectamente la presión que tienes encima. Aun así, este viernes no me da la vida para cogerlo—lo vemos el lunes.\"\n:::"
+    },
+    {
+     "id": "b5.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Empathy, Compassion and the Boundary",
+     "md": "**Lens.** Tania Singer & Olga Klimecki (*Current Biology*, 2014; tested affective neuroscience and training research) alongside Paul Bloom's *Against Empathy* (2016; popular philosophical critique). Neuroscience distinguishes the two states cleanly, while the practical judgment of *where* to draw a boundary stays squarely with you.\n\n### Empathic Distress vs. Compassion vs. The Empathy Boundary\n\n| Response | Neural & Somatic Signature | Self–Other Boundary | What It Produces | Concrete Verbal Form |\n|---|---|---|---|---|\n| 1. Empathic Distress (Feeling WITH) | Pain/threat centers fire; chest tight, jaw clenched, urgency. | Collapsed: their distress feels like your emergency. | Burnout, withdrawal, or excusing harmful behavior. | 'I know you're so stressed, don't worry, I'll just cover it again.' (Cancels boundary) |\n| 2. Compassion (Feeling FOR) | Care/warmth networks fire; steady breath, grounded feet, clear head. | Intact: 'You are hurting, and I am steady enough to care.' | Warmth, stamina, clear presence (vital in interpreting). | 'That sounds genuinely heavy. I'm right here with you.' |\n| 3. Empathy Boundary (Compassion + Guard) | Warm chest + firm spine; calm voice, zero defensive spike. | Clear & Dual: validates feeling, judges behavior. | Connection without surrender; honors dignity on both sides. | [Label the feeling]. [Full Period.] [Clean boundary]. (Never 'but') |\n\n### Optional Deepening · Neff & Germer (Mindful Self-Compassion) & Shapiro\n\nHow do you keep self–other distinction intact mid-flood? Kristin Neff and Christopher Germer (*Mindful Self-Compassion*) highlight **mindfulness** as the exact hinge inside compassion: silently naming your own empathic distress (\"This is heavy; I'm starting to take this on\") pulls you back onto the bridge deck in real time. And Daniel Shapiro (*Negotiating the Nonnegotiable*) seals the boundary: feeling genuine compassion for someone's suffering never precludes holding them accountable or seeking fairness for wrongdoing.\n\n:::note Paul Bloom's 'Against Empathy' & Its Counter-Argument (Rung 6)\nPaul Bloom (*Against Empathy*, 2016) argues emotional empathy ('feeling with') is a poor moral guide because it acts like a narrow, biased spotlight—favoring one vivid person who resembles us over fairer principles or larger consequences. His alternative is **Rational Compassion** (caring about wellbeing guided by clear-eyed judgment). What Bloom's critique misses for friendship and interpreting: in intimate and cross-cultural rooms, brief attuned resonance—letting someone feel genuinely *felt*—is often the only bridge that builds enough trust for clear-eyed judgment to land.\n:::\n\n:::details Canon notes · Part 3 · Singer and Klimecki: empathy, compassion and the boundary\n*3*\n\n:::note Lens card\nTania Singer and Olga Klimecki, neuroscientists, distinguished empathy, feeling with another person, from compassion, feeling for them with warmth and a wish to help. Their research suggests that sharing another's distress can turn into empathic distress, which leads to withdrawal and burnout, while compassion training was linked to more positive feeling and helping. Paul Bloom's *Against Empathy* (2016) makes a related argument for general readers. What is distinctive is that caring about someone does not require taking on their feeling.\n:::\n\n:::note Why Singer and Klimecki here\nThe empathy boundary, understanding without agreeing, is this module's hardest line for you. This part gives a way to stay warm without being flooded.\n:::\n\n:::note Native use\nLaboratory and training studies in affective neuroscience.\n:::\n\n:::note Limit\nTested research, with small samples in some studies and debate about how to define the terms (label: tested research). Bloom's argument is a popular book. Neither tells you when to hold a boundary; that judgment stays yours.\n:::\n\n### Three responses to someone's pain\n\n| Response | What happens in you | What it tends to lead to |\n|---|---|---|\n| Empathic distress | You feel their pain as yours | Withdrawal, burnout, excusing |\n| Compassion | Warmth and a wish to help | Helping while staying steady |\n| Understanding plus boundary | You grasp why, and still say no to the behavior | Care without giving in |\n:::"
+    },
+    {
+     "id": "b5.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Empathy, Compassion and the Boundary",
+     "md": ":::note Handoff\nDraft your three **validate the emotion, hold the boundary** sentences on Friday strictly using Label + Full Period + Clean Boundary (zero \"but,\" zero apologies), and test them in Thursday's Period-Not-\"But\" Linter.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your sentences, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B5.p3"
+     ]
+    }
+   ],
+   "author": "Tania Singer & Olga Klimecki"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Bonding, labels and the empathy boundary",
+   "cards": [
+    {
+     "id": "b5.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Bonding, labels and the empathy boundary",
+     "md": "**Bonding, labels and the empathy boundary.** Make people feel met in their own currency, use labels to name what is under the surface, and keep understanding separate from agreement.\n\n### Concepts\n\n1. **Bespoke bonding (Curriculum, Layer 2 Module 3).** You cannot bond with everyone the same way:\n\n| Currency | What bonding looks like | Example |\n|---|---|---|\n| Accuracy | Through shared craft: precise, methodology questions | \"Walk me through how you got to that tolerance.\" |\n| Results | Through shared goals: reliability, pace, instrumental empathy | \"If these dates slip, the whole Q3 plan stalls for you.\" |\n| Approval | Through inclusion: \"we\" language, explicit appreciation | \"How are we going to solve this?\" |\n| Advantage | Through acknowledging leverage without submitting | \"It seems you have the authority to walk away if the terms don't work for you.\" |\n| Context | Through curiosity about their frame | \"How does this look from where you sit?\" |\n\n1. **Labels (Voss).** \"It seems like…\", \"It sounds like…\", \"It looks like…\" — a tentative name for the emotion or concern under what was said, then silence. Avoid \"I understand\", which invites \"no, you don't\" (Source: Never Split the Difference pp. 54–57, as reported).\n2. **The accusation audit.** Before bad news or a hard ask, name the worst things they might be thinking: \"You're going to think we're ignoring your timeline and trying to lock you in.\" Naming the fear first takes the sting out (Source: Voss; Curriculum, Layer 2 Module 3).\n3. **The empathy pause.** A label followed by a counter-argument is not a label. Say it, then stop and let it land.\n4. **Illuminators and diminishers (Brooks).** Diminishers make people feel small and unseen; illuminators make them feel lit up and understood. The illuminator's posture is curiosity, respect and accompaniment, being with someone without hurrying to fix (Source: How to Know a Person pp. 32–50, as reported).\n5. **Empathy across difference (Bennett).** The Golden Rule (\"treat others as you'd like to be treated\") assumes sameness; the Platinum Rule treats others as *they* would like (Source: BCIC p. 67). Bennett's empathy steps: assume difference, know yourself, suspend yourself, make the imaginative leap, experience their reality, re-establish yourself (Source: BCIC pp. 33–34, 71). The last step is the one people skip, and skipping it is how empathy turns into losing yourself.\n6. **The empathy boundary.** The Pluralist's shadow in the Bond and Guard columns: \"Empathy without boundaries\" and \"Excuses behavior\" (Grid). The move is to validate the emotion and hold the boundary on the behavior in the same breath: \"It seems you're under huge pressure to close by Friday. An ultimatum on the price still won't get us there.\" (Curriculum)\n7. **Understanding is not agreement.** You can fully understand why someone does something and still say no to it. For you, this is the belt's hardest line. White Belt's rule stays: judge actions, not intentions."
+    },
+    {
+     "id": "b5.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Bonding, labels and the empathy boundary",
+     "md": ":::note Drill\nThe label minute. Once a day, keep a conversation going for 60 seconds using only labels, no questions or statements, based on what the other person just said (a partner drill, or with Claude). Outside the drill, use one real label a day.\n:::\n\n:::note Office dojo\nWrite an accusation audit for your next hard meeting: the three most accurate accusations they could make about your proposal, scripted into an opening.\n:::\n\n:::note Personal dojo\nUse labels as witnessing, not technique: \"It sounds like you're carrying a lot and feel alone in it.\" Hold the silence because you are with them, not because the pause is tactical. (The I-Thou track takes this further.)\n:::"
+    },
+    {
+     "id": "b5.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Bonding, labels and the empathy boundary",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats empathy as | Would worry that you... |\n|---|---|---|---|\n| Voss | The negotiation | A move that lowers tension | Counter-argue after a label |\n| Bennett | Cultural difference | Imagining their frame | Never come back to your own |\n| Singer and Klimecki | The listener's state | Something that can become distress | Excuse what you understand |\n\n**Where they meet.** Each separates understanding from agreement, in different words.\n\n**Where they collide.** Voss uses empathy for an outcome; the I-Thou track, and Singer's compassion, put the outcome down. The dojo and the Sanctuary differ on purpose.\n\n**What the three miss for you.** Brooks's illuminator, in this module's original text, adds accompaniment: being with someone without hurrying to fix. None of the three lenses covers it.\n\n**Where it sits in your own frameworks.** Heart with self and Heart with others in your Orders Grid; in IFS terms, compassion is often described as a quality of Self. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Labels from another person | Is there research on the effect of someone else naming your emotion, as distinct from naming it yourself? | Part 1 borrows from self-labeling research | One thread, researched with the research-brief skill |\n| 2. Interpreter burnout | What does research say about vicarious trauma and empathic distress in interpreters? | Part 3 links to your work | One thread, with a critic pass |\n| 3. Empathy debates | What are the strongest responses to Bloom's case against empathy? | Part 3 cites a contested argument | Full deepening of Part 3 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B5, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b5.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Two audits and a boundary sentence",
+     "md": "**Two audits and a boundary sentence.** One accusation audit for an office conversation, one for a personal one, and three \"validate the emotion, hold the boundary\" sentences for situations where you know you tend to over-understand.\n\n**Watch for.** Bespoke bonding as manipulation. Matching someone's currency to get something from them while caring nothing for them is the Opportunist's Bond shadow (\"Affection as currency\", Grid). The check is White Belt's question.\n\n:::note Prompt\nName one situation where you reliably over-understand and excuse behavior. Draft one Period-Not-'But' sentence and check where in your body you feel the pull to soften it.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "60s Label Minute Trainer + Period-vs-'But' Linter",
+   "cards": [
+    {
+     "id": "b5.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "60s Label Minute Trainer + Period-vs-'But' Linter",
+     "md": "**Deliberate Practice Lab** · 60s Label Minute Trainer + Period-vs-'But' Linter",
+     "tools": [
+      "linter.blue.labelminute",
+      "linter.blue.periodbut"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Two Accusation Audits + Three Boundary Sentences",
+   "cards": [
+    {
+     "id": "b5.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Two Accusation Audits + Three Boundary Sentences",
+     "md": ":::note Deliverable Spec · Two audits and a boundary sentence\nOne accusation audit for an office conversation, one for a personal one, and three \"validate the emotion, hold the boundary\" sentences for situations where you know you tend to over-understand.\n\n**Watch for.** Bespoke bonding as manipulation. Matching someone's currency to get something from them while caring nothing for them is the Opportunist's Bond shadow (\"Affection as currency\", Grid). The check is White Belt's question.\n:::",
+     "tools": [
+      "form.blue.B5"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

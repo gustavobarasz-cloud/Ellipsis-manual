@@ -1,0 +1,124 @@
+{
+ "id": "s4",
+ "kind": "layer",
+ "title": "Layer 4 · The Relational Ecosystem",
+ "subtitle": "From steering to co-authoring and acceptance",
+ "kicker": "Paired with Black Belt (Bk1–Bk6)",
+ "intro": "Black Belt reads and moves rooms. The Sanctuary sees a person's whole life and loves the whole of it, without needing it to change on your timeline.",
+ "days": [
+  {
+   "id": "s4-1",
+   "label": "S4.1",
+   "title": "The Intercultural Sanctuary & Differentiation",
+   "cards": [
+    {
+     "id": "s4.s4-1.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Intercultural Sanctuary & Differentiation",
+     "md": "*Milton Bennett · Murray Bowen (via Gilbert & Family Therapy in Clinical Practice)*\n\nBlack Belt Bk1–Bk3 taught you to read rooms, broker proposals, and stand on the margins without disappearing. In Sanctuary S4.1, you meet a loved one's entire family or cultural ecosystem **without trying to broker or fix it**. When a friend comes from a culture or family that taught them the world is unsafe, **honoring the ecosystem** means translating your care into a form they can actually take in—being a safe harbor without demanding they change on your timeline. **Constructive marginality in friendship** holds a friend's conflicting values as true for them while keeping your own compass intact. Underneath both sits **Murray Bowen's Differentiation of Self**: staying emotionally connected to an anxious system (a panicked family, a dysregulated friend group) without catching its anxiety or cutting it off—offering a calm, non-anxious presence and practicing **de-triangulation** by bringing energy back to the two people actually involved."
+    },
+    {
+     "id": "s4.s4-1.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Intercultural Sanctuary & Differentiation",
+     "md": ":::note Worked Example\nDuring a heated family holiday storm where relatives try to pull you into complaining about a cousin, you stay warm and connected without taking sides or leaving: 'I hear how stressed you are about how dinner went—I love you both, and I'm not the right person to carry this between you. Want to take a quick walk with me to catch a breath?'\n:::\n\n:::warn Non-Example\nLecturing a friend from a tight-knit, high-anxiety family about how 'enmeshed and triangulated' their relatives are—turning Bowen into a clinical weapon instead of non-anxious presence.\n:::"
+    },
+    {
+     "id": "s4.s4-1.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Intercultural Sanctuary & Differentiation",
+     "md": "### Layer 3 Deepening · Murray Bowen (Family Therapy in Clinical Practice)\n\nBowen explicitly separates differentiation from power: power is about exerting control over others, whereas differentiation is strictly about working on self—controlling your own reactivity, becoming more responsible, and permitting others to be themselves while staying in loving contact."
+    },
+    {
+     "id": "s4.s4-1.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Intercultural Sanctuary & Differentiation",
+     "md": "- **Marker:** You stayed warm and steady inside a family or group storm without taking sides or leaving.",
+     "tools": [
+      "marker.s4.s4-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4-2",
+   "label": "S4.2",
+   "title": "Co-Authoring the Dynamic",
+   "cards": [
+    {
+     "id": "s4.s4-2.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Co-Authoring the Dynamic",
+     "md": "*William Torbert · Gregory Bateson · Nora Bateson (flagged: not in notebook)*\n\nBlack Belt Bk4 taught you to name patterns in meetings and shift the frame. In Sanctuary S4.2, you bring that exact systemic eye into love as **co-authoring**: **reading the dance** between you and a friend (pursuer and distancer, fixer and overwhelmed) rather than hunting for someone to blame. **Naming as love** sounds completely different from corporate reframing: *'I notice that every time we plan a trip we both get tense and end up feeling unappreciated. Does that feel accurate?'*—saying plainly, *it is us versus this pattern*, and sitting down to treat it as a **shared design problem**. Gregory Bateson's **schismogenesis** (*Steps to an Ecology of Mind*) names the runaway loops—symmetrical (both escalating the same move) or complementary (one dominating, one shrinking)—where stopping *your* side of the loop breaks the spiral. And **warm data** (Nora Bateson, flagged as not in the notebook) reminds you to see the whole living context of a friend's behavior—sleep, work, grief, season of life—and respond to the whole rather than the isolated moment."
+    },
+    {
+     "id": "s4.s4-2.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Co-Authoring the Dynamic",
+     "md": ":::note Worked Example\nWith a close friend after repeated planning friction: 'I notice we've fallen into a dance where I over-plan to feel secure and you pull back because it feels cramped, and then we both feel off. How do we want to redesign how we plan trips so it feels good for both of us?'\n:::\n\n:::warn Non-Example\nUsing systemic language to win a personal argument ('You're creating complementary schismogenesis by withdrawing')—which turns co-authoring back into one-upmanship.\n:::"
+    },
+    {
+     "id": "s4.s4-2.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Co-Authoring the Dynamic",
+     "md": "### Layer 3 Deepening · Gregory Bateson (Steps to an Ecology of Mind)\n\nBateson's dual-control electric blanket metaphor shows why trying harder inside a miswired loop only worsens the error. When one person steps off their half of the spiral with warmth and curiosity, the entire relational circuit has room to reorganize."
+    },
+    {
+     "id": "s4.s4-2.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Co-Authoring the Dynamic",
+     "md": "- **Marker:** A recurring friction with someone close was redesigned together, and it stopped recurring.",
+     "tools": [
+      "marker.s4.s4-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4-3",
+   "label": "S4.3",
+   "title": "Radical Acceptance & The Complex Domain",
+   "cards": [
+    {
+     "id": "s4.s4-3.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Radical Acceptance & The Complex Domain",
+     "md": "*Dave Snowden's Cynefin (via Brougham) · Susanne Cook-Greuter · Zen*\n\nBlack Belt Bk5–Bk6 balanced walk-away guardrails with accepting fixed limits. Sanctuary S4.3 opens into **radical acceptance**—grounded by two sharp guardrails. First, **compassionate detachment**: when someone you love acts out of old pain (a guilt trip, a sudden withdrawal), seeing it as a construct of their suffering rather than a verdict on you keeps you rooted in love instead of anger—paired with **the naked boundary again**, because acceptance never means absorbing harm (*'I love you, and every time we talk about my career it gets minimized. I can't talk about it with you right now'*). Second, Dave Snowden's **Cynefin framework** (via Brougham) places close relationships in the **complex domain**, not the complicated one: cause and effect show only in hindsight, so no perfect script can engineer love; you **probe, sense, and respond** with small, safe-to-fail experiments in closeness. **Letting go of your agenda for them** means stopping all covert coaching toward a higher stage and deciding they are worthy of your love today. Finally, hold Cook-Greuter's **Unitive stance** (*there is no outside system to guard against*) strictly as a contemplative practice (in sitting or quiet reflection), never as a rule that overrides real-world boundaries."
+    },
+    {
+     "id": "s4.s4-3.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Radical Acceptance & The Complex Domain",
+     "md": ":::note Worked Example\nA parent or longtime friend cannot meet you at deep emotional processing. You release the secret project of trying to upgrade them, hold your own boundary warmly where needed, and enjoy the real warmth they *can* offer today.\n:::\n\n:::warn Non-Example\nUsing 'radical acceptance' or 'Unitive non-duality' to rationalize staying silent inside a chronically demeaning or abusive pattern—violating Standing Rule #9 and White Belt's floor.\n:::"
+    },
+    {
+     "id": "s4.s4-3.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Radical Acceptance & The Complex Domain",
+     "md": "### Layer 3 Deepening · Sanctuary Pocket Question & After Black Belt\n\nEvery belt has a pocket question; the Sanctuary holds one quiet question across all four layers: **'Am I here, and are they?'** When you put down every map, model, and tactic and meet a human being who is still becoming, the Dojo and the Sanctuary finally meet."
+    },
+    {
+     "id": "s4.s4-3.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Radical Acceptance & The Complex Domain",
+     "md": "- **Marker:** You stopped trying to change something about someone you love, and the relationship relaxed.",
+     "tools": [
+      "marker.s4.s4-3"
+     ]
+    }
+   ]
+  }
+ ]
+}

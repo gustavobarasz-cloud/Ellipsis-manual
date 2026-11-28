@@ -1,0 +1,69 @@
+{
+ "id": "blue-overview",
+ "belt": "blue",
+ "kind": "overview",
+ "title": "Blue Belt · Overview",
+ "subtitle": "Read and Bond · 3-Layer Polished Edition",
+ "question": "What is happening in them, and do they feel met?",
+ "days": [
+  {
+   "id": "intro",
+   "label": "Overview",
+   "title": "Read & Bond",
+   "cards": [
+    {
+     "id": "blue-overview.intro.1",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Communication Dojo — Blue Belt Field Manual (v4.3 Essayist Edition)",
+     "md": "*What is happening in them, and do they feel met?*\n\nRead and Bond · 3-Layer Polished Edition\n\nBlue Belt teaches two things that only work together: **see the person accurately, and let them feel seen.**\n\nWhite Belt turned your attention inward. Blue turns it outward, but only because White made that safe: a read taken while you are bracing is mostly a picture of your own fear. The original curriculum says it well: \"they earn the right to look across the table\" (Curriculum, Layer 2).\n\nReading without bonding becomes surveillance: accurate, and cold. Bonding without reading becomes generic warmth: pleasant, and it misses. The belt joins them in one sentence that runs through every module: **read the need, then answer the need, not the position.**"
+    },
+    {
+     "id": "blue-overview.intro.x1",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Blue Belt",
+     "md": "Three ideas carry this belt.\n\n**1. Behavior is information only against a baseline.** A fast talker is not nervous; a person who suddenly talks fast might be. Hughes' whole method rests on this: you cannot spot a change if you do not know what \"normal\" looks like for this person (Source: Six-Minute X-Ray pp. 169–170, as reported). The interpreter in you already does this with voices.\n\n**2. A stated position is usually a proxy for an unstated need.** \"We need a 10% discount\" may mean \"I need to look strong to my boss\" (status) or \"I need to have decided this myself\" (autonomy). Fisher and Shapiro's five core concerns (appreciation, affiliation, autonomy, status and role) and Hughes' needs map are two lenses on the same layer (Source: Beyond Reason; Six-Minute X-Ray). Answer the need and the position often softens on its own.\n\n**3. Every conversation is one of three conversations, and connection fails when two people are in different ones.** Duhigg: a practical conversation (what's this really about? what do we do?), an emotional one (how do we feel?), and a social one (who are we?) (Source: Supercommunicators p. 246, as reported). The classic failure: one person starts an emotional conversation and the other answers with a practical fix. The matching principle says you notice which one they are in and meet them there first (Source: pp. 256–257).\n\n### What this belt (deliberately) changes from the original\n\nThe Concentric Circles Layer 2 promises a \"3-minute\" diagnosis of a counterpart's developmental stage, using a manufactured stress test (\"deploy a calibrated No… to observe the reaction\"). Three corrections:\n\n1. **You read behavior and need, not stage.** A developmental stage cannot be diagnosed in three minutes; Cook-Greuter's measure takes a 36-item sentence test scored by trained raters, and even then shows a spread over at least three levels. What you *can* read quickly is what a person is scanning for right now and how they react to friction. Blue Belt calls that their **currency**, and keeps any stage guess as a low-confidence hypothesis.\n2. **No manufactured friction in the personal dojo.** In the office, a real, small boundary early in a negotiation is legitimate and shows you a lot. In friendship, testing someone with a fake no is a small betrayal. In the personal dojo you only read the natural friction that arrives on its own (the I-Thou outline makes the same correction: \"the sanctuary of friction\").\n3. **Labels do not \"bypass the analytical brain\".** The original says labels speak \"directly to the amygdala\" and release \"a massive dose of oxytocin\". The honest claim is smaller and still strong: naming an emotion accurately and tentatively tends to lower its intensity and makes people feel understood (the practical core of Voss). That is enough."
+    },
+    {
+     "id": "blue-overview.intro.x2",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Blue Belt",
+     "md": "**The interpreter's ear.** You have listened for meaning under words in medical, psychiatric, legal and business rooms, across two languages, thousands of times. Reading pace, register and the thing someone cannot quite say is native for you. Expect to test out of parts of Modules B1 and B3.\n\n**The teacher's eye.** Teaching martial arts means reading a student's fear, ego and readiness in their body before they speak.\n\n**The gap.** Your edges sit on the Bond side: you draw others out but do not reveal yourself, you wait to be approached, and you over-understand. So the reading modules may go fast and the bonding modules slow. That is the belt working as designed."
+    },
+    {
+     "id": "blue-overview.intro.x3",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Blue Belt",
+     "md": "**The anonymous listener** Brooks: people who only listen stay unknown, and seeing is reciprocal (Source: How to Know a Person pp. 114, 166, as reported). Duhigg: when one person disclosed and the other only listened, neither felt close (Source: Supercommunicators pp. 290–291).\n\n**Waiting to be approached** The friendship pattern you named. Module B6 works on it directly.\n\n**Over-understanding (carried from White)** Grasping their need so fully that you excuse the behavior. Module B5 builds the empathy boundary.\n\n**The diagnostic stance** The Expert's shadow in the Read column: \"reads content, not need; diagnoses people\" (Grid: Expert × Read). A sharp reader can read *at* people. Blue Belt trains reading *with* them: you check your read back."
+    },
+    {
+     "id": "blue-overview.intro.meta",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Blue Belt",
+     "md": "**name.** Blue Belt\n\n**subtitle.** Read and Bond\n\n**question.** What is happening in them, and do they feel met?\n\n**columns.**\n\nread\n\nbond\n\n**columnsLine.** Grid columns: Read and Bond.\n\n**layerLine.** Inherits Concentric Layer 2 (The Interpersonal Bridge). Paired I-Thou layer: The I-Thou Encounter.\n\n**pocketCard.**\n\n**cues.**\n\nBaseline first.\n\nName the need, not the position.\n\nLabel, then pause.\n\n**back.** Which conversation are they in?\n\n**preview.**\n\nBlue Belt teaches two things that only work together: see the person accurately, and let them feel seen. Its six modules move from the baseline (reading only changes from a person's normal), through currencies and the need beneath the position, to Duhigg's three conversations, labels and the empathy boundary, and finally going first — initiation and the first two stages of friendship. Reading without bonding becomes surveillance; bonding without reading becomes generic warmth. The belt's sentence: read the need, then answer the need, not the position.\n\n**evidenceCols.**\n\nBaselines taken\n\nReads checked back (right / revised)\n\nLabels with a full pause\n\nConversation type matched\n\nInitiations\n\nPings returned\n\n**modules.**\n\nB1\n\nB2\n\nB3\n\nB4\n\nB5\n\nB6"
+    },
+    {
+     "id": "blue-overview.intro.grid",
+     "kind": "info",
+     "label": "Master Grid",
+     "title": "Master Grid · Blue Belt Columns",
+     "md": "**intro.** The grid is not studied daily. It is used in four ways.\n\n**uses.**\n\n**Placement at the start of each belt.** Before beginning a belt, mark \"You, today\" in that belt's columns, using evidence from your last debriefs, not your self-image. The rule from Cook-Greuter applies: everybody's responses spread across at least three levels (Source: Nine Levels p. 7). So mark three things per column: your **home base** (where you usually operate when resourced), your **fallback** (where you go under pressure), and your **edge** (where you sometimes reach).\n\n**The weekly look.** Once a week (a cadence, not a deadline), read your encounter-loop entries and mark, for each one, which cell you actually operated from. Over time the marks show your real distribution.\n\n**The Move as a drill.** Each cell's Move is a ready-made micro-practice. When a belt's module is native to you, use the Move of the cell one row above your home base as your daily drill instead.\n\n**The Shadow as a warning light.** Before any hard conversation, read the Shadow of your home base and your fallback in the column you will need most. That is your most likely failure.\n\n**cautions.**\n\n**Read the behavior, not the type.** The grid describes how each stage tends to show up in each function. It is a map of patterns, not a sorting hat for people. White Belt's rule governs every belt: label the move, not the person. Polished Achievers use tactics; frightened people of any stage can look aggressive.\n\n**Stages are not fixed.** A person's \"center of gravity\" is what they reliably use without special support (Source: Nine Levels pp. 7–8), and under stress everybody falls to a trailing edge (Source: Nine Levels p. 8). Both you and the people you read move around the grid within a single conversation.\n\n**Higher is not better at everything.** Every row has a Gift. The Expert's precision and the Diplomat's warmth are real skills a Strategist still needs. The curriculum's \"conscious downgrade\" is the right attitude: you choose a stage's tool on purpose rather than being run by its reflex.\n\n**preconvNote.** The Opportunist row now stands for the whole pre-conventional stage (everything before the Diplomat), but its cells were written for the Opportunist sub-band, as a fallback, not as anyone's home base.\n\n**translationStrip.** Before you close any sheet, run the move through three cultures. How does it land in a low-context US setting, in Argentine and Rioplatense culture, and in Spain? Then the Bridges check: which intercultural stage am I construing this from, and is Reversal hiding in my judgment?\n\n**readingRows.**\n\nStage names follow Cook-Greuter; the second name and power type follow Torbert's action logics.\n\nThe Bridges line is an approximate match to Bennett's intercultural stages, inferred, not stated by either author.\n\nOpportunist sits at the edge: useful to recognize, rarely a home base.\n\n**whereFrom.** Cells are drafts written from the full books in your notebook (Torbert, Bennett, Hughes, Simon, Voss, Fisher & Shapiro, Shapiro, Duhigg, Brooks, Tannen, Brown & Levinson, Goffman, Pavlenko, Kegan & Lahey). Page anchors are the notebook's; check them before quoting.\n\n**fields.**\n\n- Gift — what this stage does well\n- Shadow — how it fails, including its dark side\n- Tell — how you recognize it, in yourself or others\n- Move — one practice that develops it",
+     "tools": [
+      "grid.blue"
+     ]
+    },
+    {
+     "id": "blue-overview.intro.dialect",
+     "kind": "info",
+     "label": "Dialect",
+     "title": "Dialect scripts",
+     "md": ":::dialect note\n@office_us Low-context, direct-but-bounded register. Keep labels crisp, use periods instead of 'but', and confirm agreements in writing.\n@personal_us Lead with warmth and accompaniment. Keep labels as witnessing rather than technique; honor consent to depth.\n@rioplatense High-involvement warmth and sobremesa presence. Overlap often signals care, not interruption; pair clean boundaries with explicit relational warmth.\n@espana Directness among peers is normal and not rude; friendship often builds through presence-first regularity (same café, lingering at the table) before heavy verbal disclosure.\n:::"
+    }
+   ]
+  }
+ ]
+}

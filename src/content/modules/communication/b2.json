@@ -1,0 +1,200 @@
+{
+ "id": "b2",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B2",
+ "title": "Reading the Currency",
+ "subtitle": "Spot what they scan for right now, test it so it can fail, and check it back.",
+ "guardrail": "Surveillance vs. Care: Never lock a currency into a stage verdict ('He's an Expert'). In the office dojo, use currency reads to choose your opening register. In the personal dojo, there are NO fake stress tests — read natural friction to learn how to care for them.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Cook-Greuter & Torbert | Verb-Only Currencies & Role Look-Alike Filter |\n| Tue | Part 2 · Snyder & Swann | Falsifiable Disconfirming Checks (All 6 Currencies) |\n| Wed | Part 3 · William Ickes | Empathic Accuracy Benchmarks & Face-Safe Check-Backs |\n| Thu | Deliberate Practice Lab | 6-Quote Currency & Face-Safe Check-Back Drill |\n| Fri | Deliverable Workshop | Five Checked Hypothesis Cards + Hit Rate |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Why a Stage Cannot Be Read in Minutes",
+   "cards": [
+    {
+     "id": "b2.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Why a Stage Cannot Be Read in Minutes",
+     "md": "With B1's acoustic floor calibrated, you can now read which way the wind is blowing in a live room—without committing the classic developmental scale error of mistaking a **single gust of wind** (**currency**) for the **thirty-year climate record** (**developmental stage**). Once you learn a stage map, the temptation to use it as a sorting hat is immediate: someone corrects two rounding errors and your mind stamps *Expert*; a vendor pushes hard on price and you stamp *Opportunist*.\n\nCook-Greuter never found an adult protocol narrower than three developmental levels. Every person operates from a **Center of Gravity** when calm and resourced, surrounded by a **Growth Edge** when supported and a **Trailing Edge**—an earlier pattern they drop into under stress, fatigue, or threat. Because B2 observes people during moments of natural friction, the behavior you catch in a tense meeting is frequently their *Trailing Edge* rather than their home base. Worse, institutional roles mimic stages with eerie precision: an auditor paid to catch errors looks like an *Expert*, and a procurement buyer paid to protect downside looks like an *Opportunist*. Blue Belt strips away stage-typing by replacing permanent nouns (\"is an Expert\") with **verb-only currencies** (\"is scanning for Accuracy right now\"), paired with a three-second **Role Filter**: *Is this their job title or deadline talking, or their recurring scan?*"
+    },
+    {
+     "id": "b2.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Why a Stage Cannot Be Read in Minutes",
+     "md": ":::note Decision Rule\nUse verb-only currency reads strictly to choose your opening register (Office) or care move (Personal), and **abort the read the instant a stage noun or a flicker of quiet superiority enters your head**. Now that you have a tentative working read, Tuesday exposes the hidden trap inside your very next sentence: *how testing a read can accidentally manufacture the behavior you expected to find.*\n:::\n\n:::note Office Dojo\nA finance lead flags two minor rounding discrepancies on your deck and cites GAAP policy. Rather than filing him under \"rigid Expert,\" you log a clean, temporary currency read: \"Working read: scanning for Accuracy in this meeting (likely role-driven + Q4 audit pressure). Opening move: lead with exact numbers and methodology before asking for flexibility.\"\n:::\n\n:::note Personal Dojo\nAfter rescheduling dinner, a friend asks twice, \"Are you sure you're not mad?\" and defers on every restaurant choice. You read the active wind—scanning for Approval and reassurance right now—and meet it with care: explicitly reassure them you're completely good, then invite what they actually crave.\n:::\n\n:::warn Non-Example\nWalking out of one ten-minute vendor call and jotting down \"Classic Opportunist—only respects leverage.\" You just collapsed a temporary bargaining posture into a permanent verdict on a human being.\n:::"
+    },
+    {
+     "id": "b2.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Why a Stage Cannot Be Read in Minutes",
+     "md": "**Lens.** *Nine Levels of Increasing Embrace* (Cook-Greuter, 2013) and *Action Inquiry* (Torbert, 2004). Theory with developmental assessment evidence: both frameworks measure a person's **Center of Gravity** across thirty-six or more written sentence completions scored by trained raters—never from a five-minute hallway exchange.\n\n### The 6 Currencies — Situational Scan vs. Stage-Verdict Trap\n\n| Currency | What They Scan For Now | Friction Reaction | Role / Context Look-Alike | Stage-Verdict Trap (Avoid) |\n|---|---|---|---|---|\n| Advantage | Leverage, who wins, what to get or defend. | Attack (escalate, threaten, test limits). | Lawyer or procurement buyer protecting downside risk. | 'He's an Opportunist.' |\n| Approval | Belonging, warmth, agreement, whether you're upset. | Fold (apologize, soften, concede early). | New hire or guest following high-context politeness. | 'She's stuck in Diplomat.' |\n| Accuracy | Precision, craft, procedure, spotting errors. | Debate (cite data, policy, technicalities). | Auditor, surgeon, or interpreter whose craft requires exactness. | 'He's a rigid Expert.' |\n| Results | Goals, timelines, ROI, fastest path to yes. | Pivot (accept no, ask for options/workarounds). | Someone short on time with a hard 2 PM deadline. | 'She's just an Achiever.' |\n| Context | Multiple frames, how you see it, underlying views. | Reframe / Pause (question premise, resist 1 answer). | Researcher or mediator gathering all sides. | 'They're a Pluralist.' |\n| Pattern | Dynamics between people, shared purpose, alignment. | Meta-Inquire (name dynamic, invite mutual adjustment). | Someone using corporate 'systems' buzzwords without inquiry. | 'He's a Strategist.' |\n\n### Optional Deepening · Robert Kegan & Lisa Lahey (How the Way We Talk)\n\nWhy is slipping into a stage verdict so seductive? Robert Kegan and Lisa Lahey call it **\"the super vision assumption\"**—the tacit belief that *my* perspective holds *\"the one and only correct view of the situation.\"* Once that unchecked assumption locks in, *\"our unchecked assumption that we are right remains intact by our interpreting things out there in a way that is consistent with our being right.\"* Every pushback gets re-filed as proof of your label, sealing off real learning completely.\n\n:::note Center of Gravity vs. Trailing Edge Under Friction (Rungs 1 & 5)\nCook-Greuter's Center of Gravity describes how a person makes meaning when safe and resourced; their Trailing Edge is the earlier logic recruited when pressure spikes. Because B2 watches how people react when denied what they want, you are often watching a high-capacity colleague temporarily drop into *Accuracy* under audit heat—never proof of their overall developmental center.\n:::\n\n:::details Canon notes · Part 1 · Cook-Greuter and Torbert: why a stage cannot be read in minutes\n*3*\n\n:::note Lens card\nCook-Greuter's full lens card is W2 Part 2 and Torbert's is W2 Part 1. Here only one point matters: both measure a person's action logic or stage from many sentence completions scored by trained raters, and both describe a spread across several levels. That is why this module reads a currency, what a person scans for right now, and keeps any stage guess as a low-confidence hypothesis.\n:::\n\n:::note Why they are here\nThe currency table borrows the grid's Read signatures, which come from their stage descriptions. This part keeps the borrowing honest.\n:::\n\n:::note Native use\nDevelopmental assessment and leadership coaching over time, not first-minute reading of strangers.\n:::\n\n:::note Limit\nThe currencies are this curriculum's synthesis, not Cook-Greuter's or Torbert's claim (label: interpretation). Their own measures say a person shows several levels at once; a currency read in one meeting says little about stage.\n:::\n\n### Currency versus stage\n\n| Question | A currency read | A stage read |\n|---|---|---|\n| What it uses | What they attend to and how they react to friction, in this meeting | Many sentence completions, scored by a trained rater |\n| How fast | Minutes | Hours, plus scoring |\n| What it claims | What they scan for now | Their center of gravity across contexts |\n| How wrong it can be | Often; check it back | Less often, and still a spread |\n:::"
+    },
+    {
+     "id": "b2.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Why a Stage Cannot Be Read in Minutes",
+     "md": ":::note Handoff\nPopulate the **Working Read**, **Confidence**, and **Role Filter** fields on your Five Hypothesis Cards on Friday (pulling directly from your B1 Baseline Cards via the Golden Thread pills) using verb-only currency language.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your reads, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B2.p1"
+     ]
+    }
+   ],
+   "author": "Susanne Cook-Greuter & William Torbert"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "How We Test Our Reads About People",
+   "cards": [
+    {
+     "id": "b2.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "How We Test Our Reads About People",
+     "md": "Suppose Monday's read leaves you suspecting a senior peer scans for *Advantage* or *Accuracy*. If you walk into Tuesday's meeting carrying that guess unchecked, your expectation behaves like **a magnet held next to a compass needle**. Snyder and Swann demonstrated that when people test a hunch about someone, they instinctively choose *confirming* questions—and subtly shift their own posture, warmth, and cadence in ways that pull out the exact behavior they anticipated (**Behavioral Confirmation**). You brace for *Advantage*, your voice turns guarded, they mirror your guardedness, and you walk out congratulating yourself on how sharply you read them.\n\nLater research (Trope & Bassok; Neuberg) identified the two countermeasures that remove the magnet: **(1) Accuracy Motivation**—caring more about getting the person right than proving your first hunch clever—and **(2) a pre-written Falsifier**. Before your second contact, write one concrete *If-Then* test where an unexpected result is just as easy to spot as a confirming one (e.g., offering a clearly labeled rough draft to a suspected *Accuracy*-scanner to see whether they engage the big idea without nitpicking). Crucially, in the personal dojo, never manufacture a fake problem or fake \"no\" to test someone; a fabricated stress test is a covert tactic in both dojos."
+    },
+    {
+     "id": "b2.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "How We Test Our Reads About People",
+     "md": ":::note Decision Rule\nWrite a concrete falsifier on every Hypothesis Card **before** the second encounter, and never use a fake boundary or trap to run it. Yet even a clean, un-magnetized silent test hits a steep ceiling, which Wednesday puts in hard numbers: *how accurate are humans at reading each other without asking—and how do you check a read aloud without making the other person feel dissected?*\n:::\n\n:::note Office Dojo\nAfter one terse budget call, you suspect a peer scans for Advantage. Your falsifier: share a draft agenda inviting his input without bracing or guarding your turf. He replies with two shortcuts that save your team hours and asks nothing in return. Your falsifier fires cleanly—you revise Advantage -> Results.\n:::\n\n:::note Personal Dojo\nYou guess a friend scans for Approval because they always say \"Whatever you want\" on dinner plans. Safe diagnostic check: \"I'm craving Thai, or we could do something totally different—what actually sounds good to you?\" They laugh and say, \"Honestly, I'm sick of Thai—let's get tacos.\" Your read updates on the spot.\n:::\n\n:::warn Non-Example\nAsking a disguised leading question (\"You don't really care about the big picture as long as the spreadsheet balances, right?\") or walking in cold because you expect Advantage, thereby manufacturing the very defensiveness you log as proof.\n:::"
+    },
+    {
+     "id": "b2.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "How We Test Our Reads About People",
+     "md": "**Lens.** Snyder & Swann (1978) on *Confirmatory Hypothesis Testing* and Snyder, Tanke, & Berscheid (1977) on *Behavioral Confirmation*. Tested social psychology showing that an observer's expectation does not sit passively outside the interaction—it actively bends the room.\n\n### Confirming vs. Diagnostic (Falsifiable) Checks Across All 6 Currencies\n\n| Working Read | Confirming Check (Weak) | Diagnostic / Disconfirming Check (Could Fail) | Personal-Dojo Safe Version (No Fake Tests) |\n|---|---|---|---|\n| Advantage | Notice every time they negotiate hard. | Offer a transparent, mutually fair option and see if they engage without squeezing extra concessions. | Notice how they react when YOU win — celebrate or one-up? |\n| Approval | Notice when they nod or say 'totally.' | State a mild, honest differing opinion on a low-stakes topic and see if they hold their view. | State your real preference first (W5) and see if they voice a different one. |\n| Accuracy | Notice every detail correction. | Share a rough brainstorm explicitly labeled 'rough draft' and see if they engage the big idea. | Share a messy, half-formed story and see if they connect to feeling vs. correcting facts. |\n| Results | Notice timeline questions. | Raise a brief relationship/values question and see if they slow down and engage. | Propose an unstructured coffee with no agenda and watch if they relax into it. |\n| Context | Notice 'How do you see it?' | Ask for a crisp decision on a simple choice and see if they commit cleanly. | Ask 'What do you actually want to eat tonight?' and see if they name a clear preference. |\n| Pattern | Notice big-picture talk. | Offer a gentle correction to their frame and see if they stay open to revising it. | Notice if they can just laugh or vent without turning it into meta-analysis. |\n\n### Optional Deepening · David Bohm (On Dialogue)\n\nPhysicist David Bohm explains why silent assumptions derail human rooms so fast: *\"The thing that mostly gets in the way of dialogue is holding to assumptions and opinions, and defending them.\"* When two people *\"don't really know what the other person's assumption is, and they react according to what they think it is,\"* the other person *\"gets very puzzled and wonders: what is he doing? He reacts, and it all gets very muddled.\"* Your read is never a sterile measurement taken from behind glass—it is an active force inside the conversation.\n\n:::note Behavioral Confirmation Loop & Question Contrast (Rungs 2 & 5)\nSnyder's loop runs in three silent beats: *(1) Your expectation ('they scan for Advantage') -> (2) Your altered tone and questions (guarded, clipped) -> (3) Their reactive guardedness, which 'confirms' your guess.* Keep the three question shapes distinct: **Confirming** ('Which exact numbers are you worried might be off?'), **Diagnostic / Disconfirming** ('What matters most to you on this—exact numbers, speed, or how the team feels about it?'), and **Leading-Disconfirming Non-Example** ('You don't actually care about the big picture as long as the spreadsheet balances, right?').\n:::\n\n:::details Canon notes · Part 2 · Snyder: how we test our reads about people\n*3*\n\n:::note Lens card\nMark Snyder, a social psychologist, and William Swann ran studies in the late 1970s showing that people asked to test a hypothesis about someone, for example that the person is an extravert, tend to choose questions that would confirm it. Snyder's related work on behavioral confirmation showed that expectations can draw out the very behavior expected. What is distinctive is that a read does not only describe a person; the way you check it can make it come true.\n:::\n\n:::note Why Snyder here\nThe hypothesis card asks \"what would change my mind.\" Snyder explains why that line is hard to write and easy to skip.\n:::\n\n:::note Native use\nLaboratory studies of person perception, often with strangers and set questions.\n:::\n\n:::note Limit\nTested research, with later work showing the confirming tendency depends on the setting and can be reduced when people are motivated to be accurate (label: tested research, effect depends on conditions). Do not read it as \"all checking is biased\"; read it as \"design your check to be able to fail.\"\n:::\n\n### Confirming checks and disconfirming checks\n\n| Your read | A confirming check | A check that could fail |\n|---|---|---|\n| \"Scans for accuracy\" | Notice when they correct things | Offer a rough draft and see whether they let it pass |\n| \"Scans for approval\" | Notice when they agree | Disagree lightly and see whether they hold their view |\n| \"Wants results\" | Notice timeline questions | Raise a relationship topic and see whether they engage |\n:::"
+    },
+    {
+     "id": "b2.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "How We Test Our Reads About People",
+     "md": ":::note Handoff\nComplete the **Falsifier (\"What would change my mind\")** field on all Five Hypothesis Cards before marking any card ready to test.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your cards, your checks or your ratings.",
+     "tools": [
+      "rungs.blue.B2.p2"
+     ]
+    }
+   ],
+   "author": "Mark Snyder & William Swann"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Empathic Accuracy and the Check-Back",
+   "cards": [
+    {
+     "id": "b2.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Empathic Accuracy and the Check-Back",
+     "md": "If Monday stripped away stage-typing and Tuesday stripped away self-fulfilling tests, Wednesday delivers the humbling benchmark that makes **checking back** non-negotiable. In Ickes's studies, strangers in a first conversation read each other accurately **only about 20% of the time**, close friends and family average **35%**, and even top natural readers plateau around **55%**—while people who score near zero believe they are just as accurate as the best readers. Worse still, long-married couples often grow *less* accurate over time because *\"they lock in some early version of who their spouse is, and over the years, as the other person changes, that version stays fixed.\"* Add **Motivated Inaccuracy**—our unconscious drop in accuracy whenever the truth feels threatening—and silent reading alone is a broken compass.\n\nThe upgrade is disarmingly simple: **score your read against the only reliable ground truth in the room—the other person's own account.** Use the **Tentative Check-Back Formula**: `[Softener: \"It sounds like…\"] + [Dignified Priority, never a flaw] + [3-second pause]`. When they correct you, resist any Expert urge to defend your summary; a correction is a **100% win** because it just traded a 35% guess for live reality. (Notice how this Check-Back becomes the foundation for **B4's 3-Beat Loop** and **B5's no-'I' Label**.)"
+    },
+    {
+     "id": "b2.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Empathic Accuracy and the Check-Back",
+     "md": ":::note Decision Rule\nUse a **Tentative Label** or **Direct Question** whenever basic safety exists; switch to private **Watch & Wait** in low-trust, high-power office rooms where naming a sensitive currency (such as Advantage) would show your hand. Carry all three lenses into Thursday's **6-Quote Flash-Drill**, and into **B3**, where you drop beneath surface currencies to the submerged concerns and needs stabilizing their position.\n:::\n\n:::note Office Dojo\nA director fires rapid technical questions at your proposal. You guess Accuracy and run a face-safe check-back: \"It sounds like making sure the compliance numbers are bulletproof is the main priority here—am I reading that right?\" She pauses and replies, \"Actually, compliance is fine—I'm worried my VP will think we rushed the timeline.\" Five seconds upgraded a wrong guess into ground truth (Status / Results).\n:::\n\n:::note Personal Dojo\nA friend's energy drops after you suggest inviting a third person to dinner. You check back warmly: \"Hey, it felt like the energy shifted when I mentioned Alex—were you hoping for just a one-on-one catch-up tonight?\" They exhale: \"Honestly, yeah—it's been a rough week.\"\n:::\n\n:::warn Non-Example\nSaying, \"I can tell you're scanning for approval right now—you don't have to people-please with me.\" Even if accurate, announcing a psychological label strips their face and turns a check-back into a diagnostic power move.\n:::\n\n:::dialect Translation strip · checkBack\n@office_us \"It sounds like getting the methodology airtight is the main priority here—am I tracking?\"\n@personal_us \"It felt like the energy shifted when I mentioned Friday—were you hoping for just a one-on-one catch-up?\"\n@rioplatense \"Me da la sensación de que te pesó más el modo que la fecha, ¿puede ser?\"\n@espana \"Me parece que lo que más te preocupa es cómo va a caer en el equipo, ¿voy bien?\"\n:::"
+    },
+    {
+     "id": "b2.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Empathic Accuracy and the Check-Back",
+     "md": "**Lens.** William Ickes's *Everyday Mind Reading* dyadic interaction paradigm (cited in David Brooks, *How to Know a Person*). Tested research benchmarking silent mind-reading against what the other person actually reports thinking and feeling.\n\n### Face-Safe Check-Back Scripts Across Currencies & Methods\n\n| Method | How It Works | Easy Currencies (Accuracy / Results) | Sensitive Currencies (Advantage / Approval) | Non-Example (Diagnosis) |\n|---|---|---|---|---|\n| 1. Tentative Label | Name priority lightly + 3s pause. | Accuracy: 'It sounds like getting the methodology airtight is the main thing here.' | Advantage: 'It sounds like protecting your downside on this clause is non-negotiable.' | 'You're being nitpicky because you're an Expert.' |\n| 2. Direct Question | Ask plainly when stakes allow. | Results: 'Is hitting the Friday launch the top priority for you on this?' | Approval: 'I want to make sure we're actually aligned — does any part of this not sit right?' | 'Are you only agreeing because you want me to like you?' |\n| 3. Watch & Wait | Keep private when asking feels intrusive or tactical. | Context: Note 'wanted multiple frames' -> observe if they ask for alternatives next time. | Advantage (Office): Keep leverage read private; observe if they honor small agreements. | Silently locking the verdict and never updating it. |\n\n### Optional Deepening · Sheila Heen (via Duhigg, Supercommunicators)\n\nSheila Heen (via Duhigg, *Supercommunicators*) identifies three purposes that keep a check-back respectful rather than intrusive: *(1)* helping the speaker clarify their own layered priorities, *(2)* helping the listener catch what they missed, and *(3)* proving care—demonstrating that you value the other person enough to work at getting them right.\n\n:::note Content-Level Check-Backs When Feeling-Talk Is Taboo (Rung 6)\nIn cultures, families, or formal offices where naming emotions aloud feels clinical or intrusive, shift from affective check-backs to **Content-Level Priority Check-Backs**: verify what matters practically without naming an inner feeling ('So locking the delivery date before we discuss price is the main thing?' or 'Let me make sure I'm prioritizing the right piece for you').\n:::\n\n:::details Canon notes · Part 3 · Ickes: empathic accuracy and the check-back\n*3*\n\n:::note Lens card\nWilliam Ickes, a social psychologist, developed a method to measure empathic accuracy: two people talk, watch the recording, each writes what they were thinking or feeling at each pause, and the other guesses. Accuracy can then be scored against what the person actually reported. His work found that people vary widely, that accuracy depends heavily on how readable the other person is, and that motivation and familiarity matter. What is distinctive is that a read is scored against the person's own report, which is exactly what a check-back does.\n:::\n\n:::note Why Ickes here\nThe module says to loop a read back to the person. Ickes shows why: the person's own account is the best measure available.\n:::\n\n:::note Native use\nA laboratory paradigm for research on everyday mind reading, in strangers, friends and couples.\n:::\n\n:::note Limit\nTested research (label: tested research). Accuracy in the lab is measured against what people chose to write, which is itself a report. Asking someone directly can also change the conversation; in some settings a check-back is welcome, in others it feels intrusive.\n:::\n\n### Three ways to check a read\n\n| Method | What it sounds like | When it fits |\n|---|---|---|\n| Tentative label | \"It sounds like getting the numbers right matters a lot here.\" | Most conversations; invites correction |\n| Direct question | \"Is accuracy the main thing for you on this?\" | When the stakes allow plain speech |\n| Watch and wait | Note the read and see what happens next time | When asking would feel like analysis |\n:::"
+    },
+    {
+     "id": "b2.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Empathic Accuracy and the Check-Back",
+     "md": ":::note Handoff\nComplete the **Check-Back & Outcome / Verdict** fields on your Five Hypothesis Cards on Friday and compute your hit rate. Against Ickes's 20–35% human baseline, hitting 2 out of 5 (40%) with honest revisions is mastery.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your reads, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B2.p3"
+     ]
+    }
+   ],
+   "author": "William Ickes"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Reading the currency",
+   "cards": [
+    {
+     "id": "b2.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Reading the currency",
+     "md": "**Reading the currency.** Every person scans the conversation for something. Find out what it is by watching what they pay attention to, and how they react when they don't get it.\n\n### Concepts\n\n1. **Currencies (Synthesis, from the grid's Read row and the Concentric \"Utility vs. Approval filter\").** The Read signatures in the grid name what each stage tends to scan for. Treated as currencies, not stages:\n\n| Currency | What it looks like in the first minutes | Grid Read signature it echoes |\n|---|---|---|\n| Advantage | Cuts small talk; pivots fast to what they can get or must defend | Opportunist: \"Reads for advantage\" |\n| Approval | Mirrors you heavily, checks your face, agrees with small things (\"totally\", \"me too\") | Diplomat: \"Reads for approval\" |\n| Accuracy | Corrects small errors, even irrelevant ones; precision over flow | Expert: \"Reads for errors\" |\n| Results | Asks about goals, timelines, decision drivers; wants the path to yes | Achiever: \"Reads for interests\" |\n| Context | Asks how you see it, where you're coming from; resists a single answer | Pluralist: \"Reads their frame\" |\n| Pattern | Names what is happening between people; asks about purpose | Strategist: \"Reads the system\" |\n\n1. **Natural friction is the best read.** People can show a later stage when comfortable and fall back when denied what they want (Curriculum). So the moment of friction tells you most. The original's four reactions to a no are a useful map of *reactions*, not of people: attack (escalate, threaten), fold (apologize, concede, go silent), debate (cite data and policy), pivot (accept the no and ask for alternatives).\n2. **The office stress test, done honestly.** In negotiation, it is legitimate to set a small, real boundary early (decline a minor scheduling request you genuinely can't take) and watch the reaction. The test must be true; a fake no is a tactic.\n3. **The personal dojo has no stress test.** In friendship you read the friction that arrives on its own: a cancelled plan, a disagreement over where to eat. You read their reaction to learn how to care for them, not to sort them.\n4. **The hypothesis card.** Every read is written as a hypothesis with a confidence level and a disconfirming test:\n\n*Working read:* scans for accuracy; folds into debate under pressure. *Confidence:* medium. *Evidence:* corrected my date twice; cited policy when I said no to Friday. *What would change my mind:* if they accept a no without citing anything.\n5. **Check it back (Grid: Construct-Aware × Read, \"Hold the read lightly and loop it back to them to check\").** Wherever you can, test the read with them directly: \"It sounds like getting the numbers exactly right matters a lot here.\" Their answer tells you more than any sweep."
+    },
+    {
+     "id": "b2.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Reading the currency",
+     "md": ":::note Drill\nThe hypothesis log. After two conversations a day, write one hypothesis card each. Revisit cards after the next contact with the same person and mark them right, wrong or revised.\n:::\n\n:::note Office dojo\nUse the currency to choose your opening: precision for an accuracy-scanner, the path to the goal for a results-scanner, acknowledgement of leverage for an advantage-scanner.\n:::\n\n:::note Personal dojo\nUse it to know what love looks like to this friend: accuracy-scanners feel cared for when you take their ideas seriously; approval-scanners when you show you are not upset with them.\n:::"
+    },
+    {
+     "id": "b2.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Reading the currency",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats a read as | Would worry that you... |\n|---|---|---|---|\n| Cook-Greuter and Torbert | Long assessment | Far less than a stage | Turn a currency into a type |\n| Snyder | How we test guesses | Something your check can bend | Check only in confirming ways |\n| Ickes | The person's own report | A guess to be scored | Never ask |\n\n**Where they meet.** A read is a hypothesis; the best test is a check that could fail, and the best check is often the person's own answer.\n\n**Where they collide.** Ickes favors asking; Blue Belt's office dojo sometimes keeps reads private. Asking gives accuracy; holding back keeps your cards close. The module's answer differs by dojo.\n\n**What the three miss for you.** Checking a read in your second language, or across a power gap, carries its own risk; the sources say little about it.\n\n**Where it sits in your own frameworks.** Mind and Heart with others, and the depth axis of your Orders Grid. In Kegan's terms, a read you can check is one you hold as object rather than look through. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Can empathic accuracy be trained? | What does research say about improving empathic accuracy with feedback? | Part 3 suggests checking helps; is there evidence? | One thread, researched with the research-brief skill |\n| 2. Confirmation in professional judgment | How does confirmatory hypothesis testing show up in clinical or interviewing settings, and what reduces it? | Your hypothesis cards are a professional tool | One thread, with a critic pass |\n| 3. Can stage be inferred from talk? | Is there research on judging developmental level from conversation rather than from scored completions? | Part 1 rules out quick stage reads | Full deepening of Part 1 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B2, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b2.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Five checked cards",
+     "md": "**Five checked cards.** Five hypothesis cards, each checked against later evidence or checked back directly, with your hit rate. A hit rate of two in five is a good start; the point is the habit of checking, not being right.\n\n**Watch for.** Locking a read. A card with no \"what would change my mind\" line is a verdict, not a read.\n\n:::note Prompt\nThink of two people from your B1 Baseline Cards. Write one verb-only currency guess, one Role Filter check, and one falsifiable 'what would change my mind' line before your next contact.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "6-Quote Currency & Face-Safe Check-Back Drill",
+   "cards": [
+    {
+     "id": "b2.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "6-Quote Currency & Face-Safe Check-Back Drill",
+     "md": "**Deliberate Practice Lab** · 6-Quote Currency & Face-Safe Check-Back Drill",
+     "tools": [
+      "drill.blue.B2.B2_drills"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Five Checked Hypothesis Cards + Hit Rate",
+   "cards": [
+    {
+     "id": "b2.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Five Checked Hypothesis Cards + Hit Rate",
+     "md": ":::note Deliverable Spec · Five checked cards\nFive hypothesis cards, each checked against later evidence or checked back directly, with your hit rate. A hit rate of two in five is a good start; the point is the habit of checking, not being right.\n\n**Watch for.** Locking a read. A card with no \"what would change my mind\" line is a verdict, not a read.\n:::",
+     "tools": [
+      "form.blue.B2"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

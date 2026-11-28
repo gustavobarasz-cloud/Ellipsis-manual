@@ -1,0 +1,124 @@
+{
+ "id": "s2",
+ "kind": "layer",
+ "title": "Layer 2 · The I-Thou Encounter",
+ "subtitle": "From profiling to recognizing",
+ "kicker": "Paired with Blue Belt (B1–B6)",
+ "intro": "Blue Belt reads. The Sanctuary recognizes—putting the clipboard down so two separate minds can meet as equals.",
+ "days": [
+  {
+   "id": "s2-1",
+   "label": "S2.1",
+   "title": "The un-sweep and mutual recognition",
+   "cards": [
+    {
+     "id": "s2.s2-1.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The un-sweep and mutual recognition",
+     "md": "*Buber, Benjamin, Winnicott*\n\nBlue Belt trained you to sweep a room like a careful analyst; the Sanctuary teaches you when to put the clipboard down. Martin Buber warns that pulling a living melody apart into discrete notes destroys the melody—just as cataloging a loved one's currency or defense turns *Thou* back into *It*. D. W. Winnicott draws the exact developmental line between **Object Relating** (loving a compliant fantasy inside your own head while hiding your anger and needs) and **Object Usage** (meeting a real, external person outside your control), which only becomes possible through **Surviving Destruction**: colliding honestly with real difference without retaliating or vanishing.\n\nUnder stress, Jessica Benjamin shows how mutual equality collapses into complementary binaries—*doer and done-to, fixer and broken, pursuer and distancer*. Restoring mutual recognition means stepping off the seesaw, softening your gaze into the **un-sweep** (\"I am here, and you are here\"), and letting two separate minds meet as equals."
+    },
+    {
+     "id": "s2.s2-1.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The un-sweep and mutual recognition",
+     "md": ":::note Stance Rule\nPractice the un-sweep and mutual recognition with people capable of basic good faith and mutuality. Re-engage White Belt's Guard immediately if someone uses your vulnerability to punish, dominate, or repeatedly violate your dignity—surviving destruction means surviving honest difference, never enduring abuse.\n:::\n\n:::note Worked Example\nFriend (in Expert armor): 'Moving to Madrid without a 5-year financial model seems reckless.' -> Sanctuary Move (Un-Sweep + Mutual Recognition): 'Ouch — hearing reckless stings a little, because I've thought a lot about this. And I know you're saying it because you genuinely care about me landing on my feet. I'm still going to make the leap my way, and I'd love to hear what part actually worries you.'\n:::\n\n:::warn Non-Example\nCalling it 'surviving destruction' when you silently absorb a friend's repeated verbal jabs with a zen smile while secretly detaching (W2 Observer). Winnicott's survival requires staying alive, real, and non-retaliatory — never numb or self-erasing.\n:::"
+    },
+    {
+     "id": "s2.s2-1.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The un-sweep and mutual recognition",
+     "md": "### Optional Deepening · David Bohm (On Dialogue)\n\nBohm quotes Buber's melody passage to show that analytical thought naturally fragments wholes into parts to gain control. In dialogue, you don't destroy your Blue Belt analytical skill — you suspend it in awareness so you can perceive the living person before your categories decide who they are.\n\n**tableTitle.** From Profiling & Binaries to Mutual Recognition"
+    },
+    {
+     "id": "s2.s2-1.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The un-sweep and mutual recognition",
+     "md": "- **Marker:** A disagreement with someone close ends with both of you feeling more known, not less.",
+     "tools": [
+      "marker.s2.s2-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2-2",
+   "label": "S2.2",
+   "title": "Listening beneath suffering",
+   "cards": [
+    {
+     "id": "s2.s2-2.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Listening beneath suffering",
+     "md": "*Fisher and Shapiro, Hughes, Thich Nhat Hanh*\n\nThich Nhat Hanh strips deep listening down to one radical, single intention: *\"I am listening to this person with only one purpose: to give this person a chance to suffer less.\"* When someone you love is in pain, their speech is routinely distorted by exaggerations and wrong perceptions. The Sanctuary rule is simple and counterintuitive: **now is the time to listen only**—defer fact-checking to a calmer hour tomorrow.\n\nRecognizing the trampled Fisher & Shapiro core concern or Hughes fear beneath their sharpness protects you from taking the blame personally and becoming the *\"second victim\"* of their suffering, letting you answer the hidden ache directly with loving speech and Thich Nhat Hanh's humble check: *\"Do you think I understand you enough?\"*"
+    },
+    {
+     "id": "s2.s2-2.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Listening beneath suffering",
+     "md": ":::note Stance Rule\nOffer single-intention deep listening when you have steadied your own body first and have the battery to stay grounded. If you feel yourself slipping into the second victim—or if speech turns abusive—call a warm timeout (\"I want to hear you well, and I'm too activated right now—can we talk in twenty minutes?\").\n:::\n\n:::note Worked Example\nLoved one (sharply): 'You didn't even ask how my mom's appointment went — you only care about your own projects.' -> Old reflex (2nd victim): 'That's unfair, I asked Tuesday!' -> Sanctuary Move: [Exhale; set single intention; defer Tuesday fact-check.] 'I hear how alone you've felt carrying the worry about your mom this week, and I'm really sorry I missed checking in today. I care deeply about you and her — how did the appointment actually go?'\n:::\n\n:::warn Non-Example\nSaying 'I can tell your Affiliation concern is trampled right now and you're reacting from abandonment fear' — analyzing someone's suffering aloud turns Sanctuary compassion back into cold clinical profiling.\n:::"
+    },
+    {
+     "id": "s2.s2-2.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Listening beneath suffering",
+     "md": "### Optional Deepening · Gabor Maté (The Myth of Normal)\n\nWhat if you feel zero warm emotions toward someone blaming you? Maté clarifies that compassion is an attitude, not a feeling — you don't have to force warmth on command. And he draws the line between acceptance (being present with reality) and tolerating the intolerable (putting up with ongoing mistreatment or self-abandonment).\n\n**tableTitle.** Answering the Concern — Office Tactic (B3) vs. Sanctuary Recognition (S2.2)"
+    },
+    {
+     "id": "s2.s2-2.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Listening beneath suffering",
+     "md": "- **Marker:** You answered the concern instead of the complaint, and the argument stopped being an argument.",
+     "tools": [
+      "marker.s2.s2-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2-3",
+   "label": "S2.3",
+   "title": "Holding environment and resonance",
+   "cards": [
+    {
+     "id": "s2.s2-3.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Holding environment and resonance",
+     "md": "*Winnicott, Kegan, Siegel, Johnson*\n\nIntimacy does not require Achiever perfectionism; Winnicott's **good-enough holding** builds resilience through ordinary misattunements followed by honest repair. When a close friend asks for honest perspective at a growing edge, Kegan's evolutionary bridge balances support and challenge in strict order: **Confirm** who they are now, **Contradict** gently at the edge, and **Continue** staying present while they cross.\n\nDaniel Siegel grounds *\"feeling felt\"* in resonance circuitry—staying clearly differentiated while linked—and Sue Johnson maps what happens when attachment **raw spots** (feeling *Deprived* or *Deserted*, her *\"2 Ds\"*) fire under threat: close bonds fall into three **Demon Dialogues**—*Find the Bad Guy* (attack–attack), *Protest Polka* (pursue–withdraw), and *Freeze and Flee* (withdraw–withdraw). The exit is never winning the surface argument; it is recognizing the music, owning your half of the dance first, and naming the loop as *\"we.\"*"
+    },
+    {
+     "id": "s2.s2-3.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Holding environment and resonance",
+     "md": ":::note Stance Rule\nName a loop aloud *only* when you own your own step first—never diagnose your partner (\"You're doing the Protest Polka\"). Keep White Belt's boundary intact: softening the empathy boundary in a rare loving moment applies strictly to isolated human moments, never to recurring harmful patterns.\n:::\n\n:::note Worked Example\nPartner/Friend (Pursuing): 'You've been on your phone all evening — I guess I'm boring to talk to.' -> You (catching the Protest Polka & W2 Observer urge): [Exhale, phone face-down, stay differentiated.] 'Hey, wait a second. I feel myself wanting to shut down, and I see you're feeling brushed off. We're doing that loop where I zone out and you feel invisible, and then we fight. I'm sorry — I was drained, not bored with you. Phone's away, I'm right here.'\n:::\n\n:::warn Non-Example\nSkipping Kegan's Confirm step and jumping into sharp Contradiction ('You're obviously stuck in a Protest Polka because of your childhood raw spot') — weaponizing psychology, triggering shame, and locking them into armor.\n:::"
+    },
+    {
+     "id": "s2.s2-3.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Holding environment and resonance",
+     "md": "### Optional Deepening · Stephen Porges (via Daniel Siegel, Mindsight)\n\nWhy does naming a loop gently make both people suddenly soften or laugh? Siegel links resonance circuitry to Porges's neuroception: fighting inside the loop keeps defensive fight/flight/freeze circuits locked on. The instant one person stays regulated, steps beside the other, and names the loop as the shared problem, neuroception registers safety — turning the Social Engagement System ('love without fear') back on for both.\n\n**tableTitle.** Sue Johnson's 3 Demon Dialogues & Kegan / Siegel Repair Moves"
+    },
+    {
+     "id": "s2.s2-3.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Holding environment and resonance",
+     "md": "- **Marker:** You named a loop instead of fighting inside it, and both of you laughed or softened.",
+     "tools": [
+      "marker.s2.s2-3"
+     ]
+    }
+   ]
+  }
+ ]
+}

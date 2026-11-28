@@ -1,0 +1,41 @@
+{
+ "id": "black-capstone",
+ "belt": "black",
+ "kind": "capstone",
+ "title": "Black Belt · Capstone",
+ "subtitle": "",
+ "days": [
+  {
+   "id": "test",
+   "label": "Belt Test",
+   "title": "Black Belt · Capstone",
+   "cards": [
+    {
+     "id": "black-capstone.main-1",
+     "kind": "info",
+     "label": "Capstone · 1/2",
+     "title": "Capstone",
+     "md": "Black Belt Capstone · 5 Observable Mastery Tests\n\n## Black Belt Promotion Gauntlet (Systems & Bridges)\n\n- [ ] 1. The Room Read (Bk1)\n\nFly-on-the-wall meeting: pre-write likely Bennett room position & Schein invisible rules; post-write systems map checked with one other view if possible.\n\n- [ ] 2. Office Dojo, Live (Bk4)\n\nMulti-party meeting with a stuck dynamic: exit your Bowen slot first, name one dynamic tentatively with invitation to correct, propose a frame, land 1 concrete next step.\n\n- [ ] 3. Personal Dojo, Live (Bk6)\n\nConfidant conversation: either a double-loop conversation about a friendship, or a requested Kegan mirror (Confirm → Challenge lightly → Stay afterward).\n\n- [ ] 4. The Bridge, Live (Bk2 + Bk3)\n\nReal cross-cultural or cross-tribe encounter: room read, proposal downshifted with core stake intact, sequence respected, and one reflexive translation tax dropped.\n\n- [ ] 5. The Game, Rehearsed (Bk5)\n\nDrop-the-rope role-play against ≥5 codex tactics: relaxed body, zero defensive responses, ≥2 tactics named neutrally, one no-sell boundary held.\n\n:::field Capstone Debrief Paragraph\nPost-Capstone Debrief: Where were you a bridge vs. code-switcher? Where did detachment help vs. risk missing real stakes?\n:::\n\nAfter Black Belt · The Living Dojo\n\n### Three Practices That Continue\n\n1. **The Weekly Grid Look** across all six columns (*Guard, Read, Bond, Word, Reveal, Steer*). · 2. **The I-Thou Sanctuary Track** (*S1–S4*) whenever the aim is the person, not an outcome. · 3. **Teaching:** walking a friend or colleague through White Belt is the strongest test of whether you hold it. **Under Acute Heat — Drop Down a Belt:** regulate body (**White**) → read & bond (**Blue**) → state cleanly in 4 parts (**Brown**) → only then reframe the room (**Black**)."
+    },
+    {
+     "id": "black-capstone.main-2",
+     "kind": "info",
+     "label": "Capstone · 2/2",
+     "title": "Capstone",
+     "md": "Graduation Artifact · Systemic Architecture Summary\n\n## 1-Page Printable Black Belt Field Card\n\n## COMMUNICATION DOJO · BLACK BELT FIELD CARD\n\nSYSTEMS & BRIDGES · IN PROGRESS\n\n### Canonical Black Belt Pocket Card\n\n1. Read the room before the person. · 2. Name the pattern, not the person. · 3. Offer a better game. · Back: “Am I a bridge here, or a code-switcher?”\n\n### Bk1 · Room Maps Snapshot\n\n**Office:** — | Rule: —<br>**Personal:** — | Rule: —\n\n### Bk5 · Dark-Side Codex & Walk-Away\n\n**Codex Entries Logged:** 3<br>**Office BATNA:** —<br>**Personal Line:** —\n\n### Bk6 · Systemic Architecture Toolkit\n\n**1. Frame Audit:** —<br>**2. Name-the-Game Scripts:** —<br>**3. Post-Mortem Map:** —\n\n### Master Grid Marks, Evidence & Sanctuary Layer 4\n\nNo grid marks placed yet.\n**Evidence:** Rooms mapped: 0 · Dynamics named: 0 · Frames proposed: 0 · Taxes dropped: 0 · Codex entries: 3 · Bridge moments: 0 · **Sanctuary L4 Entries:** 0"
+    },
+    {
+     "id": "black-capstone.main.evidence",
+     "kind": "info",
+     "label": "Evidence",
+     "title": "Black Belt Evidence",
+     "md": "",
+     "tools": [
+      "evidence.black"
+     ]
+    }
+   ]
+  }
+ ],
+ "handoffTo": "loop"
+}

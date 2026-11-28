@@ -1,0 +1,137 @@
+{
+ "id": "m10",
+ "kind": "module",
+ "tier": 5,
+ "tierTitle": "Salience, Framing & Compliance Mechanics",
+ "tierSubtitle": "Steering attentional salience, presupposition corridors, and voluntary compliance momentum.",
+ "title": "Compliance Mechanics, Pacing & Psychological Reactance",
+ "number": 10,
+ "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+ "codexIds": [
+  "PIT-06"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Coupled Flywheel and the Torque Limiter",
+   "cards": [
+    {
+     "id": "m10.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "The Coupled Flywheel and the Torque Limiter",
+     "md": "Try to spin a two-ton industrial flywheel from a dead stop with one violent heave, and the drive shaft shears before the rim moves an inch. Instead, an engineer engages a **coupled flywheel** gradually: first matching the drum's resting inertia, then feeding small, rhythmic pulses of torque until momentum carries the steel forward almost effortlessly. Mounted directly on the axle, however, sits a **mechanical torque limiter**—a spring-loaded clutch engineered to snap open and lock the brake the instant external force spikes above rated tolerance.\n\nHuman compliance runs on that exact mechanical pairing. Most persuaders treat agreement as a single closing heave at the end of a pitch—and are baffled when a logical proposal suddenly hits a brick wall. In *The Ellipsis Manual* and *Six-Minute X-Ray*, compliance is never a sudden surrender; it is accumulated **rotational momentum** built through **Behavioral Entrainment**, **Agreement Escalation**, and **Gestural-Movement Compliance**. Small, low-friction physical and verbal micro-commitments lower the cognitive cost of the next step because the counterpart begins experiencing forward movement as self-authored rather than externally pushed."
+    },
+    {
+     "id": "m10.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "The Coupled Flywheel and the Torque Limiter",
+     "md": "Yet the **torque limiter**—**Psychological Reactance**—never disappears. The moment a counterpart perceives that their freedom of choice is being cornered, rushed, or covertly manipulated, the clutch snaps open. They do not merely decline the request; they actively pull in the *opposite* direction—sometimes rejecting an option that objectively benefits them—solely to restore sovereign agency. Mastery of Module 10 is therefore never about \"shutting off human willpower,\" as theatrical persuasion lore claims. It is about building clean, voluntary momentum while staying strictly inside the counterpart's **Autonomy Margin** (M02) so the torque limiter never trips."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Building Rotational Momentum: Behavioral Entrainment, Compliance Wedges, and Agreement Escalation",
+   "cards": [
+    {
+     "id": "m10.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "Building Rotational Momentum: Behavioral Entrainment, Compliance Wedges, and Agreement Escalation",
+     "md": "Momentum enters an interaction through two synchronized channels: the body and the consistency reflex. On the physical channel, *Six-Minute X-Ray* introduces the **Compliance Wedge**, while *The Ellipsis Manual* formalizes its escalation as **Behavioral Entrainment** and **Gestural-Movement Compliance**. Unlike simple mirroring—where you copy the counterpart's posture to build initial comfort—gestural-movement compliance occurs when calm **Authority Architecture** (M02) is already seated and the counterpart organically adjusts to *your* spatial lead: glancing where you point on a briefing sheet, leaning in slightly as you step back, or shifting posture to stay aligned with your cadence. Because humans continuously rationalize their own micro-behaviors, following small physical leads quietly trains the brain to adopt a matching psychological posture of collaborative followership."
+    },
+    {
+     "id": "m10.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "Building Rotational Momentum: Behavioral Entrainment, Compliance Wedges, and Agreement Escalation",
+     "md": "On the verbal channel, **Agreement Escalation** applies Robert Cialdini's consistency principle: people strongly prefer their self-image and their actions to align. When a counterpart grants a sequence of small, genuinely reasonable micro-agreements or minor favors—confirming a shared constraint, handing over a reference number, or adjusting a meeting time—their internal narrative shifts. Rather than feeling pushed, they experience themselves as helpful, dependable, and aligned with someone worth collaborating with.\n\nCrucially, *The Ellipsis Manual* underscores the rule of **going first**: if you want a room to shift from defensive hesitation into calm, forward-looking focus, your own nervous system must inhabit that state first. Trying to manufacture urgency or enthusiasm verbally while your own posture broadcasts hurry or anxiety leaks **Status-Tension** (M02) and stalls the flywheel before it completes a single turn.",
+     "hook": "L2-M10-entrainment-compliance-wedge"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "The Activation Threshold: Scarcity, Regret Framing, and Empowering Calls to Action",
+   "cards": [
+    {
+     "id": "m10.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "The Activation Threshold: Scarcity, Regret Framing, and Empowering Calls to Action",
+     "md": "Momentum alone still requires a clean transfer into motion. *The Ellipsis Manual* maps four distinct **Activation** pathways that convert passive agreement into concrete action: initiating movement through **excitement**, through the **avoidance of regret**, through a **direct command**, or through **previously anchored emotional states**.\n\nBefore delivering a call to action, **Conversational Scarcity** and **Regret-Scenario Elicitation** sharpen attention onto the real cost of inaction—highlighting a closing operational window or recalling a third-party scenario where hesitation carried a lasting penalty. When those stakes align cleanly with the counterpart's **Primary Social Need** (M05) and **Decision Map** pillar (M06)—for example, framing a delayed security upgrade as an *Investment* risk or a *Conformity* exposure—the counterpart shifts from abstract evaluation to immediate priority."
+    },
+    {
+     "id": "m10.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "The Activation Threshold: Scarcity, Regret Framing, and Empowering Calls to Action",
+     "md": "Here lies the sharpest epistemic and ethical boundary in *The Ellipsis Manual*. Later chapters of the source text venture into extreme interrogation-style tactics—including **gaslighting**, engineered confusion, and framing obedience as \"shutting off human willpower\" or pride in being controlled. In real-world high-stakes negotiation, leadership, and advisory work, those coercive dark patterns fail on two counts simultaneously. Empirically, they misread **Stanley Milgram's** obedience findings as a universal mind-control switch rather than a fragile, context-bound artifact of institutional authority. Operationally, covert coercion guarantees catastrophic **Rebound Scrutiny** (M11) the moment the counterpart leaves the room and compares notes with peers—shattering long-term leverage. The durable actuator rule sits in *The Ellipsis Manual*'s far cleaner principle: **suggestions should empower the subject**. A strong call to action hands the counterpart a crisp, concrete next step that preserves their dignity and ownership (*\"If we lock the pilot scope before Friday's freeze, your team keeps full control of the rollout calendar\"*).",
+     "hook": "L2-M10-activation-and-ethical-boundary"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "When the Clutch Snaps: Psychological Reactance and De-Escalation Physics",
+   "cards": [
+    {
+     "id": "m10.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "When the Clutch Snaps: Psychological Reactance and De-Escalation Physics",
+     "md": "Every compliance lever carries a hidden tripping point. **Psychological Reactance** fires whenever external pressure exceeds a counterpart's **Autonomy Margin** (M02)—and it fires fastest on counterparts with a strong **Internal Locus of Control** (M06), a **Strength/Power** need (M05), or a **Deviance** decision style (M06).\n\nIn live conversation, reactance rarely announces itself as polite disagreement. It surfaces first through Tier 2's telemetry: a sudden **Dominant Shoulder Retreat** (M07), a **BToE Stress Cluster** (M03) locking around the jaw and throat, or a sharp **Question Reversal** (M08) attacking your motives. The amateur's instinct when they feel the flywheel drag is to push harder—repeating the scarcity deadline, stacking more urgency, or tightening vocal dominance. That single reflex slams the torque limiter fully shut."
+    },
+    {
+     "id": "m10.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "When the Clutch Snaps: Psychological Reactance and De-Escalation Physics",
+     "md": "Releasing reactance requires the exact opposite move: **immediate torque removal**. You stop selling, explicitly restore the counterpart's exit ramp (*\"You don't have to move on Q3 if the bandwidth isn't there—if waiting until Q4 protects your team better, let's build around Q4\"*), and drop your posture back into calm **Operator Baseline** (M01). Paradoxically, the instant the counterpart feels the external push vanish and their freedom of refusal confirmed, the clutch re-engages—and they often talk themselves back toward the original timeline on their own terms. Over multi-cycle relationships, respecting the torque limiter builds compounding credibility (**Trust-Decay Prevention**, M12), turning one-off compliance into durable, low-friction partnership.",
+     "hook": "L2-M10-reactance-torque-release"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 3 · Covert Syntax",
+   "cards": [
+    {
+     "id": "m10.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Presuppositions and double binds win by shifting the battlefield off the core decision ('whether') onto logistics ('when, how, or which'). The instant you answer inside the grammar of a rigged question, you have silently ratified its unstated premise without ever saying yes."
+    },
+    {
+     "id": "m10.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Exposing & Dismantling Presuppositions ('When/How/Which' Traps)\n**Setting:** Scope expansions, timeline pushes, vendor renewals, bureaucratic intake\n\n**Signal:** An unagreed premise smuggled inside a logistical question ('Once we move the launch to Friday, how does QA adjust?' or 'Which of your analysts will take on the extra compliance audit?').\n\n**Counter-move:** Never answer the logistical half of the sentence. Stop at the verb, pull the hidden premise out into the open in one flat, non-accusatory sentence, and force an explicit decision on 'whether' before touching 'how.'\n\n**Break line:** \"Before we talk about QA, we haven't agreed to move the launch to Friday. Let's decide whether the date moves at all.\"\n:::\n\n:::note Stepping Outside Double Binds (False Binaries)\n**Setting:** Closing calls, exploding offers, scheduling pressure\n\n**Signal:** Two options presented as the entire universe, where both options advance the speaker's objective ('Do you want to lock in the 12-month contract before noon or at 4 PM today?' or 'Do you want to absorb the Rush Fee or cut testing?').\n\n**Counter-move:** Reject the binary cleanly without getting defensive or arguing which of their two bad options is worse. Introduce Option C—your actual terms—on a calm downward inflection.\n\n**Break line:** \"Neither works. We're keeping full testing and the agreed rate; if we need speed, we adjust the Phase 2 launch date.\"\n:::\n\n:::note Deploying the 'Right to Veto' Against Compliance Escalation\n**Setting:** High-pressure sales or stakeholder consensus rooms\n\n**Signal:** A rapid stack of small 'yes-set' questions ('You want Q4 to run smoothly, right? And you want clean audit trails, right?') building momentum toward a hard close.\n\n**Counter-move:** Break the yes-momentum deliberately with a calm 'No' or conditional pivot. Reclaiming your right to say no resets the room's psychological gravity immediately.\n\n**Break line:** \"We want clean audits, yes—and no, this package isn't the way we're going to get there.\"\n:::"
+    },
+    {
+     "id": "m10.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Jim Camp (Start with No — The Right to Veto)\nCamp's core principle is the cleanest antidote to Hughes's compliance ladders and double binds: explicitly preserving both sides' right to say 'No' destroys artificial momentum and keeps decision-making grounded in objective reality.\n:::\n\n:::note Chris Voss (Never Split the Difference — 'No'-Oriented Questions)\nVoss notes that 'Yes' triggers defensive vigilance in experienced negotiators, whereas 'No' restores autonomy. When someone tries to trap you in a 'yes-set' or double bind, answering with a calm, unbothered 'No' immediately flips leverage back to your side of the table.\n:::\n\n:::note Jack Brehm (Psychological Reactance Theory)\nExplains the exact blowback risk of deploying double binds offensively: the moment a high-autonomy counterpart detects that their freedom of choice is being narrowed into a rigged binary, reactance fires—causing them to reject even a profitable deal just to restore autonomy.\n:::"
+    },
+    {
+     "id": "m10.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Impatient Binary Closings\n**Mechanism:** When dealing with slow committees or indecisive peers, it is tempting to drop a slick presupposition or double bind just to force movement.\n\n**Calibration:** Use binary choices strictly *after* the underlying premise has been explicitly consented to—otherwise you trade 5 minutes of speed for weeks of resentment.\n:::\n\n:::warn Politeness-Driven Premise Acceptance\n**Mechanism:** Answering a presupposition politely ('Well, if we moved it to Friday, QA would struggle...') to avoid sounding blunt—accidentally entering negotiation over a concession you never intended to grant.\n\n**Calibration:** Never negotiate hypotheticals inside an unagreed premise; kill the premise in sentence one.\n:::"
+    }
+   ]
+  }
+ ]
+}

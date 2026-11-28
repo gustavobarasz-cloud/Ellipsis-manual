@@ -1,0 +1,146 @@
+{
+ "id": "w4",
+ "belt": "white",
+ "kind": "week",
+ "kicker": "White Belt · Module W4",
+ "title": "The Triage: Style, Blind Spot, or Tactic",
+ "subtitle": "Diagnose what just landed on you before reaching for a tool—because using tactic defenses on a style clash turns you into the aggressor.",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Mon",
+   "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+   "cards": [
+    {
+     "id": "w4.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+     "md": "### Deborah Tannen: Conversational Style as a Difference, Not a Defect\n\n- **The Reversed Electric Blanket:** W1 through W3 calibrated your own instrument—body, fallback, and hooks. W4 turns that instrument outward with one governing rule: *diagnose what just landed on you before you reach for a tool*, because using tactic defenses on a style clash turns you into the aggressor. Linguist Deborah Tannen (*That's Not What I Meant!*) shows that pacing, pause length, overlap, indirectness, and framing are not decorative frosting on speech; they are the mechanical gears that make talk mean anything at all. When two speakers run different gears—a **high-involvement** speaker who overlaps and leaves short pauses to show warmth, and a **high-considerateness** speaker who waits in longer silence to show respect—they trigger what Gregory Bateson called **complementary schismogenesis**. Imagine a dual-control electric blanket wired backward: the colder you get, the higher you turn your dial, which overheats your partner, who cranks theirs down, freezing you further. Every good-faith correction escalates the misread until both sides walk away convinced the other is rude or cold.\n- **Four Gears & The Metacommunication Trap:** Most people only notice volume and interruptions, missing the quieter gears that cause just as much friction: **indirectness** (softened refusals and hints that work smoothly only when both speakers share the code) and **framing** (using pitch or playful jabs to signal teasing or irony rather than literal attack). Notice the counterintuitive trap Tannen exposes: abruptly confronting a style clash head-on (\"What did you mean by that?\") rarely clarifies anything—it puts the other person on trial (\"What do you mean what do I mean?!\"). A light, indirect shift of one gear—matching their pace a notch up or pausing a beat longer—tests the water without lighting a match.\n- **Epistemic Boundary & Bridge to Tuesday:** Tannen's descriptive linguistics carries one serious blind spot: framing everything as \"just style\" can quietly excuse someone who holds real power over you. You cannot see \"good faith\" from the outside. That exact limit is why the triage table has a second row—and why Tuesday brings in William Torbert to examine what happens when someone is acting in good faith yet wielding power without noticing the weight of their own hand."
+    },
+    {
+     "id": "w4.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+     "md": "- **Plain-English Decision Rule:** Run the **Topic-Survival + Light-Shift Test**: after an overlap, check *whose topic survived*. Cooperative overlap keeps your thread alive; hostile interruption hijacks the floor to pivot elsewhere. Adjust your pace or tone by one notch before lecturing anyone on style.\n- **Office Dojo Worked Example:** A fast-talking colleague finishes your thought mid-sentence while keeping your exact point alive. Rather than snapping \"Let me finish,\" shift your cadence one notch faster to hold the floor smoothly and build on the momentum.\n- **Personal Dojo Worked Example:** A friend says \"Sure, if you want to go there\" in a flat tone. Test the indirect frame lightly without accusing them of sulking: \"Sounds like you'd rather try somewhere else—what are you in the mood for?\"\n- **Non-Example (Failure Mode):** A colleague cuts across you *only* when you raise budget risks, pivoting straight to their own agenda every time. Your topic never survives—that is Diversion, not high-involvement enthusiasm."
+    },
+    {
+     "id": "w4.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+     "md": "### Layer 3 · Optional Deepening — Aneta Pavlenko (Emotions and Multilingualism)\n\nCiting Tannen, Pavlenko notes that shared cultural histories build **rhythmic synchrony** into how speakers time turns and signal solidarity. Across languages, the exact same **tag question** or enthusiastic overlap can broadcast warmth and alignment in Rioplatense Spanish while landing as pushiness or challenge inside a high-considerateness US corporate room."
+    },
+    {
+     "id": "w4.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+     "md": "- **Handoff:** Run Tannen's four-gear check first on Friday's Three Codex Entries before calling any friction a blind spot or a tactic.\n\nThe Socratic deck for W4 is in this week's Lab day."
+    }
+   ],
+   "author": "Style (Tannen)"
+  },
+  {
+   "id": "tue",
+   "label": "Tue",
+   "title": "William Torbert: Power Used Without Noticing",
+   "cards": [
+    {
+     "id": "w4.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "William Torbert: Power Used Without Noticing",
+     "md": "### William Torbert: Power Used Without Noticing\n\n- **The Hammer vs. The Open Hand:** Monday cleared away innocent gear clashes; Tuesday maps the middle ground where most workplace injuries actually happen—**good faith paired with unexamined power**. In *Action Inquiry*, William Torbert separates conventional \"outside-in\" power, which strikes the world like a hammer on a nail, from **transforming (mutual) power**, which paradoxically draws its force from the actor's own willingness to be changed by the encounter. Between those poles sit four distinct engines: **unilateral power** (force, rank, or rule—legitimate temporarily in a genuine emergency when there is no time, yet incapable of generating lasting transformation), **referent power** (generated not by the power-wielder but by the power-yielder through \"the consent of the governed\"—asking rather than telling), **logistical power** (reasoning systematically within a structure to build coherent systems or procedures), and **transforming power** (mutual inquiry that leaves both sides open to correction).\n- **How Legitimate Power Turns Into a Blind Spot:** A blind spot rarely announces itself as malice. It shows up when a leader or peer uses unilateral or logistical power out of habit—closing a topic with \"that's the policy,\" smoothing over dissent with \"I'm sure we all agree,\" or reassigning your deliverable without asking—without noticing the relational cost. The counterintuitive trade-off cuts both ways: if you respond to a blind spot with a cold White Belt consequence or counter-attack, you mirror their unilateral force and lock them into defense; if you stay silent out of Diplomat deference, the blind spot hardens into the new normal.\n- **Power Asymmetry & Bridge to Wednesday:** Torbert insists that action inquiry is not reserved for executives—even from lower positional power, pairing a shared goal with an observable fact and genuine openness to being corrected invites mutuality. Still, Torbert's frame assumes the other person *will* adjust once they see the impact. What happens when you name a pattern lightly and—instead of surprise or adjustment—you hit denial, evasion, or a counter-attack on your tone? That exact reaction is the dividing line into Wednesday's third row: George Simon's covert tactics."
+    },
+    {
+     "id": "w4.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "William Torbert: Power Used Without Noticing",
+     "md": "- **Plain-English Decision Rule:** Use **Power-Calibrated Naming**: laterally with peers or friends, keep it plain (\"I notice X, and I wonder how we want to decide this\"). Upward across a hierarchy, anchor in a shared goal plus an objective fact plus genuine openness (\"I want to support your goal on X; I noticed we finalized Y—am I missing a constraint?\").\n- **Office Dojo Worked Example:** A senior lead reassigns your deliverable in group chat without asking. Upward check: \"I saw the handoff note on Project X—I want the transition clean. Are you taking over client review too, or should I still own that piece?\"\n- **Personal Dojo Worked Example:** A friend books a restaurant for both of you without checking. Lateral check: \"I love that you handled the reservation—next time can we pick the spot together? I've been craving somewhere quieter.\"\n- **Non-Example (Appropriate Unilateral Power):** A team lead cuts off debate ten minutes before a hard regulatory filing deadline to ship Version B and debrief tomorrow. That is timely emergency action, not a blind spot."
+    },
+    {
+     "id": "w4.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "William Torbert: Power Used Without Noticing",
+     "md": "### Layer 3 · Optional Deepening — Gregory Bateson (Steps to an Ecology of Mind)\n\nBateson dismantles the illusion that lower positional rank equals helplessness: *\"Perhaps there is no such thing as unilateral power.\"* Even the person nominally \"in power\" depends continuously on incoming information from the room and must trim their next move to how others respond. Because influence is always an interaction rather than a one-way line, one calm, non-defensive inquiry from below alters the feedback loop far more than people assume."
+    },
+    {
+     "id": "w4.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "William Torbert: Power Used Without Noticing",
+     "md": "- **Handoff:** Whenever authority, procedure, or rank closes a topic without asking on Incident #1, test **Blind Spot** first on Friday's Three Codex Entries before escalating to tactic tools.\n\nThe Socratic deck for W4 is in this week's Lab day."
+    }
+   ],
+   "author": "Blind Spot & Power (Torbert)"
+  },
+  {
+   "id": "wed",
+   "label": "Wed",
+   "title": "George K. Simon Jr.: The Chapter on Tactics",
+   "cards": [
+    {
+     "id": "w4.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "George K. Simon Jr.: The Chapter on Tactics",
+     "md": "### George K. Simon Jr.: The Chapter on Tactics\n\n- **Fingerprints Without a Smoking Gun:** Monday and Tuesday assumed good faith until proven otherwise; Wednesday installs the circuit-breaker for when good faith is absent. In *In Sheep's Clothing*, George K. Simon Jr. catalogs the recurring moves covert aggressors use to win while leaving no visible fingerprints. Every tactic shares two structural signatures: **built-in plausible deniability** (packaged as humor, confusion, care, or hurt so you look unreasonable if you call it out) and **functional persistence** (the moment you block one move, they pivot smoothly to another rather than addressing the concrete issue).\n- **Four Functional Families & The Incident #1 Light Test:** Memorizing fifteen isolated tactic names stalls in a live room; grouping Simon's starter codex into four functional families gives you under-two-second recognition—**Reality Distortion** (denial, omission, feigning ignorance, rationalization), **Attention & Blame** (diversion, selective inattention, projecting blame), **Moral & Emotional Hooks** (guilt-tripping, shaming as a joke, playing or vilifying the victim, playing servant), and **Direct & Sweetened Leverage** (covert intimidation, brandishing anger, and **Seduction**—flattery about your intelligence right before an ask). To separate a genuine mistake from a tactic without becoming paranoid, run the **Rule of Repetition** paired with the **Incident #1 Light Test**: offer one crisp, neutral check. Surprise followed by adaptation clears the room as Style or Blind Spot; denial, evasion, or turning your check into an indictment of your tone confirms a Tactic.\n- **The Shadow of Tactic-Vision & Dark-Side Literacy:** Keep Simon's sharpest guardrail bolted to your wrist: **read the tactic, not the type**. Polished Achievers use tactics; frightened people of any stage can look aggressive. Apply the Dojo's Dark-Side Literacy rule to yourself too: as you log each tactic in your Codex, note **your own temptation**—the exact moment you feel the pull to rationalize a miss, divert an uncomfortable question, or soften a boundary with flattery. Seeing your own shadow keeps tactic-literacy from mutating into cynicism, and sets up W5's exact craft: delivering a clean no and an unexplained preference without handing a pusher extra reasons to cross-examine."
+    },
+    {
+     "id": "w4.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "George K. Simon Jr.: The Chapter on Tactics",
+     "md": "- **Plain-English Decision Rule:** Run the **Incident #1 Light Test**: deliver one neutral, fact-anchored check (\"I want to make sure we're still on for Friday\"). Watch the next beat—ownership and adjustment clear it; deflection, amnesia, or counter-blame confirm a tactic.\n- **Office Dojo Worked Example (Seduction):** \"You're the sharpest analyst here—can you absorb my Q3 reconciliation too?\" Response: \"Thanks for saying that. I can't take on Q3 reconciliation this week.\"\n- **Personal Dojo Worked Example (Mind-Reading):** \"You're clearly just angry and overreacting because of work.\" Response: \"I'd rather tell you what I feel than have it read for me. What bothered me was cancelling ten minutes before we met.\"\n- **Non-Example (Good-Faith Confusion vs. Feigning Ignorance):** A coworker says \"Oh, I didn't realize you needed it Tuesday,\" checks their calendar, owns the miss (\"My mistake—I wrote Thursday. I'll send sections 1–2 tonight\"), and delivers. No deniability, no shift of blame."
+    },
+    {
+     "id": "w4.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "George K. Simon Jr.: The Chapter on Tactics",
+     "md": "### Layer 3 · Optional Deepening — Penelope Brown & Stephen C. Levinson (Politeness)\n\nBrown and Levinson expose the exact linguistic engine powering Simon's deniability: **Off-Record strategies** (hints, irony, understatement, rhetorical jabs). By designing an utterance with more than one attributable intention, the speaker avoids the inescapable accountability of going on record—if challenged, they can claim *you* chose the harsh interpretation rather than treating it as a trivial remark. Knowing the mechanics breaks the spell: stop debating what they \"meant\" and respond strictly to the concrete behavior."
+    },
+    {
+     "id": "w4.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "George K. Simon Jr.: The Chapter on Tactics",
+     "md": "- **Handoff:** Use the four-family map and behavior-only logging to complete Friday's Three Codex Entries (work, pushing friend, and someone interpreting your feelings).\n\nThe Socratic deck for W4 is in this week's Lab day."
+    }
+   ],
+   "author": "Covert Tactics (Simon)"
+  },
+  {
+   "id": "lab",
+   "label": "Thu/Fri",
+   "title": "Tactic Codex Entries",
+   "cards": [
+    {
+     "id": "w4.lab.deck",
+     "kind": "check",
+     "label": "Socratic Deck",
+     "title": "Socratic Deck",
+     "md": "",
+     "tools": [
+      "deck.white.w4"
+     ]
+    },
+    {
+     "id": "w4.lab.tool1",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Three Starter Codex Entries (W4 Deliverable)",
+     "md": "### Three Starter Codex Entries (W4 Deliverable)",
+     "tools": [
+      "form.white.w4"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

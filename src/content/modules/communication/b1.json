@@ -1,0 +1,202 @@
+{
+ "id": "b1",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B1",
+ "title": "The Baseline",
+ "subtitle": "Read only changes from a person's normal — never their normal as a tell.",
+ "guardrail": "Surveillance vs. Care: In the office dojo, baselining prevents you from misreading a habit as a threat. In the personal dojo, baselining is for care — noticing when a friend is off so you can ask gently, never to 'catch' them.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Hughes | First-Minute Silent Sweep (30–60s) & Cluster Rule |\n| Tue | Part 2 · DePaulo & Bond | Camera Test (Observable vs. Mind-Reading) |\n| Wed | Part 3 · Ekman & Matsumoto | 6 Display Rules & Cultural Context Filter |\n| Thu | Deliberate Practice Lab | Camera Linter + 30s Sweep + Cluster Drill |\n| Fri | Deliverable Workshop | Three Camera-Clean Baseline Cards |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "The Baseline and the Cluster",
+   "cards": [
+    {
+     "id": "b1.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Baseline and the Cluster",
+     "md": "Most people read body language the way an amateur listens to an unfamiliar engine: they hear one rattle, panic, and name a broken transmission. In reality, every human body carries a constant **acoustic floor**—habitual posture, resting tension, fidgeting, room temperature, and fatigue. Until you measure that ambient hum, you have no instrument at all; you are merely projecting your own nervous system onto someone else's habits.\n\nSpend the opening 30 to 60 seconds of any encounter taking a **silent sweep** across three visual zones—*Posture & Space*, then *Voice & Pace*, then *Hands & Gaze*—using soft peripheral awareness so your gaze never hardens into an interrogation. You are not hunting for tells; you are photographing what *neutral* looks like for this specific person today. Once that floor is logged, filter out isolated gestures and environmental noise. As Hughes puts it, *\"Without context, we fail. Without clusters, we don't know much.\"* Only when **two or more channels shift simultaneously within seconds of a specific topic** does the needle actually move—and even then, it points strictly to *salience* (\"something about that topic carries live charge\"), never to a verdict on character or truth."
+    },
+    {
+     "id": "b1.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Baseline and the Cluster",
+     "md": ":::note Decision Rule\nRun the first-minute silent sweep through soft peripheral vision at the opening of high-stakes talks (Thursday's 30-second speed timer trains the exact 3-zone rhythm), and **abort the read the instant your own White Belt tells fire** (clenched jaw, heat, rushing)—a bracing observer contaminates the room's acoustics before hearing a note. Once you *do* spot a genuine cluster, Tuesday installs the hard scientific ceiling on what it can and cannot prove.\n:::\n\n:::note Office Dojo\nIn a quarterly budget review, your manager normally leans forward, gestures openly, and speaks in crisp, casual contractions. The moment you raise Q3 headcount, three channels snap in unison: she leans back, places her phone directly between you on the table, and drops her contractions (\"We will not be revisiting that\"). You do not jump to \"she's hiding layoffs.\" You log a clean three-channel departure pinned to Q3 headcount—a live wire calling for one calm, low-threat follow-up.\n:::\n\n:::note Personal Dojo\nA close friend normally speaks rapidly with broad, expressive hand gestures. Over coffee, when you ask how work has been, their hands freeze flat on their mug, their voice drops half an octave, and their gaze holds the table for three full seconds before they say, \"It's fine.\" Because you know their animated floor, that sudden stillness reads immediately as a care signal—an invitation to slow down and stay gently with the topic rather than rushing past it.\n:::\n\n:::warn Non-Example\nA colleague sits with crossed arms and bounces their knee for the entire forty-five-minute meeting in a chilly conference room. Never having measured their baseline, you conclude they are closed off and anxious about your proposal—mistaking a normal physical habit and a 65°F thermostat for resistance.\n:::"
+    },
+    {
+     "id": "b1.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Baseline and the Cluster",
+     "md": "**Lens.** *Six-Minute X-Ray* and *The Ellipsis Manual* (practitioner tradecraft). Hughes built his Behavioral Table of Elements to give observers a shared vocabulary for human movement—anchoring everything on one governing premise: **the unit of reading is never a static gesture, but a multi-channel departure from a person's own neutral baseline, tied to a specific moment.**\n\n### Hughes's 6-Channel Baseline & Departure Map\n\n| Channel | Neutral Baseline | Observable Departure | Discard Filter | What It Tells / Cannot Tell |\n|---|---|---|---|---|\n| 1. Posture & Torso | Vertical vs. slumped; shoulders dropped vs. naturally raised; torso angle. | Sudden turtling (shoulders rise), leaning back, or torso blading away. | Cold room or uncomfortable chair. | Tells: comfort/arousal shifted. Cannot tell: why. |\n| 2. Space & Barriers | How much table/room space they claim; objects between you. | Sudden elbow closure, pulling belongings in, placing phone/cup as barrier. | Tight seating or habitual desk setup. | Tells: protective reflex fired. Cannot tell: guilt or hostility. |\n| 3. Pace & Volume | Normal speaking speed, pause length, and volume. | Sudden acceleration, volume drop, or sharp pause right after a question. | Naturally fast/loud speaker or noisy room. | Tells: cognitive load or arousal shifted. Cannot tell: fear vs. excitement. |\n| 4. Verbal Formality | Normal use of contractions, casualness, apology rate. | Sudden formality spike ('No sir, I did not'), dropping contractions, over-apologizing. | Formal setting (HR, court, exec review). | Tells: self-monitoring or psychological distancing. Cannot tell: lying. |\n| 5. Gaze & Blinking | Normal eye-contact rhythm, blink rate, gaze-aversion direction. | Blink-rate spike/drop, confirmation glances, downward break on a topic. | Bright lights, screens, or neurodivergent gaze norms. | Tells: attention or emotional processing shifted. Cannot tell: deception. |\n| 6. Hands & Soothing | Resting hand position (visible/hidden, still/gesturing, habitual fidgeting). | Sudden lip compression, neck/face touching, hand-to-chest, or abrupt gesture freeze. | Habitual stimming, allergies, or boredom. | Tells: self-soothing or impulse suppression. Cannot tell: motive. |\n\n### Optional Deepening · David Brooks (How to Know a Person)\n\nHughes's tradecraft was forged for asymmetric advantage in interrogation rooms; pointed carelessly at colleagues or friends, it turns into surveillance. David Brooks resolves that tension by contrasting **Diminishers**—who scrutinize people *\"as things to be used, not as persons to be befriended\"*—with **Illuminators**, who bring *\"a persistent curiosity\"* and *\"a gaze that is warm, respectful, and admiring.\"* In the personal dojo, run Hughes's 6-channel sweep through the Illuminator's gaze: you learn a friend's acoustic floor not to catch them off-guard, but to notice the exact moment their weight gets heavy so you can sit beside them.\n\n:::note Neurodivergent & Cultural Calibration Rule (Rung 6)\nHughes's system assumes neurotypical Western baselines. For autistic or neurodivergent speakers, rhythmic stimming (fidgeting, rocking, hand movement) is often baseline self-regulation rather than autonomic stress, and averted gaze frequently marks deep auditory focus rather than evasion. Baseline the individual's own regulation habits first, and never treat eye contact as a proxy for honesty or attention.\n:::\n\n:::details Canon notes · Part 1 · Hughes: the baseline and the cluster\n*2*\n\n:::note Lens card\nHughes's full lens card is W3 Part 1. Here only his reading method matters: before any cue means anything, you record what is normal for this person, then read only departures from that baseline, in clusters, tied to a moment. What is distinctive is that the unit of reading is a change, not a gesture. A crossed arm is not a tell; a cluster of changes right after one question is a pointer to that question.\n:::\n\n:::note Why Hughes here\nThis module trains the first minute of reading: a silent sweep, a neutral audit, and the rule that a person's normal is never a sign.\n:::\n\n:::note Native use\nInterrogation, intelligence and sales work, aimed at subjects, often with the goal of an advantage. Pointing it at friends and colleagues for care, not leverage, is this curriculum's move.\n:::\n\n:::note Limit\nPractitioner tradecraft (label: practitioner theory). The baseline-then-change logic is sound as method; the meanings Hughes attaches to specific cues are not tested in the material I used. Part 2 shows what research says about how well anyone reads cues at all.\n:::\n\n### The sweep, as a record and not a verdict\n\n| Channel | What to log as baseline | What a change might mean | What it cannot tell you |\n|---|---|---|---|\n| Posture and space | Resting shoulders, how much room they take | Something about this moment matters | Why it matters |\n| Pace and volume | Their normal speed and loudness | Arousal rose or fell | Whether it is fear, anger, excitement or fatigue |\n| Gaze | Their usual eye-contact pattern | Attention shifted | Whether they are lying |\n| Hands | What they usually do | Self-soothing, or simply a new topic | Intent |\n:::"
+    },
+    {
+     "id": "b1.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Baseline and the Cluster",
+     "md": ":::note Handoff\nUse all 6 rows of this table as the exact six fields of your **Three Baseline Cards** on Friday. Only fill in 'One stress cluster' if you witnessed a true 2+ channel departure tied to a real topic.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your baselines, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B1.p1"
+     ]
+    }
+   ],
+   "author": "Chase Hughes"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "What Cues Can and Cannot Tell",
+   "cards": [
+    {
+     "id": "b1.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "What Cues Can and Cannot Tell",
+     "md": "Monday gave you a clean way to hear when the room's acoustic floor shifts; Tuesday installs the governor that keeps you from hallucinating a story over that shift. Across hundreds of controlled studies, DePaulo and Bond found that human lie-detection accuracy averages **54%**—barely above a coin flip (61% on truths, 47% on lies, skewed by everyday *Truth Bias*). The classic body-language tells people swear by—gaze aversion, fidgeting, posture shifts—carry near-zero statistical correlation with deception.\n\nThe mechanism behind that failure is structural, not a lack of effort: **the Othello Error**. An honest person who fears being blamed, disbelieved, or misread emits the exact same sympathetic stress cluster as a person concealing a lie. Worse, trained professionals do not escape the ceiling (~54–58%); without immediate ground-truth feedback, years of unverified reading simply inflate confidence faster than accuracy. The counter-move is the **Camera Test**: before any observation enters your head as a conclusion, ask, *\"Could a video camera and microphone record what I just wrote?\"* Strip out every motive adjective (*defensive, evasive, annoyed, hiding*) until only raw, timestamped movement and sound remain—paired with one open question to test your guess."
+    },
+    {
+     "id": "b1.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "What Cues Can and Cannot Tell",
+     "md": ":::note Decision Rule\nRun the Camera Test on every single observation you log in B1 and B2; the second a character or motive adjective slips into your notes, stop and rewrite it as raw behavior. Yet even a camera-clean observation still hides one massive blind spot, which Wednesday unpacks: *what if the shift you recorded on camera isn't spontaneous emotion at all, but a learned cultural performance?*\n:::\n\n:::note Office Dojo\nYour first reflex after a tense check-in is to write, \"Marcus got defensive and evasive about the audit deadline.\" Running the Camera Test strips the story down to bedrock: \"When I named Friday's deadline, Marcus's vocal pitch rose, his gaze dropped to his notebook, and he spent 40 seconds discussing another project. Hypothesis: Friday is tight. Question: What's the biggest bottleneck between now and Friday?\"\n:::\n\n:::note Personal Dojo\nA friend cancels dinner two hours beforehand with an unusually long, fast-typed apology. Instead of letting your brain write \"They're lying and pulling away,\" you log the camera facts—longer, faster text than usual plus a two-hour cancellation—hold plural hypotheses (exhaustion, guilt, overwhelm), and reply warmly without cross-examining them.\n:::\n\n:::warn Non-Example\nWatching a colleague glance away while answering, silently deciding \"they're hiding something,\" and subtly sharpening your follow-up questions—manufacturing the exact defensive stress response (the Othello Error) that then 'proves' your suspicion.\n:::"
+    },
+    {
+     "id": "b1.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "What Cues Can and Cannot Tell",
+     "md": "**Lens.** Large-scale empirical meta-analyses (DePaulo et al., 2003, reviewing 158 behavioral cues; Bond & DePaulo, 2006, synthesizing 206 deception studies across 24,000+ judges). Tested research establishing the hard scientific ceiling between **noticing a shift** (Monday) and **knowing why it happened** (Tuesday).\n\n### DePaulo & Bond's Evidence Ledger\n\n| Claim | Empirical Finding | Underlying Mechanism | Blue Belt Rule |\n|---|---|---|---|\n| Specific gestures reveal lying | Not supported. Gaze aversion, fidgeting, posture shifts have near-zero correlation. | Stress, habit, and impression management mimic 'deception cues' (Othello Error). | Never map a body cue to a motive or lie. |\n| People detect lies well above chance | Not supported. Mean accuracy is 54% (61% truths, 47% lies). | Social norms create Truth Bias; everyday lies cause little visible guilt. | Treat every unspoken read as a low-confidence guess. |\n| Voice beats face/body | Modest support. Audible cues yield higher accuracy than visual-only clips. | Vocal tension and verbal detail are harder to stage than faces. | Trust your ear for vocal/verbal shifts over posture myths. |\n| Trained pros do much better | Weak/No support (~54–58%), with higher confidence & lie bias. | Without immediate ground-truth feedback, experience trains confidence, not calibration. | Never confuse high confidence with accuracy; always check back. |\n\n### Optional Deepening · Lisa Feldman Barrett (via Brooks, How to Know a Person)\n\nWhy does the mind leap so effortlessly from *\"they paused for three seconds\"* to *\"they're hiding something\"*? Neuroscientist Anil Seth calls perception *\"a generative, creative act\"*—an *\"action-oriented construction, rather than a passive registration of an objective external reality\"*—and Lisa Feldman Barrett notes that *\"what we see, hear, touch, taste, and smell are largely simulations of the world, not reactions to it.\"* When your own threat system is slightly primed, your brain auto-completes a neutral pause with a threat simulation. The Camera Test is the circuit breaker that catches the simulation before you act on it.\n\n:::note Feedback-Loop Asymmetry & Vocal-Over-Visual Rule (Rung 6)\nWhy don't thousands of interpreting sessions automatically beat DePaulo & Bond's ~54% lie-detection ceiling? Because live interpreting delivers instant *semantic and tonal* feedback—honing your ear for vocal tension, pace, and hesitancy—not objective truth-versus-lie verification. Lean directly into DePaulo & Bond's modest positive finding: **audible cues** (vocal tension, cadence shifts, verbal detail) carry measurably more real signal than silent posture myths.\n:::\n\n:::details Canon notes · Part 2 · DePaulo and Bond: what cues can and cannot tell\n*2*\n\n:::note Lens card\nBella DePaulo, a social psychologist, led large reviews of research on how lies show in behavior, and with Charles Bond Jr. reviewed hundreds of studies of how accurately people judge truth from lies. Their central findings are sobering: most behaviors people believe signal lying are weakly related to it or not at all, and people judging strangers are right only a little more often than chance. What is distinctive is the scale of the evidence: this is the research base under every \"body language\" claim, and it mostly says the cues are faint.\n:::\n\n:::note Why DePaulo and Bond here\nThe module already says a cluster means \"something about that question matters,\" not \"they are lying.\" This part supplies the evidence behind that restraint.\n:::\n\n:::note Native use\nLaboratory and field studies of deception detection, mostly with strangers and short clips. They were not built to test a careful reader who knows a person's baseline over months; that gap is real and cuts both ways.\n:::\n\n:::note Limit\nTested research (meta-analyses). It concerns lie detection specifically, not reading emotion or stress in general, and most studies use strangers. Knowing someone well may help, but the reviews give little support to confident claims of reading deception from the body.\n:::\n\n### What the research supports\n\n| Claim | Status |\n|---|---|\n| Specific gestures reliably reveal lying | Not supported; most such cues are weak or absent |\n| People detect lies from behavior well above chance | Not supported; accuracy is only slightly above chance |\n| A change in behavior shows something mattered to the person | Plausible, and modest; it does not say what |\n| Experts and trained professionals do much better | Weak support in the reviews (interpretation of their summaries) |\n:::"
+    },
+    {
+     "id": "b1.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "What Cues Can and Cannot Tell",
+     "md": ":::note Handoff\nAudit every word on your Friday **Three Baseline Cards** through the Camera Test (and run Thursday's live Camera-vs-Story Linter) until your purity score hits 100%.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your reads, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B1.p2"
+     ]
+    }
+   ],
+   "author": "Bella DePaulo & Charles Bond Jr."
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Display Rules Across Cultures and Contexts",
+   "cards": [
+    {
+     "id": "b1.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Display Rules Across Cultures and Contexts",
+     "md": "Even when you lock a clean baseline (Monday) and strip out mind-reading stories (Tuesday), you can still misread a person completely if you measure their face and voice against *your* culture's acoustics instead of *theirs*. Every society installs **display rules**—social volume knobs that alter how an inner state reaches the surface depending on whether the room is public or private, and whether you are in-group or out-group.\n\nThose rules operate through six concrete modifications: **Express** (show unmodified), **Amplify** (turn the volume up, as in warm peer solidarity), **Deamplify** (dial down for workplace composure), **Neutralize** (drop to a flat poker face in public authority), **Qualify** (layer a smile onto a refusal to soften the blow), and **Mask** (cover frustration or shame behind politeness). Whenever a face or tone surprises you, run a two-second **Context Check** before forming a hypothesis: *(1) Which of the six display-rule moves might be running right now? (2) Who am I to them in this room—public or private, peer or hierarchy?*"
+    },
+    {
+     "id": "b1.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Display Rules Across Cultures and Contexts",
+     "md": ":::note Decision Rule\nUse display rules to **widen your definition of normal**, never to stereotype by nationality. When closeness allows, check someone's display rules directly in plain words (\"I'm terrible at reading poker faces—when you're actually annoyed versus just tired, what does it look like for you?\"). Carry this calibrated acoustic floor forward into **B2**, where you will read which way the wind is blowing right now without mistaking a habit or display rule for a currency.\n:::\n\n:::note Office Dojo\nYou report a project delay to a senior director during a ten-person team review. Her face stays completely flat (Neutralize) and she says briskly, \"Noted—let's keep moving.\" Rather than reading icy rage, you recognize public-meeting neutralization protecting the room's composure, and follow up 1-on-1 afterward to get her unfiltered read.\n:::\n\n:::note Personal Dojo\nA friend from a high-restraint background smiles softly while declining your dinner invitation (Qualify / Mask) instead of offering an animated, apologetic story. Rather than reading insincerity or coldness, you hear a harmony-preserving boundary and accept their no with warmth.\n:::\n\n:::warn Non-Example\nTurning a cultural lens into a rigid national stereotype—assuming every colleague from a given country *always* neutralizes anger, and therefore overlooking an individual colleague's actual personal baseline.\n:::\n\n:::dialect Translation strip · displayQ\n@office_us \"Quick check so I don't misread you — when you're actually concerned vs. just focused in a review, what does that usually look like?\"\n@personal_us \"I'm terrible at reading poker faces — when you're actually annoyed vs. just tired, what does it look like for you?\"\n@rioplatense \"Che, soy malísimo leyendo caras serias — cuando estás realmente molesto vs. solo cansado, ¿cómo se te nota?\"\n@espana \"Oye, a veces me cuesta leer gestos — cuando algo te molesta de verdad frente a cuando solo estás cansado, ¿cómo sueles mostrarlo?\"\n:::"
+    },
+    {
+     "id": "b1.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Display Rules Across Cultures and Contexts",
+     "md": "**Lens.** Ekman & Friesen (1969) and Matsumoto's 32-country Display Rule Assessment Inventory (DRAI). Tested cross-cultural questionnaire research demonstrating that every culture teaches implicit rules governing **which emotions may be shown, how loudly, to whom, and in which rooms.**\n\n### Ekman & Matsumoto's 6 Display-Rule Moves\n\n| Display-Rule Move | What They Do | Common Trigger | Misread (Your Rules) | Read (Their Rules) |\n|---|---|---|---|---|\n| 1. Express | Show the feeling unmodified. | Private setting or close in-group. | 'Too raw' or 'unprofessional.' | Trust, closeness, or high-expressivity norm. |\n| 2. Amplify | Show more than felt. | Warm hospitality, expressive peer norms (e.g., Rioplatense friends). | 'Overreacting' or 'aggressive.' | Enthusiasm, solidarity, active engagement. |\n| 3. Deamplify | Show less than felt. | Professional offices, hierarchy, modesty norms. | 'Unenthusiastic' or 'bored.' | Composure, politeness, measured respect. |\n| 4. Neutralize | Show nothing (flat affect / poker face). | Public bad news, formal authority, high-restraint cultures. | 'Cold' or 'stonewalling.' | Dignity, self-control, protecting the room. |\n| 5. Qualify | Show feeling + a second cue (smiling while stating irritation). | Softening disagreement or refusal to preserve face. | 'Passive-aggressive' or 'not really upset.' | Caring about the bond while delivering hard news. |\n| 6. Mask | Hide feeling behind a different expression (smiling through shame/anger). | High-context refusal, subordinate-to-boss settings. | 'Insincere' or 'totally fine with it.' | Face-saving politeness; check words and context. |\n\n### Optional Deepening · Aneta Pavlenko (Emotions and Multilingualism)\n\nAneta Pavlenko pushes display rules one layer deeper for bilingual lives: languages do not merely apply different volume knobs to identical feelings—they carry distinct **relational emotion scripts**. She notes how Russian relational verbs like *serdit'sia* and *obizhat'sia* presuppose an ongoing close bond and impending reconciliation; when enacted in an English-dominant household without those scripts, partners misread a normal bid for reconnection as *\"pouting\"* or *\"overreacting.\"* For a bilingual person, switching between Spanish and English can shift the emotional script itself—meaning a fair Baseline Card for a bilingual friend may legitimately look different in each language.\n\n:::note The Faces Debate: Ekman vs. Barrett — What Survives? (Rungs 1 & 6)\nBasic Emotion Theory (Ekman) argues a core set of facial expressions is biologically universal and then edited by cultural display rules. Constructed Emotion Theory (Lisa Feldman Barrett) argues facial muscles do not map 1-to-1 onto fixed emotions—a scowl can signal anger, deep concentration, or bright sunlight—and emotions are constructed from context and concepts. What survives **both** camps for Blue Belt is rock-solid: *(1) observable shifts in arousal/valence against a personal baseline, (2) cultural display rules shaping what is appropriate to show, and (3) checking context rather than decoding isolated faces.*\n:::\n\n:::details Canon notes · Part 3 · Ekman and Matsumoto: display rules\n*2*\n\n:::note Lens card\nPaul Ekman and Wallace Friesen proposed in the late 1960s that cultures teach display rules: norms about which feelings may be shown, to whom and how strongly. David Matsumoto later studied display rules across many countries. Their work on facial expression also argued that some expressions are recognized across cultures, a claim that later research, for example by Lisa Feldman Barrett and colleagues, has challenged. What is distinctive for this module is the display-rule idea: the same feeling can be shown loudly in one culture and masked in another, so a baseline is partly a cultural fact.\n:::\n\n:::note Why Ekman and Matsumoto here\nThe module's concept of cultural baselines needs a mechanism. Tannen, whose full card is W4 Part 1, covers pace and overlap; display rules cover the face and the body.\n:::\n\n:::note Native use\nCross-cultural research on emotional expression, with posed photos and self-report questionnaires on what people think is appropriate to show.\n:::\n\n:::note Limit\nDisplay rules are well supported as a concept (label: tested research, mostly questionnaire-based). The stronger claim that facial expressions map reliably onto specific emotions is contested. Use display rules to widen your idea of \"normal,\" not to decode faces.\n:::\n\n### Three ways to misread across display rules\n\n| What you see | Reading against your own rules | Reading against theirs |\n|---|---|---|\n| A flat face during bad news | Cold, or not affected | Respect, or composure expected in public |\n| Loud, animated disagreement | Hostility | Engagement among equals |\n| A smile while refusing | Agreement, or insincerity | Politeness that softens a no |\n:::"
+    },
+    {
+     "id": "b1.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Display Rules Across Cultures and Contexts",
+     "md": ":::note Handoff\nAdd a one-line **Context & Display-Rule Note** at the bottom of each Friday Baseline Card noting setting (public/private) and likely display rule—then carry those exact people into B2's Hypothesis Cards.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your guesses or your ratings.",
+     "tools": [
+      "rungs.blue.B1.p3"
+     ]
+    }
+   ],
+   "author": "Paul Ekman & David Matsumoto"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "The baseline",
+   "cards": [
+    {
+     "id": "b1.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The baseline",
+     "md": "**The baseline.** Before you interpret anything, record what is normal for this person: posture, pace, volume, gaze, hands, how much space they take. Then read only changes from that baseline.\n\n### Concepts\n\n1. **The silent sweep (Curriculum, Layer 2 Module 1, from Hughes).** In the first minute, without staring, take in: resting posture (raised or dropped shoulders), how much space they claim, speaking pace and volume, eye contact pattern, what their hands do. Log it as *neutral for this person*.\n2. **The neutral audit.** If someone is naturally fidgety or fast, that is their baseline, not a tell. The most common reading error is calling a person's normal a sign.\n3. **Clusters, not single cues.** Hughes' deception and stress indicators are useful only as a *change from baseline*, in clusters, in context (Source: 6MX pp. 163, 172–180, as reported). One crossed arm means nothing. A sudden cluster after a specific question means \"something about that question matters\" — not \"they are lying\".\n4. **Cultural baselines.** A baseline is also cultural. Tannen's high-involvement speakers overlap and talk fast as a sign of engagement; high-considerateness speakers leave long pauses as respect (Source: That's Not What I Meant! pp. 47–56, as reported). Rioplatense conversation among friends often runs high-involvement; a quiet English-speaking colleague's pause is not coldness. Read the person against their own culture's normal before against yours.\n5. **Read yourself too.** Your White Belt tell list is your own baseline. A read is always two baselines: theirs and yours. If your jaw is tight, your read is suspect.\n\n**What you bring.** You already baseline voices. Extend it to bodies and to the room."
+    },
+    {
+     "id": "b1.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The baseline",
+     "md": ":::note Drill\nThe silent sweep. In a public, low-stakes place (a café, the train, the gym floor), take a 30-second sweep of one person: posture, pace, space, hands. Then look away and say to yourself one sentence of baseline. Never stare; if you cannot do it without changing your own behavior, it is not yet automatic.\n:::\n\n:::note Office dojo\nIn the first minute of a meeting or video call, take the sweep of the person who matters most to the outcome. Write their baseline in the margin.\n:::\n\n:::note Personal dojo\nDo it as noticing, not cataloguing: what does this friend look like when they are at ease? You will need that picture to notice when they are not, and to ask about it gently.\n:::"
+    },
+    {
+     "id": "b1.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The baseline",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats a cue as | Would worry that you... |\n|---|---|---|---|\n| Hughes | The person's own normal | A departure worth noticing | Read a habit as a tell |\n| DePaulo and Bond | Hundreds of studies | Weak evidence about motive | Trust a confident read |\n| Ekman and Matsumoto | Cultural norms for showing feeling | Partly a cultural performance | Use your own culture's normal for everyone |\n\n**Where they meet.** All three narrow what a cue can mean. A change says something mattered; culture shapes how it shows; the reviews say the motive behind it is rarely readable from the body alone.\n\n**Where they collide.** Hughes's tradecraft is confident about specific cues; the deception reviews are not. The module sides with the reviews by asking you to check reads back, which is Blue Belt's next module.\n\n**What the three miss for you.** You read voices across two languages for a living. None of the three studies interpreters, who read a speaker against two sets of rules at once.\n\n**Where it sits in your own frameworks.** Body and Mind in your Orders Grid. In somatic terms, your own arousal colors every read. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Does knowing someone help? | Does accuracy in reading deception or stress improve with long familiarity, and what does the research say about close relationships? | The reviews mostly use strangers | One thread, researched with the research-brief skill |\n| 2. Interpreters as readers | Is there research on interpreters' perception of speakers' emotional states? | Your own expertise is the untested case | One thread, with a critic pass |\n| 3. The faces debate | What is the current state of the debate between universal expressions and constructed emotion? | Part 3 rests on a contested base | Full deepening of Part 3 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B1, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b1.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Three baseline cards",
+     "md": "**Three baseline cards.** For three people you see often (one colleague, one friend, one person in a service setting you see repeatedly), write a card: posture, pace, volume, gaze, space, hands, and one thing that changes when they are stressed (only if you have actually seen it).\n\n**Watch for.** Using the baseline to catch people. In the personal dojo, the baseline is for care: noticing when someone is off so you can ask.\n\n:::note Prompt\nPick one person you see weekly. Before Friday, note: (1) Your own W1 body state when around them; (2) Two observable baseline habits; (3) One cultural/context display rule they likely use in that setting.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Camera Linter + 30s Sweep + Cluster Drill",
+   "cards": [
+    {
+     "id": "b1.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Camera Linter + 30s Sweep + Cluster Drill",
+     "md": "**Deliberate Practice Lab** · Camera Linter + 30s Sweep + Cluster Drill",
+     "tools": [
+      "linter.blue.camera",
+      "timer.blue.sweep",
+      "drill.blue.B1.B1_clusters"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Three Camera-Clean Baseline Cards",
+   "cards": [
+    {
+     "id": "b1.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Three Camera-Clean Baseline Cards",
+     "md": ":::note Deliverable Spec · Three baseline cards\nFor three people you see often (one colleague, one friend, one person in a service setting you see repeatedly), write a card: posture, pace, volume, gaze, space, hands, and one thing that changes when they are stressed (only if you have actually seen it).\n\n**Watch for.** Using the baseline to catch people. In the personal dojo, the baseline is for care: noticing when someone is off so you can ask.\n:::",
+     "tools": [
+      "form.blue.B1"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

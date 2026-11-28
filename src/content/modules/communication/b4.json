@@ -1,0 +1,200 @@
+{
+ "id": "b4",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B4",
+ "title": "Which Conversation Is This?",
+ "subtitle": "Match practical, emotional, or social first — ask calibrated deep questions, and loop for understanding.",
+ "guardrail": "Surveillance vs. Care: Never use deep questions as the 'anonymous listener's armor' (asking brilliant questions while offering nothing back). And remember: a correction after a loop is a 100% win, not an Expert failure.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Charles Duhigg | 3 Conversations, Shift Clues & Natural Meta-Questions |\n| Tue | Part 2 · David Brooks | Illuminator Posture, Question Tiers & Give-One-to-Ask-One |\n| Wed | Part 3 · Carl Rogers | Natural 3-Beat Loop, Parrot vs. Over-Interpret & Corrections |\n| Thu | Deliberate Practice Lab | 6-Dialogue Conversation-Type & Mid-Stream Shift Detector |\n| Fri | Deliverable Workshop | Five Loops Log (Confirmed & Corrected) |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Three Conversations and the Matching Principle",
+   "cards": [
+    {
+     "id": "b4.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Three Conversations and the Matching Principle",
+     "md": "Even a brilliant B3 need-level answer will bounce off the wall if you deliver it from the wrong lane of a **three-lane highway**. When an exchange suddenly turns circular, tense, or exhausting, most people assume they have a content disagreement and press harder with logic. Usually, they have a **lane mismatch**. Duhigg maps meaningful human talk onto three distinct tracks: **Practical** (*What's this really about? What's the plan?*), **Emotional** (*How do we feel? Do you hear what I'm carrying?*), and **Social** (*Who are we? Where do I stand in your eyes?*). At the opening of every talk, both people run a **quiet negotiation**—testing topics, tone, and bids to settle which lane they are in and what rules govern the road.\n\nThe **Matching Principle** states that *\"effective communication requires recognizing what kind of conversation is occurring, and then matching each other.\"* Matching is not mechanical mimicry; it is merging into their lane for at least two full turns before proposing a lane change. The signature failure for skilled problem-solvers is the **Fixer Trap**: someone merges into the Emotional lane to be heard, and you answer from the Practical lane with a three-step action plan—leaving them feeling brushed off rather than helped. Equally treacherous is the hidden **Social shift**: the instant someone feels their competence, identity, or standing is on trial, a Practical meeting silently becomes a Social conversation, and no spreadsheet or timeline will land until you acknowledge who they are first."
+    },
+    {
+     "id": "b4.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Three Conversations and the Matching Principle",
+     "md": ":::note Decision Rule\nRun a silent 3-lane check in the first sixty seconds and match their lane whenever circularity or tension appears; ask a natural meta-question (\"Want to brainstorm, or mostly just sit with you in this?\") when the lane is unclear, and skip formal meta-questions when the lane is already obvious. Once you have merged into the right lane, Tuesday exposes the next trap waiting for skilled listeners: *how do you open the conversation with genuine curiosity without hiding behind tinted glass as an anonymous interviewer?*\n:::\n\n:::note Office Dojo\nA colleague says, \"The client moved the audit scope again—I don't know how they expect me to pull this off by Thursday.\" Catching an Emotional opening wrapped inside a Practical topic, you merge before fixing: \"That sounds maddening—moving the goalposts two days out is rough. Want to vent for a minute, or jump into how to push back on Thursday?\"\n:::\n\n:::note Personal Dojo\nA friend says, \"You've been so busy lately, I guess I don't know where I fit anymore.\" It wears Practical clothing (calendars), but it is a Social conversation (Who are we?). You drop the schedule immediately: \"Hey—you matter a ton to me, and I hate that my schedule made you feel sidelined. Let's talk about us first, then look at dates.\"\n:::\n\n:::warn Non-Example\nYour friend vents about a brutal work week (Emotional), and you cut straight across the median with \"Have you tried blocking your calendar and telling your boss no?\" (Practical fix)—turning a bid for presence into an unsolicited performance review.\n:::\n\n:::dialect Translation strip · metaQ\n@office_us \"Are we trying to land a decision today, or still mapping options?\"\n@personal_us \"Do you want me to brainstorm with you, or mostly just sit with you in this?\"\n@rioplatense \"Che, ¿querés que pensemos qué hacer o solo descargarte un rato?\"\n@espana \"Oye, ¿te apetece que busquemos opciones o prefieres simplemente desahogarte un rato?\"\n:::"
+    },
+    {
+     "id": "b4.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Three Conversations and the Matching Principle",
+     "md": "**Lens.** *Supercommunicators: How to Unlock the Secret Language of Connection* (2024; popular synthesis drawing on neural entrainment and communication research). The three-conversation typology is Duhigg's framing of a well-documented phenomenon: real connection occurs when two nervous systems synchronize—becoming *\"neurally entrained\"*—and collapses when two people unknowingly hold different kinds of conversations at the same time.\n\n### Duhigg's Three Conversations — Clues, Traps & Natural Meta-Questions\n\n| Conversation Type | Clues to Spot It | Classic Mismatch | Match-First Move | Natural Meta-Question (EN / ES) |\n|---|---|---|---|---|\n| 1. Practical ('What's this about?') | Timelines, budgets, options, 'What's the plan?' | Long emotional processing when they need a crisp decision. | Name the decision, options, and concrete next step. | 'Landing a decision today or mapping options?' / '¿Lo resolvemos ahora o lo vamos viendo?' |\n| 2. Emotional ('How do we feel?') | Venting, heavy sighs, repeating frustration, 'I'm wiped.' | Jumping straight to advice or 3-step fix (The Fixer Trap). | Slow down; give 1–2 sentences to the feeling; loop once. | 'Want to brainstorm or mostly sit with you in this?' / '¿Pensamos qué hacer o solo descargarte?' |\n| 3. Social ('Who are we?') | Status, fairness, 'people like me,' defensiveness over accent/competence. | Arguing spreadsheets while their identity feels on trial. | Acknowledge who they are & your respect BEFORE facts. | 'Want to be sure we're on the same side — how's this landing?' / 'Quiero asegurarme de que tiramos para el mismo lado.' |\n\n### Optional Deepening · Lisa Feldman Barrett (via Duhigg, Supercommunicators)\n\nWhen should you *not* match someone's emotional volume? Lisa Feldman Barrett (via Duhigg, *Supercommunicators*) separates raw emotional mirroring from **instrumental support**—staying steady enough to help the other person co-regulate. Her rule is **pace, then lead**: briefly entrain with their affect so they feel met in their lane, then gradually slow your own cadence and drop your vocal pitch so their nervous system can steady alongside yours.\n\n:::note 4 Observable Mid-Stream Shift Signals (Practical -> Social/Emotional)\nReal conversations rarely announce a lane change. Watch for four camera-clean shift clues that a Practical talk has flipped into Social or Emotional: *(1)* sudden postural stiffness, volume drop, or formal wording; *(2)* repeating the exact same point louder or slower (the universal signal of feeling unheard); *(3)* pronouns shifting from 'the project / timeline' to 'you / I / people like me'; and *(4)* pulling in past grievances or outside allies. The instant a shift fires, pause the facts and merge into the new lane.\n:::\n\n:::details Canon notes · Part 1 · Duhigg: three conversations and the matching principle\n*1*\n\n:::note Lens card\nCharles Duhigg, a journalist, wrote *Supercommunicators* (2024), drawing on research and stories about people who connect well. His claim is that most discussions are one of three conversations, practical, emotional or social, and that connection fails when two people are in different ones. The matching principle says to notice which one the other person is in and meet them there first. What is distinctive is that the remedy is a question about the conversation itself: are we venting or fixing?\n:::\n\n:::note Why Duhigg here\nThis module is built on his three conversations and his idea of looping for understanding.\n:::\n\n:::note Native use\nPopular nonfiction for general readers, synthesizing research and interviews.\n:::\n\n:::note Limit\nJournalism that draws on studies (label: popular synthesis). The three-conversation split is his framing; some of the research he draws on is tested, but the framework as a whole is not. Real conversations shift between types quickly.\n:::\n\n### Mismatches and the first move\n\n| They are in | You answer with | What it feels like to them | Match first with |\n|---|---|---|---|\n| Emotional | A practical fix | Not heard | One sentence to the feeling |\n| Practical | Feelings talk | Slowed down | A concrete next step |\n| Social (identity) | Facts | Dismissed as a person | Acknowledging who they are |\n:::"
+    },
+    {
+     "id": "b4.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Three Conversations and the Matching Principle",
+     "md": ":::note Handoff\nLog the **Conversation Type** (and any mid-stream shift) at the top of each of your **Five Loops** on Friday.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your labels or your ratings.",
+     "tools": [
+      "rungs.blue.B4.p1"
+     ]
+    }
+   ],
+   "author": "Charles Duhigg"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+   "cards": [
+    {
+     "id": "b4.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+     "md": "If Monday taught you which lane to merge into, Tuesday confronts the **Anonymous Listener's Armor**—the habit of asking sharp, insightful questions while keeping your own window rolled all the way up. In *How to Know a Person*, Brooks observes that *\"everyone in a conversation is facing an internal conflict between self-expression and self-inhibition. If you listen passively, the other person is likely to become inhibited.\"* Deadpan, clinical stillness doesn't read as neutrality; it reads as a one-way mirror.\n\nIlluminators break that inhibition through two practices: **Accompaniment**—moving softly without rushing to fix, marked by patience, playfulness, other-centeredness, and presence—and **Loud Listening**, treating attention like *\"the host of a dinner party\"* whose warm facial responsiveness and small affirmations actively invite the guest to keep speaking. Pair that hospitality with calibrated questions matched to relationship depth: **Commonality** questions for peers, **\"Take Me Back\"** questions for acquaintances, and **Big Questions** for established friends. To dismantle the one-way mirror, anchor every deep question in **Give-One-to-Ask-One**: offer one small, true piece of yourself *before* you ask, and actually answer when they turn the question back to you."
+    },
+    {
+     "id": "b4.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+     "md": ":::note Decision Rule\nMatch question depth to relationship safety, and **stop asking follow-ups the moment you have asked two in a row without offering a reaction or small truth of your own.** Now that you have merged into the right lane (Monday) and opened the conversation with warm, reciprocal curiosity (Tuesday), Wednesday supplies the verification step: *confirming you actually landed on the same stretch of road without sounding robotic.*\n:::\n\n:::note Office Dojo\nOver an agenda-free coffee with a peer, you open your own window first: \"I've been trying to figure out which parts of consulting make me feel alive versus drained. Take me back—how did you end up pivoting into this team?\" You listen with warm responsiveness, loop one theme, and answer honestly when they ask about your own path.\n:::\n\n:::note Personal Dojo\nAt dinner with a close friend stuck in weekly logistics, you anchor and widen the frame: \"I've been thinking a lot about what I want the next chapter to look like—if we're sitting here a year from now, what would we be celebrating for you?\"\n:::\n\n:::warn Non-Example\nFiring five brilliant probing questions in a row while sealing your own life behind \"Oh, I'm good, same old!\"—leaving the other person feeling exposed, interviewed, and weirdly lonely.\n:::"
+    },
+    {
+     "id": "b4.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+     "md": "**Lens.** *How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen* (2023; popular synthesis and reflective inquiry). Brooks reframes questioning from information extraction into **Perspective Receiving**—an act of hospitality grounded in *Accompaniment* and *Loud Listening*.\n\n### Brooks's Question Tiers — Calibrated by Relationship Depth\n\n| Tier & Setting | Surface Fact Question | Upgraded Deep / Brooks Question | Give-One-to-Ask-One Anchor | Non-Example (Test / Intrusion) |\n|---|---|---|---|---|\n| 1. Commonality (Strangers / Peers) | 'Where do you work?' | 'What's the part of your week that actually gives you energy?' | 'I've realized I love strategy way more than spreadsheets — what part of your work actually gives you energy?' | 'Do you even like it or just do it for money?' (Test) |\n| 2. Take Me Back (Acquaintances) | 'How long have you lived here?' | 'Take me back — what made you decide to leave where you were and land here?' | 'Moving here scrambled my sense of home for a year. How did you decide to make the jump?' | Rapid-fire 'Where from? Why leave? What school?' (Interview) |\n| 3. Big Question (Established Friends) | 'How's work going?' | 'What crossroads are you at?' / 'If we meet a year from now, what are we celebrating?' | 'I feel like I'm at a real career crossroads this year — do you feel like you're in a transition chapter too?' | Asking 'What's your deepest regret?' at a first work lunch (Too soon) |\n\n### Optional Deepening · Henri Nouwen (cited in Brooks, How to Know a Person)\n\nTrained listeners often over-index on pure receptivity, turning warmth into bland neutrality. Brooks cites Henri Nouwen's exact balance: *\"Receptivity without confrontation leads to a bland neutrality that serves nobody. Confrontation without receptivity leads to an oppressive aggression which hurts everybody.\"* Deep questions and Loud Listening build the receptivity that allows your honest views and boundaries (B5 and Brown Belt) to land without feeling like an attack.\n\n:::note Accompaniment's 4 Qualities & Low-Intrusion Questions (Rung 6)\nBrooks builds Accompaniment out of four concrete qualities: **Patience** (becoming lingerable rather than rushed), **Playfulness** (relaxed spontaneity), **Other-Centeredness** (like a pianist accompanying a singer), and **Presence** (staying without fixing). In cultures or rooms where personal biography feels intrusive to near-strangers, use **Third-Object Questions** anchored in shared reality—the neighborhood, food, craft, or café ('How long have you been coming to this spot?')—before stepping into personal history.\n:::\n\n:::details Canon notes · Part 2 · Brooks: deep questions and \"take me back\"\n*1*\n\n:::note Lens card\nDavid Brooks, a columnist, wrote *How to Know a Person* (2023) about the skill of seeing others well. He contrasts diminishers, who make people feel unseen, with illuminators, who make them feel understood, and he recommends big questions and \"take me back\" questions that invite a person to tell how they became who they are. What is distinctive is that a question is treated as an act of respect: it says your story is worth hearing.\n:::\n\n:::note Why Brooks here\nThe module's deep questions come from Brooks and Duhigg. B5 uses his illuminator idea; this part covers his questions.\n:::\n\n:::note Native use\nPopular nonfiction about friendship and character, drawing on research and his own experience.\n:::\n\n:::note Limit\nPopular synthesis and personal reflection (label: popular synthesis). Some related research supports that deeper conversations feel better than people expect, but the method itself is not tested here. Brooks himself warns that the listener who never discloses stays unknown.\n:::\n\n### Question types and what they open\n\n| Type | Example | What it opens | Risk |\n|---|---|---|---|\n| Fact question | \"Where do you work?\" | Information | Stays on the surface |\n| Deep question | \"What's the best part of that job?\" | Values and experience | Too soon, it intrudes |\n| Take me back | \"How did you decide to leave New York?\" | A story about who they became | Can feel like an interview |\n:::"
+    },
+    {
+     "id": "b4.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+     "md": ":::note Handoff\nUse one calibrated **Take-Me-Back** or **Deep Question** (with a personal anchor) to open at least 2 of your Friday **Five Loops** conversations.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your questions or your ratings.",
+     "tools": [
+      "rungs.blue.B4.p2"
+     ]
+    }
+   ],
+   "author": "David Brooks"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Reflective Listening and the Loop",
+   "cards": [
+    {
+     "id": "b4.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Reflective Listening and the Loop",
+     "md": "You have merged into their lane (Monday) and asked a warm, calibrated question (Tuesday)—yet your brain is still running a simulation of what they meant. **Looping for understanding** is the Bond-side twin of B2's Check-Back: you test whether the map in your head actually matches the territory in theirs. Rogers insisted that reflective listening collapses into hollow parroting unless it rests on three attitudes: **Congruence** (genuineness), **Acceptance**, and **Empathic Understanding**—entering their world *\"as if\"* it were yours without losing the *\"as if.\"*\n\nStrip out stiff clinical phrasing (\"What I hear you saying is…\" repeated six times). Run the **Natural 3-Beat Loop**: **(1) Distill, don't parrot:** compress their core meaning and underlying feeling into one plain sentence in your own words (\"So…\", \"It sounds like…\", \"If I'm tracking…\"), adding zero amateur psychology. **(2) Check lightly:** end with a brief, low-pressure invitation (\"Am I getting that right?\" or \"Close?\"). **(3) Pause and welcome the edit:** hold silence. If they correct you, drop any Expert urge to defend your summary. **A correction is a 100% win**—it proves the loop gave them enough safety to sharpen their meaning and hand you ground truth. (In **B5**, you will tighten this loop one step further into Voss's statement-only Label + Dynamic Silence.)"
+    },
+    {
+     "id": "b4.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Reflective Listening and the Loop",
+     "md": ":::note Decision Rule\nLoop **before** giving advice or counter-arguing whenever emotion is elevated, stakes are relational, or misunderstanding appears. Switch to direct advice (Weger et al.) only when time is genuinely urgent (catching a flight), the lane is pure Practical logistics, or they explicitly confirm your loop and ask what you would do. Next week in **B5**, you learn how to bond deeply without losing your own boundary.\n:::\n\n:::note Office Dojo\nA tense stakeholder fires off four rapid objections. Instead of defending a single slide, you loop once: \"Let me make sure I've got the real concern—it's less about software cost and more that your team can't afford a two-week learning curve right before year-end close. Did I capture that?\" Her shoulders drop: \"Yes—and we'd need dedicated training.\"\n:::\n\n:::note Personal Dojo\nA friend vents about feeling trapped in their job and apartment: \"It sounds like you're not even mad at any one thing—you just feel boxed in and ready for a real change. Am I reading that right?\" They exhale: \"Honestly, yeah—I didn't realize how claustrophobic I felt.\"\n:::\n\n:::warn Non-Example\nParroting their exact words like a tape recorder (\"So your boss rewrites your decks at 9 PM\"), OR over-interpreting (\"So you feel abandoned because of authority trauma\"), OR arguing back when they correct your summary.\n:::\n\n:::dialect Translation strip · loop\n@office_us \"Let me make sure I've got the real bottleneck — it's less about the tool cost and more about training bandwidth before close. Did I capture that?\"\n@personal_us \"It sounds like you're not even mad at any one thing — you just feel boxed in and ready for a real change. Am I getting that right?\"\n@rioplatense \"A ver si te entendí bien: no te jode tanto el cambio de planes como sentir que no te avisé antes, ¿puede ser?\"\n@espana \"A ver si te sigo bien: no es tanto el presupuesto como el riesgo de llegar justos al cierre, ¿voy bien?\"\n:::"
+    },
+    {
+     "id": "b4.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Reflective Listening and the Loop",
+     "md": "**Lens.** Carl Rogers & Richard Farson (*\"Active Listening\"*, 1957), *On Becoming a Person* (1961), and Weger et al. (2014). Tested research with modest, consistent effects: active listening outperforms advice and simple acknowledgment on **feeling understood**, while tying on overall satisfaction—meaning the loop is a precision tool for understanding, not a script to run blindly.\n\n### Parrot vs. Over-Interpretation vs. Clean Loop (with Correction Recovery)\n\n| Speaker's Statement | Parroting (Fails) | Over-Interpretation (Fails) | Clean Rogers / Duhigg Loop | Correction Recovery |\n|---|---|---|---|---|\n| 'My boss keeps rewriting my decks at 9 PM without telling me.' | 'So your boss rewrites your decks at 9 PM without telling you.' | 'So your boss is a micromanager who doesn't respect you.' | 'It sounds like it's not just the late edits — it's feeling shut out of work you own. Am I getting that right?' | 'Got it — less about being shut out and more about unclear standards. Thanks for clarifying.' |\n| 'I told my mom I couldn't visit and she went totally silent.' | 'So you told your mom you couldn't visit and she went silent.' | 'She's clearly guilt-tripping you to manipulate you.' | 'It sounds like that silence landed heavy — like you're carrying guilt just for setting a limit. Close?' | 'Ah, okay — not guilt, just exhausted by the cold shoulder. Makes total sense.' |\n| 'We can't launch Q3 if Legal keeps adding review cycles.' | 'So we can't launch Q3 because of Legal's review cycles.' | 'You're mad because Legal always slows down your team.' | 'So the core risk is extra review loops pushing us past the Q3 window — am I tracking the main bottleneck?' | 'Right, timeline's fine — it's surprise rework at the end. Good catch.' |\n\n### Optional Deepening · Eugene Gendlin (Focusing) & Kegan/Lahey\n\nRobert Kegan and Lisa Lahey (*How the Way We Talk*) call genuine looping **\"active listening to clarify the gap\"**—not parroting surface words, but *\"the activity of empathically taking up temporary residence in the other's meanings and making sounds that let him know you are there.\"* You know you have reached that point when the other person stops starting exasperated sentences with your name. Eugene Gendlin (*Focusing*) adds the cleanest guardrail against over-interpreting: *\"We listen for what they mean to convey, and add nothing else. It makes for maximal closeness with minimal imposition.\"*\n\n:::note Loop vs. Advice Decision Matrix (Weger et al. · Rung 6)\nBecause Weger et al. (2014) found active listening beat advice on feeling understood while tying on satisfaction, let context pick the move: **Loop First** when affect is high, identity is bruised, or you sense circularity; **Give Advice Directly** when the lane is crisp Practical logistics or they confirm your loop and ask for options.\n:::\n\n:::details Canon notes · Part 3 · Rogers: reflective listening and the loop\n*1*\n\n:::note Lens card\nCarl Rogers, a founder of person-centered therapy, and Richard Farson wrote \"Active Listening\" (1957), describing listening that reflects back the speaker's meaning and feeling so they feel understood. Looping for understanding, which Duhigg describes, is a form of it: ask, listen, say back what you heard, and ask whether you got it right. What is distinctive in Rogers is the attitude behind the technique: genuineness, acceptance and empathy, without which reflecting turns into parroting.\n:::\n\n:::note Why Rogers here\nThis module's loop is his reflective listening used as a Bond move.\n:::\n\n:::note Native use\nTherapy and later workplace and teaching settings.\n:::\n\n:::note Limit\nThere is tested research on active listening, though modest. One experiment by Weger and colleagues found that people who received active listening felt more understood than those who got advice or simple acknowledgement, but the differences were small, and active listening and advice did not differ on satisfaction (label: tested research, small effects). A mechanical loop can sound scripted.\n:::\n\n### The loop, and how it fails\n\n| Step | What you do | How it fails |\n|---|---|---|\n| Ask | One open question | A string of questions with nothing offered back |\n| Listen | Without preparing your reply | Waiting to speak |\n| Say back | Their meaning in your words | Repeating their words exactly |\n| Check | \"Did I get that right?\" | Not waiting for the answer |\n:::"
+    },
+    {
+     "id": "b4.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Reflective Listening and the Loop",
+     "md": ":::note Handoff\nLog **Five Loops** on Friday (2+ Office, 2+ Personal) capturing Conversation Type, Distilled Loop, Confirmed/Corrected reply, and What Shifted. Aim for at least 2 honest corrections.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your loops, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B4.p3"
+     ]
+    }
+   ],
+   "author": "Carl Rogers"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Which conversation is this?",
+   "cards": [
+    {
+     "id": "b4.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Which conversation is this?",
+     "md": "**Which conversation is this?.** Notice whether a conversation is practical, emotional or social, match it first, and only then move it if it needs moving.\n\n### Concepts\n\n1. **The three conversations (Duhigg).** Practical: decisions, plans, logistics. Emotional: feelings, being heard. Social: identity, who we are, how we see each other (Source: Supercommunicators p. 246).\n2. **The matching principle.** Connection starts when you meet the other person in the conversation they are having (Source: pp. 256–257). If they are emotional, be emotional first. If practical, be practical first.\n3. **The fixer trap.** Answering an emotional conversation with a practical one. It is the Achiever's and the Expert's most common Bond failure (Grid: Achiever × Bond, \"Relationships managed like projects\"; Expert × Bond, \"corrects instead of connects\").\n4. **The quiet negotiation.** At the start of a conversation people silently agree its rules (are we venting or fixing?). Make it explicit when unsure: \"Do you want ideas, or do you want me to just listen?\" (Duhigg's meta-conversation).\n5. **Deep questions.** Questions about values, beliefs and experiences, not facts: \"What's the best part of that job?\" instead of \"Where do you work?\" (Source: Supercommunicators pp. 279, 294). Brooks' versions: big questions and \"take me back\" questions (\"How did you decide to leave New York?\") (Source: How to Know a Person pp. 82–87).\n6. **Looping for understanding.** Ask, listen, repeat back in your own words what you heard, and ask if you got it right (Source: Supercommunicators pp. 303–309). It is the Read check-back from B2 used as a Bond move.\n7. **Social conversations and identity threat.** When someone feels a core identity judged, the conversation becomes social whether anyone says so or not, and nothing practical lands until it is addressed (Source: Supercommunicators pp. 313–315). For you this cuts both ways: when your accent or intelligence is questioned, you are suddenly in a social conversation inside a practical one."
+    },
+    {
+     "id": "b4.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Which conversation is this?",
+     "md": ":::note Drill\nName the conversation. In every meaningful conversation today, silently label it practical, emotional or social within the first minute, and notice when it changes. Once a day, ask the meta-question out loud.\n:::\n\n:::note Office dojo\nWhen a colleague brings you a problem with feeling in it, give one sentence to the feeling before the fix: \"That sounds like a frustrating week. Want to walk through the reconciliation together?\"\n:::\n\n:::note Personal dojo\nWhen a friend vents, match before anything else. Loop once. Only offer a solution if they ask, or after you ask.\n:::"
+    },
+    {
+     "id": "b4.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Which conversation is this?",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats connection as | Would worry that you... |\n|---|---|---|---|\n| Duhigg | The type of conversation | Meeting them where they are | Fix when they want to be heard |\n| Brooks | The questions you ask | Being seen as a person | Ask without offering back |\n| Rogers | The attitude of the listener | Understanding reflected | Loop mechanically |\n\n**Where they meet.** Each puts the other person's experience first and checks whether it has been grasped.\n\n**Where they collide.** Brooks and Duhigg both warn that pure listening keeps the listener hidden; Rogers's therapist role is deliberately one-sided. Friendship needs both directions.\n\n**What the three miss for you.** Professional listening was your job; in friendship it can become a role you hide in. None of the sources speaks to people trained to listen for a living.\n\n**Where it sits in your own frameworks.** Heart with others in your Orders Grid, and Buber's turning toward the other. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Do deep conversations work with strangers? | What does research show about how people expect and experience deep talk with strangers? | Part 2 recommends deep questions | One thread, researched with the research-brief skill |\n| 2. When does listening backfire? | When does reflective listening feel scripted or intrusive, and across which cultures? | Part 3's effects are small | One thread, with a critic pass |\n| 3. The listener who stays hidden | What does research say about one-sided disclosure in friendships? | Your named edge | Full deepening of Part 2 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B4, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b4.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Five loops",
+     "md": "**Five loops.** Five conversations where you looped for understanding, written down: what you said back, and whether they confirmed it (\"yes, exactly\", or a correction). A correction counts as success; it means the loop worked.\n\n**Watch for.** Using deep questions to stay hidden. A string of excellent questions with nothing offered back is the anonymous listener's armor (Brooks, Duhigg). B6 and Brown Belt fix the other half.\n\n:::note Prompt\nPick one upcoming conversation where you usually jump into Expert/Fixer mode. Write your natural meta-question and one sentence you'll use to welcome a correction if your loop misses.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "6-Dialogue Conversation-Type & Mid-Stream Shift Detector",
+   "cards": [
+    {
+     "id": "b4.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "6-Dialogue Conversation-Type & Mid-Stream Shift Detector",
+     "md": "**Deliberate Practice Lab** · 6-Dialogue Conversation-Type & Mid-Stream Shift Detector",
+     "tools": [
+      "drill.blue.B4.B4_drills"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Five Loops Log (Confirmed & Corrected)",
+   "cards": [
+    {
+     "id": "b4.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Five Loops Log (Confirmed & Corrected)",
+     "md": ":::note Deliverable Spec · Five loops\nFive conversations where you looped for understanding, written down: what you said back, and whether they confirmed it (\"yes, exactly\", or a correction). A correction counts as success; it means the loop worked.\n\n**Watch for.** Using deep questions to stay hidden. A string of excellent questions with nothing offered back is the anonymous listener's armor (Brooks, Duhigg). B6 and Brown Belt fix the other half.\n:::",
+     "tools": [
+      "form.blue.B4"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

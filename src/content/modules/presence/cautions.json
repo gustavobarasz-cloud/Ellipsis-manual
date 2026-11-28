@@ -1,0 +1,22 @@
+{
+ "id": "cautions",
+ "kind": "cautions",
+ "title": "The 7 Cautions",
+ "subtitle": "Read these before the Sanctuary becomes a playbook.",
+ "days": [
+  {
+   "id": "all",
+   "label": "Cautions",
+   "title": "The 7 Cautions",
+   "cards": [
+    {
+     "id": "cautions.all.1",
+     "kind": "info",
+     "label": "Cautions",
+     "title": "The 7 Cautions",
+     "md": "1. **The playbook trap.** A connection sequence used on someone becomes social engineering. People sense it and rightly withdraw.\n2. **Consent to depth.** Not everyone wants depth with you, and not always. A shallow friendship is a valid friendship.\n3. **The linear ladder myth.** Closeness moves up and down with life seasons. A friend withdrawing for a while is a season, not a rupture.\n4. **Cultural and neurodivergent blind spots.** Eye contact, matched cadence and verbal processing of feeling are not universal. Let people be close in their own way.\n5. **Acceptance is not tolerating harm.** Layer 4's radical acceptance applies to a friend's limits and slow growth, never to abuse or a pattern that damages you. White Belt's limits stay in force.\n6. **Contemplative claims are stances.** Lines like \"there is no outside\" (Unitive) describe a way of seeing, not a technique or a fact about relationships. Hold them as practice, not as instruction.\n7. **Two authors are not in your notebook.** Brené Brown and Esther Perel shape several modules in the outline. Their ideas are kept and flagged; consider adding their books if you want the track's sources to be as checkable as the belts'."
+    }
+   ]
+  }
+ ]
+}

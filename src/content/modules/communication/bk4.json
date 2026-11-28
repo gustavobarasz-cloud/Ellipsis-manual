@@ -1,0 +1,154 @@
+{
+ "id": "bk4",
+ "belt": "black",
+ "kind": "week",
+ "kicker": "Black Belt · Module Bk4",
+ "title": "Systemic Steering — Name the Pattern, Change the Frame",
+ "subtitle": "How do I read the emotional circuit running between people, change my own slot in it, and offer a double-loop reframe the room can actually hold?",
+ "golden": "Builds on `Bk1` room safety and `Bk3` internal footing to shift multi-party rooms without lecturing; prepares the terrain for `Bk5` guarding when a system resists in bad faith.",
+ "goldenLabel": "Golden Thread",
+ "assembly": "| Day |\n|---|\n| Mon: Bowen Circuits, Triangles & Overfunctioning |\n| Tue: Torbert Double-Loop Reframing |\n| Wed: Room Readiness & Beginner's Mind |\n| Thu: Systemic Steering Lab |\n| Fri: One Systemic Steering Map`. |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+   "cards": [
+    {
+     "id": "bk4.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 1 — Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+     "md": "**Thesis Opener:** In `Bk1`–`Bk3` you read the room's culture, brokered across tribes, and steadied your bridge self; in `Bk4` you step up to **systemic steering**—reading the live emotional circuit running *between* people and changing your own role in it without blaming whoever appears to be driving it.\n\nPicture a room not as a collection of isolated personalities, but as an **emotional circuit** where tension moves along predictable pathways. **Murray Bowen's** family and emotional systems theory maps the core recurring circuits groups use to manage anxiety: **conflict**, **distance**, **emotional cut-off**, **overfunctioning/underfunctioning reciprocity**, and **triangles**. Whenever tension rises between two people, an automatic reflex pulls in a third person or issue to offload the anxiety—forming a **triangle** (in teams, two colleagues bonding by complaining about a third; in families, venting sideways instead of speaking directly). Similarly, **overfunctioning** (taking over, rescuing, over-explaining) and **underfunctioning** (going passive, waiting to be carried) lock together as a reciprocal seesaw: the harder one person pushes to compensate, the further the other steps back. Because a system reacts automatically whenever one member changes their habitual role, the leverage point is never fixing or lecturing the others—it is **modifying your own part in the circuit** while staying in calm, non-polarized contact.\n*Bridge to Tuesday:* Bowen shows how to spot the circuit and step out of your habitual slot; tomorrow, **Bill Torbert** gives you the linguistic move to name that pattern aloud and shift what the conversation is actually about."
+    },
+    {
+     "id": "bk4.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 1 — Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+     "md": "- **Operational Bridge:** Before speaking into group friction, check whether you are being pulled into a **triangle** or an **overfunctioning** reflex—and alter your own move first rather than trying to police the room.\n- **Office Worked Example:** When a teammate vents privately about a third colleague's missed handoff instead of raising it directly, refuse to carry the complaint: *“I hear that the delay put pressure on your timeline—have you checked in with them directly on what's blocking it?”*\n- **Personal Worked Example:** When a group or family routine stalls and your reflex is to overfunction (planning everything, smoothing every awkward pause), hold back one notch and let others step into the space.\n- **Non-Example:** Stepping into a tense two-person disagreement to mediate uninvited or lecturing someone on how *“triangulated”* they are being.\n- **Decision Rule & Handoff:** Change your own automatic move in the circuit before proposing a group reframe. Feeds your `Bk4` pattern diagnosis and systemic steering plan."
+    },
+    {
+     "id": "bk4.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 1 — Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+     "md": "### Layer 3 · Optional Deepening (Susanne Cook-Greuter — *9 Levels of Ego Development* & Strategist Self-Inclusion)\n\nCook-Greuter notes that systems-level meaning-making recognizes circular, tapestry-like influences—and includes **one's own meaning-making as a node inside the system**. The subtle shadow at this level is **the transformer's loop**: seeing everything in the system except the part of yourself that needs to be the helper or fixer."
+    },
+    {
+     "id": "bk4.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 1 — Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+     "md": "**Module question.** How do I read the emotional circuit running between people, change my own slot in it, and offer a double-loop reframe the room can actually hold?\n\n**Golden thread.** Builds on `Bk1` room safety and `Bk3` internal footing to shift multi-party rooms without lecturing; prepares the terrain for `Bk5` guarding when a system resists in bad faith.\n\n:::note Resolved seam · Changing Your Own Move Silently (Bowen) vs. Naming the Pattern Out Loud (Torbert) (`Bk4 Mon` vs. `Bk4 Tue` / `Bk4 Wed`)\n**Tension.** Bowen (`Bk4 Mon`) emphasizes shifting your own slot in the emotional circuit (de-triangling, halting overfunctioning) without lecturing, while Torbert (`Bk4 Tue`) asks you to name the dynamic aloud and propose a double-loop reframe—yet `Bk4 Wed` warns against overwhelming an unready room.\n\n**Resolution.** **Modify your own move first; name aloud only what the room can hold.** Exit the triangle or overfunctioning reflex first (Bowen). Then, only if room safety (`Bk1 Wed`) and readiness (`Bk4 Wed`) support it, name *one* observable dynamic tentatively and attach one concrete next step.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+   "cards": [
+    {
+     "id": "bk4.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 2 — Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+     "md": "**Thesis Opener:** Monday mapped the invisible circuit running between people; **Bill Torbert** moves from silent observation to **double-loop systemic steering**—naming the pattern tentatively without blame and proposing a frame that changes what the conversation is actually about.\n\nThink of organizational and interpersonal learning across three concentric loops. **Single-loop learning** adjusts tactics to hit an existing goal more efficiently; **double-loop learning** steps back to question the goal, frame, or underlying assumptions themselves; and **triple-loop awareness** attends in real time to the quality of attention doing the questioning.\nWhen a meeting or relationship slides into a zero-sum tug-of-war, arguing harder inside the old frame is single-loop friction. Systemic steering is a **double-loop move**: you **attack the pattern, not the person**, name the dynamic **tentatively** with an invitation to correct you (*“I notice we're treating this like a status fight, when it might actually be a resource constraint—does that match how you're seeing it?”*), and offer a cleaner frame (*“Let's treat this as a design problem rather than a debate”*). Once you propose the frame, **seal it with your own pace, tone, and posture** from Brown Belt so your analogic delivery matches your words.\n*Bridge to Wednesday:* Naming and reframing can shift a stuck room rapidly—which makes **timing and readiness** the decisive guardrail on Wednesday."
+    },
+    {
+     "id": "bk4.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 2 — Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+     "md": "- **Operational Bridge:** Name the observable dynamic tentatively, invite correction, propose a constructive frame, and hold steady vocal pacing so the new frame sticks.\n- **Office Worked Example:** *“We've spent twenty minutes trading reasons why Friday won't work—I wonder if we're actually stuck on unclear priority order rather than effort. What if we rank the top two deliverables together for five minutes?”*\n- **Personal Worked Example:** *“I notice we're going back and forth on logistics when both of us sound drained from the week—do we want to keep planning tonight, or just pick something easy and catch up?”*\n- **Non-Example:** Delivering a sweeping psychological verdict on the group (*“You're all avoiding accountability because of ego”*) without tentativeness or an invitation to correct.\n- **Decision Rule & Handoff:** Keep every pattern-naming **observable, tentative, and blame-free**, and always pair a reframe with one concrete next step. Feeds Friday's **Systemic Steering Map**.\n\n:::dialect Live Dialect Examples\n@office_us **Dialect Calibration (Office US):** Office US: Lead with task/risk metrics when downshifting; keep tentative dynamic-naming concise and pair immediately with a 5-minute next step.\n@personal_us **Dialect Calibration (Personal US):** Personal US: Lead with warmth and non-anxious presence; always ask consent before offering a Kegan mirror to a confidant.\n@rioplatense **Dialect Calibration (Rioplatense):** Rioplatense: Sequence warmth and sobremesa rapport before systemic reframes; cushion game exits with clear relational care so steadiness never reads as coldness.\n@espana **Dialect Calibration (España):** España: Crisp, direct framing works well among peers; respect presence-first regularity in community/personal circles and avoid heavy clinical jargon.\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Tentative Reframe: “We've spent twenty minutes trading reasons why Friday won't work—I wonder if we're actually stuck on priority order rather than effort. Can we rank the top two deliverables together for five minutes?”**\n@personal_us **Tentative Reframe: “I notice we're going back and forth on logistics when we're both drained from the week—do we want to keep planning, or just pick something easy and catch up?”**\n@rioplatense **Tentative Reframe: “Che, hace veinte minutos que damos vueltas con la fecha—me parece que en el fondo estamos trabados en prioridades, no en ganas. ¿Ordenamos juntos los dos temas clave?”**\n@espana **Tentative Reframe: “Llevamos veinte minutos discutiendo el plazo y me da la impresión de que el bloqueo real es de prioridades, no de esfuerzo. ¿Ordenamos los dos puntos clave en cinco minutos?”**\n:::"
+    },
+    {
+     "id": "bk4.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 2 — Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+     "md": "### Layer 3 · Optional Deepening (Robert Kegan — Malleable Metaphors & *In Over Our Heads*)\n\nKegan compares well-offered reframes to **soft clay rather than cold analysis**: when a frame is offered tentatively in language the room can touch and reshape, people engage with it as co-authors rather than resisting an external diagnosis."
+    },
+    {
+     "id": "bk4.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 2 — Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+     "md": "**Module question.** How do I read the emotional circuit running between people, change my own slot in it, and offer a double-loop reframe the room can actually hold?\n\n**Golden thread.** Builds on `Bk1` room safety and `Bk3` internal footing to shift multi-party rooms without lecturing; prepares the terrain for `Bk5` guarding when a system resists in bad faith.\n\n:::note Resolved seam · Changing Your Own Move Silently (Bowen) vs. Naming the Pattern Out Loud (Torbert) (`Bk4 Mon` vs. `Bk4 Tue` / `Bk4 Wed`)\n**Tension.** Bowen (`Bk4 Mon`) emphasizes shifting your own slot in the emotional circuit (de-triangling, halting overfunctioning) without lecturing, while Torbert (`Bk4 Tue`) asks you to name the dynamic aloud and propose a double-loop reframe—yet `Bk4 Wed` warns against overwhelming an unready room.\n\n**Resolution.** **Modify your own move first; name aloud only what the room can hold.** Exit the triangle or overfunctioning reflex first (Bowen). Then, only if room safety (`Bk1 Wed`) and readiness (`Bk4 Wed`) support it, name *one* observable dynamic tentatively and attach one concrete next step.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+   "cards": [
+    {
+     "id": "bk4.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 3 — Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+     "md": "**Thesis Opener:** Monday and Tuesday gave you the lens to see the circuit and the words to reframe it; **Wednesday** installs the essential brake—**calibrating for readiness** so your insight lands as clarity rather than overwhelm or condescension.\n\nPicture a bridge engineer testing how much load a span can safely carry before rolling heavy equipment across it. **Bill Torbert** flags a signature blind spot of systems-level thinkers: **overestimating others' readiness** for a full systemic diagnosis. Seeing a pattern clearly does not mean the room is ready—or asking—to hear the whole map at once.\nWhen you name three layers of hidden dynamics to a room that is still trying to solve a concrete task, two things happen: people feel analyzed rather than met, and the conversation stalls in confusion or defensiveness. **Light naming that lands** beats a comprehensive diagnosis that triggers resistance. Hearing the person *before* naming the pattern—and asking *“What matters most here? What am I missing?”* before synthesizing—keeps systemic steering grounded in genuine mutuality rather than intellectual performance.\n*Bridge to Thursday & Friday:* You now hold all three `Bk4` lenses—Bowen's system circuits, Torbert's tentative double-loop reframing, and readiness calibration. Test them in Thursday's **Systemic Steering Lab** and complete Friday's `Bk4` deliverable."
+    },
+    {
+     "id": "bk4.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 3 — Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+     "md": "- **Operational Bridge:** Match the depth of your reframe to what the room can actually use right now—acknowledge people's immediate concern first, name one clear dynamic lightly, and land one practical next step.\n- **Office Worked Example:** Instead of unpacking a team's entire cross-departmental history in a 30-minute sprint check, acknowledge the deadline pressure first and offer one clean structural shift: *“It sounds like both teams are protecting quality—let's agree on one shared handoff checklist before Friday.”*\n- **Personal Worked Example:** When a friend is venting about a recurring pattern, listen and validate their experience first rather than jumping immediately to *“Here's the systemic cycle you're in.”*\n- **Non-Example:** Reframing someone's immediate pain as *“a valuable developmental polarity”* before they feel heard.\n- **Decision Rule & Handoff:** Hear the person before the pattern, name only as much of the dynamic as the room can hold, and close every reframe with a concrete action. Completes `Bk4` and sets up `Bk5` (*Systemic Guarding*)."
+    },
+    {
+     "id": "bk4.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 3 — Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+     "md": "### Layer 3 · Optional Deepening (Beginner's Mind Protocol — Strategist Growth Edge)\n\nBefore offering any systemic synthesis, run three checks: *(1) What is this like for you? (2) What matters most here? (3) What am I missing?* Letting others' answers reshape your map keeps systems insight alive and honest."
+    },
+    {
+     "id": "bk4.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 3 — Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+     "md": "**Module question.** How do I read the emotional circuit running between people, change my own slot in it, and offer a double-loop reframe the room can actually hold?\n\n**Golden thread.** Builds on `Bk1` room safety and `Bk3` internal footing to shift multi-party rooms without lecturing; prepares the terrain for `Bk5` guarding when a system resists in bad faith.\n\n:::note Resolved seam · Diagnosing the Room vs. Feeling Superior to the Room (`Bk1 Mon` vs. `Bk3 Mon` / `Bk4 Wed`)\n**Tension.** `Bk1` asks you to read a room's construal of difference (Bennett's Denial/Defense/Minimization) and hidden assumptions (Schein), yet diagnosing a room from above reproduces Defense polarity and triggers Torbert's Strategist blind spot (`Bk4 Wed`).\n\n**Resolution.** **Diagnose the atmosphere to calibrate your entry, never to rank the people.** Treat Bennett's positions as temporary properties of a *room*, not fixed traits of *individuals*. Stop diagnosing the instant you feel superior, and run the Beginner's Mind check (*“What is this like for them? What am I missing?”*).\n:::\n\n:::note Resolved seam · Changing Your Own Move Silently (Bowen) vs. Naming the Pattern Out Loud (Torbert) (`Bk4 Mon` vs. `Bk4 Tue` / `Bk4 Wed`)\n**Tension.** Bowen (`Bk4 Mon`) emphasizes shifting your own slot in the emotional circuit (de-triangling, halting overfunctioning) without lecturing, while Torbert (`Bk4 Tue`) asks you to name the dynamic aloud and propose a double-loop reframe—yet `Bk4 Wed` warns against overwhelming an unready room.\n\n**Resolution.** **Modify your own move first; name aloud only what the room can hold.** Exit the triangle or overfunctioning reflex first (Bowen). Then, only if room safety (`Bk1 Wed`) and readiness (`Bk4 Wed`) support it, name *one* observable dynamic tentatively and attach one concrete next step.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Systemic Steering Simulator",
+   "cards": [
+    {
+     "id": "bk4.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Deliberate Practice Lab — Systemic Steering Simulator",
+     "md": "## Deliberate Practice Lab — Systemic Steering Simulator\n\n:::note\n1. **Bowen Circuit Map:** Diagram one recurring loop at work or home (Triangle or Overfunctioning/Underfunctioning). Write the **exact habitual move** you will stop making first.\n2. **Soft-Clay Reframe:** Draft a 2-sentence tentative reframe (`Observable pattern + “I wonder if…” + Concrete 5-minute next step`).\n3. **Readiness Trim:** Cut your draft by 50% so it lands cleanly in a busy, low-patience room without sounding clinical.\n:::",
+     "tools": [
+      "legacy.black.Bk4"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "One Systemic Steering Map & Reframe Log",
+   "cards": [
+    {
+     "id": "bk4.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Deliverable — One Systemic Steering Map & Reframe Log",
+     "md": "## Deliverable — One Systemic Steering Map & Reframe Log\n\n* **The Circuit Identified (Bowen):** `[Triangle / Overfunctioning / Distance + Your own node in it]`\n* **Self-Modification First:** `[What you changed in your own behavior before speaking]`\n* **Tentative Double-Loop Reframe (Torbert):** `[Exact words spoken + Concrete next step]`\n* **Room Readiness Outcome:** `[How the room responded + What you would dial up or down next time]`\n\n---",
+     "tools": [
+      "form.black.Bk4"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "id": "m04",
+ "kind": "module",
+ "tier": 2,
+ "tierTitle": "Behavioral Table of Elements & Facial Mechanics",
+ "tierSubtitle": "Reading distributed somatic load, baseline deltas, and facial congruence seams.",
+ "title": "Facial Mechanics, Microexpressions & Fabrication",
+ "number": 4,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-09",
+  "PIT-02"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Dual-Rigged Stage Curtain: Hydraulics vs. Manual Strings",
+   "cards": [
+    {
+     "id": "m04.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "The Dual-Rigged Stage Curtain: Hydraulics vs. Manual Strings",
+     "md": "Think of the human face as a stage curtain rigged to two separate power sources. Behind the curtain sits a **hydraulic system**—the autonomic nervous system and its involuntary emotional pathways. When a genuine emotion fires, hydraulic pressure surges evenly across the face, lifting the curtain smoothly, recruiting the deep muscles around the eyes, and slowly bleeding off pressure as the underlying arousal subsides so the expression *fades* like a dimming lamp. In front of the curtain sits **manual rigging**—voluntary cortical motor control pulling strings to perform politeness, enthusiasm, or calm on command.\n\nManual rigging is clumsy beside hydraulics. Because conscious control must decide when to pull the strings and when to let go, performed expressions leave mechanical seams everywhere. They often fire a fraction of a second out of sync with speech, pull with uneven tension across the left and right sides of the face, skip the involuntary eye-ring muscles (**Artificial Smile**), and—most revealingly—drop dead the instant the speaker believes the audience is satisfied (**Expression Stop vs. Fade**)."
+    },
+    {
+     "id": "m04.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "The Dual-Rigged Stage Curtain: Hydraulics vs. Manual Strings",
+     "md": "When a counterpart tries to conceal a reaction or deliver a constructed story under pressure, both systems wrestle for the same curtain at once. The hydraulic surge fires first, flashing a brief **Microexpression Leakage** across the brow, lips, or nostrils before manual control clamps the social mask back into place. Reading the face with rigor is therefore never about hunting for Hollywood \"lie tells.\" It is about watching the *physics of the transition*—spotting where smooth hydraulic motion collides with jerky manual strings, and using that seam as a congruence signal rather than a verdict."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Timing, Symmetry, and the Decay Seam: Expression Stop vs. Fade",
+   "cards": [
+    {
+     "id": "m04.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "Timing, Symmetry, and the Decay Seam: Expression Stop vs. Fade",
+     "md": "Genuine emotional displays are governed by physiological chemistry: because autonomic arousal cannot switch off instantaneously, an authentic expression dissipates gradually across the face. A consciously performed expression has no chemical momentum behind it—once its social job is done, conscious control releases the muscles and the display drops abruptly back to neutral (**Expression Stop vs. Fade**). *Six-Minute X-Ray* pairs this decay signature with **muscular asymmetry**: voluntary cortical recruitment frequently pulls harder on one side of the face than the other—for instance, when a negotiator performs polite agreement while internally resisting. The lone classic exception is genuine **contempt** (*Cell 33* in *The Ellipsis Manual*), which is naturally unilateral: a one-sided tightening or half-smile signaling disdain or perceived superiority (though modern social habits also recycle that same half-smile in playful or flirtatious contexts)."
+    },
+    {
+     "id": "m04.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "Timing, Symmetry, and the Decay Seam: Expression Stop vs. Fade",
+     "md": "Context, however, governs every decay curve—and ignoring it creates an immediate false positive. An abrupt *stop* is a mechanical seam only when the social beat is still open, such as a department head holding a wide grin (*\"Always happy to have fresh eyes\"*) upon hearing of an upcoming invoice audit, only for the smile to snap vertically to a tight-lipped neutral line while she is still staring across the table waiting for your reply. If a counterpart's smile drops cleanly because their eyes simultaneously pivot down to verify a number on a laptop or jot a note, you are not watching a dropped mask; you are watching **Social-Transition Cutoff**—ordinary cognitive task-switching. Likewise, because normal human faces often show mild natural asymmetry even during spontaneous emotion, temporal seams during an open social beat carry far more diagnostic weight than static symmetry alone.",
+     "hook": "L2-M04-stop-vs-fade-timing"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "Upper-Face Recruits, Artificial Smiles, and Landing-Window Attention",
+   "cards": [
+    {
+     "id": "m04.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "Upper-Face Recruits, Artificial Smiles, and Landing-Window Attention",
+     "md": "The lower half of the face is heavily wired for voluntary speech and social performance, whereas the upper face—inner brows, upper eyelids, and the orbicularis oculi surrounding the eyes—resists casual faking. In *Six-Minute X-Ray*'s classic \"ninja mask\" test, if you covered the entire lower half of a genuinely smiling person's face, you would still recognize the smile immediately from the lifted cheeks and crinkled outer corners of the eyes (*Happiness, Cell 13*). An **Artificial Smile** pulls the lip corners outward while leaving the eyes flat and unengaged.\n\nThe most common amateur mistake here is moralizing the mask. As *Six-Minute X-Ray* explicitly cautions, an **Artificial Smile** is *not* inherently deceptive. Humans are social primates who deploy polite smiles constantly to signal respect, smooth friction, and keep rooms cooperative. Treating a tired colleague's polite smile as covert malice breeds operator paranoia and erodes trust with allies."
+    },
+    {
+     "id": "m04.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "Upper-Face Recruits, Artificial Smiles, and Landing-Window Attention",
+     "md": "What actually warrants attention is sharp *incongruence*—a lower-face **Artificial Smile** clamping down right over a split-second **Microexpression Leakage** (a unilateral contempt twitch, a brief jaw drop of suppressed *Surprise*, or an adrenaline-driven *Nostril-Wing Dilation* as oxygen demand spikes). Yet catching a fraction-of-a-second hydraulic flash is nearly impossible while your own working memory is busy constructing your next sentence. To read the seam cleanly, you must deploy **Landing-Window Attention**: place the high-salience phrase at the very end of a short, plain sentence (*\"For Phase 1, our security architect will hold final veto on API changes\"*), then go completely silent. That quiet landing window frees your visual bandwidth to register the raw autonomic impulse before the counterpart's manual rigging overrides it. Because genuine full-face microexpressions are rare in naturalistic settings—and because staring intently to hunt for them manufactures **Observer Distortion** (M01)—you never confront the face directly. You log the congruence flag, cross-check it against a **BToE Stress Cluster** (M03), and open a low-threat clarifying valve.",
+     "hook": "L2-M04-microexpression-leakage"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Constructed Accounts vs. Episodic Recall: Fabrication Markers and Elasticity",
+   "cards": [
+    {
+     "id": "m04.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Constructed Accounts vs. Episodic Recall: Fabrication Markers and Elasticity",
+     "md": "When a counterpart shifts from recalling lived memory to assembling a sanitized or fabricated account, cognitive load rises sharply above **Cognitive Baseline** (M03). Across *Six-Minute X-Ray* and *The Ellipsis Manual*, that assembly strain surfaces across convergent channels (**Fabrication Marker**):\n\n- **Timing Desynchronization:** Authentic emotional displays fire *before* or *simultaneously* with words, whereas manually assembled emotions lag fractions of a second *behind* the verbal claim because separate cortical circuits must coordinate them.\n\n- **Over-Formal Syntax:** Under the pressure to sound unimpeachable, speakers frequently abandon natural contractions—sounding less like a conversation and more like an appliance manual (*\"I did not approve\"* instead of *\"I didn't\"*)—or pad answers with resume statements and non-answers.\n\n- **Social Verification Checks:** **Confirmation Glances** (*Cell 11*)—glancing at an ally right before launching a story, or flicking eyes toward another interviewer immediately afterward to check whether the narrative \"landed\"."
+    },
+    {
+     "id": "m04.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Constructed Accounts vs. Episodic Recall: Fabrication Markers and Elasticity",
+     "md": "Yet polish alone never proves fabrication. A completely truthful account retold five times to five stakeholders naturally sands down its rough edges into a crisp, rehearsed summary—a **Rehearsed Truth Artifact**. Condemning a smooth timeline on cadence alone walks you straight into the **Othello Error** (M03).\n\nThe true diagnostic separator is **elasticity under off-script pressure**. Real episodic memory sits atop a rich, messy sensory architecture; a constructed script is a thin facade with nothing behind the drywall. As *Six-Minute X-Ray* notes, when a hyper-clean chronological story raises a congruence flag, the cleanest test is asking the speaker to walk through a slice of the sequence *in reverse* or from an unexpected sensory angle. A **Rehearsed Truth Artifact** adapts fluidly, complete with minor self-corrections and incidental detail. A constructed account has no underlying architecture to draw from—causing cadence to fracture, blink rate to freeze, and cognitive load to spike the moment you step off the script.",
+     "hook": "L2-M04-fabrication-vs-recall"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 1 · Telemetry & Authority",
+   "cards": [
+    {
+     "id": "m04.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Because the face is the most heavily policed channel in adult life, deliberate smiles are cheap—but involuntary micro-fractures (unilateral contempt, inward lip compression, and blink-rate suppression) act as real-time meters of status dismissal and verbal self-censorship."
+    },
+    {
+     "id": "m04.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Disarming the Unilateral Lip Raise (Micro-Contempt)\n**Setting:** Senior stakeholder reviews, adversarial interviews, institutional gatekeeping\n\n**Signal:** A split-second, single-sided corner lift of the mouth (+3.0 DRS) immediately after you state a credential, fee, or proposal—often paired with polite, non-committal words.\n\n**Counter-move:** Read it accurately: unilateral contempt is an involuntary status verdict ('you don't have leverage here' or 'you don't understand how this room works'). Never counter contempt by lecturing, stacking more credentials, or mirroring the sneer—defending your worth confirms their frame that you are auditioning. Hold one calm beat of stillness and hand them the burden of explanation as a peer.\n\n**Break line:** \"It looks like you've seen this approach run into walls before—where does it usually break down on your end?\"\n:::\n\n:::note Surfacing Lip Compression (Literal Motor Inhibition)\n**Setting:** Contract negotiations, compensation reviews, administrative desks\n\n**Signal:** Lips press thin and roll inward until the red disappears (+2.0 DRS) right after an offer or boundary, followed by a curt nod and a surface 'that's fine.'\n\n**Counter-move:** Lip compression is physical motor braking—the brain clamping the mouth shut to hold back resentment, an objection, or a deal-killing constraint. Taking their polite 'fine' at face value guarantees silent post-meeting sabotage. Surface the withheld friction neutrally without guessing what it is.\n\n**Break line:** \"You said that works, though I sense there's a catch on your side. Better we put it on the table now than hit it next week.\"\n:::\n\n:::note Outlasting Blink Suppression & the Post-Statement Flurry\n**Setting:** Fee anchoring, hard deadlines, bluff testing\n\n**Signal:** Counterpart's blink rate drops sharply into a fixed, unblinking stare while delivering a hard claim ('this is our absolute ceiling'), followed by a rapid 4–6 blink flurry the second they finish.\n\n**Counter-move:** The unblinking stare is active threat-monitoring—checking whether you flinched or bought the anchor. The rapid flurry afterward is autonomic cortisol venting. Do not nod, soften, or speak during the stare. Hold two seconds of relaxed eye contact until the flurry fires, then deliver your counter-anchor on a flat, downward pitch.\n\n**Break line:** Hold 2 seconds of relaxed silence until the blink flurry lands, then: \"That ceiling doesn't cover this scope. Here is what fits that number.\"\n:::"
+    },
+    {
+     "id": "m04.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Paul Ekman & John Gottman (Contempt as Status Hierarchy)\nContempt is the only asymmetric universal facial expression—it explicitly asserts vertical superiority. In a negotiation, spotting a unilateral lip raise tells you immediately that the counterpart has shifted out of collaborative problem-solving into status combat.\n:::\n\n:::note Daniel Shapiro (Beyond Reason — Status & Role Triggers)\nMicro-expressions of contempt or tight lip compression frequently fire the exact second a counterpart feels their Status or Role was stepped on. Reading that flash lets you repair or bypass an identity snag before the entire negotiation locks into positional warfare.\n:::\n\n:::note Robert Greene (The Laws of Human Nature — Masked Aggression)\nIn corporate, academic, and bureaucratic rooms, overt hostility carries institutional penalties, forcing aggression underground into facial micro-leakage. Catching the fracture between diplomatic syntax and a unilateral lip raise lets you raise your guard cleanly without waiting for an open insult.\n:::"
+    },
+    {
+     "id": "m04.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Status Retaliation (The Expert's Counter-Lecture)\n**Mechanism:** Catching a flash of contempt triggers an immediate ego spike to prove competence by citing data, titles, or airtight logic—which reads as defensive striving and lowers your standing.\n\n**Calibration:** Treat contempt as telemetry about their assumptions or insecurity, never as a referendum on your competence.\n:::\n\n:::warn Mind-Reading the Inhibition\n**Mechanism:** Seeing lip compression and assuming you know the exact thought they are hiding. Often they are biting back frustration with their own leadership or budget, not with you.\n\n**Calibration:** Open the door with a neutral prompt; never state your guess about their hidden motive as fact.\n:::\n\n:::warn Predatory Facial Hyper-Fixation\n**Mechanism:** Locking onto someone's mouth or eyelids to hunt for micro-expressions creates an uncanny, interrogative stare that puts counterparts on high alert.\n\n**Calibration:** Keep a soft, natural conversational gaze; micro-fractures register cleanest when your attention is relaxed.\n:::"
+    }
+   ]
+  }
+ ]
+}

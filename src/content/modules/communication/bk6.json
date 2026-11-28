@@ -1,0 +1,154 @@
+{
+ "id": "bk6",
+ "belt": "black",
+ "kind": "week",
+ "kicker": "Black Belt · Module Bk6",
+ "title": "Dissolving Deadlocks, and the Confidant",
+ "subtitle": "How do I dissolve binary deadlocks, accept what cannot be solved, and hold unarmored confidant presence while living the full Dojo?",
+ "golden": "Synthesizes all four belts (`White` → `Blue` → `Brown` → `Black`) into a living practice rather than a static checklist.",
+ "goldenLabel": "Golden Thread",
+ "assembly": "| Day |\n|---|\n| Mon: Dissolving Deadlocks & Premises |\n| Tue: Accepting the Unsolvable & Double-Loop |\n| Wed: The Confidant & Living System |\n| Thu: Premise-Shift & Confidant Lab |\n| Fri: Deadlock + Double-Loop + Sanctuary Log`. |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Dissolving Deadlocks & Changing What the Conversation Is About",
+   "cards": [
+    {
+     "id": "bk6.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 1 — Dissolving Deadlocks & Changing What the Conversation Is About",
+     "md": "**Thesis Opener:** In `Bk5` you guarded against covert tactics and bad games; in `Bk6` you step to the edge of systemic and relational mastery—dissolving deadlocks by questioning the premise itself rather than fighting harder inside a binary trap.\n\nPicture two people pulling opposite ends of a rope labeled *yes* and *no* while the real question sits unnoticed off to the side. When a debate locks around a binary choice, arguing harder inside the existing frame only tightens the knot. Changing what the conversation is about—asking whether the real question is *whether* to choose A or B, or what each side is actually afraid of or protecting—opens space that positional bargaining cannot reach, provided you land a concrete next step afterward rather than leaving someone who needs a decision floating in abstraction.\n*Bridge to Tuesday:* Reframing dissolves deadlocks built on modifiable premises; tomorrow addresses the twin discipline of maturity—recognizing when a constraint or tension **cannot** be solved away."
+    },
+    {
+     "id": "bk6.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 1 — Dissolving Deadlocks & Changing What the Conversation Is About",
+     "md": "- **Operational Bridge:** Shift from positional stalemate to the underlying premise or shared concern, then anchor the reframe in a concrete, decision-ready next step.\n- **Office Worked Example:** Instead of debating a binary deadline extension for another cycle, ask what risk a rushed delivery actually creates versus what a staggered milestone protects—and agree on one concrete checkpoint first.\n- **Personal Worked Example:** When a recurring disagreement loops around surface logistics, name the deeper worry or need gently and ask what small step would ease it right now.\n- **Non-Example:** Offering an abstract philosophical reframe when a teammate or partner is asking for a clear, practical decision.\n- **Decision Rule & Handoff:** Always pair a reframe with a concrete next step so insight never becomes evasion. Feeds your **One Dissolved Deadlock** write-up."
+    },
+    {
+     "id": "bk6.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 1 — Dissolving Deadlocks & Changing What the Conversation Is About",
+     "md": "### Layer 3 · Optional Deepening (Construct-Aware Grounding)\n\nQuestioning premises is only useful when it serves the people in the room; the test of a good reframe is whether tension drops and a practical next action becomes clearer."
+    },
+    {
+     "id": "bk6.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 1 — Dissolving Deadlocks & Changing What the Conversation Is About",
+     "md": "**Module question.** How do I dissolve binary deadlocks, accept what cannot be solved, and hold unarmored confidant presence while living the full Dojo?\n\n**Golden thread.** Synthesizes all four belts (`White` → `Blue` → `Brown` → `Black`) into a living practice rather than a static checklist.\n\n:::note Resolved seam · Constructive Marginality (Fluid Perspective) vs. Anchored Commitment (`Bk3 Mon` vs. `Bk3 Tue` / `Bk6 Mon`)\n**Tension.** Seeing how every cultural frame and identity is constructed (`Bk3 Mon`) can slide into **value paralysis**, rootlessness, or evasive abstraction (`Bk6 Mon`).\n\n**Resolution.** **Stay fluid in perspective, concrete in commitment.** Pair every multi-perspectival insight or reveal with one observable commitment or next step so others know where you actually stand—and run the **Reversal Check** whenever comparing cultures so you do not merely flip polarities.\n:::\n\n:::note Resolved seam · Dissolving Deadlocks by Reframing vs. Accepting the Unsolvable (`Bk6 Mon` vs. `Bk6 Tue`)\n**Tension.** `Bk6 Mon` teaches you to dissolve stalemates by questioning the premise, while `Bk6 Tue` warns against trying to engineer away unsolvable realities.\n\n**Resolution.** **Separate modifiable premises from fixed constraints.** Reframe the premise (`Bk6 Mon`) when a stalemate is manufactured by a binary frame; accept fixed constraints cleanly (`Bk6 Tue`) when the limit is structural or humanly unchangeable—and never bypass real human pain with philosophical abstraction.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Accepting the Unsolvable & Double-Loop Conversations",
+   "cards": [
+    {
+     "id": "bk6.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 2 — Accepting the Unsolvable & Double-Loop Conversations",
+     "md": "**Thesis Opener:** Monday showed how reframing can unlock a stuck debate; **Tuesday** addresses the twin discipline of maturity—recognizing when a tension or limitation cannot be solved away, and holding a **double-loop conversation** that examines the underlying assumptions themselves.\n\nNot every friction is a defect waiting to be engineered out; some polarities and constraints are structural features of life, work, or human difference. Pushing to “solve” what cannot be solved wastes energy and creates frustration, whereas accepting reality cleanly frees attention for what *can* be shaped—and for double-loop inquiry into the assumptions holding a pattern in place.\nIn both work and close relationships, a double-loop move invites looking at the premise or expectation behind a reaction without blame—staying grounded in real stakes rather than retreating into detached abstraction.\n*Bridge to Wednesday:* Accepting fixed constraints and holding blame-free double-loop conversations prepare the ground for **the confidant** role—and for carrying the entire Dojo forward as a living system."
+    },
+    {
+     "id": "bk6.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 2 — Accepting the Unsolvable & Double-Loop Conversations",
+     "md": "- **Operational Bridge:** Distinguish a solvable problem or modifiable assumption from an unsolvable constraint, and name what you are accepting versus what you propose changing.\n- **Office Worked Example:** Acknowledge a fixed budget or headcount ceiling openly rather than fighting it in circles, then ask how scope and sequencing can be redesigned within that real constraint.\n- **Personal Worked Example:** When a friend or loved one faces an unchangeable season or constraint, stay present with them without trying to fix what cannot be fixed.\n- **Non-Example:** Treating a painful reality as “just a polarity to transcend” before acknowledging how it actually lands on the people involved.\n- **Decision Rule & Handoff:** Accept fixed constraints cleanly; use double-loop inquiry on modifiable assumptions. Feeds your **One Double-Loop Conversation** write-up."
+    },
+    {
+     "id": "bk6.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 2 — Accepting the Unsolvable & Double-Loop Conversations",
+     "md": "### Layer 3 · Optional Deepening (Barry Johnson — Polarity Management)\n\nUnlike problems that have a single endpoint solution, polarities (e.g., *stability vs. agility*, *closeness vs. autonomy*) are ongoing tensions to be navigated rhythmically rather than “fixed” once and for all."
+    },
+    {
+     "id": "bk6.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 2 — Accepting the Unsolvable & Double-Loop Conversations",
+     "md": "**Module question.** How do I dissolve binary deadlocks, accept what cannot be solved, and hold unarmored confidant presence while living the full Dojo?\n\n**Golden thread.** Synthesizes all four belts (`White` → `Blue` → `Brown` → `Black`) into a living practice rather than a static checklist.\n\n:::note Resolved seam · Dissolving Deadlocks by Reframing vs. Accepting the Unsolvable (`Bk6 Mon` vs. `Bk6 Tue`)\n**Tension.** `Bk6 Mon` teaches you to dissolve stalemates by questioning the premise, while `Bk6 Tue` warns against trying to engineer away unsolvable realities.\n\n**Resolution.** **Separate modifiable premises from fixed constraints.** Reframe the premise (`Bk6 Mon`) when a stalemate is manufactured by a binary frame; accept fixed constraints cleanly (`Bk6 Tue`) when the limit is structural or humanly unchangeable—and never bypass real human pain with philosophical abstraction.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "The Confidant & Living System Integration",
+   "cards": [
+    {
+     "id": "bk6.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Part 3 — The Confidant & Living System Integration",
+     "md": "**Thesis Opener:** Monday and Tuesday covered dissolving deadlocks and holding double-loop shifts; **Wednesday** closes `Bk6`—and the Black Belt arc—by focusing on **the confidant** role and living with the full curriculum as an ongoing practice rather than a checklist.\n\nPicture a bridge anchored firmly on both sides: one side grounded in clear self-possession and honest limits, the other open to meeting another person where they actually are. In close relationships at the confidant stage, supporting someone's growth from the inside means offering presence, honest reflection when invited (**confirm first, challenge lightly, and stay afterward**), and comfort with silence—without turning presence into abstract distance or covert fixing.\nAcross the entire Dojo—from **White** (*Guard & Regulate*) and **Blue** (*Read & Bond*) through **Brown** (*Word, Reveal & Steer*) and **Black** (*Systems & Bridges*)—no single tool finishes once and for all. Your **Tell list**, **Fallback map**, **Hook profile**, **Immunity maps**, **Tactic codex**, **Script bank (EN/ES)**, **Hypothesis cards**, **Contact log**, **Bilingual lexicon**, **Systemic Architecture Toolkit**, **Evidence log**, **Grid marks**, and **Sanctuary journal** stay alive through regular debriefs and weekly grid checks.\n*Bridge to Thursday & Friday:* You now hold the complete Black Belt arc. Rehearse your premise-shift and confidant presence on Thursday, complete Friday's closing write-ups, and step into the **5-Stage Black Belt Capstone Gauntlet**."
+    },
+    {
+     "id": "bk6.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Part 3 — The Confidant & Living System Integration",
+     "md": "- **Operational Bridge:** Offer grounded presence and requested reflection without taking over the other person's agency, and carry your core Dojo tools into real encounters through the **Prepare → Read → Respond → Debrief** loop.\n- **Office Worked Example:** When a trusted colleague asks for your perspective on a high-stakes decision, start with what you see working in their read, offer one candid challenge or risk clearly, and stay in steady support afterward.\n- **Personal Worked Example:** Sit with a close friend through a real transition using unhurried attention and a brief three-line **Sanctuary journal** note afterward rather than rushing to advise.\n- **Non-Example:** Offering unsolicited “insight” from above or disappearing into detached observation when a close friend needs steady human contact.\n- **Decision Rule & Handoff:** Confirm first, challenge lightly when invited, stay afterward, and feed every debrief back into your living tools. Completes the **Black Belt (`Bk1`–`Bk6`)** curriculum.\n\n:::dialect Live Dialect Examples\n@office_us **Dialect Calibration (Office US):** Office US: Lead with task/risk metrics when downshifting; keep tentative dynamic-naming concise and pair immediately with a 5-minute next step.\n@personal_us **Dialect Calibration (Personal US):** Personal US: Lead with warmth and non-anxious presence; always ask consent before offering a Kegan mirror to a confidant.\n@rioplatense **Dialect Calibration (Rioplatense):** Rioplatense: Sequence warmth and sobremesa rapport before systemic reframes; cushion game exits with clear relational care so steadiness never reads as coldness.\n@espana **Dialect Calibration (España):** España: Crisp, direct framing works well among peers; respect presence-first regularity in community/personal circles and avoid heavy clinical jargon.\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Confidant Mirror: “What you've built here is genuinely strong. Since you asked for my honest take, one risk I see is X—and I'm in your corner whichever way you call it.”**\n@personal_us **Confidant Mirror: “Can I share a pattern I'm noticing with love? You say you want X, and each time it gets close something pulls you off track—what's the real fear underneath?”**\n@rioplatense **Confidant Mirror: “¿Te puedo decir algo con mucho cariño? Lo que venís haciendo es enorme; igual noto que cada vez que te acercás a X aparece algo que te frena. ¿Qué es lo que más te da miedo ahí?”**\n@espana **Confidant Mirror: “Lo que has montado tiene mucho mérito. Ya que me pides sinceridad, veo un riesgo concreto en X—y cuentas conmigo decidas lo que decidas.”**\n:::"
+    },
+    {
+     "id": "bk6.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Part 3 — The Confidant & Living System Integration",
+     "md": "### Layer 3 · Optional Deepening (The Four-Belt Synthesis)\n\nWhen stressed, drop down a belt rather than forcing a Black Belt move: regulate your body first (**White**), read the person and protect connection (**Blue**), state your ask cleanly in four parts (**Brown**), and only then reframe the wider system (**Black**)."
+    },
+    {
+     "id": "bk6.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Part 3 — The Confidant & Living System Integration",
+     "md": "**Module question.** How do I dissolve binary deadlocks, accept what cannot be solved, and hold unarmored confidant presence while living the full Dojo?\n\n**Golden thread.** Synthesizes all four belts (`White` → `Blue` → `Brown` → `Black`) into a living practice rather than a static checklist."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Premise-Shift & Confidant Practice",
+   "cards": [
+    {
+     "id": "bk6.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Deliberate Practice Lab — Premise-Shift & Confidant Practice",
+     "md": "## Deliberate Practice Lab — Premise-Shift & Confidant Practice\n\n:::note\n1. **Binary-to-Premise Drill:** Take one stuck A-vs.-B debate. Write the hidden premise both sides are taking for granted, one question that opens it, and one concrete next step.\n2. **Confirm → Challenge → Stay:** Practice a 3-beat confidant response for a friend or colleague who asked for your honest take: *(1) What is true/strong in their read → (2) One candid risk/blind spot → (3) Steady support without taking over.*\n:::",
+     "tools": [
+      "legacy.black.Bk6"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Deadlock, Double-Loop & Sanctuary Log",
+   "cards": [
+    {
+     "id": "bk6.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Deliverable — Deadlock, Double-Loop & Sanctuary Log",
+     "md": "## Deliverable — Deadlock, Double-Loop & Sanctuary Log\n\n* **One Dissolved Deadlock:** `[Binary stalemate → Premise questioned → Concrete next step landed]`\n* **One Double-Loop Conversation:** `[Fixed constraint accepted vs. Modifiable assumption examined]`\n* **Sanctuary Journal (3 Lines):** `[1. What was alive in the room · 2. Where I stayed present without fixing · 3. What I am carrying forward]`\n\n---\n\n:::note\n### Part 1 · Dissolved Deadlock & Double-Loop Log\n\n:::\n\n:::note Flagship Black Belt Deliverable\n### Part 2 · The Systemic Architecture Toolkit\n\n:::",
+     "tools": [
+      "form.black.Bk6"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

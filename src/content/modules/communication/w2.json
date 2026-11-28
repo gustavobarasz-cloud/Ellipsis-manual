@@ -1,0 +1,146 @@
+{
+ "id": "w2",
+ "belt": "white",
+ "kind": "week",
+ "kicker": "White Belt · Module W2",
+ "title": "Home Base & Fallbacks",
+ "subtitle": "Under pressure, everyone drops to a familiar older operating system. Map where you go so you can catch it mid-drop without shame.",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Mon",
+   "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+   "cards": [
+    {
+     "id": "w2.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+     "md": "### William Torbert: Action Logics as Habitual Ways of Acting\n\n- **The Operating System, Not the Mood:** W1 taught you how to hit the brakes in your body; W2 maps the exact older track your mind drops onto the instant you forget to brake. In *Action Inquiry*, William Torbert defines an **action-logic** not as a fleeting mood or a personality label, but as an entire operating system governing which territory of experience feels most real, how far ahead your time horizon reaches, which kind of power you trust, and what counts as \"timely action.\" An **Opportunist** operates in the outside physical world on an hours-to-days horizon where unilateral power wins; a **Diplomat** operates inside sensed social performance on a weeks-to-months horizon guided by referent power and group norms; an **Expert** lives inside cognitive craft on a six-to-twelve-month horizon powered by logistical mastery.\n- **The Gravity of the Fallback & The Chosen-Craft Test:** Under everyday conditions you run from your home base, yet Torbert explicitly notes that everyone carries a **fallback action-logic**—a well-worn secondary groove we drop into when insecure, ill, angry, or exhausted. The crucial distinction is **circumscription**: there is nothing wrong with Diplomat tact or Expert rigor when you *choose* it on purpose. The trap is being *bounded* by the logic so it drives you. Notice Torbert's **\"harrowing irony\"** of the Diplomat fallback: smoothing over tension and masking real data to preserve harmony ends up creating deeper, quieter conflict. Likewise, the Expert's reflex—flooding a room with airtight logic when challenged—wins the footnote while losing the room.\n- **Misconceptions & Bridge to Tuesday:** Two errors trip practitioners here. First, people use Torbert's names as a sorting hat to rank themselves or colleagues, forgetting that \"Observer\" is your own name for cool analytical withdrawal, not one of Torbert's logics. Second, calling a moment a \"drop\" raises a sharper question that Tuesday's author (Susanne Cook-Greuter) confronts directly: *if a stage is a center of gravity measured across dozens of sentences, what does it actually mean to \"drop\" in a single conversation—and can rehearsing one Strategist sentence really pull you back out?*"
+    },
+    {
+     "id": "w2.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+     "md": "- **Plain-English Decision Rule:** Run the **Craft vs. Fallback Test**: ask silently, \"Could I stop doing this right now if the room shifted?\" Chosen craft stops on a dime; a fallback triggers a flash of tightness or urgency the moment you try to set it down.\n- **Office Dojo Worked Example:** A stakeholder questions your methodology mid-review. An **Expert Fallback** floods the table with four defensive slides; **Chosen Expert Craft** offers one crisp data point, stops, and asks which decision they need to make today.\n- **Personal Dojo Worked Example:** A friend drops a sharp remark that stings. Your **Observer Fallback** goes quiet and dissects their motive from ten feet away. Your exit move pulls directly from W1 Step 2 (\"stung\") and puts one small true line on the table: \"Hey, that landed hard.\"\n- **Non-Example (Failure Mode):** Double-checking a complex contract clause because accuracy is literally your fiduciary job—that is healthy Expert craft, not an Expert drop."
+    },
+    {
+     "id": "w2.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+     "md": "### Layer 3 · Optional Deepening — Richard C. Schwartz (No Bad Parts / IFS)\n\nTreating a fallback as a shameful \"regression\" is the fastest way to lock it in place. In Internal Family Systems, these patterns are not character flaws—they are overburdened **protectors** forced into extreme roles to keep vulnerable pain (*exiles*) from being hit. The split is functional, not fixed: **Managers** act *preemptively* to prevent humiliation or rejection before it lands (Expert over-explaining, Diplomat fawning, Achiever over-controlling, or an Observer who keeps distance early), while **Firefighters** rush in *reactively* after the sting hits to douse the flames (an Opportunist snap or a sudden Observer shutdown). Fighting a protector escalates it; silently thanking it for trying to keep you safe before asking it to step back is what loosens the grip."
+    },
+    {
+     "id": "w2.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+     "md": "- **Handoff:** Gives you the Dark Side (Cost) and Concrete Way Back columns for Friday's Fallback Map, setting up Tuesday's audit of the Strategist target sentence.\n\nThe Socratic deck for W2 is in this week's Lab day."
+    }
+   ],
+   "author": "Action Logics (Torbert)"
+  },
+  {
+   "id": "tue",
+   "label": "Tue",
+   "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+   "cards": [
+    {
+     "id": "w2.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+     "md": "### Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence\n\n- **The Bell Curve, Not the Ladder Rung:** Monday showed *how* an action-logic runs a moment; Tuesday corrects the illusion that you live on a single rung. In *Nine Levels of Increasing Embrace*, Susanne Cook-Greuter builds on Jane Loevinger's sentence-completion method—scoring patterns of meaning-making across 36 unfinished stems. Her key structural finding is that nobody scores on one flat level: every person displays a distribution spanning at least three bands—a **center of gravity** (where you reliably operate when resourced), a **trailing edge** (the earlier secondary stage you employ or fall back to under stress), and a **growth edge** (where new ways of seeing are still forming).\n- **What One Sentence Can—and Cannot—Carry:** This module hands you the Strategist's target sentence: *\"What's really happening here, and what do I want from it?\"* Be epistemically strict about what that line does. Saying one sentence does not magically promote your developmental stage; it works as a **behavioral circuit-breaker** modeled on two capacities Cook-Greuter attributes to the Strategist: seeing your own frame as a frame inside the system, and holding inner **polarities** together (\"I can care about this person AND hold a firm line\").\n- **Counterintuitive Trade-Off — The Whitewashing Shadow:** Self-awareness has its own sleek disguise. Cook-Greuter warns of the Strategist's **whitewashing tendency**: owning your fallbacks and flaws so smoothly (\"Look how well I know myself—I'm not even afraid to share my shadow\") that honesty quietly becomes a polish for ego superiority. Worse, if you answer only the *first* half of the sentence (\"What's really happening here?\") and skip the *second* half (\"What do I want from it?\"), the target sentence morphs straight back into your cool Observer armor. And even when you try to log that inner dialogue later, Wednesday's author (Russell Hurlburt) asks an uncomfortable question: *was that inner sentence actually there in the room, or did your mind invent it tonight?*"
+    },
+    {
+     "id": "w2.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+     "md": "- **Plain-English Decision Rule:** Apply the **Two-Half Test**: the Strategist sentence only earns its keep when you answer *both* halves. Half 1 checks the frame; Half 2 (\"What do I want from it?\") forces you out of detached analysis and back into agency.\n- **Office Dojo Worked Example:** A colleague pushes back in front of leadership. Half 1: \"They're worried about bandwidth, and my jaw locked because I felt questioned.\" Half 2: \"I want a realistic delivery date we both own—not to win the argument.\"\n- **Personal Dojo Worked Example:** A friend cancels last minute again. Half 1: \"I'm irritated and already drifting toward acting like it doesn't matter.\" Half 2: \"I want to see them, and I want plans that don't leave me hanging.\"\n- **Non-Example (Failure Mode):** Silently asking \"What's really happening here?\", deciding \"They're projecting insecurity,\" and walking away without ever answering \"What do I want?\"—a polished Observer audit disguised as Strategist insight."
+    },
+    {
+     "id": "w2.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+     "md": "### Layer 3 · Optional Deepening — Robert Kegan (In Over Our Heads)\n\nKegan gives the exact cognitive geometry behind Cook-Greuter's sentence: **\"We have object; we are subject.\"** Whatever you are *subject to* is immediate and invisible—you are fused with it, looking *through* it, unable to reflect on it or take responsibility for it. While you are *subject* to an Expert or Diplomat fallback, its logic feels like reality itself. Asking \"What's really happening here, and what do I want?\" pries your eyes off the glass and pushes the fallback out in front of you as **object**—something mediated, relative, and finally small enough to inspect and set down."
+    },
+    {
+     "id": "w2.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+     "md": "- **Handoff:** Installs Half 2 (\"What do I actually want from this?\") as the universal reset anchor across Friday's Fallback Map, while Wednesday audits how accurately you can hear your own mind.\n\nThe Socratic deck for W2 is in this week's Lab day."
+    }
+   ],
+   "author": "Stage Distribution (Cook-Greuter)"
+  },
+  {
+   "id": "wed",
+   "label": "Wed",
+   "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+   "cards": [
+    {
+     "id": "w2.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+     "md": "### Russell Hurlburt: Pristine Inner Experience vs. Reconstruction\n\n- **The Unreliable Court Reporter:** Monday mapped the fallbacks; Tuesday gave you the target sentence. Wednesday stress-tests the instrument you are about to use to track both: your own memory. Psychologist Russell Hurlburt built **Descriptive Experience Sampling (DES)**—triggering a random beeper in daily life so people capture what was in experience the exact split-second before the beep, then refining those notes with a trained interviewer. His central finding is humbling: people are routinely, confidently wrong about what happens inside their own heads, especially when they assume they always think in neat, grammatically complete inner sentences.\n- **The Five Phenomena & Reconstruction Bias:** Across DES sampling, Hurlburt identifies five distinct forms of pristine inner experience: **Inner Speaking** (actual internal words), **Inner Seeing** (a flash of a mental image, like a colleague's eyebrow rising), **Feelings** (a direct emotional wave), **Sensory Awareness** (a pure physical cue like jaw heat), and **Unsymbolized Thinking** (a crisp, unmistakable knowing or urge with *zero* words or pictures attached). The trap is **reconstruction bias**: sitting down at 10 PM to write a monologue journal about a 2 PM conflict invites your articulate verbal brain to act like a creative court reporter—fabricating an eloquent sentence that was never actually spoken in the room.\n- **Second-Order Effects & Honest Calibration:** Treating a nightly diary entry as gospel creates fake precision—you start hunting for an inner sentence that never fires while missing the split-second image or wordless urge that actually pulled you into the drop. The fix is methodological humility: log within minutes when you can, record the actual form (speech, image, body, or unsymbolized urge), and trust **patterns that recur across weeks**—or exact words another person heard you say aloud—far more than any single entry."
+    },
+    {
+     "id": "w2.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+     "md": "- **Plain-English Decision Rule:** Follow the **5-Minute / Exact-vs-Reconstructed Rule**: log within five minutes of friction and tag `[Exact]` plus the real form (Speech / Image / Body / Unsymbolized) and language (EN / ES). If you log hours later from memory, tag `[Reconstructed]` and withhold judgment until a pattern repeats across 3+ entries.\n- **Office Dojo Worked Example:** A client cuts you off mid-slide. Honest `[Exact]` log two minutes later: \"[Sensory + Unsymbolized] Throat tightened + wordless urge to speed up and over-explain.\" Zero invented monologue.\n- **Personal Dojo Worked Example:** A friend lands a dismissive joke. Honest `[Exact]` log: \"[Inner Speech · ES] 'Ya fue, dejalo pasar.' → Observer drop.\"\n- **Non-Example (Failure Mode):** Writing at bedtime: \"I thought, 'If I explain the methodology thoroughly, they will recognize my competence'\" when at 2 PM all that actually happened was a flash of heat and faster talking."
+    },
+    {
+     "id": "w2.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+     "md": "### Layer 3 · Optional Deepening — Aneta Pavlenko (Emotions and Multilingualism)\n\nPavlenko's embodied view of multilingualism shows that bilinguals do not merely translate identical feelings between two dictionaries: depending on learning histories and use contexts, different languages carry distinct **affective styles, neurophysiological resonance, and affective personae**—what many bilinguals experience as \"double selves.\" Tagging **EN vs. ES** in Thursday's Monologue Journal turns a generic diary into a sharp diagnostic: you may discover that your Expert fallback almost always speaks in analytical English while your Diplomat or Observer line arrives first in Spanish—or vice versa."
+    },
+    {
+     "id": "w2.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+     "md": "- **Handoff:** Feeds clean, unconfabulated `[Exact]` inner cues into Thursday's Monologue Journal (EN/ES) and Friday's Fallback Map, wiring your W1 body tells directly to your W2 fallbacks.\n\nThe Socratic deck for W2 is in this week's Lab day."
+    }
+   ],
+   "author": "Inner Experience (Hurlburt)"
+  },
+  {
+   "id": "lab",
+   "label": "Thu/Fri",
+   "title": "Monologue & Fallback Map",
+   "cards": [
+    {
+     "id": "w2.lab.deck",
+     "kind": "check",
+     "label": "Socratic Deck",
+     "title": "Socratic Deck",
+     "md": "",
+     "tools": [
+      "deck.white.w2"
+     ]
+    },
+    {
+     "id": "w2.lab.tool1",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Fallback Map (W2 Deliverable)",
+     "md": "### Fallback Map (W2 Deliverable)",
+     "tools": [
+      "form.white.w2"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "m07",
+ "kind": "module",
+ "tier": 4,
+ "tierTitle": "Profiling Loop & Elicitation",
+ "tierSubtitle": "Running the six-minute passive sweep and opening protective vaults without direct interrogation.",
+ "title": "The Six-Minute Profiling Loop & Conversational Diagnostics",
+ "number": 7,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-11",
+  "PIT-04"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Two-Stage Sonar Plot",
+   "cards": [
+    {
+     "id": "m07.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/3",
+     "title": "The Two-Stage Sonar Plot",
+     "md": "A submarine commander does not enter unfamiliar waters by flooding the ocean with high-powered active sonar pings. Active pinging announces your presence to every vessel within twenty miles, collapsing the very stealth that makes surveillance possible. Instead, the crew runs a **two-stage sonar plot**. First comes the **passive sweep**: engines hushed, hydrophones open, listening to the ambient signature of propellers, hulls, and currents already moving through the dark. Only once a rough bearing takes shape on the plotting board does the operator send a quiet, low-energy **diagnostic ping** to test distance and structure."
+    },
+    {
+     "id": "m07.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/3",
+     "title": "The Two-Stage Sonar Plot",
+     "md": "The **Six-Minute Profiling Loop** is that two-stage sonar plot translated into live human conversation. Everything built across Tiers 1 through 3—the stillness of **Operator Baseline** (M01), the low-threat gravity of **Authority Architecture** (M02), the somatic strain gauges of the **BToE** (M03–M04), and the motivational cantilevers and switchyards of **Needs**, **FATE**, and the **Decision Map** (M05–M06)—now converges onto a single tactical plotting board: *Six-Minute X-Ray*'s **Behavioral Compass**. Rather than interrogating a counterpart or scrambling to memorize fifty isolated body-language cues, the operator runs an unhurried passive sweep during the opening minutes of natural dialogue, harvesting visual and linguistic telemetry onto a mental index card small enough to fit on a Post-it note."
+    },
+    {
+     "id": "m07.model.core-3",
+     "kind": "core",
+     "label": "Mental Model · 3/3",
+     "title": "The Two-Stage Sonar Plot",
+     "md": "The fatal mistake at this altitude is **sensor saturation**. An amateur who tries to track blink rates, shoulder angles, pronoun ratios, sensory predicates, and Decision Map pillars simultaneously burns through working memory in thirty seconds. Their gaze hardens, their timing stalls, and their own cognitive strain leaks across the table as **Observer Distortion** (M01). Mastery of the six-minute loop is never about watching *everything*; it is about disciplined triage—capturing four high-yield bearings passively, verifying them with subtle conversational pings, and updating the plot without ever making the other person feel studied."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Compiling the Behavioral Compass: Phased Triage and the Four-Variable Ceiling",
+   "cards": [
+    {
+     "id": "m07.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "Compiling the Behavioral Compass: Phased Triage and the Four-Variable Ceiling",
+     "md": "Under live conversational pressure, raw observation fails unless it is compressed into an effortless shorthand. *Six-Minute X-Ray* solves this bottleneck with the **Behavioral Compass**—a circular plotting grid organizing a counterpart's active profile around the perimeter (`DEC` for Decision Map, `HND` for handedness, `SNS` for sensory language, `PRN` for pronoun orientation, `LOC` for Locus of Control, and `NDS` for Primary Social Needs) with a four-cell somatic quadrant and **Gestural Hemispheric Tendency (GHT)** arrows inside the ring."
+    },
+    {
+     "id": "m07.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "Compiling the Behavioral Compass: Phased Triage and the Four-Variable Ceiling",
+     "md": "What makes the compass workable in real time is not superhuman speed, but **phased automation**. *Six-Minute X-Ray* breaks acquisition into four sequential layers: **Visual** (tracking physical telemetry), **Audio** (harvesting linguistic patterns), **Response** (adapting your own phrasing to match the profile), and **Mental** (running the entire compass without paper). Crucially, during live interaction, the visual channel obeys a hard cognitive ceiling: track **no more than four somatic variables at once**—for example, blink-rate shifts (`Br`), finger relaxation versus curling (**Digital Extension** vs. flexion, `Df`), lip compression (`Lp`), and **Dominant Shoulder Retreat** (`Ds`), which flags sharp internal disagreement the moment the counterpart's dominant shoulder pulls backward.\n\nOnly when you circle the exact conversational topic that triggered a shift does a raw squiggle become actionable bearing. Notice the quiet elegance of that discipline: you are not cataloging a human being's essence; you are mapping *which specific topics* loosen their fingers into digital extension and which ones pull their dominant shoulder back half an inch.",
+     "hook": "L2-M07-compass-triage"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "Hearing Between the Lines: Linguistic Harvesting (Pronouns, Adjectives, and Sensory Predicates)",
+   "cards": [
+    {
+     "id": "m07.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "Hearing Between the Lines: Linguistic Harvesting (Pronouns, Adjectives, and Sensory Predicates)",
+     "md": "While visual telemetry maps involuntary load, spoken language maps how the counterpart constructs reality—a process *Six-Minute X-Ray* calls **Linguistic Harvesting** (\"hearing between the lines\"). Across three clean audio channels, ordinary small talk leaks structural architecture within minutes:\n\n- **Pronoun Orientation (`Self`, `Team`, `Others`):** Listen to where the speaker places the center of agency. A `Self`-oriented speaker narrates outcomes through *\"I,\" \"me,\"* and *\"my\"*; a `Team`-oriented speaker defaults to *\"we,\" \"us,\"* and *\"our\"*; an `Others`-oriented speaker anchors around *\"they,\" \"people,\"* or *\"everyone\"*. Mirroring their dominant pronoun frame before pitching a proposal removes an invisible grammatical friction that most negotiators never realize they are creating.\n\n- **Positive and Negative Adjective Harvesting:** People carry a tiny, recurring vocabulary of emotional shorthand—the exact adjectives they reach for when something excites them (*\"brilliant,\" \"solid,\" \"clean\"*) or repels them (*\"outdated,\" \"messy,\" \"overbearing\"*). Logging three positive and three negative adjectives gives you the counterpart's native valuation dial; feeding their own approval words back into a summary makes an unfamiliar option feel strangely self-authored."
+    },
+    {
+     "id": "m07.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "Hearing Between the Lines: Linguistic Harvesting (Pronouns, Adjectives, and Sensory Predicates)",
+     "md": "- **Sensory Predicate Channels (`Visual`, `Auditory`, `Kinesthetic`, and `Audio-Digital`):** In *Six-Minute X-Ray*'s review of conversational interviews, speakers reliably drop sensory predicates within roughly the first three minutes (*\"I just don't see why\"* vs. *\"something didn't sound right\"* vs. *\"there's something that doesn't feel right\"*), alongside *The Ellipsis Manual*'s fourth **Audio-Digital** analytical register (*\"criteria,\" \"process,\" \"bottom line\"*).\n\nHere, epistemic discipline prevents a classic trap. Popular NLP folklore treats VAK predicates as rigid, hard-wired \"learning styles\" or neurological personality types—a claim that fails controlled empirical testing. Treat sensory predicates strictly as **live lexical alignment**: echoing a counterpart's active metaphorical register (*\"let's map out a clear picture\"* for a visual speaker, or *\"let's test whether this feels solid\"* for a kinesthetic one) lowers cognitive translation cost and signals attunement without pretending you have x-rayed their cortical wiring. Over-doing it—stuffing every sentence with theatrical visual jargon—trips the counterpart's mimicry radar and triggers **Psychological Reactance** (M10).",
+     "hook": "L2-M07-linguistic-harvesting"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Directional Telemetry: Gestural Hemispheric Tendency (GHT) and Eye Home",
+   "cards": [
+    {
+     "id": "m07.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Directional Telemetry: Gestural Hemispheric Tendency (GHT) and Eye Home",
+     "md": "The subtlest bearing inside the Behavioral Compass is directional kinematics: **Gestural Hemispheric Tendency (GHT)** and **Eye Home**. Across both *Six-Minute X-Ray* and *The Ellipsis Manual*, observation starts by discarding the pop-TV myth that looking up-left universally equals truth and up-right equals a lie—a rigid formula that empirical testing dismantled long ago.\n\nWhat remains observable is idiosyncratic, personal habit. During the first minute of unguarded talk, many subjects consistently favor one spatial side of their body—hands, head tilts, or gaze—when describing pleasant, endorsed topics, and the opposite side when referencing friction or dislike (`ght-lp` for left-positive, `ght-rp` for right-positive). Similarly, **Eye Home** marks the consistent clock-face direction a specific individual glances toward whenever they retrieve routine memories.\n\nThe counterintuitive trade-off is knowing how *lightly* to weight this signal. Even *The Ellipsis Manual* explicitly cautions that GHT **must never be relied upon to make outcome-affecting decisions**. Treat GHT and Eye Home strictly as *low-weight secondary corroboration*—a subtle tie-breaker that only matters when it converges with **BToE Stress Clusters** (M03), **Primary Social Needs** (M05), and **Linguistic Harvesting**."
+    },
+    {
+     "id": "m07.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Directional Telemetry: Gestural Hemispheric Tendency (GHT) and Eye Home",
+     "md": "This brings the two-stage sonar plot full circle. Once your passive sweep populates the Behavioral Compass, you transition smoothly into **Module 08's active pings**—replacing blunt, defensive questions with conversational statements that confirm or falsify your hypotheses in real time. The third-order payoff of disciplined profiling is effortless precision: instead of arguing harder against invisible resistance, you speak in the counterpart's native pronouns, adjectives, and decision frame, letting the room open from the inside out.",
+     "hook": "L2-M07-ght-and-active-ping"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 2 · Profiling & Elicitation",
+   "cards": [
+    {
+     "id": "m07.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "The 6-Minute Profiling Loop is only as sharp as the diagnostic probes you drop into normal conversation. Live profiling fails when operators passively wait for clues—or when they treat a 3-minute impression as permanent fact instead of a falsifiable working hypothesis."
+    },
+    {
+     "id": "m07.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Dropping Invisible Diagnostic Probes (Priority, Attribution, Authority)\n**Setting:** First 5 minutes of discovery calls, job interviews, vendor scoping\n\n**Signal:** Polite surface rapport where you still don't know who holds real veto power, what filter they use, or whether they own outcomes.\n\n**Counter-move:** Weave one natural, low-friction probe into early conversation: (1) Priority Probe ('If timeline and scope collide this quarter, which breaks first?') to expose filter; (2) Attribution Probe ('What drove the slip on the last rollout?') to expose Internal vs. External locus; (3) Authority Probe ('How does a yes actually clear your side?') to expose ghost stakeholders.\n\n**Break line:** \"Before we map deliverables, when the last vendor rollout hit friction, what actually caused the bottleneck?\"\n:::\n\n:::note Spotting & Neutralizing Suggestibility Micro-Tests\n**Setting:** Adversarial negotiations, high-pressure sales, tough interviews\n\n**Signal:** Early, seemingly trivial compliance requests before real terms arise—e.g., asking you to move seats, switch meeting times last-minute, agree to a minor arbitrary framing, or accept a small unnegotiated 'standard' clause.\n\n**Counter-move:** Recognize micro-tests as calibration probes measuring how easily you yield under light pressure. Never say yes automatically just to be polite. Hold one clean, relaxed boundary on a minor item early—it resets the counterpart's suggestibility score on you before the big numbers hit the table.\n\n**Break line:** \"I'll stay on this side of the table—better light for my notes. Ready to jump into the terms?\"\n:::\n\n:::note Enforcing the Disconfirmation Check\n**Setting:** Mid-meeting pivots & multi-round negotiations\n\n**Signal:** You profiled the counterpart as a rigid External-Locus bureaucrat in minute 3, but in minute 18 they casually offer a creative workaround off-script.\n\n**Counter-move:** Update your model immediately. Ask yourself silently: 'What single behavior would prove my current profile wrong?' The moment disconfirming evidence appears, drop the old label and follow the live data.\n\n**Break line:** Shift immediately from compliance-checklist framing to collaborative option-design.\n:::"
+    },
+    {
+     "id": "m07.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Chris Voss (Never Split the Difference — Calibrated Questions)\nVoss's 'How' and 'What' calibrated questions are the cleanest delivery vehicle for Hughes's live-profiling probes: they force the counterpart to reveal their internal decision architecture, constraints, and locus without feeling interrogated.\n:::\n\n:::note Philip Tetlock (Superforecasting — Bayesian Updating)\nThe difference between an elite profiler and an armchair typologist is Bayesian updating. Treat your minute-3 read as a 60% prior, run one probe to test it, and update your confidence up or down based on observable behavior—never ego.\n:::\n\n:::note Robert Cialdini (Commitment & Consistency — Foot-in-the-Door)\nExplains why Hughes's Suggestibility Micro-Tests matter defensively: small early concessions don't just test compliance—they actively manufacture it by triggering consistency pressure for larger asks later in the same room.\n:::"
+    },
+    {
+     "id": "m07.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Premature Typing & Label Lock\n**Mechanism:** Enjoying the clarity of boxing someone into a clean profile ('Cognitive / External / Significance') so much that you stop noticing when their state shifts under pressure.\n\n**Calibration:** Profiles describe current operating posture in a specific room—never a fixed personality essence.\n:::\n\n:::warn Interrogation Cadence\n**Mechanism:** Stacking two or three diagnostic probes back-to-back without offering any framing or reciprocity, which triggers defensive guarding.\n\n**Calibration:** One probe, followed by genuine listening and a brief summary—never rapid-fire questioning.\n:::"
+    }
+   ]
+  }
+ ]
+}

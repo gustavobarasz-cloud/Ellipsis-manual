@@ -1,0 +1,145 @@
+{
+ "id": "m08",
+ "kind": "module",
+ "tier": 4,
+ "tierTitle": "Profiling Loop & Elicitation",
+ "tierSubtitle": "Running the six-minute passive sweep and opening protective vaults without direct interrogation.",
+ "title": "Conversational Elicitation & Protective Masks",
+ "number": 8,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-03",
+  "PIT-11"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Pressure-Sensitive Vault Door",
+   "cards": [
+    {
+     "id": "m08.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "The Pressure-Sensitive Vault Door",
+     "md": "Push hard against a heavy, pressure-sensitive vault door and the hydraulic deadbolts slam deeper into the steel frame. The harder you lean your shoulder into the handle, the tighter the seal locks. You do not open a vault like that by applying more outward force; you open it by **equalizing the pressure differential** across the threshold until the bolts retract on their own and the door swings inward under its own weight.\n\nDirect questioning is outward force. The instant a conversation shifts into pointed, rapid-fire questions (*\"What is your actual margin on this?\"* or *\"Who really pushed back on the merger?\"*), the counterpart's nervous system registers an interrogation frame. Their **Protective Mask**—first mapped under Laws 2 and 3 (M01)—locks down automatically. Once that steel door seals, you stop receiving raw intelligence and start receiving defensive smoke: **Exclusions** (*\"to the best of my knowledge,\" \"as far as I recall\"*), **Résumé Statements** listing credentials instead of answering, **Question Reversals** (*\"What were you doing Monday?\"*), or **Mini-Confessions** tossed out like decoy flares to make you stop digging."
+    },
+    {
+     "id": "m08.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "The Pressure-Sensitive Vault Door",
+     "md": "**Conversational Elicitation** is the discipline of equalizing the pressure differential so information flows out voluntarily. Built directly on top of Module 07's passive sonar sweep, it replaces interrogative questions with low-threat **statements** calibrated to human social reflexes—our urge to correct an error, to educate a genuinely curious listener, to reciprocate a candid disclosure, or to soften a compliment. Because the counterpart experiences themselves as *choosing* to offer the detail rather than being cornered into surrendering it, the vault door stays unlatched, **Psychological Reactance** (M10) stays dormant, and they walk away remembering the exchange as an unusually good conversation."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Equalizing the Threshold: Protective Masks, Deliberate Social Errors, and the Hourglass Method",
+   "cards": [
+    {
+     "id": "m08.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "Equalizing the Threshold: Protective Masks, Deliberate Social Errors, and the Hourglass Method",
+     "md": "Before deploying a single **Elicitation Probe**, an operator must lower the ambient threat level of the room. High-polish perfection often triggers suspicion rather than trust; when a counterpart already shows high-barrier defensiveness, pressing harder only accelerates **Observer Distortion** (M01). *The Ellipsis Manual* notes that seasoned operators deliberately bleed off that tension through **Deliberate Social Errors**—small, non-threatening imperfections, minor signs of thriftiness, or an unhurried, slightly unpolished demeanor that signals you are neither a predator nor a prosecutor. Trust can also bypass conscious screening altogether through **covert subjective experience**: when a counterpart casually overhears you handling an unrelated ethical moment with quiet integrity—such as checking with a front desk about returning a lost wallet—they form the impression of trustworthiness without their skepticism filter ever firing."
+    },
+    {
+     "id": "m08.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "Equalizing the Threshold: Protective Masks, Deliberate Social Errors, and the Hourglass Method",
+     "md": "Once the threshold is calm, structural placement protects the intelligence you gather. *Six-Minute X-Ray* formalizes this architecture as the **Hourglass Method**, anchored in two foundational memory effects: the **Primacy Effect** (humans recall the opening of an interaction with high fidelity) and the **Recency Effect** (we recall the closing just as sharply), while the middle blurs into soft focus. By opening wide on safe, adjacent context, narrowing smoothly into the sensitive topic during the middle third of the conversation, and widening back out into warm, unrelated ground before parting, you ensure the counterpart remembers the rapport of the opening and closing rather than feeling retroactively mined. The trade-off is discipline: rushing the sensitive probe into the first ninety seconds—or ending the meeting immediately after getting the number you wanted—leaves a sharp memory scar that alerts the counterpart's **Protective Mask** before your next conversation even begins.",
+     "hook": "L2-M08-hourglass-pressure-equalizer"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "The Statement Engine: Pulling Information Without Asking a Question",
+   "cards": [
+    {
+     "id": "m08.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/3",
+     "title": "The Statement Engine: Pulling Information Without Asking a Question",
+     "md": "Direct questions put the listener on the witness stand; declarative statements hand them the steering wheel. Across *Six-Minute X-Ray*, elicitation works by gently tapping five high-probability social reflexes—each requiring zero interrogative pressure:\n\n- **Correcting the Record via Citations & Bracketing:** Humans carry an almost automatic reflex to fix factual errors when they know the real number. By attributing an inaccurate figure or range (**Bracketing**) to an outside source (**Citations**)—such as casually mentioning an article claiming grocery staff just got bumped to $21 an hour—the employee instinctively corrects the record (*\"What? No—we only make $14.75 unless you're a manager at $19.50\"*) without ever feeling pried into.\n\n- **Flattery & Diffidence:** Compliments are not used here for shallow ego-stroking; they work as a gentle excavation tool because social norms compel people to appear humble (**Diffidence**). Praise a project lead for carrying an entire launch solo, and their instinct to deflect credit often unlocks the hidden operational story (*\"It wasn't all me—we hit major setbacks and had to bring in outside contractors from another state to make deadline\"*)."
+    },
+    {
+     "id": "m08.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/3",
+     "title": "The Statement Engine: Pulling Information Without Asking a Question",
+     "md": "- **Informational Altruism (Reciprocal Disclosure):** Offering a calibrated, slightly candid vulnerability of your own—such as admitting a minor workflow headache on your team—creates subtle social permission and reciprocity pressure for the counterpart to match your candor with an equivalent reality on their side.\n\n- **Naïveté (The Urge to Educate):** When someone takes quiet pride in a craft or domain, pairing genuine fascination with honest ignorance (*\"I've always wondered how that actually works—I can barely follow the basics\"*) unlocks deep, unguarded technical walkthroughs.\n\n- **Indirect Criticism, Eliciting Complaints & Disbelief:** Humans defend what they value and fight to be believed—and the only ammunition available in conversation is information. Routing mild criticism through a third party (*\"I keep hearing these models don't hold up past year two\"*) prompts a car salesperson to defend the brand by volunteering specific recall details and upcoming engineering fixes. Similarly, expressing calm, curious **Disbelief** compels a speaker to open the floodgates to prove their point."
+    },
+    {
+     "id": "m08.chain2.core-3",
+     "kind": "core",
+     "label": "Causal Chain 2 · 3/3",
+     "title": "The Statement Engine: Pulling Information Without Asking a Question",
+     "md": "Every lever here carries an **over-use ceiling**. *Six-Minute X-Ray* explicitly warns that repeating flattery or citations more than a couple of times turns natural dialogue awkward and triggers the exact suspicion you are trying to avoid. Effective elicitation weaves one or two statements lightly into genuine listening, then lets silence do the heavy lifting.",
+     "hook": "L2-M08-statement-elicitation-levers"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Reading the Valve: Verbal Armor, Micro-Leakage, and Ethical Containment",
+   "cards": [
+    {
+     "id": "m08.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Reading the Valve: Verbal Armor, Micro-Leakage, and Ethical Containment",
+     "md": "Elicitation is never a one-way extraction pipe; it is a real-time feedback loop wired back into Tier 2's sensors (M03–M04). The moment a statement lands near a genuinely guarded fault line, the vault door signals resistance before a single accusation is spoken. Listen for sudden shifts in **verbal armor**: a casual speaker abruptly switching into stiff **Non-Contractions** (*\"did not\"* instead of *\"didn't\"*), a sudden **Politeness Spike** (*\"No sir, absolutely not, sir\"*), **Psychological Distancing** euphemisms that soften harsh facts (*\"took\"* instead of *\"stole\"*), or an unprompted **Mini-Confession** offered to buy quick forgiveness and steer you away from a larger issue."
+    },
+    {
+     "id": "m08.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Reading the Valve: Verbal Armor, Micro-Leakage, and Ethical Containment",
+     "md": "Where inexperienced operators trip is mistaking verbal armor for a cue to press harder. In reality, a sudden spike in **Exclusions** or **Hushing** (hand drifting toward the mouth) during an elicitation pass is a telemetry alert telling you *the pressure differential just spiked*. If you tighten your gaze or double down with sharper disbelief, the **Protective Mask** bolts shut, **Observer Distortion** (M01) floods the room, and you destroy the voluntary channel. The disciplined move is counterintuitive: acknowledge the boundary smoothly, widen back out to the safe outer rim of the **Hourglass**, and let **Autonomic Decay Lag** (M01) reset the room.\n\nOver multiple interactions, the second- and third-order effects of Module 08 separate trusted advisors from short-term extractors. Used recklessly—especially weaponizing **Disbelief** or **Indirect Criticism** to trap peers into embarrassing admissions—elicitation leaves counterparts feeling subtly ambushed hours later once the **Recency Effect** wears off, eroding long-term candor (**Trust-Decay Lag**, M12). Used with restraint and genuine curiosity, conversational elicitation clears the fog of polite avoidance, surfaces hidden constraints early, and leaves both sides with cleaner shared reality.",
+     "hook": "L2-M08-verbal-armor-containment"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 2 · Profiling & Elicitation",
+   "cards": [
+    {
+     "id": "m08.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Elicitation does not defeat you by force; it defeats you by hijacking your own politeness, competence pride, and precision reflexes. The highest-yield elicitation weapon in professional rooms is the Correction Trigger—planting a casual, slightly wrong statement so you rush to fix it and leak guarded leverage."
+    },
+    {
+     "id": "m08.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Defeating the Correction Trigger (Deliberate Misstatement)\n**Setting:** Compensation talks, vendor discovery, competitive interviews, HR/legal reviews\n\n**Signal:** Counterpart casually drops a slightly inaccurate assumption about your numbers, timeline, alternatives, or internal capacity ('So you guys probably have three weeks of slack built into Q4 anyway,' or 'I imagine your current role is capped around $X').\n\n**Counter-move:** Catch the automatic surge to correct them. Pause one full breath and ask: 'Does letting this inaccurate side comment sit uncorrected actually bind me legally or financially?' If not, let it pass untouched—or deliver a flat, narrow boundary sentence that reveals zero internal data.\n\n**Break line:** \"Our delivery window is tied to the signed schedule—nothing outside that is on the table.\"\n:::\n\n:::note Neutralizing Bracketing & False-Consensus Traps\n**Setting:** Pricing discovery, salary negotiation, procurement bidding\n\n**Signal:** Counterpart throws out an absurdly low or high range ('Most consultants we see for this are around $40k–$50k, right?') or claims 'everyone in the market shares their rate card upfront' to force you to reveal your true floor or BATNA.\n\n**Counter-move:** Refuse to react emotionally to the low bracket or prove you aren't overpriced by justifying your cost structure. Deflect the bracket neutrally and pivot straight back to scope and value drivers.\n\n**Break line:** \"Market rates vary wildly depending on scope and risk. Once we lock the exact deliverables, I'll send a clean fixed quote.\"\n:::\n\n:::note Surviving the Silence Vacuum & Sympathetic Venting\n**Setting:** Interviews, debriefs, colleague/manager fishing expeditions\n\n**Signal:** Counterpart asks an open question, gets your clean two-sentence answer, and then just nods slowly and waits in silence—or shares a fake minor complaint ('Honestly, leadership is a mess here too, right?') to induce reciprocal venting.\n\n**Counter-move:** Hold the silence back. Once you have answered the narrow question asked, close your mouth, keep relaxed eye contact, and let the quiet sit. Against sympathetic venting, validate neutrally without contributing a single quotable criticism or internal secret.\n\n**Break line:** Deliver your two-sentence answer, drop terminal pitch, and wait calmly until they speak next.\n:::"
+    },
+    {
+     "id": "m08.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note FBI / Intelligence Elicitation Doctrine (Standard Counter-Elicitation)\nHughes's elicitation chapter adapts classic intelligence tradecraft (deliberate misstatement, flattery, assumed knowledge, quid pro quo). Intelligence counter-training teaches one iron rule: information leaks happen in the second and third sentences of an answer, almost never the first.\n:::\n\n:::note Jim Camp (Start with No — Eradicating Neediness)\nNeediness is the fuel behind elicitation vulnerability. When you feel you need the counterpart to like you, believe you, or approve of you, you over-explain and fill every silence vacuum. Emotional detachment makes narrow answering effortless.\n:::\n\n:::note Robert Greene (The 48 Laws of Power — Law 4: Always Say Less Than Necessary)\nEvery extra clause you volunteer under elicitation pressure gives the other side free leverage, unintended commitments, or fresh hooks for follow-up probes. Economy of speech is both an authority signal and an information firewall.\n:::"
+    },
+    {
+     "id": "m08.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn The Interpreter's & Expert's Precision Reflex\n**Mechanism:** Years of training to preserve exact fidelity and fix every factual or linguistic inaccuracy make you unusually susceptible to the Correction Trigger. Leaving a wrong number hanging in the air feels physically uncomfortable—and skilled elicitors exploit that exact discomfort.\n\n**Calibration:** Practice letting non-material inaccuracies pass completely uncorrected in low-stakes rooms until your nervous system stops flinching.\n:::\n\n:::warn Over-Defensiveness (Looking Secretive Instead of Calm)\n**Mechanism:** Snapping 'I can't disclose that' or turning visibly guarded when probed—which instantly signals that you are hiding high-value leverage right where they poked.\n\n**Calibration:** Keep narrow answers warm, breezy, and matter-of-fact; boredom kills elicitation faster than stonewalling.\n:::"
+    }
+   ]
+  }
+ ]
+}

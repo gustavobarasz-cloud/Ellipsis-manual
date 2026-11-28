@@ -1,0 +1,202 @@
+{
+ "id": "br5",
+ "belt": "brown",
+ "kind": "week",
+ "kicker": "Brown Belt · Module Br5",
+ "title": "Steering Out Loud",
+ "subtitle": "Where is this conversation going, who decides, and should I anchor first or draw them out?",
+ "golden": "Promotion Project Capstone: Friday's 7-Block Steering Map auto-imports your Br1 Ask, Br3 Register Note, and Br4 4-Part Pitch into one battle card.",
+ "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+ "assembly": "| Day |\n|---|\n| Mon: Inform/Consult/Negotiate |\n| Tue: Voss Calibrated Qs |\n| Wed: Galinsky Anchor vs. Voss |\n| Thu: Go-First Advisor + Qs |\n| Fri: 7-Block Steering Map |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+   "cards": [
+    {
+     "id": "br5.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+     "md": "### Layer 1 · Author Completion: Decision Architecture, Reactance & The I-C-N Buckets\n\nThink of a negotiation or team meeting as a vessel whose rudder has to be set in plain sight before anyone pulls on the oars. **Roger Fisher & Daniel Shapiro** (*Beyond Reason*) point out that when people feel left out of decisions that touch their work or plans, **reactance**—pushing back simply because choice was taken away—kicks in fast, while vague expectations leave everyone guessing who actually holds the call. Their **Inform, Consult, Negotiate** split clears the deck: **Inform** means you have decided and are sharing it openly; **Consult** means you genuinely want input before you decide; **Negotiate** means you are deciding together.\n\nHere is the misconception that trips up even well-meaning leaders and colleagues: treating 'consultation' as a polite rubber stamp after the choice is already made. When someone asks *“What do you think we should do?”* while their mind is already locked, it breeds cynicism faster than a clean **Inform**; conversely, hovering without naming the decision type leaves peers unsure whether they have a voice or a veto. The counterintuitive move when *you* have less formal power—such as a promotion or scope discussion—is not announcing a joint decision unilaterally, nor asking permission from below, but **asking for the bucket as an alignment check** and separating open option-brainstorming from final commitment. The second-order effect is fewer bruised egos over unstated rules; the third-order payoff is a room that can argue over real trade-offs instead of guessing hidden motives.\n\n*Bridge to Tuesday:* Naming *who decides* sets the rudder; tomorrow, **Chris Voss** shows how **calibrated questions** hand the problem back without triggering a wall of 'no' or brittle false urgency."
+    },
+    {
+     "id": "br5.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+     "md": "When *you* hold authority, name the bucket in sentence 1. When *they* hold authority (your promotion), **ask for the bucket as an alignment question**, separate commitment-free option exploration from final deciding, and check for **bucket drift** if a 'joint' talk quietly turns into a unilateral edict.\n\n:::note Office Worked Example (Upward-Safe Promotion Check)\n“I know leveling decisions involve calibration across leadership, so I want to be clear on process. Is today a chance to align jointly on Senior criteria, or are you gathering my case for broader review?”\n:::\n\n:::note Personal Worked Example (Ending Drift With a Friend)\n“Let's split decisions so we don't spin: I'll pick Friday's dinner spot and tell you (**Inform**), and let's pick Saturday's hike together (**Negotiate**). Work for you?”\n:::\n\n:::note Non-Example (Pseudo-Consultation)\nAsking a colleague “What do you think we should do about Q4 dates?” after you already submitted the final schedule. *(Spikes reactance harder than a clean Inform.)*\n:::\n\n:::note Decision Rule\nNever open a **Consult** unless you are genuinely open to being influenced. Upward in hierarchy, ask or propose rather than announcing a joint frame.\n:::\n\n:::field Decision-Type Check\nWhich decision type will you propose in your Promotion Conversation or next key meeting?\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Upward-Safe Script (Office US):** Office US: Frame decision-type checks upward as alignment questions so they land as senior clarity, never a power grab.\n@personal_us **Upward-Safe Script (Personal US):** Personal US: Steering a friendship means proposing a concrete place and time while leaving their no completely safe.\n@rioplatense **Upward-Safe Script (Rioplatense):** Rioplatense: Warm, collaborative phrasing prevents upward decision-type checks from sounding rigid.\n@espana **Upward-Safe Script (España):** España: Direct, practical alignment works cleanly in Spanish offices and bureaucracies.\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Upward Alignment Question:** “To make sure I prep the right level of detail—is this one you're informing us on, gathering input before deciding, or deciding together?”\n@personal_us **Upward Alignment Question:** “I'd love to catch up properly—how about coffee at [Spot] Thursday at 5? Completely fine if this week is tight.”\n@rioplatense **Upward Alignment Question:** “Para preparar justo lo que sirve: en este tema ¿nos estás avisando la decisión, buscás nuestra mirada antes de definir, o lo armamos juntos?”\n@espana **Upward Alignment Question:** “Para preparar el nivel de detalle adecuado: en esto ¿es una decisión ya tomada, quieres opinión antes de decidir, o lo decidimos juntos?”\n:::"
+    },
+    {
+     "id": "br5.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+     "md": "| I-C-N Bucket / 7-Element Link | Who Holds Authority | What It Protects | Upward-Safe Phrasing (When *They* Hold Higher Power) |\n|---|---|---|---|\n| Inform (I) | One party decides alone and communicates clearly. | Speed; prevents decision overload on minor/owned tasks. | “Just keeping you in the loop: I've scheduled X for Thursday—let me know if you want to weigh in.” |\n| Consult (C) | One party decides *after* genuinely hearing input. | Gives voice without falsely promising veto power. | “I know this is your call—could I share two options and my recommendation before you decide?” |\n| Negotiate (N) | Both parties must agree to move forward. | Shared ownership on high-stakes, mutually binding outcomes. | “Since this affects both our timelines, can we align on the criteria together?” |\n| Invent Options *(Pre-Bucket)* | Neither side is committing yet. | Expands autonomy and creativity across power gaps. | “Before anyone commits, could we spend five minutes brainstorming two or three ways this could work?” |\n| 7-Elements Blueprint | Maps *Interests, Options, Legitimacy, BATNA, Commitments*. | Ensures Friday's Steering Map covers every load-bearing pillar. | **Bucket-Drift Check:** *“Earlier we framed this as joint—has something changed so it needs to be your call now?”* |\n\n### Layer 3 · Optional Deepening: Invisible Stakeholders & The ECNI Method (Daniel Shapiro)\n\nIn *Negotiating the Nonnegotiable*, Shapiro expands I-C-N into **ECNI** (adding **Exclude**) by asking: *(1) What is the decision? (2) Whom does it affect? (3) How much input should each stakeholder have?* Before a high-stakes promotion or scope talk, check whether a quiet stakeholder (HR or a skip-level lead) belongs in **Consult** so they do not surface later as an invisible blocker.\n\nBr5 · Monday · Part 1 · Fisher & Shapiro Decision Types\n\n## Inform, Consult, Negotiate — And Upward-Safe Phrasing\n\nIn Br4 you stepped forward with a structured reveal; in Br5 you take the wheel transparently so drift, false consultation, and hidden agendas do not hijack where the conversation goes. **Roger Fisher & Daniel Shapiro** show how naming whether a decision is **Inform**, **Consult**, or **Negotiate** protects autonomy and prevents avoidable friction:\n\n| Decision Type | What It Means | Common Failure |\n|---|---|---|\n| Inform | What It Means“I've decided X and am sharing it clearly.” | Common FailurePretending to consult after deciding. |\n| Consult | What It Means“I want your input, then I'll decide.” | Common FailureAsking for input and ignoring it silently. |\n| Negotiate | What It Means“Let's decide this together.” | Common FailureOne side deciding unilaterally anyway. |\n\n:::details Canon notes · Part 1 · Fisher and Shapiro: inform, consult, negotiate\n:::note Lens card\nFisher and Shapiro's full lens card is B3 Part 1. Here only one tool matters: before deciding something that affects others, say which of three it is: informing them, consulting them before you decide, or negotiating a joint decision. It protects autonomy, one of their five concerns, by making the decision process clear.\n:::\n\n:::note Why Fisher and Shapiro here\nSteering out loud starts with saying who decides.\n:::\n\n:::note Native use\nNegotiation and management practice.\n:::\n\n:::note Limit\nPractitioner theory (label: practitioner theory). Naming the decision type does not make an unwelcome decision welcome; it removes the confusion around it.\n:::\n\n### Three decision types\n\n| Type | What you say | Common failure |\n|---|---|---|\n| Inform | “I'm letting you know I've decided…” | Pretending to consult |\n| Consult | “I'd like your input, then I'll decide.” | Ignoring the input |\n| Negotiate | “Let's decide this together.” | One side deciding anyway |\n:::"
+    },
+    {
+     "id": "br5.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+     "md": ":::note Handoff\nIn Block 5 (**Decision Type**) of Friday's **7-Block Steering Map**, record the expected bucket, your target bucket, and your exact upward alignment question.\n:::",
+     "tools": [
+      "rungs.brown.Br5.Monday"
+     ]
+    }
+   ],
+   "author": "Roger Fisher & Daniel Shapiro · Beyond Reason (Ch. 5)"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+   "cards": [
+    {
+     "id": "br5.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+     "md": "### Layer 1 · Author Completion: Calibrated Questions, Autonomy & Testing Deadlines\n\nPicture a tug-of-war where every direct statement or closed 'yes/no' question hands the other side a handle to pull against. **Chris Voss** (*Never Split the Difference*) builds **calibrated questions** around **how** and **what** so the counterpart has to wrestle with *your* constraint or criteria while still feeling their autonomy is respected. As Voss puts it, people guard their autonomy fiercely—pushing hard against it creates resistance, whereas asking how something can work invites them to solve the puzzle with you, while also guarding against **counterfeit 'yes'es** through repeated confirmation (**Rule of Three**).\n\nThe classic misconception here is treating *any* sentence starting with 'How' or 'What' as a calibrated question. A bitter *“How am I supposed to get that done by Friday?”* is an accusation in disguise—it triggers defensiveness instead of collaboration. Equally common is surrendering to **artificial urgency** or **false deadlines**: treating a manufactured cutoff as an iron law forces rushed concessions, whereas calmly testing what is actually driving the deadline—and sharing your own real cutoff when appropriate—reduces impasse. The second-order effect of calm calibrated inquiry is surfacing hidden constraints you would never hear through argument; the third-order risk is turning questions into a subtle trap if you ask them while already refusing to listen.\n\n*Bridge to Wednesday:* Calibrated questions draw out information and options; tomorrow, **Galinsky & Mussweiler** test the flip side—when going first with an anchor shapes the outcome, and when drawing out first protects you."
+    },
+    {
+     "id": "br5.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+     "md": "Pair tough *How* or *What* questions with a brief **warm-curious prefix** (*“I want to make sure this moves smoothly—…”*), hold silence after asking, and pivot to a clean one-reason boundary if deflection continues on the next turn.\n\n:::note Office / Bureaucracy Worked Example\n**Bureaucracy:** “I want to make sure my file is complete—what would you need from me to get this filed today?” · **Manager:** “I want close to stay error-free—how should I reprioritize my current deliverables to take this on?”\n:::\n\n:::note Personal Worked Example (Defusing Urgency)\n“I'd love to see everyone—what's the real cutoff for locking in the house? I want a day to check my budget before I commit.”\n:::\n\n:::note Non-Example (Accusatory 'How')\n“How could you possibly expect me to finish that by Friday?” *(Functionally a blame-laden 'Why,' not an open collaborative question.)*\n:::\n\n:::note Decision Rule\nAsk calibrated questions only when you are willing to hear an honest answer; switch to a clean boundary if the other person dodges on the follow-up.\n:::\n\n:::note\nFalse Deadline Counter\n\n:::note\nBureaucracy / Consulate\n\n:::warn\nNon-Example\n\n:::dialect Live Dialect Examples\n@office_us **Dialect Calibrated Question (Office US):** **“I want to make sure this moves smoothly—what would you need from me to get this approved by Friday?”**\n@personal_us **Dialect Calibrated Question (Personal US):** **“What kind of evening would actually feel restorative for you this weekend?”**\n@rioplatense **Dialect Calibrated Question (Rioplatense):** **“Quiero que esto salga prolijo—¿qué necesitarías de mi lado para que podamos cerrarlo esta semana?”**\n@espana **Dialect Calibrated Question (España):** **“Quiero facilitarte el trámite al máximo: ¿qué documentación exacta necesitarías de mí para dejarlo cerrado hoy?”**\n:::"
+    },
+    {
+     "id": "br5.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+     "md": "| Voss Move | Exact Mechanism | Clean Phrasing (Warm-Curious Tone) | Failure Mode / Trap |\n|---|---|---|---|\n| Problem-Handing ('How') | Recruits counterpart to solve your constraint without a blunt no. | “I want to make this work—how am I supposed to fit X without slipping Y?” | Delivered with sarcasm, it lands as a hostile attack. |\n| Exploration ('What') | Surfaces hidden criteria, obstacles, or invisible deal-killers. | “What would you need to see from me to support this?” | Asking when you have zero room to move (turns into a trap). |\n| Rule of Three & Implementation | Converts a **counterfeit 'yes'** into verified execution. | 1. *What criteria?* → 2. *So it sounds like X…* → 3. *How do we track progress?* | Accepting a vague *“Sure, let's revisit next quarter”* once. |\n| Resisting False Urgency | Refuses to be taken hostage by imagined loss. | “What's driving the Friday cutoff? I'd like a day to review.” | Panicking and conceding before testing if the deadline is real. |\n| Sharing Real Cutoff | Reduces impasse and speeds serious offers (Moore). | “To be transparent, I need to finalize my Q3 plan by next Thursday.” | Bluffing a fake deadline (destroys trust when you stay past it). |\n\n### Layer 3 · Optional Deepening: Illusion of Control vs. Interest-Based Inquiry (Fisher & Ury)\n\nWhere Voss frames calibrated questions around steering and perceived control, principled negotiation (*Getting to Yes*) anchors the same *How/What* curiosity in **joint interests**—asking what makes an option workable for *both* sides so collaboration stays genuine rather than performative.\n\nBr5 · Tuesday · Part 2 · Chris Voss Calibrated Questions & Deadlines\n\n## Warm-Curious Prefixes & Defusing False Deadlines\n\nMonday clarified *who decides*; **Chris Voss** gives you the exact verbal lever to steer a stuck room without pushing or pleading. By asking **how** and **what** rather than demanding a yes/no or firing an accusatory 'why,' you keep the other person's autonomy intact while pulling your real constraints onto the table:\n\n“I notice we're being pushed to decide quickly—what's driving the 5pm cutoff? I'd like until tomorrow morning.”\n:::\n\n“I want to make sure my file is complete—what exact document would let you approve this today?”\n:::\n\n“How on earth am I supposed to hit that?” (Sarcastic trap—triggers instant defense.)\n:::\n\n:::details Canon notes · Part 2 · Voss: calibrated questions and false deadlines\n:::note Lens card\nVoss's full lens card is B5 Part 1. Here only two tools matter: calibrated questions, “how” and “what” questions that hand the problem back without a no (“How am I supposed to do that?”), and his view that deadlines are rarely as fixed as they seem and are often used to pressure.\n:::\n\n:::note Why Voss here\nCalibrated questions steer while the other person keeps a sense of control; the deadline point links to White Belt's naming pressure.\n:::\n\n:::note Native use\nCrisis and business negotiation.\n:::\n\n:::note Limit\nPractitioner theory (label: practitioner theory). A calibrated question can be a trap if used to corner someone; it passes the transparency test only when you would welcome their honest answer.\n:::\n\n### Calibrated questions, and when they turn into traps\n\n| Question | Steers by | Turns into a trap when |\n|---|---|---|\n| “What would make this work for you?” | Inviting their terms | You have no room to move |\n| “How am I supposed to do that?” | Making them solve your constraint | Said with sarcasm |\n| “What's the deadline driven by?” | Testing urgency | You are stalling on purpose |\n:::"
+    },
+    {
+     "id": "br5.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+     "md": ":::note Handoff\nDraft **3 Calibrated Questions** for Block 4 of Friday's **7-Block Steering Map** (criteria, constraint, and implementation follow-through).\n:::",
+     "tools": [
+      "rungs.brown.Br5.Tuesday"
+     ]
+    }
+   ],
+   "author": "Chris Voss & Tahl Raz · Never Split the Difference (Ch. 6 & 8)"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "First Offers, Anchoring & Information Symmetry",
+   "cards": [
+    {
+     "id": "br5.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "First Offers, Anchoring & Information Symmetry",
+     "md": "### Layer 1 · Author Completion: First Offers, Anchoring & Information Symmetry\n\nThink of an opening offer or proposal as casting a heavy anchor into a current: it does not lock the boat in concrete, but it pulls nearby adjustments toward where it lands. In **Galinsky & Mussweiler's** (2001) negotiation research, **making the first offer** tended to anchor final outcomes toward that initial figure—and when the *other* party anchored first, focusing on your own **target**, **alternatives (BATNA)**, or their constraints helped counter the pull rather than getting dragged down by your walk-away floor.\n\nThe misconception that trips up cautious negotiators is either waiting passively out of fear of 'seeming pushy,' or going first with a timid, self-undercutting number that anchors the room low before real bargaining even starts. Conversely, going first blindly when the other side holds all the pricing or budget information—or putting your target at the *top* of a range so they cherry-pick the bottom—creates its own risk. The counterintuitive trade-off is that **anchoring works best when paired with real benchmark grounding and flexibility on terms** (such as pairing title, scope, and review timing), while **drawing out first** wins when information is lopsided against you. Second-order effects show up in the tone of counter-offers; third-order effects shape whether you leave value on the table or build durable, fair terms.\n\n*Bridge to Thursday & Friday:* You now hold all three Br5 steering levers—Fisher & Shapiro's decision buckets, Voss's calibrated questions, and Galinsky's anchoring logic. Test them in Thursday's **Go-First Advisor & Question Drill** to complete Friday's **7-Block Negotiation Steering Map**."
+    },
+    {
+     "id": "br5.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "First Offers, Anchoring & Information Symmetry",
+     "md": "Use the **Information-Symmetry Split**: when you know the market or terms range, **go first** with a justified anchor or a **bolstering range** (placing your true target at the *bottom* of a collaborative range rather than the top); when information is opaque, **draw out first** with calibrated questions.\n\n:::note Office Worked Example (Bolstering Range + Scope Fallback)\n“Based on my Q2 and Q3 close ownership and Senior market benchmarks, I'm proposing Senior this cycle in the $115,000–$128,000 range—and if base adjustments are locked until Q1, let's lock the title and scope now with a written review date.”\n:::\n\n:::note Personal Worked Example (First Anchor in Plans)\n“I'd love to keep dinner around $40–$50 a person somewhere quiet where we can actually talk—how does [Spot] at 7:30 sound?”\n:::\n\n:::note Non-Example (Self-Undercutting Floor Anchor)\n“I know budgets are tight, so honestly even a 3% bump or checking in next year would be fine.” *(Anchors the room at the floor before asking.)*\n:::\n\n:::note Decision Rule\nAnchor first when you have credible benchmarks; draw out first when the range is unknown, and never let a lowball or your walk-away line erase your target.\n:::\n\n:::note Collision Resolution Rule · Voss (Draw Out) vs. Galinsky (Anchor First)\n**1. You KNOW the market/terms range** -> **Go First (Galinsky)** to anchor the outcome toward your target with 1 clear reason.<br>**2. The range is OPAQUE or they know far more** -> **Draw Out First (Voss)** using calibrated questions so you don't under-anchor yourself.\n:::"
+    },
+    {
+     "id": "br5.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "First Offers, Anchoring & Information Symmetry",
+     "md": "| Anchoring Move | Cognitive Mechanism | When to Use It | Risk / Failure Mode |\n|---|---|---|---|\n| Go First (Justified / Precise Anchor) | Sets reference point; signals benchmark research; resists steep haircuts. | When you have solid market/comp benchmarks. | **Under-anchoring** (Diplomat guilt) or **absurd anchor** (kills rapport). |\n| Bolstering Range | Puts your **Target at the bottom** of a collaborative range (Ames & Mason). | Promotion/salary talks where one hard number feels rigid. | **Backdown range** (putting target at the *top*, so they pick your floor). |\n| Multi-Issue / Scope Anchor | Anchors title, acting-lead scope, and 90-day comp review together. | When comp bands are temporarily frozen mid-cycle. | Accepting extra Senior work with zero title or review date. |\n| Draw Out First *(Voss)* & Shield | Surfaces opaque range first; re-anchors on *your target* if lowballed. | When the budget ceiling is completely unknown. | Splitting the difference with a lowball anchor. |\n\n### Layer 3 · Optional Deepening: Non-Neediness and the BATNA (Voss & Camp)\n\nKeep your walk-away line clear so you are never negotiating out of desperation, yet keep your attention anchored on your target and mutual criteria—never turning your walk-away floor into the ceiling of your ask.\n\nBr5 · Wednesday · Part 3 · Galinsky Anchoring vs. Voss Draw-Out\n\n## The Information-Symmetry Decision Rule & Real BATNA\n\nTuesday showed how open questions draw out constraints; **Adam Galinsky & Thomas Mussweiler** resolve the companion question of *who sets the first number or proposal*. Going first can pull the final landing zone toward your target—provided you know the terrain and avoid under-anchoring yourself:\n\n| BATNA Element | Real Walk-Away Line | Empty Bluff (Avoid) |\n|---|---|---|\n| Concrete Alternative | Real Walk-Away Line“If Senior isn't open this cycle, I will request a written 6-month milestone plan or explore external Senior roles.” | Empty Bluff (Avoid)“Promote me or I'm quitting tomorrow.” |\n| Steadiness Effect | Real Walk-Away LineRemoves neediness; lets you accept their no cleanly. | Empty Bluff (Avoid)Creates panic when called. |\n\n:::details Canon notes · Part 3 · Galinsky: first offers and anchoring\n:::note Lens card\nAdam Galinsky and Thomas Mussweiler showed in negotiation experiments (2001) that making the first offer tends to anchor the final agreement toward it, and that thinking about the other side's alternatives or your own target can weaken an opponent's anchor. What is distinctive is that steering includes going first with a number or a proposal, not only asking good questions.\n:::\n\n:::note Why Galinsky here\nIn your promotion conversation, naming your ask first is a steering move. This part supplies the evidence.\n:::\n\n:::note Native use\nExperimental negotiation research, mostly in simulated deals.\n:::\n\n:::note Limit\nTested research (label: tested research). First-offer advantages depend on information; going first without knowing the range can backfire. Some later work found the advantage smaller when the other side has better information.\n:::\n\n### Going first\n\n| Move | Effect in the studies | When to be careful |\n|---|---|---|\n| Making the first offer | Anchors the outcome toward it | When you do not know the range |\n| Focusing on your target | Resists their anchor | When your target is unrealistic |\n| Naming their alternatives | Weakens their anchor | When it becomes a threat |\n:::"
+    },
+    {
+     "id": "br5.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "First Offers, Anchoring & Information Symmetry",
+     "md": ":::note Handoff\nComplete Blocks 2 and 6 (**Opening Proposal** and **Real BATNA**) of Friday's **7-Block Steering Map**, using Thursday's Bolstering Range Calculator to verify your target sits at the floor.\n:::",
+     "tools": [
+      "rungs.brown.Br5.Wednesday"
+     ]
+    }
+   ],
+   "author": "Adam Galinsky & Thomas Mussweiler · JPSP (2001) & Anchoring Research"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Steering out loud",
+   "cards": [
+    {
+     "id": "br5.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Steering out loud",
+     "md": "**Steering out loud.** Choose where a conversation goes, say so, and invite the other person to choose with you; neither following nor forcing.\n\n1. **The Steer row (Grid).** Opportunist steers by force; Diplomat follows (“I'm fine with whatever”); Expert steers by winning the argument; Achiever steers to the deal; Pluralist hesitates to steer; Strategist steers transparently (“I'd like to steer us toward X. Does that work for you?”); Construct-Aware changes what it is about.\n2. **State the purpose first.** The Strategist's Word move: say the purpose of the conversation at the start (Grid: Strategist × Word). Most drifting conversations had no stated purpose.\n3. **Inform, consult, negotiate (Fisher and Shapiro).** Before deciding anything that affects others, say which of three it is: “I'm informing you”, “I'll consult you, then decide”, or “Let's decide together” (Source: Beyond Reason pp. 82–88, as reported). It protects autonomy and ends the confusion behind many fights.\n4. **Calibrated questions (Voss).** “How” and “what” questions that hand the problem back without a no: “How am I supposed to do that?”, “What would make this work for you?” (Source: Never Split the Difference pp. 151–154, as reported). They steer while giving the other person the feeling of control.\n5. **Deadlines and pressure (Voss).** Deadlines are “almost never ironclad”; artificial urgency is a steering tactic (Source: NSD pp. 115, 120–123, as reported). White Belt's line works here: “I notice we're being pushed to decide quickly. I'd like a day.”\n6. **Neediness and the right to say no (Camp, stub).** A steer made from need gets pushed around; one made from a real willingness to walk away holds. Giving the other side full freedom to say no often makes agreement more likely.\n7. **Steering a friendship (Synthesis).** In friendship, steering means proposing plans, naming what you'd like more or less of, and redesigning how you spend time together. Not steering is how you end up waiting to be approached.\n8. **The promotion conversation as a field project.** Your near-term negotiation targets are your promotion, bureaucracy, and friendships. Use the promotion as Brown Belt's main office field project: purpose stated, ask advocated, evidence illustrated, inquiry genuine, decision type agreed (inform, consult or negotiate), follow-up email sent."
+    },
+    {
+     "id": "br5.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Steering out loud",
+     "md": ":::note Drill\nSay the purpose. Begin one conversation a day by naming its purpose in one sentence.\n:::\n\n:::note Office dojo\nIn one meeting this cycle, propose where you'd like the discussion to go and invite correction. In bureaucratic settings (visas, records, consulates), use calibrated questions instead of arguments: “What would you need from me to complete this today?”\n:::\n\n:::note Personal dojo\nPropose the plan yourself at least once a week, specifically (place, time), and say what you'd like (“I'd love somewhere quiet so we can talk”).\n:::"
+    },
+    {
+     "id": "br5.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Steering out loud",
+     "md": "Everything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats steering as | Would worry that you... |\n|---|---|---|---|\n| Fisher and Shapiro | Who decides | Clarity about process | Leave the decision type vague |\n| Voss | Control | Handing the problem back | Argue instead of ask |\n| Galinsky | Anchors | Going first | Wait for their number |\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Promotion and raise negotiations | What does research say about negotiating promotions or raises, including for people from minority backgrounds? | Your field project | One thread, researched with the research-brief skill |\n| 2. When to go first | When does making the first offer help and when does it hurt? | Part 3 | One thread, with a critic pass |\n| 3. Deadlines in negotiation | What does research say about deadlines and time pressure? | Voss's claim | Full deepening of Part 2 |\n\n**Where they meet.** Steering is done in the open: the process named, the ask stated, the problem shared.\n\n**Where they collide.** Voss favors letting the other side speak first; Galinsky's anchoring favors going first. Information decides which is wise.\n\n**What the three miss for you.** Steering a friendship, proposing the plan, saying what you would like, has no research lens here; it is the module's own.\n\n**Where it sits in your own frameworks.** Mind in your Orders Grid, and Torbert's Strategist steering transparently. Return to this module later and add dated notes; do not overwrite.\n\n**prompt.** Use curriculum-module in deepen mode on Brown Belt Br5, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries."
+    },
+    {
+     "id": "br5.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "A steering map for one real negotiation",
+     "md": "**A steering map for one real negotiation.** Your promotion or another real negotiation: purpose sentence, four-part ask, likely positions and concerns (from Blue Belt), your calibrated questions, the decision type you'll propose, your walk-away line, and the confirming email.\n\n**Watch for.** Steering as quiet frame control. If you are steering without saying so, it slides toward manipulation (Grid: Strategist × Word, “Unspoken frame control slides into manipulation”)."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Go-First Advisor + Qs",
+   "cards": [
+    {
+     "id": "br5.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Thursday",
+     "md": "Br5 · Thursday · Interactive Lab · Go-First Advisor & Question Rewriter\n\n## Voss vs. Galinsky Advisor + 6-Card Question Drill\n\n:::note Recommended Tactical Sequence\n### Part A · Go-First vs. Draw-Out Tactical Advisor\n\n**1. Do you know the market/salary/terms range?**\n\n**2. Is there a power gap above you?**\n\n**3. Is the deadline urgency real or artificial?**\n\n:::note\nGalinsky & Ames Bolstering Range Calculator (enter your true Target):\n\nBolstering Range (Target at Floor): $115,000 – $129,000 (Never put Target at the top!)\n:::\n\n:::note\n**Step 1 (Opener):** Use an **Upward-Safe Decision-Type Check** (Consult/Negotiate) + Autonomy Wrap.<br>**Step 2 (Anchor vs. Draw-Out):****GO FIRST (Galinsky):** Name your researched target/proposal clearly with 1 factual anchor before they low-ball.<br>**Step 3 (Urgency):** Defuse false urgency: *“What's driving today's cutoff? I'd like 24 hours to review.”*\n:::\n:::\n\n:::note\n### Part B · 6-Card Calibrated Question Drill\n\nCard 1 / 6\n\nDefensive / Yes-No Line: “Why won't you approve my promotion this quarter?”\n:::",
+     "tools": [
+      "drill.brown.BR5_QDRILL",
+      "legacy.brown.Br5"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "7-Block Steering Map",
+   "cards": [
+    {
+     "id": "br5.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Friday",
+     "md": "Br5 · Friday · Deliverable · Promotion Conversation Battle Card\n\n## Deliverable: 7-Block Negotiation Steering Map\n\n:::note Golden Thread Auto-Import (Br1 + Br3 + Br4 → Br5)\nPull your Br1 Promotion Ask, Br3 Bilingual Register Note, and Br4 45-Second Four-Part Pitch straight into your Steering Map below.\n:::",
+     "tools": [
+      "form.brown.Br5"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

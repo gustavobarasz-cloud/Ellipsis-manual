@@ -1,0 +1,44 @@
+{
+ "id": "blue-capstone",
+ "belt": "blue",
+ "kind": "capstone",
+ "title": "Blue Belt · Capstone",
+ "subtitle": "Three tests: one rehearsed, two live. Each has pass criteria you can observe.",
+ "days": [
+  {
+   "id": "test",
+   "label": "Belt Test",
+   "title": "Three tests",
+   "cards": [
+    {
+     "id": "blue-capstone.test.1",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "Blue Belt Test",
+     "md": "Three tests: one rehearsed, two live. Each has pass criteria you can observe.\n\n| Test | Setting | Observable pass criteria |\n|---|---|---|\n| 1. The read | A 10-minute conversation with a trusted friend, a colleague you trust, or Claude role-playing a counterpart with a hidden need | Baseline noted in the first minute. Conversation type named. One need hypothesis written, then checked back in the conversation and confirmed or corrected. At least one label followed by a full pause. |\n| 2. Office dojo, live | One real work conversation where someone holds a position that blocks you | You name or answer the concern under the position before you argue your own. You check back at least once. Your own ask still made (White Belt rules hold). |\n| 3. Personal dojo, live | One real initiation | You go first with a ping, respect the answer, and, if the ping is returned, propose a specific next meeting yourself |",
+     "tools": [
+      "form.blue.capstone"
+     ]
+    },
+    {
+     "id": "blue-capstone.test.2",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "Blue Belt Test",
+     "md": "**debriefPrompt.** Which read was wrong and how you found out; which conversation type you most often mis-match; what your contact log shows about who you go first with and who you still wait for.\n\n**ready.** **You're ready for Brown Belt** when all three tests pass, your hypothesis cards show the habit of checking (not a perfect hit rate), and your contact log shows you going first regularly.\n\n**artifacts.** Blue Belt artifacts you carry forward: baseline cards, hypothesis cards, position-versus-need matrix, accusation audits, boundary sentences, contact log."
+    },
+    {
+     "id": "blue-capstone.test.evidence",
+     "kind": "info",
+     "label": "Evidence",
+     "title": "Blue Belt Evidence",
+     "md": "- Baselines taken\n- Reads checked back (right / revised)\n- Labels with a full pause\n- Conversation type matched\n- Initiations\n- Pings returned",
+     "tools": [
+      "evidence.blue"
+     ]
+    }
+   ]
+  }
+ ],
+ "handoffTo": "brown"
+}

@@ -1,0 +1,144 @@
+{
+ "id": "m03",
+ "kind": "module",
+ "tier": 2,
+ "tierTitle": "Behavioral Table of Elements & Facial Mechanics",
+ "tierSubtitle": "Reading distributed somatic load, baseline deltas, and facial congruence seams.",
+ "title": "The Behavioral Table of Elements (BToE)",
+ "number": 3,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-02"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Suspension Bridge Load Telemetry Panel",
+   "cards": [
+    {
+     "id": "m03.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/3",
+     "title": "The Suspension Bridge Load Telemetry Panel",
+     "md": "A suspension bridge never announces that a main cable is approaching failure with a single dramatic snap. Under routine traffic, the steel hums, sways, and settles into an ordinary, predictable cadence—that ambient motion is its **Subject Baseline**. Structural engineers do not panic when a single bolt creaks in a crosswind; they read the **distributed load telemetry panel**. Only when three independent strain gauges—tower deflection, cable tension, and deck vibration—spike in unison the exact second a heavy truck crosses span four do they know the structure is absorbing acute stress at a specific coordinate."
+    },
+    {
+     "id": "m03.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/3",
+     "title": "The Suspension Bridge Load Telemetry Panel",
+     "md": "The Behavioral Table of Elements (BToE) is that distributed telemetry panel mapped onto the human body. Built directly atop the calm, low-threat room established by **Operator Baseline** (M01) and **Authority Architecture** (M02), the table arranges observable human movement across two orthogonal axes. Vertically, it descends anatomically from the top of the head down through the face, throat, arms, torso, and feet, terminating at the bottom in how a person handles external objects and structures their verbal syntax. Horizontally, it tracks structural load from left to right—moving from low-friction comfort and mild tension (*Tan* cells), through rising discomfort (*Yellow* cells), out to the heaviest autonomic strain (*Grey* cells rated at **4.0**)."
+    },
+    {
+     "id": "m03.model.core-3",
+     "kind": "core",
+     "label": "Mental Model · 3/3",
+     "title": "The Suspension Bridge Load Telemetry Panel",
+     "md": "The amateur's fatal mistake is treating body language like a pocket dictionary (*crossed arms mean defensive; a nose touch means a lie*). The trained operator treats the body like a **closed hydraulic system**. When a conversational prompt presses against an unguarded nerve, the sympathetic nervous system surges. Because social norms forbid the person from bolting out of the chair, that excess pressure has to vent somewhere—bleeding out through an **Autonomic Pacifier** (a throat clasp, a collar ventilation, a lip compression), a sudden postural barrier, or an abrupt halt in normal movement. A single creak in the steel is meaningless noise (**Single-Cue Fallacy**). Three independent gauges spiking simultaneously within seconds of a specific phrase is a **BToE Stress Cluster**—a glowing coordinate on the map showing you *exactly* where the hidden load sits."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Zeroing the Bridge: Subject Baseline, Cognitive Baseline, and the Freeze Delta",
+   "cards": [
+    {
+     "id": "m03.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "Zeroing the Bridge: Subject Baseline, Cognitive Baseline, and the Freeze Delta",
+     "md": "Before a single strain gauge can be trusted, the bridge must be zeroed. During the opening two to three minutes of low-stakes conversation, you log the counterpart's **Subject Baseline**—their natural resting posture, blink cadence, vocal tempo, and gesture amplitude—while keeping your own **Operator Baseline** (M01) still enough to prevent **Observer Distortion**.\n\nOne zero-point, however, is never enough. A bridge hums at one frequency under empty lanes and at a completely different frequency under rush-hour traffic. Before scoring any cluster, you must log two distinct baselines: the *rapport baseline* (how they move during effortless small talk) and the **Cognitive Baseline**—how their eyes, posture, and hands shift when they are simply thinking hard about a neutral, complex problem. Only a deviation that spikes *above* their **Cognitive Baseline** qualifies as genuine autonomic load."
+    },
+    {
+     "id": "m03.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "Zeroing the Bridge: Subject Baseline, Cognitive Baseline, and the Freeze Delta",
+     "md": "This is also where most observers fall victim to *freeze blindness*. Beginners scan exclusively for added motion—fidgeting, tapping, shifting—while missing one of the highest-contrast deltas in the BToE: **Freeze**. As *The Ellipsis Manual* details under *Freeze (Cell 54)*, when a subject's cognitive system becomes heavily loaded with scenario management and real-time behavioral regulation, ordinary motor idling can come to a near-complete halt because there is no bandwidth left to run authentic gestures. Picture a vendor negotiator who taps his pen lightly and gestures broadly throughout five minutes of travel banter and feature updates. The instant you ask how regional uptime SLA penalties are triggered, his pen stops dead mid-tap, both palms flatten onto the table, his shoulders lock square, and his blink rate stalls for four seconds. Against his lively personal baseline, that sudden stillness is a sharper telemetry spike than any fidget could ever be.",
+     "hook": "L2-M03-baseline-delta-freeze"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "Channel Architecture, Kinematic Independence, and the Cluster Threshold",
+   "cards": [
+    {
+     "id": "m03.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "Channel Architecture, Kinematic Independence, and the Cluster Threshold",
+     "md": "Inside the BToE, every behavioral cell carries structured metadata—its anatomical region, its gesture polarity (*Open, Closed, Aggressive, or Unsure*), its **Confirming** and **Conflicting** gestures, its **1.0–4.0** load rating, and its **Timeframe** (*Before, During, or After* a response). Crucially, human motor control degrades with distance from the brain: as *Six-Minute X-Ray* notes with **Digital Extension** (fingers subtly uncurling away from the palm in comfort and relaxation), extremities farther from the head are far harder to police consciously under pressure.\n\nIn live dialogue, cues sort naturally by autonomic weight:\n\n- **Low-load ripples (1.0–1.5):** subtle shifts in blink cadence, brief lip compression, or a slight foot-angle adjustment.\n\n- **Mid-load vents (2.0–2.5):** classic **Autonomic Pacifiers**—touching the throat or suprasternal notch, rubbing the thighs, compressing the lips inward—alongside partial shielding such as the **Single-Arm Wrap**.\n\n- **High-load armor (3.0–4.0):** full midline protection like the **Fig Leaf** (*Genital Protection*), a full torso pivot away from the speaker, collar **Ventilation**, vocal pitch constriction, or a **Single-Shoulder Shrug** (rated 4.0 when paired with reinforcing strain)."
+    },
+    {
+     "id": "m03.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "Channel Architecture, Kinematic Independence, and the Cluster Threshold",
+     "md": "A valid **BToE Stress Cluster** clears threshold only when **three or more distinct indicators** (typically totaling **6.0+** across at least two separate anatomical channels) erupt inside a **3-to-5-second window** immediately after a specific stimulus. Yet raw tallying hides a classic mechanical trap: *double-counting a single posture shift*. If a counterpart leans back to get comfortable in a stiff conference chair, their torso, arms, and feet all move together as one linked assembly. To qualify as a real cluster, the cues must satisfy **Kinematic Independence**—physiologically separate autonomic vents firing in parallel (such as a sharp inhale, lip disappearance, a **Single-Arm Wrap**, and an escape-vector torso pivot within four seconds of asking whether QA signed off on a security patch), never three angles of the same chair adjustment.",
+     "hook": "L2-M03-cluster-scoring-threshold"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Stimulus-to-Spike Mapping, the Single-Cue Fallacy, and the Othello Guardrail",
+   "cards": [
+    {
+     "id": "m03.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Stimulus-to-Spike Mapping, the Single-Cue Fallacy, and the Othello Guardrail",
+     "md": "While *Six-Minute X-Ray* and *The Ellipsis Manual* both describe tallying high BToE point totals (11 to 12+ points across a question-and-answer sequence) as strong indicators of deception, rigorous field operation demands a sharper epistemic boundary. **The BToE is a stress-load gauge, never a standalone lie detector.**\n\nTreating an isolated gesture outside a cluster or outside the 3-to-5-second window commits the **Single-Cue Fallacy**: cold air conditioning, tight chairs, and screen fatigue generate constant **Exogenous Noise** (M01). Even when a genuine **BToE Stress Cluster** fires dead-on-time, jumping straight from *autonomic load* to *guilt* triggers the **Othello Error**—misreading a truth-teller's acute fear of disbelief, blame, or embarrassment as proof of deceit."
+    },
+    {
+     "id": "m03.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Stimulus-to-Spike Mapping, the Single-Cue Fallacy, and the Othello Guardrail",
+     "md": "When a clean cluster lights up on a specific phrase, hold **Hypothesis Plurality** (M01). Do not stare at their hands or neck—visible tallying shatters **Operator Baseline** (M01) and manufactures **Observer Distortion**, creating artificial pacifiers on the spot. Instead, keep your tempo flat, drift onto a safe topic for 45 to 90 seconds so **Autonomic Decay Lag** (M01) clears the room, and circle back seamlessly from a low-threat angle. Only if the cluster re-spikes cleanly on that low-threat return pass—without any sudden intensity from you—do you lock the coordinate for deeper **Elicitation Probes** (M08). Confronting a counterpart prematurely on an unverified stress cluster carries a brutal third-order cost: you trigger permanent **Psychological Reactance** (M10) and teach an honest ally to guard every word around you.",
+     "hook": "L2-M03-single-cue-trap"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 1 · Telemetry & Authority",
+   "cards": [
+    {
+     "id": "m03.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "In live rooms, the 123-cell Behavioral Table is not a lie detector—it is a real-time bandwidth and autonomic-leakage meter. Its operational edge comes from strict 30-second cluster discipline: isolating where cognitive load or defensive friction spikes before deciding where to press."
+    },
+    {
+     "id": "m03.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note The 30-Second Cluster Audit on Contract Clauses & Redlines\n**Setting:** Commercial negotiations, vendor renewals, compensation talks\n\n**Signal:** Within 30 seconds of a specific clause or number, three or more channels converge (e.g., illustrator freeze +2.5, ventral torso pivot/laptop pull +2.0, exit-foot turn +1.5, syntax stall +2.0, blink flurry +2.5), pushing the cluster past 11.0+.\n\n**Counter-move:** Never challenge truthfulness directly. Treat the 11+ cluster as a pin dropped on the exact term that carries hidden cost, internal veto risk, or an undisclosed constraint. Hold your posture still, slow the room down, and ask one surgical, non-accusatory constraint question.\n\n**Break line:** \"Notice we slowed down on that indemnification paragraph—what specific risk does your legal team flag there?\"\n:::\n\n:::note Reading Lower-Body Leakage Against a Polished Upper Frame\n**Setting:** Executive panel interviews, formal institutional briefings\n\n**Signal:** Face stays smiling and voice stays collaborative while ankles lock tightly around chair legs, lead foot pivots toward the exit, or a hidden foot begins bouncing ('happy feet') the instant you state your fee, timeline, or conditions.\n\n**Counter-move:** Weight the lower body over the smile. Humans police their faces from childhood; almost nobody polices their ankles. Do not push for a close against an active exit-foot pivot—pause the pitch and test structural alignment before spending more leverage.\n\n**Break line:** \"Before I walk through phase two, does the phase-one structure actually fit how your team runs?\"\n:::\n\n:::note Running a Working-Memory Control Check (Load vs. Concealment)\n**Setting:** Technical interviews, audit reviews, bureaucratic intake\n\n**Signal:** Abrupt illustrator freeze, gaze aversion, and slowed verbal fluency immediately after a dense multi-part question.\n\n**Counter-move:** Rule out benign cognitive load before treating the freeze as evasion. Ask a low-stakes factual question of equal complexity. If fluency and natural hand gestures return on the low-stakes question and snap frozen again on the high-stakes term, you have a verified friction delta.\n\n**Break line:** \"Take a second—no rush. Let's confirm the Q2 baseline first, then compare it to Q3.\"\n:::"
+    },
+    {
+     "id": "m03.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Daniel Kahneman (Thinking, Fast and Slow — Cognitive Load)\nExplains the exact bottleneck behind Hughes's Illustrator Freeze: spontaneous speech and hand gestures share automated motor-linguistic bandwidth. When System 2 hijacks working memory to censor, edit, or fabricate a careful answer on the fly, it starves unconscious motor illustrators—causing hands to lock dead mid-clause.\n:::\n\n:::note Erving Goffman (The Presentation of Self — Given vs. Given Off)\nGoffman separates 'expressions given' (deliberate verbal scripts and social smiles) from 'expressions given off' (involuntary somatic leakage). Hughes's Behavioral Table is an operationalized scoring grid for the exact fracture between the two.\n:::\n\n:::note Joe Navarro & Paul Ekman (Limbic Leakage Hierarchy)\nValidates why Hughes assigns reliable diagnostic weight to ventral barriers and lower-body pivots: deliberate deception control concentrates in the face and vocal words, forcing autonomic flight/freeze energy downward into the torso, hands, and feet.\n:::"
+    },
+    {
+     "id": "m03.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Single-Cue Confirmation Bias\n**Mechanism:** Spotting one isolated neck touch, crossed arm, or foot shift and retrofitting a suspicious story around it—poisoning rapport over normal physical comfort.\n\n**Calibration:** Enforce the 3-channel / 30-second / 11+ cluster rule rigidly; isolated cues score zero.\n:::\n\n:::warn Telemetry Paralysis (Missing the Verbal Concession)\n**Mechanism:** Burning so much working memory scoring DRS weights that you miss a subtle verbal opening, a softened term, or an embedded presupposition.\n\n**Calibration:** Run telemetry as peripheral radar; only tally a cluster when a load-bearing number, deadline, or boundary hits the table.\n:::\n\n:::warn Blindness to Your Own Autonomic Broadcast\n**Mechanism:** Scanning the counterpart's hands and ankles while your own shoulders tighten, your pen clicks, or your breathing turns shallow.\n\n**Calibration:** Run a 1-second check on your own physical stillness before trusting any read across the table.\n:::"
+    }
+   ]
+  }
+ ]
+}

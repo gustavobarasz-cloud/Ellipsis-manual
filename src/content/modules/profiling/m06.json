@@ -1,0 +1,144 @@
+{
+ "id": "m06",
+ "kind": "module",
+ "tier": 3,
+ "tierTitle": "Social Needs & Decision Mechanics",
+ "tierSubtitle": "Mapping hidden need–fear cantilevers, FATE sequencing, and six-pillar decision tracks.",
+ "title": "The FATE Model & Decision Mechanics",
+ "number": 6,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-04"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The High-Speed Railway Switchyard",
+   "cards": [
+    {
+     "id": "m06.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/2",
+     "title": "The High-Speed Railway Switchyard",
+     "md": "If Module 05 mapped the crane that lifts a person's social identity, Module 06 maps the track geometry that carries their choices forward. Picture a high-speed railway switchyard at dusk. A train moving at eighty miles an hour does not turn because someone stands on the platform shouting persuasive arguments at the locomotive. It turns because, half a mile upstream, a steel switch blade already shifted two inches into place—locking the wheels onto one track while quietly sealing off five others."
+    },
+    {
+     "id": "m06.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/2",
+     "title": "The High-Speed Railway Switchyard",
+     "md": "Human decision-making runs on that exact switchyard physics. Most communicators burn their energy pushing logic at the front of the train after the rails are already set. As *The Ellipsis Manual* states bluntly, almost every human decision is driven by emotional content, fears, and underlying needs regardless of how logical people try to make the final rationale sound. **The FATE Model** (*Focus, Authority, Tribe, Emotion*) is the four-lever relay tower governing whether a message even enters the switchyard, while *Six-Minute X-Ray*'s **Decision Map** (the Six Pillars) and **Locus of Control** are the track blades themselves—the hidden screening questions through which every choice, from buying a phone case to signing a seven-figure contract, is routed before conscious justification ever drafts a memo.\n\nThe amateur's mistake is treating FATE and the Decision Map as magic hypnotic override switches. They are not. A switchyard cannot force a train to run without fuel, nor can it send a freight car down a track that violates its own cargo limits. What it governs is *cognitive routing and friction*: which track feels effortless, familiar, and self-authored—and which track triggers an emergency brake."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "The Upstream Relay Tower: Sequencing the FATE Model",
+   "cards": [
+    {
+     "id": "m06.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/2",
+     "title": "The Upstream Relay Tower: Sequencing the FATE Model",
+     "md": "Before a counterpart evaluates a single spreadsheet or proposal, four evolutionary appraisal filters determine whether your signal gets routed to active processing or dumped into background noise: **Focus**, **Authority**, **Tribe**, and **Emotion**.\n\nThe first relay is **Focus**—what *The Ellipsis Manual* terms **Attentional Captivity**. Just as an absorbing film makes an audience temporarily forget the crowded theater around them, narrowing a counterpart's attention onto one vivid, high-relevance channel clears out peripheral distractions. Without Focus, every subsequent argument leaks into ambient static.\n\nThe second relay is **Authority**—already anchored somatically in Module 02. In moments of uncertainty, *The Ellipsis Manual* notes that people naturally gravitate toward the calmest, most structured presence in the room—not through loud dominance, but through hundreds of subcommunicated cues of control, discipline, and composure. Authority lowers the counterpart's threat-scanning load so they stop auditing *you* and start examining the track ahead."
+    },
+    {
+     "id": "m06.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/2",
+     "title": "The Upstream Relay Tower: Sequencing the FATE Model",
+     "md": "The third relay is **Tribe**: the social survival check asking whether this direction aligns with the people whose judgment the counterpart respects—or protects them from peer exile. The fourth relay is **Emotion**: the motivational fuel that turns passive agreement into physical movement.\n\nWhere practitioners routinely trip is **sequence inversion**—flooding a room with high-heat Emotion before Focus and Authority are seated. Pushing urgency or emotional stakes onto a distracted, skeptical counterpart does not accelerate the train; it trips their derailment sensor, triggering **Psychological Reactance** (M10). Clean FATE sequencing works strictly upstream-to-downstream: capture **Focus** with a sharp, concrete frame; stabilize **Authority** through unhurried stillness; align **Tribe** so movement feels socially safe; and only then engage **Emotion** by connecting the decision to what is concretely gained or protected.",
+     "hook": "L2-M06-fate-sequence"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "The Six-Track Switchyard: The Decision Map Pillars",
+   "cards": [
+    {
+     "id": "m06.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/3",
+     "title": "The Six-Track Switchyard: The Decision Map Pillars",
+     "md": "Once a message clears the FATE relay tower, it hits the internal screening blade of *Six-Minute X-Ray*'s **Decision Map**. Most people operate primarily from one dominant pillar and bleed naturally into its nearest neighbor on the spectrum—and when a pitch stalls despite strong rapport, it is usually because you are speaking the language of one track to a train locked onto another:\n\n- **Deviance** (*\"Will this help me stand out or break cultural and social norms?\"*): Drawn to unconventional options that visibly reject the herd; bleeds into Novelty.\n\n- **Novelty** (*\"Is this noticeably new, and will others see it?\"*): Driven by early-adopter energy, fresh trends, and experiences others have not had yet; bridges Deviance and Social.\n\n- **Social** (*\"Will this make people around me show interest or connect with me?\"*): Filtered through how the choice will be viewed, admired, or interpreted by others.\n\n- **Conformity** (*\"Are others in my peer group doing this, and is it acceptable to them?\"*): Anchored in peer-group norms, status stability, and aversion to radical outliers.\n\n- **Investment** (*\"Is this choice going to provide me with a valuable return?\"*): Governed by durability, protection, and measurable return on investment; prone to heavy overanalysis unless primed into calm clarity."
+    },
+    {
+     "id": "m06.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/3",
+     "title": "The Six-Track Switchyard: The Decision Map Pillars",
+     "md": "- **Necessity** (*\"What specifically makes this necessary versus other options?\"*): Strictly functional, patient, and immune to flash unless an urgent practical constraint demands action.\n\n*Six-Minute X-Ray* illustrates the universality of this switchyard in a single retail aisle: six shoppers picking out a cell phone case. The **Deviance** buyer grabs the oversized neon cat case that breaks every norm; the **Investment** buyer inspects drop-rating specs to protect the long-term value of the device. In the field, visual and behavioral cues expose the active track within minutes. An interrogator who notices a suspect's sleeves of tattoos and dyed hair recognizes **Deviance** and sheds his collared shirt and tie for a plain polo before entering the room. A case officer recruiting an asset who carries a ruggedized waterproof phone case, wears an older but impeccably tailored shirt, and checks a multi-generational wristwatch reads **Investment** immediately—and strips out trendy buzzwords in favor of durable, long-horizon return."
+    },
+    {
+     "id": "m06.chain2.core-3",
+     "kind": "core",
+     "label": "Causal Chain 2 · 3/3",
+     "title": "The Six-Track Switchyard: The Decision Map Pillars",
+     "md": "The counterintuitive trade-off is **Pillar Over-Indexing**: assuming a person's lifestyle track governs every context. A creative director who dresses in **Deviance** can snap instantly into **Conformity** or **Investment** the moment she is spending board-approved capital under CFO scrutiny. Always read the active track *for the specific decision on the table*, never as a permanent personality tattoo.",
+     "hook": "L2-M06-decision-pillar-routing"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Who Holds the Throttle: Internal vs. External Locus of Control",
+   "cards": [
+    {
+     "id": "m06.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Who Holds the Throttle: Internal vs. External Locus of Control",
+     "md": "Even when you match the exact Decision Map pillar, a frame can still grind to a halt if you misread who the counterpart believes is driving the train. Alongside the Needs Map and Decision Map on the 6MX Behavioral Compass sits **Locus of Control**—whether a person defaults to an **Internal** or **External** attribution of agency.\n\nA counterpart with a strong **Internal Locus of Control** assumes personal ownership of outcomes, insulates their decisions from outside pressure, and prefers choosing their own course. Hand them a directive script (*\"This system will fix your pipeline for you\"*), and their throttle locks against you. They move cleanly when you frame options as precision instruments *they* control (*\"Here are the two levers; you decide which threshold triggers the rollout\"*). Conversely, a counterpart operating from an **External Locus of Control** experiences outcomes as driven by market forces, leadership mandates, or bad luck. Hand them total open-ended responsibility without structure, and anxiety stalls the decision. They settle into action when you provide external scaffolding, proven precedent, and clear guardrails that absorb perceived risk."
+    },
+    {
+     "id": "m06.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Who Holds the Throttle: Internal vs. External Locus of Control",
+     "md": "The second- and third-order danger across all of Module 06 is **track mismatch fatigue**. Repeatedly pitching *Novelty* to an *Investment* buyer, or forcing *External* hand-holding onto an *Internal* operator, creates invisible friction that your counterpart cannot even articulate—they simply walk out feeling *\"something about this felt off.\"* When you align FATE sequence, Decision Map track, and Locus of Control throttle, persuasion stops feeling like pushing steel uphill; it feels like opening the exact line the train was already built to travel.",
+     "hook": "L2-M06-locus-of-control-frame"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 2 · Profiling & Elicitation",
+   "cards": [
+    {
+     "id": "m06.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Most persuasion failures are channel mismatches, not logic failures. Diagnosing a counterpart's Processing Filter (Cognitive, Emotional, Physical, Social) and Locus of Control (-100 Internal to +100 External) in the first 90 seconds tells you whether to pitch ROI, optics, concrete proof, or zero-risk compliance."
+    },
+    {
+     "id": "m06.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Winning External-Locus Bureaucratic & Compliance Desks\n**Setting:** Consulates, licensing windows, procurement, HR/legal gatekeepers\n\n**Signal:** Language anchored outside personal agency: 'Policy requires...', 'My supervisor won't sign off unless...', 'That's just how the system processes it.'\n\n**Counter-move:** Never argue fairness, personal urgency, or logical efficiency to an External-Locus gatekeeper—telling them a rule is silly threatens their safety and triggers rigid stonewalling. Pivot 100% into their locus: make your file the cleanest, lowest-audit-risk, rule-compliant item on their desk so saying yes protects them.\n\n**Break line:** \"I want to make sure this clears your internal audit without kicking back to your desk—which exact certification line satisfies Section 4?\"\n:::\n\n:::note Channel-Switching Out of Cognitive Overload\n**Setting:** Client pitches, cross-functional negotiations, executive interviews\n\n**Signal:** You present airtight data and step-by-step logic, and the counterpart's eyes glaze, posture pulls back, or they interrupt with 'Okay, but how does this look to the board?' (Social) or 'Just show me what happens Monday morning' (Physical).\n\n**Counter-move:** Drop the spreadsheet immediately. Translate the exact same terms into their active Processing Filter: Social filter gets peer precedent and reputational upside; Physical filter gets tangible milestones and concrete artifacts; Emotional filter gets narrative impact and tension relief.\n\n**Break line:** \"Skipping the model for a second—on Monday morning, your team gets a one-page dashboard and zero manual handoffs.\"\n:::\n\n:::note Handling Extreme Internal-Locus Operators Without Triggering Reactance\n**Setting:** Founder negotiations, senior technical leads, aggressive Achievers\n\n**Signal:** Heavy agency language ('I built...', 'I decide...', 'Don't tell me what policy says'), visible irritation when told what they 'must' or 'have to' do.\n\n**Counter-move:** Never box an Internal-Locus operator into a rule or mandate—they will blow up a profitable deal just to prove you don't control them. Hand them explicit decision ownership and frame constraints as objective trade-offs they get to choose between.\n\n**Break line:** \"You have the final call on how you want to structure this—Option A protects speed at $X; Option B protects margin at $Y. Which trade-off do you want?\"\n:::"
+    },
+    {
+     "id": "m06.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Robert Cialdini (Influence — Authority & Social Proof)\nExplains why External-Locus and Social-Filter counterparts respond disproportionately to precedent, institutional logos, and 'what peer firms already approved'—their risk model outsources verification to external consensus rather than first-principles math.\n:::\n\n:::note Julian Rotter (Locus of Control Theory)\nHughes operationalizes Rotter's clinical construct into a live negotiation dial (-100 to +100). The key nuance Rotter adds: locus is domain-specific. A fearless founder (Internal locus in business) can flip to rigid External locus the moment tax law or immigration bureaucracy enters the room.\n:::\n\n:::note William Torbert (Action Logics — Expert vs. Achiever vs. Diplomat)\nMaps cleanly onto Hughes's filters: Experts default to Cognitive precision, Diplomats to Social/Emotional climate, and Achievers to Physical/measurable outcomes. Matching the filter lets you speak their dialect without surrendering your own center of gravity.\n:::"
+    },
+    {
+     "id": "m06.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn The Cognitive Default Bias\n**Mechanism:** Because your own default analytical engine is high-resolution Cognitive, you instinctively assume that if someone disagrees, you just haven't explained the logic clearly enough—causing you to pile on more data while losing a Social or Physical decision-maker.\n\n**Calibration:** Before your second paragraph of explanation, ask yourself: which of the 4 filters did their last two sentences actually use?\n:::\n\n:::warn Treating Locus as a Character Flaw\n**Mechanism:** Feeling quiet contempt for External-Locus bureaucrats or risk-averse managers, which leaks into your vocal edge and turns routine administrative approvals into turf wars.\n\n**Calibration:** Treat External Locus as an incentive structure, not a personal weakness—solve their risk exposure and watch doors open.\n:::"
+    }
+   ]
+  }
+ ]
+}

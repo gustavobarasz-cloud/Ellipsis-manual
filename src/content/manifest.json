@@ -1,0 +1,2226 @@
+[
+ {
+  "id": "profiling",
+  "door": 1,
+  "title": "Behavioral Profiling & Influence",
+  "subtitle": "The Ellipsis Manual & Six-Minute X-Ray",
+  "modules": [
+   {
+    "id": "m01",
+    "kind": "module",
+    "tier": 1,
+    "tierTitle": "Perceptual Calibration & Authority Architecture",
+    "tierSubtitle": "Zeroing the observer instrument and establishing non-reactive social gravity.",
+    "title": "Perceptual Calibration & The Four Laws",
+    "number": 1,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-02"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Zeroed Seismograph",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "The Optical Prism: Stepping Up Through The Four Lenses",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Fault Lines Beneath the Crust: The Four Laws of Human Behavior",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "The Contagion Loop: Operator Baseline vs. Observer Distortion",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 1 · Telemetry & Authority",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m02",
+    "kind": "module",
+    "tier": 1,
+    "tierTitle": "Perceptual Calibration & Authority Architecture",
+    "tierSubtitle": "Zeroing the observer instrument and establishing non-reactive social gravity.",
+    "title": "Authority Architecture & First-Contact Framing",
+    "number": 2,
+    "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+    "codexIds": [
+     "PIT-01"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "Gravitational Mass vs. Rocket Thrust",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "The Somatic Broadcast: Authority Architecture vs. Status-Tension Leaks",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Compliance-Friction Curve: Setting and Holding the First-Contact Frame",
+      "lab": false,
+      "cards": 1
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "The Authority-Threat Cliff: Dominance Overplay and Autonomy Margin",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 1 · Telemetry & Authority",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m03",
+    "kind": "module",
+    "tier": 2,
+    "tierTitle": "Behavioral Table of Elements & Facial Mechanics",
+    "tierSubtitle": "Reading distributed somatic load, baseline deltas, and facial congruence seams.",
+    "title": "The Behavioral Table of Elements (BToE)",
+    "number": 3,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-02"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Suspension Bridge Load Telemetry Panel",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Zeroing the Bridge: Subject Baseline, Cognitive Baseline, and the Freeze Delta",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Channel Architecture, Kinematic Independence, and the Cluster Threshold",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Stimulus-to-Spike Mapping, the Single-Cue Fallacy, and the Othello Guardrail",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 1 · Telemetry & Authority",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m04",
+    "kind": "module",
+    "tier": 2,
+    "tierTitle": "Behavioral Table of Elements & Facial Mechanics",
+    "tierSubtitle": "Reading distributed somatic load, baseline deltas, and facial congruence seams.",
+    "title": "Facial Mechanics, Microexpressions & Fabrication",
+    "number": 4,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-09",
+     "PIT-02"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Dual-Rigged Stage Curtain: Hydraulics vs. Manual Strings",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Timing, Symmetry, and the Decay Seam: Expression Stop vs. Fade",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Upper-Face Recruits, Artificial Smiles, and Landing-Window Attention",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Constructed Accounts vs. Episodic Recall: Fabrication Markers and Elasticity",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 1 · Telemetry & Authority",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m05",
+    "kind": "module",
+    "tier": 3,
+    "tierTitle": "Social Needs & Decision Mechanics",
+    "tierSubtitle": "Mapping hidden need–fear cantilevers, FATE sequencing, and six-pillar decision tracks.",
+    "title": "The Six Social Needs & Hidden Fear Maps",
+    "number": 5,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-10",
+     "PIT-04"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Need–Fear Cantilever Crane",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "The Six-Currency Inversion Matrix",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Triangulating the Stack: Conversational Gravity, Praise Projection, and Heat-to-Stakes Disproportion",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Actuator Deployment: Social-Currency Calibration, Impact Validation, and the Neuropeptide Guardrail",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 2 · Profiling & Elicitation",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m06",
+    "kind": "module",
+    "tier": 3,
+    "tierTitle": "Social Needs & Decision Mechanics",
+    "tierSubtitle": "Mapping hidden need–fear cantilevers, FATE sequencing, and six-pillar decision tracks.",
+    "title": "The FATE Model & Decision Mechanics",
+    "number": 6,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-04"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The High-Speed Railway Switchyard",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "The Upstream Relay Tower: Sequencing the FATE Model",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Six-Track Switchyard: The Decision Map Pillars",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Who Holds the Throttle: Internal vs. External Locus of Control",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 2 · Profiling & Elicitation",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m07",
+    "kind": "module",
+    "tier": 4,
+    "tierTitle": "Profiling Loop & Elicitation",
+    "tierSubtitle": "Running the six-minute passive sweep and opening protective vaults without direct interrogation.",
+    "title": "The Six-Minute Profiling Loop & Conversational Diagnostics",
+    "number": 7,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-11",
+     "PIT-04"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Two-Stage Sonar Plot",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Compiling the Behavioral Compass: Phased Triage and the Four-Variable Ceiling",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Hearing Between the Lines: Linguistic Harvesting (Pronouns, Adjectives, and Sensory Predicates)",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Directional Telemetry: Gestural Hemispheric Tendency (GHT) and Eye Home",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 2 · Profiling & Elicitation",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m08",
+    "kind": "module",
+    "tier": 4,
+    "tierTitle": "Profiling Loop & Elicitation",
+    "tierSubtitle": "Running the six-minute passive sweep and opening protective vaults without direct interrogation.",
+    "title": "Conversational Elicitation & Protective Masks",
+    "number": 8,
+    "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+    "codexIds": [
+     "PIT-03",
+     "PIT-11"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Pressure-Sensitive Vault Door",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Equalizing the Threshold: Protective Masks, Deliberate Social Errors, and the Hourglass Method",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Statement Engine: Pulling Information Without Asking a Question",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Reading the Valve: Verbal Armor, Micro-Leakage, and Ethical Containment",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 2 · Profiling & Elicitation",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m09",
+    "kind": "module",
+    "tier": 5,
+    "tierTitle": "Salience, Framing & Compliance Mechanics",
+    "tierSubtitle": "Steering attentional salience, presupposition corridors, and voluntary compliance momentum.",
+    "title": "Salience, Priming & Linguistic Framing",
+    "number": 9,
+    "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+    "codexIds": [
+     "PIT-05",
+     "PIT-07"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Air-Traffic Control Radar Scope",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Lighting Up the Scope: Attentional Gating, Salience, and the Priming Spectrum",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Shifting the Floor Beneath the Question: Presuppositions and the Elasticity Limit",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Channeling the Vector: Double Binds, Tonal Marking, and Cognitive-Load Boundaries",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 3 · Covert Syntax",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m10",
+    "kind": "module",
+    "tier": 5,
+    "tierTitle": "Salience, Framing & Compliance Mechanics",
+    "tierSubtitle": "Steering attentional salience, presupposition corridors, and voluntary compliance momentum.",
+    "title": "Compliance Mechanics, Pacing & Psychological Reactance",
+    "number": 10,
+    "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+    "codexIds": [
+     "PIT-06"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Coupled Flywheel and the Torque Limiter",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Building Rotational Momentum: Behavioral Entrainment, Compliance Wedges, and Agreement Escalation",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Activation Threshold: Scarcity, Regret Framing, and Empowering Calls to Action",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "When the Clutch Snaps: Psychological Reactance and De-Escalation Physics",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 3 · Covert Syntax",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m11",
+    "kind": "module",
+    "tier": 6,
+    "tierTitle": "Anchoring, Counter-Persuasion & Ethical Integration",
+    "tierSubtitle": "Defending against covert state-steering, auditing rebound scrutiny, and integrating the full stack.",
+    "title": "State Anchoring, Counter-Persuasion & Rebound Scrutiny",
+    "number": 11,
+    "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+    "codexIds": [
+     "PIT-12",
+     "PIT-07"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Tuning Fork and the Acoustic Damper",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Associative Conditioning: Behavioral Anchoring, First-Person Immersion, and Sensory Channels",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "Counter-Persuasion Architecture: Detecting Negative Anchors, Dissociation, and Amnesia Myths",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "The Morning-After Audit: Rebound Scrutiny and Durable Consensus",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 4 · Compliance Chains & Space",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "m12",
+    "kind": "module",
+    "tier": 6,
+    "tierTitle": "Anchoring, Counter-Persuasion & Ethical Integration",
+    "tierSubtitle": "Defending against covert state-steering, auditing rebound scrutiny, and integrating the full stack.",
+    "title": "Full-Stack Integration, Trust-Decay Lag & Ethical Architecture",
+    "number": 12,
+    "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+    "codexIds": [
+     "PIT-08",
+     "PIT-13"
+    ],
+    "days": [
+     {
+      "id": "model",
+      "label": "Mental Model",
+      "title": "The Closed-Loop Flight Controller and the Structural Fatigue Ledger",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain1",
+      "label": "Chain 1",
+      "title": "Closing the Loop: Partial-Compass Execution and Organic Adaptation",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain2",
+      "label": "Chain 2",
+      "title": "The Structural Fatigue Ledger: Trust-Decay Lag Across Iterated Games",
+      "lab": false,
+      "cards": 2
+     },
+     {
+      "id": "chain3",
+      "label": "Chain 3",
+      "title": "Ethical Architecture: The Hero-of-Their-Own-Story Standard",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "field",
+      "label": "In the Field",
+      "title": "The Pit · Stage 4 · Compliance Chains & Space",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "communication",
+  "door": 2,
+  "title": "Communication Mastery",
+  "subtitle": "White → Blue → Brown → Black Belt",
+  "modules": [
+   {
+    "id": "white-overview",
+    "belt": "white",
+    "kind": "overview",
+    "title": "White Belt · Overview",
+    "subtitle": "Regulated, clear about what is happening, and able to say what you want without apologizing, over-explaining, or exploding.",
+    "days": [
+     {
+      "id": "intro",
+      "label": "Overview",
+      "title": "Architecture & Rules",
+      "lab": false,
+      "cards": 5
+     }
+    ]
+   },
+   {
+    "id": "w1",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W1",
+    "title": "The Body Under Fire",
+    "subtitle": "Your first guard is your body, and it moves before your mind does. Notice your earliest stress signal and come back to center within one breath.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "José Silva & Peter Gollwitzer: A Countdown as a Trained Cue",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "Matthew Lieberman & Kashdan/Barrett: Why Naming the Feeling Matters",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "Breath Research (Zaccaro, Balban) & The Micro-Pause",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "Somatic Map & Tell List",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "w2",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W2",
+    "title": "Home Base & Fallbacks",
+    "subtitle": "Under pressure, everyone drops to a familiar older operating system. Map where you go so you can catch it mid-drop without shame.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "William Torbert: Action Logics as Habitual Ways of Acting",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "Susanne Cook-Greuter: Stage Distribution & The Strategist Sentence",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "Russell Hurlburt: Pristine Inner Experience vs. Reconstruction",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "Monologue & Fallback Map",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "w3",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W3",
+    "title": "Know Your Own Hooks",
+    "subtitle": "See what you crave from others, which of your everyday virtues turn into handles, and the hidden competing commitment holding your habits in place.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "Chase Hughes: Six Needs People Reach For",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "George K. Simon Jr.: How Your Own Habits Become Handles",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "Robert Kegan & Lisa Laskow Lahey: Why the Hook Holds",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "1-Page Hook Profile",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "w4",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W4",
+    "title": "The Triage: Style, Blind Spot, or Tactic",
+    "subtitle": "Diagnose what just landed on you before reaching for a tool—because using tactic defenses on a style clash turns you into the aggressor.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "Deborah Tannen: Conversational Style as a Difference, Not a Defect",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "William Torbert: Power Used Without Noticing",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "George K. Simon Jr.: The Chapter on Tactics",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "Tactic Codex Entries",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "w5",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W5",
+    "title": "The Clean No & Unexplained Preference",
+    "subtitle": "Cross the threshold into outward visibility: refuse cleanly without putting yourself on trial, choose exact grammar, and hold the five-second aftermath.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "Manuel J. Smith: The Right to Refuse Without Explaining",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "Vanessa Patrick & Henrik Hagtvedt: How a Refusal Is Worded",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "Jim Camp (Stub): Neediness, Right to Veto & The No Ladder",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "Safe-to-Fail Test Card",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "w6",
+    "belt": "white",
+    "kind": "week",
+    "kicker": "White Belt · Module W6",
+    "title": "Holding the Line",
+    "subtitle": "A boundary isn't tested when you set it—it is tested on the second and third push. Hold the floor calmly without debating, exploding, or folding.",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Mon",
+      "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tue",
+      "title": "Manuel J. Smith: The Broken Record and Fogging",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wed",
+      "title": "Donald Meichenbaum: Preparing Before the Push",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "lab",
+      "label": "Thu/Fri",
+      "title": "Inoculation Card & Best Lines",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "white-s1",
+    "belt": "white",
+    "kind": "sanctuary",
+    "title": "The Inner Sanctuary: From Self-Regulation to Self-Surrender",
+    "kicker": "Parallel I-Thou Track · Sanctuary Layer 1",
+    "subtitle": "W1–W6 trained you to stand your ground in Martin Buber's I-It world with integrity. The Sanctuary is for when the aim is the person, not any outcome—knowing how to use the tools, and choosing to put them down.",
+    "gate": "**Entry Gate:** Complete W1 (The Body Under Fire) first—yielding instead of bracing requires a body that can return to center. There are no tests here (you do not grade love); each module closes with a **Marker** noticed afterward.",
+    "days": [
+     {
+      "id": "s1-1",
+      "label": "S1.1",
+      "title": "S1.1 — Yielding, Not Bracing (Thich Nhat Hanh, Silva, Porges, Menakem)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s1-2",
+      "label": "S1.2",
+      "title": "S1.2 — The Architecture of the Armor (Torbert, Schwartz, Maté; Brown)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s1-3",
+      "label": "S1.3",
+      "title": "S1.3 — The Fear of Intimacy (Fromm, Kegan & Lahey, Almaas, Cook-Greuter)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "journal",
+      "label": "Journal",
+      "title": "Sanctuary Journal",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "white-capstone",
+    "belt": "white",
+    "kind": "capstone",
+    "title": "White Belt · Capstone",
+    "subtitle": "You earn White Belt on observable criteria, not on how fearless it felt. Failing a test is not failing the belt—it means repeating one module and testing again.",
+    "handoffTo": "blue",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Belt Test, Evidence Log & Pocket Card",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "blue-overview",
+    "belt": "blue",
+    "kind": "overview",
+    "title": "Blue Belt · Overview",
+    "subtitle": "Read and Bond · 3-Layer Polished Edition",
+    "question": "What is happening in them, and do they feel met?",
+    "days": [
+     {
+      "id": "intro",
+      "label": "Overview",
+      "title": "Read & Bond",
+      "lab": false,
+      "cards": 7
+     }
+    ]
+   },
+   {
+    "id": "b1",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B1",
+    "title": "The Baseline",
+    "subtitle": "Read only changes from a person's normal — never their normal as a tell.",
+    "guardrail": "Surveillance vs. Care: In the office dojo, baselining prevents you from misreading a habit as a threat. In the personal dojo, baselining is for care — noticing when a friend is off so you can ask gently, never to 'catch' them.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Hughes | First-Minute Silent Sweep (30–60s) & Cluster Rule |\n| Tue | Part 2 · DePaulo & Bond | Camera Test (Observable vs. Mind-Reading) |\n| Wed | Part 3 · Ekman & Matsumoto | 6 Display Rules & Cultural Context Filter |\n| Thu | Deliberate Practice Lab | Camera Linter + 30s Sweep + Cluster Drill |\n| Fri | Deliverable Workshop | Three Camera-Clean Baseline Cards |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "The Baseline and the Cluster",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "What Cues Can and Cannot Tell",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Display Rules Across Cultures and Contexts",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "The baseline",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Camera Linter + 30s Sweep + Cluster Drill",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Three Camera-Clean Baseline Cards",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "b2",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B2",
+    "title": "Reading the Currency",
+    "subtitle": "Spot what they scan for right now, test it so it can fail, and check it back.",
+    "guardrail": "Surveillance vs. Care: Never lock a currency into a stage verdict ('He's an Expert'). In the office dojo, use currency reads to choose your opening register. In the personal dojo, there are NO fake stress tests — read natural friction to learn how to care for them.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Cook-Greuter & Torbert | Verb-Only Currencies & Role Look-Alike Filter |\n| Tue | Part 2 · Snyder & Swann | Falsifiable Disconfirming Checks (All 6 Currencies) |\n| Wed | Part 3 · William Ickes | Empathic Accuracy Benchmarks & Face-Safe Check-Backs |\n| Thu | Deliberate Practice Lab | 6-Quote Currency & Face-Safe Check-Back Drill |\n| Fri | Deliverable Workshop | Five Checked Hypothesis Cards + Hit Rate |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Why a Stage Cannot Be Read in Minutes",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "How We Test Our Reads About People",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Empathic Accuracy and the Check-Back",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Reading the currency",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "6-Quote Currency & Face-Safe Check-Back Drill",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Five Checked Hypothesis Cards + Hit Rate",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "b3",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B3",
+    "title": "The Need Beneath the Position",
+    "subtitle": "Translate demands into core concerns and interests — answer the need first, hold your boundary.",
+    "guardrail": "Surveillance vs. Care: Never announce someone's need as an accusation ('You just need status'). Under the Transparency Test, only offer answers to needs that are genuinely true — and remember that answering a need is NOT giving in on your boundary.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Fisher & Shapiro | Five Core Concerns, Syntax Tells & Zero-Cost Levers |\n| Tue | Part 2 · Fisher, Ury & Patton | Interests vs. Positions + Non-Accusatory Questions |\n| Wed | Part 3 · Chase Hughes | All 6 Needs: Answer vs. Exploit vs. Announce + Honor & Hold |\n| Thu | Deliberate Practice Lab | 6-Scenario Position-to-Need Translation Trainer |\n| Fri | Deliverable Workshop | Position-vs-Need Matrix (3 Stalled Conversations) |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Five Core Concerns",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Interests Behind Positions",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Needs as Fears, and Answering Without Exploiting",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "The need beneath the position",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "6-Scenario Position-to-Need Translation Trainer",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Position-vs-Need Matrix (3 Stalled Conversations)",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "b4",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B4",
+    "title": "Which Conversation Is This?",
+    "subtitle": "Match practical, emotional, or social first — ask calibrated deep questions, and loop for understanding.",
+    "guardrail": "Surveillance vs. Care: Never use deep questions as the 'anonymous listener's armor' (asking brilliant questions while offering nothing back). And remember: a correction after a loop is a 100% win, not an Expert failure.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Charles Duhigg | 3 Conversations, Shift Clues & Natural Meta-Questions |\n| Tue | Part 2 · David Brooks | Illuminator Posture, Question Tiers & Give-One-to-Ask-One |\n| Wed | Part 3 · Carl Rogers | Natural 3-Beat Loop, Parrot vs. Over-Interpret & Corrections |\n| Thu | Deliberate Practice Lab | 6-Dialogue Conversation-Type & Mid-Stream Shift Detector |\n| Fri | Deliverable Workshop | Five Loops Log (Confirmed & Corrected) |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Three Conversations and the Matching Principle",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Deep Questions, Accompaniment, and 'Take Me Back'",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Reflective Listening and the Loop",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Which conversation is this?",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "6-Dialogue Conversation-Type & Mid-Stream Shift Detector",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Five Loops Log (Confirmed & Corrected)",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "b5",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B5",
+    "title": "Bonding, Labels and the Empathy Boundary",
+    "subtitle": "Name what is under the surface, cross difference without losing yourself, and hold compassion with a boundary.",
+    "guardrail": "Surveillance vs. Care: Understanding is NOT agreement. In the office dojo, labels disarm tension; in the personal dojo, labels are witnessing, not technique. Never use bespoke bonding to flatter someone you care nothing for.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Chris Voss | No-'I' Labels, Dynamic Silence & Fearless Accusation Audits |\n| Tue | Part 2 · Milton Bennett | Platinum Rule & 6-Step Empathy (Step 6: Re-Establish Self) |\n| Wed | Part 3 · Singer & Klimecki | Empathic Distress vs. Compassion & Period-Not-'But' Formula |\n| Thu | Deliberate Practice Lab | 60s Label Minute Trainer + Period-vs-'But' Linter |\n| Fri | Deliverable Workshop | Two Accusation Audits + Three Boundary Sentences |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Labels and the Accusation Audit",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Empathy Across Difference",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Empathy, Compassion and the Boundary",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Bonding, labels and the empathy boundary",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "60s Label Minute Trainer + Period-vs-'But' Linter",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Two Accusation Audits + Three Boundary Sentences",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "b6",
+    "belt": "blue",
+    "kind": "week",
+    "kicker": "Blue Belt · Module B6",
+    "title": "Going First — Initiation & Early Friendship",
+    "subtitle": "End the wait to be approached: lead with warmth, beat the liking gap, and invite depth in consented steps.",
+    "guardrail": "Surveillance vs. Care: Govern every rep by the 4 I-Thou Cautions — (1) Drop the playbook if it feels mechanical; (2) Never extract depth without a Green Light; (3) Honor the Linear Ladder Myth (low battery is a season, not rejection); (4) Adapt for cultural and neurodivergent styles.",
+    "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Fiske & Cuddy | 2x2 Warmth–Competence Matrix & 30s Warmth Gate |\n| Tue | Part 2 · Epley & Boothby | Liking Gap Mechanics, Stop-Signs & 4-Tier Initiation Menu |\n| Wed | Part 3 · Arthur Aron | Responsiveness, Ping Calibration & Green/Yellow/Red Protocol |\n| Thu | Deliberate Practice Lab | 6-Scenario Ping & Return Calibration Simulator |\n| Fri | Deliverable Workshop | Contact & Ping Log + Liking-Gap Calculator |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Warmth Before Competence",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "We Underestimate How Much Others Like Us",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Escalating Disclosure, Responsiveness, and the Ping",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Going first — initiation and the first two stages of friendship",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "6-Scenario Ping & Return Calibration Simulator",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Contact & Ping Log + Liking-Gap Calculator",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "blue-s2",
+    "belt": "blue",
+    "kind": "sanctuary",
+    "title": "Sanctuary Layer 2 · The I-Thou Encounter",
+    "subtitle": "From profiling to recognizing",
+    "gate": "Blue Belt reads. The Sanctuary recognizes.",
+    "days": [
+     {
+      "id": "s2-1",
+      "label": "S2.1",
+      "title": "The un-sweep and mutual recognition",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "s2-2",
+      "label": "S2.2",
+      "title": "Listening beneath suffering",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "s2-3",
+      "label": "S2.3",
+      "title": "Holding environment and resonance",
+      "lab": false,
+      "cards": 3
+     },
+     {
+      "id": "cautions",
+      "label": "Cautions",
+      "title": "The 7 Cautions",
+      "lab": false,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "blue-capstone",
+    "belt": "blue",
+    "kind": "capstone",
+    "title": "Blue Belt · Capstone",
+    "subtitle": "Three tests: one rehearsed, two live. Each has pass criteria you can observe.",
+    "handoffTo": "brown",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Three tests",
+      "lab": false,
+      "cards": 3
+     }
+    ]
+   },
+   {
+    "id": "brown-overview",
+    "belt": "brown",
+    "kind": "overview",
+    "title": "Brown Belt · Overview",
+    "subtitle": "",
+    "days": [
+     {
+      "id": "intro",
+      "label": "Overview",
+      "title": "Brown Belt · Overview",
+      "lab": false,
+      "cards": 10
+     }
+    ]
+   },
+   {
+    "id": "brown-capstone",
+    "belt": "brown",
+    "kind": "capstone",
+    "title": "Brown Belt · Capstone",
+    "subtitle": "",
+    "handoffTo": "black",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Brown Belt · Capstone",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "br1",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br1",
+    "title": "Face and the Shape of an Ask",
+    "subtitle": "How do I wrap an ask for the right weight without letting the wrap swallow the ask?",
+    "golden": "Promotion Project Step 1 (continuing Blue B3 Interest Map & B5 Accusation Audit): Tag Ask #1 as your Promotion Ask on Friday—it pipes directly into your Br4 45-Second Pitch and Br5 Steering Map.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Goffman Face-Work |\n| Tue: B&L Weight + Wraps |\n| Wed: O'Barr & ES Hedges |\n| Thu: Face-Weight & Linter |\n| Fri: 5-Ask File (EN/ES) |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "The Jointly Held Card Table & Ritual Equilibrium",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "The Load Equation (W = D + P + R) & Shock-Absorbing Wraps",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Load-Bearing Precision vs. Structural Erosion",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Face and the shape of an ask",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Face-Weight & Linter",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "5-Ask File (EN/ES)",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "br2",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br2",
+    "title": "Two Tracks — Message, Metamessage & Style",
+    "subtitle": "What is being said, what is claimed about our relationship, and how do I break a battle frame?",
+    "golden": "Promotion Project Step 2: Catch Achiever's Spin ('in the spirit of partnership...') and keep your pace grounded without Diplomat over-convergence.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Tannen Signal vs. Story |\n| Tue: Watzlawick Frame-Break |\n| Wed: Giles Accommodation |\n| Thu: Metamessage Sim (6) |\n| Fri: 4-Turn Transcript Audit |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "The Feedback Loop & Five Pragmatic Axioms",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Two tracks — message, metamessage and style",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Metamessage Sim (6)",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "4-Turn Transcript Audit",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "br3",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br3",
+    "title": "The Bilingual Footing & Weight of the Word",
+    "subtitle": "How do my two languages carry feeling, power, and meaning—and which translations are mine to drop?",
+    "golden": "Promotion Project Step 3: Run your promotion phrasing through the 3-culture Translation Strip and lock in your accent & dignity footing.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Pavlenko Shifting Self |\n| Tue: Wierzbicka Key Words |\n| Wed: Accent & Tax Triage |\n| Thu: Translation Strip Lab |\n| Fri: 12-Word Lexicon + Note |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "The bilingual footing and the weight of the word",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Translation Strip Lab",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "12-Word Lexicon + Note",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "br4",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br4",
+    "title": "The Reveal — Strategic & True Disclosure",
+    "subtitle": "Can I drop the edited self, advocate before inquiring, and be seen in under 45 seconds?",
+    "golden": "Promotion Project Step 4: Import your Br1 Promotion Ask into Thursday's 45-Second Four-Part Compressor—it pipes straight into Br5's Steering Map.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Torbert 4 Parts (45s) |\n| Tue: Altman Breadth/Depth |\n| Wed: Collins & Reciprocity |\n| Thu: 45s Compressor + Mic |\n| Fri: 5-Rung Reveal Ladder |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "The Reveal — strategic and true disclosure",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "45s Compressor + Mic",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "5-Rung Reveal Ladder",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "br5",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br5",
+    "title": "Steering Out Loud",
+    "subtitle": "Where is this conversation going, who decides, and should I anchor first or draw them out?",
+    "golden": "Promotion Project Capstone: Friday's 7-Block Steering Map auto-imports your Br1 Ask, Br3 Register Note, and Br4 4-Part Pitch into one battle card.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Inform/Consult/Negotiate |\n| Tue: Voss Calibrated Qs |\n| Wed: Galinsky Anchor vs. Voss |\n| Thu: Go-First Advisor + Qs |\n| Fri: 7-Block Steering Map |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Decision Architecture, Reactance & The I-C-N Buckets",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Calibrated Questions, Autonomy & Testing Deadlines",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "First Offers, Anchoring & Information Symmetry",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Steering out loud",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Go-First Advisor + Qs",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "7-Block Steering Map",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "br6",
+    "belt": "brown",
+    "kind": "week",
+    "kicker": "Brown Belt · Module Br6",
+    "title": "Rupture, Repair & Renovation",
+    "subtitle": "Can I own harm cleanly without 'but', re-enter after withdrawing, and invite depth with consent?",
+    "golden": "Linguistic Script-Book Finale: Pair your assertive office skills with clean dignity repair and consented friendship renovation.",
+    "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+    "assembly": "| Day |\n|---|\n| Mon: Hicks vs. Lewicki Rule |\n| Tue: Safran Withdrawal Repair |\n| Wed: 4-Phase Renovation |\n| Thu: Repair Linter & Sim |\n| Fri: Repair & Renovation Log |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Inherent Dignity, The 'I' vs. 'Me' Split & Repair Without 'But'",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Apology Components, Mechanism Explanations & Repair Weight",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Rupture Repair, Withdrawal Re-Entry & Staged Renovation",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "canon",
+      "label": "Canon",
+      "title": "Rupture, repair and renovation",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Repair Linter & Sim",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Repair & Renovation Log",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "brown-s3",
+    "belt": "brown",
+    "kind": "sanctuary",
+    "title": "Sanctuary Layer 3",
+    "subtitle": "",
+    "days": [
+     {
+      "id": "s3-1",
+      "label": "S3.1",
+      "title": "Honoring Instead of Face-Saving",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-2",
+      "label": "S3.2",
+      "title": "The Metamessage of Closeness and Space",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-3",
+      "label": "S3.3",
+      "title": "The Weight of the Word",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-4",
+      "label": "S3.4",
+      "title": "Wholehearted Disclosure & Generative Dialogue",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "black-overview",
+    "belt": "black",
+    "kind": "overview",
+    "title": "Black Belt · Overview",
+    "subtitle": "",
+    "days": [
+     {
+      "id": "intro",
+      "label": "Overview",
+      "title": "Black Belt · Overview",
+      "lab": false,
+      "cards": 15
+     }
+    ]
+   },
+   {
+    "id": "black-capstone",
+    "belt": "black",
+    "kind": "capstone",
+    "title": "Black Belt · Capstone",
+    "subtitle": "",
+    "handoffTo": "loop",
+    "days": [
+     {
+      "id": "test",
+      "label": "Belt Test",
+      "title": "Black Belt · Capstone",
+      "lab": false,
+      "cards": 3
+     }
+    ]
+   },
+   {
+    "id": "bk1",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk1",
+    "title": "Reading the Room's Culture",
+    "subtitle": "What construal of difference, invisible assumptions, and safety climate are actually running this room?",
+    "golden": "Your **Two Room Maps** (Office + Personal) become the diagnostic baseline for `Bk2` brokerage, `Bk4` readiness calibration, and `Bk5` safety gating.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Bennett DMIS Construals |\n| Tue: Schein 3 Strata & Contradiction Hunt |\n| Wed: Edmondson Psychological Safety |\n| Thu: Room Culture & Safety Radar Lab |\n| Fri: Two Room Maps`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Milton Bennett (*The Perceptual Architecture of a Room & The Superiority Trap*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Edgar Schein (*Three Strata of Room Culture & The Contradiction Hunt*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Amy Edmondson (*Psychological Safety, Candor vs. Comfort & Calibrated Risk*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Room Culture & Safety Radar",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Two Room Maps (Office + Personal)",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "bk2",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk2",
+    "title": "Cultural Brokerage and the Downshift",
+    "subtitle": "How do I translate and sequence a proposal across rooms or competing tribes without losing my core stake?",
+    "golden": "Imports your `Bk1` Room Maps to select the exact entry currency and sequence; feeds `Bk3`'s bridge-self footing and translation-tax audit.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Downshift Without Self-Erasure |\n| Tue: Sequencing Across Cultures & Tribes |\n| Wed: Shapiro Tribes Effect & Lures |\n| Thu: Brokerage & Downshift Lab |\n| Fri: One Brokered Proposal`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Cultural Brokerage & The Downshift (*Translating Across Rooms Without Losing the Core*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Sequencing Across Cultures & Between Tribes (*Order of Operations & Deadlocked Subcultures*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Daniel Shapiro (*The Tribes Effect & Its Lures: Navigating Polarization Without Joining the Fight*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Brokerage & Downshift Studio",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "One Brokered Proposal (Debrief Log)",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "bk3",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk3",
+    "title": "Constructive Marginality — The Bridge Self",
+    "subtitle": "How do I inhabit cultural and linguistic margins from a grounded center—without code-switching out of anxiety, falling into value paralysis, or burning out on unpaid translation?",
+    "golden": "Steadies the person doing the `Bk2` brokerage so you can enter `Bk4` systemic circuits without overfunctioning or seeking approval.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Bennett Constructive Marginality |\n| Tue: Language-Selves & Translation Tax |\n| Wed: Belonging You Bring & Reversal Check |\n| Thu: Bridge-Self & Tax Triage Lab |\n| Fri: Bridge-Self Audit & Tax Log`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Milton Bennett (*Encapsulated vs. Constructive Marginality & Additive Adaptation*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Integrating Language-Selves & Dropping the Reflexive Translation Tax",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Belonging You Bring & The Reversal Check",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Bridge-Self & Tax Triage Audit",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Bridge-Self Audit & Translation Tax Log",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "bk4",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk4",
+    "title": "Systemic Steering — Name the Pattern, Change the Frame",
+    "subtitle": "How do I read the emotional circuit running between people, change my own slot in it, and offer a double-loop reframe the room can actually hold?",
+    "golden": "Builds on `Bk1` room safety and `Bk3` internal footing to shift multi-party rooms without lecturing; prepares the terrain for `Bk5` guarding when a system resists in bad faith.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Bowen Circuits, Triangles & Overfunctioning |\n| Tue: Torbert Double-Loop Reframing |\n| Wed: Room Readiness & Beginner's Mind |\n| Thu: Systemic Steering Lab |\n| Fri: One Systemic Steering Map`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Murray Bowen (*Reading the Pattern Between People, Triangles & Overfunctioning*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Bill Torbert (*Double-Loop Learning, Naming the Dynamic & Reframing on Purpose*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Room Readiness & The Strategist's Blind Spot (*Naming Only What the Room Can Hold*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Systemic Steering Simulator",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "One Systemic Steering Map & Reframe Log",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "bk5",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk5",
+    "title": "Systemic Guarding — The Full Codex & Stepping Outside the Game",
+    "subtitle": "How do I read covert tactics and power bases accurately, decline rigged games openly, and protect my walk-away line without becoming cynical or reactive?",
+    "golden": "Installs the protective floor beneath Black Belt so your `Bk4` steering and `Bk6` openness are backed by real boundaries and walk-away power.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Covert Tactics & Power Bases |\n| Tue: Declining the Game Openly |\n| Wed: Real Danger, BATNA & Separation |\n| Thu: Drop-the-Rope Rehearsal Lab |\n| Fri: Personal Tactic Codex & Thresholds`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Covert Tactics & Power Bases (*Reading the Move, Not Labeling the Person*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Declining the Game Openly (*Stepping Out Without Fighting Fire With Fire*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "Real Danger, Walk-Away Readiness & Separation (*Staying Present Without Taking Yourself Hostage*)",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Five-Tactic Drop-the-Rope Rehearsal",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Personal Tactic Codex & Walk-Away Thresholds",
+      "lab": true,
+      "cards": 2
+     }
+    ]
+   },
+   {
+    "id": "bk6",
+    "belt": "black",
+    "kind": "week",
+    "kicker": "Black Belt · Module Bk6",
+    "title": "Dissolving Deadlocks, and the Confidant",
+    "subtitle": "How do I dissolve binary deadlocks, accept what cannot be solved, and hold unarmored confidant presence while living the full Dojo?",
+    "golden": "Synthesizes all four belts (`White` → `Blue` → `Brown` → `Black`) into a living practice rather than a static checklist.",
+    "goldenLabel": "Golden Thread",
+    "assembly": "| Day |\n|---|\n| Mon: Dissolving Deadlocks & Premises |\n| Tue: Accepting the Unsolvable & Double-Loop |\n| Wed: The Confidant & Living System |\n| Thu: Premise-Shift & Confidant Lab |\n| Fri: Deadlock + Double-Loop + Sanctuary Log`. |",
+    "days": [
+     {
+      "id": "mon",
+      "label": "Monday",
+      "title": "Dissolving Deadlocks & Changing What the Conversation Is About",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "tue",
+      "label": "Tuesday",
+      "title": "Accepting the Unsolvable & Double-Loop Conversations",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "wed",
+      "label": "Wednesday",
+      "title": "The Confidant & Living System Integration",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "thu",
+      "label": "Thursday",
+      "title": "Premise-Shift & Confidant Practice",
+      "lab": true,
+      "cards": 1
+     },
+     {
+      "id": "fri",
+      "label": "Friday",
+      "title": "Deadlock, Double-Loop & Sanctuary Log",
+      "lab": true,
+      "cards": 1
+     }
+    ]
+   },
+   {
+    "id": "black-s4",
+    "belt": "black",
+    "kind": "sanctuary",
+    "title": "Sanctuary Layer 4",
+    "subtitle": "",
+    "days": [
+     {
+      "id": "s4-1",
+      "label": "S4.1",
+      "title": "The Intercultural Sanctuary & Differentiation",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s4-2",
+      "label": "S4.2",
+      "title": "Co-Authoring the Dynamic",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s4-3",
+      "label": "S4.3",
+      "title": "Radical Acceptance & The Complex Domain",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "presence",
+  "door": 3,
+  "title": "Intimacy & Presence",
+  "subtitle": "The Sanctuary · S1–S4",
+  "modules": [
+   {
+    "id": "s1",
+    "kind": "layer",
+    "title": "Layer 1 · The Inner Sanctuary",
+    "subtitle": "From self-regulation to self-surrender",
+    "kicker": "Paired with White Belt (W1–W6)",
+    "intro": "In the dojo you regulate to keep executive function online. Here you regulate to put down the need for control, so another person can put down theirs.",
+    "days": [
+     {
+      "id": "s1-1",
+      "label": "S1.1",
+      "title": "Yielding, Not Bracing",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s1-2",
+      "label": "S1.2",
+      "title": "The Architecture of the Armor",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s1-3",
+      "label": "S1.3",
+      "title": "The Fear of Intimacy",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "kind": "layer",
+    "title": "Layer 2 · The I-Thou Encounter",
+    "subtitle": "From profiling to recognizing",
+    "kicker": "Paired with Blue Belt (B1–B6)",
+    "intro": "Blue Belt reads. The Sanctuary recognizes—putting the clipboard down so two separate minds can meet as equals.",
+    "days": [
+     {
+      "id": "s2-1",
+      "label": "S2.1",
+      "title": "The un-sweep and mutual recognition",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s2-2",
+      "label": "S2.2",
+      "title": "Listening beneath suffering",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s2-3",
+      "label": "S2.3",
+      "title": "Holding environment and resonance",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "kind": "layer",
+    "title": "Layer 3 · The Poetics of Connection",
+    "subtitle": "From strategic reveal to wholehearted disclosure",
+    "kicker": "Paired with Brown Belt (Br1–Br6)",
+    "intro": "Brown Belt chooses words for clarity and effect. The Sanctuary uses words—and shared silence—to build a shared world.",
+    "days": [
+     {
+      "id": "s3-1",
+      "label": "S3.1",
+      "title": "Honoring Instead of Face-Saving",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-2",
+      "label": "S3.2",
+      "title": "The Metamessage of Closeness and Space",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-3",
+      "label": "S3.3",
+      "title": "The Weight of the Word",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s3-4",
+      "label": "S3.4",
+      "title": "Wholehearted Disclosure & Generative Dialogue",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "s4",
+    "kind": "layer",
+    "title": "Layer 4 · The Relational Ecosystem",
+    "subtitle": "From steering to co-authoring and acceptance",
+    "kicker": "Paired with Black Belt (Bk1–Bk6)",
+    "intro": "Black Belt reads and moves rooms. The Sanctuary sees a person's whole life and loves the whole of it, without needing it to change on your timeline.",
+    "days": [
+     {
+      "id": "s4-1",
+      "label": "S4.1",
+      "title": "The Intercultural Sanctuary & Differentiation",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s4-2",
+      "label": "S4.2",
+      "title": "Co-Authoring the Dynamic",
+      "lab": false,
+      "cards": 4
+     },
+     {
+      "id": "s4-3",
+      "label": "S4.3",
+      "title": "Radical Acceptance & The Complex Domain",
+      "lab": false,
+      "cards": 4
+     }
+    ]
+   },
+   {
+    "id": "cautions",
+    "kind": "cautions",
+    "title": "The 7 Cautions",
+    "subtitle": "Read these before the Sanctuary becomes a playbook.",
+    "days": [
+     {
+      "id": "all",
+      "label": "Cautions",
+      "title": "The 7 Cautions",
+      "lab": false,
+      "cards": 1
+     }
+    ]
+   }
+  ]
+ }
+]

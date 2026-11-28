@@ -1,0 +1,202 @@
+{
+ "id": "br2",
+ "belt": "brown",
+ "kind": "week",
+ "kicker": "Brown Belt · Module Br2",
+ "title": "Two Tracks — Message, Metamessage & Style",
+ "subtitle": "What is being said, what is claimed about our relationship, and how do I break a battle frame?",
+ "golden": "Promotion Project Step 2: Catch Achiever's Spin ('in the spirit of partnership...') and keep your pace grounded without Diplomat over-convergence.",
+ "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+ "assembly": "| Day |\n|---|\n| Mon: Tannen Signal vs. Story |\n| Tue: Watzlawick Frame-Break |\n| Wed: Giles Accommodation |\n| Thu: Metamessage Sim (6) |\n| Fri: 4-Turn Transcript Audit |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+   "cards": [
+    {
+     "id": "br2.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+     "md": "### Layer 1 · Author Completion: Twin Tracks, Miswired Style & Complementary Schismogenesis\n\nImagine a conversation as a dual-rail track carrying two trains at once: the **Message** (literal information) and the **Metamessage** (the live negotiation of closeness and power). **Deborah Tannen** (*That's Not What I Meant!*) shows why communication can never settle into neat stasis: human beings live inside a **simultaneous double bind** between **Involvement** (the pull to be connected) and **Independence** (the pull to remain unimpeded). Unlike porcupines alternately huddling and backing away, we must serve *both* needs in the exact same sentence—every gesture of closeness slightly crowds independence, and every gesture of space slightly cools involvement.\n\nThat tension explains why we so rarely speak purely literally. **Indirectness** delivers two powerful payoffs: **rapport** (*the fine pleasure of being understood on the same wavelength without spelling everything out*) and **self-defense** (plausible deniability if a bid is rejected). When two speakers share the same conversational wiring, those signals hum cleanly; when their styles differ—say, a **high-involvement** speaker overlapping to show warmth paired with a **high-considerateness** speaker leaving long pauses to show respect—their wiring crosses. Instead of converging, they trigger what Gregory Bateson called **complementary schismogenesis**: *creating a split in a mutually aggravating way*. The louder speaker turns up the volume to encourage the quieter one, who whispers softer to set a calm example, until one is shouting and the other has vanished into silence. The second-order effect is the **battle frame**: once every turn is heard as an attack, answering at length only reinforces the stage the other person built and invites another round. The third-order trap is **hot direct metacommunication** (*“You're putting me in a battle frame!”*)—which sounds insightful yet locks the battle frame tighter, whereas an **indirect frame-break** (dropping volume, pausing two beats, pointing to a shared artifact) cools the room enough to reset the stage.\n\n*Bridge to Tuesday:* Tannen shows how mismatched styles escalate into a battle frame; tomorrow, Paul Watzlawick widens the lens from personal style to the five structural axioms of the interactional loop itself."
+    },
+    {
+     "id": "br2.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+     "md": "Anchor every metamessage read to a concrete **observable signal**—never a mind-read. Against **Achiever's Spin** (*“In the spirit of partnership…”*), split the two rails cleanly: accept the partnership message and decline the hidden funnel metamessage. Inside a hot battle frame, deploy an **indirect frame-break** first (2-second pause, softer voice, shared document), then check the frame tentatively (`Observable cue + “I wonder if we're in different frames” + open check`).\n\n:::note Office Worked Example (Splitting Spin)\n“I'm completely aligned on hitting Q3 as partners—which is exactly why absorbing unvetted scope by Friday puts both teams at risk. Which deliverable should move to Tuesday?” *(Accepts the partnership message; declines the pressure metamessage.)*\n:::\n\n:::note Personal Worked Example (Indirect Break)\n*(High-considerateness friend shuts down under rapid questions):* Pause 3 seconds and volunteer your own story: “I just realized I've been firing questions at you—my week's been a blur too. No rush.” *(Breaks complementary schismogenesis without lecturing.)*\n:::\n\n:::note Non-Example (Weaponized Metacommunication)\n“I can see what you're doing—you're using 'partnership' language to manipulate me.” *(Hot direct metacommunication that locks the battle frame shut.)*\n:::\n\n:::note Decision Rule\nCheck **Topic Survival** before calling an overlap an interruption. When heat is rising, use an **indirect frame-break** first; keep direct metacommunication tentative and anchored to observable cues.\n:::\n\n:::field Two-Column Spot Check\nWrite one turn from today: Message vs. Observable Metamessage Signal.\n:::"
+    },
+    {
+     "id": "br2.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+     "md": "| Tannen Mechanism | What Happens Linguistically | Observable Signal / Diagnostic | Projection / Failure Mode |\n|---|---|---|---|\n| Message vs. Metamessage | Words carry data; delivery/framing negotiates power & closeness. | Pitch, pace, presuppositions (*“In the spirit of partnership…”*). | Announcing a guessed metamessage as fact (*“I know what you're doing”*). |\n| Topic-Survival Test | Separates **Cooperative Overlap** from **Hostile Interruption**. | **Whose topic survives?** Overlap supports the speaker's thread; interruption hijacks it. | Calling enthusiastic overlap 'disrespect'—or letting an interruption steal your floor. |\n| Indirectness Payoffs | Serves **Rapport** (shared wavelength) & **Self-Defense** (deniability). | Hinting (*“It's getting late”*) vs. stating directly. | Expecting hints to work across different conversational styles. |\n| Direct vs. Indirect Frame-Break | Shifting *how* talk is interpreted (Bateson's framing). | **Indirect:** Lower volume, pause, shift artifact. **Direct:** Tentative *“I wonder if…”*. | Hot direct metacommunication locks the battle frame in. |\n\n### Layer 3 · Optional Deepening: Prosody & Intonation Metamessages (Gumperz via Pavlenko)\n\nIn Gumperz's classic British cafeteria study, South Asian staff offered gravy with a falling tone (*“Gravy.”*—courteous in L1), which British customers decoded as a surly command instead of a rising polite offer (*“Gravy?”*). For bilinguals, **intonation contours carry metamessages automatically**—a clean literal translation can still trigger a style clash if the pitch contour stays in L1.\n\nBr2 · Monday · Part 1 · Deborah Tannen Message & Metamessage\n\n## Signal vs. Projection Filter & The Double Bind\n\nIn Br1 you calibrated the shape of a single ask; in Br2 you widen the lens to hear the two tracks running simultaneously inside every turn. **Deborah Tannen** shows why two people can exchange clean facts and still walk away bruised—because the real collision lives on the **metamessage** track:\n\n| Observable Metamessage Signal | Example | Mind-Reading Projection (Avoid) |\n|---|---|---|\n| Presupposition / Loaded Frame | Example“In the spirit of partnership, agree to Friday.” | Mind-Reading Projection (Avoid)“They're secretly plotting to ruin my weekend.” |\n| Topic Control / Floor Seizure | ExampleInterrupting repeatedly so your topic dies. | Mind-Reading Projection (Avoid)“They hate me personally.” |\n| Asymmetric Check-In | Example“Did you get my email?” sent 15 minutes later. | Mind-Reading Projection (Avoid)“They think I'm incompetent.” |\n\n:::details Canon notes · Part 1 · Tannen: message and metamessage\n:::note Lens card\nTannen's full lens card is W4 Part 1, on conversational style. Here only one idea is new: every statement carries a message, its information, and a metamessage, what it says about the relationship. Most fights, she argues, are about the metamessage while both people argue the message. She also describes the double bind of involvement and independence: every way of talking honors one at the cost of the other.\n:::\n\n:::note Why Tannen here\nThe two-column audit in this module is her distinction put to work.\n:::\n\n:::note Native use\nAnalysis of everyday talk for general readers and linguists.\n:::\n\n:::note Limit\nQualitative research (label: qualitative research). Naming someone's metamessage aloud is a strong move, and the module keeps it tentative.\n:::\n\n### Two tracks in one sentence\n\n| What was said | Message | Possible metamessage |\n|---|---|---|\n| “Let's treat this as a design problem.” | A way to work | I'm steering this meeting |\n| “In the spirit of partnership…” | We are partners | Agree with my outcome |\n| “Did you get my last email?” | A question | You're behind |\n:::"
+    },
+    {
+     "id": "br2.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Twin Tracks, Miswired Style & Complementary Schismogenesis",
+     "md": ":::note Handoff\nIn Friday's **Transcript Audit**, log **Message | Metamessage (with observable signal) | Topic Survival / Style Clash**, and draft both an indirect and a tentative direct frame-breaker.\n:::",
+     "tools": [
+      "rungs.brown.Br2.Monday"
+     ]
+    }
+   ],
+   "author": "Deborah Tannen · That's Not What I Meant!"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "The Feedback Loop & Five Pragmatic Axioms",
+   "cards": [
+    {
+     "id": "br2.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Feedback Loop & Five Pragmatic Axioms",
+     "md": "### Layer 1 · Author Completion: The Feedback Loop & Five Pragmatic Axioms\n\nWhere Tannen listens for individual style, **Paul Watzlawick, Janet Beavin Bavelas, and Don Jackson** (*Pragmatics of Human Communication*) treat conversation as a **closed cybernetic loop**—meaning you cannot diagnose a fight by inspecting one person in isolation. Five interlocking axioms govern the physics of that loop. First, **one cannot not communicate**: stepping back into W2 Observer silence does not remove you from the circuit; it broadcasts a loud relationship command (coldness, withdrawal, or disapproval). Second, every turn carries both **Content (*Report*)** and **Relationship (*Command*)**, and the relationship track *classifies* the content—which is why strained relationships burn hours fighting over spreadsheet formatting or a mug on the counter when the real battle is *“Do you trust or value me?”*\n\nThird, **punctuation** explains why both sides feel 100% righteous: each slices the continuous circle into a straight line starting with the other person (*“I over-explained because you doubted me”* vs. *“I doubted you because you got defensive”*). Fourth, **Digital vs. Analogic** communication separates literal words (*digital*) from tone, posture, and timing (*analogic*)—and whenever the two contradict (*“Fine, whatever”* through a clenched jaw), listeners trust the analogic command every time. Fifth, loops escalate either **symmetrically** (two Experts trading sharper corrections in a mirror) or **complementarily** (pursuer pushing harder as the withdrawer retreats further). The counterintuitive exit is a **metacomplementary step-down**: refusing to mirror the strike or flee the room, and instead naming the *shared loop* without assigning who started it. The second-order payoff is immediate de-escalation; the third-order payoff is breaking chronic recurring fights before they harden into relational cynicism.\n\n*Bridge to Wednesday:* Watzlawick proves that your analogic delivery—pace, pause, and silence—always sends a relationship command; tomorrow, Howard Giles shows how to calibrate that delivery toward or away from the other person on purpose."
+    },
+    {
+     "id": "br2.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Feedback Loop & Five Pragmatic Axioms",
+     "md": "Enforce the **3-Turn Rule**: if you have stated a clear factual point **twice** and the room's heat stays just as high, **stop arguing Content**—you are inside a Relationship (*Command*) conflict. Step off the punctuation carousel by naming the shared pattern neutrally, or execute a **Symmetrical De-Escalation** (*stop trading corrections and ask one shared design question*).\n\n:::note Office Worked Example (Symmetrical De-Escalation)\n“We've traded corrections on this tab three times—I think we're both trying to protect the audit. Let's step back: what's the single number you want most confident before Friday?” *(Exits symmetrical Expert sparring into a shared frame.)*\n:::\n\n:::note Personal Worked Example (Reframing Silence)\n“I hear that going quiet landed as shutting you out. When things get tense, I freeze to avoid saying something sharp, and then you push harder to reach me. Give me five minutes to breathe and I'm right back.” *(Names the complementary loop without blaming.)*\n:::\n\n:::note Non-Example (Stuck in Report)\nSending a 6-paragraph email with screenshots proving your formatting matched the style guide. *(Wins the digital content argument while deepening the relationship fracture.)*\n:::\n\n:::note Decision Rule\nIf one or two factual turns resolve the friction, stay in Content. The moment a point repeats or escalates past Turn 2, exit Content and address the shared loop tentatively.\n:::\n\n:::field Practice One Frame-Breaker\nRecall a content fight that was really about relationship—draft one sentence that would have broken the frame.\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Live Dialect Frame-Breakers (Office US):** Office US: Break the battle frame calmly and neutrally—accept the stated partnership message, decline the hidden pressure metamessage.\n@personal_us **Live Dialect Frame-Breakers (Personal US):** Personal US: Name the relationship bid warmly instead of fighting over logistics.\n@rioplatense **Live Dialect Frame-Breakers (Rioplatense):** Rioplatense: High-involvement overlap is often enthusiasm, not interruption. Break frames with warmth and *nosotros*.\n@espana **Live Dialect Frame-Breakers (España):** España: Directness on content is normal; verify whether a blunt line is actually a relationship bid before reframing.\n:::\n\n:::dialect Live Dialect Examples\n@office_us **Achiever's Spin Counter:** “I agree completely about partnership—which is exactly why rushing this timeline without checking Q3 dependencies won't work for either of us.” **Frame-Breaking Sentence:** “I notice we're both defending our spreadsheets. Let's step back—are we trying to lock the number today, or align on who owns the risk?”\n@personal_us **Achiever's Spin Counter:** “I want us both to have a great weekend too—which is why I'd rather pick a plan we're both excited about.” **Frame-Breaking Sentence:** “Wait—I feel like we're arguing about what time to leave, when I'm actually just feeling rushed and wanting to enjoy tonight with you.”\n@rioplatense **Achiever's Spin Counter:** “Coincido totalmente en trabajar en equipo, y justamente por eso apurar esta fecha sin revisar los datos nos va a complicar a los dos.” **Frame-Breaking Sentence:** “Pará un segundo—me parece que estamos discutiendo por el horario cuando en realidad los dos estamos cansados. ¿Cómo hacemos para pasarla bien hoy?”\n@espana **Achiever's Spin Counter:** “Coincido contigo en cuidar la colaboración; precisamente por eso, forzar este plazo sin revisar los datos no nos conviene a ninguno.” **Frame-Breaking Sentence:** “Espera un momento: creo que estamos discutiendo el formato cuando la duda de fondo es quién asume el riesgo. ¿Lo vemos juntos?”\n:::"
+    },
+    {
+     "id": "br2.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Feedback Loop & Five Pragmatic Axioms",
+     "md": "| Watzlawick Axiom | Core Mechanism | How It Shows Up in Friction | System-Level Exit Move |\n|---|---|---|---|\n| 1. Cannot Not Communicate | Inaction and silence still broadcast commands. | Observer silence reads as coldness or rejection, not neutrality. | Make pauses explicit (*“Need 2 minutes to think; I'm still in this”*). |\n| 2. Report vs. Command | Relationship (*Command*) classifies Content (*Report*). | 20-minute fight over spreadsheet format when real issue is trust. | Apply the **3-Turn Rule**: stop arguing content; check relationship tentatively. |\n| 3. Punctuation | Each sees their move as reaction to the other's cause. | *“I over-explained because you doubted me”* vs. *“I doubted because you got defensive.”* | Name the *shared loop*, not who started it. |\n| 4. Digital vs. Analogic | Words (*digital*) vs. tone/body/timing (*analogic*). | Saying *“Fine, whatever”* with clenched jaw and flat tone. | Align analogic cues first (W1 exhale) or name the mismatch honestly. |\n| 5. Symmetrical / Complementary | Mirroring moves vs. opposite fitting roles. | Expert vs. Expert sparring, or Pursuer vs. Observer withdrawal. | Step out of the mirror—or use a **metacomplementary** invite (*“How would you approach this?”*). |\n\n### Layer 3 · Optional Deepening: Official vs. Actual Conversation (Brooks / Crucial Conversations)\n\nDavid Brooks (*How to Know a Person*, citing *Crucial Conversations*) frames Watzlawick's Report/Command as the stage beneath the debate: when people clash over frames, the reflex is to **yank the conversation back to your comfortable frame** (*“Here's how it looks to me”*). Staying briefly inside their frame first smooths the emotional undercurrents so the actual conversation becomes safe again.\n\nBr2 · Tuesday · Part 2 · Watzlawick Content, Relationship & Frame-Breaking\n\n## Exiting the Battle Frame & Countering Achiever's Spin\n\nTannen showed how mismatched styles lock two people into a battle frame; **Paul Watzlawick** zooms out to the interactional loop itself, proving why arguing harder on facts—or retreating into Observer silence—only cements the relationship fight underneath:\n\n:::details Canon notes · Part 2 · Watzlawick: content and relationship\n:::note Lens card\nPaul Watzlawick, Janet Beavin Bavelas and Don Jackson, at the Mental Research Institute in Palo Alto, wrote *Pragmatics of Human Communication* (1967), drawing on Gregory Bateson. Two of their axioms matter here: one cannot not communicate, and every communication has a content aspect and a relationship aspect, with the relationship aspect framing how the content is taken. What is distinctive is the claim that conflicts about relationship often get fought as disagreements about content.\n:::\n\n:::note Why Watzlawick here\nTannen's metamessage has an older source here. This part gives the systems version, which Black Belt builds on.\n:::\n\n:::note Native use\nFamily therapy and communication theory.\n:::\n\n:::note Limit\nTheory from clinical observation (label: theory with case evidence). The axioms are a framework, not tested laws.\n:::\n\n### When relationship is fought as content\n\n| Argument about | Content level | Relationship level |\n|---|---|---|\n| Who washes the dishes | Fairness of chores | Am I valued here? |\n| A spreadsheet's format | Accuracy | Do you trust my work? |\n| Texting back | Response time | Do I matter to you? |\n:::"
+    },
+    {
+     "id": "br2.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Feedback Loop & Five Pragmatic Axioms",
+     "md": ":::note Handoff\nIn Friday's **Transcript Audit**, circle the exact turn where Content stopped being the real fight, label **Symmetrical vs. Complementary**, and check how your silence or over-explaining fed the punctuation loop.\n:::",
+     "tools": [
+      "rungs.brown.Br2.Tuesday"
+     ]
+    }
+   ],
+   "author": "Paul Watzlawick, Beavin Bavelas & Jackson · Pragmatics of Human Communication"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+   "cards": [
+    {
+     "id": "br2.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+     "md": "### Layer 1 · Author Completion: The 1-Notch Acoustic Dial, Attribution & Dignified Divergence\n\nEvery conversation is also a quiet calibration of distance. **Howard Giles's** **Communication Accommodation Theory (CAT)** maps how speakers adjust speech rate, pause length, vocabulary, and accent either toward their partner (**Convergence**) to build ease and comprehension, or away (**Divergence**) to preserve identity and boundaries. The hidden mechanism that decides whether a shift works is **listener attribution**—not what you *did*, but *why* the other person thinks you did it.\n\nThat creates a precise operational trade-off. **Partial Convergence** (turning your pace or formality **one notch** toward a fast VP or a quiet peer) is attributed to goodwill and lowers friction. Push the dial too far into **Over-Convergence**—dropping your natural cadence, swallowing your views, or adopting corporate slang you despise—and you trigger the **Diplomat Word shadow**, where listeners sense fakery or insecurity and your own footing dissolves. Conversely, when someone **over-accommodates** *to you* (slowing to 'baby talk' after hearing your accent, or nudging you to speak as a cultural spokesperson), the reflex trap is either shrinking in embarrassment or launching an Expert lecture to prove your IQ. Giles points to two cleaner stances: **Calm Maintenance** (holding your natural crisp pace and full register steadily) and **Dignified Divergence** (deliberately holding your pace or boundary to slow a runaway room or refuse patronizing treatment). Watch the second-order **Subjective vs. Objective Gap**: what feels inside your head like 'just being polite' can read on the outside as stiffness or deference; over time, reflexive over-convergence trains rooms to overlook your real voice.\n\n*Bridge to Thursday & Friday:* You now have all three Br2 instruments—Tannen's twin tracks, Watzlawick's interactional loop, and Giles's accommodation dial. Run them live in Thursday's **Metamessage Simulator** before dissecting your own conversation in Friday's **4-Turn Transcript Audit**."
+    },
+    {
+     "id": "br2.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+     "md": "Treat accommodation as a **1-notch dial**, never a costume change. When someone **over-accommodates** to your accent—or nudges you to act as a cultural spokesperson—answer with **Calm Maintenance**: hold your normal crisp pace and full professional register (*“Speaking from my own read on the data…”*).\n\n:::note Office Worked Example (1-Notch Convergence)\nWith a fast, results-driven VP, put the headline conclusion in sentence 1 and tighten your cadence one notch—without rushing past your boundary or abandoning your voice.\n:::\n\n:::note Personal / Bilingual Worked Example (Anti-Over-Accommodation)\n*(Clerk speaks slowly/loudly: “DO… YOU… NEED… A… RECEIPT?”):* Hold calm eye contact and reply smoothly at normal speed: “Yes, an itemized receipt with the tax breakdown would be great—thank you.”\n:::\n\n:::note Non-Example (Diplomat Disappearance)\nAdopting corporate slang you hate or laughing along with a dismissive remark about your background just to blend in.\n:::\n\n:::note Decision Rule\nConverge **1 notch** for warmth and clarity while dignity is intact. Hold **Maintenance** when pulled to shrink or stereotyped. Deploy **Dignified Divergence** when rushed, mocked, or pressured.\n:::\n\n:::field Accommodation Check\nWhere did you converge automatically this week, and where would 10% less convergence have felt more like you?\n:::"
+    },
+    {
+     "id": "br2.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+     "md": "| Giles Stance | Mechanism | Primary Motive | How Listeners Evaluate It |\n|---|---|---|---|\n| Partial Convergence | Shift pace, pause, or vocabulary *1 notch* toward them. | Warmth, ease, shared comprehension. | Positive when attributed to goodwill; suspicious if flattering. |\n| Over-Convergence | Abandoning your natural register/voice completely. | High approval need (Diplomat Word shadow). | Can read as insecure or fake; erodes your footing. |\n| Maintenance | Holding your natural pace, accent, and register steadily. | Grounded authenticity; refusing to shrink. | Respectful when calm; only rigid if comprehension fails. |\n| Divergence | Deliberately accenting pace, register, or language difference. | Protecting dignity, boundary, or slowing a runaway room. | Dignified against disrespect; distancing if reflexive. |\n| Over-Accommodation *(Received)* | Listener slows speech or assigns stereotype role based on background. | Listener's stereotype of non-native competence. | Experienced as patronizing; threatens positive face. |\n\n### Layer 3 · Optional Deepening: Basic Self vs. Pseudo-Self (Murray Bowen / Roberta Gilbert)\n\nRoberta Gilbert (*Extraordinary Relationships*, explaining Bowen) sharpens the line between calibrated convergence and self-erasure: **Basic Self** has impermeable boundaries and is never traded away in relationships, whereas **Pseudo-Self** expands or shrinks to keep anxiety at bay. As Gilbert notes, *“cooperation or altruism shown by those with more basic self is a thoughtful choice and is guided by principles. It is not an automatic, adaptive, or accommodative response.”* Conscious **1-notch convergence is Basic Self**; reflexive **over-convergence is Pseudo-Self trading**.\n\nBr2 · Wednesday · Part 3 · Howard Giles Communication Accommodation\n\n## Convergence, Dignified Divergence & Over-Accommodation\n\nIf every turn negotiates closeness and power, your pace, pause length, and register are the throttle. **Howard Giles** maps how shifting toward or away from another speaker signals care, dignity, or self-erasure:\n\n| Move | When It Serves You | Worked Script / Example |\n|---|---|---|\n| Calibrated Convergence | When It Serves YouSpeeding up one notch with a fast talker, or pausing 2 beats with a quiet colleague. | Worked Script / ExampleWarm, voluntary, self intact. |\n| Anti-Over-Accommodation | When It Serves YouWhen someone slows down or speaks simply due to your accent. | Worked Script / ExampleKeep your crisp natural pace: “Yes—line 4 has a 2% variance. Let's fix that.” |\n| Dignified Divergence | When It Serves YouKeeping your natural accent, register, or boundary when mocked or patronized. | Worked Script / ExampleRefuse to shrink or perform; stay grounded and clear. |\n\n:::details Canon notes · Part 3 · Giles: communication accommodation\n:::note Lens card\nHoward Giles, a social psychologist, developed speech accommodation theory in the 1970s, later communication accommodation theory: people shift their accent, pace, vocabulary and style toward others (convergence) to gain approval or ease, or away from them (divergence) to mark identity or distance. Over-accommodation can feel patronizing. Your notebook holds only a summary of Giles and Powesland, so this card rests partly on general knowledge. What is distinctive is that matching or not matching is a social choice that signals closeness or distance.\n:::\n\n:::note Why Giles here\nThe module asks you to match pace on purpose, a little. Giles names the move and its risks.\n:::\n\n:::note Native use\nResearch on accent, intergroup relations and speech style.\n:::\n\n:::note Limit\nTested research across many studies (label: tested research; stub in your notebook). Effects depend on who is accommodating to whom and why.\n:::\n\n### Convergence, divergence and over-accommodation\n\n| Move | Example | How it can land |\n|---|---|---|\n| Convergence | Speeding up a little with a fast talker | Warmth, ease |\n| Divergence | Keeping your accent or language with someone who mocks it | Identity, dignity |\n| Over-accommodation | Speaking slowly and simply to a fluent non-native speaker | Patronizing |\n:::"
+    },
+    {
+     "id": "br2.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The 1-Notch Acoustic Dial, Attribution & Dignified Divergence",
+     "md": ":::note Handoff\nAdd a 1-line **Accommodation Audit** at the bottom of Friday's **Transcript Audit**: *Did I over-converge, hold steady maintenance, or diverge defensively?*\n:::",
+     "tools": [
+      "rungs.brown.Br2.Wednesday"
+     ]
+    }
+   ],
+   "author": "Howard Giles · Communication Accommodation Theory (CAT)"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Two tracks — message, metamessage and style",
+   "cards": [
+    {
+     "id": "br2.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Two tracks — message, metamessage and style",
+     "md": "**Two tracks — message, metamessage and style.** Hear what is said and what is claimed about the relationship at the same time, and adjust your pace and style on purpose.\n\n1. **Message and metamessage (Tannen).** Every turn conveys data and negotiates closeness and power. “Let's treat this as a design problem, not a fight” proposes teamwork (message) and also takes the wheel of the meeting (metamessage) (Curriculum, Layer 3 Module 2). Neither is wrong. You need to hear both and decide whether to accept the frame.\n2. **The Achiever's spin (Curriculum).** Partnership language used to funnel you toward one outcome: “In the spirit of partnership…”, “To make sure we hit our mutual ROI…”. The counter-move separates the two tracks: accept the message, decline the metamessage. “I agree completely about partnership, which is exactly why forcing this timeline doesn't work for us.”\n3. **Involvement and independence.** Tannen's double bind: people want to be close (involvement) and to be left alone (independence), and every way of talking honors one at the cost of the other (Source: TNWIM pp. 31–34, as reported). It is the same axis as positive and negative face, and as Fisher and Shapiro's affiliation and autonomy (Synthesis: the recurring axis in the source map).\n4. **Pace, pause and overlap.** High-involvement speakers overlap to show enthusiasm; to them “an overlap is not an interruption”. High-considerateness speakers wait for long pauses and feel steamrolled by overlap (Source: TNWIM pp. 47–56, 128, 180–183, as reported). A clash of styles gets read as a clash of character (Source: TNWIM pp. 47–51, 133–140).\n5. **Interruption or overlap?** An interruption takes the floor away to change the topic or win; a cooperative overlap supports the speaker and keeps their topic. The difference is not volume but whose topic survives.\n6. **Matching pace on purpose.** Slowing down to a fast, high-involvement speaker can read as weakness or disinterest; overlapping a slow, considerate speaker reads as aggression. Shift your pace toward theirs, a little, on purpose (Curriculum, Layer 3 Module 2, “linguistic mirroring”).\n7. **The battle frame.** When every turn is heard as an attack, answering at length deepens the battle. Tannen's fix is to break the frame: say what is happening, or change the frame indirectly (Source: TNWIM p. 89, paraphrase as reported).\n\n**What you bring.** You likely move between high-involvement (Rioplatense, among friends) and high-considerateness (many US professional settings) every day. Knowing which one you are in, and which one the other person is in, is most of the skill."
+    },
+    {
+     "id": "br2.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Two tracks — message, metamessage and style",
+     "md": ":::note Drill\nThe two-column audit. After one conversation a day, write two columns for three of its turns: what was said, and what was claimed about the relationship.\n:::\n\n:::note Office dojo\nIn meetings, notice who overlaps whom, and whose topic survives. Practice one cooperative overlap with a fast speaker and one three-second pause with a slow one.\n:::\n\n:::note Personal dojo\nNotice metamessages of closeness and space: a petty fight about texting back may be a bid for reassurance; a sudden criticism of how things are organized may be a bid for space (the I-Thou outline's reading of Perel; Perel is not in the notebook). Answer the bid, not the content.\n:::"
+    },
+    {
+     "id": "br2.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Two tracks — message, metamessage and style",
+     "md": "Everything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats a turn as | Would worry that you... |\n|---|---|---|---|\n| Tannen | Everyday style | Message plus metamessage | Argue the message while the metamessage hurts |\n| Watzlawick | Systems of interaction | Content framed by relationship | Miss the relationship level |\n| Giles | Identity and approval | A move toward or away | Converge until you disappear |\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Accommodation by bilinguals | How do bilingual professionals accommodate across languages in one conversation? | Your daily work | One thread, researched with the research-brief skill |\n| 2. Naming metamessages | Is there evidence on whether naming the relationship level helps or escalates conflict? | Part 2's move | One thread, with a critic pass |\n| 3. Over-accommodation to accented speakers | What does research say about patronizing speech toward non-native speakers? | Your accent concern | Full deepening of Part 3 |\n\n**Where they meet.** All three say how you talk is itself a statement about the relationship.\n\n**Where they collide.** Tannen and Giles treat style as personal and cultural; Watzlawick treats it as part of a system that maintains itself. The first suggests adapting; the second suggests changing the pattern.\n\n**What the three miss for you.** You often carry two relationship levels at once: yours and the one between the people you interpret for.\n\n**Where it sits in your own frameworks.** Heart with others and Mind in your Orders Grid; systems thinking for Watzlawick. Return to this module later and add dated notes; do not overwrite.\n\n**prompt.** Use curriculum-module in deepen mode on Brown Belt Br2, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries."
+    },
+    {
+     "id": "br2.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The transcript audit",
+     "md": "**The transcript audit.** Take one past conversation that went badly (from memory if no recording exists). Write each turn's message and metamessage side by side, mark where styles clashed, and write the one sentence that would have broken the frame.\n\n**Watch for.** Using “metamessage” as a weapon (“I can see what you're really doing here”). Naming a metamessage is a Black Belt move, and it is always tentative."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Metamessage Sim (6)",
+   "cards": [
+    {
+     "id": "br2.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Thursday",
+     "md": "Br2 · Thursday · Interactive Lab · 6-Turn Metamessage Simulator\n\n## Metamessage & Frame-Breaker Simulator\n\n:::note\nTurn 1 / 7 · Score: 0 · Category: Achiever's Spin\n\nColleague: “In the spirit of true partnership, I know you'll want to absorb this extra weekend scope so we hit our mutual ROI.”\n\n:::note\n**Message (Data):** We are partners working toward mutual ROI.\n**Metamessage (Relationship):** If you say no, you are violating partnership—agree with my outcome.\n:::\n:::",
+     "tools": [
+      "drill.brown.BR2_SCENARIOS",
+      "legacy.brown.Br2"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "4-Turn Transcript Audit",
+   "cards": [
+    {
+     "id": "br2.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Friday",
+     "md": "Br2 · Friday · Deliverable\n\n## Deliverable: 4-Turn Transcript Audit\n\nDissect one past conversation that went badly: separate Message from Metamessage, mark any style/accommodation clash, and write the ONE sentence that would have broken the frame.\n\n:::note\n### Turn 1 (Counterpart)\n\n:::\n\n:::note\n### Turn 2 (Me)\n\n:::\n\n:::note\n### Turn 3 (Counterpart)\n\n:::\n\n:::note\n### Turn 4 (Me)\n\n:::",
+     "tools": [
+      "form.brown.Br2"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

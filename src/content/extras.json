@@ -1,0 +1,903 @@
+{
+ "pockets": {
+  "white": {
+   "belt": "white",
+   "front": "Breathe out. Triage. One reason.",
+   "frontSub": "Jaw loose, feet down, name the feeling · Style, blind spot, or tactic? · Proposal, then stop.",
+   "back": "Would I accept their no?",
+   "backSub": "If the honest answer is no, you are not asking—you are pressuring. (Sanctuary check: \"Am I here, and are they?\")"
+  },
+  "blue": {
+   "belt": "blue",
+   "front": "Baseline first. Name the need, not the position. Label, then pause.",
+   "frontSub": "60s sweep + camera test; check your own tells first · Honor the concern or fear at zero cost; hold your boundary · Drop 'I', name it lightly, hold 3 seconds of silence",
+   "back": "Which conversation are they in?",
+   "backSub": ""
+  },
+  "brown": {
+   "belt": "brown",
+   "front": "",
+   "frontSub": "Brown Belt Pocket Card Close Tap the card to turn it over. Three cues for visibility, syntax, and transparent steering. 1. Frame before you ask. Name the purpose first; wrap the face-threat without swallowing the ask. 2. Say what you want, once. Advocate before you inquire; strip powerless hedges. 3. Steer out loud. Name the decision type (inform, consult, negotiate) and invite choice. Brown Belt Core Question “What reality are my words building?” Every turn carries a message and a metamessage. Choose both on purpose.",
+   "back": "What reality are my words building?",
+   "backSub": ""
+  },
+  "black": {
+   "belt": "black",
+   "front": "1. Read the room before the person. · 2. Name the pattern, not the person. · 3. Offer a better game.",
+   "frontSub": "",
+   "back": "Am I a bridge here, or a code-switcher?",
+   "backSub": ""
+  },
+  "sanctuary": {
+   "belt": "sanctuary",
+   "front": "Am I here, and are they?",
+   "frontSub": "",
+   "back": "Am I here, and are they?",
+   "backSub": ""
+  }
+ },
+ "grids": {
+  "white": {
+   "belt": "white",
+   "column": "Guard",
+   "stages": [
+    {
+     "n": "Opportunist [Edge]",
+     "t": "Opportunist · unilateral power · Bridges ≈ Denial / Defense",
+     "sig": "Guards by striking first",
+     "gift": "Spots threats and leverage instantly; refuses to be a doormat.",
+     "shadow": "Sees every friction as an attack; counter-manipulates or explodes.",
+     "tell": "Snapping back, issuing ultimatums, keeping score.",
+     "move": "Run W1 2-beat exhale and W4 triage before reacting."
+    },
+    {
+     "n": "Diplomat",
+     "t": "Diplomat · referent power · Bridges ≈ Defense / Minimization",
+     "sig": "Guards by appeasing",
+     "gift": "Reads social mood fast; preserves surface harmony.",
+     "shadow": "Apologizes while someone crosses their line; offers Reason #2 out of guilt.",
+     "tell": "\"Sorry to bother you, I just wanted to check if maybe…\"",
+     "move": "Deliver one W5 Clean No with zero apologies and hold the 5-second aftermath."
+    },
+    {
+     "n": "Expert",
+     "t": "Expert · logistical power · Bridges ≈ Minimization",
+     "sig": "Guards with proof & armor",
+     "gift": "Catches inconsistencies and logical flaws rapidly.",
+     "shadow": "Over-explains to prove intelligence; debates bad-faith pushers.",
+     "tell": "Three paragraphs of justification when one sentence would do.",
+     "move": "Cap explanations at one factual reason; switch to W6 Fog + Broken Record."
+    },
+    {
+     "n": "Achiever",
+     "t": "Achiever · productive power · Bridges ≈ Minimization / Acceptance",
+     "sig": "Guards with contracts & rules",
+     "gift": "Sets clear deliverables, timelines, and written records.",
+     "shadow": "Treats personal boundaries like cold transactions; over-functions.",
+     "tell": "Fixing or project-managing instead of feeling anger or hurt.",
+     "move": "Name the feeling silently (W1 Step 2) and add warmth in personal boundaries."
+    },
+    {
+     "n": "Pluralist",
+     "t": "Individualist · reflexive power · Bridges ≈ Acceptance",
+     "sig": "Guards by understanding motives",
+     "gift": "Sees the human story behind difficult behavior.",
+     "shadow": "Over-understands; excuses repeated violations; Observer withdrawal.",
+     "tell": "\"From where they stand, it makes sense why they pushed.\"",
+     "move": "Run Simon's Cut-Off Question: understand the motive, still judge the behavior."
+    },
+    {
+     "n": "Strategist",
+     "t": "Strategist · transforming, mutual power · Bridges ≈ Adaptation",
+     "sig": "Guards transparently with care",
+     "gift": "Triages style vs. blind spot vs. tactic; holds boundaries calmly without blame.",
+     "shadow": "Whitewashing own fallbacks or over-naming dynamics too soon.",
+     "tell": "\"What's really happening here, and what do I want from it?\"",
+     "move": "Answer BOTH halves of the Strategist sentence and honor the 3-line confirming email."
+    },
+    {
+     "n": "Construct-Aware",
+     "t": "Alchemist · presencing power · Bridges ≈ Integration (constructive)",
+     "sig": "Guards with relaxed presence",
+     "gift": "Sees manipulation as a game without getting hooked; stays grounded.",
+     "shadow": "Detachment that misses real danger or delays a needed boundary.",
+     "tell": "Calm amusement while a real limit is being crossed.",
+     "move": "Keep Safety Rule #9 and a concrete protective consequence bolted to the floor."
+    }
+   ]
+  },
+  "blue": {
+   "belt": "blue",
+   "column": "Read & Bond",
+   "stages": [
+    {
+     "n": "Opportunist",
+     "edge": true,
+     "t": "Opportunist",
+     "pw": "unilateral power",
+     "dm": "Denial / Defense",
+     "read": [
+      "Reads for advantage",
+      "Quick to spot threats and openings.",
+      "Reads people only for what can be taken or defended.",
+      "Inner question: what can I get here?",
+      "Notice one need someone has that does nothing for you.",
+      "Torbert pp. 66–68"
+     ],
+     "bond": [
+      "Bonds for leverage",
+      "Charming when it pays.",
+      "Affection as currency; drops people once they are used.",
+      "Warm until the deal closes.",
+      "Do one kindness with no return expected.",
+      "Torbert pp. 66–68; Simon p. 91"
+     ]
+    },
+    {
+     "n": "Diplomat",
+     "edge": false,
+     "t": "Diplomat",
+     "pw": "referent power",
+     "dm": "Defense / Minimization",
+     "read": [
+      "Reads for approval",
+      "Fast at sensing mood and approval in the room.",
+      "Reads to avoid friction; mistakes politeness for agreement.",
+      "Inner question: are they upset with me?",
+      "Name what they need, not what they think of you.",
+      "Torbert pp. 68–76; Hughes needs map"
+     ],
+     "bond": [
+      "Bonds through agreement",
+      "Warm, inclusive, smooths tension.",
+      "Bonds by agreeing; can't stay close through conflict.",
+      "Totally, me too.",
+      "Disagree on something small and stay warm.",
+      "Torbert pp. 68–76; Tannen pp. 31–34"
+     ]
+    },
+    {
+     "n": "Expert",
+     "edge": false,
+     "t": "Expert",
+     "pw": "logistical power",
+     "dm": "Minimization",
+     "read": [
+      "Reads for errors",
+      "Precise: catches inconsistencies, fallacies, verbal leakage.",
+      "Reads content, not need; diagnoses people; blind to the emotional room.",
+      "Tracks what's wrong with what was just said.",
+      "Assume everyone has something to teach you. For every flaw you spot, find one need.",
+      "Torbert pp. 78–84; Hughes verbal indicators"
+     ],
+     "bond": [
+      "Bonds through shared craft",
+      "Deep bonds with people who share a discipline.",
+      "Respect gated by competence; corrects instead of connects.",
+      "Actually, the research says…",
+      "Ask about their experience before offering your knowledge.",
+      "Torbert pp. 78–81"
+     ]
+    },
+    {
+     "n": "Achiever",
+     "edge": false,
+     "t": "Achiever",
+     "pw": "productive power",
+     "dm": "Minimization / Acceptance",
+     "read": [
+      "Reads for interests",
+      "Reads goals, interests and decision drivers; spots the path to yes.",
+      "Instrumental: the person becomes a means to the outcome.",
+      "Inner question: what will get them to agree?",
+      "Read one thing about them that has nothing to do with your goal.",
+      "Torbert pp. 81–86; Hughes pp. 200–203"
+     ],
+     "bond": [
+      "Bonds through shared goals",
+      "Reliable, follows up, builds alliances.",
+      "Relationships managed like projects; dropped when goals diverge.",
+      "We should collaborate on this.",
+      "Spend time with someone with no agenda at all.",
+      "Torbert pp. 81–86; Fisher & Shapiro pp. 52–67"
+     ]
+    },
+    {
+     "n": "Pluralist",
+     "edge": false,
+     "t": "Individualist",
+     "pw": "reflexive power",
+     "dm": "Acceptance",
+     "read": [
+      "Reads their frame",
+      "Reads each person's model of reality from inside it.",
+      "Over-understands: explains away behavior by understanding motives.",
+      "Inner sentence: from where they stand, it makes sense.",
+      "After you understand the motive, still judge the behavior.",
+      "Torbert pp. 91–103; Brooks pp. 147–149; Simon p. 96"
+     ],
+     "bond": [
+      "Bonds through empathy",
+      "Makes people feel understood across difference.",
+      "Empathy without boundaries; gives understanding, asks for nothing back.",
+      "That makes so much sense.",
+      "Loop for understanding, then share your own reaction.",
+      "Duhigg pp. 303–309; Brooks pp. 44–50"
+     ]
+    },
+    {
+     "n": "Strategist",
+     "edge": false,
+     "t": "Strategist",
+     "pw": "transforming, mutual power",
+     "dm": "Adaptation",
+     "read": [
+      "Reads the system",
+      "Reads the pattern between people, the threatened core concern, the real conversation type, and self in real time.",
+      "Reads more than others want named; assumes they are ready for it.",
+      "Said aloud: I think this is a status conversation, not a money one.",
+      "Name the dynamic tentatively and invite correction.",
+      "Torbert pp. 22–27, 104–111; Duhigg p. 246"
+     ],
+     "bond": [
+      "Bonds through disagreement",
+      "Stays close through conflict; repairs ruptures.",
+      "May push intimacy faster than others can hold.",
+      "I disagree, and I'm not going anywhere.",
+      "Name the rupture and invite repair.",
+      "Torbert pp. 104–111; Goffman pp. 19–23"
+     ]
+    },
+    {
+     "n": "Construct-Aware",
+     "edge": false,
+     "t": "Alchemist",
+     "pw": "presencing power",
+     "dm": "Integration (constructive)",
+     "read": [
+      "Reads the reading itself",
+      "Sees how expectation and projection shape every read, including your own.",
+      "Infinite regress: trusts no read enough to act on it.",
+      "Inner sentence: notice what I am assuming about you.",
+      "Hold the read lightly and loop it back to them to check.",
+      "Torbert pp. 177–193; Duhigg pp. 303–309"
+     ],
+     "bond": [
+      "Bonds beneath positions",
+      "Meets the person underneath identities and roles.",
+      "Abstract presence; can feel unreachable.",
+      "Comfortable silences; few words, full attention.",
+      "Accompany without fixing.",
+      "Brooks pp. 44–50; Torbert pp. 177–193"
+     ]
+    }
+   ],
+   "cols": [
+    {
+     "k": "read",
+     "n": "Read",
+     "es": "Leer",
+     "q": "What is actually happening, in them, in me, between us?"
+    },
+    {
+     "k": "bond",
+     "n": "Bond",
+     "es": "Vincular",
+     "q": "Do they feel met?"
+    }
+   ]
+  },
+  "brown": {
+   "belt": "brown",
+   "column": "Word · Reveal · Steer",
+   "stages": [
+    {
+     "n": "Opportunist",
+     "edge": true,
+     "t": "Opportunist · unilateral power",
+     "dm": "Denial / Defense",
+     "word": [
+      "Words as weapons",
+      "Direct, blunt, cuts through ambiguity.",
+      "Bald on-record demands; blames or coerces.",
+      "Tell: 'Take it or leave it.'",
+      "Move: State a clear ask without threat or sting."
+     ],
+     "reveal": [
+      "False front",
+      "Confident exterior under pressure.",
+      "Reveals strategically as bait; overshares to create obligation.",
+      "Tell: Calculated charm before a lopsided ask.",
+      "Move: Share one small, plain truth with zero hook attached."
+     ],
+     "steer": [
+      "Steers by force",
+      "Decisive in genuine emergencies.",
+      "Imposes unilateral direction; treats pushback as betrayal.",
+      "Tell: Ultimatums and artificial urgency.",
+      "Move: Name the decision type (inform/consult/negotiate) out loud."
+     ]
+    },
+    {
+     "n": "Diplomat",
+     "edge": false,
+     "t": "Diplomat · referent power",
+     "dm": "Defense / Minimization",
+     "word": [
+      "Words to keep peace",
+      "Warm, tactful, protects group harmony.",
+      "Hedged, apologetic asks from below; softens until the ask vanishes.",
+      "Tell: 'Sorry to bother you, just checking if maybe…'",
+      "Move: Strip powerless hedges and state the ask once."
+     ],
+     "reveal": [
+      "Edited self",
+      "Considerate of what the room can hold.",
+      "Hides true needs, objections, and preferences to avoid friction.",
+      "Tell: 'I'm fine with whatever works for everyone.'",
+      "Move: State one honest preference first before asking theirs."
+     ],
+     "steer": [
+      "Follows the room",
+      "Reliable team glue; honors norms.",
+      "Abdicates direction; lets others set the frame silently.",
+      "Tell: Waits to be approached or invited to speak.",
+      "Move: Open one meeting or plan by naming the purpose first."
+     ]
+    },
+    {
+     "n": "Expert",
+     "edge": false,
+     "t": "Expert · logistical power",
+     "dm": "Minimization",
+     "word": [
+      "Words to prove right",
+      "Precise, rigorous, airtight craft language.",
+      "Precision used to win; over-explains until unassailable.",
+      "Tell: 'Actually, technically…' + 3 extra paragraphs.",
+      "Move: Frame and advocate in 2 sentences; stop before lecturing."
+     ],
+     "reveal": [
+      "Reveals knowledge, not self",
+      "Generous with expertise and analysis.",
+      "Facts instead of feelings; credentials as armor.",
+      "Tell: Answers a personal question with a framework.",
+      "Move: Drop the credentials and name one real personal stake."
+     ],
+     "steer": [
+      "Steers by winning the argument",
+      "Strong logical structure and standards.",
+      "Debates details while missing relational or political frames.",
+      "Tell: Floods the table with data when challenged.",
+      "Move: Pair one data point with a genuine inquiry into their frame."
+     ]
+    },
+    {
+     "n": "Achiever",
+     "edge": false,
+     "t": "Achiever · productive power",
+     "dm": "Minimization / Acceptance",
+     "word": [
+      "Words to close the deal",
+      "Clear, goal-oriented, compelling.",
+      "Achiever's Spin: partnership language hiding a unilateral funnel.",
+      "Tell: 'In the spirit of partnership, let's lock this by 5.'",
+      "Move: Separate message from metamessage; invite real dissent."
+     ],
+     "reveal": [
+      "The résumé self",
+      "Articulates goals, wins, and accountability.",
+      "Hides uncertainty, fatigue, or unfinished edges.",
+      "Tell: 'Crushing it, busy, all good!'",
+      "Move: Offer one processed vulnerability without spinning it as a win."
+     ],
+     "steer": [
+      "Steers to the deal",
+      "Moves groups reliably toward outcomes.",
+      "Treats conversations as projects to close rather than mutual choices.",
+      "Tell: Rushes past emotional/social lanes to next steps.",
+      "Move: Ask a calibrated question that hands real agency back."
+     ]
+    },
+    {
+     "n": "Pluralist",
+     "edge": false,
+     "t": "Individualist · reflexive power",
+     "dm": "Acceptance",
+     "word": [
+      "Words that hold nuance",
+      "Attentive to context, voice, and subtext.",
+      "Over-qualifies; hedges until nobody knows what was asked.",
+      "Tell: 'On the one hand… though I also see…'",
+      "Move: Advocate your actual view plainly after naming context."
+     ],
+     "reveal": [
+      "Authentic, sometimes unedited",
+      "Honest about inner tension and values.",
+      "Asks brilliant questions while hiding own position (Pluralist question trap).",
+      "Tell: 5 deep questions in a row, zero self-advocacy.",
+      "Move: Use all 4 parts of speech: frame and advocate before inquiring."
+     ],
+     "steer": [
+      "Hesitates to steer",
+      "Respects every voice and perspective.",
+      "Avoids taking the wheel for fear of imposing; lets talks drift.",
+      "Tell: 'What do you all think we should do?' (no proposal).",
+      "Move: Propose one clear direction openly and invite edits."
+     ]
+    },
+    {
+     "n": "Strategist",
+     "edge": false,
+     "t": "Strategist · transforming, mutual power",
+     "dm": "Adaptation",
+     "word": [
+      "Words that build shared reality",
+      "Names purpose, aligns message and metamessage across dialects.",
+      "Unspoken frame control slides into manipulation.",
+      "Tell: 'I'd like to frame our goal for the next 20 minutes…'",
+      "Move: Run the 3-culture Translation Strip; keep framing transparent."
+     ],
+     "reveal": [
+      "Calibrated, grounded visibility",
+      "Uses Torbert's 4 parts cleanly; owns flaws without groveling.",
+      "Disclosure that overwhelms people who aren't ready (or whitewashing).",
+      "Tell: Plain stake + concrete example + open inquiry.",
+      "Move: Match disclosure size to consent and room readiness."
+     ],
+     "steer": [
+      "Steers out loud with others",
+      "Transparent direction; names inform/consult/negotiate cleanly.",
+      "Overestimates others' readiness for meta-steering.",
+      "Tell: 'I'd like to steer us toward X. Does that work for you?'",
+      "Move: Confirm their yes/no honestly (White Belt check)."
+     ]
+    },
+    {
+     "n": "Construct-Aware",
+     "edge": false,
+     "t": "Alchemist · presencing power",
+     "dm": "Integration (constructive)",
+     "word": [
+      "Words held lightly as maps",
+      "Hears borrowed voices, language games, and silence.",
+      "Abstraction that leaves practical teammates stranded.",
+      "Tell: 'Notice how the words we're using frame this as a fight.'",
+      "Move: Pair any linguistic reframe with one concrete next step."
+     ],
+     "reveal": [
+      "Unarmored presence",
+      "Drops performance; meets others as still becoming.",
+      "Detachment that can feel unreachable or evasive.",
+      "Tell: Quiet candor without defending an image.",
+      "Move: Anchor multi-perspectival insight in one clear commitment."
+     ],
+     "steer": [
+      "Changes what it is about",
+      "Dissolves binary deadlocks by shifting the premise.",
+      "Reframes to avoid a concrete decision someone needs.",
+      "Tell: 'Maybe the real question isn't A or B…'",
+      "Move: After reframing, land one concrete next step."
+     ]
+    }
+   ]
+  },
+  "black": {
+   "belt": "black",
+   "column": "Bridges",
+   "stages": [
+    {
+     "n": "Opportunist",
+     "edge": true,
+     "t": "Opportunist · unilateral power",
+     "dm": "Denial / Defense",
+     "steer": [
+      "Steers by force",
+      "Decisive in genuine emergencies.",
+      "Imposes unilateral direction; treats pushback as betrayal.",
+      "Tell: Ultimatums and rigged urgency.",
+      "Move: Name the game fairly; offer one transparent choice."
+     ],
+     "guard": [
+      "Guards by striking first",
+      "Spots threats and leverage instantly.",
+      "Sees every room as hostile; counter-manipulates to win.",
+      "Tell: Retaliation disguised as self-defense.",
+      "Move: Drop the rope on one petty power play without striking back."
+     ],
+     "bridges": [
+      "Denial / Defense (Room Analogy)",
+      "Clear loyalty to own group's survival.",
+      "Us-vs.-them polarity; difference feels like threat.",
+      "Tell: 'Our way works; theirs is broken.'",
+      "Move: Notice one legitimate concern inside the opposing tribe."
+     ]
+    },
+    {
+     "n": "Diplomat",
+     "edge": false,
+     "t": "Diplomat · referent power",
+     "dm": "Defense / Minimization",
+     "steer": [
+      "Follows the room",
+      "Protects harmony and group cohesion.",
+      "Abdicates frame; lets louder voices steer silently.",
+      "Tell: 'Whatever works for everyone.'",
+      "Move: Name one shared goal out loud before the room drifts."
+     ],
+     "guard": [
+      "Guards by appeasing",
+      "Reads social weather fast to prevent blows.",
+      "Tolerates covert tactics to keep the peace; over-accommodates.",
+      "Tell: Apologizing when someone else crosses your line.",
+      "Move: Hold one clean boundary without softening it with Reason #2."
+     ],
+     "bridges": [
+      "Defense / Minimization (Room Analogy)",
+      "Warmth and search for common ground.",
+      "Code-switches until the self disappears; flattens real difference.",
+      "Tell: 'We're all basically the same here.'",
+      "Move: Drop one reflexive translation tax this week."
+     ]
+    },
+    {
+     "n": "Expert",
+     "edge": false,
+     "t": "Expert · logistical power",
+     "dm": "Minimization",
+     "steer": [
+      "Steers by winning the argument",
+      "Brings airtight logic and technical rigor.",
+      "Debates facts while missing the room's political/cultural frame.",
+      "Tell: Flooding a stuck meeting with extra slides.",
+      "Move: Pause data and name the room's real tension in one sentence."
+     ],
+     "guard": [
+      "Guards with proof & armor",
+      "Catches subtle logical inconsistencies fast.",
+      "Over-intellectualizes motives; debates bad-faith pushers.",
+      "Tell: Explaining why they're wrong instead of holding a limit.",
+      "Move: Switch from proving to a 1-sentence boundary + written trail."
+     ],
+     "bridges": [
+      "Minimization (Room Analogy)",
+      "High precision across technical standards.",
+      "Treats own cultural/professional norm as universal objectivity.",
+      "Tell: 'That's just inefficient / illogical.'",
+      "Move: Rewrite one proposal into a target room's native currency."
+     ]
+    },
+    {
+     "n": "Achiever",
+     "edge": false,
+     "t": "Achiever · productive power",
+     "dm": "Minimization / Acceptance",
+     "steer": [
+      "Steers to the deal",
+      "Moves teams reliably toward measurable outcomes.",
+      "Uses partnership language to funnel a room toward one outcome.",
+      "Tell: 'In the spirit of partnership, let's lock this today.'",
+      "Move: Invite genuine double-loop dissent on the goal itself."
+     ],
+     "guard": [
+      "Guards with contracts & leverage",
+      "Prepares BATNA and tracks deliverables cleanly.",
+      "Treats relationships like chessboards; misses relational subtleties.",
+      "Tell: Turning every friction into a win/loss scoreboard.",
+      "Move: Step out of a zero-sum game openly without needing to win."
+     ],
+     "bridges": [
+      "Minimization / Acceptance (Room Analogy)",
+      "Adapts smoothly to get cross-border deals done.",
+      "Instrumental adaptation; drops cultural curiosity once the deal closes.",
+      "Tell: Learning norms only as leverage.",
+      "Move: Build one virtual third-culture norm with zero agenda."
+     ]
+    },
+    {
+     "n": "Pluralist",
+     "edge": false,
+     "t": "Individualist · reflexive power",
+     "dm": "Acceptance",
+     "steer": [
+      "Hesitates to steer",
+      "Surfaces marginalized voices and multiple frames.",
+      "Avoids taking the wheel; lets rooms spin in relativity.",
+      "Tell: 'Every perspective is valid—what do you all think?'",
+      "Move: Pair multi-perspectival framing with one concrete proposal."
+     ],
+     "guard": [
+      "Guards by understanding motives",
+      "Sees the suffering behind difficult behavior.",
+      "Over-understands; excuses repeated covert tactics.",
+      "Tell: 'From their background, it makes sense why they did that.'",
+      "Move: Keep compassion AND enforce a written walk-away line."
+     ],
+     "bridges": [
+      "Acceptance (Room Analogy)",
+      "Genuine curiosity about cultural frames.",
+      "Value paralysis or Reversal (idealizing the other culture).",
+      "Tell: Hesitating to commit; disparaging own origin culture.",
+      "Move: Run the Reversal Check and anchor one concrete commitment."
+     ]
+    },
+    {
+     "n": "Strategist",
+     "edge": false,
+     "t": "Strategist · transforming, mutual power",
+     "dm": "Adaptation",
+     "steer": [
+      "Steers the dynamic transparently",
+      "Names patterns aloud tentatively; double-loop reframes.",
+      "Overestimates others' readiness; names too much too soon.",
+      "Tell: 'I notice we're in a status loop—let's redesign this.'",
+      "Move: Trim the diagnosis by 50%; land one concrete next step."
+     ],
+     "guard": [
+      "Guards by naming the game",
+      "Declines covert games calmly without counter-attacking.",
+      "Naming as a subtle power move to stay one-up.",
+      "Tell: Clinical detachment that feels superior.",
+      "Move: Check Beginner's Mind before naming; stay present to real stakes."
+     ],
+     "bridges": [
+      "Adaptation (Room Analogy)",
+      "Shifts frames intentionally across tribes without losing center.",
+      "Carrying too much brokerage weight (burnout).",
+      "Tell: Bridging everyone else's friction automatically.",
+      "Move: Broker by mandate or free choice; drop reflexive taxes."
+     ]
+    },
+    {
+     "n": "Construct-Aware",
+     "edge": false,
+     "t": "Alchemist · presencing power",
+     "dm": "Integration (constructive)",
+     "steer": [
+      "Changes what it is about",
+      "Dissolves binary deadlocks by questioning the premise.",
+      "Reframes to avoid a concrete decision someone needs.",
+      "Tell: 'Maybe the real question isn't A or B…'",
+      "Move: After every premise-shift, land one concrete next step."
+     ],
+     "guard": [
+      "Guards with relaxed presence",
+      "Sees manipulation as a game without getting hooked.",
+      "Detachment that misses real danger or harm.",
+      "Tell: 'Alchemist's amusement' while a real boundary is crossed.",
+      "Move: Keep Safety Rule #9 and BATNA bolted to the floor."
+     ],
+     "bridges": [
+      "Constructive Marginality (Room Analogy)",
+      "At home on the margins of multiple worlds; bounded by none.",
+      "Rootlessness or floating above real commitments.",
+      "Tell: Seeing every identity as a construct and committing to none.",
+      "Move: Stay fluid in perspective, concrete in commitment."
+     ]
+    }
+   ]
+  }
+ },
+ "codex": [
+  {
+   "id": "PIT-01",
+   "name": "Authority Killers & Status Leakage",
+   "stage": "white",
+   "range": "mild",
+   "sixFields": {
+    "context": "Opening minutes of interviews, negotiations, or bureaucratic windows.",
+    "harm": "Rapid nodding, vocal uptalk, fidgeting, and filling silence crack demeanor and invite harder anchoring.",
+    "remedy": "Hold physical stillness, drop terminal vocal pitch, and absorb 2–3 seconds of silence.",
+    "ethicalUse": "Projecting grounded, unhurried composure without theatrical dominance.",
+    "yourTemptation": "Over-explaining or nodding quickly to signal comprehension and precision."
+   }
+  },
+  {
+   "id": "PIT-02",
+   "name": "123-Cell DRS Cluster Spike (11+ Threshold)",
+   "stage": "white",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Targeted questioning or high-stakes contract clauses.",
+    "harm": "Over-reading single gestures or cognitive load creates false-positive paranoia.",
+    "remedy": "Score only multi-cue shifts from verified baseline within 30s; treat 11+ as a focus flag, not a verdict.",
+    "ethicalUse": "Spotting friction points so you ask one cleaner diagnostic question.",
+    "yourTemptation": "Treating a sharp behavioral read as courtroom certainty."
+   }
+  },
+  {
+   "id": "PIT-03",
+   "name": "The Correction Trigger (Deliberate Misstatement)",
+   "stage": "blue",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Elicitation probes planting wrong numbers, flawed summaries, or ego-baits.",
+    "harm": "Triggers an automatic reflex to correct the record and leak guarded leverage.",
+    "remedy": "Pause 1 breath, answer narrowly, or let non-material errors pass unchallenged.",
+    "ethicalUse": "Openly checking shared understanding without entrapment.",
+    "yourTemptation": "Correcting every factual or linguistic imprecision immediately."
+   }
+  },
+  {
+   "id": "PIT-04",
+   "name": "Locus & Processing-Filter Mismatch",
+   "stage": "blue",
+   "range": "mild",
+   "sixFields": {
+    "context": "Pitching terms or navigating compliance/bureaucratic desks.",
+    "harm": "Using internal-agency logic on an external-locus gatekeeper stalls approval.",
+    "remedy": "Diagnose dominant filter + locus in the first 90 seconds and match evidence format.",
+    "ethicalUse": "Framing proposals in the listener's clearest comprehension channel.",
+    "yourTemptation": "Defaulting to dense Cognitive analysis regardless of the audience."
+   }
+  },
+  {
+   "id": "PIT-05",
+   "name": "Embedded Commands",
+   "stage": "brown",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Persuasive pitches nesting action directives inside casual clauses.",
+    "harm": "Nudges compliance beneath deliberate scrutiny.",
+    "remedy": "Break vocal rhythm and restate your own decision criteria in plain nouns.",
+    "ethicalUse": "Giving clear, direct proposals openly.",
+    "yourTemptation": "Nesting directives inside smooth, diplomatic phrasing."
+   }
+  },
+  {
+   "id": "PIT-06",
+   "name": "Presuppositions & Double Binds",
+   "stage": "brown",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Closing questions or binary choices baking in an unagreed premise.",
+    "harm": "Funnels either answer toward premature commitment.",
+    "remedy": "Name the hidden premise aloud or step outside both binary options.",
+    "ethicalUse": "Offering two genuinely consented options after alignment.",
+    "yourTemptation": "Using 'when/how' presuppositions to shortcut slow debate."
+   }
+  },
+  {
+   "id": "PIT-07",
+   "name": "Linguistic Harvesting & Pacing/Overload Shifts",
+   "stage": "brown",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Mirroring sensory hot-words paired with rapid tempo or multi-part overload.",
+    "harm": "Shifts attention from critical evaluation into hurried compliance.",
+    "remedy": "Serialize questions one by one and evaluate terms against written specs.",
+    "ethicalUse": "Moderate pacing to build natural conversational flow.",
+    "yourTemptation": "Harvesting a counterpart's hot-words to steer outcomes."
+   }
+  },
+  {
+   "id": "PIT-08",
+   "name": "7-Step Compliance Sequence & Room Engineering",
+   "stage": "black",
+   "range": "severe",
+   "sixFields": {
+    "context": "Combining seating/proxemics, pattern break, authority, pacing, syntax, and urgency.",
+    "harm": "Compresses judgment and forces hurried commitment.",
+    "remedy": "Break the chain at steps 2–4 or execute a zero-reason walk-away.",
+    "ethicalUse": "Designing a clear, low-friction meeting structure.",
+    "yourTemptation": "Orchestrating room/timing leverage or trying to out-manipulate a bad-faith room."
+   }
+  },
+  {
+   "id": "PIT-09",
+   "name": "Micro-Contempt & Motor Lip Inhibition",
+   "stage": "white",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Senior stakeholder reviews, fee anchoring, and adversarial interviews.",
+    "harm": "Unilateral lip raises assert covert status dominance; lip compression hides deal-killing objections behind a polite 'fine.'",
+    "remedy": "Never lecture against contempt—hand back a peer-level diagnostic question; surface lip compression neutrally without guessing the motive.",
+    "ethicalUse": "Spotting unspoken identity or structural friction early so you can address it cleanly.",
+    "yourTemptation": "Counter-lecturing with credentials when dismissed, or mind-reading the withheld objection."
+   }
+  },
+  {
+   "id": "PIT-10",
+   "name": "Social-Need Hooks (Intelligence Flattery & Pity Subsidy)",
+   "stage": "blue",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Scope creep, uncompensated favors, and deadline pushback.",
+    "harm": "Timed flattery hooks intellect pride to drop critical scrutiny; Pity framing pressures you into subsidizing someone else's operational deficit.",
+    "remedy": "Accept praise in two dry words and sever it from the ask; acknowledge hardship once without moving your contract terms.",
+    "ethicalUse": "Recognizing genuine competence or constraints transparently with zero attached leverage play.",
+    "yourTemptation": "Over-delivering to live up to an intellectual compliment, or rescuing a stressed counterpart at your own expense."
+   }
+  },
+  {
+   "id": "PIT-11",
+   "name": "Suggestibility Micro-Tests & Bracketing Probes",
+   "stage": "blue",
+   "range": "mild",
+   "sixFields": {
+    "context": "Opening minutes of negotiations, seating/scheduling shifts, and early rate discovery.",
+    "harm": "Trivial early concessions calibrate you as compliant and trigger consistency pressure; extreme brackets bait you into revealing your true floor.",
+    "remedy": "Hold one relaxed, low-stakes boundary early to reset suggestibility; deflect extreme brackets back to concrete deliverables.",
+    "ethicalUse": "Testing mutual logistics and clarifying real market ranges openly.",
+    "yourTemptation": "Saying yes to minor inconveniences to appear cooperative, or justifying your rate against an absurdly low anchor."
+   }
+  },
+  {
+   "id": "PIT-12",
+   "name": "Cognitive Overload & Marathon Fatigue Windows",
+   "stage": "black",
+   "range": "moderate",
+   "sixFields": {
+    "context": "Rapid-fire compound questions, multi-hour bargaining sessions, and 'one last minor clause' at minute 90.",
+    "harm": "Depletes System 2 executive control so unfavorable terms feel acceptable just to close mental friction.",
+    "remedy": "Force serialization (one point at a time) and enforce a hard 90-minute no-new-commitments firewall.",
+    "ethicalUse": "Pacing complex agreements with scheduled breaks and written summaries.",
+    "yourTemptation": "Pushing through exhaustion to close a deal in one sitting, or using dense jargon to wear down pushback."
+   }
+  },
+  {
+   "id": "PIT-13",
+   "name": "Proxemic Tilting & Artificial Urgency",
+   "stage": "black",
+   "range": "severe",
+   "sixFields": {
+    "context": "Rigged conference seating, backlighting/glare, standing-over-seated posture, and exploding same-day deadlines.",
+    "harm": "Induces subtle autonomic discomfort and compresses deliberation time to force premature sign-off.",
+    "remedy": "Reclaim spatial parity casually (shift chair/camera angle) and deploy a zero-reason walk-away against artificial deadlines.",
+    "ethicalUse": "Setting comfortable, equal-footing room geometry and honest external deadlines.",
+    "yourTemptation": "Using artificial scarcity or seating geometry to tilt leverage in a competitive room."
+   }
+  }
+ ],
+ "pitStages": {
+  "white": {
+   "id": "white",
+   "label": "Stage 1 · Telemetry & Authority",
+   "accent": "text-rose-400 border-rose-500/40 bg-rose-500/10"
+  },
+  "blue": {
+   "id": "blue",
+   "label": "Stage 2 · Profiling & Elicitation",
+   "accent": "text-amber-300 border-amber-500/40 bg-amber-500/10"
+  },
+  "brown": {
+   "id": "brown",
+   "label": "Stage 3 · Covert Syntax",
+   "accent": "text-lime-300 border-lime-500/40 bg-lime-500/10"
+  },
+  "black": {
+   "id": "black",
+   "label": "Stage 4 · Compliance Chains & Space",
+   "accent": "text-fuchsia-300 border-fuchsia-500/40 bg-fuchsia-500/10"
+  }
+ },
+ "blackStarterCodex": [
+  {
+   "tactic": "Seduction (Flattery → Lopsided Ask)",
+   "context": "High-pressure office crunch right before an unvetted scope handoff.",
+   "range": "Appears across polished Achievers and covert pushers alike.",
+   "harm": "Hooks your Intelligence/Approval need into saying yes against your own bandwidth.",
+   "remedy": "“Thanks for saying that. I still can't take on Q3 reconciliation this week.”",
+   "ethical": "Genuine, specific appreciation with zero strings or hidden ask attached.",
+   "temptation": "Praising a colleague's expertise right before asking them to cover an awkward task."
+  },
+  {
+   "tactic": "Manufactured Urgency / False Deadline",
+   "context": "Negotiations or vendor renewals demanding same-day sign-off without data review.",
+   "range": "Common in sales, procurement, and anxious management chains.",
+   "harm": "Bypasses deliberation and forces unilateral concessions.",
+   "remedy": "“I notice we're being pushed to lock this before reviewing assumptions—I'll respond tomorrow at 10 AM.”",
+   "ethical": "Sharing a real, transparent external cutoff early so both sides can plan.",
+   "temptation": "Using 'deadline pressure' to close a debate when I feel impatient."
+  },
+  {
+   "tactic": "Shifting the Goalposts / Denial",
+   "context": "Verbal agreements revisited later with 'That's not what we agreed.'",
+   "range": "Appears under budget stress or accountability avoidance.",
+   "harm": "Erodes confidence in your own memory and extracts unpaid rework.",
+   "remedy": "Point calmly to the 3-line confirming email; do not debate memory.",
+   "ethical": "Explicitly flagging when new material facts require renegotiating an old agreement.",
+   "temptation": "Rationalizing a missed personal commitment as 'we never locked a firm time.'"
+  }
+ ]
+}

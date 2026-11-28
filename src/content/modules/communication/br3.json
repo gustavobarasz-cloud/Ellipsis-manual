@@ -1,0 +1,202 @@
+{
+ "id": "br3",
+ "belt": "brown",
+ "kind": "week",
+ "kicker": "Brown Belt · Module Br3",
+ "title": "The Bilingual Footing & Weight of the Word",
+ "subtitle": "How do my two languages carry feeling, power, and meaning—and which translations are mine to drop?",
+ "golden": "Promotion Project Step 3: Run your promotion phrasing through the 3-culture Translation Strip and lock in your accent & dignity footing.",
+ "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+ "assembly": "| Day |\n|---|\n| Mon: Pavlenko Shifting Self |\n| Tue: Wierzbicka Key Words |\n| Wed: Accent & Tax Triage |\n| Thu: Translation Strip Lab |\n| Fri: 12-Word Lexicon + Note |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+   "cards": [
+    {
+     "id": "br3.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+     "md": "### Layer 1 · Author Completion: Two Acoustic Gain Settings, Language Embodiment & L2 Detachment\n\nThink of English and Spanish not as two interchangeable keyboards typing the same code, but as **two acoustic instruments wired to different amplifiers**. **Aneta Pavlenko** (*Emotions and Multilingualism*) dismantles the monolingual myth of a single 'language of the heart.' In her **theory of language embodiment**, how strongly a language hits your nervous system depends on *how and where* it was encoded: languages acquired through **emotional memory** (family, childhood reprimands, early intimacy, peer socialization) stay wired to higher autonomic arousal and visceral immediacy, whereas languages learned primarily through **declarative memory** (classrooms, textbooks, formal work) carry cooler emotional distance—the **L2 detachment effect**.\n\nHere is the common misconception that trips up bilinguals: assuming a blanket split where L1 is always 'authentic' and L2 is always 'fake.' Pavlenko stresses **domain-level variation** and **affective socialization**: even when English is learned among peers in childhood, Anglo discursive norms reward cool composure more heavily than Spanish norms, while adult domains lived in English (strategy, professional debate, political argument) can feel sharper and more natural there than in Spanish. Meanwhile, **language specificity** and **language congruity** anchor autobiographical memories to the language they were lived in—so translating a Spanish memory into English often flattens its emotional weight on contact. That creates a sharp counterintuitive trade-off. L2 detachment is a genuine superpower under heat—it lets you hold crisp boundaries or examine painful facts without flooding—yet its second-order cost is subtle **emotional armor**: slipping into English to stay untouchable during a close Spanish conflict, or letting L2 distance turn a necessary boundary needlessly cold. The third-order risk is affective attrition: if you only ever process hard truths in one language, you quietly lose fluency in being fully present in the other.\n\n*Bridge to Tuesday:* Pavlenko maps how your two languages carry different emotional voltages; tomorrow, Anna Wierzbicka shows how the words inside each language carve up social reality into incompatible moral maps."
+    },
+    {
+     "id": "br3.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+     "md": "Operate English and Spanish deliberately as **two calibrated instruments** rather than letting stress choose the language for you. When speaking with a monolingual English colleague or friend and the exact feeling lives inside a Spanish concept, refuse to flatten it—use the **Single-Term Loan + 1-Line Gloss Move** to bring the full meaning across intact.\n\n:::note Office Worked Example (L2 Clarity + Warmth)\nUse English declarative clarity to hold the boundary (“I can't absorb the Q4 audit this week without slipping close”), then keep your vocal warmth steady (“I want both to land cleanly—which takes priority?”).\n:::\n\n:::note Personal Worked Example (Single-Term Loan + Gloss)\nWith an English-speaking friend: “In Spanish we call this *desahogarse*—venting just to clear the air, not to fix anything. Can I take five minutes to do that?” *(Transfers the exact relational script without losing precision.)*\n:::\n\n:::note Non-Example (Prestige / Armor Switching)\nSwitching abruptly from Spanish into formal English during a personal disagreement with a bilingual partner to sound 'logical' and untouchable. *(Uses L2 detachment as emotional armor.)*\n:::\n\n:::note Decision Rule\nLeverage L2 detachment on purpose when acute arousal would hijack clarity. Drop L2 armor when the goal is intimacy, repair, or honest presence—and loan/gloss untranslatable Spanish terms instead of flattening them.\n:::\n\n:::field Bilingual Self-Audit\nWhen did you last switch language—or wish you could—to protect yourself emotionally?\n:::"
+    },
+    {
+     "id": "br3.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+     "md": "| Pavlenko Mechanism | What Drives It | How It Shows Up Live | Self-Test |\n|---|---|---|---|\n| Language Embodiment | Emotional memory (family/peers) vs. Declarative memory (class). | Domains lived in L1 feel visceral; L2 domains feel crisper/cooler. | Audit *by domain* (swearing, comforting, work), not blanket L1/L2. |\n| Affective Socialization | Cultural display & emotion rules learned with each language. | English peer norms reward cool composure; Spanish allows warmer expression. | Notice how your body posture shifts when switching EN ↔ ES. |\n| L2 Detachment Effect | Lower somatic arousal on L2 conflict/taboo words. | Easier to hold cool boundaries in L2; risk of sounding harsh or hiding. | Notice if you switch to English to deliver hard news to a Spanish speaker. |\n| Specificity & Congruity | Language of encoding stays bound to autobiographical memory. | Childhood/Spanish memories flatten when translated into English. | Tell the same memory in EN and ES; compare body intensity. |\n| Affective Code-Switching | Competence, interactional goals, emotionality, prestige/authority. | Switching mid-sentence to borrow a script (*desahogarse*) or pull rank. | Ask: *Did I switch for precision, closeness, or armor?* |\n\n### Layer 3 · Optional Deepening: Additive, Not Substitutive Adaptation (Milton Bennett)\n\nFeeling different in English and Spanish often triggers a quiet suspicion that one self must be 'fake.' Milton Bennett (*Basic Concepts of Intercultural Communication*) dissolves that false binary: genuine bicultural adaptation is **additive, not substitutive**—you are expanding one integrated repertoire, never trading away your Spanish self.\n\nBr3 · Monday · Part 1 · Aneta Pavlenko Emotions in Two Languages\n\n## The Shifting Self & The L2 Detachment Effect\n\nIn Br2 you tuned your pace and register to another speaker; in Br3 you turn the lens onto the two linguistic instruments you carry inside yourself. **Aneta Pavlenko** dismantles the myth of a single 'language of the heart' and shows how emotional memory versus declarative memory gives English and Spanish different somatic gain settings:\n\n| Domain | Check Your English Self | Check Your Spanish Self |\n|---|---|---|\n| Conflict | Check Your English SelfDoes English make you sharper, cooler, or more Expert? | Check Your Spanish SelfDoes Spanish hit the body faster or feel more exposed? |\n| Asking | Check Your English SelfDo you hedge more in English work settings? | Check Your Spanish SelfDo Rioplatense/Spain warmth norms change your cadence? |\n| Affection | Check Your English SelfDoes 'I care about you' feel lighter or flatter? | Check Your Spanish SelfDoes 'te quiero' carry heavier emotional truth? |\n\n:::details Canon notes · Part 1 · Pavlenko: emotions in two languages\n:::note Lens card\nAneta Pavlenko, an applied linguist, wrote *Emotions and Multilingualism* (2005) and *The Bilingual Mind* (2014). Drawing on surveys, interviews and experiments, including large surveys with Jean-Marc Dewaele, she describes how many bilinguals feel their languages carry emotion differently, with the first language often felt as more emotional and later languages as more distant, and how memories can be more vivid in the language they were lived in. What is distinctive is that she treats this as varied and individual, shaped by when and how each language was learned.\n:::\n\n:::note Why Pavlenko here\nThis module is built on her work. It is also native material for you.\n:::\n\n:::note Native use\nResearch in applied linguistics and bilingualism.\n:::\n\n:::note Limit\nTested and survey research (label: tested research and self-report surveys). The related foreign-language effect in decision-making, first named by Keysar and colleagues, has meta-analytic support for some tasks, but results are inconsistent even on the moral dilemma that gives the strongest evidence. The notebook's reading of your own languages is an inference; check it against your experience.\n:::\n\n### Three findings to check against yourself\n\n| Finding | What it predicts | What would show it does not fit you |\n|---|---|---|\n| L1 often feels more emotional | Hard things are easier to say in English | You say hard things more easily in Spanish |\n| Memory is language-dependent | Childhood memories are richer in Spanish | They are just as rich in English |\n| Selves can feel different | You act differently in each language | You notice no difference |\n:::"
+    },
+    {
+     "id": "br3.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Two Acoustic Gain Settings, Language Embodiment & L2 Detachment",
+     "md": ":::note Handoff\nUse these five mechanisms to anchor Friday's **1-Page Language-Self Note** across Conflict, Asking, and Affection—logging somatic intensity, W2 fallbacks, and mid-sentence switches by domain.\n:::",
+     "tools": [
+      "rungs.brown.Br3.Monday"
+     ]
+    }
+   ],
+   "author": "Aneta Pavlenko · Emotions and Multilingualism"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+   "cards": [
+    {
+     "id": "br3.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+     "md": "### Layer 1 · Author Completion: Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks\n\nIf Pavlenko showed that two languages vibrate differently in your nervous system, **Anna Wierzbicka** (*Understanding Cultures through Their Key Words*) shows that they do not even divide the social floor into the same rooms. Every culture compresses its deepest values, obligations, and display rules into a handful of load-bearing **Key Words**—such as English *fair* and *boundaries*, or Spanish *confianza* and *compromiso*. Treating a bilingual dictionary as a 1-to-1 conversion table is the classic trap: **semantic non-equivalence** (false friends like *compromise* vs. *compromiso*) and **conceptual non-equivalence** (different underlying moral scripts) mean that a word that opens a door in Chicago can slam one shut in Buenos Aires or Madrid.\n\nThe exact same structural weight sits inside **pronouns of power** (*tú / usted / vos*): stepping into the informal too early can bruise status in formal Latin American settings, while holding *usted* too long in a Spanish peer workplace reads as chilly distance. Wierzbicka's counterintuitive remedy is **Natural Semantic Metalanguage (NSM)**—refusing single-word translations for high-stakes value terms and instead unpacking the hidden script into plain, universal primitives describing observable behavior (for instance, unpacking *confianza* not as 'trust,' but as *“I know this person well; I know they want good things for me; I can drop my mask without hiding”*). The second-order effect of skipping that unpack is invisible talking-past-each-other: two people nod at the word *compromiso* while one hears 'mutual give-and-take' and the other hears 'binding obligation.' The third-order cost hits when expectations collide weeks later—each side feels betrayed by a promise the other never thought they made.\n\n*Bridge to Wednesday:* Monday and Tuesday mapped the internal physics of your two languages; tomorrow confronts what happens when the *room* hears your accent—and how to keep communicative friction from pulling you into Expert over-proving or unpaid translation labor."
+    },
+    {
+     "id": "br3.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+     "md": "Whenever a loaded value word (*fair, trust, respect, boundaries, compromise*) becomes the pivot of a negotiation or friendship check-in, **abandon the single-word gloss**. Translate the **observable behavioral script** in one plain sentence so both people are standing on the exact same floor.\n\n:::note Office Worked Example (Preventing Collision)\n“Just to make sure we're using the same map—when we say *compromiso* here, do we mean a firm commitment on the deadline, or trading scope for time (*ceder en el alcance*)?” *(Catches the false friend before it breaks the deal.)*\n:::\n\n:::note Personal Worked Example (Warm Boundary Unpack)\nInstead of *“I'm setting a boundary”*: “I really value our nights out, and I need to head home by 10 so I'm fresh tomorrow—let's grab dinner early.” *(Delivers the boundary script without the cold wall of 'te pongo un límite'.)*\n:::\n\n:::note Non-Example (Dictionary Equivalence)\nTranslating “Let's find a fair compromise” word-for-word into “Busquemos un compromiso justo” and assuming the collaborative US tone carried over.\n:::\n\n:::note Decision Rule\nTranslate concrete nouns cleanly (*invoice, Tuesday*). For **value and relational key words**, assume non-equivalence by default and unpack the observable behavioral script instead.\n:::\n\n:::field Word Misfire\nName one word that has tripped a conversation between your English and Spanish worlds.\n:::"
+    },
+    {
+     "id": "br3.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+     "md": "| Key Word Pair | Semantic / Grammatical Shift | Plain-Word Cultural Script Unpack (NSM Style) | Real-World Misfire |\n|---|---|---|---|\n| Compromise vs. Compromiso | False friend (polysemy). | **US:** Mutual give-and-take. **ES:** Binding obligation or awkward spot (*poner en un compromiso*). | Saying *“Busquemos un compromiso”* sounds like a binding pledge instead of *llegar a un acuerdo*. |\n| Fair vs. Justo | No 1:1 pragmatic match. | **US:** Impersonal rule-bound equity. **ES:** Heavier moral justice/exactness. | Saying *“That's not fair”* in LatAm/ES offices can sound moralistic vs. framing around *criterio*. |\n| Confianza vs. Trust | Broader relational scope in ES. | **ES:** *“I know they want good for me and I don't have to wear a mask.”* **US:** Competence/reliability. | Hearing *confianza* (closeness) when a US peer meant *trust* (reliability). |\n| Boundaries vs. Límites | Therapeutic norm vs. hard wall. | **US:** Healthy self-care limit. **ES:** Often heard as coldness or rejection unless paired with warmth. | Translating *“I'm setting a boundary”* literally as *“Te pongo un límite”* sounds punitive. |\n| Accountability vs. Responsabilidad | Answerability vs. duty/blame. | **US:** Transparent ownership of outcomes. **ES:** *Responsabilidad* can sound like legal fault (*culpa*). | Asking *“Who is accountable?”* can trigger blame-dodging if heard as *¿Quién tiene la culpa?*. |\n\n### Layer 3 · Optional Deepening: Key Words as Core-Concern Triggers (Fisher & Shapiro)\n\nUntranslatable key words stall negotiations because each one is wired directly to one of Fisher & Shapiro's **Five Core Concerns** (*respeto* → Status; *confianza* → Affiliation; *boundaries* and *compromise* → Autonomy and Role). Unpacking the behavioral script meets the exact Core Concern underneath before the room locks up.\n\nBr3 · Tuesday · Part 2 · Anna Wierzbicka Untranslatable Key Words\n\n## Semantic Non-Equivalence & Pronouns of Power (tú / usted / vos)\n\nPavlenko showed that your two languages feel different inside your body; **Anna Wierzbicka** shows why they do not even map the same social world. Key cultural words—and pronouns of power (**tú / usted / vos**)—bundle entire moral scripts that shatter if you force a dictionary 1-to-1 gloss:\n\n| Key Word | US English | Rioplatense | España | Common Misfire |\n|---|---|---|---|---|\n| fair | US EnglishEqual rules applied neutrally to all; high moral weight in US offices. | Rioplatense'Justo'—carries moral/relational weight; 'ser justo' isn't purely procedural. | España'Justo' / 'razonable'—often tied to common sense and mutual consideration. | Common MisfireSaying 'that's not fair' in US business sounds childish; 'let's look at what's equitable' lands better. |\n| confianza | US English'Trust' is narrower—mostly reliability & competence. | RioplatenseDeep warmth, intimacy, permission to be informal and drop the mask. | EspañaCloseness + ease ('estar en confianza'); inviting someone to feel at home. | Common MisfireTranslating 'en confianza' as 'confidentially' or 'in trust' loses the relational warmth. |\n| compromise / compromiso | US English'Compromise' = positive mutual give-and-take. | Rioplatense'Compromiso' = obligation, commitment, or awkward spot ('un compromiso'). | España'Compromiso' = firm commitment/pledge; mutual deal is 'llegar a un acuerdo' or 'ceder'. | Common MisfireSaying 'lleguemos a un compromiso' can sound like creating a burden rather than a win-win deal. |\n| respect / respeto | US EnglishProfessional regard for boundaries, competence, and equal standing. | RioplatenseCare for dignity and elders ('respeto'); can carry distance if over-formal. | EspañaMutual courtesy and non-intrusion; peer directness doesn't violate respect. | Common MisfireBlunt peer feedback in Spain can feel disrespectful to US ears, while US hyper-politeness can feel fake. |\n| orgullo / pride | US EnglishHealthy self-respect or accomplishment ('proud of you'). | RioplatenseOften splits between warm pride and stubborn ego ('pecar de orgulloso'). | EspañaSimilar split: dignity vs. stubborn refusal to bend. | Common MisfireCalling someone 'proud' in English vs. 'orgulloso' in Spanish can invert praise into critique. |\n\n:::details Canon notes · Part 2 · Wierzbicka: words that do not translate\n:::note Lens card\nAnna Wierzbicka, a linguist, studies how languages package meaning differently, in books including *Understanding Cultures through Their Key Words* (1997). She argues that culturally central words, such as English “fair” or Spanish “confianza,” encode ways of thinking that do not carry over, and she proposes describing them in a small set of simple shared words to compare them precisely. What is distinctive is that untranslatable words are treated as a map of a culture's values.\n:::\n\n:::note Why Wierzbicka here\nThe module's metaphor audit and semantic non-equivalence point at her work.\n:::\n\n:::note Native use\nSemantic and cross-cultural linguistics.\n:::\n\n:::note Limit\nTheory and descriptive linguistics (label: theory with case evidence); her method is debated among linguists. The usage notes about Spanish in this module are the curriculum's own; check them locally.\n:::\n\n### Three keywords across your languages\n\n| Word | What it carries in one setting | What shifts in the other |\n|---|---|---|\n| Fair (US English) | Equal rules applied to all | No single Spanish word carries it all |\n| Confianza | Trust, intimacy, permission to be informal | “Trust” in English is narrower |\n| Compromise / compromiso | Mutual give in US business | Commitment or obligation in Spanish |\n:::"
+    },
+    {
+     "id": "br3.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Incompatible Moral Maps, Key Words & NSM Behavioral Unpacks",
+     "md": ":::note Handoff\nBuild Friday's **12-Entry Bilingual Lexicon** using the 3-culture strip (*US / Rioplatense / España*) plus one plain-language NSM behavioral unpack per word.\n:::",
+     "tools": [
+      "rungs.brown.Br3.Tuesday"
+     ]
+    }
+   ],
+   "author": "Anna Wierzbicka · Understanding Cultures through Their Key Words"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+   "cards": [
+    {
+     "id": "br3.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+     "md": "### Layer 1 · Author Completion: The 50/50 Communicative Burden, Accent Friction & The Translation Tax\n\nEvery conversation is a shared lift—each person carries half the weight of making meaning land. When an accent enters a room, two competing diagnoses explain the friction that sometimes follows. **Shiri Lev-Ari & Boaz Keysar** (2010) proposed a **cognitive processing fluency** account: listeners mistake slight acoustic effort for lower truthfulness—though later replications (Souza & Markman; preregistered follow-ups) produced mixed results, showing the effect is neither universal nor fixed. **Rosina Lippi-Green** (*English with an Accent*) points to a structural power mechanism: **standard language ideology** treats one dominant variety as 'accentless,' quietly licensing native listeners to **reject their 50% share of the communicative burden** and dump 100% of the effort onto the accented speaker.\n\nThat asymmetry triggers two costly reflexes for a bilingual professional. First, the moment you sense someone doubting your intelligence because of your accent, a **Social Conversation (Identity Threat)** hijacks a Practical meeting—pulling you straight into the **W2 Expert fallback** (flooding the room with extra proof, dense vocabulary, and rapid over-explaining), which ironically makes you look *more* defensive. Second, outside formal interpreting, you start paying an unpaid **Translation Tax**: automatically smoothing over every cultural or tonal gap in the room so nobody else has to feel awkward. The counterintuitive move is doing *less*, not more: answer genuine acoustic gaps crisply with zero apology, hold to White Belt's one-reason rule when doubted, and sort every cross-cultural translation into **Required**, **Chosen**, or **Reflexive**—then deliberately drop the reflexive ones. The second-order effect of dropping reflexive translations is momentary awkwardness; the third-order payoff is reclaiming your bandwidth and training peers to carry their own half of the communicative lift.\n\n*Bridge to Thursday & Friday:* You now hold all three Br3 lenses—Pavlenko's emotional gain settings, Wierzbicka's behavioral script unpacks, and the 50/50 communicative burden. Run your key phrases through Thursday's **Translation Strip & Tax Triage Studio** to assemble Friday's **12-Word Lexicon & Language-Self Note**."
+    },
+    {
+     "id": "br3.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+     "md": "When you feel the sudden spike of *“Do they doubt my intelligence?”*, name it silently as **Identity Threat** entering a practical room. Do not flood the table with credentials. Exhale (W1), slow your pace 10%, deliver **Frame + Advocate + 1 Concrete Fact**, and hold silence so the listener carries their 50% of the burden.\n\n:::note Office Worked Example (Holding Ground + Pronoun Hold)\n**Accent Grounding:** “Yes—the variance is driven by Q2 timing. Row 14 shows the $40K shift. Happy to walk through that line if helpful.” *(Stop—zero extra proof.)* · **Asymmetric `usted` Hold:** Reply warmly and respectfully using `usted` without lecturing.\n:::\n\n:::note Personal Worked Example (Dropping Reflexive Tax)\nAt a mixed EN/ES dinner, catch yourself automatically translating a cultural joke nobody asked you to broker. Tag it *Reflexive*, take a sip of water, and let two adults ask each other directly.\n:::\n\n:::note Non-Example (Expert Over-Proving)\nHearing “Sorry, what was that word?” on Zoom and launching into a 90-second defense of your methodology while apologizing for your pronunciation.\n:::\n\n:::note Decision Rule\nSeparate **Acoustic Clarity** (repeat once cleanly, zero apology) from **Competence Defense** (never over-explain to prove IQ). Audit every cross-cultural translation: Required → do cleanly; Chosen → offer freely; **Reflexive → drop**.\n:::\n\n:::note\nReal Comprehension Check\n\n:::note\nSubtle Accent Dismissal\n\n:::warn\nNon-Example"
+    },
+    {
+     "id": "br3.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+     "md": "| Diagnostic Situation | Lev-Ari / Pragmatic Lens | Lippi-Green / Power Lens | Grounded Response (No Over-Proving) |\n|---|---|---|---|\n| Genuine Comprehension Gap | Bad audio or unfamiliar proper noun; real acoustic load. | Mutual communicative burden is intact; listener is trying. | Repeat the word cleanly or drop it in chat. Zero apology, zero extra proof. |\n| Subtle Competence Doubt | Listener unfamiliar with cadence/prosody. | Listener offloads communicative burden or applies status bias. | Slow down 10% (poise), state point *once* with *one* concrete fact, and stop. |\n| Reflexive Translation Tax | Anticipating processing friction before it happens. | Internalized communicative burden—doing 100% of the work. | Classify *Required / Chosen / Reflexive*. Drop Reflexive; let them ask. |\n| Pronoun Shift (`tú / usted / vos`) | Signals distance vs. solidarity immediately. | Moving informal too fast threatens status; holding `usted` sets boundary. | **Invite shift:** *“¿Nos tuteamos / voseamos?”* · **Asymmetric Hold:** reply warmly while keeping `usted`. |\n\n### Layer 3 · Optional Deepening: Inherent Dignity Over External Evaluation (Donna Hicks — Rung 6)\n\nDonna Hicks (*Dignity* / *Leading with Dignity*) anchors Rung 6 cleanly: **inherent dignity** is your inviolable birthright worth—completely separate from **false dignity** (letting your worth rise and fall on external approval or status). When a room dismisses an accent, it violates *Acceptance of Identity* and *Benefit of the Doubt*. As Hicks writes, *“our internal anchor has been set… my dignity is my anchor and no matter how badly someone treats me, it doesn't mean that I am not worthy.”* Treating accent bias as a dignity miss by the room—not a defect in your English—breaks the Expert over-proving reflex.\n\nBr3 · Wednesday · Part 3 · Lev-Ari, Lippi-Green & The Translation Tax\n\n## Accent Footing & Dropping Reflexive Translations\n\nMonday and Tuesday mapped how your two languages shape feeling and meaning; Wednesday confronts the social friction that hits when a room hears your accent. **Lev-Ari & Keysar** and **Rosina Lippi-Green** expose two competing mechanics behind accent friction—and show why dropping the unpaid **Translation Tax** protects your footing:\n\n| Translation Tax Category | Definition | Your Move / Drop Script |\n|---|---|---|\n| Required | DefinitionPaid work or explicit safety/clarity duty. | Your Move / Drop ScriptDo it cleanly and visibly. |\n| Chosen | DefinitionA gift you freely decide to offer someone you care about. | Your Move / Drop ScriptOffer it with zero resentment. |\n| Reflexive (DROP) | DefinitionAutomatic unpaid labor explaining everyone's culture/tone so nobody feels awkward. | Your Move / Drop ScriptDrop Script: “I'll let you two check directly what that meant for each of you.” |\n\n“Let me repeat that number clearly: 14.2%. Got it?” (Zero apology, zero over-proving.)\n:::\n\nHold crisp pace + White Belt 1-reason rule: “I'm recommending Option B because it saves two weeks. Let's look at the timeline.”\n:::\n\nLaunching into a 4-minute vocabulary showcase to prove you are smart.\n:::\n\n:::details Canon notes · Part 3 · Lev-Ari and Lippi-Green: accent and credibility\n:::note Lens card\nShiri Lev-Ari and Boaz Keysar reported in 2010 that the same trivia statements were judged less true when spoken with a foreign accent, and argued that harder processing, not prejudice, caused it. Rosina Lippi-Green's *English with an Accent* (1997) studies accent discrimination in institutions as a matter of power and ideology. Neither is in your notebook. What is distinctive is that the two explanations differ: one says listeners work harder, the other says listeners bring a hierarchy.\n:::\n\n:::note Why they are here\nThe module treats your accent concern as identity threat, not as a flaw in your English. This part shows what the evidence does and does not say.\n:::\n\n:::note Native use\nExperiments on processing and credibility; sociolinguistic study of language ideology.\n:::\n\n:::note Limit\nThe 2010 finding has been contested. Souza and Markman used nearly the same method and did not replicate it, and a later preregistered close replication of a related study also found no accent effect; the debate is open about whether processing difficulty, prejudice or both explain the effects that are found (label: tested research, mixed replication). Lippi-Green is sociolinguistic analysis (label: qualitative research; not in notebook).\n:::\n\n### What the evidence supports about accent\n\n| Claim | Status |\n|---|---|\n| Accented statements are judged less true | Reported, but replications are mixed |\n| Familiarity with an accent can reduce any effect | Some support |\n| Accent bias exists in hiring and institutions | Documented in sociolinguistic work |\n| Your English is the problem | Not what any of these sources say |\n:::"
+    },
+    {
+     "id": "br3.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The 50/50 Communicative Burden, Accent Friction & The Translation Tax",
+     "md": ":::note Handoff\nAdd a **Translation Tax & Accent Footing** section to Friday's Language-Self Note—logging one meeting where you held to one reason without extra proof, and one reflexive translation you dropped.\n:::",
+     "tools": [
+      "rungs.brown.Br3.Wednesday"
+     ]
+    }
+   ],
+   "author": "Shiri Lev-Ari & Rosina Lippi-Green · Accent, Burden & Pronouns of Power"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "The bilingual footing and the weight of the word",
+   "cards": [
+    {
+     "id": "br3.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The bilingual footing and the weight of the word",
+     "md": "**The bilingual footing and the weight of the word.** Use your two languages as two instruments: know how each carries feeling, how concepts shift between them, and how to bridge rather than code-switch.\n\n1. **The shifting self (Pavlenko).** Many bilinguals report feeling like slightly different people in each language; first-language selves are often felt as more emotional, second-language selves as more rational, independent, or “fake” (Source: Emotions and Multilingualism pp. 148–150, 181–183, as reported). The notebook's reading for you: English partly embodied through peer socialization; Spanish your primary emotional language. *Check that against your own experience; it is the notebook's inference.*\n2. **The detachment effect.** Emotional words, swearing and hard statements are often felt less intensely in a second language (Source: pp. 147–152, as reported). Two consequences: it can help you think clearly about frightening things in English; and anyone, including you, may find it easier to deliver a cold or harsh line in a second language. The original curriculum adds an ethical caution: watch for anyone who switches language to deliver deceptive or coercive terms.\n3. **Language and memory.** Memories are often easier to retrieve, and more emotional, in the language they were lived in (Source: pp. 153–155, 180, as reported). A Spanish memory told in English may come out flatter than it is.\n4. **Semantic non-equivalence.** Some key words do not translate cleanly. “Compromise” in US business English is positive; “compromiso” in Spanish usually means a commitment or obligation, and “llegar a un compromiso” is less common than “llegar a un acuerdo” or “ceder” (Curriculum, Layer 3 Module 3; the usage note is Synthesis). Words like fairness, respect and loyalty carry different weights in different cultures.\n5. **Pronouns and power.** Tú, usted and vos carry distance and status. Moving to the informal too fast can threaten someone's status; staying formal too long can feel cold. Spain uses tú widely in workplaces; Argentina uses vos among peers and usted with elders and in some formal settings; Latin American professional settings often use usted longer (Synthesis; check locally).\n6. **Accent and identity threat (Synthesis, from Duhigg's social conversation).** When you worry your accent makes people doubt your intelligence, you are in a social conversation inside a practical one, and threat narrows your speech toward the Expert's defence: more words, more precision, more proof. The move is not more proof. It is the White Belt move (one reason, preference first) in the Brown Belt syntax (frame, advocate). *Suggested, not yet in the notebook:* Lippi-Green, English with an Accent, which studies accent discrimination itself.\n7. **Bridge, not code-switcher.** Code-switching to fit is the Diplomat's Word shadow (“converges until the self disappears”, Grid). A bridge carries meaning both ways while staying one person. Bennett calls adaptation “additive, not substitutive”: you gain a repertoire rather than lose a self (Source: BCIC pp. 50, 405, as reported). Black Belt takes this to its full form (constructive marginality).\n8. **The translation tax (from your daily and weekly template).** Not every translation is yours to do. Before explaining across worlds, ask: “Is this translation my task or theirs?” Mark each one as required, chosen or reflexive, and drop one reflexive translation at a time."
+    },
+    {
+     "id": "br3.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The bilingual footing and the weight of the word",
+     "md": ":::note Drill\nThe metaphor audit. Pick one word a day that matters in negotiation or friendship (leverage, risk, fairness, trust, respect, loyalty, confianza, compromiso, orgullo). Trace its literal translation, its connotations and its emotional weight in English, in Rioplatense Spanish, and in Spain.\n:::\n\n:::note Office dojo\nWhen a colleague is working in their second language, offer face-saving checks (“Let me make sure I've got this right…”) so nobody looks less competent because of the language. Apply the same grace to yourself: a check is not a confession.\n:::\n\n:::note Personal dojo\nNotice which language you use for what with each friend. Try telling one important feeling in Spanish to someone who speaks it, and see whether it lands differently, for them and for you.\n:::"
+    },
+    {
+     "id": "br3.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The bilingual footing and the weight of the word",
+     "md": "Everything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats your languages as | Would worry that you... |\n|---|---|---|---|\n| Pavlenko | Lived bilingual emotion | Two instruments with different tones | Use one language as armor |\n| Wierzbicka | Key words | Two maps of value | Assume a word carries over |\n| Lev-Ari and Lippi-Green | How listeners judge | A site of possible bias | Blame your English for a listener's frame |\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Accent at work | What does research say about accent and perceived competence in professional settings, including Spanish-accented English? | Your concern at work | One thread, researched with the research-brief skill |\n| 2. Childhood bilinguals and emotion | Do people who learned their second language as children feel the detachment effect less? | You learned English at nine | One thread, with a critic pass |\n| 3. Spanish keywords | Which Spanish keywords have been studied cross-culturally, and how? | Your lexicon | Full deepening of Part 2 |\n\n**Where they meet.** Language is never neutral: it carries feeling, values and status.\n\n**Where they collide.** Lev-Ari's processing account places the problem in the listener's effort; Lippi-Green places it in power. Your response differs: more clarity for one, more dignity for the other.\n\n**What the three miss for you.** Voseo, tú and usted, and third-culture belonging are not in any of the three; the module's original text covers them.\n\n**Where it sits in your own frameworks.** Heart with self and Mind in your Orders Grid, with Hicks's dignity elements for accent bias. Return to this module later and add dated notes; do not overwrite.\n\n**prompt.** Use curriculum-module in deepen mode on Brown Belt Br3, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries."
+    },
+    {
+     "id": "br3.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Your bilingual lexicon",
+     "md": "**Your bilingual lexicon.** Twelve entries from the metaphor audit, plus a one-page “language-self” note: what you notice about the English you and the Spanish you in conflict, in asking, and in affection.\n\n**Watch for.** Using the second language as armor. If you notice you only say hard things in English, try one in Spanish."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "Translation Strip Lab",
+   "cards": [
+    {
+     "id": "br3.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Thursday",
+     "md": "Br3 · Thursday · Interactive Lab · Translation Strip & Tax Triage Studio\n\n## 3-Dialect Strip Builder & Reflexive Tax Dropper\n\n:::note Tax Classification: Reflexive\nPick a starter keyword (or type your own phrase below) to run a 3-culture strip:\n\n:::note\n**US English**Emotional Weight: 5/10\n:::\n\n:::note\n**Rioplatense**Emotional Weight: 7/10\n:::\n\n:::note\n**España**Emotional Weight: 6/10\n:::\n\nPronoun Footing:\n\n### Translation Tax Triage\n\n:::note\nDROP IT! Suggested Drop Script: “I'm going to step back from translating here—why don't you two check directly what works for each of you?”\n:::\n:::",
+     "tools": [
+      "drill.brown.BR3_WORDS",
+      "legacy.brown.Br3"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "12-Word Lexicon + Note",
+   "cards": [
+    {
+     "id": "br3.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Friday",
+     "md": "Br3 · Friday · Deliverable · Feeds Br5 Register Note & Printable Card\n\n## Deliverable: Bilingual Lexicon (3 / 12) & Language-Self Note\n\n:::note\n**Entry #1 · fair**\n\n:::\n\n:::note\n**Entry #2 · confianza**\n\n:::\n\n:::note\n**Entry #3 · compromise / compromiso**\n\n:::\n\n### 1-Page Language-Self Note (English Me vs. Spanish Me)",
+     "tools": [
+      "form.brown.Br3"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

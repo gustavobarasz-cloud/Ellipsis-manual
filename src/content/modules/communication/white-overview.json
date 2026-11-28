@@ -1,0 +1,51 @@
+{
+ "id": "white-overview",
+ "belt": "white",
+ "kind": "overview",
+ "title": "White Belt · Overview",
+ "subtitle": "Regulated, clear about what is happening, and able to say what you want without apologizing, over-explaining, or exploding.",
+ "days": [
+  {
+   "id": "intro",
+   "label": "Overview",
+   "title": "Architecture & Rules",
+   "cards": [
+    {
+     "id": "white-overview.intro.1",
+     "kind": "info",
+     "label": "Overview",
+     "title": "White Belt",
+     "md": "White Belt · Layer 1: The Inner Game\n\n## Guard & Regulate — Stay Yourself Under Pressure\n\nRegulated, clear about what is happening, and able to say what you want without apologizing, over-explaining, or exploding."
+    },
+    {
+     "id": "white-overview.intro.2",
+     "kind": "info",
+     "label": "Overview",
+     "title": "The Concentric Arc of White Belt",
+     "md": "### The Concentric Arc of White Belt\n\nEvery later belt collapses when the nervous system is hijacked—a read made while bracing is a projection. White Belt builds your inner floor in six steps: steady the body (**W1**), catch your fallback mid-drop (**W2**), map the hooks and hidden commitments that pull you off-center (**W3**), triage whether friction is style, blind spot, or tactic (**W4**), deliver a clean no and unexplained preference (**W5**), and hold the line under repeated pressure (**W6**). Beside it runs **Sanctuary Layer 1 (S1.1–S1.3)**, for the moments when the aim is the person, not any outcome."
+    },
+    {
+     "id": "white-overview.intro.3",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Standing Rules for the Dojo",
+     "md": "### Standing Rules for the Dojo\n\n1. **One technique, two intentions:** Practice every move in both the Office Dojo and the Personal Dojo.\n2. **Would I accept their no?** The standing check for every request, boundary, and steer.\n3. **Read the behavior, not the type:** Log what was done, never a character diagnosis.\n4. **The Rule of Repetition:** Incident #1 → assume style or blind spot and run a light check. Repetition with deniability → treat as a tactic.\n5. **One move at a time:** In the Respond step of a live exchange, deploy one clean move; everything else waits for the debrief.\n6. **Dark-Side Literacy:** Whenever you log a covert tactic, also note *your own temptation* to use it under stress.\n7. **The Translation Strip:** Calibrate every live script across US low-context English, Rioplatense Spanish, and Peninsular Spanish.\n8. **Safety Rule #9 — When the Dojo Isn't Enough:** Harassment, discrimination, threats, or abuse belong with HR, legal, or outside support with a written record—never inside everyday dojo scripts.\n9. **Red-Flag Grounding Rule:** If three or more red flags appear together (insomnia, unreality, contempt, inability to focus, appetite loss, urges for drastic change), step back from drill intensity and return to physical grounding first."
+    },
+    {
+     "id": "white-overview.intro.dialect",
+     "kind": "info",
+     "label": "Dialect",
+     "title": "4-Way Dojo & Dialect",
+     "md": ":::dialect Dialect note\n@office_us Office US (Low-Context): Max 1 factual reason, 0 apologies, downward FM DJ pitch on repeats.\n@personal_us Personal US: Lead with 1 beat of genuine warmth so a clean boundary protects the bond.\n@rioplatense Rioplatense (High-Involvement): Cushion clean boundaries with explicit warmth so steadiness never lands like ice.\n@espana España: Direct, crisp, cordial—no over-apology or convoluted corporate hedging.\n:::\n\n:::dialect Clean No\n@office_us \"I can't take on the review tonight—my evening is booked. I can look at it tomorrow at 10.\"\n@personal_us \"I love that you asked. I'm going to pass tonight—coffee Sunday?\"\n@rioplatense \"¡Qué lindo que me invites! Hoy paso, pero arreglemos para el domingo.\"\n@espana \"Gracias por contar conmigo; hoy no puedo ir, pero nos vemos el domingo.\"\n:::\n\n:::dialect Fogging line\n@office_us \"You're right it's a tight week, and I still can't take on the review tonight.\"\n@personal_us \"I hear it's been a while since we went out, and I care about seeing you—I'm still going to pass tonight.\"\n@rioplatense \"Tenés razón que viene brava la semana, y te quiero dar una mano, pero hoy posta no puedo agarrar la revisión.\"\n@espana \"Tienes razón en que vamos justos, y aun así hoy no puedo asumir la revisión. Mañana a las 10 sí.\"\n:::\n\n:::dialect Upward check\n@office_us \"I want to support your goal on X; I noticed we finalized Y—am I missing a constraint?\"\n@personal_us \"I love that you handled the reservation—next time can we pick the spot together?\"\n@rioplatense \"Che, me alegra que lo hayas armado—para la próxima, ¿elegimos el lugar juntos?\"\n@espana \"Me parece genial que lo reservaras; la próxima vez lo elegimos juntos, ¿te viene bien?\"\n:::"
+    },
+    {
+     "id": "white-overview.intro.4",
+     "kind": "info",
+     "label": "Overview",
+     "title": "Guard (Guardar) — What game is being played, and am I opting in?",
+     "md": "Master Grid · White Belt Column (Interactive Placement)\n\n### Guard (Guardar) — What game is being played, and am I opting in?\n\nMark your **Home**, **Fallback**, and **Edge** from debrief evidence—never self-image. Read the behavior, never use the grid as a sorting hat for people.\n\n| Stage (Cook-Greuter / Torbert) | Guard · Guardar (Gift, Shadow, Tell, Move) |\n|---|---|"
+    }
+   ]
+  }
+ ]
+}

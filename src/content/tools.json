@@ -1,0 +1,2835 @@
+{
+ "bodymap.white": {
+  "type": "bodymap",
+  "zones": [
+   "Jaw / Back Teeth",
+   "Throat / Voice",
+   "Shoulders / Neck",
+   "Chest / Breath",
+   "Stomach / Core",
+   "Hands / Grip",
+   "Hands / Grip"
+  ]
+ },
+ "timer.white.beat": {
+  "type": "timer",
+  "title": "2-Beat Micro-Pause",
+  "seconds": 2,
+  "button": "Run 2-Beat Micro-Pause",
+  "display": "2.0s",
+  "tenths": true
+ },
+ "timer.white.sit": {
+  "type": "timer",
+  "title": "SIT Cap Timer",
+  "seconds": 300,
+  "button": "Start 5-Min SIT Cap",
+  "done": "Cap Reached"
+ },
+ "deck.white.w1": {
+  "type": "deck",
+  "title": "Socratic Deck · W1",
+  "items": [
+   {
+    "q": "Why does \"If someone is unfair, I will stay calm\" fail as a Gollwitzer Implementation Intention?",
+    "a": "It requires a moral trial before the clutch fires. Anchor the \"if\" cue to a physical tell observable in under a second (e.g., back teeth clamping)."
+   },
+   {
+    "q": "Why does White Belt replace Silva's detachment step with naming the feeling?",
+    "a": "Detachment trains swallowed anger into cool analysis. Naming a clean state (Lieberman) lowers acute reactivity while keeping usable truth in the body."
+   },
+   {
+    "q": "What separates Menakem's clean pain from neurotic settling?",
+    "a": "Clean pain stays present to speak honestly; neurotic settling flees the encounter and soothes the body afterward as dirty pain."
+   }
+  ]
+ },
+ "form.white.w1": {
+  "type": "form",
+  "journal": "white.w1"
+ },
+ "deck.white.w2": {
+  "type": "deck",
+  "title": "Socratic Deck · W2",
+  "items": [
+   {
+    "q": "How do you tell Chosen Expert Craft from an Expert Fallback in real time?",
+    "a": "Run the Craft vs. Fallback Test: \"Could I stop doing this right now if the room shifted?\" Chosen craft stops cleanly; a fallback sparks tightness."
+   },
+   {
+    "q": "Why must you answer BOTH halves of the Strategist sentence?",
+    "a": "Answering only \"What's really happening here?\" feeds the detached Observer edge. Half 2 (\"What do I want from it?\") restores agency."
+   },
+   {
+    "q": "What is Hurlburt's 5-Minute Rule protecting you from?",
+    "a": "Reconstruction bias—your verbal brain inventing eloquent inner sentences at 10 PM when at 2 PM there was only heat and an unsymbolized urge."
+   }
+  ]
+ },
+ "form.white.w2": {
+  "type": "form",
+  "journal": "white.w2"
+ },
+ "deck.white.w3": {
+  "type": "deck",
+  "title": "Socratic Deck · W3",
+  "items": [
+   {
+    "q": "How do Hughes and Simon deliberately collide in W3?",
+    "a": "Hughes reads social bids as fear-driven needs; Simon warns that covert aggressors fight to win rather than trembling behind fear. Respond to behavior."
+   },
+   {
+    "q": "Why isn't a Worry Box fear (\"I'm afraid they'll think I'm difficult\") yet Column 3?",
+    "a": "Column 3 must be an active competing commitment (\"I am committed to never being seen as difficult\") so you can see your own foot on the brake."
+   },
+   {
+    "q": "How do Hicks's False Dignity and Temptations connect Monday and Tuesday?",
+    "a": "False Dignity turns Hughes's social needs into external worth faucets; Temptations (False Security, Avoiding Confrontation) turn Simon's handles into habits."
+   }
+  ]
+ },
+ "form.white.w3": {
+  "type": "form",
+  "journal": "white.w3"
+ },
+ "deck.white.w4": {
+  "type": "deck",
+  "title": "Socratic Deck · W4",
+  "items": [
+   {
+    "q": "How do you distinguish cooperative overlap from hostile interruption?",
+    "a": "Check whose topic survives. Cooperative overlap keeps your thread alive; interruption hijacks the floor to pivot elsewhere."
+   },
+   {
+    "q": "How does the Incident #1 Light Test separate Blind Spot from Tactic?",
+    "a": "Deliver one neutral, fact-anchored check. Surprise + adjustment clears it; denial, evasion, or attacking your tone confirms a Tactic."
+   },
+   {
+    "q": "What is the Dark-Side Literacy check required in every Codex entry?",
+    "a": "Note your own temptation to use that exact tactic under pressure—keeping tactic-literacy from mutating into cynicism."
+   }
+  ]
+ },
+ "form.white.w4": {
+  "type": "form",
+  "journal": "white.w4"
+ },
+ "deck.white.w5": {
+  "type": "deck",
+  "title": "Socratic Deck · W5",
+  "items": [
+   {
+    "q": "Why does offering Reason #2 collapse a Clean No?",
+    "a": "Each extra excuse hands the listener a courtroom gavel to cross-examine your alibi. Reason #2 is almost always guilt asking for permission."
+   },
+   {
+    "q": "When should you use \"I can't\" vs. \"I don't\"?",
+    "a": "Use \"I can't\" only for genuine one-off capacity limits where you would say yes if the schedule opened. Use \"I don't\" for settled principles."
+   },
+   {
+    "q": "Why does Voss warn against chasing early \"yes\" answers?",
+    "a": "Early \"yes\" pressure breeds counterfeit yeses from people who feel trapped. Protecting their right to say \"no\" creates real safety and clarity."
+   }
+  ]
+ },
+ "form.white.w5": {
+  "type": "form",
+  "journal": "white.w5"
+ },
+ "deck.white.w6": {
+  "type": "deck",
+  "title": "Socratic Deck · W6",
+  "items": [
+   {
+    "q": "How do Simon's Moves 2, 3, and 4 branch in W6?",
+    "a": "Evasion on your ask -> Move 2 (Direct Yes/No). Pushback on your no -> Move 3 (Fog + Broken Record, up to 3x). Repeated crossing -> Move 4 (Protective Consequence)."
+   },
+   {
+    "q": "Why does \"I hear you, but...\" ruin Fogging?",
+    "a": "\"But\" erases the acknowledgment and restarts the tug-of-war. Use the \"And, Still\" Pivot: Fog Truth/Odds/Principle + \", and I still [Broken Record].\""
+   },
+   {
+    "q": "Why does Meichenbaum cap pre-meeting preparation at 5 minutes?",
+    "a": "Unbounded rehearsal mutates into anticipatory rumination. Five minutes written + 3 embodied spoken reps in a downward FM DJ voice builds real inoculation."
+   }
+  ]
+ },
+ "form.white.w6": {
+  "type": "form",
+  "journal": "white.w6"
+ },
+ "marker.white-s1.s1-1": {
+  "type": "marker",
+  "id": "white-s1.s1-1",
+  "text": "**Marker:** A friend says something like \"thank you for just listening,\" or you realize afterward that you did not offer a single solution—and the room got warmer, not heavier."
+ },
+ "marker.white-s1.s1-2": {
+  "type": "marker",
+  "id": "white-s1.s1-2",
+  "text": "**Marker:** You notice your armor arrive mid-conversation with someone who matters, thank it without fighting it, and stay present anyway—at least once."
+ },
+ "marker.white-s1.s1-3": {
+  "type": "marker",
+  "id": "white-s1.s1-3",
+  "text": "**Marker:** You let someone help you with something real, and the relationship grew closer—not weaker."
+ },
+ "form.white.s1": {
+  "type": "form",
+  "journal": "white.s1"
+ },
+ "form.white.capstone": {
+  "type": "form",
+  "journal": "white.capstone"
+ },
+ "evidence.white": {
+  "type": "evidence",
+  "belt": "white",
+  "cols": [
+   "Date / Episode",
+   "Apologies Cut",
+   "Sentences Restored",
+   "Preferences First",
+   "Boundaries Held",
+   "Codex Entries"
+  ]
+ },
+ "grid.blue": {
+  "type": "grid",
+  "belt": "blue"
+ },
+ "rungs.blue.B1.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B1_P1",
+  "title": "Socratic rungs · Part 1 · Hughes: the baseline and the cluster",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In your interpreting, how did you learn a speaker's normal voice before you could hear stress in it? How long did it take?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: why does Hughes insist on a baseline before any reading, and who was the method built to be pointed at?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a real change from baseline and one non-example: a person's normal habit that a stranger would misread as a tell."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three people you see often and what you have actually seen as their normal, then one moment each when something changed. Only then rate how confident you are in each baseline, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does reading people quickly protect for you, and what does it cost? Where does your reading serve someone, and where does it keep you safely watching?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your own tell list from W1 change your read of others? When your jaw is tight, what do you see in them? State it as a guess and name what would show it wrong. In your Orders Grid this sits in Body and Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "A baseline is cultural. Would your sweep of a Rioplatense friend and of a quiet US colleague use the same idea of \"normal\"? Where would Hughes's method misread someone autistic or from a culture with different gaze norms?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Do the silent sweep on one person a day for three days in a low-stakes place. Before you start, predict one thing you expect to see as their normal. Afterward, note whether a second look confirmed it. Write what result would show your first-minute read is unreliable."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the moment you shift from noticing to concluding? Name the inner word that marks it."
+   }
+  ]
+ },
+ "rungs.blue.B1.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B1_P2",
+  "title": "Socratic rungs · Part 2 · DePaulo and Bond: what cues can and cannot tell",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Have you ever been sure someone in a session was hiding something? What made you sure, and did it turn out to be true?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did DePaulo and Bond find about deception cues and accuracy, and what kind of studies were they reviewing?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a reasonable inference from a change in behavior and one non-example: an inference that jumps from the change to a motive."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you read someone's body as meaning something specific. For each, write what you saw, what you concluded and what you learned later. Only then rate how often your specific conclusions held, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does a confident read give you, such as control or the sense of being ahead? What did it cost when it was wrong?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does the intelligence hook from W3 make confident reads tempting? State it as a guess and name what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Your work gave you thousands of sessions with feedback. Does that make you an exception to the reviews, or is that the belief the reviews were testing? What would count as evidence either way?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "For one week, each time you notice a cluster, write only \"something about ___ matters\" and one question you could ask. Before you start, predict how often asking would confirm your guess. Afterward, record any answer you got. Write what result would show your reads add nothing."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When does \"something matters here\" turn into \"they are lying\" in your head? Catch the word that does it."
+   }
+  ]
+ },
+ "rungs.blue.B1.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B1_P3",
+  "title": "Socratic rungs · Part 3 · Ekman and Matsumoto: display rules",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "What did you learn about showing feelings in Oberá, and what did you learn after you moved? Where did the two rules clash?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is a display rule, and which of Ekman's claims is still debated?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a display rule from a culture you know well and one non-example: an individual habit that is not a cultural rule."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three moments when you misread someone's face or tone, or were misread, because of different rules. Only then rate how often culture explains your misreads, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "Which display rules do you follow at work? What do they protect, and what do they hide?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "How do display rules interact with Tannen's styles from W4 Part 1? State one guess about a person you know and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "If faces do not map neatly onto emotions, what is left of reading at all? Where is the line between widening \"normal\" and stereotyping a culture?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "With one person from a different background, ask in a low-stakes moment how they usually show irritation or delight. Before you ask, predict their answer. Afterward, record what they said. Write what result would show your cultural guess was wrong."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When a face surprises you, what is the first story you tell? Whose rule is that story using?"
+   }
+  ]
+ },
+ "drill.blue.B1.B1_clusters": {
+  "type": "drill",
+  "set": "B1_clusters",
+  "belt": "blue",
+  "items": [
+   {
+    "cue": "Colleague crosses arms and taps foot for the entire 45-minute meeting in a chilly room.",
+    "ans": "Baseline / Noise",
+    "why": "No departure from baseline + environmental filter (cold room). Single persistent habit, not a stimulus-tied cluster."
+   },
+   {
+    "cue": "Normally warm manager leans back, puts phone between you, and drops contractions ('We will not approve that') right after you mention Q3 headcount.",
+    "ans": "True Cluster",
+    "why": "3-channel departure (posture, barrier, verbal formality) tied directly to one topic. Read: 'Q3 headcount is a live wire — ask a calm follow-up.'"
+   },
+   {
+    "cue": "Friend looks away once while searching for a word during a relaxed dinner.",
+    "ans": "Baseline / Noise",
+    "why": "Single cue during normal cognitive recall. DePaulo & Bond: gaze aversion has near-zero correlation with deception."
+   },
+   {
+    "cue": "Expressive friend's hands freeze on their mug, voice drops softer, and they look down for 3 seconds after you ask about their job.",
+    "ans": "True Cluster",
+    "why": "3-channel departure from an expressive baseline tied to one question. Care signal: slow down and stay gently with the topic."
+   },
+   {
+    "cue": "Senior director keeps a completely flat face when you report a delay in a 10-person team meeting.",
+    "ans": "Display Rule",
+    "why": "Ekman & Matsumoto: Neutralizing in a public, high-status meeting is a standard leadership display rule — not proof of icy rage."
+   },
+   {
+    "cue": "Colleague from a high-restraint culture smiles softly while politely declining your request.",
+    "ans": "Display Rule",
+    "why": "Qualify/Mask display rule used to preserve harmony while saying no. Read the words and context, not just the smile."
+   }
+  ]
+ },
+ "linter.blue.camera": {
+  "type": "linter",
+  "kind": "camera",
+  "title": "Live Camera-vs-Story Linter (DePaulo & Bond)",
+  "help": "Type a baseline observation below. Flags mind-reading/motive words a video camera could never record.",
+  "placeholder": "Try: 'Marcus looked defensive and evasive when I asked about Friday...'"
+ },
+ "timer.blue.sweep": {
+  "type": "timer",
+  "title": "Guided 30-Second Silent Sweep Timer (Hughes)",
+  "seconds": 30,
+  "button": "Start 30s Sweep",
+  "help": "Scan without staring: 10s Posture/Space -> 10s Voice/Pace -> 10s Hands/Gaze.",
+  "phases": [
+   [
+    20,
+    "Zone 1: Posture & Space"
+   ],
+   [
+    10,
+    "Zone 2: Voice, Pace & Formality"
+   ],
+   [
+    0,
+    "Zone 3: Hands & Gaze (Peripheral)"
+   ]
+  ],
+  "done": "Sweep Complete — Say 1 neutral baseline sentence."
+ },
+ "form.blue.B1": {
+  "type": "form",
+  "journal": "blue.B1"
+ },
+ "rungs.blue.B2.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B2_P1",
+  "title": "Socratic rungs · Part 1 · Cook-Greuter and Torbert: why a stage cannot be read in minutes",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In your work, have you ever quietly \"typed\" a provider or a client after a few minutes? What label did you use?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: how do Cook-Greuter and Torbert find someone's stage, and why does that rule out a three-minute diagnosis?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Restate the difference between a currency and a stage. Give one example of a currency read and one non-example: a read that slips into a stage verdict."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three people you have read quickly at work or in friendship: what they scanned for, and what you saw when they did not get it. Only then rate how often your currency guess held on a second meeting, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does assigning a stage give you, such as order, or a feeling of being above the fray? What does it cost the person you read?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Which currency do you scan for yourself under pressure, given your W2 fallbacks? State it as a guess and name what would show it wrong. In your Orders Grid this sits on the depth axis and in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is reading a currency just stage-typing with softer words? What would keep it from becoming that?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Write one currency read for a colleague before a meeting. Before the next contact, write what you predict they will attend to. Afterward, record what they actually asked about. Write what result would show the read was wrong."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What word in your head turns \"they scan for accuracy\" into \"they are an Expert\"?"
+   }
+  ]
+ },
+ "rungs.blue.B2.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B2_P2",
+  "title": "Socratic rungs · Part 2 · Snyder: how we test our reads about people",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When have you asked a question in a way that guided the answer, in a session or in life?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did Snyder and Swann find about how people test a guess about someone?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one confirming question and one disconfirming question for the same read. Then give a non-example: a \"disconfirming\" question that is really leading."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three reads you held about people and how you checked them. Only then rate how often your checks could actually have failed, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does a confirmed read give you? What did you miss when you checked only one way?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your expectation of a colleague draw out the behavior you expect? Think of one relationship. State it as a guess and name what would show it wrong. In your Orders Grid this sits in Mind and Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Interpreters must not lead. Does that training protect you from confirming checks, or only in the booth? What would show the difference?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "For your next three hypothesis cards, write the \"what would change my mind\" line as a concrete check you will run. Before you run it, predict the result. Afterward, record what happened. Write what result would show the cards are only confirming."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel when evidence starts to go against your read? Name it."
+   }
+  ]
+ },
+ "rungs.blue.B2.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B2_P3",
+  "title": "Socratic rungs · Part 3 · Ickes: empathic accuracy and the check-back",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did someone check their read of you, and how did it land?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: how does Ickes measure empathic accuracy, and what did he find shapes it?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a check-back and one non-example: a statement that sounds like a check but announces a diagnosis."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you checked a read with someone, or could have. Only then rate how often the person's answer surprised you, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does not checking protect, such as the comfort of being right? What does checking cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "How does a check-back relate to the label in B5 and the loop in B4? State one guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In a culture or relationship where naming feelings is not done, is a check-back respectful or intrusive? What would you do instead?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Check back two reads this week, one at work, one with a friend. Before each, predict whether they will confirm. Afterward, record their exact words. Write what result would show checking does not improve your reads."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the moment you decide not to ask? What tells you it is caution and not avoidance?"
+   }
+  ]
+ },
+ "drill.blue.B2.B2_drills": {
+  "type": "drill",
+  "set": "B2_drills",
+  "belt": "blue",
+  "items": [
+   {
+    "quote": "\"Let's skip the intro — what's your bottom-line number and what do I get if I sign today?\"",
+    "curr": "Advantage",
+    "cb": "\"It sounds like protecting your downside and getting clear terms up front is non-negotiable here.\"",
+    "trap": "Calling them 'an Opportunist' or asking 'Are you just trying to squeeze me?'"
+   },
+   {
+    "quote": "\"Totally, me too! Whatever you think is best — you're not upset I moved Thursday, right?\"",
+    "curr": "Approval",
+    "cb": "\"We're completely good on Thursday — I want to make sure the new time actually works for you too.\"",
+    "trap": "Saying 'Stop people-pleasing' or diagnosing 'Diplomat.'"
+   },
+   {
+    "quote": "\"Hold on — slide 3 says 14.2% but Q2 actuals were 14.18%, and policy 4B requires a footnote.\"",
+    "curr": "Accuracy",
+    "cb": "\"It sounds like getting the methodology and numbers airtight is the top priority before we move on.\"",
+    "trap": "Assuming they're a rigid Expert without checking if it's their audit role."
+   },
+   {
+    "quote": "\"I hear the history, what's the fastest path to get this shipped by Friday without blowing Q3?\"",
+    "curr": "Results",
+    "cb": "\"Is hitting the Friday launch the #1 driver for you on this?\"",
+    "trap": "Assuming they don't care about people — test with a brief values check."
+   },
+   {
+    "quote": "\"I see your angle, though from Ops' seat it looks totally different — how else could we frame this?\"",
+    "curr": "Context",
+    "cb": "\"It sounds like making sure every team's perspective is on the table matters before we lock a plan.\"",
+    "trap": "Labeling them 'indecisive Pluralist' instead of checking if they can commit when asked."
+   },
+   {
+    "quote": "\"Notice how every time Legal joins late, Sales speeds up and we replay the same fight? What are we actually trying to build?\"",
+    "curr": "Pattern",
+    "cb": "\"It sounds like you're trying to fix the recurring handoff dynamic, not just this one deal.\"",
+    "trap": "Assuming systems talk equals Strategist without testing if they stay open to correction."
+   }
+  ]
+ },
+ "form.blue.B2": {
+  "type": "form",
+  "journal": "blue.B2"
+ },
+ "rungs.blue.B3.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B3_P1",
+  "title": "Socratic rungs · Part 1 · Fisher and Shapiro: five core concerns",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In a session you interpreted, when did a dispute seem to be about terms but really be about someone feeling dismissed?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: why do Fisher and Shapiro focus on five concerns instead of reading emotions directly?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Pick one concern. Give an example of it being trampled and a non-example: a strong emotion that is not about that concern."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three stalled conversations. For each, write the stated position and the concern you think was trampled. Only then rate which concern you most often trample in others, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "Which concern of yours gets trampled most easily? What do you do when it is?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Do the five concerns line up with Hicks's dignity elements, or with Hughes's needs from W3 Part 1? Pick one overlap and one difference. State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Are the five concerns universal? In a hierarchy-first or family-first culture, does status or affiliation outweigh autonomy? Where would the list miss you?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Before one low-stakes disagreement, name the concern you think is at stake for the other person and one way to offer it at no cost to your ask. Before you speak, predict the effect. Afterward, record their words. Write what result would show you named the wrong concern."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When your own status or autonomy is trampled, what happens in your body first?"
+   }
+  ]
+ },
+ "rungs.blue.B3.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B3_P2",
+  "title": "Socratic rungs · Part 2 · Fisher, Ury and Patton: interests behind positions",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did asking \"why do you need that?\" change a conversation you were in?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is the difference between a position and an interest, and what do Fisher and Ury tell you to do with it?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one position and three possible interests behind it. Then a non-example: an \"interest\" that is really just the position restated."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three of your own positions from recent disagreements and the interest behind each. Only then rate how often you argue positions rather than interests, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does holding a position protect for you? What does naming your interest risk?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "For your promotion conversation, write your position and your interest, then theirs. State a guess about their interest and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Getting to Yes assumes both sides want agreement. What if one side is using tactics, as in W4? Where does the interests frame stop working?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In one low-stakes disagreement, ask one \"why does that matter to you?\" question before you answer. Before you ask, predict the interest. Afterward, record their words. Write what result would show the position was the interest."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the urge you feel to counter a position before you understand it?"
+   }
+  ]
+ },
+ "rungs.blue.B3.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B3_P3",
+  "title": "Socratic rungs · Part 3 · Hughes: needs as fears, and answering without exploiting",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Where have you watched someone answer a need well, so the other person softened without being managed?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: how does Hughes connect each need to a fear, and how was his map meant to be used?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "For one need, write an answer, an exploit and an announcement. Explain which one passes the transparency test."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three moments when someone answered, exploited or announced one of your needs. Only then rate which you meet most, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does seeing a need in someone give you? When has it slipped toward leverage?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does seduction, the tactic aimed at you in W4, exploit the same need you would answer in others? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is answering a need still manipulation if the person does not know you are doing it? What does the transparency test say?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Answer one need out loud this week in a low-stakes exchange. Before you do, predict the effect. Afterward, record their words. Write what result would show you misread the need."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When you spot a need, what is your first impulse: to answer it or to use it?"
+   }
+  ]
+ },
+ "drill.blue.B3.B3_drills": {
+  "type": "drill",
+  "set": "B3_drills",
+  "belt": "blue",
+  "items": [
+   {
+    "pos": "\"We can't accept 24 months; it has to be 12 or we walk.\"",
+    "need": "Autonomy / Strength",
+    "needOpts": [
+     "Autonomy / Strength",
+     "Pity / Acknowledgment",
+     "Role / Meaning"
+    ],
+    "good": "\"You're the one owning this risk and you should have final say on term length. We can't do our 24-month rate on 12 months, so here are two 12-month options — which fits better?\"",
+    "bad": "\"You just need to feel in control — fine, I'll give you 12 months at the 24-month rate.\""
+   },
+   {
+    "pos": "\"You never ask what I think before changing the schedule!\"",
+    "need": "Autonomy & Appreciation",
+    "needOpts": [
+     "Autonomy & Appreciation",
+     "Particular Status",
+     "Acceptance (Tribe)"
+    ],
+    "good": "\"You're right — I changed it without checking with you, and your time matters to me. Let's look at next week together before locking anything.\"",
+    "bad": "\"I was just trying to be efficient, why are you overreacting?\""
+   },
+   {
+    "pos": "\"I've been running these audits for 15 years — this new template is sloppy.\"",
+    "need": "Particular Status / Intelligence",
+    "needOpts": [
+     "Particular Status / Intelligence",
+     "Pity / Sympathy",
+     "Affiliation (Warmth)"
+    ],
+    "good": "\"Your controls are the reason we passed the last three audits cleanly. Before we roll this out, I'd love your eye on which compliance check is missing.\"",
+    "bad": "\"Times change, we have to modernize whether you like it or not.\""
+   },
+   {
+    "pos": "\"I've had the worst week — my laptop died, traffic was a nightmare, and nobody here cares.\"",
+    "need": "Pity / Appreciation",
+    "needOpts": [
+     "Pity / Appreciation",
+     "Strength / Dominance",
+     "Autonomy (Control)"
+    ],
+    "good": "\"That sounds genuinely brutal — getting hit with all of that in one week is exhausting.\" [2-sec pause]",
+    "bad": "\"You should back up to the cloud and leave 20 minutes earlier.\""
+   },
+   {
+    "pos": "\"Budget is frozen — we can't do a promotion this cycle.\"",
+    "need": "Constraint / Role / Fairness",
+    "needOpts": [
+     "Constraint / Role / Fairness",
+     "Pity / Victimhood",
+     "Social Approval"
+    ],
+    "good": "\"Help me understand what constraints you're navigating with Q4 headcount so we can agree on written criteria and an effective date that works for both of us.\"",
+    "bad": "\"That's unfair, I've already been doing Senior work for six months!\""
+   },
+   {
+    "pos": "\"You never initiate plans with me anymore.\"",
+    "need": "Affiliation & Appreciation",
+    "needOpts": [
+     "Affiliation & Appreciation",
+     "Particular Status",
+     "Intelligence"
+    ],
+    "good": "\"I've been terrible at reaching out lately, and I hate that it made you feel like you aren't a priority. You are. Want to grab dinner Thursday at 7?\"",
+    "bad": "\"You know how busy I've been, you could text me too!\""
+   }
+  ]
+ },
+ "form.blue.B3": {
+  "type": "form",
+  "journal": "blue.B3"
+ },
+ "rungs.blue.B4.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B4_P1",
+  "title": "Socratic rungs · Part 1 · Duhigg: three conversations and the matching principle",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did you interpret a moment where one person was emotional and the other answered practically? What happened next?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are Duhigg's three conversations, and what is the matching principle?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one example of each type and one non-example: a conversation that looks practical but is social."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three conversations that went wrong. For each, label what you were in and what they were in. Only then rate which mismatch you make most, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does fixing protect for you? What does it cost a friend who wanted to be heard?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "When your accent or intelligence is questioned, you are suddenly in a social conversation. How does that link to your W2 Expert fallback? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is \"Do you want ideas, or should I just listen?\" natural in Spanish among friends, or does it sound clinical? What would you say instead?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Ask the meta-question once in a real conversation this week. Before you do, predict their answer. Afterward, record what they said. Write what result would show you already matched without asking."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the urge you feel just before you offer a fix?"
+   }
+  ]
+ },
+ "rungs.blue.B4.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B4_P2",
+  "title": "Socratic rungs · Part 2 · Brooks: deep questions and \"take me back\"",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "As an interpreter you asked others' questions, not your own. Which question do you most like to be asked?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is an illuminator, and why does Brooks prefer big questions?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Turn three fact questions into deep questions. Then write a non-example: a \"deep\" question that is really a test."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three conversations where a question opened someone up, or closed them down. Only then rate how often you ask deep questions and how often you answer them, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What do great questions protect for you, such as not having to reveal yourself? What do they cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Pair a deep question with something of your own you could offer back, as B6 and Br4 ask. State a guess about how the other person would respond and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In some cultures personal questions to a near-stranger are rude. Where would Brooks's questions fail? What would you ask instead?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Ask one take-me-back question and offer one small true thing back, in a low-stakes conversation. Before you do, predict the response. Afterward, record what they said. Write what result would show the question did not open anything."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When someone asks you a deep question, what do you do first: answer, or turn it back?"
+   }
+  ]
+ },
+ "rungs.blue.B4.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B4_P3",
+  "title": "Socratic rungs · Part 3 · Rogers: reflective listening and the loop",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "As an interpreter, you render meaning, not words. How is that like and unlike looping for understanding?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did Rogers mean by active listening, and what attitude did he say it needs?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one loop for a short statement, then a non-example: a reflection that adds your interpretation."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you felt really understood, and what the other person did. Only then rate how often you loop with others, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does looping protect for you, such as staying the listener? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "A correction after a loop counts as success. How does that change your W2 Expert need to be right? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "The study above found active listening and advice about equal on satisfaction. When is advice the better gift?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Do the deliverable: five loops. Before each, predict whether they will confirm or correct. Afterward, record their exact words. Write what result would show looping does not help you connect."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the sign that you are reflecting with attention, not by script?"
+   }
+  ]
+ },
+ "drill.blue.B4.B4_drills": {
+  "type": "drill",
+  "set": "B4_drills",
+  "belt": "blue",
+  "items": [
+   {
+    "lines": "Colleague: \"The client moved the scope two days before close — I'm so sick of getting blindsided.\" -> You jump in: \"Let's cut section 3 and email them by noon.\"",
+    "type": "Emotional",
+    "shift": "Emotional opening met with Fixer Trap (Practical).",
+    "move": "\"That sounds maddening — getting blindsided two days out is rough. Want to vent a minute or map how to push back?\""
+   },
+   {
+    "lines": "Manager: \"We're reviewing Q3 headcount.\" -> Suddenly says stiffly: \"Wait, are you saying my team's forecast wasn't accurate?\"",
+    "type": "Social",
+    "shift": "Mid-stream shift: Practical -> Social (Identity/Competence threat).",
+    "move": "\"Not at all — your team's Q2 forecast was spot-on. I'm just flagging one new vendor cost that landed yesterday.\""
+   },
+   {
+    "lines": "Friend: \"I have 10 minutes before my flight — should I take the Blue Line or a cab in this rain?\"",
+    "type": "Practical",
+    "shift": "Pure Practical — needs crisp logistics, not feelings talk.",
+    "move": "\"Take the Blue Line — highway traffic is deadlocked right now. Text me when you land!\""
+   },
+   {
+    "lines": "Partner: \"It's fine, we can go to your sister's again. I just feel like my family is always an afterthought.\"",
+    "type": "Social",
+    "shift": "Looks Practical (calendar), actually Social (who are we / fairness).",
+    "move": "\"Stop the calendar — your family isn't an afterthought to me. It sounds like you've been feeling sidelined on holidays. Am I getting that right?\""
+   },
+   {
+    "lines": "Friend: \"I told my mom I couldn't visit and she went totally silent. I feel awful.\"",
+    "type": "Emotional",
+    "shift": "Emotional — needs Rogers natural loop, not advice.",
+    "move": "\"It sounds like that silence landed really heavy — like you're carrying guilt just for setting a limit. Is that close?\""
+   },
+   {
+    "lines": "Colleague: \"Wait, why did you explain that basic accounting rule to me twice?\"",
+    "type": "Social",
+    "shift": "Practical -> Social (Status/Intelligence threat).",
+    "move": "\"My bad — I slipped into over-explaining. I know you know the rule cold; let's jump straight to the exception.\""
+   }
+  ]
+ },
+ "form.blue.B4": {
+  "type": "form",
+  "journal": "blue.B4"
+ },
+ "rungs.blue.B5.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B5_P1",
+  "title": "Socratic rungs · Part 1 · Voss: labels and the accusation audit",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In a hard session, when did someone name a feeling in the room and change it?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is a label, what is an accusation audit, and where did Voss develop them?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write a label for something a friend said recently. Then a non-example: a label followed by a counter-argument."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three moments when you said \"I understand\" or argued too soon. Only then rate how often you pause after naming something, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does a counter-argument right after a label protect? What does the silence cost you?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Write an accusation audit for your promotion conversation. Which accusation touches your W3 hidden commitment? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Tactical empathy is empathy used for an outcome. In the personal dojo, when does a label become technique instead of witnessing?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Do the label minute with Claude or a friend. Before you start, predict where you will break into a question. Afterward, note what happened. Write what result would show labels did not open the conversation."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel in the silence after a label?"
+   }
+  ]
+ },
+ "rungs.blue.B5.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B5_P2",
+  "title": "Socratic rungs · Part 2 · Bennett: empathy across difference",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "As a third-culture kid, when did someone treat you \"as they would want to be treated\" and miss you completely?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: why does Bennett say the Golden Rule fails across difference?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of sympathy and one of empathy for the same situation. Then a non-example: empathy without re-establishing yourself."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you imagined someone's experience. For each, write whether you returned to your own view afterward. Only then rate how often you skip the last step, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does staying in their frame protect for you? What does it cost your own position?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Link the last step to over-understanding from White Belt. State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is Bennett's empathy possible across power gaps, for example toward someone who has power over you? What changes?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In one conversation this week, write their likely frame beforehand, then after it write your own view again in one sentence. Before you begin, predict whether your view will change. Afterward, record whether it did. Write what result would show you lost your own position."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the sign that you have stayed in their frame too long?"
+   }
+  ]
+ },
+ "rungs.blue.B5.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B5_P3",
+  "title": "Socratic rungs · Part 3 · Singer and Klimecki: empathy, compassion and the boundary",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In psychiatric or medical sessions, how did you stay steady while rendering someone's pain? What did it cost you afterward?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: how do Singer and Klimecki distinguish empathy from compassion?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write a \"validate the emotion, hold the boundary\" sentence. Then a non-example: a validation that cancels the boundary."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you understood someone so well you excused them. Only then rate how often empathy becomes distress for you, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does feeling someone's pain protect: the bond, your sense of being good? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Pair this with Simon's over-intellectualization from W3 Part 2. State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self and Body."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Bloom argues against empathy as a guide to action. What does that miss about friendship and interpreting?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Use one boundary sentence in a real moment where you tend to over-understand. Before you do, predict what you will feel. Afterward, record their words and your body. Write what result would show the boundary did not hold."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the first body sign that you are taking on someone's feeling?"
+   }
+  ]
+ },
+ "drill.blue.B5.B5_prompts": {
+  "type": "drill",
+  "set": "B5_prompts",
+  "belt": "blue",
+  "items": [
+   "\"I don't see how we can possibly hit Friday if your team keeps changing requirements!\"",
+   "\"Honestly, I feel like I'm the only one carrying this friendship lately.\"",
+   "\"If you can't sharpen your pencil by 15% today, we're going with another vendor.\"",
+   "\"You're asking for a promotion right when leadership is freezing headcount?\"",
+   "\"I'm just wiped out — every time I get ahead at work, something at home blows up.\""
+  ]
+ },
+ "linter.blue.labelminute": {
+  "type": "linter",
+  "kind": "labelMinute",
+  "title": "Live Label Minute Simulator (Voss)",
+  "prompts": [
+   "\"I don't see how we can possibly hit Friday if your team keeps changing requirements!\"",
+   "\"Honestly, I feel like I'm the only one carrying this friendship lately.\"",
+   "\"If you can't sharpen your pencil by 15% today, we're going with another vendor.\"",
+   "\"You're asking for a promotion right when leadership is freezing headcount?\"",
+   "\"I'm just wiped out — every time I get ahead at work, something at home blows up.\""
+  ],
+  "help": "Respond using ONLY a neutral label (It seems / sounds / looks like...). Questions (?), I understand, and but are blocked, followed by a 3-second Dynamic Silence lock.",
+  "placeholder": "It sounds like..."
+ },
+ "linter.blue.periodbut": {
+  "type": "linter",
+  "kind": "periodBut",
+  "title": "Period-Not-\"But\" Boundary Linter (Singer & Klimecki)",
+  "placeholder": "It sounds like you're under huge pressure. I'm still not able to drop the rate."
+ },
+ "form.blue.B5": {
+  "type": "form",
+  "journal": "blue.B5"
+ },
+ "rungs.blue.B6.p1": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B6_P1",
+  "title": "Socratic rungs · Part 1 · Fiske and Cuddy: warmth before competence",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When you moved to a new city, what did you lead with when meeting people?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are warmth and competence in this model, and why does order matter?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one warm opening line and one competence opening line for the same setting. Then a non-example: warmth that is really flattery."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three first meetings in the last few months: how you opened and how it went. Only then rate how often you lead with competence, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does leading with expertise protect, given your W3 intelligence hook? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "In Spain, will warmth look different? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "For someone who has been doubted because of accent or race, is leading with warmth a risk? When might showing competence first protect you?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In two low-stakes first meetings, lead with one warm question and no credentials. Before you do, predict the response. Afterward, record what happened. Write what result would show competence would have worked better."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the moment you feel the pull to prove yourself?"
+   }
+  ]
+ },
+ "rungs.blue.B6.p2": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B6_P2",
+  "title": "Socratic rungs · Part 2 · Epley and Boothby: we underestimate how much others like us",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did you wait to be approached and later learn the other person had wanted to talk to you?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is the liking gap, and what did Epley and Schroeder find about strangers?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a forecasting error about a conversation and one non-example: a well-founded caution."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you did not go first. For each, write what you predicted would happen. Only then rate how often your forecasts are too pessimistic, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does waiting protect for you? Where did you learn that waiting was safer? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does the liking gap feed your W3 big assumption? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Could the liking gap be smaller or larger in Argentine or Spanish social life? What would you need to know?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Do the daily initiation for five days. Before each, write a 0 to 10 forecast of how it will go. Afterward, rate how it went and note one outside data point, their words. Write what result would show your forecasts are accurate."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What sentence in your head says \"they probably don't want to\"?"
+   }
+  ]
+ },
+ "rungs.blue.B6.p3": {
+  "type": "rungs",
+  "belt": "blue",
+  "key": "B6_P3",
+  "title": "Socratic rungs · Part 3 · Aron: escalating disclosure and the ping",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "What is the smallest true thing you have ever said that changed a friendship?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did Aron's procedure do, and why does it work in the lab?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one ping at the right size for a gym acquaintance, and a non-example: a ping that asks them to carry you."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you offered a ping, or held one back. Only then rate how often you go first with disclosure, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does holding back protect? What does it cost the friendships you want?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "How does a ping relate to the clean no in W5, both being small acts of visibility? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In high-context cultures an early reveal can read as poor judgment. Where in Spain would a ping land well, and where would it not?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Run the ping and pause with two acquaintances. Before each, predict whether they will return it. Afterward, record their words and what you did next. Write what result would show pings do not work in your settings."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel in the pause after a ping, before they answer?"
+   }
+  ]
+ },
+ "drill.blue.B6.B6_drills": {
+  "type": "drill",
+  "set": "B6_drills",
+  "belt": "blue",
+  "items": [
+   {
+    "setting": "Gym acquaintance (3rd week chatting)",
+    "ping": "\"Honestly trying to build real community in this neighborhood instead of rushing home after workouts.\"",
+    "reply": "\"Same! Half my friends moved to the suburbs last year — it's weird making friends as an adult.\"",
+    "light": "GREEN",
+    "move": "Respond warmly + propose a specific 2nd meeting: \"Want to grab coffee at the corner spot after Saturday's class?\""
+   },
+   {
+    "setting": "New colleague at lunch",
+    "ping": "\"Pretty good week — stretching myself learning to lead the sync without over-prepping every slide.\"",
+    "reply": "\"Haha, yeah, slides take forever. Hey, did you see the new café down the street?\"",
+    "light": "RED",
+    "move": "Respect the Red Light instantly — smile and pivot smoothly to the café with zero awkwardness (Validity of the Shallows)."
+   },
+   {
+    "setting": "Neighborhood Spanish meetup",
+    "ping": "\"I moved here a few years back and still miss slow sobremesa dinners where nobody checks the clock.\"",
+    "reply": "\"Aw yeah, that's such a nice rhythm. Hope you find a good crew here!\"",
+    "light": "YELLOW",
+    "move": "Friendly hold — match warmth, don't push deeper today, keep showing up consistently at the watering hole."
+   },
+   {
+    "setting": "Peer from another team (agenda-free coffee)",
+    "ping": "\"I'm realizing I love the strategy work way more than pure close spreadsheets.\"",
+    "reply": "\"Oh interesting — what's been the favorite strategy project you've touched this year?\"",
+    "light": "GREEN",
+    "move": "Share a 2-sentence real answer, ask a Take-Me-Back question back, and propose another coffee next month."
+   },
+   {
+    "setting": "Coworker you barely know",
+    "ping": "\"I've been spiraling all week because I feel like my career is a failure and nobody gets me.\"",
+    "reply": "(Awkward silence, glances at laptop) \"Oh... sorry to hear that, hope it gets better.\"",
+    "light": "TOO RAW",
+    "move": "Calibration error: unprocessed crisis asked them to carry you. Reset lightly and keep early pings small and processed."
+   },
+   {
+    "setting": "Madrid café / regular class (Presence-First)",
+    "ping": "Returning to the same Tuesday class for 4 weeks, putting phone away, lingering 10 mins after to chat.",
+    "reply": "\"Hey! A few of us are grabbing a caña down the block — want to join?\"",
+    "light": "GREEN",
+    "move": "Say yes! Presence-first regularity + watering hole lowered friction without needing a heavy verbal reveal."
+   }
+  ]
+ },
+ "form.blue.B6": {
+  "type": "form",
+  "journal": "blue.B6"
+ },
+ "marker.blue-s2.s2-1": {
+  "type": "marker",
+  "id": "blue-s2.s2-1",
+  "text": "A disagreement with someone close ends with both of you feeling more known, not less."
+ },
+ "marker.blue-s2.s2-2": {
+  "type": "marker",
+  "id": "blue-s2.s2-2",
+  "text": "You answered the concern instead of the complaint, and the argument stopped being an argument."
+ },
+ "marker.blue-s2.s2-3": {
+  "type": "marker",
+  "id": "blue-s2.s2-3",
+  "text": "You named a loop instead of fighting inside it, and both of you laughed or softened."
+ },
+ "form.blue.capstone": {
+  "type": "form",
+  "journal": "blue.capstone"
+ },
+ "evidence.blue": {
+  "type": "evidence",
+  "belt": "blue",
+  "cols": [
+   "Baselines taken",
+   "Reads checked back (right / revised)",
+   "Labels with a full pause",
+   "Conversation type matched",
+   "Initiations",
+   "Pings returned"
+  ]
+ },
+ "grid.brown": {
+  "type": "grid",
+  "belt": "brown"
+ },
+ "evidence.brown": {
+  "type": "evidence",
+  "belt": "brown",
+  "cols": [
+   "Asks as proposals",
+   "Purposes stated",
+   "Four-part statements",
+   "Disclosures",
+   "Repairs",
+   "Translation strips"
+  ]
+ },
+ "rungs.brown.Br1.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br1_Monday",
+  "title": "Socratic rungs · Part 1 · Goffman: face and face-work",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "As an interpreter, how did you protect someone's face when rendering a blunt line?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what does Goffman mean by face, and why is it held jointly?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of face-work that protects both people and a non-example: face-work that protects only you."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three asks or critiques you made recently and whose face each threatened. Only then rate how much face-work you usually do, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does heavy face-work protect for you? When does it cost you the ask?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your W2 Diplomat fallback do face-work for others at the cost of your own face? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is face the same idea in Rioplatense and Peninsular Spanish? Where does Goffman's US setting show?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Make one critique this week with one softening move, no more. Before you do, predict their reaction. Afterward, record their words. Write what result would show the softening was unnecessary or too little."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel just before a face-threatening sentence?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your asks, your episodes or your ratings."
+ },
+ "rungs.brown.Br1.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br1_Tuesday",
+  "title": "Socratic rungs · Part 2 · Brown and Levinson: five strategies and the weight of an ask",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Which strategy did you use most when you first learned English, and which in Spanish?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are positive and negative face, and what three factors set the weight of an ask?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one ask in all five strategies. Then a non-example: off-record that is really passive aggression."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three asks from work emails. For each, mark the strategy and the three factors. Only then rate how well your wrapping matched the weight, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does negative politeness protect for you? When does it become asking from below?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Do the translation drill on one ask in English and Spanish. Where does the wrapping change? State a guess and what would show it wrong. In your Orders Grid this sits in Mind and Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "If negative face is less central in some cultures, is the autonomy wrap still useful in Argentina? In Spain?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Rewrite two real asks so the ask survives the wrap. Before you send, predict the response. Afterward, record what came back. Write what result would show the rewrite cost you warmth."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the first hedge word you reach for?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your asks, your rewrites or your ratings."
+ },
+ "rungs.brown.Br1.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br1_Wednesday",
+  "title": "Socratic rungs · Part 3 · O'Barr: powerless speech and credibility",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In legal sessions, did you notice how a witness's phrasing changed how they were heard?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did O'Barr's team find about powerless speech, and what did they say it tracks?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Rewrite one powerless sentence into a powerful one. Then a non-example: a hedge that is honest uncertainty."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Take five recent work emails. Mark every hedge, tag and apology. Only then rate how often your asks use the powerless style, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does the powerless style protect for you? When did it first help you?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your accent concern from Br3 push you toward more or fewer hedges? State a guess and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In Spanish, some politeness forms are standard, not weak. Is “powerless” a fair label across languages?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Send three asks this week without hedges or tags. Before you send, predict the replies. Afterward, record them. Write what result would show the hedges were doing useful work."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel when an ask sits on the screen with no hedge?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your asks, your rewrites or your ratings."
+ },
+ "calc.brown.faceweight": {
+  "type": "faceweight"
+ },
+ "linter.brown.ask": {
+  "type": "linter",
+  "kind": "ask",
+  "title": "Live Ask Linter (Proposal Strength Score)"
+ },
+ "legacy.brown.Br1": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br1 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br1": {
+  "type": "form",
+  "journal": "brown.Br1"
+ },
+ "rungs.brown.Br2.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br2_Monday",
+  "title": "Socratic rungs · Part 1 · Tannen: message and metamessage",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When you interpreted, did you have to choose between rendering the message and the metamessage? What did you do?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is a metamessage, and what is the involvement and independence double bind?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one statement with two possible metamessages. Then a non-example: a statement where you are projecting a metamessage."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three turns from a recent hard conversation, message and metamessage side by side. Only then rate how often you argue the message when the fight was the metamessage, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does arguing the message protect? What does naming the metamessage risk?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Is the involvement and independence axis the same as positive and negative face in Br1? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Can you ever know a metamessage, or only guess it? What makes a guess fair?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Once this week, accept a message and decline its metamessage aloud. Before you do, predict the response. Afterward, record their words. Write what result would show you misread the metamessage."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When a sentence stings, what is the metamessage you heard?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your audits, your episodes or your ratings."
+ },
+ "rungs.brown.Br2.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br2_Tuesday",
+  "title": "Socratic rungs · Part 2 · Watzlawick: content and relationship",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Think of a family argument from your childhood. What was it about on the surface, and what was it really about?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what do “one cannot not communicate” and “content and relationship” mean?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a relationship fight disguised as content and one non-example: a real content disagreement."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three recent disagreements. For each, name the content and the relationship level. Only then rate how often you answer the content when the relationship was at stake, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does staying at the content level protect for you? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Your W2 Expert fallback over-explains content. Does it show up when the relationship level is threatened? State a guess and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "“One cannot not communicate”: does that mean your silence in the Observer fallback is a message too? What does it say?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In one disagreement, name the relationship level tentatively (“I wonder if this is really about…”). Before you do, predict the reaction. Afterward, record their words. Write what result would show it was a content disagreement after all."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What tells you a content argument has become a relationship argument?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your levels or your ratings."
+ },
+ "rungs.brown.Br2.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br2_Wednesday",
+  "title": "Socratic rungs · Part 3 · Giles: communication accommodation",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When do you converge toward someone's Spanish or English without thinking? When do you diverge on purpose?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are convergence and divergence, and why do people do each?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of helpful convergence and one non-example: convergence that erases you."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three conversations where you shifted your style. Only then rate how often you converge to fit rather than to connect, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does converging protect for you? What does diverging cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Is the Diplomat's Word shadow, “converges until the self disappears,” a case of over-convergence? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "When someone over-accommodates to you because of your accent, what do you do? When is divergence the dignified move?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In two meetings, shift your pace one notch toward the other person on purpose. Before each, predict the effect. Afterward, record what they did. Write what result would show matching made no difference."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "How do you notice that you have converged without choosing to?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your shifts or your ratings."
+ },
+ "drill.brown.BR2_SCENARIOS": {
+  "type": "drill",
+  "set": "BR2_SCENARIOS",
+  "belt": "brown",
+  "items": [
+   {
+    "turn": "Colleague: “In the spirit of true partnership, I know you'll want to absorb this extra weekend scope so we hit our mutual ROI.”",
+    "type": "Achiever's Spin",
+    "msg": "We are partners working toward mutual ROI.",
+    "meta": "If you say no, you are violating partnership—agree with my outcome.",
+    "choices": [
+     {
+      "lbl": "Argue the Content",
+      "txt": "“Actually, the ROI calculation doesn't even include my overtime hours!”",
+      "ok": false,
+      "fb": "Trap! Debating ROI keeps you trapped inside their frame."
+     },
+     {
+      "lbl": "Accept Message, Decline Metamessage (Target)",
+      "txt": "“I agree completely about partnership—which is exactly why taking on weekend scope without dropping a priority won't work for us.”",
+      "ok": true,
+      "fb": "Clean separation! You kept partnership intact while declining the hidden funnel."
+     },
+     {
+      "lbl": "Accuse the Metamessage",
+      "txt": "“I see what you're doing—you're using 'partnership' to manipulate me.”",
+      "ok": false,
+      "fb": "Weaponizing 'metamessage' triggers immediate defensiveness."
+     }
+    ]
+   },
+   {
+    "turn": "Manager (on Slack, 15 min after sending a doc): “Did you get my last email?”",
+    "type": "Relationship Bid / Urgency Metamessage",
+    "msg": "Checking whether the email arrived.",
+    "meta": "You're behind / respond faster.",
+    "choices": [
+     {
+      "lbl": "Defensive Over-Explanation",
+      "txt": "“Sorry! I was on two calls and my inbox froze, I'm opening it right now!”",
+      "ok": false,
+      "fb": "Signals panic and reinforces asking from below."
+     },
+     {
+      "lbl": "Answer Both Tracks Calmly (Target)",
+      "txt": "“Got it—I'm reviewing it now and will send my notes by 3pm. Does that timing work?”",
+      "ok": true,
+      "fb": "Answers the literal check AND settles the unspoken urgency cleanly."
+     },
+     {
+      "lbl": "Literal Sarcasm",
+      "txt": "“Yes, Gmail is working fine.”",
+      "ok": false,
+      "fb": "Escalates into a battle frame."
+     }
+    ]
+   },
+   {
+    "turn": "Rioplatense friend overlaps the end of your story twice, saying “¡Totalmente, me pasó igual!” while leaning in.",
+    "type": "Style Clash (High-Involvement Overlap)",
+    "msg": "Sharing enthusiasm and a similar experience.",
+    "meta": "I am deeply involved with you (NOT 'be quiet').",
+    "choices": [
+     {
+      "lbl": "Treat as Disrespect",
+      "txt": "“Can you please stop interrupting me?”",
+      "ok": false,
+      "fb": "Misreads high-involvement care as hostility."
+     },
+     {
+      "lbl": "Match Energy & Keep Thread (Target)",
+      "txt": "Smile, speed up half a notch, and continue your story—your topic survived.",
+      "ok": true,
+      "fb": "Tannen's rule: cooperative overlap supports your topic; match slightly on purpose."
+     },
+     {
+      "lbl": "Observer Withdrawal",
+      "txt": "Go silent and stop sharing the rest of the story.",
+      "ok": false,
+      "fb": "Silence communicates coldness in a high-involvement setting."
+     }
+    ]
+   },
+   {
+    "turn": "After hearing your accent, a new vendor suddenly slows down to half speed and says: “So… do… you… under-stand… the… in-voice?”",
+    "type": "Over-Accommodation (Giles)",
+    "msg": "Confirming comprehension of the invoice.",
+    "meta": "Assuming lower competence due to accent.",
+    "choices": [
+     {
+      "lbl": "Expert Over-Proving",
+      "txt": "Deliver a 3-minute lecture using dense accounting jargon to prove your IQ.",
+      "ok": false,
+      "fb": "Feeds the Intelligence hook and looks defensive."
+     },
+     {
+      "lbl": "Dignified Divergence & Crisp Footing (Target)",
+      "txt": "Keep your normal crisp pace and natural voice: “Yes—line 4 has a 2% variance against our PO. Let's resolve that first.”",
+      "ok": true,
+      "fb": "Dignified divergence! Calm, concise competence resets the frame without attacking."
+     },
+     {
+      "lbl": "Diplomat Over-Convergence",
+      "txt": "Apologize for your accent and nod along without flagging the error.",
+      "ok": false,
+      "fb": "Diplomat Word shadow: converging until the self disappears."
+     }
+    ]
+   },
+   {
+    "turn": "Partner/Friend (after a tense week): “You left your mug on the counter again. You never notice anything around here.”",
+    "type": "Content vs. Relationship (Watzlawick)",
+    "msg": "A mug was left on the counter.",
+    "meta": "Am I carrying the load alone? Do I matter to you?",
+    "choices": [
+     {
+      "lbl": "Fight on Content",
+      "txt": "“I literally washed all the dishes Tuesday and Wednesday!”",
+      "ok": false,
+      "fb": "Deepens the battle frame while the relationship bid goes unheard."
+     },
+     {
+      "lbl": "Break Frame to Relationship Level (Target)",
+      "txt": "“I'll grab the mug—and wait, it sounds like you've been feeling like you're carrying everything alone this week. Can we check in?”",
+      "ok": true,
+      "fb": "Breaks the battle frame cleanly and answers the real relationship track."
+     },
+     {
+      "lbl": "Cold Silence",
+      "txt": "Wash the mug silently and leave the room.",
+      "ok": false,
+      "fb": "Watzlawick's axiom: one cannot not communicate—silence broadcasts resentment."
+     }
+    ]
+   },
+   {
+    "turn": "Senior peer in a stuck meeting: “We've already spent twenty minutes on this—let's just go with my version so we don't waste time.”",
+    "type": "Frame Control Metamessage",
+    "msg": "Wanting to save meeting time.",
+    "meta": "I am taking the wheel and closing debate.",
+    "choices": [
+     {
+      "lbl": "Direct Frame-Breaker (Target)",
+      "txt": "“I want to move fast too—let's treat this as a 5-minute design check on the one risk I flagged, then lock the decision.”",
+      "ok": true,
+      "fb": "Breaks the binary without attacking; proposes a transparent, time-boxed frame."
+     },
+     {
+      "lbl": "Diplomat Fold",
+      "txt": "“Sure, whatever is fastest for everyone.”",
+      "ok": false,
+      "fb": "Surrenders your contribution and hides real risk."
+     },
+     {
+      "lbl": "Expert Counter-Lecture",
+      "txt": "“Going fast is actually slower if we ignore sections 3 through 9…”",
+      "ok": false,
+      "fb": "Triggers an ego debate."
+     }
+    ]
+   },
+   {
+    "turn": "Hot Battle Frame (Voices rising): “You always slow down approvals with extra checks—we're losing momentum because of you!”",
+    "type": "Indirect vs. Direct Frame-Break (Tannen)",
+    "msg": "Frustration over approval speed.",
+    "meta": "Blame attack inside an active battle frame.",
+    "choices": [
+     {
+      "lbl": "Hot Direct Metacommunication",
+      "txt": "“You're putting me in a battle frame right now and attacking my character!”",
+      "ok": false,
+      "fb": "Tannen's warning: hot direct metacommunication reinforces the battle frame."
+     },
+     {
+      "lbl": "Indirect Frame-Break + Tentative Check (Target)",
+      "txt": "Pause 2 full seconds, lower volume one notch, point to the shared timeline: “Let's take a breath—we both want Friday's launch clean. Which single check is blocking you right now?”",
+      "ok": true,
+      "fb": "Mastery! Indirect break (pause + lower volume + shared artifact) cools heat before reframing."
+     },
+     {
+      "lbl": "Observer Cold Shutdown",
+      "txt": "Stare silently for 10 seconds and close your laptop.",
+      "ok": false,
+      "fb": "Watzlawick Axiom 1: cold silence escalates the relationship breach."
+     }
+    ]
+   }
+  ]
+ },
+ "legacy.brown.Br2": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br2 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br2": {
+  "type": "form",
+  "journal": "brown.Br2"
+ },
+ "rungs.brown.Br3.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br3_Monday",
+  "title": "Socratic rungs · Part 1 · Pavlenko: emotions in two languages",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "You came to English at nine. Which language do you swear in, pray in, comfort in?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what does Pavlenko find about emotion across languages, and why does she stress variation?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of the detachment effect and a non-example: an English word that hits as hard as any Spanish one."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three emotional moments and which language they happened in. Only then rate how much your languages differ emotionally, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does saying hard things in English protect? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your English self lean toward the Expert fallback and your Spanish self toward another? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "You learned English partly among peers as a child. Is it really your “second” language emotionally? What would Pavlenko say?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Tell one important feeling in Spanish to someone who speaks it, and the same feeling in English to someone else. Before you do, predict the difference. Afterward, record both responses and what you felt. Write what result would show the languages feel the same for you."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When you switch language mid-sentence, what made you switch?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your feelings or your ratings."
+ },
+ "rungs.brown.Br3.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br3_Tuesday",
+  "title": "Socratic rungs · Part 2 · Wierzbicka: words that do not translate",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Which word do you most often fail to translate in sessions, and what do you do instead?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: why does Wierzbicka think key words reveal cultures?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Trace one keyword across English, Rioplatense Spanish and Spain. Then a non-example: a word that translates cleanly."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three misunderstandings that hung on one word. Only then rate how often key words trip conversations you are in, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does choosing one language's word over another protect for you?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Which keyword matters most in your friendships, and which at work? State a guess and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Can a word be untranslatable if a skilled interpreter can always explain it? What is lost in the explanation?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Ask two people from different backgrounds what “respect” means to them. Before you ask, predict their answers. Afterward, record them. Write what result would show the word means the same to both."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When a word feels wrong in your mouth, what is it missing?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your lexicon, your episodes or your ratings."
+ },
+ "rungs.brown.Br3.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br3_Wednesday",
+  "title": "Socratic rungs · Part 3 · Lev-Ari and Lippi-Green: accent and credibility",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "As an interpreter, did you notice listeners treat accented speakers differently? How?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did Lev-Ari and Keysar claim, and how does Lippi-Green explain accent bias differently?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of identity threat in a practical conversation and a non-example: a real comprehension problem that is not about you."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three moments when you thought your accent changed how you were heard. Only then rate how much evidence you had each time, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does adding more proof when you feel doubted protect? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Link this to W2's Expert fallback and Br1's powerless speech. State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self and Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "If the research is mixed, how much should accent shape what you do? What would a dignity lens, Hicks's, add?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In one meeting where you fear being doubted, make your point once with one reason and no extra proof. Before you speak, predict the response. Afterward, record what happened. Write what result would show extra proof was needed."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the first sign you have shifted into proving?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your points or your ratings."
+ },
+ "drill.brown.BR3_WORDS": {
+  "type": "drill",
+  "set": "BR3_WORDS",
+  "belt": "brown",
+  "items": [
+   {
+    "word": "fair",
+    "us": "Equal rules applied neutrally to all; high moral weight in US offices.",
+    "rio": "'Justo'—carries moral/relational weight; 'ser justo' isn't purely procedural.",
+    "es": "'Justo' / 'razonable'—often tied to common sense and mutual consideration.",
+    "misfire": "Saying 'that's not fair' in US business sounds childish; 'let's look at what's equitable' lands better."
+   },
+   {
+    "word": "confianza",
+    "us": "'Trust' is narrower—mostly reliability & competence.",
+    "rio": "Deep warmth, intimacy, permission to be informal and drop the mask.",
+    "es": "Closeness + ease ('estar en confianza'); inviting someone to feel at home.",
+    "misfire": "Translating 'en confianza' as 'confidentially' or 'in trust' loses the relational warmth."
+   },
+   {
+    "word": "compromise / compromiso",
+    "us": "'Compromise' = positive mutual give-and-take.",
+    "rio": "'Compromiso' = obligation, commitment, or awkward spot ('un compromiso').",
+    "es": "'Compromiso' = firm commitment/pledge; mutual deal is 'llegar a un acuerdo' or 'ceder'.",
+    "misfire": "Saying 'lleguemos a un compromiso' can sound like creating a burden rather than a win-win deal."
+   },
+   {
+    "word": "respect / respeto",
+    "us": "Professional regard for boundaries, competence, and equal standing.",
+    "rio": "Care for dignity and elders ('respeto'); can carry distance if over-formal.",
+    "es": "Mutual courtesy and non-intrusion; peer directness doesn't violate respect.",
+    "misfire": "Blunt peer feedback in Spain can feel disrespectful to US ears, while US hyper-politeness can feel fake."
+   },
+   {
+    "word": "orgullo / pride",
+    "us": "Healthy self-respect or accomplishment ('proud of you').",
+    "rio": "Often splits between warm pride and stubborn ego ('pecar de orgulloso').",
+    "es": "Similar split: dignity vs. stubborn refusal to bend.",
+    "misfire": "Calling someone 'proud' in English vs. 'orgulloso' in Spanish can invert praise into critique."
+   }
+  ]
+ },
+ "legacy.brown.Br3": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br3 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br3": {
+  "type": "form",
+  "journal": "brown.Br3"
+ },
+ "rungs.brown.Br4.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br4_Monday",
+  "title": "Socratic rungs · Part 1 · Torbert: four parts of speech",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Which part did you use most as an interpreter, and which never?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are the four parts, and why does Torbert want them balanced?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one statement in all four parts. Then a non-example: a question that hides an unstated position."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three recent conversations where you wanted something. For each, mark which parts you used. Only then rate which part you skip most, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does skipping advocacy protect? What does it cost the other person?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Draft your promotion ask in four parts. Which part is hardest to write? State a guess and what would show it wrong. In your Orders Grid this sits in Mind and Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In a high-context setting, is framing and advocating too blunt? What would Torbert say back?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Do the four-part drill with Claude or a friend in under 45 seconds. Before you start, predict where you will hedge. Afterward, note what happened. Write what result would show the structure did not help."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel just before you advocate?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your statements, your episodes or your ratings."
+ },
+ "rungs.brown.Br4.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br4_Tuesday",
+  "title": "Socratic rungs · Part 2 · Altman and Taylor: breadth and depth",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Think of a friendship that went deep fast. What did each of you share first?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what are breadth and depth, and why does pace matter?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write a disclosure that adds breadth and one that adds depth. Then a non-example: depth that skips layers."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Choose two friendships. Map the breadth and depth you have shared. Only then rate where you stall, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does staying at one layer protect for you? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Place your Reveal ladder on these layers. State a guess about which rung is too big too soon and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Altman later said openness cycles. Does that change how you read a friend who pulls back?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Make the smallest two disclosures on your ladder. Before each, predict whether it will be returned. Afterward, record their words. Write what result would show you misjudged the layer."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What tells you a disclosure is one layer too deep?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your ladder, your episodes or your ratings."
+ },
+ "rungs.brown.Br4.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br4_Wednesday",
+  "title": "Socratic rungs · Part 3 · Collins and Miller: disclosure and liking",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Who do you feel closest to, and who disclosed first between you?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what three links did Collins and Miller find?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of an appropriate intimate disclosure and one non-example: oversharing to create obligation."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three friendships and how disclosure has flowed in each. Only then rate how often you receive more than you give, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does listening without disclosing protect? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does the Expert's Reveal shadow, facts instead of feelings, keep you liked but unknown? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "The studies are mostly American students. Would Argentine or Spanish friends read early disclosure the same way?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Answer one “how are you?” a day with something true for five days. Before you start, predict the responses. Afterward, record one outside data point each day. Write what result would show disclosure did not warm anything."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When someone discloses to you, what do you do in the next sentence?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your disclosures, your episodes or your ratings."
+ },
+ "timer.brown.compressor": {
+  "type": "timer",
+  "title": "45-Second Compressor",
+  "seconds": 45,
+  "button": "Start 45s",
+  "done": "Time"
+ },
+ "legacy.brown.Br4": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br4 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br4": {
+  "type": "form",
+  "journal": "brown.Br4"
+ },
+ "rungs.brown.Br5.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br5_Monday",
+  "title": "Socratic rungs · Part 1 · Fisher and Shapiro: inform, consult, negotiate",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When were you “consulted” on something already decided? How did it feel?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: why do Fisher and Shapiro want the decision type named?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of each type and a non-example: consultation used as cover."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three decisions that caused friction. For each, name the type that was used and the type that was assumed. Only then rate how often you leave the type unstated, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does leaving it vague protect? What does it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Which type will you propose for your promotion conversation? State a guess about what your manager expects and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "In a hierarchy-first culture, is naming the type presumptuous for a junior person?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Name the decision type out loud once this week. Before you do, predict the reaction. Afterward, record their words. Write what result would show it made no difference."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel when you realize a decision was made without you?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your decisions or your ratings."
+ },
+ "rungs.brown.Br5.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br5_Tuesday",
+  "title": "Socratic rungs · Part 2 · Voss: calibrated questions and false deadlines",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In bureaucratic settings you have interpreted, which question got things moving?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what makes a question calibrated, and what does Voss say about deadlines?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Turn three yes/no questions into calibrated ones. Then a non-example: a “how” question that is an accusation."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three times you argued when you could have asked. Only then rate how often you steer by argument, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does arguing protect for you? What does asking risk?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Write calibrated questions for one bureaucratic task you face, such as records or a consulate. State a guess about the reply and what would show it wrong. In your Orders Grid this sits in Mind."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is a calibrated question honest if you already know the answer you want?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Use one calibrated question in a bureaucratic or work setting. Before you do, predict the answer. Afterward, record it. Write what result would show a direct request would have worked better."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "When you feel rushed, what is the first sentence you want to say?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your questions, your episodes or your ratings."
+ },
+ "rungs.brown.Br5.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br5_Wednesday",
+  "title": "Socratic rungs · Part 3 · Galinsky: first offers and anchoring",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did someone else's first number set the terms for you?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what did Galinsky and Mussweiler find about first offers?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write a first offer for a real ask. Then a non-example: a first offer so low it undercuts you."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three negotiations, at work or in life, and who went first. Only then rate how often you wait for the other side, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does waiting protect? What has it cost?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Write your promotion ask as a first offer with one reason. State a guess about the response and what would show it wrong. In your Orders Grid this sits in Mind and Heart with self."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is anchoring manipulation? When does it pass the transparency test?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In one low-stakes negotiation, name your proposal first. Before you do, predict where you will land. Afterward, record what happened. Write what result would show going first hurt you."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What do you feel when you are about to name a number?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your offers, your episodes or your ratings."
+ },
+ "drill.brown.BR5_QDRILL": {
+  "type": "drill",
+  "set": "BR5_QDRILL",
+  "belt": "brown",
+  "items": [
+   {
+    "bad": "“Why won't you approve my promotion this quarter?”",
+    "good": "“What concrete milestones would you need to see from me to support my move to Senior this cycle?”",
+    "why": "Replaces defensive 'Why' with a warm-curious 'What' that hands them the problem to solve with you."
+   },
+   {
+    "bad": "“Can't you just process my residency form today?” (Bureaucracy)",
+    "good": "“I want to make sure I give you everything you need—what would make it possible to complete this file today?”",
+    "why": "Warm-curious prefix + 'What' turns a gatekeeper into a collaborator."
+   },
+   {
+    "bad": "“Is that deadline actually real or are you just pressuring me?”",
+    "good": "“I want to hit what matters most—what is driving the Friday 3pm cutoff?”",
+    "why": "Tests Voss's false-deadline rule without accusing them of bluffing."
+   },
+   {
+    "bad": "“Will you stop changing the scope every week?”",
+    "good": "“How should we handle mid-week scope additions so the core Q3 close stays protected?”",
+    "why": "Shifts from accusation to joint system design."
+   },
+   {
+    "bad": "“Don't you think my salary is below market?”",
+    "good": "“How does the team benchmark Senior roles against the current market range?”",
+    "why": "Draws out their criteria cleanly without triggering defensiveness."
+   },
+   {
+    "bad": "“Are you going to decide this without asking me?”",
+    "good": "“To make sure I prep the right input—is this one you're deciding solo or would you like to decide it together?”",
+    "why": "Clarifies Fisher & Shapiro's Inform / Consult / Negotiate upward safely."
+   }
+  ]
+ },
+ "legacy.brown.Br5": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br5 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br5": {
+  "type": "form",
+  "journal": "brown.Br5"
+ },
+ "rungs.brown.Br6.Monday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br6_Monday",
+  "title": "Socratic rungs · Part 1 · Hicks: dignity and the repair",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "When did someone repair a harm to you in a way that restored your dignity? What did they say?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what does Hicks mean by dignity, and why does she say repair begins with acknowledgment?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one repair that names the dignity element harmed. Then a non-example: an apology for their feelings."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three harms you caused recently, small or large. Only then rate how often you add a “but,” with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does the “but” protect? What does it cost the repair?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Which of Hicks's temptations shows up when you have caused harm? Use your dignity practice. State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Is owning the act without explanation always right? Part 2's research suggests explanations can help. Where do you stand?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Make one small repair this week. Before you do, predict how it will be received. Afterward, record their words. Write what result would show the repair missed."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the first defensive word that rises when you realize you caused harm?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your repairs, your episodes or your ratings."
+ },
+ "rungs.brown.Br6.Tuesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br6_Tuesday",
+  "title": "Socratic rungs · Part 2 · Lewicki: what makes an apology work",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "In legal or medical sessions, how did apologies sound when they worked, and when they failed?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: which apology parts mattered most in Lewicki's studies?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Write one explanation that explains and one that excuses for the same mistake."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three apologies you gave or received. Mark which components each had. Only then rate which component you skip most, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does asking for forgiveness protect for the apologizer? Why might it matter least?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does Goffman's corrective face-work from Br1 match Lewicki's components? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "The studies used work scenarios. Would a friend want an explanation, or only responsibility?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "In your next repair, include responsibility and an offer of repair. Before you do, predict the response. Afterward, record their words. Write what result would show the components did not matter."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "How do you notice an explanation turning into an excuse mid-sentence?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your apologies, your episodes or your ratings."
+ },
+ "rungs.brown.Br6.Wednesday": {
+  "type": "rungs",
+  "belt": "brown",
+  "key": "Br6_Wednesday",
+  "title": "Socratic rungs · Part 3 · Safran and Muran: rupture and repair",
+  "items": [
+   {
+    "name": "Arrive (rung 0).",
+    "md": "Which friendship of yours survived a real conflict? What happened afterward?"
+   },
+   {
+    "name": "Meet the author (rung 1).",
+    "md": "In your own words: what is a rupture, what are the two kinds, and how is it repaired?"
+   },
+   {
+    "name": "Make sense (rung 2).",
+    "md": "Give one example of a withdrawal rupture and a non-example: someone simply busy."
+   },
+   {
+    "name": "Find it in your life (rung 3).",
+    "md": "Write three ruptures with friends. For each, write whether it was withdrawal or confrontation and what you did. Only then rate which kind you do, with a *because of episode…* line."
+   },
+   {
+    "name": "What it does (rung 4).",
+    "md": "What does withdrawal protect for you? What does it cost a friendship?"
+   },
+   {
+    "name": "Connect (rung 5).",
+    "md": "Does your Observer fallback from W2 look like a withdrawal rupture to others? State a guess and what would show it wrong. In your Orders Grid this sits in Heart with others."
+   },
+   {
+    "name": "Argue (rung 6).",
+    "md": "Therapy has a trained person holding the frame. Who holds it in a friendship?"
+   },
+   {
+    "name": "Test (rung 7).",
+    "md": "Name friction early once this week, about an action, not character. Before you do, predict the response. Afterward, record their words. Write what result would show naming it made things worse."
+   },
+   {
+    "name": "Catch it live (rung 8).",
+    "md": "What is the moment you choose to go quiet instead of naming it?"
+   }
+  ],
+  "foot": "Claude may label an example as “not yours,” ask a follow-up or push back. Claude does not write your episodes, your repairs or your ratings."
+ },
+ "linter.brown.repair": {
+  "type": "linter",
+  "kind": "repair",
+  "title": "Repair Linter"
+ },
+ "drill.brown.BR6_RENO_SIM": {
+  "type": "drill",
+  "set": "BR6_RENO_SIM",
+  "belt": "brown",
+  "items": [
+   {
+    "phase": "Phase 2 · Micro-Friction (Proving the friendship survives a preference)",
+    "prompt": "Your old friend suggests the same loud, crowded bar you always tolerate. You want to shift out of your edited self.",
+    "choices": [
+     {
+      "lbl": "Clean Preference (Target)",
+      "txt": "“That place is too loud for me tonight—let's eat somewhere quieter so we can actually talk.”",
+      "sig": "Green",
+      "reply": "“Oh honestly, I'm glad you said that—my ears were ringing last time too! Where do you want to go?”",
+      "note": "Micro-friction landed! The friendship survived your real preference."
+     },
+     {
+      "lbl": "Edited Self (Old Habit)",
+      "txt": "“Haha sure, whatever you prefer! I'm easy!”",
+      "sig": "Yellow",
+      "reply": "“Cool, see you at 9!”",
+      "note": "Zero friction, but the invisible surface contract stays locked."
+     },
+     {
+      "lbl": "Heavy Confrontation Too Early",
+      "txt": "“I'm tired of you always picking loud places and never asking me.”",
+      "sig": "Red",
+      "reply": "“Whoa, you always said you loved that spot!”",
+      "note": "Unfair ambush—own your own past editing before escalating."
+     }
+    ]
+   },
+   {
+    "phase": "Phase 3 · The Emotional Pivot (Leaving the rough edges in)",
+    "prompt": "At the quiet dinner, they ask: “So how have you been?” Usually you give the polished 30-second highlight reel.",
+    "choices": [
+     {
+      "lbl": "Processed True Disclosure (Target)",
+      "txt": "“Honestly, a mix—work has been solid, and I've been feeling a bit stretched and lonely lately with the move planning.”",
+      "sig": "Green",
+      "reply": "(Sets fork down, leans in) “I'm really glad you told me that. I've actually been feeling unmoored this year too…”",
+      "note": "Green light! Reciprocity opened—safe to consider Phase 4."
+     },
+     {
+      "lbl": "Polished Highlight Reel",
+      "txt": "“Great! Busy with Q3 close, hitting the gym, can't complain!”",
+      "sig": "Yellow",
+      "reply": "“Awesome, love to hear it!”",
+      "note": "Safe and pleasant, but keeps you unknown."
+     },
+     {
+      "lbl": "Unprocessed Flood",
+      "txt": "Spend 25 minutes venting non-stop without pausing to check in on them.",
+      "sig": "Red",
+      "reply": "(Looks overwhelmed, checks watch.)",
+      "note": "Overwhelms the friend—keep reveals processed and reciprocal."
+     }
+    ]
+   },
+   {
+    "phase": "Phase 4 · The Meta-Conversation (Green Light Scenario)",
+    "prompt": "Your friend matched your honesty. You want to invite a deeper friendship contract while owning your own past hiding.",
+    "choices": [
+     {
+      "lbl": "Owned Invitation (Target)",
+      "txt": "“I realized I've mostly given you the highlight reel of my life over the last couple years. I'd love for us to be friends who don't have to perform for each other.”",
+      "sig": "Green",
+      "reply": "“Me too. Honestly I thought you preferred keeping things light—I'd really love that.”",
+      "note": "Mastery! You took responsibility for your part and invited depth with consent."
+     },
+     {
+      "lbl": "Blaming Them",
+      "txt": "“Why do we only ever talk about surface stuff? You never go deep.”",
+      "sig": "Red",
+      "reply": "“I mean, you don't either…”",
+      "note": "Triggers defense instead of co-authoring."
+     }
+    ]
+   },
+   {
+    "phase": "Phase 4 · Graceful Exit (Red/Yellow Light — Consent to Depth)",
+    "prompt": "Suppose instead your friend smiles warmly at your Phase 4 invitation and says: “I appreciate you saying that! Honestly, with two kids right now my emotional battery is pretty low—I mostly love having a fun, light catch-up with you.”",
+    "choices": [
+     {
+      "lbl": "Honor Consent & Validity of Shallows (Target)",
+      "txt": "“Thank you for being totally honest about your battery—I really value our fun catch-ups too, and zero pressure to change what already works.”",
+      "sig": "Green",
+      "reply": "(Visibly relieved) “Thanks for getting it. Let's definitely keep our monthly dinners!”",
+      "note": "Brown Belt maturity! Honoring a 'no' to depth preserves warmth and respects their season."
+     },
+     {
+      "lbl": "Swallowed Resentment",
+      "txt": "“Oh, okay, sure.” (Secretly decide they're a shallow friend and pull away.)",
+      "sig": "Red",
+      "reply": "(Friendship quietly dies.)",
+      "note": "Violates 'Would I accept their no?' and the validity of the shallows."
+     }
+    ]
+   }
+  ]
+ },
+ "legacy.brown.Br6": {
+  "type": "legacy",
+  "href": "/dojo/brown-belt.html",
+  "label": "Open the Br6 lab in the original Brown Belt manual"
+ },
+ "form.brown.Br6": {
+  "type": "form",
+  "journal": "brown.Br6"
+ },
+ "marker.brown-s3.s3-1": {
+  "type": "marker",
+  "id": "brown-s3.s3-1",
+  "text": "You asked a close friend for something you needed without a single buffer, and it was fine."
+ },
+ "marker.brown-s3.s3-2": {
+  "type": "marker",
+  "id": "brown-s3.s3-2",
+  "text": "You answered a bid for closeness or space, rather than its content."
+ },
+ "marker.brown-s3.s3-3": {
+  "type": "marker",
+  "id": "brown-s3.s3-3",
+  "text": "You and a friend found a word that now means something only the two of you understand."
+ },
+ "marker.brown-s3.s3-4": {
+  "type": "marker",
+  "id": "brown-s3.s3-4",
+  "text": "You told someone a real truth with no aim beyond being known, and felt at peace with whatever came back."
+ },
+ "grid.black": {
+  "type": "grid",
+  "belt": "black"
+ },
+ "evidence.black": {
+  "type": "evidence",
+  "belt": "black",
+  "cols": [
+   "Rooms mapped",
+   "Dynamics named",
+   "Frames offered",
+   "Taxes triaged",
+   "Codex entries",
+   "Bridges built"
+  ]
+ },
+ "radar.black": {
+  "type": "radar"
+ },
+ "legacy.black.Bk1": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk1 lab in the original Black Belt manual"
+ },
+ "form.black.Bk1": {
+  "type": "form",
+  "journal": "black.Bk1"
+ },
+ "legacy.black.Bk2": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk2 lab in the original Black Belt manual"
+ },
+ "form.black.Bk2": {
+  "type": "form",
+  "journal": "black.Bk2"
+ },
+ "legacy.black.Bk3": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk3 lab in the original Black Belt manual"
+ },
+ "form.black.Bk3": {
+  "type": "form",
+  "journal": "black.Bk3"
+ },
+ "legacy.black.Bk4": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk4 lab in the original Black Belt manual"
+ },
+ "form.black.Bk4": {
+  "type": "form",
+  "journal": "black.Bk4"
+ },
+ "drill.black.dropRope": {
+  "type": "drill",
+  "set": "dropRope",
+  "belt": "black",
+  "items": [
+   {
+    "id": 1,
+    "tactic": "Flattery → Lopsided Ask",
+    "prompt": "“Honestly, you're the only person sharp enough to untangle this—can you absorb my Q3 audit tonight?”",
+    "exit": "“Thanks for saying that. I can't take on the Q3 audit tonight—let's look at priorities tomorrow at 10.”"
+   },
+   {
+    "id": 2,
+    "tactic": "Shifting the Goalposts",
+    "prompt": "“I know we said Tuesday, but leadership actually meant the full client deck, not just the draft.”",
+    "exit": "“Our Monday email locked the draft for Tuesday. If we're expanding to the full deck, delivery moves to Thursday—which do you prefer?”"
+   },
+   {
+    "id": 3,
+    "tactic": "Manufactured Urgency",
+    "prompt": "“If you don't sign off by 4 PM today, we'll have to move ahead without your team's input.”",
+    "exit": "“I notice we're being pushed to sign off before verifying the revised figures. I'll review tonight and confirm by 10 AM tomorrow.”"
+   },
+   {
+    "id": 4,
+    "tactic": "Guilt-Tripping / Score-Keeping",
+    "prompt": "“After everything I covered for you last month, I thought you were a team player.”",
+    "exit": "“I appreciate your help last month, and I'm still not able to take on weekend scope this week.”"
+   },
+   {
+    "id": 5,
+    "tactic": "Off-Record Pressure Against Policy",
+    "prompt": "“Just between us, leave that exception off the summary so we don't spook the committee.”",
+    "exit": "“I'm not comfortable leaving a material exception off the record—I'll include it neutrally with our mitigation note, and follow up in writing.”"
+   }
+  ],
+  "title": "5-Tactic Drop-the-Rope Rehearsal Deck (Click to Reveal Exit)",
+  "promptLabel": "Incoming Push",
+  "answerLabel": "Calm Drop-the-Rope Exit"
+ },
+ "legacy.black.Bk5": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk5 lab in the original Black Belt manual"
+ },
+ "form.black.Bk5": {
+  "type": "form",
+  "journal": "black.Bk5"
+ },
+ "legacy.black.Bk6": {
+  "type": "legacy",
+  "href": "/dojo/black-belt.html",
+  "label": "Open the Bk6 lab in the original Black Belt manual"
+ },
+ "form.black.Bk6": {
+  "type": "form",
+  "journal": "black.Bk6"
+ },
+ "marker.black-s4.s4-1": {
+  "type": "marker",
+  "id": "black-s4.s4-1",
+  "text": "You stayed warm and steady inside a family or group storm without taking sides or leaving."
+ },
+ "marker.black-s4.s4-2": {
+  "type": "marker",
+  "id": "black-s4.s4-2",
+  "text": "A recurring friction with someone close was redesigned together, and it stopped recurring."
+ },
+ "marker.black-s4.s4-3": {
+  "type": "marker",
+  "id": "black-s4.s4-3",
+  "text": "You stopped trying to change something about someone you love, and the relationship relaxed."
+ },
+ "marker.s1.s1-1": {
+  "type": "marker",
+  "id": "s1.s1-1",
+  "text": "A friend says something like \"thank you for just listening,\" or you realize afterward that you did not offer a single solution—and the room got warmer, not heavier."
+ },
+ "marker.s1.s1-2": {
+  "type": "marker",
+  "id": "s1.s1-2",
+  "text": "You notice your armor arrive mid-conversation with someone who matters, thank it without fighting it, and stay present anyway—at least once."
+ },
+ "marker.s1.s1-3": {
+  "type": "marker",
+  "id": "s1.s1-3",
+  "text": "You let someone help you with something real, and the relationship grew closer—not weaker."
+ },
+ "marker.s2.s2-1": {
+  "type": "marker",
+  "id": "s2.s2-1",
+  "text": "A disagreement with someone close ends with both of you feeling more known, not less."
+ },
+ "marker.s2.s2-2": {
+  "type": "marker",
+  "id": "s2.s2-2",
+  "text": "You answered the concern instead of the complaint, and the argument stopped being an argument."
+ },
+ "marker.s2.s2-3": {
+  "type": "marker",
+  "id": "s2.s2-3",
+  "text": "You named a loop instead of fighting inside it, and both of you laughed or softened."
+ },
+ "marker.s3.s3-1": {
+  "type": "marker",
+  "id": "s3.s3-1",
+  "text": "You asked a close friend for something you needed without a single buffer, and it was fine."
+ },
+ "marker.s3.s3-2": {
+  "type": "marker",
+  "id": "s3.s3-2",
+  "text": "You answered a bid for closeness or space, rather than its content."
+ },
+ "marker.s3.s3-3": {
+  "type": "marker",
+  "id": "s3.s3-3",
+  "text": "You and a friend found a word that now means something only the two of you understand."
+ },
+ "marker.s3.s3-4": {
+  "type": "marker",
+  "id": "s3.s3-4",
+  "text": "You told someone a real truth with no aim beyond being known, and felt at peace with whatever came back."
+ },
+ "marker.s4.s4-1": {
+  "type": "marker",
+  "id": "s4.s4-1",
+  "text": "You stayed warm and steady inside a family or group storm without taking sides or leaving."
+ },
+ "marker.s4.s4-2": {
+  "type": "marker",
+  "id": "s4.s4-2",
+  "text": "A recurring friction with someone close was redesigned together, and it stopped recurring."
+ },
+ "marker.s4.s4-3": {
+  "type": "marker",
+  "id": "s4.s4-3",
+  "text": "You stopped trying to change something about someone you love, and the relationship relaxed."
+ }
+}

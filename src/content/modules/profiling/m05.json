@@ -1,0 +1,159 @@
+{
+ "id": "m05",
+ "kind": "module",
+ "tier": 3,
+ "tierTitle": "Social Needs & Decision Mechanics",
+ "tierSubtitle": "Mapping hidden need–fear cantilevers, FATE sequencing, and six-pillar decision tracks.",
+ "title": "The Six Social Needs & Hidden Fear Maps",
+ "number": 5,
+ "subtitle": "Six-Minute X-Ray · The Ellipsis Manual",
+ "codexIds": [
+  "PIT-10",
+  "PIT-04"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Need–Fear Cantilever Crane",
+   "cards": [
+    {
+     "id": "m05.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/3",
+     "title": "The Need–Fear Cantilever Crane",
+     "md": "Picture a tower crane suspended over an open drop. Out in front, the long steel jib reaches across the skyline—visible, active, constantly swinging toward whatever load it is trying to lift. Behind the mast, bolted to the exact same horizontal beam, hangs a dense slab of cast iron. Most bystanders never look at the counterweight behind the tower, yet its mass dictates every inch the front arm can safely reach.\n\nHuman social motivation runs on that exact cantilever geometry. What you see swinging out into the room is the counterpart's **Primary Social Need**—the outward reach for recognition, belonging, intellectual authority, sympathy, or visible strength. Bolted directly to the opposite end of that rigid beam sits the **Hidden Fear Map**—the specific, unstated social catastrophe the person cannot afford to experience. The need and the fear are not two separate personality traits; they are opposite ends of a single load-bearing lever."
+    },
+    {
+     "id": "m05.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/3",
+     "title": "The Need–Fear Cantilever Crane",
+     "md": "Rarely, however, does only one crane operate on the skyline. As *Six-Minute X-Ray* observes, almost every person enters an interaction carrying a paired stack—typically one dominant primary drive coupled with a secondary drive—and that active stack shifts with the arena. The hard-charging executive who operates on *Significance* in the boardroom can flip effortlessly into *Pity* the moment he has a fever at home. In high-stakes rooms, two beams frequently collide: a leader may reach outward for *Significance* while simultaneously bracing against the counterweight of *Acceptance*, fearing that standing too far apart will trigger peer gossip or exile. When someone oscillates between bold claims and sudden self-deprecation, you are not watching random inconsistency or deceit; you are watching a **Dual-Need Collision**—two counterweights fighting over the same center of gravity."
+    },
+    {
+     "id": "m05.model.core-3",
+     "kind": "core",
+     "label": "Mental Model · 3/3",
+     "title": "The Need–Fear Cantilever Crane",
+     "md": "Once you see the beam as one rigid unit, Tier 2's telemetry (M03–M04) snaps into three dimensions. A sudden **BToE Stress Cluster** or an abrupt **Artificial Smile** is no longer an isolated twitch; it is the steel shuddering because a casual remark just bumped the hidden counterweight. And in *The Ellipsis Manual*'s actuator layer, you stop pushing blindly against the front arm and start managing the load cleanly—stabilizing the counterweight so the entire crane settles into calm alignment."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "The Six-Currency Inversion Matrix",
+   "cards": [
+    {
+     "id": "m05.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/3",
+     "title": "The Six-Currency Inversion Matrix",
+     "md": "While *The Ellipsis Manual* originally mapped seventeen granular rooms inside its *Human Needs Map* (from *Protection* and *Privacy* to *Caretaker* and *Uniqueness*) to train field recall, *Six-Minute X-Ray* distills social motivation into six high-leverage currencies split into three **Primary** drives and three **Secondary** drives. Each outward bid is permanently welded to an inverse **Hidden Fear Map**:\n\n- **Significance** *(Primary — seeking spotlight, status, and visible impact)* is bolted to the fear of abandonment, social ridicule, being ignored, or feeling small.\n\n- **Approval** *(Primary — seeking explicit recognition, reassurance, and permission; often surfacing as unnecessary apologies, reluctance to complain, or position-shifting under dissent)* is bolted to the fear of dismissal, disapproval, contempt, or being left out.\n\n- **Acceptance** *(Primary — seeking tribal membership, group warmth, and belonging, even through feigned conformity or visible group markers)* is bolted to the fear of social criticism, gossip, and peer mismatch.\n\n- **Intelligence** *(Secondary — seeking analytical authority, factual mastery, and deference to expertise)* is bolted to the fear of appearing naive, being questioned, or getting publicly \"called out.\""
+    },
+    {
+     "id": "m05.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/3",
+     "title": "The Six-Currency Inversion Matrix",
+     "md": "- **Pity** *(Secondary — seeking rescue, lowered expectations, and validation of hardship)* is bolted to the fear of being disregarded, misunderstood, or disbelieved.\n\n- **Strength / Power** *(Secondary — seeking autonomy, toughness, and frame control; needing to feel powerful rather than merely hold formal power)* is bolted to the fear of being challenged, disrespected, unacknowledged, or \"punked\"."
+    },
+    {
+     "id": "m05.chain1.core-3",
+     "kind": "core",
+     "label": "Causal Chain 1 · 3/3",
+     "title": "The Six-Currency Inversion Matrix",
+     "md": "This inversion logic explains why technically sound proposals stall without a clear logical objection. In *Six-Minute X-Ray*'s example of a $3.8 million deal with a buyer anchored in *Acceptance* and *Strength*, the buyer's outward interest revolves around how the purchase strengthens his standing with peers and family—yet his hidden hesitation is governed by the inverse fear of people criticizing the move behind his back or disrespecting his judgment. Watch the same cantilever shudder in a cross-functional product kickoff: a senior systems architect interrupts twice to lecture on basic caching theory, then bristles with a tight jaw and cool sarcasm the moment a junior engineer simplifies his diagram on the whiteboard. Applying Lens 4 (M01) and the inversion matrix exposes the beam immediately—outward bid: **Intelligence**; bumped counterweight: the sudden fear of appearing redundant or outmatched.",
+     "hook": "L2-M05-need-fear-inversion"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "Triangulating the Stack: Conversational Gravity, Praise Projection, and Heat-to-Stakes Disproportion",
+   "cards": [
+    {
+     "id": "m05.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "Triangulating the Stack: Conversational Gravity, Praise Projection, and Heat-to-Stakes Disproportion",
+     "md": "Counterparts almost never announce their **Primary Social Need** directly; in fact, under Law 3 (M01), they actively conceal it. Rather than guessing from stereotypes, you triangulate the active top-of-stack currency across three converging vectors.\n\nFirst is **conversational gravity**—where the subject steers unscripted talk the moment you hand them two minutes of open air. Second is **praise projection**: as *Six-Minute X-Ray* points out, people routinely offer others the exact form of validation they secretly crave receiving. The colleague who constantly compliments others' *\"brilliant framing\"* is broadcasting an *Intelligence* currency; the executive who praises *\"loyalty and having each other's backs\"* is broadcasting *Acceptance*."
+    },
+    {
+     "id": "m05.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "Triangulating the Stack: Conversational Gravity, Praise Projection, and Heat-to-Stakes Disproportion",
+     "md": "Third—and most diagnostically sharp—is **resentment polarity**, audited through **Heat-to-Stakes Disproportion**. Criticism alone is never a reliable tell; competent professionals get legitimately frustrated by genuine operational errors or compliance hazards. What exposes the seam of a **Hidden Fear Map** is *surplus emotional heat*: bitterness that far outstrips the practical damage, or recurring contempt aimed at people who hold no real leverage over the subject's outcomes. When a regional sales lead spends four unprompted minutes reminiscing about daily team lunches, asks twice about company offsites, and suddenly compresses his lips while touching his neck (**Autonomic Pacifier**, M03) the instant he hears the enterprise role operates mostly solo, gravity and somatic telemetry converge cleanly on **Acceptance**.",
+     "hook": "L2-M05-conversational-gravity-read"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Actuator Deployment: Social-Currency Calibration, Impact Validation, and the Neuropeptide Guardrail",
+   "cards": [
+    {
+     "id": "m05.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/3",
+     "title": "Actuator Deployment: Social-Currency Calibration, Impact Validation, and the Neuropeptide Guardrail",
+     "md": "Mapping the cantilever is only half the operation; the actuator layer is **Social-Currency Calibration**—delivering a concise, specific, reality-grounded micro-dose of the subject's valued currency so the counterweight relaxes and defensive armor loosens."
+    },
+    {
+     "id": "m05.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/3",
+     "title": "Actuator Deployment: Social-Currency Calibration, Impact Validation, and the Neuropeptide Guardrail",
+     "md": "Two counterintuitive trade-offs trip up practitioners here. The first is **status asymmetry**: currency only clears when the mint is trusted. Offering top-down evaluative praise (*\"That analysis was brilliant\"*) to a senior specialist when you lack standing in their domain does not build rapport—it lands as patronizing and erodes **Authority Architecture** (M02). Whenever you sit lower in the hierarchy or outside their technical specialty, pivot from evaluative praise to **Impact Validation**: name how their work concretely clarified or improved an outcome on your side (*\"Your Q1 cash-conversion framework is the reason our unit economics survived the vendor hike—we built this proposal directly inside those guardrails\"*). The second trade-off is **dosage**. Flooding a room with generic flattery triggers sycophancy alarms and sharpens line-item scrutiny, while attempting *The Ellipsis Manual*'s aggressive \"pain-focused\" fear-exploitation levers—deliberately prodding a subject's insecurity to force compliance—detonates **Psychological Reactance** (M10) and guarantees long-term **Reputational & Trust Decay** (M12). Likewise, repeatedly feeding *Pity* reinforces learned helplessness rather than durable partnership."
+    },
+    {
+     "id": "m05.chain3.core-3",
+     "kind": "core",
+     "label": "Causal Chain 3 · 3/3",
+     "title": "Actuator Deployment: Social-Currency Calibration, Impact Validation, and the Neuropeptide Guardrail",
+     "md": "Finally, maintain strict epistemic hygiene around *why* these needs feel so compelling. *Six-Minute X-Ray* uses a vivid biological metaphor—describing specific \"Pity\" or \"Strength\" neuropeptides docking into cellular receptors like a chemical addiction. Treat that strictly as a **failure mode of pop-neurology** (**Neuropeptide Reductionism**), never literal neuroscience: the brain does not manufacture discrete \"Significance\" or \"Pity\" molecules, and neuropeptides like oxytocin amplify social salience rather than acting as vending-machine trust buttons. The behavioral reinforcement mechanics are real; the chemical vending-machine story is not. Deliver **Social-Currency Calibration** cleanly, verify whether candor expands during **Landing-Window Attention** (M04), and if a targeted micro-dose lands flat with a polite **Artificial Smile**, treat your top-of-stack hypothesis as falsified and re-plot immediately.",
+     "hook": "L2-M05-currency-calibration-overfeed"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 2 · Profiling & Elicitation",
+   "cards": [
+    {
+     "id": "m05.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Hard positional deadlocks are rarely about the math on the spreadsheet; they occur when a negotiation threatens a counterpart's dominant social need (Significance, Intelligence, Strength, Approval, Acceptance, or Pity). Trading cheap need-concessions lets you protect expensive economic terms."
+    },
+    {
+     "id": "m05.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Paying in Significance/Intelligence Currency to Protect Price & Scope\n**Setting:** Fee negotiations, executive buy-in, cross-departmental disputes\n\n**Signal:** A senior counterpart stalls over a minor procedural detail, re-litigates solved technical points, or insists on redlining wording that has zero financial impact.\n\n**Counter-move:** Recognize that they are fighting for Significance or Intelligence—not money. Stop arguing the math. Concede visible authorship and architectural credit (which costs you nothing) while holding your fee, timeline, and core boundaries completely rigid.\n\n**Break line:** \"Your architecture on the legacy workflow is why this hasn't broken—you should own the rollout sequence. Within that, the fee and Friday cutoff stay fixed.\"\n:::\n\n:::note Neutralizing the Pity-Hook & Hardship Frame\n**Setting:** Vendor pushback, scope creep, delayed deliverables, colleague favors\n\n**Signal:** Counterpart pivots from agreed terms into an exhaustive recital of how understaffed, exhausted, or unfairly squeezed they are—inviting you to rescue them by dropping your standard.\n\n**Counter-move:** Separate empathy from subsidy. Acknowledge the strain in one flat, non-sarcastic sentence so they cannot cast you as cruel, then immediately re-anchor to the objective contract or options without absorbing their deficit.\n\n**Break line:** \"Sounds like Q4 hit your team hard. Given that bandwidth, do you want to reduce scope to Phase 1 or shift the delivery date to next month?\"\n:::\n\n:::note Decoupling Intelligence Flattery From Asymmetric Asks\n**Setting:** Consulting scope creep, panel interviews, favors from higher-ups\n\n**Signal:** Sudden, hyper-specific praise aimed directly at your analytical sharpness, bilingual precision, or indispensability ('nobody else here can see this like you do') delivered seconds before an uncompensated ask.\n\n**Counter-move:** Treat timed flattery as a deliberate Significance/Intelligence hook designed to lower your critical scrutiny. Accept the compliment in two dry words, insert a one-second pause to sever the emotional bridge, and evaluate the request strictly on its cold operational math.\n\n**Break line:** \"Appreciate that. Looking at the deliverables separately, adding that audit requires a separate SOW.\"\n:::"
+    },
+    {
+     "id": "m05.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Roger Fisher & Daniel Shapiro (Beyond Reason — The 5 Core Concerns)\nFisher & Shapiro map the exact relational side of Hughes's Six Social Needs: Significance/Intelligence map to Status and Appreciation; Approval/Acceptance map to Affiliation; Strength maps to Autonomy and Role. The Pit operationalizes the difference: Hughes shows how those exact needs get starved and weaponized under pressure.\n:::\n\n:::note Robert Greene (The 48 Laws of Power — Law 13: Appeal to Self-Interest)\nNever appeal to a counterpart's mercy or gratitude; appeal to the social need they are actively trying to feed. Once you identify whether the room runs on Significance (credit/visibility) or Strength (control/autonomy), every proposal can be wrapped in their currency without diluting your own leverage.\n:::\n\n:::note Alfred Adler (Individual Psychology — Vertical Striving)\nAdler notes that when people feel one-down, they compensate through vertical dominance (Strength/Significance) or horizontal victimhood (Pity). Both are power strategies—recognizing Pity as a bid for control prevents over-conscientious negotiators from subsidizing bad terms.\n:::"
+    },
+    {
+     "id": "m05.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn The Intelligence-Hook Reflex\n**Mechanism:** As an analytical, multi-domain specialist, your highest-probability vulnerability is Significance/Intelligence flattery. When someone frames an unfair task as 'only you are sharp enough to handle this,' your ego wants to prove them right—costing you time and boundaries.\n\n**Calibration:** Whenever praise immediately precedes an ask, mentally strip the praise out and read the bare request on paper.\n:::\n\n:::warn Weaponizing Needs in Good-Faith Rooms\n**Mechanism:** Over-feeding someone's ego with obvious flattery or manufactured deference to get a quick yes—which sharp peers immediately smell as transactional manipulation.\n\n**Calibration:** Only validate real competence and genuine constraints; counterfeit praise destroys long-term credibility.\n:::"
+    }
+   ]
+  }
+ ]
+}

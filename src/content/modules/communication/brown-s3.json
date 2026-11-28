@@ -1,0 +1,161 @@
+{
+ "id": "brown-s3",
+ "belt": "brown",
+ "kind": "sanctuary",
+ "title": "Sanctuary Layer 3",
+ "subtitle": "",
+ "days": [
+  {
+   "id": "s3-1",
+   "label": "S3.1",
+   "title": "Honoring Instead of Face-Saving",
+   "cards": [
+    {
+     "id": "brown-s3.s3-1.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Honoring Instead of Face-Saving",
+     "md": "*Erving Goffman · Erich Fromm*\n\nIn Brown Belt Br1, you learned to wrap requests in Brown & Levinson politeness so a face-threatening act lands without friction. In the Sanctuary, **you abandon the premise that asking a loved one is an imposition**. Merging Goffman with Erich Fromm's *The Art of Loving*, a direct ask becomes a bid for connection rather than a debt: corporate buffering ('I know you're so busy, sorry to bother you, totally fine if not…') actually creates distance in close friendship. Meanwhile, the **positive-politeness ecosystem**—inside jokes, shared shorthand, affectionate nicknames—shifts from Diplomat syntax into Fromm's daily practice of *care*, quiet signals that you belong to each other. Even boundaries drop their tactical wrapping into the **naked boundary**: stated plainly and warmly, proving that love and the need for space can coexist."
+    },
+    {
+     "id": "brown-s3.s3-1.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Honoring Instead of Face-Saving",
+     "md": ":::note Worked Example\nDirect bid to a close friend: 'Hey, I've had a rough week and could really use an hour together tonight—are you free for dinner?' Naked boundary: 'I love spending time with you, and I'm tapped out tonight—I need a quiet evening alone. Let's catch up Sunday.'\n:::\n\n:::warn Non-Example\nWrapping an ordinary ask to your best friend in three layers of corporate negative politeness ('I completely understand if your bandwidth is maxed out, no pressure at all, just wanted to float the possibility…')—turning closeness into an office memo.\n:::"
+    },
+    {
+     "id": "brown-s3.s3-1.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Honoring Instead of Face-Saving",
+     "md": "### Layer 3 Deepening · Erich Fromm (The Art of Loving)\n\nFromm defines mature love as union under the condition of preserving one's integrity and individuality—practiced daily through care, responsibility, respect, and knowledge. Dropping unnecessary buffers honors both your own real need and your friend's freedom to say yes or no cleanly."
+    },
+    {
+     "id": "brown-s3.s3-1.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Honoring Instead of Face-Saving",
+     "md": "- **Marker:** You asked a close friend for something you needed without a single buffer, and it was fine.",
+     "tools": [
+      "marker.brown-s3.s3-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3-2",
+   "label": "S3.2",
+   "title": "The Metamessage of Closeness and Space",
+   "cards": [
+    {
+     "id": "brown-s3.s3-2.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Metamessage of Closeness and Space",
+     "md": "*Deborah Tannen · Esther Perel (flagged: not in notebook)*\n\nBrown Belt Br2 trained you to audit message versus metamessage so you wouldn't get hooked by power frames or Achiever's Spin. In Sanctuary S3.2, you listen to the exact same metamessage track for **which relational need is starving**: **security (closeness)** or **autonomy (space)**. Every close bond breathes between those two poles. A sharp exchange about texting back slowly is rarely about phone etiquette—it is often a disguised bid for security. Sudden irritation over how the kitchen is organized or how weekends are scheduled is often a disguised bid for breathing room. Alongside reading the bid, Tannen's conversational rhythm becomes **pacing as compassion**: when a close friend is grieving or processing slowly, you stretch your own tolerance for silence instead of rushing to fill the void."
+    },
+    {
+     "id": "brown-s3.s3-2.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Metamessage of Closeness and Space",
+     "md": ":::note Worked Example\nFriend snaps: 'You never even text back until the next day anymore.' Answer the bid, not the logistics: 'Hey—it sounds like you've been feeling a bit disconnected from me lately. I miss you too; I've been underwater with work, not pulling away.'\n:::\n\n:::warn Non-Example\nAnswering a closeness bid with timestamped proof ('Actually I texted you Tuesday at 4:12 PM and Thursday morning')—winning the message while starving the metamessage.\n:::"
+    },
+    {
+     "id": "brown-s3.s3-2.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Metamessage of Closeness and Space",
+     "md": "### Layer 3 Deepening · Deborah Tannen (That's Not What I Meant!)\n\nTannen's double bind of involvement and independence lives inside every close bond. Because we can rarely see both sides of the paradox at once, hearing which pole is currently underfed lets you respond with warmth instead of escalating a reversed-electric-blanket spiral."
+    },
+    {
+     "id": "brown-s3.s3-2.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Metamessage of Closeness and Space",
+     "md": "- **Marker:** You answered a bid for closeness or space, rather than its content.",
+     "tools": [
+      "marker.brown-s3.s3-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3-3",
+   "label": "S3.3",
+   "title": "The Weight of the Word",
+   "cards": [
+    {
+     "id": "brown-s3.s3-3.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Weight of the Word",
+     "md": "*Aneta Pavlenko · David Whyte · Ludwig Wittgenstein · Mikhail Bakhtin*\n\nBrown Belt Br3 tracked bilingual weight and the translation tax; Sanctuary S3.3 listens to how language carries a person's whole lived body. Deep friendships grow their own **native tongue** (David Whyte, *Consolations*)—learning what loaded words like *loyalty*, *betrayal*, or *forgiveness* actually mean inside *this* friend's body. When someone you love is flooded, remember **the dysregulated word**: panicked syntax is spoken in a 'second language' of fear—don't hold every jagged phrase against them. Ludwig Wittgenstein's **language games** remind you that two people can share identical vocabulary while playing incompatible games ('venting' vs. 'problem-solving'). Practice **un-naming** (trading clinical labels like 'you're being avoidant' for plain description of what you feel now), listen gently for **borrowed voices** (Mikhail Bakhtin—old parents, bosses, or cultural scripts speaking harshly through a friend's mouth: *'Whose voice is that? It doesn't sound like yours'*), and honor **shared silence** when words would cheapen the moment."
+    },
+    {
+     "id": "brown-s3.s3-3.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Weight of the Word",
+     "md": ":::note Worked Example\nA close friend beats themselves up over a career pivot ('I'm just flaky and behind everyone else'). Instead of arguing their résumé, you ask gently: 'Hey—whose voice is that? Because it doesn't sound like yours.'\n:::\n\n:::warn Non-Example\nDeploying pop-psychology verdicts in intimacy ('You're projecting an anxious-avoidant attachment pattern right now')—boxing a living person inside a label instead of staying open.\n:::"
+    },
+    {
+     "id": "brown-s3.s3-3.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Weight of the Word",
+     "md": "### Layer 3 Deepening · Aneta Pavlenko & David Whyte\n\nPavlenko shows that words are embodied differently across languages and life histories; Whyte adds that naming a difficult threshold honestly—without rushing to sanitize it—gives a friend's experience room to breathe."
+    },
+    {
+     "id": "brown-s3.s3-3.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Weight of the Word",
+     "md": "- **Marker:** You and a friend found a word that now means something only the two of you understand.",
+     "tools": [
+      "marker.brown-s3.s3-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3-4",
+   "label": "S3.4",
+   "title": "Wholehearted Disclosure & Generative Dialogue",
+   "cards": [
+    {
+     "id": "brown-s3.s3-4.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Wholehearted Disclosure & Generative Dialogue",
+     "md": "*William Torbert · David Bohm · John O'Donohue · Brené Brown (flagged: not in notebook)*\n\nBrown Belt Br4 taught strategic, calibrated disclosure using Torbert's four parts of speech. Sanctuary S3.4 marks **the end of the strategic reveal**: a disclosure designed to engineer a reciprocal confession is still management. Here you reveal simply because hiding starves the bond, speaking **the four parts unarmored** (*Frame:* 'I need to share something, and I don't need you to fix it' · *Advocate:* 'I've been feeling unsure where I stand with you' · *Illustrate:* 'When plans shifted last weekend, I told myself I'd become a burden' · *Inquire:* 'Can you help me understand where we are?'). Offer it as an **asymmetric gift**—at peace with whatever comes back, even if they cannot match your depth today. In **generative dialogue** (David Bohm, *On Dialogue*), you suspend your own view in front of you rather than defending it so shared meaning can emerge ('I'm noticing…', 'I wonder if…'). And when someone crosses a threshold—grief, a move, a new chapter—John O'Donohue's **threshold language** (*Anam Cara*) trades logistics for witness and blessing, speaking to who they are at their best when they have forgotten it."
+    },
+    {
+     "id": "brown-s3.s3-4.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Wholehearted Disclosure & Generative Dialogue",
+     "md": ":::note Worked Example\nA friend is moving countries and overwhelmed by logistics. Instead of offering a packing checklist, you offer threshold witness: 'This is a huge crossing, and I know it feels dizzying right now. I've watched you build a life from scratch before—you carry more steadiness than you realize.'\n:::\n\n:::warn Non-Example\nSharing a polished vulnerability specifically so your friend will feel obligated to confess something equal in return—sliding back into the Opportunist's Reveal shadow.\n:::"
+    },
+    {
+     "id": "brown-s3.s3-4.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Wholehearted Disclosure & Generative Dialogue",
+     "md": "### Layer 3 Deepening · David Bohm (On Dialogue)\n\nBohm describes suspension as holding an assumption up in front of yourself so both people can look *at* it together rather than defending *from* it. When neither person is trying to steer the outcome, words stop acting as levers and start building a shared world."
+    },
+    {
+     "id": "brown-s3.s3-4.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Wholehearted Disclosure & Generative Dialogue",
+     "md": "- **Marker:** You told someone a real truth with no aim beyond being known, and felt at peace with whatever came back.",
+     "tools": [
+      "marker.brown-s3.s3-4"
+     ]
+    }
+   ]
+  }
+ ]
+}

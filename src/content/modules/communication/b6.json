@@ -1,0 +1,200 @@
+{
+ "id": "b6",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B6",
+ "title": "Going First — Initiation & Early Friendship",
+ "subtitle": "End the wait to be approached: lead with warmth, beat the liking gap, and invite depth in consented steps.",
+ "guardrail": "Surveillance vs. Care: Govern every rep by the 4 I-Thou Cautions — (1) Drop the playbook if it feels mechanical; (2) Never extract depth without a Green Light; (3) Honor the Linear Ladder Myth (low battery is a season, not rejection); (4) Adapt for cultural and neurodivergent styles.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Fiske & Cuddy | 2x2 Warmth–Competence Matrix & 30s Warmth Gate |\n| Tue | Part 2 · Epley & Boothby | Liking Gap Mechanics, Stop-Signs & 4-Tier Initiation Menu |\n| Wed | Part 3 · Arthur Aron | Responsiveness, Ping Calibration & Green/Yellow/Red Protocol |\n| Thu | Deliberate Practice Lab | 6-Scenario Ping & Return Calibration Simulator |\n| Fri | Deliverable Workshop | Contact & Ping Log + Liking-Gap Calculator |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Warmth Before Competence",
+   "cards": [
+    {
+     "id": "b6.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Warmth Before Competence",
+     "md": "Waiting to be approached leaves you standing behind a closed curtain, wondering why nobody knocks. Going first begins by flipping on the warm **porch light** before displaying your credentials. When an interpreter, accountant, or strategist walks into a new room, their sharpest reflex is to lead with **Competence**—precision, credentials, or an unsolicited fix. Evolution runs the triage in the exact opposite order. Before anyone cares how capable you are, their nervous system asks a faster, older question: **Warmth**—*Are you safe, and do you hold goodwill toward me?* Warmth carries the overwhelming weight of a first impression because a friend's competence is an asset, whereas an enemy's competence is a threat.\n\nLeading with high competence and low warmth drops you into the **Envy / Threat** quadrant—people brace, stiffen, and quietly keep their distance. Overcorrecting into high warmth and low competence—over-smiling, self-deprecating, or inflating compliments—drops you into **Pity / Dismissal**, eroding peer standing. The target is **High Warmth + High Competence**, entered strictly in sequence through the **30-Second Warmth Gate**: for the first thirty seconds, keep your credentials and corrections in your pocket; lead with an easy face, grounded shoulders, and one genuine remark about the shared room. In high-stakes or biased rooms where accent or status might invite premature doubt, run **Warmth First, Quiet Anchor Second**—one unhurried warm opener followed immediately by one crisp, grounded observation."
+    },
+    {
+     "id": "b6.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Warmth Before Competence",
+     "md": ":::note Decision Rule\nClear the 30-second Warmth Gate first in every social and collaborative entry, and **never shrink your competence to look warm**—warmth is ease and goodwill, not submission. Yet even once you know *how* to flip on the porch light, a quieter barrier keeps most people indoors—which Tuesday exposes with hard field data: *why going first feels far riskier in your head than it actually is on the street.*\n:::\n\n:::note Office Dojo\nJoining a kickoff with a new senior stakeholder: \"Really glad to finally put a face to the name—your team's Q2 rollout looked smooth from our side. [Warmth Gate cleared.] On the timeline piece, I noticed one dependency we can clear early on slide 4. [Quiet Competence anchor.]\"\n:::\n\n:::note Personal Dojo\nAt the gym or a neighborhood class, resist the Expert urge to offer form advice. Put your phone away, relax your face, and open on the shared moment: \"That last set looked brutal—how long have you been training here?\"\n:::\n\n:::warn Non-Example\nDropping hollow flattery (\"Oh my gosh, your form is literally inspiring—are you a pro?!\"—Fawning) OR correcting a minor date in the first two minutes (\"Actually, that was 2019, not 2020\"—Competence before Warmth).\n:::\n\n:::dialect Translation strip · warmth\n@office_us \"Really glad to finally put a face to the name — your team's Q2 rollout looked smooth from our side.\"\n@personal_us \"That last set looked brutal — how long have you been training here?\"\n@rioplatense \"Qué duro estuvo ese último bloque, ¿no? ¿Hace mucho que venís a este horario?\"\n@espana \"Vaya sesión la de hoy — llevo viéndote un par de semanas por aquí, ¿sueles venir siempre a esta hora?\"\n:::"
+    },
+    {
+     "id": "b6.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Warmth Before Competence",
+     "md": "**Lens.** The Stereotype Content Model (Fiske, Cuddy, & Glick, 2002/2007; tested social psychology on group perception, applied by extension to individual first impressions, alongside Vanessa Van Edwards's popular synthesis). The model isolates the exact order in which human beings triage every new face they meet.\n\n### Fiske & Cuddy's 2×2 Warmth–Competence Matrix\n\n| Quadrant | How You Open | Emotion Triggered | Behavioral Signals | What It Costs / Earns |\n|---|---|---|---|---|\n| Low Warmth + High Competence (Trap) | Leading with credentials, unsolicited expertise, or corrections. | Envy / Threat ('Are they ranking me?') | Guarded posture, stiff voice, intellectual one-upmanship. | People keep distance; sparks die immediately. |\n| High Warmth + Low Competence (Fawning) | Over-smiling, self-deprecation, inflated compliments. | Pity / Dismissal ('Nice, not a peer.') | Rushed approval-seeking, asking from below (W2 Diplomat). | Feels fake or submissive; loses peer standing. |\n| Low Warmth + Low Competence | Closed off, phone out, flat affect, short answers. | Contempt / Avoidance. | Looking past them, minimal engagement. | Ends contact before it begins. |\n| High Warmth + High Competence (Target) | Warmth first (easy face, curiosity), quiet competence second. | Admiration / Trust ('Safe and capable.') | Relaxed shoulders, grounded voice, clarity without proving. | Opens door to both friendship and peer authority. |\n\n### Optional Deepening · Stephen Porges (The Polyvagal Theory)\n\nBiologically, why must warmth arrive before competence? Stephen Porges's **Social Engagement System** (*The Polyvagal Theory*)—governed by the myelinated vagus nerve—continuously scans faces, vocal prosody, and speech rhythms to determine whether another person is safe to approach. Exhaling lengthens vagal braking and softens your face and voice; leading with crisp competence before sending that safety signal leaves the other person's defensive circuits armed.\n\n:::note Cultural Warmth Calibration: US vs. Spain / Europe (Rung 5)\nWarmth is universal in Fiske and Cuddy's model, but its behavioral dialect is local. In the US, warmth often broadcasts through big smiles and upbeat vocal energy; in Spain and much of Europe, exaggerated American cheerfulness with strangers can read as salesy or performative—there, warmth registers through unhurried eye contact, relaxed presence, and grounded curiosity.\n:::\n\n:::details Canon notes · Part 1 · Fiske and Cuddy: warmth before competence\n*2*\n\n:::note Lens card\nSusan Fiske, Amy Cuddy and Peter Glick developed the stereotype content model, which proposes that people judge others on two main dimensions, warmth (good or ill intent) and competence (ability to act on it), and that warmth is judged first. Vanessa Van Edwards, whose book is a stub in your notebook, draws on this idea in popular advice. What is distinctive is the order: strangers ask \"are you safe?\" before \"are you capable?\"\n:::\n\n:::note Why Fiske and Cuddy here\nThe module's spark advice, lead with warmth and not expertise, rests on this research.\n:::\n\n:::note Native use\nResearch on how groups are stereotyped, later extended to impressions of individuals.\n:::\n\n:::note Limit\nTested research on group perception, extended to individuals (label: tested research, applied by extension). Van Edwards's advice is popular synthesis (stub). The claim that leading with competence reads as threat in social settings is a reasonable application, not a direct finding I checked.\n:::\n\n### Warmth and competence in a first meeting\n\n| You lead with | What a stranger may hear first | Better first move |\n|---|---|---|\n| Credentials or expertise | \"Is this person safe, or ranking me?\" | Genuine interest in the shared moment |\n| A precise correction | \"Will they judge me?\" | Letting small errors pass |\n| An easy face and a question | \"This person is safe.\" | Then let competence show later |\n:::"
+    },
+    {
+     "id": "b6.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Warmth Before Competence",
+     "md": ":::note Handoff\nTag every initiation on your Friday **Contact Log** with **W-First** (warmth opener) vs. **C-Lead** (slipped into credentials/fixing) to track return energy.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your lines or your ratings.",
+     "tools": [
+      "rungs.blue.B6.p1"
+     ]
+    }
+   ],
+   "author": "Susan Fiske & Amy Cuddy"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "We Underestimate How Much Others Like Us",
+   "cards": [
+    {
+     "id": "b6.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "We Underestimate How Much Others Like Us",
+     "md": "Standing behind the door, your mind runs a distorted weather forecast. Before Nicholas Epley's participants entered deeper conversations with strangers, they dreaded the exercise—predicting *\"they wouldn't like their partner very much, wouldn't enjoy the experience much, and it would be pretty awkward.\"* Yet once the conversations actually happened, people enjoyed them far more than predicted, and consistently underestimated how warmly their partner felt toward them afterward.\n\nTwo cognitive illusions keep that peephole warped: **Pluralistic Ignorance** (reading a stranger's quiet posture as \"leave me alone\" when they are actually just as hesitant as you) and **Inner Critic Asymmetry** (after you walk away, you replay every minor verbal slip in high definition while they remember your warmth and interest). The antidote is empirical, not a pep talk—run **Forecast -> Rep -> Reality Check**: write a quick 0–10 prediction *before* you initiate, execute one small rep from the **4-Tier Menu** (*Micro-Greet -> Shared Context Cue -> Low-Friction Text -> Specific Invite or Sobremesa Presence*), and log their actual words alongside your **Liking Gap Delta** (*Actual minus Forecast*). Crucially, distinguish internal forecasting errors from genuine **External Stop Signs** (headphones on, curt one-word replies, two unanswered texts)—stepping back gracefully when stop signs appear is calibration, not failure."
+    },
+    {
+     "id": "b6.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "We Underestimate How Much Others Like Us",
+     "md": ":::note Decision Rule\nGo first whenever the only wall in front of you is your own pessimistic forecast; **step back smoothly the instant you meet two consecutive external stop signs** and log it without self-judgment. Once you have crossed the threshold and opened a warm exchange, Wednesday answers the hardest calibration question of early friendship: *inviting real closeness without rushing, oversharing, or turning connection into a playbook.*\n:::\n\n:::note Office Dojo\nPre-rep forecast: 4/10 (\"they're probably too busy\"). Tier 4 invite to a peer: \"Hey, I've enjoyed our quick chats on the Q3 calls—no agenda, want to grab a 20-minute coffee Tuesday or Thursday?\" Reply arrives in ten minutes: \"Love that—Thursday at 10 works!\" Actual: 9/10 (+5 Liking Gap).\n:::\n\n:::note Personal Dojo\nYou see the same regular three weeks in a row at your morning café or gym. Phone away, Tier 2 context cue: \"You're the only other person here at 7 AM on a Tuesday—what's your secret?\" A sixty-second laugh dissolves the stranger barrier.\n:::\n\n:::warn Non-Example\nIgnoring clear external stop signs—cornering someone wearing AirPods who gives two flat monosyllabic replies while angling toward the door.\n:::\n\n:::dialect Translation strip · invite\n@office_us \"I've enjoyed our quick chats on the Q3 calls — no agenda, want to grab a 20-minute coffee Tuesday or Thursday?\"\n@personal_us \"I really enjoyed talking with you — want to grab coffee at the corner spot after Saturday's class?\"\n@rioplatense \"La pasé bárbaro charlando — ¿te pinta tomar un café el jueves por la tarde en el lugar de la esquina?\"\n@espana \"Me ha encantado charlar contigo — ¿te apetece tomar un café o una caña después de la clase del sábado?\"\n:::"
+    },
+    {
+     "id": "b6.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "We Underestimate How Much Others Like Us",
+     "md": "**Lens.** Epley & Schroeder (2014), Boothby, Cooney, Sandstrom, & Clark (2018) on the **Liking Gap**, and Kardas, Kumar, & Epley (2022) on conversational depth (tested field and lab experiments, primarily with US/UK samples). Together, they prove that waiting to be approached rarely rests on real rejection—it rests on a systematic forecasting error.\n\n### Forecasting Errors vs. Reality vs. Well-Founded Caution (4-Tier Menu)\n\n| Pre-Rep Forecast | Empirical Reality | Mechanism | Well-Founded Caution (Stop Sign) | 4-Tier Initiation Menu |\n|---|---|---|---|---|\n| 'Head down — doesn't want to talk.' | Many welcome brief, warm contact. | Pluralistic Ignorance. | Headphones on + laptop + curt 1-word reply. | Tier 1 (Micro-Greet): Eye contact, smile, 'Morning.' |\n| 'Opening out of nowhere is weird.' | Shared-context openers feel natural. | Overestimating awkwardness. | Visibly rushing, crying, or on a call. | Tier 2 (Context Cue): Comment on shared room/class/coffee. |\n| 'Texting first looks needy.' | Unprompted reach-outs are appreciated. | The Liking Gap. | Two unanswered texts with no follow-up. | Tier 3 (Low-Friction Text): 'Saw X and thought of you.' |\n| 'Didn't like me enough to hang out.' | Partners like you more than you think — and wait for you to ask. | Inner Critic Asymmetry. | Repeated vague excuses with zero counter-offer. | Tier 4 (Specific Invite / Presence): 'Coffee Thu at 4?' or lingering at sobremesa. |\n\n### Optional Deepening · Vanessa Van Edwards (Be a First Liker)\n\nIf both people suffer from the Liking Gap at the same time, how does anyone know the door is open? Vanessa Van Edwards highlights **Signal Amplification Bias**: we assume our quiet friendliness broadcasts clear interest when it actually lands as polite neutrality. Becoming a **First Liker**—stating plainly, *\"I really enjoyed talking with you; want to grab coffee sometime?\"*—collapses the gap for both people at once.\n\n:::note Cultural Liking Gap Calibration: Argentina & Spain (Rung 6)\nBecause most Liking Gap trials used US and UK samples, treat the exact size of the gap as a hypothesis to test locally. In high-involvement Rioplatense or Spanish social life, immediate warmth and *sobremesa* rhythms can make in-the-moment goodwill easier to read—yet breaking into tight, long-standing local friend groups still triggers pessimistic forecasting errors. Let your live Contact Log deltas settle the question.\n:::\n\n:::details Canon notes · Part 2 · Epley and Boothby: we underestimate how much others like us\n*2*\n\n:::note Lens card\nNicholas Epley and Juliana Schroeder found that people expect talking to strangers on a train to be unpleasant, yet report it as more pleasant than sitting alone. Erica Boothby, Gus Cooney, Gillian Sandstrom and Margaret Clark named the \"liking gap\": after a conversation, people underestimate how much the other person liked them. What is distinctive is that the barrier to going first is often a forecasting error, not real rejection.\n:::\n\n:::note Why Epley and Boothby here\nThis is Blue Belt's field module against waiting to be approached. The liking gap names a reason the wait feels safer than it is.\n:::\n\n:::note Native use\nExperiments and field studies of conversation and social prediction.\n:::\n\n:::note Limit\nTested research (label: tested research), mostly with students and US or UK samples. It describes averages; some conversations really do go badly, and the gap may differ across cultures.\n:::\n\n### Forecast and reality\n\n| What people expect | What the studies found |\n|---|---|\n| Strangers do not want to talk | Many were open to it |\n| The conversation will be awkward | It was more pleasant than expected |\n| They did not like me much | They liked me more than I thought |\n:::"
+    },
+    {
+     "id": "b6.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "We Underestimate How Much Others Like Us",
+     "md": ":::note Handoff\nLog 5 daily initiations on Friday's **Contact Log** with Pre-Rep Forecast (0–10), Actual Response (0–10), and automatic **Liking Gap Delta**.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your forecasts, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B6.p2"
+     ]
+    }
+   ],
+   "author": "Nicholas Epley & Erica Boothby"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Escalating Disclosure, Responsiveness, and the Ping",
+   "cards": [
+    {
+     "id": "b6.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Escalating Disclosure, Responsiveness, and the Ping",
+     "md": "Popular headlines reduced the Arons' famous 36-question study to \"overshare and fall in love.\" The actual mechanism is far subtler. When participants took turns answering questions that escalated gradually in depth, they built *\"sustained, escalating, reciprocal, personalistic self-disclosure.\"* When a separate setup had one person answer all thirty-six questions straight through while the other merely listened, nobody felt close—it felt awkward and flat. As Arthur Aron later clarified, raw disclosure is not the engine: **responsiveness and reciprocity** are—*\"Feeling like your partner is responsive to you is a huge factor,\"* because each turn lets the other show \"I hear you, I get you, I care.\" And as Margaret Clark notes, *\"The rule is not reciprocity in the moment, it's being responsive to each other's needs, and that responsiveness going both ways.\"*\n\nOutside a psychology lab, nobody signed a consent form to go deep. Blue Belt translates Aron's engine into the **Ping and Pause**: offer one small, **processed** truth—something real you have already steadied yourself around, never an unprocessed crisis asking an acquaintance to carry you—then hold the pause without apologizing or joking it away. Read their return light cleanly: **Green Light** (they match depth -> respond warmly, ask one *how/why* follow-up, and propose a specific second meeting), **Yellow Light** (friendly hold -> stay steady and consistent), or **Red Light** (polite pivot -> honor **the validity of the shallows** instantly with zero awkwardness)."
+    },
+    {
+     "id": "b6.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Escalating Disclosure, Responsiveness, and the Ping",
+     "md": ":::note Decision Rule\nEscalate **only on a Green Light**, and honor Red Lights as valid shallow friendships or seasonal low-battery moments (**Linear Ladder Myth**) rather than personal verdicts. With Blue Belt's six tactical modules complete, step into **Sanctuary Layer 2** whenever the aim is the person themselves rather than any outcome.\n:::\n\n:::note Office Dojo\nOver agenda-free coffee, a peer asks how your week is going. You skip the highlight reel and offer a processed ping: \"Pretty good overall—honestly stretching myself learning to lead the cross-team sync without over-preparing every slide.\" [Hold the pause.] Green Light: \"Oh, I totally do that too.\" Connection opens, and you suggest lunch next month.\n:::\n\n:::note Personal Dojo\nAfter three weeks of brief chats with a gym acquaintance: \"I've been trying to build real community in this neighborhood instead of rushing home after workouts.\" [Hold the pause.] Green Light: \"Same—half my friends moved to the suburbs last year.\" You step into escalation cleanly: \"Want to grab coffee at the corner spot after Saturday's class?\"\n:::\n\n:::warn Non-Example\nDumping an unprocessed crisis on a new acquaintance (\"I've been spiraling all week because my career is a failure and nobody gets me\"), OR running the Ping and Pause like a mechanical sales funnel—the Playbook Trap, which people sense immediately and rightly pull away from.\n:::\n\n:::dialect Translation strip · ping\n@office_us \"Honestly stretching myself a bit learning to lead the sync without over-building every slide.\"\n@personal_us \"I've been trying to actually build real community in this neighborhood instead of rushing home after workouts.\"\n@rioplatense \"La verdad estoy medio quemado esta semana tratando de rearmar el rumbo laboral sin perder la rutina.\"\n@espana \"Llevo unas semanas dándole vueltas a un giro profesional y me está costando encontrar el ritmo.\"\n:::"
+    },
+    {
+     "id": "b6.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Escalating Disclosure, Responsiveness, and the Ping",
+     "md": "**Lens.** Arthur and Elaine Aron et al. (1997, *Fast Friends Procedure*) plus Aron and Yale psychologist Margaret Clark's later clarifications (in Duhigg, *Supercommunicators*). Tested laboratory research on how strangers generate genuine closeness in sixty minutes—and why real life requires one extra guardrail the lab already assumed: **consent**.\n\n### Ping Calibration Spectrum & Green / Yellow / Red Return Protocol\n\n| Signal / Level | Example | What It Means | Your Exact Next Move |\n|---|---|---|---|\n| Too Shallow (Highlight Reel) | 'Work's busy, can't complain!' | Keeps the door closed; safe but stalls at acquaintance. | Upgrade by 1 notch to a processed ping. |\n| Processed Ping (Target) | 'Honestly a little fried trying to map a career pivot while keeping my gym routine.' | Small, real, already processed; zero burden on them. | Hold the pause without backtracking or joking it away. |\n| Too Raw (Non-Example) | 'I've been spiraling all week because my career is a failure and nobody gets me.' | Unprocessed crisis asking an acquaintance to carry you. | Save for established confidants; keep early pings processed. |\n| GREEN Light Return | 'Oh man, I went through a pivot two years ago — it's exhausting...' | Consent to depth: they matched your ping. | Respond warmly, ask 1 how/why follow-up, propose specific 2nd meeting (time + place). |\n| YELLOW Light Return | 'Oof, pivots are tough — hope next week eases up!' | Friendly, holding steady at current depth. | Match warmth, don't push deeper today, stay consistent. |\n| RED Light Return | 'Yeah, crazy weather lately, right?' | Ceiling / low battery right now (not a verdict on them). | Respect instantly — return smoothly to shallows with zero awkwardness. |\n\n### Optional Deepening · Dan McAdams's 3 Intimacy Levels & 'Watering Holes' (via Van Edwards)\n\nPairing Dan McAdams's three intimacy layers (*Level 1: general traits -> Level 2: current plans and concerns -> Level 3: core values and life story*) with regular **\"watering holes\"** (the same class, café, or hobby) bridges Aron's escalation with presence-first cultures: repeated side-by-side proximity lowers friction so Level 2 pings happen organically—often far more naturally than a stiff, interview-style coffee date.\n\n:::note Ping-Zone Map for Spain & Presence-First Settings (Rung 6)\nIn Spain, Argentina, and other presence-first cultures, an early personal ping lands warmly *after* repeated shared presence—returning weekly to the same café, class, or lingering during *sobremesa*—where familiarity has already built trust. Dropped cold in a first transactional encounter, it misfires; let consistent presence do the first half of the work.\n:::\n\n:::details Canon notes · Part 3 · Aron: escalating disclosure and the ping\n*2*\n\n:::note Lens card\nArthur Aron and colleagues created a procedure, often called the 36 questions, in which pairs of strangers take turns answering questions that grow gradually more personal. Pairs who did it reported feeling closer than pairs who made small talk. What is distinctive is the structure: disclosure that is mutual, sustained and escalating by small steps. The ping and pause in this module is a one-step version of that escalation, offered and then left to be returned or not.\n:::\n\n:::note Why Aron here\nThe module's ping and pause and the escalation stage are small, consented steps of mutual disclosure.\n:::\n\n:::note Native use\nA laboratory procedure for generating closeness between strangers.\n:::\n\n:::note Limit\nTested research (label: tested research), in a structured setting where both people agreed to take part. In real life no one has agreed to the procedure, which is why the module insists on consent to depth.\n:::\n\n### Small steps of disclosure\n\n| Step | Example | What it asks of them |\n|---|---|---|\n| Shared moment | \"That last set was brutal.\" | Nothing personal |\n| Small true thing | \"I've been a bit burned out lately.\" | A choice to match or not |\n| How and why | \"How did you end up in this city?\" | A story, if they want |\n| Invitation | \"Coffee Thursday at the place on the corner?\" | A yes or no |\n:::"
+    },
+    {
+     "id": "b6.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Escalating Disclosure, Responsiveness, and the Ping",
+     "md": ":::note Handoff\nRun **Ping & Pause** with at least 2 acquaintances on Friday's **Contact Log**, recording Ping, Green/Yellow/Red Light, and at least 1 specific 2nd meeting invite.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your pings, your episodes or your ratings.",
+     "tools": [
+      "rungs.blue.B6.p3"
+     ]
+    }
+   ],
+   "author": "Arthur Aron"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "Going first — initiation and the first two stages of friendship",
+   "cards": [
+    {
+     "id": "b6.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Going first — initiation and the first two stages of friendship",
+     "md": "**Going first — initiation and the first two stages of friendship.** End the wait to be approached. Start contact, offer warmth first, and invite more depth in small, consented steps.\n\nThis is Blue Belt's field module, and it is the start of the friendship work that continues in Brown and Black.\n\n### Concepts\n\n1. **The validity of the shallows (I-Thou outline, nuance 1).** Not every connection needs depth. A gym friend you only joke with, a colleague you only talk shop with, are successes. Ask: does this context call for more? You only escalate when both people signal they want more.\n2. **The relationship arc (I-Thou outline, Option A).** Four stages: the spark (stranger to acquaintance), the escalation (acquaintance to friend), the stress test (the first rupture), the anchor (the confidant). Blue Belt covers the first two. Brown Belt covers the third and renovating old friendships. Black Belt covers the fourth.\n3. **The spark: warmth before competence.** Strangers triage you first for warmth (am I safe?) and then for competence (are you capable?). Leading with competence (intellect, credentials, unsolicited expertise) reads as threat or arrogance in social settings (Van Edwards, stub; the warmth/competence idea is widely used in social psychology). For you, leading with the interpreter's precision or the accountant's expertise is the trap; leading with genuine interest and an easy face is the move.\n4. **Start in the social conversation.** With strangers, open in the shared environment (\"that last set was brutal\"), not with deep questions yet (Duhigg's social conversation).\n5. **Convergence.** People warm to those who match their pace, volume and formality a little (Giles, stub). This is the same baselining from B1, now used to adjust yourself slightly toward them.\n6. **The ping and pause (I-Thou outline, nuance 2).** To invite depth, offer one small, true, slightly more personal thing than the context needs (\"I've been feeling a bit burned out lately\"), then stop. That is a ping. If they pick it up and offer something back, the door is open. If they answer politely and move on, respect it and return to the shallows. Depth is always consented to, never extracted.\n7. **The calibrated reveal.** The ping is the first, smallest Reveal. Keep it \"processed\": something you have already worked through, so it does not ask them to carry you. Brown Belt teaches the full Reveal.\n8. **The escalation.** When pings are returned, move from what you did to how you feel about what you did. Ask \"how\" and \"why\" rather than \"what\". Then the invitation: propose a second meeting yourself, with a specific time and place.\n9. **The ceiling check, without judgment.** If someone cannot meet a ping, that is information about this relationship now, not a verdict on them. Life seasons change people's battery (the \"linear ladder myth\": friendships move up and down, not only up).\n10. **State over script (I-Thou outline, nuance 3).** Scripts sound creepy if your inner state does not match. A slow, calm voice only works if you are calm. Use these tools to regulate your own care and attention, and trust the words to follow.\n11. **The one-conversation deep dive (I-Thou outline, Option B), with care.** In rare settings where both people want to skip small talk (a long coffee, a late conversation, a trip), you can move quickly: a processed reveal early, \"how and why\" questions, listening for core concerns, a callback to something they said early on. Use it only when both people are clearly in; used on someone who just wanted lunch, it is a boundary violation.\n12. **Cultural and neurodivergent checks (I-Thou outline, critique 4).** Eye contact, matched cadence and verbal processing of feelings are culturally specific and do not suit everyone. In high-context cultures, an early raw reveal can read as poor social judgment. With some autistic people, \"how do you feel about that?\" can create anxiety rather than closeness. Ask, adapt, and let people bond their way.\n13. **Presence-first cultures (Synthesis, from an earlier conversation).** US friendship is often activity-first; Spanish and Argentine friendship is often presence-first: sobremesa, the long table, showing up. For your move to Spain, \"go first\" may look less like proposing an activity and more like staying at the table, and returning to the same café, bar or class until you are a regular."
+    },
+    {
+     "id": "b6.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Going first — initiation and the first two stages of friendship",
+     "md": ":::note Drill\nOne initiation. One small act of going first each day: greet first, start a conversation, send the message you would usually wait to receive, propose the plan. Log it in one line.\n:::\n\n:::note Office dojo\nInitiate one non-instrumental contact a week with a colleague (coffee with no agenda). The Achiever's Bond move from the grid: \"Spend time with someone with no agenda at all.\"\n:::\n\n:::note Personal dojo\nPick two acquaintances you would like to know better. Run the ping and pause once with each. Propose a specific second meeting to whoever returns the ping.\n:::"
+    },
+    {
+     "id": "b6.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Going first — initiation and the first two stages of friendship",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats going first as | Would worry that you... |\n|---|---|---|---|\n| Fiske and Cuddy | How strangers judge | Showing warmth before ability | Lead with credentials |\n| Epley and Boothby | What we predict | Safer than it feels | Trust your pessimistic forecast |\n| Aron | How closeness grows | Mutual, escalating, consented steps | Skip steps, or never take the first |\n\n**Where they meet.** Going first is small, warm and repeated; closeness grows in steps, and the fear of the first step is usually larger than the risk.\n\n**Where they collide.** Aron's procedure escalates by design; the module's validity of the shallows says not every connection should escalate. Consent decides.\n\n**What the three miss for you.** Presence-first friendship, in Spain and Argentina, grows by showing up more than by disclosure. None of the three studies sobremesa.\n\n**Where it sits in your own frameworks.** Heart with others and Heart with self in your Orders Grid, and the start of the I-Thou track's Layer 2. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Friendship formation across cultures | How do friendships form in Spain compared with the US, and what research exists? | Your move | One thread, researched with the research-brief skill |\n| 2. The liking gap across cultures | Has the liking gap been tested outside the US and UK? | Part 2's samples are narrow | One thread, with a critic pass |\n| 3. How many hours make a friend | What does research say about time spent together and friendship formation? | The presence-first idea | Full deepening of Part 3 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B6, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b6.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The contact log",
+     "md": "**The contact log.** A log of initiations and pings: who, what you offered, what came back, what you did next. At least one escalation: a ping returned and a second meeting proposed by you.\n\n**Watch for.** Turning friendship into a project (the Achiever's Bond shadow). And the \"pick-up artist trap\": if a person senses a playbook, they will rightly pull back. If you notice you are running a sequence on someone, stop and simply be interested.\n\n:::note Prompt\nPick two acquaintances you'd like to know better. Write one calibrated, processed ping for each — and one specific, low-friction 2nd-meeting invite if they return a Green Light.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "6-Scenario Ping & Return Calibration Simulator",
+   "cards": [
+    {
+     "id": "b6.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "6-Scenario Ping & Return Calibration Simulator",
+     "md": "**Deliberate Practice Lab** · 6-Scenario Ping & Return Calibration Simulator",
+     "tools": [
+      "drill.blue.B6.B6_drills"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Contact & Ping Log + Liking-Gap Calculator",
+   "cards": [
+    {
+     "id": "b6.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Contact & Ping Log + Liking-Gap Calculator",
+     "md": ":::note Deliverable Spec · The contact log\nA log of initiations and pings: who, what you offered, what came back, what you did next. At least one escalation: a ping returned and a second meeting proposed by you.\n\n**Watch for.** Turning friendship into a project (the Achiever's Bond shadow). And the \"pick-up artist trap\": if a person senses a playbook, they will rightly pull back. If you notice you are running a sequence on someone, stop and simply be interested.\n:::",
+     "tools": [
+      "form.blue.B6"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

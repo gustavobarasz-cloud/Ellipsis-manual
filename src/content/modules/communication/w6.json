@@ -1,0 +1,147 @@
+{
+ "id": "w6",
+ "belt": "white",
+ "kind": "week",
+ "kicker": "White Belt · Module W6",
+ "title": "Holding the Line",
+ "subtitle": "A boundary isn't tested when you set it—it is tested on the second and third push. Hold the floor calmly without debating, exploding, or folding.",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Mon",
+   "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+   "cards": [
+    {
+     "id": "w6.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+     "md": "### George K. Simon Jr.: The Six-Move Escalation Toolkit\n\n- **Redefining the Terms of Engagement:** W5 taught you how to draw a clean line on the first pass; W6 is for the moment someone steps across it a second and third time. In the closing chapter of *In Sheep's Clothing*, George K. Simon Jr. flips the entire center of gravity: stop trying to reform the boundary-pusher's character, win an argument about their motives, or make them \"see reason.\" Shift 100% of your energy to **redefining the terms of engagement**—setting the exact conditions under which *you* will continue participating.\n- **Baseline Guardrails & Branched Response Moves:** The dojo's rendering of Simon's six moves splits cleanly into two layers: three **always-on guardrails** running underneath every sentence—**Actions over intentions** (Move 1), **Stay in the here and now** (Move 5), and **Keep responsibility where it belongs** (Move 6)—and **three response moves matched to the type of push**. When someone dodges your *ask or proposal* with a vague \"maybe,\" deploy **Move 2 (Direct yes/no request)**. When someone pushes back on your *clean no* with excuses, flattery, or guilt, deploy **Move 3 (Fogging + Broken record, up to three times)**. When they keep crossing after three calm repeats—or repeat a clear violation—deploy **Move 4 (Boundary with consequence)**, which must pass three structural tests: (a) 100% unilaterally executable by you, (b) protective rather than retaliatory, and (c) something you are genuinely ready to execute today.\n- **Misconceptions, Scope Limits & Bridge to Tuesday:** Hold the epistemic and ethical boundaries tightly here. Simon's moves are clinical practitioner writing built for covert aggressors; deploying a stark consequence or a \"yes or no\" demand on a good-faith colleague in a style clash makes *you* the aggressor—which is why W4's triage always runs first. And remember Safety Rule #9: harassment, discrimination, threats, or abuse belong with HR, legal, or outside support with a written record, never inside everyday dojo scripts. Inside ordinary pressure, however, Move 3 is where most boundaries quietly erode on the second push—so Tuesday turns to Manuel J. Smith to unpack the exact mechanics of **Fogging** and the **Broken Record**."
+    },
+    {
+     "id": "w6.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+     "md": "- **Plain-English Decision Rule:** In the personal dojo, a consequence protects the *relationship* from damage—always anchor it with one line of genuine care beforehand (\"I care about this friendship, and…\") and a warm check-in afterward without rescinding the boundary.\n- **Office Dojo Worked Example:** A vendor stalls on a signed deliverable. Move 2 (evasion): \"Can you confirm it arrives by 4?\" Pushback → Move 3: \"I hear your team is stretched. I still need to know if it's arriving by 4.\" Repeated crossing → Move 4: \"If it isn't in by 4, I'll flag the slip at tomorrow's steering meeting.\"\n- **Personal Dojo Worked Example:** A friend raises their voice during a disagreement. \"I care about us and want to work this out—if it gets loud again, I'm going to step out and we can finish tomorrow.\" Follow up warmly the next day.\n- **Non-Example (Counter-Attack):** Snapping \"If you don't stop yelling, I'm leaving!\" with a glare and sarcastic bite—identical words, delivered to dominate rather than protect."
+    },
+    {
+     "id": "w6.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+     "md": "### Layer 3 · Optional Deepening — Erving Goffman (Interaction Ritual)\n\nGoffman gives these repeated pushes their exact sociological name: **character contests**—informal border disputes where one person probes another's boundaries to establish rank or dominance, using the practical issue merely as an arena for testing strength of character. Because personal boundaries cannot be literally patrolled with fences, people test where your line actually sits. Move 4 honors your **critical point**—the threshold past which excuses are no longer entertained—re-establishing your rightful place without dragging you into a mutual brawl."
+    },
+    {
+     "id": "w6.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "George K. Simon Jr.: The Six-Move Escalation Toolkit",
+     "md": "- **Handoff:** Supplies Moves 2 through 4 to build your Office and Personal Best Lines on Friday, while Tuesday equips Push #2 with Smith's frictionless repeat.\n\nThe Socratic deck for W6 is in this week's Lab day."
+    }
+   ],
+   "author": "6-Move Toolkit (Simon)"
+  },
+  {
+   "id": "tue",
+   "label": "Tue",
+   "title": "Manuel J. Smith: The Broken Record and Fogging",
+   "cards": [
+    {
+     "id": "w6.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Manuel J. Smith: The Broken Record and Fogging",
+     "md": "### Manuel J. Smith: The Broken Record and Fogging\n\n- **Starving the Push of Friction:** Monday built the response branches; Tuesday solves the hardest rung on them—Push #2, when someone tries to hook you into a debate about whether you are \"reasonable,\" \"helpful,\" or \"a team player.\" Manuel J. Smith's **Broken Record** and **Fogging** operate on a simple physical principle: arguments require friction to burn. A **Broken Record** holds your exact line calmly up to three times without adding new reasons, while **Fogging** removes the surface a critic tries to grip by calmly agreeing with whatever is true inside their push—without getting defensive and without conceding an inch of your boundary.\n- **Three Fogging Gears & The \"And, Still\" Pivot:** Smith breaks Fogging into three precise gears: agreeing with the **Truth** (\"You're right that this leaves a gap on Thursday\"), agreeing with the **Odds** (\"It's very possible this slows down draft one\"), or agreeing in **Principle** (\"It makes sense you want all hands on crunch weeks\"). Where practitioners trip is the hinge word: saying \"I hear you, **but**…\" erases the acknowledgment and restarts the tug-of-war. The structural fix is the **\"And, Still\" Pivot**: [Fog the truth/odds/principle] + \", and I still [Broken Record].\"\n- **Misconceptions, Stop-Rules & Bridge to Wednesday:** Keep two limits in view. First, Smith's techniques are practitioner tools (assertiveness training as a family has modest review-level support, though the broken record itself is untested). Second, repetition is not a license for stubbornness: drop the broken record immediately the moment **genuinely new material facts** arrive, a real grievance needs repair, or safety is at stake. Even with airtight wording, though, most people still freeze or rush when the push lands live—which leads directly into Wednesday's closing discipline: Donald Meichenbaum's **Stress Inoculation** so the live room is never the first time your body hears your own boundary."
+    },
+    {
+     "id": "w6.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Manuel J. Smith: The Broken Record and Fogging",
+     "md": "- **Plain-English Decision Rule:** Use the **\"And, Still\" Pivot**—never \"but.\" Combine one brief Fog (Truth, Odds, or Principle) with your exact calm repeat, and stop repeating the instant genuinely new facts change the situation.\n- **Office Dojo Worked Example:** Push #2: \"Come on, you catch errors fastest—it'll take twenty minutes!\" Fog + Repeat: \"You're right it's an important deck, and I still can't take on the review tonight.\"\n- **Personal Dojo Worked Example:** Push #2: \"You never want to come out anymore—everyone's going.\" Fog + Repeat: \"I hear it's been a while since we went out, and I care about seeing you—I'm still going to pass tonight. Sunday coffee?\"\n- **Tri-Cultural Translation Strip (US / Rioplatense / Spain):** · *US Low-Context:* \"You're right it's a tight week, and I still can't take on the review tonight.\" · *Rioplatense (High-Involvement):* \"Tenés razón que viene brava la semana, y te quiero dar una mano, pero hoy posta no puedo agarrar la revisión.\" (Warmth cushions the repeat so it reads as steady, not cold.) · *Peninsular Spanish:* \"Tienes razón en que vamos justos, y aun así hoy no puedo asumir la revisión. Mañana a las 10 sí.\" (Direct, crisp, no over-apology.)\n- **Non-Example (Stubbornness Ignoring New Facts):** Mechanically repeating \"I can't take that on\" after your manager removes the Q2 audit from your plate so this project becomes your sole priority."
+    },
+    {
+     "id": "w6.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Manuel J. Smith: The Broken Record and Fogging",
+     "md": "### Layer 3 · Optional Deepening — Chris Voss (Never Split the Difference)\n\nOn the third repeat, your words rarely fail first—your **vocal pitch** does. Under persistence, an upward inflection smuggles uncertainty into a boundary, turning a firm statement into a question that invites them to keep pushing, while a sharp \"assertive\" tone signals dominance and triggers immediate counter-resistance. Voss's **Late-Night FM DJ Voice**—slow, calm, downward-inflecting at the end of the sentence—pairs directly with Smith's Broken Record: it conveys \"I've got this covered\" without triggering defensiveness, letting your boundary land cleanly into silence."
+    },
+    {
+     "id": "w6.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Manuel J. Smith: The Broken Record and Fogging",
+     "md": "- **Handoff:** Installs a pre-built Push #2 Fog + Broken Record backup inside both of Friday's Three Best Lines, ready for Wednesday's rehearsal protocol.\n\nThe Socratic deck for W6 is in this week's Lab day."
+    }
+   ],
+   "author": "Fogging & Broken Record (Smith)"
+  },
+  {
+   "id": "wed",
+   "label": "Wed",
+   "title": "Donald Meichenbaum: Preparing Before the Push",
+   "cards": [
+    {
+     "id": "w6.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Donald Meichenbaum: Preparing Before the Push",
+     "md": "### Donald Meichenbaum: Preparing Before the Push\n\n- **Inoculation, Not a Pep Talk:** Monday gave you the escalation branches and Tuesday gave you the frictionless repeat; Wednesday solves the gap between knowing a script on paper and actually speaking it while your pulse is climbing. Psychologist Donald Meichenbaum developed **Stress Inoculation Training (SIT)** in the 1970s on a clear clinical logic: positive pep talks (\"I've got this!\") shatter on first contact with real hostility. Inoculation works like a vaccine—exposing your nervous system to a controlled, rehearsed dose of a predicted stressor so concrete, **task-oriented coping statements** fire automatically when the real moment hits.\n- **Four Temporal Stages & The Rumination Guardrail:** Meichenbaum's architecture tracks a stressful encounter across four distinct phases: **(1) Prepare** (name the expected tactic and your single line), **(2) Impact** (name Tell #1 and your W1 motor cue), **(3) Peak Load** (hold your Push #2 Fog + Repeat contingency—even if your prediction was wrong), and **(4) Follow-Through** (log observable data and lock the agreement in writing via the three-line confirming email). The counterintuitive trade-off is **anticipatory dread**: unbounded mental rehearsal easily mutates into rumination. Time-boxing preparation to a strict **5-minute cap**, written on paper and ending in three embodied spoken reps, separates useful inoculation from anxious looping.\n- **Epistemic Honesty & Closing White Belt:** Notice the scale difference honestly: clinical SIT has strong tested research in multi-session, therapist-led programs, whereas White Belt's written one-line card is a far lighter, self-guided adaptation. Its payoff is still concrete: a predicted move lands as information rather than an ambush. Together, W1 through W6 compress into the **White Belt Pocket Card** you will keep beside every later belt: **Breathe out** (W1–W2) · **Triage** (W4) · **One reason** (W5–W6), with the single standing check printed on the back—**\"Would I accept their no?\"** Passing White Belt rests on three observable Belt Tests plus an Evidence Log trending toward fewer apologies and fewer extra reasons."
+    },
+    {
+     "id": "w6.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Donald Meichenbaum: Preparing Before the Push",
+     "md": "- **Plain-English Decision Rule:** Run the **5-Minute Cap + 3-Rep Embodied Rehearsal**: write your Inoculation Card in under five minutes, stand up, plant your feet, exhale, and speak your one line aloud three times in a calm, downward voice. If it sounds stiff in your mouth, rewrite it until it sounds like you.\n- **Office Dojo Worked Example (3-Line Confirming-Email Template):** (1) \"Thanks for today. To confirm what we agreed: [X].\" (2) \"[Owner] will send [X] by [Day/Time].\" (3) \"Let me know by [Time] if I missed anything—otherwise we're all set.\"\n- **Personal Dojo Worked Example:** Before a tense family call, spend three minutes writing the expected guilt-trip, your throat tell, and one warm line (\"I love you and want to see you—I'm still only able to stay Saturday through Monday\"), spoken aloud three times before dialing.\n- **Non-Example (Unusable Script):** Writing a five-sentence HR monologue (\"I feel my professional boundaries are currently being encroached upon…\") that you would never actually say out loud in a live room."
+    },
+    {
+     "id": "w6.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Donald Meichenbaum: Preparing Before the Push",
+     "md": "### Layer 3 · Optional Deepening — Robert Kegan & Lisa Laskow Lahey (Public Agreement)\n\nThe three-line confirming email is not bureaucratic defensiveness—it is Kegan and Lahey's **Sixth Language (Public Agreement)**. Without a written record, holding a boundary feels like pitting private memories or personal discomfort against each other. Putting an agreement on the page does not magically prevent violations—it *defines* them, turning a vague private objection into a clear, shared reference point (\"Remember the agreement we made?\") that lets you reset a boundary cleanly and build real integrity."
+    },
+    {
+     "id": "w6.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Donald Meichenbaum: Preparing Before the Push",
+     "md": "- **Handoff:** Assembles Friday's Pre-Meeting Inoculation Card and your Three Best Lines—your final White Belt deliverable before the Belt Test.\n\nThe Socratic deck for W6 is in this week's Lab day."
+    }
+   ],
+   "author": "Stress Inoculation (Meichenbaum)"
+  },
+  {
+   "id": "lab",
+   "label": "Thu/Fri",
+   "title": "Inoculation Card & Best Lines",
+   "cards": [
+    {
+     "id": "w6.lab.deck",
+     "kind": "check",
+     "label": "Socratic Deck",
+     "title": "Socratic Deck",
+     "md": "",
+     "tools": [
+      "deck.white.w6"
+     ]
+    },
+    {
+     "id": "w6.lab.tool1",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Pre-Meeting Inoculation Card & Three Best Lines (W6 Deliverable)",
+     "md": "### Pre-Meeting Inoculation Card & Three Best Lines (W6 Deliverable)",
+     "tools": [
+      "timer.white.sit",
+      "form.white.w6"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

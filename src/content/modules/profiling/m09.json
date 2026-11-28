@@ -1,0 +1,152 @@
+{
+ "id": "m09",
+ "kind": "module",
+ "tier": 5,
+ "tierTitle": "Salience, Framing & Compliance Mechanics",
+ "tierSubtitle": "Steering attentional salience, presupposition corridors, and voluntary compliance momentum.",
+ "title": "Salience, Priming & Linguistic Framing",
+ "number": 9,
+ "subtitle": "The Ellipsis Manual · Six-Minute X-Ray",
+ "codexIds": [
+  "PIT-05",
+  "PIT-07"
+ ],
+ "days": [
+  {
+   "id": "model",
+   "label": "Mental Model",
+   "title": "The Air-Traffic Control Radar Scope",
+   "cards": [
+    {
+     "id": "m09.model.core-1",
+     "kind": "core",
+     "label": "Mental Model · 1/3",
+     "title": "The Air-Traffic Control Radar Scope",
+     "md": "An air-traffic controller does not create the planes flying through a crowded sector, and no radar operator can force a 747 to defy gravity. What the radar scope governs is far quieter and far more decisive: **which blips illuminate in bright phosphor green, and which ones dissolve into background clutter**. A room full of data, risks, memories, and options hits a human nervous system with the exact same density. Because working memory can track only a tiny sliver of reality at once, human judgment is never a neutral spreadsheet tallying every fact in existence; it is a **salience filter** reacting to whichever blips happen to be glowing brightest on the screen at the moment a decision is called."
+    },
+    {
+     "id": "m09.model.core-2",
+     "kind": "core",
+     "label": "Mental Model · 2/3",
+     "title": "The Air-Traffic Control Radar Scope",
+     "md": "Tier 5 marks the shift from reading the room to steering the scope. Everything you gathered passively in Modules 05 through 08—the counterpart's **Primary Social Need**, **Decision Map** pillar, **Locus of Control**, and harvested adjectives—now becomes the flight plan for **Salience, Priming, and Linguistic Framing**. As *The Ellipsis Manual* observes, attention is the indispensable raw material of every interaction: *without attention, nothing exists*. Before a person can even consider rejecting an idea, their brain must first light up that exact mental representation on the radar screen—just as hearing *\"do not think of a bright-red cat\"* forces the cat onto the scope before conscious editing can try to erase it."
+    },
+    {
+     "id": "m09.model.core-3",
+     "kind": "core",
+     "label": "Mental Model · 3/3",
+     "title": "The Air-Traffic Control Radar Scope",
+     "md": "The amateur's fallacy—amplified by pop-persuasion lore—is mistaking the radar scope for a remote control. You cannot \"program the subconscious\" or smuggle a hostile directive past an alert executive mind with a secret string of syllables. What priming and linguistic framing actually adjust is **cognitive accessibility and friction**: which memories, criteria, and emotional states sit ready at hand, and which assumptions pass unchallenged through the **Attentional Gate**. Pull the scope too aggressively, and the counterpart's skepticism radar locks onto *you* instead of the problem."
+    }
+   ]
+  },
+  {
+   "id": "chain1",
+   "label": "Chain 1",
+   "title": "Lighting Up the Scope: Attentional Gating, Salience, and the Priming Spectrum",
+   "cards": [
+    {
+     "id": "m09.chain1.core-1",
+     "kind": "core",
+     "label": "Causal Chain 1 · 1/3",
+     "title": "Lighting Up the Scope: Attentional Gating, Salience, and the Priming Spectrum",
+     "md": "Most daily social behavior runs on low-energy pattern matching—an autopilot that filters out familiar, predictable background noise so the brain can conserve metabolic fuel. The instant a stimulus breaks that expected pattern or gets flagged as personally relevant, the brain's **Attentional Gate**—what *The Ellipsis Manual* frames through the **Reticular Activating System (RAS)**—shifts upward into high-attention mode. Buy a specific make and model of car, and suddenly that exact chassis seems to multiply on every highway; the traffic did not change, only the salience filter did. (Maintain clean epistemic boundaries here: the brainstem's RAS regulates general arousal and wakefulness rather than acting as a literal \"subconscious programming switch,\" while higher cortical salience networks perform the actual relevance filtering—yet the operational consequence in conversation is identical.)\n\nOnce the gate opens, **Priming** shapes the mental terrain *before* the core proposal ever arrives. *The Ellipsis Manual* maps priming across three escalating registers:"
+    },
+    {
+     "id": "m09.chain1.core-2",
+     "kind": "core",
+     "label": "Causal Chain 1 · 2/3",
+     "title": "Lighting Up the Scope: Attentional Gating, Salience, and the Priming Spectrum",
+     "md": "- **Associative & Focused Priming:** Introducing targeted concepts, questions, or diagnostic scales—such as asking a stakeholder to rate where a workflow feels exposed or fragmented—lights up the exact neural neighborhoods and evaluation criteria you want active before you present a solution.\n\n- **Imaginative State Elicitation:** Describing a concrete sensory scene—rain hitting a roof, a chaotic quarter-end close—forces the listener's brain to simulate the experience internally just to parse the sentence. Because comprehension requires mental simulation, vivid storytelling shifts emotional valence far more reliably than abstract argument.\n\n- **Sensory & Contextual Priming:** Environmental and associative cues—from the scent of sunscreen evoking carefree nostalgia to physical artifacts in a room—nudge mood and retrieval pathways through the **Access-State Principle**, the tendency for people to retrieve memories and judgments congruent with their current emotional state."
+    },
+    {
+     "id": "m09.chain1.core-3",
+     "kind": "core",
+     "label": "Causal Chain 1 · 3/3",
+     "title": "Lighting Up the Scope: Attentional Gating, Salience, and the Priming Spectrum",
+     "md": "Here lies a sharp counterintuitive trade-off that *The Ellipsis Manual* itself flags: **unprofiled priming backfires**. A holiday-morning metaphor meant to prime warmth and curiosity can just as easily detonate financial stress or grief in someone whose holidays carried friction. Without the Behavioral Compass data from Module 07—knowing which adjectives, topics, and sensory channels genuinely produce **Digital Extension** (M03) for *this* person—priming is blind artillery.",
+     "hook": "L2-M09-salience-priming-gate"
+    }
+   ]
+  },
+  {
+   "id": "chain2",
+   "label": "Chain 2",
+   "title": "Shifting the Floor Beneath the Question: Presuppositions and the Elasticity Limit",
+   "cards": [
+    {
+     "id": "m09.chain2.core-1",
+     "kind": "core",
+     "label": "Causal Chain 2 · 1/2",
+     "title": "Shifting the Floor Beneath the Question: Presuppositions and the Elasticity Limit",
+     "md": "If priming lights up the right blips on the radar scope, **Linguistic Presuppositions** reshape the coordinate grid itself. A presupposition works by embedding a core premise into the grammatical background of a sentence while placing a smaller, open question in the foreground—for example, *\"Who is your informant?\"* quietly assumes an informant exists, and *\"When you start to feel a sense of trust with someone, what does it feel like?\"* assumes both the familiarity and the inevitability of that trust.\n\nBecause human working memory naturally rushes to answer the foreground question, the background premise glides through with minimal analytical friction. Paired with **Pacing and Leading**—anchoring two or three undeniable, observable facts the counterpart already accepts before stepping cleanly into a directional lead—presuppositions let you move a stalled conversation forward without triggering a head-on debate over the starting line."
+    },
+    {
+     "id": "m09.chain2.core-2",
+     "kind": "core",
+     "label": "Causal Chain 2 · 2/2",
+     "title": "Shifting the Floor Beneath the Question: Presuppositions and the Elasticity Limit",
+     "md": "Where practitioners routinely crash is exceeding the **Presupposition Elasticity Limit**. A presupposition only bends as far as the counterpart's existing trust and **Autonomy Margin** (M02) allow. Ask a warm, aligned partner, *\"As we lock in the Q3 rollout, should we run the pilot in Chicago or Austin first?\"* and the frame glides smoothly because rollout is already within their zone of plausibility. Drop that same presupposition onto a skeptical buyer who has not yet agreed to buy (*\"When we sign Friday, will billing go through your desk or legal?\"*), and the elastic snaps. The premature assumption trips their **Persuasion-Radar**, collapsing **Authority Architecture** (M02) and slamming them straight into **Psychological Reactance** (M10). Effective framing never jumps three rooms ahead; it steps half a pace beyond what the counterpart is already willing to entertain.",
+     "hook": "L2-M09-presupposition-elasticity"
+    }
+   ]
+  },
+  {
+   "id": "chain3",
+   "label": "Chain 3",
+   "title": "Channeling the Vector: Double Binds, Tonal Marking, and Cognitive-Load Boundaries",
+   "cards": [
+    {
+     "id": "m09.chain3.core-1",
+     "kind": "core",
+     "label": "Causal Chain 3 · 1/2",
+     "title": "Channeling the Vector: Double Binds, Tonal Marking, and Cognitive-Load Boundaries",
+     "md": "At the sharpest edge of linguistic framing sit three precision tools drawn from *The Ellipsis Manual*: **Double Binds**, **Tonal Marking (Embedded Commands)**, and **Cognitive-Load / Pattern Interrupts**.\n\nA **Double Bind** preserves the counterpart's agency while bounding the decision corridor—offering two concrete paths that both advance a shared operational outcome (*\"Would you rather review the risk matrix before we bring engineering in, or walk through it together on Thursday?\"*). For high-autonomy or guarded counterparts, shifting into third-person framing (*\"As a team works through a transition like this, people usually either...\"*) takes direct personal pressure off the listener while still guiding their mental simulation.\n\n**Tonal Marking** pairs phrasing with vocal architecture: dropping slightly in pitch, softening tempo, and bracketing a key action phrase with brief **tactical pauses** (*\"It's easy to... take a closer look... once the numbers line up\"*). Strip away the mystical folklore here: tonal marking does not bypass conscious willpower or install covert hypnosis. Its real mechanism is **prosodic salience**—vocal contrast and micro-pauses simply ensure the core phrase lands cleanly in working memory instead of washing away in a monotonous monotone."
+    },
+    {
+     "id": "m09.chain3.core-2",
+     "kind": "core",
+     "label": "Causal Chain 3 · 2/2",
+     "title": "Channeling the Vector: Double Binds, Tonal Marking, and Cognitive-Load Boundaries",
+     "md": "Finally, *The Ellipsis Manual* describes using deliberate **confusion structures** (double negatives, nested interruptions, or sudden cognitive-load trivia) to momentarily overload analytical scrutiny and slip a suggestion into the gap. In high-trust, multi-cycle environments, this is a classic **second-order trap**. While brief novelty or an unexpected angle can cleanly break a repetitive stalemate (disengaging unproductive autopilot), weaponizing contrived confusion or exhausting a counterpart's working memory produces brittle, resentful \"yeses\" that unravel the next morning under **Rebound Scrutiny** (M11). Clean linguistic framing never relies on tricking a tired mind; it clears away ambiguity so the right decision becomes the easiest thing on the radar scope to see.",
+     "hook": "L2-M09-tonal-marking-double-bind"
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "label": "In the Field",
+   "title": "The Pit · Stage 3 · Covert Syntax",
+   "cards": [
+    {
+     "id": "m09.field.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Operational thesis",
+     "md": "Linguistic harvesting and embedded commands do not operate by hypnosis magic; they operate by lowering cognitive friction. When an operator feeds back your exact sensory hot-words inside rhythmically paced clauses—and marks an action verb with a slight pause or tonal drop—your brain treats the directive as native to your own internal monologue."
+    },
+    {
+     "id": "m09.field.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Live-room counter-play",
+     "md": ":::note Neutralizing Linguistic Harvesting (Hot-Word Echoes)\n**Setting:** High-stakes vendor pitches, recruiting closes, executive persuasion\n\n**Signal:** You casually mention two or three emotionally loaded words ('clean handoff,' 'zero friction,' 'locked in'), and ten minutes later the counterpart weaves those exact phrases back verbatim right before asking for an aggressive commitment or fee concession.\n\n**Counter-move:** Recognize the warm 'they really get me' feeling as an engineered familiarity effect, not proof that the terms are good. Strip the emotional adjectives out of the room by translating their pitch back into dry, concrete operational nouns on paper.\n\n**Break line:** \"Putting 'zero friction' aside for a minute—what is the exact SLA penalty if Phase 1 slips by five business days?\"\n:::\n\n:::note Disrupting Embedded Commands & Analog Marking\n**Setting:** Closing calls, live presentations, contract walk-throughs\n\n**Signal:** A tentative, non-committal wrapper clause housing a clean imperative verb delivered with a subtle pause, lower pitch, or hand gesture ('I don't know if your team is ready to [sign the addendum today] or if you want to [keep spinning wheels] until Q1...').\n\n**Counter-move:** Refuse to absorb the cadence. Break the rhythmic flow physically and verbally—pause, look down at your notes (severing visual/tonal synchronization), and restate your actual evaluation standard in flat, explicit syntax.\n\n**Break line:** \"We're not signing today. Let's walk through the three open redlines so legal can review them tomorrow.\"\n:::\n\n:::note Auditing Sensory-Channel Priming Before Numbers Land\n**Setting:** Fee anchoring, performance reviews, partnership pitches\n\n**Signal:** Counterpart spends five minutes painting vivid imagery of risk, chaos, or missed opportunity ('picture how painful a Q3 outage looks to leadership') immediately before proposing an overpriced or one-sided fix.\n\n**Counter-move:** Name the shift from imagery to numbers. Separate the risk scenario from their proposed pricing so emotional salience does not distort your baseline math.\n\n**Break line:** \"We agree downtime is expensive. Now let's evaluate this fee strictly against the market benchmark for these deliverables.\"\n:::"
+    },
+    {
+     "id": "m09.field.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Cross-corpus synthesis",
+     "md": ":::note Robert Cialdini (Pre-Suasion — Associative Priming & Attentional Channels)\nProvides the empirical backbone beneath Hughes's linguistic harvesting: words and metaphors spoken in the opening minutes activate associative networks that bias how the listener scores the offer five minutes later. The counter-move is identical—force an explicit shift to objective written criteria.\n:::\n\n:::note Daniel Kahneman (Cognitive Ease & Processing Fluency)\nExplains why harvested vocabulary lowers skepticism: when a sentence uses your own words and cadence, your brain experiences high processing fluency—and System 1 routinely mistakes fluency ('this sounds familiar and smooth') for truth ('this deal is safe').\n:::\n\n:::note Deborah Tannen (That's Not What I Meant — Conversational Style & Metamessage)\nWhile Tannen analyzes natural pacing and word echoing as bonding signals, The Pit tracks the exact inflection point where intentional mirroring flips from rapport into covert steering.\n:::"
+    },
+    {
+     "id": "m09.field.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Operator shadow",
+     "md": ":::warn Slick Over-Steering (The Velvet Trap)\n**Mechanism:** Because you pick up a counterpart's exact lexicon and metaphors rapidly, it is tempting to echo their hot-words and nest subtle directives to shortcut a slow, messy negotiation.\n\n**Calibration:** Short-term verbal compliance won via covert syntax frequently collapses into buyer's remorse or passive-aggressive implementation sabotage.\n:::\n\n:::warn Paranoid Word-Policing\n**Mechanism:** Treating every natural repetition of your vocabulary as a covert hypnotic attack—turning normal collaborative mirroring into suspicion.\n\n**Calibration:** Only flag linguistic harvesting when verbatim hot-word echoing is paired directly with a premature or asymmetric ask.\n:::"
+    }
+   ]
+  }
+ ]
+}

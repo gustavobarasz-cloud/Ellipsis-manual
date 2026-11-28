@@ -1,0 +1,124 @@
+{
+ "id": "s1",
+ "kind": "layer",
+ "title": "Layer 1 · The Inner Sanctuary",
+ "subtitle": "From self-regulation to self-surrender",
+ "kicker": "Paired with White Belt (W1–W6)",
+ "intro": "In the dojo you regulate to keep executive function online. Here you regulate to put down the need for control, so another person can put down theirs.",
+ "days": [
+  {
+   "id": "s1-1",
+   "label": "S1.1",
+   "title": "Yielding, Not Bracing",
+   "cards": [
+    {
+     "id": "s1.s1-1.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Yielding, Not Bracing",
+     "md": "*Thich Nhat Hanh · José Silva · Stephen Porges · Resmaa Menakem*\n\n**Un-Armoring to Receive:** In W1, you exhaled to keep your executive function online so you would not snap, fawn, or over-explain. In S1.1, you use the exact same physiological doorway for the opposite purpose: **self-surrender rather than self-defense**. When someone you love is in pain, angry, or messy, the body reflexively braces—clamping the jaw, tightening the chest, and firing up the analytical solver. Yielding means dropping the shoulder armor, softening the eyes and throat, and letting your nervous system signal safety so the other person can put down *their* guard too.\n\n**The Deep-Listening Countdown & Polyvagal Calibration:** Sanctuary rebuilds the Silva 3-2-1 a second time—shifting it from tactical regulation to presence: **Three** (physical surrender: open the posture and drop the defenses), **Two** (silence the fixer: notice the itch to solve, advise, or reframe their pain, and set it down), **One** (witnessing: stop rehearsing a reply and simply be with them). This aligns directly with Thich Nhat Hanh's **deep listening**—listening with one purpose, so the other person suffers less, never to steer the conversation. Hold Stephen Porges's **Polyvagal Theory** with clean epistemic discipline here: long exhales, soft eyes, and warm vocal tone engage the myelinated ventral vagal social-engagement circuit, changing both what your body broadcasts and what you can actually hear in another person's voice.\n\n**Clean Pain vs. Analytical Retreat:** Resmaa Menakem's distinction from W1 deepens here. Sitting with a loved one's unfixable grief or disappointment hurts—that is **clean pain**, the honest discomfort of staying open and metabolizing reality without armoring up. Retreating into cool analysis, problem-solving, or premature reassurance is **dirty pain**: a polite escape that spares *your* discomfort while leaving them alone in theirs."
+    },
+    {
+     "id": "s1.s1-1.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Yielding, Not Bracing",
+     "md": ":::note Stance Rule\nBefore a close conversation, run the Deep-Listening 3-2-1. Whenever the urge to fix, optimize, or explain flashes inside the talk, take one quiet exhale and stay—without offering a solution unless they explicitly ask.\n:::\n\n:::note Worked Example\nA close friend unloads about a stalled career decision or raw heartbreak. Instead of mapping out three next steps or reframing the silver lining, you soften your posture, hold warm eye contact, and say simply: \"That sounds exhausting. I'm right here with you.\"\n:::\n\n:::warn Non-Example\nRunning a crisp tactical sequence on a grieving friend—mirroring their last three words and deploying a textbook label to \"draw out the black swan.\" Polished technique, yet still managing an I-It exchange.\n:::"
+    },
+    {
+     "id": "s1.s1-1.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Yielding, Not Bracing",
+     "md": "### Layer 3 Deepening · Martin Buber (I and Thou)\n\nBuber captures why analytical listening quietly breaks intimacy: *\"Just as the melody is not made up of notes nor the verse of words… so with the man to whom I say Thou. I can take out from him the color of his hair, or of his speech, or of his goodness. I must continually do this. But each time he ceases to be Thou.\"* The instant you slice a loved one's pain into solvable parts, you have stepped back into I-It. Yielding lets the whole melody remain intact."
+    },
+    {
+     "id": "s1.s1-1.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Yielding, Not Bracing",
+     "md": "- **Marker:** A friend says something like \"thank you for just listening,\" or you realize afterward that you did not offer a single solution—and the room got warmer, not heavier.",
+     "tools": [
+      "marker.s1.s1-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s1-2",
+   "label": "S1.2",
+   "title": "The Architecture of the Armor",
+   "cards": [
+    {
+     "id": "s1.s1-2.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Architecture of the Armor",
+     "md": "*William Torbert · Richard Schwartz · Gabor Maté · Brené Brown (flagged: not in notebook)*\n\n**From Tactical Fallback to Relational Armor:** S1.1 asked you to put down your tools; S1.2 explains why your hands refuse to open. In W2, William Torbert's fallbacks showed how you lose tactical footing under workplace stress. Inside intimacy, those exact same action-logics—the **Expert** (intellectualizing a partner's hurt), the **Achiever** (project-managing a friend's grief), the **Diplomat** (fawning and erasing your own needs), or your **Observer** (going quiet and dissecting the room from ten feet away)—operate as **relational armor**, protecting you from the raw exposure of actually being known (your curriculum's reading of Brené Brown, flagged as not in the notebook).\n\n**Attachment vs. Authenticity:** Gabor Maté (*The Myth of Normal*) names the fault line running underneath every piece of that armor: the collision between **Attachment** (being loved and kept close) and **Authenticity** (being real and honoring what you actually feel). Mapped onto your fallbacks, the trade-off splits cleanly down the middle: **Diplomat armor** sacrifices *authenticity* to protect attachment, while **Expert** and **Opportunist armor** sacrifice *attachment* to protect a rigid, controlled version of authenticity.\n\n**Befriending the Protector — Why Shame Locks the Metal:** Judging your Achiever or Observer fallback as a \"developmental regression\" triggers instant shame—and shame bolts the armor tighter. In Internal Family Systems (*No Bad Parts*), the part that rushes in to project-manage a loved one's sorrow is a **Manager Protector** working preemptively to prevent chaos—just as a sudden emotional shutdown mid-hurt acts as a **Firefighter** trying to douse the sting. Turn inward, thank it for trying to keep you safe, and gently ask it to step aside for one minute so your adult Self can stay present."
+    },
+    {
+     "id": "s1.s1-2.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Architecture of the Armor",
+     "md": ":::note Stance Rule\nThe second you catch your armor clanking shut in a close conversation (fixing, lecturing, fawning, or retreating into Observer silence), silently name which side of Maté's line you are abandoning, thank the protector for trying to help, and ask it for sixty seconds of unarmored presence.\n:::\n\n:::note Worked Example\nYour partner or close friend shares something messy and unresolved. Your Achiever manager surges up with a recovery plan. Silently: \"Thanks for trying to keep this from spiraling—give me one minute to just sit here.\" Stay without fixing.\n:::\n\n:::warn Non-Example\nCatching your Expert tone and immediately berating yourself (\"I'm regressing again—why can't I just stay Strategist?\"). That turns inner awareness into a harsh new Manager, pulling you even further out of the room.\n:::"
+    },
+    {
+     "id": "s1.s1-2.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Architecture of the Armor",
+     "md": "### Layer 3 Deepening · Richard C. Schwartz (No Bad Parts)\n\nSchwartz emphasizes that *exiles, managers,* and *firefighters* are not the essence of who you are—they are simply roles young parts were forced into by what happened to you. Crucially, **we never force our way past protectors**; fighting a Manager only triggers a reinforcing loop that makes the armor (or an impulsive Firefighter shutdown) push back harder. Appreciation is not softness—it is the exact key that unlocks the gate."
+    },
+    {
+     "id": "s1.s1-2.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Architecture of the Armor",
+     "md": "- **Marker:** You notice your armor arrive mid-conversation with someone who matters, thank it without fighting it, and stay present anyway—at least once.",
+     "tools": [
+      "marker.s1.s1-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s1-3",
+   "label": "S1.3",
+   "title": "The Fear of Intimacy",
+   "cards": [
+    {
+     "id": "s1.s1-3.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Fear of Intimacy",
+     "md": "*Erich Fromm · Robert Kegan & Lisa Lahey · A. H. Almaas · Susanne Cook-Greuter*\n\n**Love as Active Craft, Not Passive Luck:** S1.1 softened the body and S1.2 thanked the armor; S1.3 walks straight into the room the armor was built to guard—the fear of being seen when you are *not* composed, competent, or useful. In *The Art of Loving*, Erich Fromm strips romance of passivity: mature love is an **active power** practiced daily through four interlocking disciplines—**care, responsibility, respect, and knowledge**—creating \"union under the condition of preserving one's integrity, one's individuality.\" Unlike symbiotic fusion, two beings become one and yet remain two.\n\n**The Relational Immunity Map & Safe-to-Fail Visibility:** Why do capable, self-aware adults still hide their rough edges from the people they love most? Robert Kegan and Lisa Laskow Lahey's **Immunity Map** turns inward on intimacy itself: **Goal** (\"I want to let a close friend see me when I'm struggling\"), **Instead** (\"I isolate, give short competent answers, refuse help\"), **Hidden Commitment** (\"Never to be a burden, never to be seen as broken\"), **Big Assumption** (\"If I show my mess, they'll lose respect, find me exhausting, and leave\"). Insight alone never dissolves the assumption—only small, **safe-to-fail tests** that leave the rough edges in.\n\n**Not Plugging the Hole & The Construct-Aware Surrender:** First, **A. H. Almaas** describes inner \"holes\"—places where parts of our essential nature were cut off, which we instinctively try to plug using another person's validation. When insecurity rises with someone you love, sit with the raw space yourself rather than demanding they fill it. Second, **Susanne Cook-Greuter's Construct-Aware surrender** delivers the Sanctuary's deepest paradox: *every model in this entire curriculum—every belt, stage, need, and map—is only a map.* At its root, the Sanctuary asks you to lay even your sharpest frameworks down and meet another human being you do not fully know, because they are still becoming."
+    },
+    {
+     "id": "s1.s1-3.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Fear of Intimacy",
+     "md": ":::note Stance Rule\nRewrite the Relational Immunity Map in your own words (in the Journal tab), then run one Safe-to-Fail Intimacy Test: the next time a close friend asks how your week is going, leave one genuine rough edge unpolished instead of handing back a tidy competence report.\n:::\n\n:::note Worked Example\nA trusted friend asks, \"How are you holding up?\" Instead of \"Busy, all good—just powering through,\" you answer honestly: \"Honestly, I've been feeling pretty stretched and a little stuck this week. Could we just hang out without me having to be 'on'?\"\n:::\n\n:::warn Non-Example\nDumping raw distress onto a friend specifically to force them to reassure you that you are smart, worthy, or safe—turning vulnerability into a covert demand for external validation.\n:::"
+    },
+    {
+     "id": "s1.s1-3.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Fear of Intimacy",
+     "md": "### Layer 3 Deepening · The Sanctuary Pocket Question\n\nCarry one quiet question whenever you step out of the dojo and into the Sanctuary: **\"Am I here, and are they?\"**"
+    },
+    {
+     "id": "s1.s1-3.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Fear of Intimacy",
+     "md": "- **Marker:** You let someone help you with something real, and the relationship grew closer—not weaker.",
+     "tools": [
+      "marker.s1.s1-3"
+     ]
+    }
+   ]
+  }
+ ]
+}

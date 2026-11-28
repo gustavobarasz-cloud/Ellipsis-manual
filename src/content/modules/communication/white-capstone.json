@@ -1,0 +1,51 @@
+{
+ "id": "white-capstone",
+ "belt": "white",
+ "kind": "capstone",
+ "title": "White Belt · Capstone",
+ "subtitle": "You earn White Belt on observable criteria, not on how fearless it felt. Failing a test is not failing the belt—it means repeating one module and testing again.",
+ "days": [
+  {
+   "id": "test",
+   "label": "Belt Test",
+   "title": "Belt Test, Evidence Log & Pocket Card",
+   "cards": [
+    {
+     "id": "white-capstone.test.intro",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "Belt Test, Evidence Log & Pocket Card",
+     "md": "White Belt Capstone · Observable Verification\n\n## Belt Test, Evidence Log & Pocket Card\n\nYou earn White Belt on observable criteria, not on how fearless it felt. Failing a test is not failing the belt—it means repeating one module and testing again."
+    },
+    {
+     "id": "white-capstone.test.1",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "Three Observable Belt Tests",
+     "md": "### Three Observable Belt Tests\n\n| Done | Test | Setting | Observable Pass Criteria |\n|---|---|---|---|\n|  | **1. The Hold** | 5-min role-play (guilt, diversion, intelligence-flattery) | One boundary held. Zero apologies. Max one reason. Anger felt and named silently, not acted out. |\n|  | **2. Office Dojo (Live)** | Medium-stakes work ask or no | Made as a proposal, preference first, followed by a 3-line confirming email. |\n|  | **3. Personal Dojo (Live)** | Real boundary or preference with a friend | Delivered warmly with one line about the relationship, plus a warm check-in afterward. |",
+     "tools": [
+      "form.white.capstone"
+     ]
+    },
+    {
+     "id": "white-capstone.test.2",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "White Belt Evidence Log",
+     "md": "### White Belt Evidence Log\n\n| Date / Episode | Apologies Cut | Sentences Restored | Preferences First | Boundaries Held | Codex Entries |\n|---|---|---|---|---|---|",
+     "tools": [
+      "evidence.white"
+     ]
+    },
+    {
+     "id": "white-capstone.test.x1",
+     "kind": "info",
+     "label": "Capstone",
+     "title": "Capstone",
+     "md": "Belt-to-Belt Handoff · White (W6) → Blue (B1)\n\n### Ready for Blue Belt: Read & Bond\n\nWhite Belt built your inner floor so you can stay yourself under pressure without apologizing, over-explaining, or exploding. Once all three observable Belt Tests pass and your Evidence Log trends toward fewer apologies and fewer extra reasons, you earn the right to look across the table in **Blue Belt**—because a read taken while bracing is only a projection.\n\n**Artifacts Carried Forward Into Blue Belt:** Your **W1 Tell List** becomes your personal baseline in **B1** (abort any read the instant your own tells fire). Your **W2 Fallback Map** and **W3 Hook Profile** plug directly into **B3** (cross-checking your own hooks while decoding others' positions). Your **W4 Starter Codex** and **W5–W6 Clean Boundaries** power **B3** (Honor + Hold) and **B5** (Period-Not-\"But\" Empathy Boundary)."
+    }
+   ]
+  }
+ ],
+ "handoffTo": "blue"
+}

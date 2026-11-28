@@ -1,0 +1,48 @@
+{
+ "id": "brown-capstone",
+ "belt": "brown",
+ "kind": "capstone",
+ "title": "Brown Belt · Capstone",
+ "subtitle": "",
+ "days": [
+  {
+   "id": "test",
+   "label": "Belt Test",
+   "title": "Brown Belt · Capstone",
+   "cards": [
+    {
+     "id": "brown-capstone.main-1",
+     "kind": "info",
+     "label": "Capstone · 1/3",
+     "title": "Capstone",
+     "md": "Brown Belt Capstone · 5-Stage Promotion Gauntlet\n\n## Brown Belt Gauntlet (Word, Reveal & Steer)\n\nPass all 5 live checks below to stamp your woodcut Brown Belt Seal and finalize your 1-Page Printable Field Card.\n\n### Stage 1 · Face-Weight & Ask Audit (Reach ≥ 85% Proposal Strength)\n\nScore: 18%\n\n### Stage 2 · Achiever's Spin Counter\n\nCounterpart: “In the spirit of partnership, let's lock this compressed Friday timeline today.” Best counter?\n\n### Stage 3 · Translation Strip Check (EN → Rioplatense/España)\n\nA bare US refusal (“No, thank you for asking.”) lands cold with close Argentine friends. Best adaptation?\n\n### Stage 4 · 45-Second Four-Part Pitch Check\n\nCurrent Br4 Pitch (57 words, ~24s): “I'd like to talk about my role and scope for the upcoming cycle. I'm asking to be promoted to Senior Analyst this review. This year I led the Q2 and Q3 closes with zero audit adjustments and trained two new hires. What would you need to see from me over the next 60 days to support that?”\n\n### Stage 5 · Clean Dignity Repair (Score ≥ 85%, Zero 'but' / Blame)\n\nScore: 0%\n\nGraduation Artifact · Linguistic Script-Book Summary\n\n## 1-Page Printable Brown Belt Field Card\n\nStill empty on your printable card: Br1 Fri Asks, Br4 Fri Reveal Rungs 1–2, Br5 Fri Steering Map, Br6 Fri Repair. (You can still print now or fill them in first.)\n:::\n\n## COMMUNICATION DOJO · BROWN BELT FIELD CARD\n\nWORD, REVEAL & STEER · IN PROGRESS\n\n### Br5 · Promotion / Negotiation Steering Map\n\n**Purpose:** — | **Decision Type:** Consult (Gather input, then decide) / Negotiate"
+    },
+    {
+     "id": "brown-capstone.main-2",
+     "kind": "info",
+     "label": "Capstone · 2/3",
+     "title": "Capstone",
+     "md": "**4-Part Pitch:** I'd like to talk about my role and scope for the upcoming cycle. I'm asking to be promoted to Senior Analyst this review. This year I led the Q2 and Q3 closes with zero audit adjustments and trained two new hires. What would you need to see from me over the next 60 days to support that?\n\n**Calibrated Qs:** — | **BATNA:** —\n\n### Br1 · Top 3 Wrapped Asks\n\nFill in Br1 Friday to populate.\n\n### Br3 · Top Bilingual Lexicon Words\n\n• **fair:** High in US work; softer in ES\n\n• **confianza:** Deep emotional warmth in ES\n\n• **compromise / compromiso:** Easy cross-language misfire\n\n### Br4 · Reveal Ladder (Rungs 1–2)\n\n**Rung 1** (—): —\n\n**Rung 2** (—): —\n\n### Br6 · Accountable Repair & Evidence\n\n:::dialect Live Dialect Examples\n@office_us **Repair:** “I steamrolled your point in the budget meeting and cut off your analysis. That was wrong. I got anxious about the clock and jumped in instead of letting you finish. In Thursday's call I'll hand you the floor first—does that work?”\n@personal_us **Repair:** “I went quiet after Thursday instead of telling you I felt stung. That left you guessing, and I'm sorry. I slipped into my old habit of withdrawing when hurt. I value our friendship and want to talk it through—are you up for coffee?”\n@rioplatense **Repair:** “El jueves me cerré y desaparecí en vez de decirte que algo me había dolido. No estuvo bueno dejarte colgado y te pido disculpas. Me importa mucho nuestra amistad—¿charlamos un rato esta semana?”\n@espana **Repair:** “Te interrumpí en la reunión y no te dejé terminar tu planteamiento. Me equivoqué. Me puse nervioso con el tiempo y hablé de más. En la próxima sesión te doy paso primero, ¿te parece bien?”\n:::\n\nAsks as proposals: 0 · Purposes stated: 0 · Four-part statements: 0 · Disclosures: 0 · Repairs: 0 · Translation strips: 0"
+    },
+    {
+     "id": "brown-capstone.main-3",
+     "kind": "info",
+     "label": "Capstone · 3/3",
+     "title": "Capstone",
+     "md": "### Brown Belt Pocket Cues\n\n1. Frame before you ask. · 2. Say what you want, once. · 3. Steer out loud. · Core Question: “What reality are my words building?”\n\n### Master Grid Placement (Word / Reveal / Steer) & Sanctuary Layer 3\n\nNo Master Grid marks placed yet (see Grid · S3 tab).\n\n**Sanctuary Layer 3 Entries:** 0 · *Pocket Check: Am I here, and are they?*\n\nBelt-to-Belt Handoff · Brown (Br6) → Black (Bk1)\n\n### Ready for Black Belt: Systems & Bridges\n\nOnce all Brown Belt checks pass and your Evidence Log trends toward proposal asks, stated purposes, and real disclosures in both dojos, carry your **Linguistic Script-Book**, **Bilingual Lexicon (Br3)**, **Reveal Ladder (Br4)**, and **Steering Map (Br5)** directly into Black Belt—where **Bk1** zooms out from individual conversations to the culture of the room, **Bk2** brokers your proposals across tribes, and **Bk3** scales your Br3 translation-tax awareness into a grounded bridge self."
+    },
+    {
+     "id": "brown-capstone.main.evidence",
+     "kind": "info",
+     "label": "Evidence",
+     "title": "Brown Belt Evidence",
+     "md": "- Asks as proposals\n- Purposes stated\n- Four-part statements\n- Disclosures\n- Repairs\n- Translation strips",
+     "tools": [
+      "evidence.brown"
+     ]
+    }
+   ]
+  }
+ ],
+ "handoffTo": "black"
+}

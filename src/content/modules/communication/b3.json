@@ -1,0 +1,200 @@
+{
+ "id": "b3",
+ "belt": "blue",
+ "kind": "week",
+ "kicker": "Blue Belt · Module B3",
+ "title": "The Need Beneath the Position",
+ "subtitle": "Translate demands into core concerns and interests — answer the need first, hold your boundary.",
+ "guardrail": "Surveillance vs. Care: Never announce someone's need as an accusation ('You just need status'). Under the Transparency Test, only offer answers to needs that are genuinely true — and remember that answering a need is NOT giving in on your boundary.",
+ "assembly": "| Day | Step | Ingredient |\n|---|---|---|\n| Mon | Part 1 · Fisher & Shapiro | Five Core Concerns, Syntax Tells & Zero-Cost Levers |\n| Tue | Part 2 · Fisher, Ury & Patton | Interests vs. Positions + Non-Accusatory Questions |\n| Wed | Part 3 · Chase Hughes | All 6 Needs: Answer vs. Exploit vs. Announce + Honor & Hold |\n| Thu | Deliberate Practice Lab | 6-Scenario Position-to-Need Translation Trainer |\n| Fri | Deliverable Workshop | Position-vs-Need Matrix (3 Stalled Conversations) |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "Five Core Concerns",
+   "cards": [
+    {
+     "id": "b3.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Five Core Concerns",
+     "md": "Most deadlocks look technical above the waterline and feel inexplicable underneath. You bring clean spreadsheets, logical timelines, or fair compromises, and the other person digs in harder. Pushing bow-to-bow against their surface demand only scrapes paint; beneath the surface sits the **submerged keel** stabilizing their vessel. Fisher and Shapiro explain that an unmet core concern hits the nervous system like having your nose pushed underwater—until the person gets air, no rational argument can land. Rather than treating emotions as messy noise, *Beyond Reason* uses the five core concerns as both **a diagnostic lens** (spotting which relational nerve was trampled) and **five practical levers** for cooperation without psychologizing anyone.\n\nBecause core concerns are *relational*, they shift depending on who sits across the table. **Appreciation** clears through a three-step discipline (*understand their view -> find one genuine merit in it -> state that merit aloud without conceding your position*). **Affiliation** turns an adversary into a colleague through shared structural stakes or personal warmth. **Autonomy** stays intact through one simple habit: *always consult before deciding*. **Status** avoids zero-sum rank battles by honoring **Particular Status**—recognizing someone's specific domain craft or experience. **Role** invites them out of an adversarial box into a constructive function they actually want to inhabit."
+    },
+    {
+     "id": "b3.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Five Core Concerns",
+     "md": ":::note Decision Rule\nRun the five-concern scan proactively before high-stakes talks (especially your promotion conversation), and **stop the instant you catch yourself surrendering your actual boundary just to keep the emotional weather smooth.** Meeting a relational concern clears the emotional static—opening the door to Tuesday's practical layer: *uncovering the concrete constraints and goals hidden behind a rigid demand.*\n:::\n\n:::note Office Dojo\nA veteran manager blocks your new workflow (\"We've always done it this way\"). You spot trampled Particular Status and Autonomy beneath the rigid bow: \"Your controls are the exact reason we passed the last three audits cleanly [Particular Status + Appreciation]. Before I finalize any draft, I want your eye on which step would break under peak load [Autonomy].\"\n:::\n\n:::note Personal Dojo\nA friend snaps, \"You always just pick the restaurant and tell me where to show up.\" Hearing trampled Autonomy and Appreciation, you skip the efficiency defense: \"You're right—I booked it without checking with you, and I want nights out to feel like ours, not my schedule. Want to pick tonight, or trade off?\"\n:::\n\n:::warn Non-Example\nDropping hollow flattery (\"You're such a visionary leader!\") right before pushing an unfair deadline. Core-concern levers collapse into cynicism the instant they smell like a trick—the merit you name has to be real.\n:::"
+    },
+    {
+     "id": "b3.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Five Core Concerns",
+     "md": "**Lens.** *Beyond Reason: Using Emotions as You Negotiate* (2005). Practitioner negotiation theory demonstrating that instead of trying to decode dozens of fleeting emotions mid-argument, you can diagnose and generate positive emotional momentum through **five relational core concerns**: *Appreciation, Affiliation, Autonomy, Status,* and *Role*.\n\n### The Five Core Concerns — Syntax Tells & Zero-Cost Levers\n\n| Core Concern | Definition | Syntax Tell (Trampled) | How You Trample It | Zero-Cost Lever (Meet It) |\n|---|---|---|---|---|\n| 1. Appreciation | Valued recognition of thoughts, feelings, actions. | 'You didn't even read what I sent.' / 'You never ask what I think.' | Dismissing, interrupting, jumping to rebuttal. | 3-step move: Understand -> find 1 real merit -> state it aloud without agreeing. |\n| 2. Affiliation | Connectedness (structural = shared team; personal = warmth). | 'It feels like us vs. them.' / 'You only call when you need something.' | Treating them as an adversary or keeping cold distance. | Build structural ('both on the hook for Q3') or personal links. |\n| 3. Autonomy | Freedom to affect or make decisions without imposition. | 'You went over my head.' / 'You already decided without me.' | Telling them what to do, ultimatums, finished decisions. | Always Consult Before Deciding; offer 2 bounded options. |\n| 4. Status | Standing (social = rank; particular = domain expertise). | 'I've been doing this 15 years.' / 'Who authorized this?' | Talking down, public correction, competing over smarts. | Recognize their Particular Status (genuine craft or seniority). |\n| 5. Role | Having a fulfilling, meaningful part in the interaction. | 'I'm just a cog here.' / 'I feel like a rubber stamp.' | Trivializing their job or boxing them into adversary. | Co-define a constructive role ('devil's advocate on risk'). |\n\n### Optional Deepening · Donna Hicks (Dignity & Leading with Dignity)\n\nFisher and Shapiro frame the five concerns as negotiation levers; Donna Hicks anchors them in something deeper. Hicks separates **Dignity**—inherent birthright worth owed to every human being, *\"our highest common denominator\"*—from **Respect**, which is earned through action. Her elements map almost 1-to-1 onto the five concerns (*Appreciation -> Acknowledgment & Recognition; Affiliation -> Inclusion; Autonomy -> Independence; Status -> Acceptance of Identity & Fairness*), while warning against **False Dignity** (*\"the belief that our worthiness comes from external sources\"*). Holding Hicks beneath Fisher and Shapiro ensures you honor concerns because the person matters, never as slick leverage.\n\n:::note Cultural Weighting of the Five Core Concerns (Rung 6)\nAll five concerns exist everywhere, but their relative weight shifts sharply across rooms and cultures. Low-context US offices typically weight individual *Autonomy* and *Role* highest; Latin American, Spanish, and high-hierarchy settings frequently weight *Affiliation* (*confianza*) and *Status* (dignity and standing) above unilateral autonomy. Calibrate which concern you honor first to the room's cultural floor.\n:::\n\n:::details Canon notes · Part 1 · Fisher and Shapiro: five core concerns\n*3*\n\n:::note Lens card\nRoger Fisher, co-founder of the Harvard Negotiation Project, and Daniel Shapiro, a psychologist who founded the Harvard International Negotiation Program, wrote *Beyond Reason* (2005) about emotions in negotiation. Their claim is that you do not need to read every emotion; you can attend to five core concerns that generate most of them: appreciation, affiliation, autonomy, status and role. When a concern is met, positive emotions tend to follow; when it is trampled, negotiations stall. What is distinctive is that it turns emotion into a short list you can act on without psychologizing anyone.\n:::\n\n:::note Why Fisher and Shapiro here\nThe module translates positions into needs. The five concerns give a vocabulary that works at a table without diagnosing anyone.\n:::\n\n:::note Native use\nNegotiation teaching and practice, from business to diplomacy.\n:::\n\n:::note Limit\nPractitioner theory from experienced negotiators and teachers (label: practitioner theory). I did not find direct tests of the five-concern structure in what I used. It is a working lens, and it overlaps with other need models, including Hicks's dignity elements.\n:::\n\n### The five concerns, as levers you can offer\n\n| Concern | Trampled when | You can offer it by |\n|---|---|---|\n| Appreciation | Their view is ignored or dismissed | Finding merit in their thinking and saying so |\n| Affiliation | They are treated as an adversary | \"We\" language; a shared problem |\n| Autonomy | Decisions are made for them | Consulting before deciding |\n| Status | Their standing is overlooked | Acknowledging their expertise or rank |\n| Role | Their part feels meaningless | Shaping a role they find fulfilling |\n:::"
+    },
+    {
+     "id": "b3.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Five Core Concerns",
+     "md": ":::note Handoff\nUse these 5 rows to diagnose the **Underlying Core Concern** column of your Friday **Position-vs-Need Matrix**.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your matches or your ratings.",
+     "tools": [
+      "rungs.blue.B3.p1"
+     ]
+    }
+   ],
+   "author": "Roger Fisher & Daniel Shapiro"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Interests Behind Positions",
+   "cards": [
+    {
+     "id": "b3.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Interests Behind Positions",
+     "md": "Two people arguing over positions are like two captains pushing bow-to-bow in a narrow channel: every inch one gains, the other loses. As Daniel Shapiro summarizes in *Negotiating the Nonnegotiable*, *\"While people's positions may be at loggerheads in a given conflict, their underlying interests tend to be much more compatible.\"* A rigid demand (\"12 months, take it or leave it\" or \"no title bump until next cycle\") is rarely an end in itself—it is simply the one solution the other person thought of to protect a hidden constraint.\n\nTo get beneath the waterline, run two diagnostic questions before you counter-argue: *(1) Why do they hold this position?* and *(2) Why have they NOT said yes to mine?*—mapping the exact political, budget, or face hurdle standing in their way. In live speech, strip out sharp \"Why?\" questions (which land like courtroom accusations) and replace them with \"What…\" or \"Help me understand…\" prompts, listening closely for the unguarded aside or the second sentence. Then sort both sides' interests into three buckets: **Shared** (what you both want), **Compatible / Dovetailing** (where you value different things cheaply traded), and **Conflicting** (true zero-sum trade-offs)."
+    },
+    {
+     "id": "b3.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Interests Behind Positions",
+     "md": ":::note Decision Rule\nUse interest-mining in collaborative negotiations, friendships, and bureaucracies; **stop and switch immediately back to White Belt W4/W6** (direct yes/no request + clean boundary) if the other side exploits your candor in bad faith. Yet even when you map both relational concerns (Monday) and practical interests (Tuesday), some people stay strangely rigid—leading directly to Wednesday's deepest submerged layer: *the unspoken social fears driving what someone needs others to confirm about them.*\n:::\n\n:::note Office Dojo\nIn your promotion talk, your position is \"Promote me to Senior\" (interests: recognition, trajectory, compensation), while your manager's position is \"Budget is tight.\" Instead of arguing your output harder, you mine the constraint: \"Help me understand what constraints you're navigating with Q4 headcount so we can build a path that works for both of us.\" That reveals whether the real block is a temporary budget freeze or executive visibility—unlocking dovetailing options (written criteria now + interim lead scope + Q1 effective date).\n:::\n\n:::note Personal Dojo\nA friend insists, \"We have to leave by 6:00 sharp.\" Rather than debating \"6:30 is plenty of time,\" you ask, \"What makes 6:00 feel important for you tonight?\" They admit, \"I hate circling for parking and arriving stressed.\" Now you solve the stress interest (take transit at 6:15) instead of fighting over the clock.\n:::\n\n:::warn Non-Example\nRestating a position in softer words and calling it an interest (\"Their interest is they don't want to work Friday\"), OR sharing your open vulnerabilities with a W4 covert aggressor bargaining in bad faith—handing them ammunition instead of building a deal.\n:::\n\n:::dialect Translation strip · interestQ\n@office_us \"Help me understand what constraints or risks you're navigating on this timeline so we can build an option that works for both sides.\"\n@personal_us \"What makes 6:00 feel important for you tonight? I want to make sure the evening actually feels good for you too.\"\n@rioplatense \"Ayudame a entender qué te preocupa más de esa fecha así buscamos algo que nos sirva a los dos.\"\n@espana \"¿Qué es lo que más te frena o te preocupa de ese plazo para que podamos encajarlo bien?\"\n:::"
+    },
+    {
+     "id": "b3.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Interests Behind Positions",
+     "md": "**Lens.** *Getting to Yes* (1981/2011; practitioner negotiation theory, widely taught across business and diplomacy). Establishes the structural split between a **Position** (the rigid solution someone demands on the surface) and **Interests** (the underlying fears, constraints, and goals driving that demand).\n\n### Position vs. Fake Interest vs. Real Interest (with Non-Accusatory Prompts)\n\n| Stated Position | Fake Interest (Restated Position) | Real Underlying Interest | Non-Accusatory Question | Dovetailing Answer |\n|---|---|---|---|---|\n| 'It has to be a 12-month contract.' | 'They want a shorter contract.' | Fear of blame if performance drops in Year 2. | 'What's the biggest risk on your side past 12 months?' | 24-month deal with a 12-month review/exit clause. |\n| 'No title bump until next cycle.' | 'They want to keep my title.' | HR band frozen until Q1; manager fears precedent. | 'What hurdle gets in the way of a promotion sooner?' | Written criteria now + interim lead scope + Q1 effective date. |\n| 'We need a 10% discount.' | 'They want to pay less.' | Buyer needs a visible 'win' to show their VP. | 'Help me understand what leadership needs to see.' | Hold base rate; offer visible onboarding/terms concession. |\n| 'You never initiate anymore.' | 'They want me to text more.' | Affiliation: feeling unchosen or low priority. | 'When I go quiet, what does that feel like on your end?' | Name their priority explicitly + propose specific date. |\n\n### Optional Deepening · Daniel Shapiro (Negotiating the Nonnegotiable)\n\nWhere does *Getting to Yes* hit a brick wall? Daniel Shapiro (*Negotiating the Nonnegotiable*) maps human conflict across three tiers: **Rationality** (logic and *interests*), **Emotionality** (the five *core concerns*), and **Identity**—a model he calls ***Homo identicus***. As Shapiro writes, *\"An emotionally charged conflict gets its 'charge' because it implicates fundamental aspects of your identity: who you are, what you hold as important, and how you conceive of meaning in your life. In other words, it threatens you.\"* Interest-dovetailing shines on Tier 1; the moment a dispute triggers Tier 3 identity threat, no clever option can land until you acknowledge and protect their identity first.\n\n:::note 3-Bucket Interest Sort & The 'Why Not?' Diagnostic (Rung 5)\nBefore any major negotiation, put your promotion or deal through the 3-bucket sort: *(1) Shared* (clean Q4 delivery, retaining a strong contributor), *(2) Compatible / Dovetailing* (you value title and trajectory; your manager values staying inside this quarter's cap), and *(3) Conflicting* (immediate base cash). Then run the 'Why Not?' check: name the exact political, budget, or face cost stopping them from saying yes today.\n:::\n\n:::details Canon notes · Part 2 · Fisher, Ury and Patton: interests behind positions\n*3*\n\n:::note Lens card\nRoger Fisher and William Ury, with Bruce Patton in later editions, wrote *Getting to Yes* (1981), which made \"focus on interests, not positions\" the core of principled negotiation. A position is what someone says they want; an interest is why they want it. Behind opposed positions there are often shared or compatible interests. What is distinctive is the instruction to ask \"why?\" and \"why not?\" about every position, including your own. Their book is not in your notebook, so this card rests on general knowledge of a widely read text.\n:::\n\n:::note Why they are here\nThe translation matrix in this module is an interests exercise. This part gives its origin and its simplest form.\n:::\n\n:::note Native use\nNegotiation, from contracts to international disputes, taught as principled bargaining.\n:::\n\n:::note Limit\nPractitioner theory, very influential, criticized for underplaying power differences and hard bargaining (label: practitioner theory; not in notebook). Answering an interest does not oblige you to give up your own; White Belt's rules hold.\n:::\n\n### Position, interest, and what you can answer\n\n| Position | Possible interest | An answer to the interest |\n|---|---|---|\n| \"It has to be 12 months.\" | Not being locked in | An exit clause at 12 months |\n| \"We need a 10% discount.\" | Looking strong to a boss | A visible concession on something cheap for you |\n| \"You never initiate.\" | Feeling chosen | Proposing a specific plan |\n:::"
+    },
+    {
+     "id": "b3.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Interests Behind Positions",
+     "md": ":::note Handoff\nSeparate **Stated Position** from **Real Underlying Interest** across your 3 stalled conversations in Friday's Matrix, and write one non-accusatory \"What / Help me understand\" question for each.\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your positions, your interests or your ratings.",
+     "tools": [
+      "rungs.blue.B3.p2"
+     ]
+    }
+   ],
+   "author": "Roger Fisher, William Ury & Bruce Patton"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "Needs as Fears, and Answering Without Exploiting",
+   "cards": [
+    {
+     "id": "b3.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Needs as Fears, and Answering Without Exploiting",
+     "md": "If Monday gave you relational levers and Tuesday gave you practical interests, Wednesday exposes the raw survival reflex sitting at the bottom of the keel. Hughes observes that what people need *from other people* reveals *\"some of our most secret fears.\"* One crucial correction: **\"Control\" is not on Hughes's map**—when someone appears driven by control, Fisher & Shapiro's *Autonomy* and Hughes's *Strength* cover it. And as Hughes notes of Strength-need speakers, they *\"don't need power. They need to FEEL powerful\"*—guarding against the fear of being dominated, disrespected, or publicly exposed as weak.\n\nIn Hughes's native tradecraft, spotting a fear-based need hands you a lever to steer someone. Blue Belt flips that lever under the **Transparency Test**: *If I told this person aloud why I just said that sentence, would it strengthen trust or break it?* You never **exploit** a need (such as flattery before a bad ask—W4 *Seduction*), and you never **announce** it as an accusation (\"You just need to feel important\"). Instead, run the **Honor + Hold Move**: `[1 honest, reality-anchored sentence answering the fear/need]. [Full Period.] [Your clean White Belt boundary or proposal].` Answering a need is never giving in—you honor their standing and hold your line in the same breath."
+    },
+    {
+     "id": "b3.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Needs as Fears, and Answering Without Exploiting",
+     "md": ":::note Decision Rule\nUse the six-need map to decode why someone's bow is locked rigid, and answer *only* with something genuinely true. **Stop the instant you feel a sneaky rush of 'I've got their lever'**—that sensation means you just crossed from answering into exploiting. Once you know *what* is trampled beneath a position, **B4** ensures your answer lands in the right conversational lane instead of bouncing off a lane mismatch.\n:::\n\n:::note Office Dojo\nA Strength-need vendor issues an ultimatum: \"Take 12 months or we walk.\" You run Honor + Hold: \"You're the one owning this risk, and you should have the final call on term length [Honors Strength]. We can't do our 24-month rate on 12 months, so here are two 12-month structures—Option A at standard rate, or Option B with narrower scope. Which fits better? [Holds boundary].\"\n:::\n\n:::note Personal Dojo\nA Pity-need friend vents about a brutal week (\"Everything falls on me and nobody gets it\"). Jumping to a five-step fix makes them feel disbelieved and triggers escalation. Instead, you Answer + Pause: \"That sounds genuinely exhausting—carrying all of that alone all week is brutal.\" [Hold 2 silent beats without fixing.]\n:::\n\n:::warn Non-Example\nSpotting a colleague's Intelligence need and saying, \"Honestly, you're the only one sharp enough to untangle this—could you absorb my Friday deadline?\" That is textbook W4 Seduction: it fails the Transparency Test the second you imagine explaining your motive aloud.\n:::"
+    },
+    {
+     "id": "b3.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Needs as Fears, and Answering Without Exploiting",
+     "md": "**Lens.** *Six-Minute X-Ray* (2020; practitioner tradecraft, no independent empirical validation of the six-need taxonomy). Hughes maps six social needs—three Primary (*Significance, Approval, Acceptance*) and three Secondary (*Intelligence, Pity, Strength/Power*)—treating each not as a polite preference, but as a fear-driven craving leaking through everyday syntax.\n\n### All 6 Hughes Needs — Fear, Speech Tell, and Answer vs. Exploit vs. Announce\n\n| Need | Core Fear Guarded | Speech Tell (6MX) | Answering It (Passes Test) | Exploiting It (Fails) | Announcing It (Fails) |\n|---|---|---|---|---|---|\n| 1. Significance (Pri) | Being ignored, feeling small, ridicule. | '20 years in this industry...' / 'Only $80k...' | Acknowledge genuine impact or contribution. | Fake awe/flattery to extract a discount. | 'You just want to feel important.' |\n| 2. Approval (Pri) | Dismissal, disapproval, contempt. | 'I really suck at these...' / needless apologies. | Give clear, honest reassurance & specific recognition. | Withhold warmth so they over-give to earn it. | 'Stop fishing for compliments.' |\n| 3. Acceptance (Pri) | Exclusion, gossip, peer mismatch. | 'Friends blowing up my phone...' / 'Great fit.' | Genuine inclusive language; welcome into shared work. | Threaten exclusion ('Everyone else is on board'). | 'You're just trying to fit in.' |\n| 4. Intelligence (Sec) | Being seen as dumb, questioned, called out. | 'Actually...' / 'Back at Harvard...' / 'Idiots...' | Take their reasoning seriously; ask for analysis. | Seduction (W4): praise brilliance before a bad ask. | 'You always have to be the smartest.' |\n| 5. Pity (Sec) | Being disregarded, misunderstood, disbelieved. | 'Sick all week...' / 'This traffic is ridiculous.' | Confirm difficulty honestly + brief pause; don't rush to fix. | Fake sympathy to create obligation. | 'You're playing the victim again.' |\n| 6. Strength / Power (Sec) | Being 'punked,' disrespected, dominated. | Blunt declaratives, boasting defiance, louder tone. | Respect agency; offer 2 real choices they control. | Bait their pride into a fight to steer them. | 'You just need to feel powerful.' |\n\n### Optional Deepening · I-Thou Relations Communication Outline\n\nIn tactical profiling, mapping someone's fear-based need shrinks a living person into an *\"It\"* (Martin Buber)—a lock to be picked. In the personal dojo, dismantle the urge to profile for leverage and point that exact same perception toward compassion: you locate where someone is hurting so you can sit beside them honestly without reinforcing their armor.\n\n:::note Two Critical Hughes Distinctions: Approval vs. Acceptance & Strength Dichotomy\nIn *Six-Minute X-Ray*, two distinctions prevent sloppy reads: *(1) Approval vs. Acceptance*—Approval-seekers crave individual permission and praise, whereas Acceptance-seekers will reshape their speech, opinions, or habits to belong to a group or tribe; and *(2) High-End vs. Low-End Strength*—high-end strength drives people to lead teams and systems, while low-end strength (often shaped by past humiliation) over-postures and speaks louder to avoid ever feeling dominated.\n:::\n\n:::details Canon notes · Part 3 · Hughes: needs as fears, and answering without exploiting\n*3*\n\n:::note Lens card\nHughes's full lens card is W3 Part 1, where you mapped your own needs. Here only one angle is new: each need is described by the fear it guards, and in his native use a spotted need is a lever. This module turns the lever around: you answer a need, you do not pull it.\n:::\n\n:::note Why Hughes here\nThe module's need-level answers, such as acknowledging seniority while holding your price, are Hughes's map used under the transparency test.\n:::\n\n:::note Native use\nProfiling and influence. The answer-not-exploit use is this curriculum's.\n:::\n\n:::note Limit\nPractitioner theory with no validation found (label: practitioner theory). The main shadow is diagnosing aloud: naming someone's need as an accusation.\n:::\n\n### Answer, exploit or announce\n\n| Need | Answering it | Exploiting it | Announcing it |\n|---|---|---|---|\n| Significance | Acknowledge their contribution | Flatter to get a yes | \"You just want attention.\" |\n| Strength | Give them a real choice | Bait them into a fight they must win | \"You need to feel powerful.\" |\n| Intelligence | Take their idea seriously | Praise their mind before an ask | \"You need to be right.\" |\n:::"
+    },
+    {
+     "id": "b3.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Needs as Fears, and Answering Without Exploiting",
+     "md": ":::note Handoff\nWrite one **Honor + Hold** sentence in the final column of your Friday **Position-vs-Need Matrix** for each stalled conversation, verified against the Transparency Test (these entries also pipe forward into B5's Accusation Audits).\n:::\n\nClaude may label an example as \"not yours,\" ask a follow-up or push back. Claude does not write your episodes, your answers or your ratings.",
+     "tools": [
+      "rungs.blue.B3.p3"
+     ]
+    }
+   ],
+   "author": "Chase Hughes"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "The need beneath the position",
+   "cards": [
+    {
+     "id": "b3.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The need beneath the position",
+     "md": "**The need beneath the position.** Translate what someone demands into what they need, and answer the need first.\n\n### Concepts\n\n1. **Hughes' needs, corrected.** Primary: significance, approval, acceptance. Secondary: intelligence, pity, strength/power (Source: 6MX p. 174; pp. 186–190 as reported). Each is described by the fear it guards: significance against being ignored or feeling small; approval against disapproval; acceptance against not belonging; intelligence against being seen as dumb; pity against being disbelieved; strength against being disrespected or dominated (Source: 6MX pp. 187, 218). Hughes' line: strength-need people \"don't need power. They need to FEEL powerful\" (Source: 6MX p. 209, NL quote). *Control is not on the map*; when someone seems driven by control, Fisher and Shapiro's autonomy and Hughes' strength cover it.\n2. **The five core concerns (Fisher and Shapiro).** Appreciation (are my thoughts and feelings understood and valued?), affiliation (am I treated as a colleague or an adversary?), autonomy (is my freedom to decide respected?), status (is my standing acknowledged?), role (do I have a meaningful role here?) (Source: Beyond Reason pp. 28–131, as reported). A deadlock is rarely about the terms; usually a concern has been trampled.\n3. **The translation matrix (Curriculum, Layer 2 Module 2).** Three ways to hear the same demand, \"We can't accept 24 months; it has to be 12\":\n\n| What you hear underneath | Need or concern | Answer to the need |\n|---|---|---|\n| \"My boss will kill me if I bring back a two-year lock-in.\" | Affiliation, safety | Give them a story they can take back: an exit clause, a review point |\n| \"Your standard terms restrict how our team works.\" | Autonomy, competence | Let them rewrite the clause that touches their work |\n| \"I don't do multi-year deals. Take 12 or we walk.\" | Strength, status, autonomy | Two distinct 12-month options; they spend energy choosing rather than fighting |\n\n1. **Listen for the tell in the syntax.** The need leaks in the second sentence, the aside, the joke. The original calls this hearing the inner monologue beneath the business position. You know it as the thing a patient says on the way out of the room.\n2. **Answering the need is not giving in.** You can answer a status need (acknowledge their seniority) and still hold your position on price. White Belt's boundary rules still apply."
+    },
+    {
+     "id": "b3.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The need beneath the position",
+     "md": ":::note Drill\nThe \"why\" drill. When anyone states a position today (at work, in a shop, at home), silently name the need or core concern under it before you answer. Once a day, answer the need out loud first.\n:::\n\n:::note Office dojo\nBefore any negotiation (your promotion conversation is the obvious field project), write the other side's likely positions and, beside each, the concern it may protect. Then write how you could honor that concern at no cost to your ask.\n:::\n\n:::note Personal dojo\nWhen a friend complains, hear the concern: \"you never initiate\" is often affiliation and appreciation; \"you decided without me\" is autonomy. Answer the concern directly and warmly. The I-Thou outline's example is the right register: \"I realize I've been terrible at reaching out lately, and I hate that it made you feel like you aren't a priority. You are.\" (Curriculum, I-Thou Layer 2)\n:::"
+    },
+    {
+     "id": "b3.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The need beneath the position",
+     "md": "### Connect and argue: the three lenses side by side\n\nEverything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats the position as | Would worry that you... |\n|---|---|---|---|\n| Fisher and Shapiro | Five concerns | A sign a concern is trampled | Argue terms while a concern is hurt |\n| Fisher, Ury and Patton | Interests | A surface over reasons | Bargain over positions |\n| Hughes | Fear-based needs | A need speaking | Exploit or announce the need |\n\n**Where they meet.** All three look under the stated demand for something that can be answered more cheaply than the demand itself.\n\n**Where they collide.** Fisher and Ury aim at agreement; Hughes's native use aims at advantage. The module keeps the map and changes the aim.\n\n**What the three miss for you.** Positions often come in a register or language that hides the need, and interpreters hear that layer first. None of the three speaks to that.\n\n**Where it sits in your own frameworks.** Heart with others and Mind in your Orders Grid, with Hicks's dignity elements as a close cousin of the five concerns. Return to this module later and add dated notes; do not overwrite.\n\n### Research further: three threads to pick from\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Core concerns and dignity | How do Fisher and Shapiro's five concerns map onto Hicks's dignity elements and self-determination theory's needs? | Three need lists meet in this module | One thread, researched with the research-brief skill |\n| 2. Interests and power | What does negotiation research say about interest-based bargaining when power is unequal? | Your promotion conversation has a power gap | One thread, with a critic pass |\n| 3. Does naming concerns help? | Is there evidence that addressing relational concerns improves negotiated outcomes? | Part 1 is practitioner theory | Full deepening of Part 1 |\n\n:::note Research prompt\nUse curriculum-module in deepen mode on Blue Belt B3, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries.\n:::"
+    },
+    {
+     "id": "b3.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The position-versus-need matrix",
+     "md": "**The position-versus-need matrix.** Take three past conversations that stalled (at least one at work, one personal). For each, write the stated position, the concern you now think was underneath, and what you could have answered instead.\n\n**Watch for.** Diagnosing aloud. \"You're just insecure about status\" names a need as an accusation. You answer the need; you do not announce it.\n\n:::note Prompt\nRecall one recent stalled conversation (work or personal). Identify: (1) Their exact stated position; (2) The aside or second sentence that leaked the real concern; (3) One zero-cost Honor + Hold response.\n:::"
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "6-Scenario Position-to-Need Translation Trainer",
+   "cards": [
+    {
+     "id": "b3.thu.lab",
+     "kind": "action",
+     "label": "Lab",
+     "title": "6-Scenario Position-to-Need Translation Trainer",
+     "md": "**Deliberate Practice Lab** · 6-Scenario Position-to-Need Translation Trainer",
+     "tools": [
+      "drill.blue.B3.B3_drills"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "Position-vs-Need Matrix (3 Stalled Conversations)",
+   "cards": [
+    {
+     "id": "b3.fri.deliverable",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Position-vs-Need Matrix (3 Stalled Conversations)",
+     "md": ":::note Deliverable Spec · The position-versus-need matrix\nTake three past conversations that stalled (at least one at work, one personal). For each, write the stated position, the concern you now think was underneath, and what you could have answered instead.\n\n**Watch for.** Diagnosing aloud. \"You're just insecure about status\" names a need as an accusation. You answer the need; you do not announce it.\n:::",
+     "tools": [
+      "form.blue.B3"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}

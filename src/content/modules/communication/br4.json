@@ -1,0 +1,202 @@
+{
+ "id": "br4",
+ "belt": "brown",
+ "kind": "week",
+ "kicker": "Brown Belt · Module Br4",
+ "title": "The Reveal — Strategic & True Disclosure",
+ "subtitle": "Can I drop the edited self, advocate before inquiring, and be seen in under 45 seconds?",
+ "golden": "Promotion Project Step 4: Import your Br1 Promotion Ask into Thursday's 45-Second Four-Part Compressor—it pipes straight into Br5's Steering Map.",
+ "goldenLabel": "Golden Thread · Promotion Project & Script-Book",
+ "assembly": "| Day |\n|---|\n| Mon: Torbert 4 Parts (45s) |\n| Tue: Altman Breadth/Depth |\n| Wed: Collins & Reciprocity |\n| Thu: 45s Compressor + Mic |\n| Fri: 5-Rung Reveal Ladder |",
+ "days": [
+  {
+   "id": "mon",
+   "label": "Monday",
+   "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+   "cards": [
+    {
+     "id": "br4.mon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+     "md": "### Layer 1 · Author Completion: The Four-Atom Architecture of Speech & Double-Loop Mutuality\n\nThink of speech as molecular engineering. **Bill Torbert** (*Action Inquiry*, Ch. 2) calls his four parts of speech—**Framing, Advocating, Illustrating, and Inquiring**—*“the very atoms of human action.”* Meaning in a conversation is either **constructed** by weaving all four atoms together, or **fragmented** by trading competing advocacies or hiding behind questions. Each atom draws its live content from one of four **Territories of Experience**: **Framing** voices your *Attention/Intention/Vision* (naming the purpose and assumptions upfront); **Advocating** voices your *Strategy/Structure/Goals* (stating your view, feeling, or ask plainly); **Illustrating** voices observable *Behaviors/Operations* (grounding the stance in one concrete fact or story); and **Inquiring** attends to *Outcomes in the External World* (asking a genuine question open to disconfirmation).\n\nHere is the trap that catches skilled listeners and interpreters hardest: the **Pluralist Question Trap**, which Torbert calls **naked inquiry**. Asking probing questions without first putting your own Frame and Advocacy on the table does not feel neutral to the listener—it creates a vacuum (*“What's he getting at?”*). Because the frame is veiled, listeners naturally impute negative or manipulative motives and brace defensively. Conversely, **veiled framing** or **rhetorical inquiry** (*“You agree, don't you?”*) masquerades as openness while clinging to unilateral control. The counterintuitive engine of Torbert's model is **Double-Loop Mutuality**: *Advocating* and *Illustrating* put your own stance on the table as cogently as possible, while *Framing* and *Inquiring* extend outward to invite the other person to test—and potentially *revise*—your underlying frame. The second-order friction is real: speaking this transparently feels vulnerable because it interrupts unilateral momentum and invites answers that can disconfirm your plan. The third-order payoff is structural trust: even when you are junior in formal rank, balancing all four atoms lets you speak with peer-level steadiness rather than hiding in the Diplomat's edited self or the Expert's data flood.\n\n*Bridge to Tuesday:* Torbert gives you the four-part grammar for making a single disclosure structured and clean; tomorrow, Altman & Taylor zoom out to the *pacing* of disclosure across time—how deep to go, and when pulling back is a healthy cycle rather than a rupture."
+    },
+    {
+     "id": "br4.mon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+     "md": "**The 45-Second Compression Rule:** At ~140 wpm, 45 seconds is **90–110 words** (~1–2 tight sentences per part). Draft `Frame → Advocate → Illustrate → Inquire`, strip O'Barr hedges, and verify you can tolerate an honest 'no' to *Inquire*. **Interruption Recovery Bridge:** If interrupted right after *Advocate*, acknowledge their point in 4 words (*“Fair point on timing—”*), land *Illustrate* in 1 sentence, and ask *Inquire*.\n\n:::note Office Worked Example (~33s / 76 words)\n**Frame:** “I want to align on Q4 priorities so nothing slips.” **Advocate:** “I'm declining the migration audit this cycle to protect the core close.” **Illustrate:** “Last quarter, carrying both pushed close back four days.” **Inquire:** “Given that trade-off, should we shift the audit to January or assign another lead?”\n:::\n\n:::note Personal Worked Example (~25s / 58 words)\n**Frame:** “I want to share something small about us, and I don't need you to fix it.” **Advocate:** “I've felt a little guarded with you these past two weeks.” **Illustrate:** “When we rescheduled twice, I pulled back instead of saying I missed hanging out.” **Inquire:** “How have things felt from your side lately?”\n:::\n\n:::note Non-Example (Naked / Rhetorical Inquiry)\n“So how much bandwidth do you actually think our team has right now? You don't really think we can hit Friday, do you?” *(Hides unstated advocacy inside a leading trap.)*\n:::\n\n:::note Decision Rule\nWhenever you catch yourself asking a second probing question in a row without stating your own view, **stop and insert Frame + Advocate**.\n:::\n\n:::note High-Context Framing Tip\nIn high-context settings (Argentina, Spain, or hierarchical teams), keep Frame warm and relational ('I really value how our team has grown this year, and I'd like to talk about my next step…') while keeping Advocate crisp and unhedged.\n:::\n\n:::field Which Part Do You Skip Most?\nDo you jump to Illustrate (Expert) or hide in Inquire (Pluralist)?\n:::"
+    },
+    {
+     "id": "br4.mon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+     "md": "| Part of Speech | Source Territory (Torbert Fig. 2.1) | Role in Double-Loop Mutuality | Primary Failure Mode |\n|---|---|---|---|\n| 1. Framing | *Attention / Intention / Vision* | Names the purpose, dilemma, or assumptions upfront so nobody guesses. | **Veiled Frame:** Listeners wonder *“What's he getting at?”* and impute hidden agendas. |\n| 2. Advocating | *Strategy / Structure / Goals* | States your option, perception, feeling, or ask plainly. | **Naked Inquiry:** Asking *“Do you have a pen?”* instead of *“I need a pen [Advocate]. Do you have one [Inquire]?”* |\n| 3. Illustrating | *Behaviors / Operations* | Tells a brief, concrete story or observable fact grounding the advocacy. | **Abstract Claim / Data Flood:** Either too vague to test, or 10 minutes of Expert minutiae. |\n| 4. Inquiring | *Outcomes in External World* | Asks a genuine question—willing to have your frame disconfirmed. | **Rhetorical Inquiry:** Asking *“You agree, don't you?”* when tone signals no real choice. |\n\n### Layer 3 · Optional Deepening: Experiential vs. Attributive Speech (Kegan & Lahey)\n\nIn *How the Way We Talk Can Change the Way We Work*, Kegan & Lahey warn that **attributive** statements (*“You've been distant”*) force the listener to defend themselves (*“No, I haven't”*). **Experiential** statements (*“When plans shifted twice, I told myself I was a burden”*) report only your own experience—nobody can argue with it. Use experiential phrasing inside Torbert's *Illustrate* step.\n\nBr4 · Monday · Part 1 · William Torbert Four Parts of Speech\n\n## Frame, Advocate, Illustrate, Inquire — In Under 45 Seconds\n\nAcross Br1–Br3 you calibrated how your asks, metamessages, and two languages land on a room; in Br4 you step out from behind the listener's shield and let yourself be seen on purpose. **Bill Torbert** treats speaking as the primary medium of human action—and shows how weaving four distinct parts of speech turns a guarded monologue or interrogation into genuine mutual inquiry:\n\n| Part | Function | Worked 45-Second Promotion Pitch (~95 Words) |\n|---|---|---|\n| 1. Frame | FunctionName the purpose upfront. | Worked 45-Second Promotion Pitch (~95 Words)“I'd like to spend ten minutes discussing my role for next cycle.” |\n| 2. Advocate | FunctionState your want once, plainly. | Worked 45-Second Promotion Pitch (~95 Words)“I'm asking to be promoted to Senior Analyst this review.” |\n| 3. Illustrate | FunctionGround in 1–2 concrete facts. | Worked 45-Second Promotion Pitch (~95 Words)“This year I led Q2 and Q3 closes with zero audit adjustments and onboarded two new analysts.” |\n| 4. Inquire | FunctionAsk a genuine open question. | Worked 45-Second Promotion Pitch (~95 Words)“What would you need to see from me over the next 60 days to support that?” |\n\n:::details Canon notes · Part 1 · Torbert: four parts of speech\n:::note Lens card\nTorbert's full lens card is W2 Part 1. Here only his four parts of speech matter: framing (the purpose of what you are about to say), advocating (your view or want), illustrating (a concrete example) and inquiring (a genuine question). He argues that effective speech balances all four, and that most people over-use one or two. What is distinctive is that disclosure becomes structured: you can be seen without overwhelming anyone.\n:::\n\n:::note Why Torbert here\nThe four parts are this module's main tool against the Pluralist question trap.\n:::\n\n:::note Native use\nLeadership and organizational action inquiry.\n:::\n\n:::note Limit\nTheory with case evidence (label: theory with case evidence). The order frame, advocate, illustrate, inquire is a useful default, not a rule he insists on in every case.\n:::\n\n### What happens when one part is missing\n\n| Missing | What the listener experiences |\n|---|---|\n| Frame | Not knowing why you are saying this |\n| Advocate | A vacuum: questions with no position |\n| Illustrate | An abstract claim with nothing to test |\n| Inquire | A speech, not a conversation |\n:::"
+    },
+    {
+     "id": "br4.mon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Four-Atom Architecture of Speech & Double-Loop Mutuality",
+     "md": ":::note Handoff\nDraft every one of the **5 disclosures on Friday's Reveal Ladder** in this exact 4-box structure (`Frame | Advocate | Illustrate | Inquire`), keeping each under ~100 words each.\n:::",
+     "tools": [
+      "rungs.brown.Br4.Monday"
+     ]
+    }
+   ],
+   "author": "Bill Torbert · Action Inquiry (Ch. 2)"
+  },
+  {
+   "id": "tue",
+   "label": "Tuesday",
+   "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+   "cards": [
+    {
+     "id": "br4.tue.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+     "md": "### Layer 1 · Author Completion: Concentric Layers, Calibrated Depth & Tidal Privacy Cycling\n\nPicture a relationship as a series of concentric atmospheric shells surrounding a core self. **Irwin Altman & Dalmas Taylor** (*Social Penetration Theory*) track how closeness develops across three coordinated axes: **Breadth** (how many domains of life you share), **Depth** (how close a disclosure sits to your private vulnerabilities and values), and **Environmental Penetration** (moving from curated public venues into uncurated spaces and daily routines). Relationships move through four progressive layers—**Orientation** (outer skin), **Exploratory Affective** (opinions and light personal stories), **Affective** (processed struggles and honest disagreement), and **Stable** (core values and high predictability)—regulated by **Reciprocity** and **Social Exchange**. When the emotional cost of staying open chronically outweighs the relational reward, the system reverses into **depenetration**, shrinking back toward polite outer shells.\n\nHere is the misconception that causes both under-sharing and over-sharing: treating intimacy as a one-way ratchet that should only ever climb deeper. In **Altman's later dialectical revision**, healthy closeness is not a straight line upward—it **breathes like a tide**, cycling rhythmically between openness and closedness (**privacy regulation**). Misreading a friend's busy season or temporary quietness as permanent **depenetration** triggers anxious chasing or W2 Observer withdrawal, whereas skipping two shells at once—unloading an unprocessed crisis on a second coffee—spikes the listener's perceived cost and *actually* triggers depenetration. The diagnostic separator is simple: in a healthy **Privacy Cycle**, baseline warmth stays intact despite lower frequency; in **Depenetration**, flatness repeats specifically after unresolved friction while shared topics steadily narrow.\n\n*Bridge to Wednesday:* Altman & Taylor show how to size a disclosure to the exact layer of the relationship; tomorrow, Collins & Miller supply the empirical proof of *why* going first changes how both people feel—and why staying the anonymous listener quietly starves closeness."
+    },
+    {
+     "id": "br4.tue.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+     "md": "Step only **one layer deeper** than the relationship's current baseline (`Current Layer + 1`). Before any Stage 2–3 reveal, run the **3-Point Processed Check**: *(1) Can I say this in 2–3 calm sentences without spiraling? (2) Am I sharing to be known, not rescued or owed? (3) Can I accept a light reply without feeling rejected?*\n\n:::note Office Worked Example (Stage 2 Constraint)\n“To be transparent about my constraint: if we miss Tuesday's sign-off, my director pulls this off Q3—and I don't want that because our teams have real momentum. What's the tightest review window you can realistically hit?”\n:::\n\n:::note Personal Worked Example (Stage 1 → Stage 2 + Environmental)\n“Honestly, a mix—I've been stretched wrapping up a big project, so I'm really glad to be here clearing my head. Want to grab coffee at my place instead of a noisy bar?”\n:::\n\n:::note Non-Example (Layer-Skipping / Flooding)\nUnloading an unprocessed 15-minute family rupture on a second coffee with a new acquaintance. *(Spikes listener's perceived cost and triggers immediate depenetration.)*\n:::\n\n:::note Decision Rule\nCalibrate every disclosure to **Current Layer + 1**. If a close friend pulls back temporarily with warm baseline intact, treat it as an **Altman privacy cycle** rather than diagnosing depenetration.\n:::\n\n:::field Calibration Check\nName one true thing about your current week that passes all 3 checks.\n:::"
+    },
+    {
+     "id": "br4.tue.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+     "md": "| Stage / Diagnostic | What Lives Here (Breadth, Depth & Space) | Privacy Cycle vs. Depenetration Cue | Risk of Skipping / Misreading |\n|---|---|---|---|\n| 1. Orientation *(Outer Skin)* | Public facts, small talk, safe clichés, curated public spaces. | Low baseline intimacy; normal polite distance. | Staying stuck forever in 'highlight reel' friendships. |\n| 2. Exploratory Affective | Opinions, preferences, light personal stories, casual coffee/walks. | **Privacy Cycle:** Warmth stays intact despite a busy week. | Jumping straight from Stage 1 to Stage 3 feels heavy/intrusive. |\n| 3. Affective *(Close Friend)* | Processed struggles, honest disagreement, uncurated home/routines. | **Depenetration:** Repeated flatness after specific friction + shrinking topics. | Offering *unprocessed* crisis material before Stage 3 trust exists. |\n| 4. Stable *(Confidant)* | Core values, deep vulnerabilities, high behavioral predictability. | Spontaneous openness *and* accepted cycles of quiet. | Misreading a normal privacy cycle as permanent **depenetration**. |\n\n### Layer 3 · Optional Deepening: The Asymmetric Gift (I-Thou Relations Outline)\n\nSocial Exchange explains why sharing a constraint in the Office Dojo cleanly invites theirs. In the Personal Dojo, keeping a mental ledger of who revealed what turns vulnerability into a transaction. The *I-Thou* track resolves that tension through the **Asymmetric Gift**: offer a calibrated reveal because honesty is how you choose to stand, and accept whatever comes back—including nothing.\n\nBr4 · Tuesday · Part 2 · Altman & Taylor Social Penetration\n\n## Breadth, Depth & The Processed vs. Raw Disclosure Rubric\n\nMonday gave you the four-part syntax to drop the edited self; **Irwin Altman & Dalmas Taylor** map the *architecture of depth* so you step forward one layer at a time instead of freezing at the surface or flooding the room:\n\n| Check | Processed Disclosure (Calibrated) | Raw / Uncalibrated (Avoid) |\n|---|---|---|\n| 1. Emotional Weight | Processed Disclosure (Calibrated)Already worked through enough that you aren't handing them a crisis to fix. | Raw / Uncalibrated (Avoid)Mid-meltdown venting to a new acquaintance. |\n| 2. Sized to Relationship | Processed Disclosure (Calibrated)One layer deeper than current baseline. | Raw / Uncalibrated (Avoid)Skipping 4 onion layers on a first coffee. |\n| 3. Zero Hidden Obligation | Processed Disclosure (Calibrated)Offered freely; you accept whatever comes back. | Raw / Uncalibrated (Avoid)Oversharing to force them to share a secret back (Opportunist shadow). |\n\n:::details Canon notes · Part 2 · Altman and Taylor: breadth and depth\n:::note Lens card\nIrwin Altman and Dalmas Taylor, social psychologists, proposed social penetration theory in *Social Penetration* (1973). Relationships deepen as people disclose across more topics (breadth) and at more personal layers (depth), gradually and usually reciprocally; they can also depenetrate when disclosure shrinks. What is distinctive is the onion image: layers you move through in order, with the risk of going too deep too fast.\n:::\n\n:::note Why Altman and Taylor here\nCalibrated vulnerability and the Reveal ladder are steps through these layers.\n:::\n\n:::note Native use\nResearch on relationship development.\n:::\n\n:::note Limit\nTheory with research support and later revisions; Altman himself later stressed that openness and closedness cycle rather than only increasing (label: theory with case evidence).\n:::\n\n### Breadth, depth and pace\n\n| Move | Example | Risk |\n|---|---|---|\n| More breadth | Talking about family as well as work | Stays shallow |\n| More depth | Sharing a fear, not just a fact | Too fast overwhelms |\n| Reciprocity | Matching what they shared | Pressure to match |\n| Depenetration | Pulling back after a hurt | Silent distance |\n:::"
+    },
+    {
+     "id": "br4.tue.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Concentric Layers, Calibrated Depth & Tidal Privacy Cycling",
+     "md": ":::note Handoff\nMap **Friday's 5-Rung Reveal Ladder** directly onto Altman's layers: Rungs 1–2 = Stage 2 (*Exploratory Affective*, execute this week); Rungs 3–4 = Stage 3 (*Affective*); Rung 5 = Stage 3/4 (*Core*).\n:::",
+     "tools": [
+      "rungs.brown.Br4.Tuesday"
+     ]
+    }
+   ],
+   "author": "Irwin Altman & Dalmas Taylor · Social Penetration Theory"
+  },
+  {
+   "id": "wed",
+   "label": "Wednesday",
+   "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+   "cards": [
+    {
+     "id": "br4.wed.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+     "md": "### Layer 1 · Author Completion: The Bidirectional Thermal Loop & Perceived Responsiveness\n\nThink of self-disclosure not as a one-way spotlight exposing you to judgment, but as a **bidirectional thermal loop** that warms both people in the circuit. Synthesizing 94 studies, **Nancy Collins & Lynn Miller** (1994) documented three interlocking pathways: **(1) people who disclose appropriately are liked more**, **(2) we disclose more to those we already like**, and—the link most people miss—**(3) disclosing increases *your own* liking for the listener** when it is received warmly. Staying the polished **anonymous listener** (asking brilliant questions while offering nothing back) breaks the third pathway: you don't just keep others from knowing you; you prevent *yourself* from feeling close to people you genuinely like.\n\nCrucially, raw disclosure is not a blunt volume knob—three moderators decide whether the loop warms or chills the room. First, **Personalistic Attribution**: sharing something *specifically because you trust this person* deepens warmth, whereas indiscriminate oversharing to anyone within earshot drops liking immediately. Second, **Timing and Appropriateness**: evaluative truths (*how an experience actually felt*) beat dry résumé facts (*Expert armor*), provided they stay within `Current Layer + 1`. Third, **Listener Responsiveness**: the loop closes only when the receiver meets the reveal with non-judgmental acknowledgment rather than a rushed fix. Watch the **cultural calibration** across your languages: US friendships frequently build closeness through *verbal disclosure first*, whereas Argentine and Spanish friendships often build closeness through *consistent shared presence (sobremesa)* first, followed by warm personalistic candor. The second-order trap of waiting for perfect safety before revealing anything is permanent anonymity; the third-order reward of going first with small, processed truths is discovering which relationships have real depth.\n\n*Bridge to Thursday & Friday:* You now have all three Br4 tools—Torbert's four-part grammar, Altman's calibrated layers, and Collins & Miller's bidirectional warmth loop. Compress your Promotion Ask into under 45 seconds in Thursday's **Four-Part Compressor & Vocal Timer**, then map and execute Rungs 1–2 of Friday's **5-Rung Reveal Ladder**."
+    },
+    {
+     "id": "br4.wed.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+     "md": "**Three Micro-Moves:** (1) *Disclose:* share one small **evaluative** truth (*feeling + context*), add a light personalistic cue, and hold a **3-second Reciprocity Pause**. (2) *Receive (Rung 8):* use **Acknowledge → Match**—acknowledge warmly first (zero instant fix), then offer one proportional truth. (3) *Warm Landing:* close a deep moment cleanly when time is up (*“I'm really glad you shared that—let's pick this back up next week”*).\n\n:::note Office Worked Example (Dropping Expert Armor)\n“Honestly, I'm solid on the numbers, and a little keyed up about how the VP will react to the timeline shift—glad I can say that out loud to you before we walk in.”\n:::\n\n:::note Personal Worked Example (Evaluative 'How Are You?')\n“Honestly, a bit tired from the last two weeks, and also quietly proud of myself for finally holding a boundary at work. How's your head space been?”\n:::\n\n:::note Non-Example (Non-Personalistic Obligation Bait)\nTelling a day-two coworker a raw grievance about your boss, then adding “I'm only telling you because we're on the same side—what do you really think of them?” *(Opportunist Reveal shadow.)*\n:::\n\n:::note Decision Rule\nShare **evaluative** truths (how something landed), not just **descriptive** schedules. If they give a light nod or try to fix, accept it calmly as an Asymmetric Gift without backtracking.\n:::\n\n:::field One Real Answer\nAnswer one 'How are you?' today with something small and true. Note what came back.\n:::"
+    },
+    {
+     "id": "br4.wed.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+     "md": "| Collins & Miller Pathway | Direction of Effect | Key Moderator That Makes It Work | What Breaks the Pathway |\n|---|---|---|---|\n| 1. Disclosers Are Liked | Your Reveal → Their Liking for You | **Personalistic Attribution** + context-appropriate depth. | Indiscriminate oversharing to everyone, or sharing only résumé facts (Expert armor). |\n| 2. We Disclose to Those We Like | Their Warmth → Your Reveal | Perceived safety, shared presence, and non-judgment. | **Anonymous Listener** habit—asking great questions while offering nothing back. |\n| 3. Disclosing Increases Liking | Your Reveal → Your Liking for Them | **Listener Responsiveness** (warm acknowledgment). | Holding everything back prevents *you* from feeling close to people you like. |\n\n### Layer 3 · Optional Deepening: Perceived Responsiveness & Forecasting Errors (Duhigg / Aron / Clark)\n\nIn *Supercommunicators*, Arthur Aron clarifies that **perceived partner responsiveness**—feeling that the other person genuinely hears and values what you shared—is an even stronger engine of closeness than self-disclosure alone. And Yale psychologist Margaret Clark adds a liberating nuance on reciprocity: *“The rule is not reciprocity in the moment, it's being responsive to each other's needs, and that responsiveness going both ways”*—sometimes across months or years rather than the same five minutes.\n\nBr4 · Wednesday · Part 3 · Collins & Miller Disclosure & Liking\n\n## The 3-Second Reciprocity Pause & Asymmetric Gift\n\nMonday structured your reveal and Tuesday paced its depth; **Nancy Collins & Lynn Miller** close the loop with the empirical evidence showing why going first warms *both* sides of the table—and why listening alone leaves you liked on the surface yet fundamentally unknown:\n\n| Their Reaction After Your Reveal | Your Calm Next Move |\n|---|---|\n| They match your depth | Your Calm Next MoveListen warmly, loop once—the vulnerability loop is open. |\n| Polite surface nod | Your Calm Next MoveAccept it gracefully as an **asymmetric gift**; no awkward backtracking. |\n| They jump straight into fixing | Your Calm Next Move“I appreciate the ideas! Honestly I just wanted to share where I'm at—no fix needed.” |\n\n:::details Canon notes · Part 3 · Collins and Miller: disclosure and liking\n:::note Lens card\nNancy Collins and Lynn Miller published a meta-analysis in 1994 on self-disclosure and liking. They found three links: people who disclose more tend to be liked more, people disclose more to those they like, and people tend to like others more after disclosing to them. The first link was stronger when disclosures were intimate but appropriate. What is distinctive is that disclosure and liking feed each other in both directions.\n:::\n\n:::note Why Collins and Miller here\nThe module's anonymous-listener edge has a research answer: listening alone does not build closeness.\n:::\n\n:::note Native use\nA quantitative review of social psychology studies.\n:::\n\n:::note Limit\nTested research (meta-analysis), mostly correlational and with American students (label: tested research). Inappropriate or very early intimate disclosure can lower liking.\n:::\n\n### Three links between disclosure and liking\n\n| Link | What it means for you |\n|---|---|\n| Disclosers are liked | Holding back can read as distance |\n| We disclose to those we like | Their disclosure is a sign of warmth |\n| Disclosing increases liking | Sharing can warm you toward them too |\n:::"
+    },
+    {
+     "id": "br4.wed.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "The Bidirectional Thermal Loop & Perceived Responsiveness",
+     "md": ":::note Handoff\nAs you execute Rungs 1–2 of **Friday's Reveal Ladder**, log two outside data points: (1) their exact reply after your 3-second pause, and (2) whether *your own* warmth toward them rose (testing Pathway 3).\n:::",
+     "tools": [
+      "rungs.brown.Br4.Wednesday"
+     ]
+    }
+   ],
+   "author": "Nancy Collins & Lynn Miller · Self-Disclosure and Liking (1994)"
+  },
+  {
+   "id": "canon",
+   "label": "Canon",
+   "title": "The Reveal — strategic and true disclosure",
+   "cards": [
+    {
+     "id": "br4.canon.core",
+     "kind": "core",
+     "label": "Core Idea",
+     "title": "The Reveal — strategic and true disclosure",
+     "md": "**The Reveal — strategic and true disclosure.** Let people see what you want and who you are: drop the edited self, use the four parts of speech, and offer calibrated vulnerability.\n\n1. **The edited self and the false front (Curriculum, Layer 3 Module 4).** The Diplomat's edited self holds back true needs and objections because stating them feels aggressive (Grid: Diplomat × Reveal, “Edited self; hides opinions and needs; asks from below”). The Opportunist's false front reveals strategically, as bait (Grid: Opportunist × Reveal). The Expert reveals knowledge, not self (Grid: Expert × Reveal, “Facts instead of feelings; credentials as armor; over-explains to be unassailable”). The Achiever reveals goals and wins (the résumé self). Know which of these is your default.\n2. **Torbert's four parts of speech (Source: Action Inquiry pp. 25–31, as reported).** \n\n| Part | What it does | Example (office) | Example (personal) |\n|---|---|---|---|\n| Frame | Names the purpose of what you're about to say | “I want to talk about my role for next year.” | “I want to tell you something, and I don't need you to fix it.” |\n| Advocate | States your view or want plainly | “I'm asking to be considered for Senior this cycle.” | “I've felt a bit distant from you lately.” |\n| Illustrate | Grounds it in a concrete example | “[Two concrete results from this cycle, with numbers.]” | “When the plans changed last week, I told myself I'd become a burden.” |\n| Inquire | Asks a genuine question, and listens | “What would you need to see to support that?” | “Can you help me understand where we are?” |\n\n1. **The Pluralist question trap.** Questions without advocacy create a vacuum and feel like interrogation (Curriculum). Frame and advocate *before* you inquire. For a skilled listener, this is the single most useful change in the belt.\n2. **Calibrated vulnerability (Curriculum, Layer 3 Module 4).** A disclosure that is real, sized to the relationship, and processed enough not to hand the other person a crisis. In the office: a real constraint or stake (“If we don't hit this margin, my CEO will end this deal, and I don't want that, because our teams work well together”). In friendship: a real feeling or struggle.\n3. **The vulnerability loop (Duhigg).** One person shares something real; the other acknowledges it without judgment; then matches with something of their own. If one only listens, closeness doesn't form (Source: Supercommunicators pp. 290–291). This is why the anonymous listener stays anonymous.\n4. **The reciprocity pause.** After a disclosure, wait. In the office the pause invites them to share a constraint too. In the personal dojo it is not a tactic: you offer the reveal and accept whatever comes back, including nothing (the I-Thou track's “asymmetric gift”).\n5. **Reveal through a boundary.** White Belt's idea comes back: a no or a stated preference already shows where you stand. A Reveal is often just a preference said first."
+    },
+    {
+     "id": "br4.canon.action",
+     "kind": "action",
+     "label": "In Action",
+     "title": "The Reveal — strategic and true disclosure",
+     "md": ":::note Drill\nThe edited-self audit, expanded. Each day, catch one opinion you were about to delete or soften (in an email, a meeting, a conversation). Restore it, using frame and advocate.\n:::\n\n:::note Office dojo\nThe four-part drill. With a partner or Claude, deliver one piece of difficult news (rejecting a proposal, declining a project) in the four parts, in under 45 seconds, with no hedges or apologies (Curriculum).\n:::\n\n:::note Personal dojo\nAnswer one “how are you?” a day with something true rather than the summary. Small: “Honestly, a bit tired and a bit proud of myself.”\n:::"
+    },
+    {
+     "id": "br4.canon.deeper",
+     "kind": "deeper",
+     "label": "Go Deeper",
+     "title": "The Reveal — strategic and true disclosure",
+     "md": "Everything in this section is Interpretation: my reading across the sources, to be tested against your episodes.\n\n| Source | Starts from | Treats disclosure as | Would worry that you... |\n|---|---|---|---|\n| Torbert | The structure of speech | Framed advocacy | Ask without advocating |\n| Altman and Taylor | Layers of a relationship | Gradual, reciprocal steps | Go too deep too fast, or never |\n| Collins and Miller | The evidence on liking | A two-way warmth | Stay the listener |\n\nThese are gaps the sources left open. Replace them with your own questions whenever you have them.\n\n| Thread | Question it opens | Why it connects | Suggested depth |\n|---|---|---|---|\n| 1. Disclosure at work | What does research say about self-disclosure by employees to managers? | Your promotion conversation | One thread, researched with the research-brief skill |\n| 2. Disclosure across cultures | How do norms for self-disclosure differ in Latin American and Spanish settings? | Your move | One thread, with a critic pass |\n| 3. Advocacy and inquiry | Is there research on the balance of advocacy and inquiry in conversations? | Torbert's claim | Full deepening of Part 1 |\n\n**Where they meet.** Being known requires going first, in steps sized to the relationship.\n\n**Where they collide.** Torbert's frame works at a table; Altman's layers work over months. The office and personal dojos need different paces.\n\n**What the three miss for you.** Brené Brown, whom the I-Thou outline relies on, is not in your notebook. The asymmetric gift, disclosure offered without needing a match, is the Sanctuary's addition.\n\n**Where it sits in your own frameworks.** Heart with self and Heart with others in your Orders Grid; Buber's I-Thou for the gift. Return to this module later and add dated notes; do not overwrite.\n\n**prompt.** Use curriculum-module in deepen mode on Brown Belt Br4, Part {part}, one thread. My question: {q}. Why it pulled me: {why}. What I already think: {think}. Verify sources with research-brief first, write into the part's Deepened section, and do not write my entries."
+    },
+    {
+     "id": "br4.canon.check",
+     "kind": "check",
+     "label": "Check & Apply",
+     "title": "Your Reveal ladder",
+     "md": "**Your Reveal ladder.** Five disclosures you are willing to make, ranked from smallest to largest, each written in the four parts, with whom you might make them. Make the smallest two.\n\n**Watch for.** Oversharing to create obligation (the Opportunist's Reveal tell, “Overshares to create obligation”, Grid) and the Strategist's shadow, disclosure that overwhelms people who aren't ready."
+    }
+   ]
+  },
+  {
+   "id": "thu",
+   "label": "Thursday",
+   "title": "45s Compressor + Mic",
+   "cards": [
+    {
+     "id": "br4.thu.main",
+     "kind": "action",
+     "label": "Lab",
+     "title": "Thursday",
+     "md": "Br4 · Thursday · Interactive Lab · 45-Second Compressor & Vocal Timer\n\n## 45-Second Four-Part Speech Compressor\n\n:::note\n\n### 45-Second Rehearsal Timer & Voice Playback\n\nPress Record Voice or Start 45s Pace Timer to rehearse aloud.\n:::",
+     "tools": [
+      "timer.brown.compressor",
+      "legacy.brown.Br4"
+     ]
+    }
+   ],
+   "lab": true
+  },
+  {
+   "id": "fri",
+   "label": "Friday",
+   "title": "5-Rung Reveal Ladder",
+   "cards": [
+    {
+     "id": "br4.fri.main",
+     "kind": "check",
+     "label": "Deliverable",
+     "title": "Friday",
+     "md": "Br4 · Friday · Deliverable · Feeds Printable Field Card\n\n## Deliverable: Your 5-Rung Reveal Ladder\n\nRank 5 disclosures from Rung 1 (safe breadth) to Rung 5 (deep truth), written in Torbert's 4 parts. Execute the smallest two this week.\n\n:::note\n**Rung 1 (Execute this week)**\n\n- [ ] Processed ✓\n\n- [ ] Executed\n:::\n\n:::note\n**Rung 2 (Execute this week)**\n\n- [ ] Processed ✓\n\n- [ ] Executed\n:::\n\n:::note\n**Rung 3**\n\n- [ ] Processed ✓\n\n- [ ] Executed\n:::\n\n:::note\n**Rung 4**\n\n- [ ] Processed ✓\n\n- [ ] Executed\n:::\n\n:::note\n**Rung 5**\n\n- [ ] Processed ✓\n\n- [ ] Executed\n:::",
+     "tools": [
+      "form.brown.Br4"
+     ]
+    }
+   ],
+   "lab": true
+  }
+ ]
+}
