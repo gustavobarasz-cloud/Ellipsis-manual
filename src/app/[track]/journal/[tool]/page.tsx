@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JOURNAL, getTrack } from "@/lib/content";
 import JournalForm from "@/components/journal/JournalForm";
-import { GOLDEN_THREAD, labelOf } from "@/components/journal/JournalHub";
+import { GOLDEN_THREAD, labelOf } from "@/components/journal/thread";
 
 export const dynamicParams = false;
 
