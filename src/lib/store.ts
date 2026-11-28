@@ -252,7 +252,10 @@ export function replaceOverrides(next: Overrides) {
 
 /** The text a card shows: the user's saved edit if there is one, otherwise the migrated text. */
 export function useContentCard(cardId: string, defaultContent: string) {
-  const ov = useOverrides()[cardId];
+  const demo = useSettings().demo;
+  // Demo Mode shows the original text, so personal rewrites stay hidden too.
+  const all = useOverrides();
+  const ov = demo ? undefined : all[cardId];
   return {
     content: ov ? ov.md : defaultContent,
     edited: !!ov,

@@ -7,9 +7,9 @@ import Md from "./Md";
 
 export default function EditableCardBody({ cardId, title, md }: { cardId: string; title: string; md: string }) {
   const { content, edited, editedAt, save, reset } = useContentCard(cardId, md);
-  const { editMode } = useSettings();
+  const { editMode, demo } = useSettings();
   const [local, setLocal] = useState(false);
-  const editing = local || editMode;
+  const editing = !demo && (local || editMode);
   const setEditing = (v: boolean) => {
     setLocal(v);
     if (!v && editMode) setSettings({ editMode: false });
@@ -51,10 +51,18 @@ export default function EditableCardBody({ cardId, title, md }: { cardId: string
           <span className="badge edited-badge" title={editedAt ? `Edited ${new Date(editedAt).toLocaleString()}` : undefined}>Edited</span>
         )}
         <span className="flex-1" />
-        {edited && <button type="button" className="btn sm danger" onClick={reset}>Reset</button>}
-        <button type="button" className="btn sm" onClick={() => setEditing(true)} aria-label={`Edit card: ${title}`}>Edit</button>
+        {!demo && edited && <button type="button" className="btn sm danger" onClick={reset}>Reset</button>}
+        {!demo && <button type="button" className="btn sm" onClick={() => setEditing(true)} aria-label={`Edit card: ${title}`}>Edit</button>}
       </div>
-      <Md md={content} cardId={cardId} />
+      <Md md={withoutRepeatedTitle(content, title)} cardId={cardId} />
     </div>
   );
+}
+
+// Many migrated cards open with the same heading the card already shows; skip it on screen only.
+function withoutRepeatedTitle(md: string, title: string) {
+  const m = md.match(/^\s*#{1,6}\s+(.+?)\s*\n/);
+  if (!m) return md;
+  const norm = (x: string) => x.replace(/[*_`]/g, "").trim().toLowerCase();
+  return norm(m[1]) === norm(title) ? md.slice(m[0].length) : md;
 }

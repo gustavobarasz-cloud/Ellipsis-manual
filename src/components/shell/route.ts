@@ -43,7 +43,13 @@ export function routeInfo(pathname: string, nav: NavTrack[]): RouteInfo {
     crumbs.push({ href: `/${track.id}/${seg[1]}`, label: seg[1] === "practice" ? "Practice" : "Journal" });
     out.parent = `/${track.id}`;
     if (seg[2]) {
-      crumbs.push({ href: pathname, label: "Entry" });
+      crumbs.push({ href: pathname, label: seg[1] === "practice" ? "Tool" : "Entry" });
+      // Tool and journal ids name their belt ("linter.brown.ask", "blue.B1"), so the pocket card follows it.
+      const belt = decodeURIComponent(seg[2]).split(".").find((p) => ["white", "blue", "brown", "black", "sanctuary"].includes(p));
+      if (belt && track.id === "communication") {
+        out.pocket = belt;
+        out.accent = belt === "sanctuary" ? "presence" : belt;
+      }
       out.parent = `/${track.id}/${seg[1]}`;
     }
     return out;

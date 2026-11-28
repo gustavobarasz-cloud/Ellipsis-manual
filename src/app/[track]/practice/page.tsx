@@ -8,6 +8,8 @@ import MarkerList from "@/components/tools/MarkerList";
 
 export const dynamicParams = false;
 
+const KIND: Record<string, string> = { deck: "Question deck", drill: "Drill", timer: "Timer", linter: "Linter", faceweight: "Calculator", radar: "Radar", bodymap: "Body map" };
+
 export function generateStaticParams() {
   return TRACKS.map((t) => ({ track: t.id }));
 }
@@ -60,7 +62,7 @@ export default function PracticePage({ params }: { params: { track: string } }) 
               {list.map((x) => (
                 <Link key={x.id} href={`/${t.id}/practice/${encodeURIComponent(x.id)}`} className="row-link">
                   <span className="min-w-0 flex-1">
-                    <span className="block text-xs font-bold uppercase tracking-wide muted">{x.where} · {x.type}</span>
+                    <span className="block text-xs font-bold uppercase tracking-wide muted">{x.where} · {KIND[x.type] ?? x.type}</span>
                     <span className="block font-semibold leading-snug">{x.title}</span>
                   </span>
                   <span className="muted">›</span>

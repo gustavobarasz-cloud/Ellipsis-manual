@@ -157,7 +157,7 @@ function DialectView({ label, lines }: { label: string; lines: Record<string, In
   return (
     <div className="dialect">
       <div className="dl">
-        <span>{label || "Script"}</span>
+        <span>{label.replace(/\s·\s[A-Za-z0-9_]+$/, "") || "Script"}</span>
         <span className="flex gap-1 no-print" role="group" aria-label="Dialect">
           {avail.map((d) => (
             <button
