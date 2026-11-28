@@ -1,7 +1,19 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { DOJO_MANUALS, type ManualId } from "@/data/dojo";
+import LoopView from "@/components/LoopView";
+import KitView from "@/components/KitView";
+import PracticeBackup from "@/components/PracticeBackup";
+import { useStored } from "@/lib/practiceStore";
+
+type PracticeTab = "manuals" | "loop" | "kit";
+
+const PRACTICE_TABS: Array<{ id: PracticeTab; label: string; hint: string }> = [
+  { id: "manuals", label: "Belt manuals", hint: "Study each belt and the Sanctuary" },
+  { id: "loop", label: "The Loop", hint: "Before and after a hard conversation" },
+  { id: "kit", label: "The Kit", hint: "All your tools in one place" },
+];
 
 interface PracticeViewProps {
   activeManualId: ManualId;
@@ -9,7 +21,50 @@ interface PracticeViewProps {
   onOpenModule: (moduleId: string) => void;
 }
 
-export default function PracticeView({
+export default function PracticeView(props: PracticeViewProps) {
+  const [tab, setTab] = useStored<PracticeTab>("ellipsis-v2-practice-tab", "manuals");
+  const [restoreKey, setRestoreKey] = useState(0);
+
+  return (
+    <div>
+      <div className="border-b border-stone-200 bg-white">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-4 py-2.5 sm:px-6">
+          <div role="tablist" aria-label="Practice" className="flex flex-wrap gap-1.5">
+            {PRACTICE_TABS.map((t) => {
+              const on = tab === t.id;
+              return (
+                <button
+                  key={t.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={on}
+                  title={t.hint}
+                  onClick={() => setTab(t.id)}
+                  className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+                    on ? "bg-stone-900 text-stone-50" : "text-stone-600 hover:bg-stone-100"
+                  }`}
+                >
+                  {t.label}
+                </button>
+              );
+            })}
+          </div>
+          {tab !== "manuals" && (
+            <div className="ml-auto">
+              <PracticeBackup onRestored={() => setRestoreKey((n) => n + 1)} />
+            </div>
+          )}
+        </div>
+      </div>
+
+      {tab === "manuals" && <ManualsPanel {...props} />}
+      {tab === "loop" && <LoopView key={`loop-${restoreKey}`} />}
+      {tab === "kit" && <KitView key={`kit-${restoreKey}`} />}
+    </div>
+  );
+}
+
+function ManualsPanel({
   activeManualId,
   onSelectManual,
   onOpenModule,
@@ -144,7 +199,7 @@ export default function PracticeView({
             key={active.id}
             src={active.href}
             title={`${active.name} manual`}
-            className="block h-[calc(100vh-220px)] min-h-[560px] w-full"
+            className="block h-[calc(100vh-270px)] min-h-[560px] w-full"
           />
         </div>
       </main>

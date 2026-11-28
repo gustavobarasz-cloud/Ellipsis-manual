@@ -1,0 +1,1122 @@
+{
+ "loop": {
+  "intro": "Run it for any conversation you are dreading. About five minutes before and five after. The loop keeps the same four steps at every belt; each belt adds one or two fields, and expands the menu of moves in Respond. In practice most of it becomes automatic, the way a black belt no longer thinks about stance. You write down only what surprised you.",
+  "steps": [
+   {
+    "k": "prepare",
+    "n": "Prepare",
+    "when": "before",
+    "fields": [
+     {
+      "k": "dojo",
+      "label": "Which dojo is this",
+      "kind": "stance"
+     },
+     {
+      "k": "countdownDone",
+      "label": "Run the countdown",
+      "kind": "check"
+     },
+     {
+      "k": "want",
+      "label": "What do I want from this, in one sentence?",
+      "kind": "text"
+     },
+     {
+      "k": "tactic",
+      "label": "Which tactic or fallback do I expect?",
+      "kind": "text"
+     },
+     {
+      "k": "line",
+      "label": "My one line for it",
+      "kind": "text"
+     },
+     {
+      "k": "convType",
+      "label": "Which conversation am I walking into (practical, emotional, social)?",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "needHyp",
+      "label": "What is my working hypothesis about their need?",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "faceStrategy",
+      "label": "Which face strategy will my first ask need?",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "disclosure",
+      "label": "What is my one calibrated disclosure?",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "stripOpening",
+      "label": "Run the translation strip on my opening line",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "roomCulture",
+      "label": "What is the room's culture (Defense, Minimization, Adaptation)?",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "floor",
+      "label": "Who holds the floor?",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "realMeeting",
+      "label": "What is the real meeting beneath the agenda?",
+      "kind": "text",
+      "belt": "black"
+     }
+    ]
+   },
+   {
+    "k": "read",
+    "n": "Read",
+    "when": "during",
+    "fields": [
+     {
+      "k": "triage",
+      "label": "Is this a style difference, a blind spot or a tactic?",
+      "kind": "triage"
+     },
+     {
+      "k": "tells",
+      "label": "Which of my tells is firing?",
+      "kind": "text"
+     },
+     {
+      "k": "baseline",
+      "label": "Their baseline",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "currency",
+      "label": "What currency they scan for",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "need",
+      "label": "The need under the position",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "theirType",
+      "label": "The conversation type they are in",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "metamessage",
+      "label": "Message and metamessage",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "pace",
+      "label": "Pace and overlap",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "langSelf",
+      "label": "Which language-self is speaking (theirs and mine)",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "pattern",
+      "label": "The pattern between people",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "coreConcern",
+      "label": "The threatened core concern",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "rules",
+      "label": "The invisible rules",
+      "kind": "text",
+      "belt": "black"
+     }
+    ]
+   },
+   {
+    "k": "respond",
+    "n": "Respond",
+    "when": "during",
+    "fields": [
+     {
+      "k": "move",
+      "label": "One move only",
+      "kind": "move",
+      "options": [
+       "A clean no",
+       "A stated preference",
+       "A direct request",
+       "Naming the pressure",
+       {
+        "t": "A label",
+        "belt": "blue"
+       },
+       {
+        "t": "A matched conversation type",
+        "belt": "blue"
+       },
+       {
+        "t": "A loop for understanding",
+        "belt": "blue"
+       },
+       {
+        "t": "A need-level answer",
+        "belt": "blue"
+       },
+       {
+        "t": "A face-wrapped ask",
+        "belt": "brown"
+       },
+       {
+        "t": "A four-part statement",
+        "belt": "brown"
+       },
+       {
+        "t": "A transparent steer",
+        "belt": "brown"
+       },
+       {
+        "t": "A repair",
+        "belt": "brown"
+       },
+       {
+        "t": "Naming the dynamic aloud",
+        "belt": "black"
+       },
+       {
+        "t": "A reframe",
+        "belt": "black"
+       },
+       {
+        "t": "Declining the game openly",
+        "belt": "black"
+       },
+       {
+        "t": "A systemic reset",
+        "belt": "black"
+       }
+      ]
+     },
+     {
+      "k": "notes",
+      "label": "Notes",
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "k": "debrief",
+    "n": "Debrief",
+    "when": "after",
+    "fields": [
+     {
+      "k": "happened",
+      "label": "What actually happened?",
+      "kind": "text"
+     },
+     {
+      "k": "fallback",
+      "label": "Which fallback showed up, if any?",
+      "kind": "text"
+     },
+     {
+      "k": "assumption",
+      "label": "Did my big assumption come true? What is the evidence?",
+      "kind": "text"
+     },
+     {
+      "k": "codex",
+      "label": "One codex entry, if a tactic appeared",
+      "kind": "text"
+     },
+     {
+      "k": "readRight",
+      "label": "Was my read right? How do I know? (checked back, or confirmed by their behavior)",
+      "kind": "text",
+      "belt": "blue"
+     },
+     {
+      "k": "wordsWorked",
+      "label": "Which words did the work?",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "hid",
+      "label": "What did I hide?",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "frameHeld",
+      "label": "Did the frame hold?",
+      "kind": "text",
+      "belt": "brown"
+     },
+     {
+      "k": "roomShift",
+      "label": "How did the rules of the room shift?",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "frameWon",
+      "label": "Where was frame lost or won?",
+      "kind": "text",
+      "belt": "black"
+     },
+     {
+      "k": "bridgeHeld",
+      "label": "Where did the bridge hold?",
+      "kind": "text",
+      "belt": "black"
+     }
+    ]
+   }
+  ],
+  "beltAdds": {
+   "head": [
+    "Step",
+    "White adds",
+    "Blue adds",
+    "Brown adds",
+    "Black adds"
+   ],
+   "rows": [
+    [
+     "Prepare",
+     "Dojo, countdown, one-sentence want, expected tactic and line",
+     "Which conversation am I walking into (practical, emotional, social)? What is my working hypothesis about their need?",
+     "Which face strategy will my first ask need? What is my one calibrated disclosure? Run the translation strip on my opening line.",
+     "What is the room's culture (Defense, Minimization, Adaptation)? Who holds the floor? What is the real meeting beneath the agenda?"
+    ],
+    [
+     "Read",
+     "Style, blind spot or tactic? My tells",
+     "Their baseline; what currency they scan for; the need under the position; the conversation type they are in",
+     "Message and metamessage; pace and overlap; which language-self is speaking (theirs and mine)",
+     "The pattern between people; the threatened core concern; the invisible rules"
+    ],
+    [
+     "Respond",
+     "Clean no, preference, direct request, naming pressure",
+     "A label, a matched conversation type, a loop for understanding, a need-level answer",
+     "A face-wrapped ask, a four-part statement, a transparent steer, a repair",
+     "Naming the dynamic aloud, a reframe, declining the game openly, a systemic reset"
+    ],
+    [
+     "Debrief",
+     "What happened, fallback, big assumption, codex",
+     "Was my read right? How do I know? (checked back, or confirmed by their behavior)",
+     "Which words did the work? What did I hide? Did the frame hold?",
+     "How did the rules of the room shift? Where was frame lost or won? Where did the bridge hold?"
+    ]
+   ]
+  }
+ },
+ "tools": [
+  {
+   "id": "tells",
+   "name": "Tell list",
+   "started": "White W1",
+   "grows": "All belts",
+   "holds": "Your earliest body signals under pressure",
+   "fields": [
+    {
+     "k": "text",
+     "label": "The tell",
+     "hint": "Body, behavior, tone"
+    }
+   ]
+  },
+  {
+   "id": "fallbacks",
+   "name": "Fallback map",
+   "started": "White W2",
+   "grows": "All belts",
+   "holds": "Trigger, inner sentence, sign you've dropped, cost, way back",
+   "fields": [
+    {
+     "k": "stage",
+     "label": "Stage",
+     "kind": "stage"
+    },
+    {
+     "k": "trigger",
+     "label": "Trigger",
+     "hint": "What set it off"
+    },
+    {
+     "k": "sentence",
+     "label": "Inner sentence",
+     "hint": "The words in your head"
+    },
+    {
+     "k": "sign",
+     "label": "Sign I've dropped in",
+     "hint": "Body, behavior, tone"
+    },
+    {
+     "k": "cost",
+     "label": "What it cost me",
+     "hint": "In the moment or after"
+    },
+    {
+     "k": "wayBack",
+     "label": "Way back",
+     "hint": "Counter-sentence or move"
+    }
+   ]
+  },
+  {
+   "id": "hooks",
+   "name": "Hook profile",
+   "started": "White W3",
+   "grows": "Blue B3, Black Bk5",
+   "holds": "Your top needs, vulnerabilities, immunity map",
+   "single": true,
+   "fields": [
+    {
+     "k": "needs",
+     "label": "Needs, ranked",
+     "hint": "significance · approval · acceptance · intelligence · pity · strength — strongest pull first"
+    },
+    {
+     "k": "vulns",
+     "label": "Simon's five, rated 1–5",
+     "hint": "naivety · over-conscientiousness · low self-confidence · over-intellectualizing · emotional dependency"
+    },
+    {
+     "k": "topVuln",
+     "label": "Highest-rated vulnerability",
+     "hint": ""
+    }
+   ]
+  },
+  {
+   "id": "immunity",
+   "name": "Immunity maps",
+   "started": "White W3",
+   "grows": "Any module you keep failing to execute",
+   "holds": "Goal, behaviors, hidden commitment, big assumption, tests run",
+   "fields": [
+    {
+     "k": "goal",
+     "label": "Goal",
+     "hint": "What I want to do"
+    },
+    {
+     "k": "instead",
+     "label": "What I do instead",
+     "hint": ""
+    },
+    {
+     "k": "commitment",
+     "label": "Hidden commitment",
+     "hint": ""
+    },
+    {
+     "k": "assumption",
+     "label": "Big assumption",
+     "hint": ""
+    },
+    {
+     "k": "tests",
+     "label": "Tests run",
+     "hint": "What happened against the prediction"
+    }
+   ]
+  },
+  {
+   "id": "codex",
+   "name": "Tactic codex",
+   "started": "White W4",
+   "grows": "Black Bk5 (complete codex)",
+   "holds": "Tactic, what it sounds like, first response, then context, range, harm, remedy, ethical use, your temptation",
+   "fields": [
+    {
+     "k": "tactic",
+     "label": "Tactic",
+     "hint": "From the fifteen, or name a new one"
+    },
+    {
+     "k": "heard",
+     "label": "What it sounded like",
+     "hint": "Their words, as close as you can"
+    },
+    {
+     "k": "response",
+     "label": "The response I wish I'd given",
+     "hint": ""
+    },
+    {
+     "k": "context",
+     "label": "Context",
+     "hint": "Where it showed up"
+    },
+    {
+     "k": "temptation",
+     "label": "Your temptation",
+     "hint": "Where you are tempted to use this one",
+     "red": true
+    }
+   ]
+  },
+  {
+   "id": "scripts",
+   "name": "Script bank (EN/ES)",
+   "started": "White W5–W6",
+   "grows": "Brown (Script-Book)",
+   "holds": "Your lines, in both languages, checked on the translation strip",
+   "fields": [
+    {
+     "k": "en",
+     "label": "English",
+     "hint": ""
+    },
+    {
+     "k": "es",
+     "label": "Español",
+     "hint": ""
+    },
+    {
+     "k": "context",
+     "label": "Context",
+     "hint": "When this line is for"
+    },
+    {
+     "k": "stripNotes",
+     "label": "Translation strip notes",
+     "hint": "US · Rioplatense · Spain"
+    }
+   ]
+  },
+  {
+   "id": "hypothesis",
+   "name": "Hypothesis cards",
+   "started": "Blue B2",
+   "grows": "Blue onward",
+   "holds": "Working reads, confidence, evidence, what would change your mind, outcome",
+   "fields": [
+    {
+     "k": "who",
+     "label": "Who"
+    },
+    {
+     "k": "read",
+     "label": "Working read"
+    },
+    {
+     "k": "confidence",
+     "label": "Confidence"
+    },
+    {
+     "k": "evidence",
+     "label": "Evidence"
+    },
+    {
+     "k": "changeMind",
+     "label": "What would change my mind"
+    },
+    {
+     "k": "outcome",
+     "label": "Outcome (right, wrong or revised)"
+    }
+   ]
+  },
+  {
+   "id": "contacts",
+   "name": "Contact log",
+   "started": "Blue B6",
+   "grows": "Brown Br6, Black Bk6",
+   "holds": "Initiations, pings, escalations, repairs, renovations",
+   "fields": [
+    {
+     "k": "who",
+     "label": "Who"
+    },
+    {
+     "k": "offered",
+     "label": "What I offered (initiation, ping, escalation, repair, renovation)"
+    },
+    {
+     "k": "cameBack",
+     "label": "What came back"
+    },
+    {
+     "k": "next",
+     "label": "What I did next"
+    }
+   ]
+  },
+  {
+   "id": "lexicon",
+   "name": "Bilingual lexicon",
+   "started": "Brown Br3",
+   "grows": "All later work",
+   "holds": "Words traced across English, Rioplatense Spanish and Spain",
+   "fields": [
+    {
+     "k": "word",
+     "label": "Word"
+    },
+    {
+     "k": "en",
+     "label": "English: connotation and weight"
+    },
+    {
+     "k": "rioplatense",
+     "label": "Rioplatense Spanish"
+    },
+    {
+     "k": "spain",
+     "label": "Spain"
+    },
+    {
+     "k": "weight",
+     "label": "Emotional weight for me"
+    }
+   ]
+  },
+  {
+   "id": "sat",
+   "name": "Systemic Architecture Toolkit",
+   "started": "Black",
+   "grows": "Ongoing",
+   "holds": "Frame audit, \"name the game\" scripts, systems-map template",
+   "fields": [
+    {
+     "k": "frameAudit",
+     "label": "Frame audit (Bennett position, invisible rules, real meeting, likely game)"
+    },
+    {
+     "k": "nameGame",
+     "label": "\"Name the game\" scripts"
+    },
+    {
+     "k": "systemsMap",
+     "label": "Post-mortem systems map"
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "Evidence log",
+   "started": "Each belt",
+   "grows": "Each belt adds columns",
+   "holds": "The counts that show direction of travel",
+   "special": "evidence"
+  },
+  {
+   "id": "marks",
+   "name": "Grid marks",
+   "started": "Placement at each belt",
+   "grows": "The weekly look",
+   "holds": "Home base, fallback and edge in each column, from evidence",
+   "special": "marks"
+  },
+  {
+   "id": "journal",
+   "name": "Sanctuary journal",
+   "started": "I-Thou track",
+   "grows": "Ongoing",
+   "holds": "What happened, layer and armor, marker",
+   "special": "journal"
+  }
+ ],
+ "toolsNote": "Keep these as one living folder or document. The encounter loop is the only thing you copy each time; everything else you update.",
+ "fallbackStages": [
+  "Opportunist",
+  "Diplomat",
+  "Expert",
+  "Achiever",
+  "Pluralist",
+  "Strategist"
+ ],
+ "codexTactics": [
+  "Lying by omission or distortion",
+  "Denial",
+  "Selective inattention",
+  "Rationalization",
+  "Diversion",
+  "Covert intimidation",
+  "Guilt-tripping",
+  "Shaming",
+  "Playing the victim",
+  "Vilifying the victim",
+  "Playing servant",
+  "Seduction",
+  "Projecting blame",
+  "Feigning innocence or ignorance",
+  "Brandishing anger"
+ ],
+ "gridCols": [
+  {
+   "k": "read",
+   "n": "Read",
+   "q": "What is actually happening, in them, in me, between us?"
+  },
+  {
+   "k": "bond",
+   "n": "Bond",
+   "q": "Do they feel met?"
+  },
+  {
+   "k": "reveal",
+   "n": "Reveal",
+   "q": "Can they see me?"
+  },
+  {
+   "k": "word",
+   "n": "Word",
+   "q": "What reality are my words building?"
+  },
+  {
+   "k": "steer",
+   "n": "Steer",
+   "q": "Where is this going, and who is choosing?"
+  },
+  {
+   "k": "guard",
+   "n": "Guard",
+   "q": "What game is being played, and am I opting in?"
+  }
+ ],
+ "gridStages": [
+  "Opportunist",
+  "Diplomat",
+  "Expert",
+  "Achiever",
+  "Pluralist",
+  "Strategist",
+  "Construct-Aware"
+ ],
+ "journalFields": [
+  {
+   "k": "happened",
+   "label": "What happened between us"
+  },
+  {
+   "k": "layer",
+   "label": "Which layer it touched, and which armor showed up"
+  },
+  {
+   "k": "marker",
+   "label": "The marker, if there was one"
+  }
+ ],
+ "sanctuaryLayers": [
+  {
+   "n": 1,
+   "name": "The Inner Sanctuary",
+   "shift": "From self-regulation to self-surrender",
+   "modules": [
+    {
+     "id": "S1.1",
+     "name": "Yielding, not bracing"
+    },
+    {
+     "id": "S1.2",
+     "name": "The architecture of the armor"
+    },
+    {
+     "id": "S1.3",
+     "name": "The fear of intimacy"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "name": "The I-Thou Encounter",
+   "shift": "From profiling to recognizing",
+   "modules": [
+    {
+     "id": "S2.1",
+     "name": "The un-sweep and mutual recognition"
+    },
+    {
+     "id": "S2.2",
+     "name": "Listening beneath suffering"
+    },
+    {
+     "id": "S2.3",
+     "name": "Holding environment and resonance"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "name": "The Poetics of Connection",
+   "shift": "From strategic reveal to wholehearted disclosure",
+   "modules": [
+    {
+     "id": "S3.1",
+     "name": "Honoring instead of face-saving"
+    },
+    {
+     "id": "S3.2",
+     "name": "The metamessage of closeness and space"
+    },
+    {
+     "id": "S3.3",
+     "name": "The weight of the word"
+    },
+    {
+     "id": "S3.4",
+     "name": "Wholehearted disclosure and generative dialogue"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "name": "The Relational Ecosystem",
+   "shift": "From steering to co-authoring, and from guarding to acceptance",
+   "modules": [
+    {
+     "id": "S4.1",
+     "name": "The intercultural sanctuary and differentiation"
+    },
+    {
+     "id": "S4.2",
+     "name": "Co-authoring the dynamic"
+    },
+    {
+     "id": "S4.3",
+     "name": "Radical acceptance and the complex domain"
+    }
+   ]
+  }
+ ],
+ "belts": [
+  {
+   "id": "white",
+   "name": "White Belt",
+   "evidenceCols": [
+    "Apologies cut",
+    "Sentences restored",
+    "Preferences stated first",
+    "Boundaries held",
+    "Codex entries"
+   ]
+  },
+  {
+   "id": "blue",
+   "name": "Blue Belt",
+   "evidenceCols": [
+    "Baselines taken",
+    "Reads checked back (right / revised)",
+    "Labels with a full pause",
+    "Conversation type matched",
+    "Initiations",
+    "Pings returned"
+   ]
+  },
+  {
+   "id": "brown",
+   "name": "Brown Belt",
+   "evidenceCols": [
+    "Asks as proposals",
+    "Purposes stated",
+    "Four-part statements",
+    "Disclosures (office / personal)",
+    "Repairs",
+    "Translation strips run"
+   ]
+  },
+  {
+   "id": "black",
+   "name": "Black Belt",
+   "evidenceCols": [
+    "Rooms mapped",
+    "Dynamics named aloud",
+    "Frames proposed (held / not)",
+    "Translations dropped",
+    "Codex entries",
+    "Bridge moments"
+   ]
+  }
+ ],
+ "pocketCards": {
+  "white": {
+   "cues": [
+    "Breathe out.",
+    "Triage.",
+    "One reason."
+   ],
+   "cueNotes": [
+    "jaw loose, feet down, name the feeling",
+    "style, blind spot, or tactic?",
+    "say what you want as a proposal; stop"
+   ],
+   "back": "Would I accept their no?"
+  },
+  "blue": {
+   "cues": [
+    "Baseline first.",
+    "Name the need, not the position.",
+    "Label, then pause."
+   ],
+   "cueNotes": [],
+   "back": "Which conversation are they in?"
+  },
+  "brown": {
+   "cues": [
+    "Frame before you ask.",
+    "Say what you want, once.",
+    "Steer out loud."
+   ],
+   "cueNotes": [],
+   "back": "What reality are my words building?"
+  },
+  "black": {
+   "cues": [
+    "Read the room before the person.",
+    "Name the pattern, not the person.",
+    "Offer a better game."
+   ],
+   "cueNotes": [],
+   "back": "Am I a bridge here, or a code-switcher?"
+  },
+  "sanctuary": {
+   "cues": [
+    "Yield, don't brace.",
+    "Recognize, don't profile.",
+    "Reveal as a gift.",
+    "Co-author and accept."
+   ],
+   "cueNotes": [],
+   "back": "Am I here, and are they?"
+  }
+ },
+ "beltModules": {
+  "white": [
+   {
+    "id": "W1",
+    "name": "The body under fire"
+   },
+   {
+    "id": "W2",
+    "name": "Your home base and fallbacks"
+   },
+   {
+    "id": "W3",
+    "name": "Know your own hooks"
+   },
+   {
+    "id": "W4",
+    "name": "The triage — style, blind spot, or tactic"
+   },
+   {
+    "id": "W5",
+    "name": "The clean no and the unexplained preference"
+   },
+   {
+    "id": "W6",
+    "name": "Holding the line"
+   }
+  ],
+  "blue": [
+   {
+    "id": "B1",
+    "name": "The baseline"
+   },
+   {
+    "id": "B2",
+    "name": "Reading the currency"
+   },
+   {
+    "id": "B3",
+    "name": "The need beneath the position"
+   },
+   {
+    "id": "B4",
+    "name": "Which conversation is this?"
+   },
+   {
+    "id": "B5",
+    "name": "Bonding, labels and the empathy boundary"
+   },
+   {
+    "id": "B6",
+    "name": "Going first — initiation and the first two stages of friendship"
+   }
+  ],
+  "brown": [
+   {
+    "id": "Br1",
+    "name": "Face and the shape of an ask"
+   },
+   {
+    "id": "Br2",
+    "name": "Two tracks — message, metamessage and style"
+   },
+   {
+    "id": "Br3",
+    "name": "The bilingual footing and the weight of the word"
+   },
+   {
+    "id": "Br4",
+    "name": "The Reveal — strategic and true disclosure"
+   },
+   {
+    "id": "Br5",
+    "name": "Steering out loud"
+   },
+   {
+    "id": "Br6",
+    "name": "Rupture, repair and renovation"
+   }
+  ],
+  "black": [
+   {
+    "id": "Bk1",
+    "name": "Reading the room's culture"
+   },
+   {
+    "id": "Bk2",
+    "name": "Cultural brokerage and the downshift"
+   },
+   {
+    "id": "Bk3",
+    "name": "Constructive marginality — the bridge self"
+   },
+   {
+    "id": "Bk4",
+    "name": "Systemic steering — name the pattern, change the frame"
+   },
+   {
+    "id": "Bk5",
+    "name": "Systemic guarding — the full codex, and stepping outside the game"
+   },
+   {
+    "id": "Bk6",
+    "name": "Dissolving deadlocks, and the confidant"
+   }
+  ]
+ },
+ "codex": [
+  {
+   "id": "omission",
+   "name": "Lying by omission or distortion",
+   "sounds": "True facts arranged to mislead",
+   "response": "Ask for the missing piece directly"
+  },
+  {
+   "id": "denial",
+   "name": "Denial",
+   "sounds": "\"I never said that.\"",
+   "response": "Point to the record; don't debate memory"
+  },
+  {
+   "id": "inattention",
+   "name": "Selective inattention",
+   "sounds": "Your request keeps being \"missed\"",
+   "response": "Make a direct request with a yes or no"
+  },
+  {
+   "id": "rationalization",
+   "name": "Rationalization",
+   "sounds": "A long, reasonable-sounding excuse",
+   "response": "\"I hear the reasons. The deadline was Tuesday.\""
+  },
+  {
+   "id": "diversion",
+   "name": "Diversion",
+   "sounds": "The topic changes when it gets uncomfortable",
+   "response": "\"Let's finish this first, then I'm glad to talk about that.\""
+  },
+  {
+   "id": "intimidation",
+   "name": "Covert intimidation",
+   "sounds": "A veiled \"it'd be a shame if…\"",
+   "response": "Name it plainly; document it"
+  },
+  {
+   "id": "guilt",
+   "name": "Guilt-tripping",
+   "sounds": "\"I thought you were a team player.\"",
+   "response": "\"I am. And my answer is still no.\""
+  },
+  {
+   "id": "shaming",
+   "name": "Shaming",
+   "sounds": "Sarcasm or a put-down disguised as a joke",
+   "response": "Let it hang in silence, then continue"
+  },
+  {
+   "id": "victim",
+   "name": "Playing the victim",
+   "sounds": "They become the injured party when held to account",
+   "response": "Return to the original issue"
+  },
+  {
+   "id": "vilify",
+   "name": "Vilifying the victim",
+   "sounds": "You get recast as the aggressor",
+   "response": "\"I'm raising one specific issue. Here it is.\""
+  },
+  {
+   "id": "servant",
+   "name": "Playing servant",
+   "sounds": "\"I'm only doing this for the team.\"",
+   "response": "Separate the stated cause from the behavior"
+  },
+  {
+   "id": "seduction",
+   "name": "Seduction",
+   "sounds": "Praise of your mind right before a request",
+   "response": "Thank them, then evaluate the request on its own"
+  },
+  {
+   "id": "projecting",
+   "name": "Projecting blame",
+   "sounds": "Their mistake becomes someone else's fault",
+   "response": "Bring it back to what they did"
+  },
+  {
+   "id": "innocence",
+   "name": "Feigning innocence or ignorance",
+   "sounds": "\"I didn't realize that's what we agreed.\"",
+   "response": "Restate the agreement in writing"
+  },
+  {
+   "id": "anger",
+   "name": "Brandishing anger",
+   "sounds": "A sudden outburst that pushes you to back down",
+   "response": "Countdown, then: \"Let's pick this up when we can talk calmly.\""
+  }
+ ],
+ "heroAlts": {
+  "white": "Woodcut print, black and cream: long diagonal cuts rush in from the upper right like a hard wind. Lower left, a white belt tied in a tight square knot holds still; a red-ochre thread is wound around the knot. The cuts part around it.",
+  "blue": "Woodcut hand-coloured like a Peruvian retablo: a gabled box with flowered doors open. Upper tier, two faceless figures share cups at a table. Lower tier, a small inner door is shut; warm light leaks from its seams and keyhole. A blue belt, knotted lower left, loops loosely on the inner door's knob and carries a blank red-ochre tag.",
+  "brown": "Woodcut hand-coloured in Buenos Aires fileteado: a knotted brown belt, lower left, unwinds into a long blank ribbon that rises across a black panel between acanthus scrolls. One red-ochre brushstroke where the ribbon begins; a broken stem upper right is bound with brown cord.",
+  "black": "Woodcut hand-coloured in Spanish Mudéjar style: looking up into a carved wooden ceiling whose interlaced straps meet in an eight-pointed star; a band of blue, ochre and green tile mosaic below. A knotted black belt lower left rises and becomes one of the straps, marked red-ochre where it enters the star.",
+  "sanctuary": "A blind print with no ink: cream paper embossed with pattern, under three hanging rows of cut-paper papel picado in cream and pale blush, sky and gold; light through the cuts throws patterned shadows. Lower left, a belt lies untied in a loose curve, pressed into the paper."
+ }
+}
