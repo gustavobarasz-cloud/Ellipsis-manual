@@ -16,7 +16,7 @@ function segments(raw: string, matches: { start: number; end: number; cls: Seg["
 
 const CAMERA_RE = /\b(defensive|evasive|lying|liar|nervous|anxious|annoyed|angry|hostile|arrogant|manipulative|insincere|guarded|bored|rude|cold|hiding|guilty|insecure)\b/gi;
 export function analyzeCamera(raw: string) {
-  const matches = [...raw.matchAll(CAMERA_RE)].map((m) => ({ start: m.index!, end: m.index! + m[0].length, cls: "hl-bad" as const, title: "A camera could not record this" }));
+  const matches = Array.from(raw.matchAll(CAMERA_RE)).map((m) => ({ start: m.index!, end: m.index! + m[0].length, cls: "hl-bad" as const, title: "A camera could not record this" }));
   return { score: raw.trim() ? Math.max(0, 100 - 25 * matches.length) : 0, segs: segments(raw, matches), count: matches.length };
 }
 
@@ -44,12 +44,12 @@ const PROPOSAL_RE = /\b(i'?d like|i am asking|i'?m asking|i propose|let'?s|can w
 export function analyzeAsk(raw: string) {
   if (!raw.trim()) return { score: 0, segs: [] as Seg[], notes: ["Write an ask to score it."], empty: true };
   const ms: { start: number; end: number; cls: Seg["cls"]; title: string; kind: "p" | "e" }[] = [];
-  for (const m of raw.matchAll(POWERLESS_RE)) {
+  for (const m of Array.from(raw.matchAll(POWERLESS_RE))) {
     // the group starts after the optional leading space or quote
     const start = m.index! + m[0].length - m[1].length;
     ms.push({ start, end: start + m[1].length, cls: "hl-bad", title: "Powerless hedge/plea", kind: "p" });
   }
-  for (const m of raw.matchAll(EPISTEMIC_RE)) ms.push({ start: m.index!, end: m.index! + m[0].length, cls: "hl-ok", title: "Credible epistemic precision", kind: "e" });
+  for (const m of Array.from(raw.matchAll(EPISTEMIC_RE))) ms.push({ start: m.index!, end: m.index! + m[0].length, cls: "hl-ok", title: "Credible epistemic precision", kind: "e" });
   ms.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
   const clean: typeof ms = [];
   let cur = 0, bad = 0, ep = 0;
@@ -71,7 +71,7 @@ const TOXIC_RE = /(?:^|[\s"“‘(])(sorry you felt|sorry if you felt|if i offen
 
 export function analyzeRepair(raw: string) {
   if (!raw.trim()) return { score: 0, segs: [] as Seg[], checks: null as null | Record<string, boolean>, empty: true };
-  const ms = [...raw.matchAll(TOXIC_RE)].map((m) => {
+  const ms = Array.from(raw.matchAll(TOXIC_RE)).map((m) => {
     const start = m.index! + m[0].length - m[1].length;
     return { start, end: start + m[1].length, cls: "hl-bad" as const, title: "Defensive / excuse pattern — remove or replace with full period" };
   });
