@@ -287,3 +287,20 @@ export function debriefData() {
   };
 }
 export type DebriefData = ReturnType<typeof debriefData>;
+
+/** Links back to every card a practice tree quotes. */
+export function treeHrefs(): Record<string, string | undefined> {
+  const ids = new Set<string>();
+  for (const n of Object.values(TREES.triage.nodes as Record<string, any>)) {
+    ids.add(n.card);
+    if (n.lead?.card) ids.add(n.lead.card);
+  }
+  for (const c of [TREES.ask.card, TREES.ask.faces?.card, TREES.ask.surviving?.card]) if (c) ids.add(c);
+  const out: Record<string, string | undefined> = {};
+  Array.from(ids).forEach((id) => (out[id] = cardHref(id)));
+  return out;
+}
+export const TREE_PAGES = [
+  { id: "triage-tree", title: "White Triage Tree", where: "W4 → W6", sub: "Style, Blind Spot or Tactic, then the move" },
+  { id: "ask-tree", title: "Brown Ask Tree", where: "Br1", sub: "Weigh D, P and R, then wrap the ask" },
+];

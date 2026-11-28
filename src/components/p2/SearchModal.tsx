@@ -150,7 +150,7 @@ export default function SearchModal({ onClose, quiet }: { onClose: () => void; q
                     <button key={d.id} type="button" className="row-link w-full text-left" onClick={() => go(d.h)}>
                       <span className="xdot big" data-c={d.c} aria-hidden="true" />
                       <span className="min-w-0 flex-1">
-                        <span className="block text-xs font-bold uppercase tracking-wide muted truncate">{DOOR[d.d]} · {d.d === "presence" ? "" : d.w}{d.a ? `${d.d === "presence" ? "" : " · "}${d.a}` : ""}</span>
+                        <span className="block text-xs font-bold uppercase tracking-wide muted truncate">{[DOOR[d.d], d.d === "presence" ? "" : d.w, d.a].filter(Boolean).join(" · ")}</span>
                         <span className="block text-sm font-semibold leading-snug">{d.t}</span>
                         <span className="block text-xs muted leading-snug mt-0.5">{snippet(d.x, terms)}</span>
                       </span>

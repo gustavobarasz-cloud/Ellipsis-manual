@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { TRACKS, getTrack } from "@/lib/content";
 import ModuleList from "@/components/reader/ModuleList";
 import { moduleShort } from "@/lib/nav";
+import ActiveFocus from "@/components/p2/ActiveFocus";
 
 export const dynamicParams = false;
 
@@ -38,6 +39,7 @@ export default function TrackPage({ params }: { params: { track: string } }) {
       <p className="kicker">Door {t.door}</p>
       <h1 className="display text-[28px] sm:text-[36px] mt-1">{t.title}</h1>
       <p className="muted mt-1 mb-5">{t.subtitle}</p>
+      <ActiveFocus />
       <ModuleList trackId={t.id} groups={groups} quiet={t.id === "presence"} />
     </div>
   );

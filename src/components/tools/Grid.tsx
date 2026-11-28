@@ -6,7 +6,11 @@ import type { GridMap } from "./types";
 
 const MARKS = [["home", "Home"], ["fallback", "Fallback"], ["edge", "Edge"]] as const;
 
-export default function Grid({ belt, grid }: { belt: string; grid: GridMap[string] }) {
+const tier = (n: number) => (n >= 4 ? 3 : n >= 2 ? 2 : n >= 1 ? 1 : 0);
+const norm = (s: string) => s.replace(/\s*\[Edge\]\s*$/, "").trim();
+
+/** heat: Quick Debrief counts per stage over the last 30 days (Journal's Heatmap toggle); absent means no shading. */
+export default function Grid({ belt, grid, heat }: { belt: string; grid: GridMap[string]; heat?: Record<string, number> }) {
   const m = useMaster();
   const marks = m.app.grid[belt] || {};
   const set = (stage: string, v: string) =>
@@ -22,9 +26,12 @@ export default function Grid({ belt, grid }: { belt: string; grid: GridMap[strin
       <p className="help">Mark where you live most days (Home), where you drop under stress (Fallback) and the stage you are growing into (Edge).</p>
       <div className="grid gap-2">
         {grid.stages.map((st) => (
-          <div key={st.n} className="stage-row">
+          <div key={st.n} className="stage-row" data-heat={heat ? tier(heat[norm(st.n)] || 0) || undefined : undefined}>
             <details>
-              <summary className="cursor-pointer font-bold" style={{ minHeight: 32 }}>{st.n}</summary>
+              <summary className="cursor-pointer font-bold" style={{ minHeight: 32 }}>
+                {st.n}
+                {heat && (heat[norm(st.n)] || 0) > 0 && <span className="heat-n"> · {heat[norm(st.n)]} in 30 days</span>}
+              </summary>
               <div className="grid gap-1 mt-2 text-[15px]">
                 {st.t && <p className="muted">{st.t}</p>}
                 {(["sig", "gift", "shadow", "tell", "move"] as const).map((k) =>

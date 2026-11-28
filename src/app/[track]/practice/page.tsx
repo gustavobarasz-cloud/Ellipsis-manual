@@ -5,6 +5,7 @@ import { markerIndex, practiceIndex } from "@/lib/routes";
 import DemoGuard from "@/components/journal/DemoGuard";
 import { PitCodexView } from "@/components/pit/PitOpsViews";
 import MarkerList from "@/components/tools/MarkerList";
+import { TREE_PAGES } from "@/lib/phase2";
 
 export const dynamicParams = false;
 
@@ -50,6 +51,21 @@ export default function PracticePage({ params }: { params: { track: string } }) 
         <div className="grid gap-2 mt-3 lg:grid-cols-2">
           <Link href={`/${t.id}/practice/loop`} className="row-link"><span className="flex-1"><span className="block font-semibold">The Living Loop</span><span className="block text-sm muted">Prepare, read, respond, debrief</span></span><span className="muted">›</span></Link>
           <Link href={`/${t.id}/practice/kit`} className="row-link"><span className="flex-1"><span className="block font-semibold">The Kit</span><span className="block text-sm muted">All your tools in one place</span></span><span className="muted">›</span></Link>
+        </div>
+      </section>
+      <section className="jgroup">
+        <h2>Decision trees</h2>
+        <div className="grid gap-2 mt-3 lg:grid-cols-2">
+          {TREE_PAGES.map((x) => (
+            <Link key={x.id} href={`/${t.id}/practice/${x.id}`} className="row-link">
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-bold uppercase tracking-wide muted">{x.where} · Tree</span>
+                <span className="block font-semibold leading-snug">{x.title}</span>
+                <span className="block text-sm muted">{x.sub}</span>
+              </span>
+              <span className="muted">›</span>
+            </Link>
+          ))}
         </div>
       </section>
       {BELTS.map((b) => {

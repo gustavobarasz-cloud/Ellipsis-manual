@@ -1,10 +1,13 @@
 "use client";
 import Link from "next/link";
+import { useMemo, useState } from "react";
 import type { JournalMap } from "@/lib/types";
 import { useMaster, useReady, useSettings } from "@/lib/store";
 import type { GridMap } from "@/components/tools/types";
 import Grid from "@/components/tools/Grid";
 import { filledCount } from "./filled";
+import DebriefPanel from "@/components/p2/DebriefPanel";
+import type { DebriefData } from "@/components/p2/types";
 import { GOLDEN_THREAD, labelOf } from "./thread";
 export { GOLDEN_THREAD, labelOf };
 
@@ -15,11 +18,24 @@ const GROUPS: { id: string; title: string; sub: string; ids: string[] }[] = [
   { id: "sanctuary", title: "Sanctuary Journal", sub: "The 3-line I-Thou journal and the S1.3 Relational Immunity Map.", ids: ["sanctuary.journal", "sanctuary.rim"] },
 ];
 
-export default function JournalHub({ trackId, journal, grids, only }: { trackId: string; journal: JournalMap; grids: GridMap; only?: "sanctuary" }) {
+export default function JournalHub({ trackId, journal, grids, only, data }: { trackId: string; journal: JournalMap; grids: GridMap; only?: "sanctuary"; data: DebriefData }) {
   const m = useMaster();
   const ready = useReady();
   const { demo } = useSettings();
   const quiet = trackId === "presence";
+  const [heatOn, setHeatOn] = useState(false);
+  const debriefs = m.p2?.debriefs;
+  // Quick Debriefs from the last 30 days, counted by the belt they were logged against and the stage you dropped to.
+  const heat = useMemo(() => {
+    const since = Date.now() - 30 * 86_400_000;
+    const out: Record<string, Record<string, number>> = {};
+    for (const d of debriefs || []) {
+      if (!d.belt || !d.stage || Date.parse(d.at) < since) continue;
+      const st = d.stage.replace(/\s*\[Edge\]\s*$/, "").trim();
+      out[d.belt] = { ...(out[d.belt] || {}), [st]: ((out[d.belt] || {})[st] || 0) + 1 };
+    }
+    return out;
+  }, [debriefs]);
   const groups = only ? GROUPS.filter((g) => g.id === only) : GROUPS;
   const grouped = new Set(GROUPS.flatMap((g) => g.ids));
   const rest = only ? [] : Object.values(journal).filter((s) => !grouped.has(s.id));
@@ -45,6 +61,8 @@ export default function JournalHub({ trackId, journal, grids, only }: { trackId:
         {demo ? "Demo Mode is on: every entry is hidden and nothing you type is kept." : "Everything here saves in this browser. Back it up with Export JSON in the ⋯ menu."}
       </p>
 
+      <DebriefPanel data={data} trackId={trackId} />
+
       {!only && (
         <section className="jgroup" aria-label="Golden Thread">
           <h2>Golden Thread</h2>
@@ -59,13 +77,18 @@ export default function JournalHub({ trackId, journal, grids, only }: { trackId:
 
       {!only && (
         <section className="jgroup" aria-label="Master Grid">
-          <h2>Master Grid</h2>
-          <p className="text-sm muted mb-3">Home, Fallback and Edge for each belt&apos;s column.</p>
+          <div className="flex items-center gap-2">
+            <h2 className="flex-1">Master Grid</h2>
+            <button type="button" className="chip" aria-pressed={heatOn} onClick={() => setHeatOn(!heatOn)}>Heatmap (30d)</button>
+          </div>
+          <p className="text-sm muted mb-3">
+            {heatOn ? "Warmer rows are the stages your Quick Debriefs logged most in the last 30 days, by the belt you counted them toward." : "Home, Fallback and Edge for each belt\u2019s column."}
+          </p>
           <div className="grid gap-3 lg:grid-cols-2">
             {Object.entries(grids).map(([belt, g]) => (
               <details key={belt} className="surface p-3">
                 <summary className="cursor-pointer font-bold" style={{ minHeight: 36 }}>{labelOf(belt)} · {g.column}</summary>
-                <div className="mt-3"><Grid belt={belt} grid={g} /></div>
+                <div className="mt-3"><Grid belt={belt} grid={g} heat={heatOn ? heat[belt] || {} : undefined} /></div>
               </details>
             ))}
           </div>
