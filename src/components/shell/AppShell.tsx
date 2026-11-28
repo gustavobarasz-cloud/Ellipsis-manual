@@ -81,7 +81,7 @@ export default function AppShell({ nav, pockets, children }: { nav: NavTrack[]; 
               const last = i === info.crumbs.length - 1;
               return (
                 <span key={c.href + i} style={{ display: "contents" }}>
-                  {i > 0 && <span className="sep">›</span>}
+                  {i > 0 && <span className={i === 1 ? "sep hidden sm:inline" : "sep"}>›</span>}
                   {last ? (
                     <span className="here" aria-current="page">{c.label}</span>
                   ) : (
